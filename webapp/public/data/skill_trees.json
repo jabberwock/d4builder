@@ -1,0 +1,996 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "season": "Season 12 - Season of Slaughter",
+    "generated_from": "28 validated build JSON files",
+    "tier_names_source": "Official D4 skill tree structure (d4_stats_data.json)",
+    "description": "Interactive skill tree data for all 28 featured builds. Each build's skills are organized by official D4 tier, with leveling order for progressive unlock simulation."
+  },
+  "builds": [
+    {
+      "id": "barbarian_crimson_fury",
+      "build_name": "Crimson Fury",
+      "class": "Barbarian",
+      "available": "live",
+      "key_passive": "Walking Arsenal",
+      "tiers": {
+        "basic": [
+          { "name": "Frenzy", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Combat"] }
+        ],
+        "core": [
+          { "name": "Hammer of the Ancients", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Furious"] },
+          { "name": "Pressure Point", "final_rank": 3, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Challenging Shout", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Tactical"] },
+          { "name": "Ground Stomp", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "brawling": [
+          { "name": "War Cry", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced", "Power"] },
+          { "name": "Booming Voice", "final_rank": 3, "leveling_order": 7, "upgrades": [] },
+          { "name": "Guttural Yell", "final_rank": 3, "leveling_order": 8, "upgrades": [] }
+        ],
+        "weapon_mastery": [
+          { "name": "Iron Maelstrom", "final_rank": 1, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Pit Fighter", "final_rank": 3, "leveling_order": 10, "upgrades": [] },
+          { "name": "Slaying Strike", "final_rank": 3, "leveling_order": 11, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Call of the Ancients", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] },
+          { "name": "Tempered Fury", "final_rank": 3, "leveling_order": 13, "upgrades": [] },
+          { "name": "Heavy Handed", "final_rank": 3, "leveling_order": 14, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "barbarian_berserker_tempo",
+      "build_name": "Berserker's Tempo",
+      "class": "Barbarian",
+      "available": "live",
+      "key_passive": "Walking Arsenal",
+      "tiers": {
+        "basic": [
+          { "name": "Frenzy", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Combat"] }
+        ],
+        "core": [
+          { "name": "Double Swing", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Furious"] },
+          { "name": "Pressure Point", "final_rank": 3, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Rallying Cry", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Tactical"] },
+          { "name": "Iron Skin", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "brawling": [
+          { "name": "War Cry", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced", "Power"] },
+          { "name": "Booming Voice", "final_rank": 3, "leveling_order": 7, "upgrades": [] },
+          { "name": "Aggressive Resistance", "final_rank": 3, "leveling_order": 8, "upgrades": [] }
+        ],
+        "weapon_mastery": [
+          { "name": "Steel Grasp", "final_rank": 1, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Pit Fighter", "final_rank": 3, "leveling_order": 10, "upgrades": [] },
+          { "name": "No Mercy", "final_rank": 3, "leveling_order": 11, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Wrath of the Berserker", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] },
+          { "name": "Tempered Fury", "final_rank": 3, "leveling_order": 13, "upgrades": [] },
+          { "name": "Furious Impulse", "final_rank": 3, "leveling_order": 14, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "barbarian_slaughter_spin",
+      "build_name": "Slaughter Spin",
+      "class": "Barbarian",
+      "available": "live",
+      "key_passive": "Unconstrained",
+      "tiers": {
+        "basic": [
+          { "name": "Lunging Strike", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Battle"] }
+        ],
+        "core": [
+          { "name": "Whirlwind", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Furious"] },
+          { "name": "Pressure Point", "final_rank": 3, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Rallying Cry", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Tactical"] },
+          { "name": "Iron Skin", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "brawling": [
+          { "name": "War Cry", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced", "Power"] },
+          { "name": "Booming Voice", "final_rank": 3, "leveling_order": 7, "upgrades": [] },
+          { "name": "Aggressive Resistance", "final_rank": 3, "leveling_order": 8, "upgrades": [] }
+        ],
+        "weapon_mastery": [
+          { "name": "Steel Grasp", "final_rank": 1, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Pit Fighter", "final_rank": 3, "leveling_order": 10, "upgrades": [] },
+          { "name": "Thick Skin", "final_rank": 1, "leveling_order": 11, "upgrades": [] },
+          { "name": "No Mercy", "final_rank": 1, "leveling_order": 12, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Wrath of the Berserker", "final_rank": 1, "leveling_order": 13, "upgrades": ["Enhanced"] },
+          { "name": "Tempered Fury", "final_rank": 3, "leveling_order": 14, "upgrades": [] },
+          { "name": "Invigorating Fury", "final_rank": 3, "leveling_order": 15, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "barbarian_upheaval_overpower",
+      "build_name": "Upheaval Overpower",
+      "class": "Barbarian",
+      "available": "live",
+      "key_passive": "Unconstrained",
+      "tiers": {
+        "basic": [
+          { "name": "Frenzy", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Battle Frenzy"] }
+        ],
+        "core": [
+          { "name": "Upheaval", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Furious"] },
+          { "name": "Rend", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced", "Furious"] }
+        ],
+        "defensive": [
+          { "name": "Leap", "final_rank": 1, "leveling_order": 3, "upgrades": ["Enhanced", "Power"] },
+          { "name": "Iron Skin", "final_rank": 1, "leveling_order": 4, "upgrades": ["Enhanced"] },
+          { "name": "Imposing Presence", "final_rank": 3, "leveling_order": 6, "upgrades": [] },
+          { "name": "Martial Vigor", "final_rank": 1, "leveling_order": 7, "upgrades": [] }
+        ],
+        "brawling": [
+          { "name": "War Cry", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Rallying Cry", "final_rank": 1, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Booming Voice", "final_rank": 3, "leveling_order": 10, "upgrades": [] },
+          { "name": "Raid Leader", "final_rank": 1, "leveling_order": 11, "upgrades": [] }
+        ],
+        "weapon_mastery": [
+          { "name": "Aggressive Resistance", "final_rank": 3, "leveling_order": 13, "upgrades": [] },
+          { "name": "Pit Fighter", "final_rank": 3, "leveling_order": 14, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Wrath of the Berserker", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] }
+        ]
+      }
+    },
+    {
+      "id": "druid_cataclysm_storm",
+      "build_name": "Cataclysm Storm",
+      "class": "Druid",
+      "available": "live",
+      "key_passive": "Perfect Storm",
+      "tiers": {
+        "basic": [
+          { "name": "Wind Shear", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Lightning Storm", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Heart of the Wild", "final_rank": 3, "leveling_order": 4, "upgrades": [] },
+          { "name": "Abundance", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Cyclone Armor", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Innate"] },
+          { "name": "Earthen Bulwark", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "wrath": [
+          { "name": "Hurricane", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced", "Raging"] },
+          { "name": "Elemental Exposure", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Endless Tempest", "final_rank": 3, "leveling_order": 9, "upgrades": [] }
+        ],
+        "companion": [
+          { "name": "Ravens", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced", "Ferocious"] },
+          { "name": "Clarity", "final_rank": 3, "leveling_order": 11, "upgrades": [] },
+          { "name": "Ferocity", "final_rank": 2, "leveling_order": 12, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Cataclysm", "final_rank": 1, "leveling_order": 13, "upgrades": ["Enhanced", "Prime"] },
+          { "name": "Defiance", "final_rank": 3, "leveling_order": 14, "upgrades": [] },
+          { "name": "Natural Disaster", "final_rank": 3, "leveling_order": 15, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "druid_hurricane_werebear",
+      "build_name": "Hurricane Werebear",
+      "class": "Druid",
+      "available": "live",
+      "key_passive": "Bestial Rampage",
+      "tiers": {
+        "basic": [
+          { "name": "Maul", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Wild"] }
+        ],
+        "core": [
+          { "name": "Pulverize", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Primal"] }
+        ],
+        "defensive": [
+          { "name": "Cyclone Armor", "final_rank": 5, "leveling_order": 4, "upgrades": ["Enhanced", "Innate"] }
+        ],
+        "wrath": [
+          { "name": "Hurricane", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Raging"] }
+        ],
+        "companion": [
+          { "name": "Ravens", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced", "Ferocious"] },
+          { "name": "Wolves", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced", "Savage"] },
+          { "name": "Wolves Passive — Heightened Senses", "final_rank": 3, "leveling_order": 7, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Grizzly Rage", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced", "Prime"] },
+          { "name": "Natural Disaster", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Survival Instincts", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "druid_seismic_fortress",
+      "build_name": "Seismic Fortress",
+      "class": "Druid",
+      "available": "live",
+      "key_passive": "Ursine Strength",
+      "tiers": {
+        "basic": [
+          { "name": "Maul", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Landslide", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Heart of the Wild", "final_rank": 1, "leveling_order": 4, "upgrades": [] },
+          { "name": "Wild Impulses", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Earthen Bulwark", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Innate"] },
+          { "name": "Debilitating Roar", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "wrath": [
+          { "name": "Boulder", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Crushing Earth", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Safeguard", "final_rank": 3, "leveling_order": 9, "upgrades": [] }
+        ],
+        "companion": [
+          { "name": "Wolves", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced"] },
+          { "name": "Nature's Reach", "final_rank": 3, "leveling_order": 11, "upgrades": [] },
+          { "name": "Ferocity", "final_rank": 2, "leveling_order": 12, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Petrify", "final_rank": 1, "leveling_order": 13, "upgrades": ["Enhanced"] },
+          { "name": "Defiance", "final_rank": 3, "leveling_order": 14, "upgrades": [] },
+          { "name": "Natural Disaster", "final_rank": 3, "leveling_order": 15, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "druid_thunderwolf",
+      "build_name": "Thunderwolf",
+      "class": "Druid",
+      "available": "live",
+      "key_passive": "Lupine Ferocity",
+      "tiers": {
+        "basic": [
+          { "name": "Storm Strike", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Shred", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Wild"] },
+          { "name": "Heart of the Wild", "final_rank": 1, "leveling_order": 4, "upgrades": [] },
+          { "name": "Predatory Instinct", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Cyclone Armor", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Innate"] },
+          { "name": "Blood Howl", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "wrath": [
+          { "name": "Lightning Storm", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Elemental Exposure", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Charged Atmosphere", "final_rank": 3, "leveling_order": 9, "upgrades": [] }
+        ],
+        "companion": [
+          { "name": "Wolves", "final_rank": 5, "leveling_order": 10, "upgrades": ["Enhanced", "Savage"] },
+          { "name": "Nature's Reach", "final_rank": 3, "leveling_order": 11, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Lacerate", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] },
+          { "name": "Defiance", "final_rank": 3, "leveling_order": 13, "upgrades": [] },
+          { "name": "Natural Disaster", "final_rank": 3, "leveling_order": 14, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "necromancer_blood_lance_shadow",
+      "build_name": "Blood Lance Shadow Cascade",
+      "class": "Necromancer",
+      "available": "live",
+      "key_passive": "Shadowblight",
+      "tiers": {
+        "basic": [
+          { "name": "Hemorrhage", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Acolyte"] }
+        ],
+        "core": [
+          { "name": "Blood Lance", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Paranormal"] },
+          { "name": "Unliving Energy", "final_rank": 3, "leveling_order": 4, "upgrades": [] },
+          { "name": "Imperfect Resonance", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Decrepify", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced", "Abhorrent"] },
+          { "name": "Gruesome Mending", "final_rank": 2, "leveling_order": 7, "upgrades": [] },
+          { "name": "Transfusion", "final_rank": 2, "leveling_order": 8, "upgrades": [] }
+        ],
+        "curse": [
+          { "name": "Iron Maiden", "final_rank": 5, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Death's Reach", "final_rank": 1, "leveling_order": 10, "upgrades": [] }
+        ],
+        "corpse_macabre": [
+          { "name": "Blood Mist", "final_rank": 1, "leveling_order": 3, "upgrades": ["Enhanced", "Ghastly"] }
+        ],
+        "summon": [
+          { "name": "Skeletons", "final_rank": 5, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Golem", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] }
+        ],
+        "ultimate": [
+          { "name": "Army of the Dead", "final_rank": 1, "leveling_order": 13, "upgrades": ["Enhanced"] },
+          { "name": "Stand Alone", "final_rank": 3, "leveling_order": 14, "upgrades": [] },
+          { "name": "Memento Mori", "final_rank": 3, "leveling_order": 15, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "necromancer_blood_surge_engine",
+      "build_name": "Blood Surge Minion Engine",
+      "class": "Necromancer",
+      "available": "live",
+      "key_passive": "Kalan's Edict",
+      "tiers": {
+        "basic": [
+          { "name": "Hemorrhage", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Blood Surge", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Paranormal"] },
+          { "name": "Unliving Energy", "final_rank": 3, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Blood Mist", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "corpse_macabre": [
+          { "name": "Corpse Tendrils", "final_rank": 1, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Hewed Flesh", "final_rank": 3, "leveling_order": 5, "upgrades": [] },
+          { "name": "Fueled by Death", "final_rank": 1, "leveling_order": 7, "upgrades": [] }
+        ],
+        "curse": [
+          { "name": "Decrepify", "final_rank": 5, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Amplify Damage", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Death's Reach", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "summon": [
+          { "name": "Golem Mastery", "final_rank": 3, "leveling_order": 11, "upgrades": [] },
+          { "name": "Inspiring Leader", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Hellbent Commander", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Army of the Dead", "final_rank": 1, "leveling_order": 14, "upgrades": ["Enhanced"] }
+        ]
+      }
+    },
+    {
+      "id": "necromancer_bone_spear_overpower",
+      "build_name": "Bone Spear Overpower",
+      "class": "Necromancer",
+      "available": "live",
+      "key_passive": "Ossified Essence",
+      "tiers": {
+        "basic": [
+          { "name": "Bone Splinters", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Bone Spear", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Supernatural"] },
+          { "name": "Unliving Energy", "final_rank": 3, "leveling_order": 4, "upgrades": [] },
+          { "name": "Imperfectly Balanced", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Bone Prison", "final_rank": 1, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Stand Alone", "final_rank": 3, "leveling_order": 12, "upgrades": [] }
+        ],
+        "corpse_macabre": [
+          { "name": "Serration", "final_rank": 3, "leveling_order": 6, "upgrades": [] },
+          { "name": "Compound Fracture", "final_rank": 3, "leveling_order": 7, "upgrades": [] }
+        ],
+        "curse": [
+          { "name": "Decrepify", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Amplify Damage", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Death's Embrace", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "summon": [
+          { "name": "Memento Mori", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Bone Storm", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced"] }
+        ]
+      }
+    },
+    {
+      "id": "necromancer_corpse_cascade",
+      "build_name": "Corpse Cascade",
+      "class": "Necromancer",
+      "available": "live",
+      "key_passive": "Shadowblight",
+      "tiers": {
+        "basic": [
+          { "name": "Decompose", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Blight", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Paranormal"] },
+          { "name": "Unliving Energy", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "corpse_macabre": [
+          { "name": "Corpse Explosion", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Blighted"] },
+          { "name": "Corpse Tendrils", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] },
+          { "name": "Hewed Flesh", "final_rank": 3, "leveling_order": 6, "upgrades": [] },
+          { "name": "Grim Harvest", "final_rank": 3, "leveling_order": 7, "upgrades": [] }
+        ],
+        "curse": [
+          { "name": "Decrepify", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Amplify Damage", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Death's Embrace", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Stand Alone", "final_rank": 3, "leveling_order": 12, "upgrades": [] }
+        ],
+        "summon": [
+          { "name": "Memento Mori", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Army of the Dead", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced"] }
+        ]
+      }
+    },
+    {
+      "id": "paladin_arbiter_ascendant",
+      "build_name": "Arbiter Ascendant",
+      "class": "Paladin",
+      "available": "ptr",
+      "key_passive": "Ascendant Light",
+      "oath": "Disciple",
+      "tiers": {
+        "basic": [
+          { "name": "Advance", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Blessed Shield", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Divine Lance", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "aura": [
+          { "name": "Fanaticism", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Holy Light", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] },
+          { "name": "Defiance", "final_rank": 3, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Rally", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] }
+        ],
+        "valor": [
+          { "name": "Falling Star", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "justice": [
+          { "name": "Consecration", "final_rank": 5, "leveling_order": 9, "upgrades": ["Enhanced", "Sacred"] },
+          { "name": "Spear of the Heavens", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced"] }
+        ],
+        "ultimate": [
+          { "name": "Arbiter of Justice", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced", "Prime"] }
+        ]
+      }
+    },
+    {
+      "id": "paladin_consecration_holy_shield",
+      "build_name": "Consecration Holy Shield",
+      "class": "Paladin",
+      "available": "ptr",
+      "key_passive": "Light Affinity",
+      "tiers": {
+        "basic": [
+          { "name": "Smite", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Pious"] }
+        ],
+        "core": [
+          { "name": "Consecration", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Sacred"] },
+          { "name": "Holy Light", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced", "Devout"] }
+        ],
+        "aura": [
+          { "name": "Fanaticism", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Fervent"] },
+          { "name": "Defiance", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Holy Shield", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced", "Gleaming"] }
+        ],
+        "valor": [
+          { "name": "Phalanx", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced", "Shining"] }
+        ],
+        "justice": [
+          { "name": "Conviction", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Judgment", "final_rank": 1, "leveling_order": 9, "upgrades": ["Enhanced", "Condemning"] },
+          { "name": "Might of the Faithful", "final_rank": 2, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Divine Wrath", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced", "Prime", "Supreme"] },
+          { "name": "Holy Fervor", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Blessed Life", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "paladin_heavens_wrath",
+      "build_name": "Heaven's Wrath",
+      "class": "Paladin",
+      "available": "ptr",
+      "key_passive": "Wrath of the Righteous",
+      "oath": "Judicator",
+      "tiers": {
+        "basic": [
+          { "name": "Holy Bolt", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Blessed Hammer", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Pressure Point", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "aura": [
+          { "name": "Fanaticism", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Fervent"] },
+          { "name": "Holy Light", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Aegis", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "valor": [
+          { "name": "Falling Star", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "justice": [
+          { "name": "Condemn", "final_rank": 5, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Consecration", "final_rank": 3, "leveling_order": 9, "upgrades": ["Enhanced"] }
+        ],
+        "ultimate": [
+          { "name": "Heaven's Fury", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced", "Prime", "Supreme"] }
+        ]
+      }
+    },
+    {
+      "id": "paladin_zealots_echo",
+      "build_name": "Zealot's Echo",
+      "class": "Paladin",
+      "available": "ptr",
+      "key_passive": "Fervor Undying",
+      "oath": "Zealot",
+      "tiers": {
+        "basic": [
+          { "name": "Brandish", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Zeal", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Pressure Point", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "aura": [
+          { "name": "Fanaticism", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Fervent"] },
+          { "name": "Holy Light", "final_rank": 5, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Rally", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "valor": [
+          { "name": "Shield Charge", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "justice": [
+          { "name": "Purify", "final_rank": 3, "leveling_order": 8, "upgrades": ["Enhanced"] },
+          { "name": "Consecration", "final_rank": 3, "leveling_order": 9, "upgrades": ["Enhanced", "Sacred"] }
+        ],
+        "ultimate": [
+          { "name": "Zenith", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced", "Prime"] }
+        ]
+      }
+    },
+    {
+      "id": "rogue_twisting_blades_frenzy",
+      "build_name": "Twisting Blades Endless Frenzy",
+      "class": "Rogue",
+      "available": "live",
+      "key_passive": "Momentum",
+      "specialization": "Inner Sight",
+      "tiers": {
+        "basic": [
+          { "name": "Puncture", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Fundamental"] }
+        ],
+        "core": [
+          { "name": "Twisting Blades", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Advanced"] },
+          { "name": "Sturdy", "final_rank": 3, "leveling_order": 4, "upgrades": [] },
+          { "name": "Siphoning Strikes", "final_rank": 3, "leveling_order": 5, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Dark Shroud", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Subverting"] },
+          { "name": "Subverting Dark Shroud", "final_rank": 1, "leveling_order": 6, "upgrades": [] }
+        ],
+        "subterfuge": [
+          { "name": "Shadow Step", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced", "Disciplined"] },
+          { "name": "Concealment", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] }
+        ],
+        "weapon_mastery": [
+          { "name": "Shadow Imbuement", "final_rank": 5, "leveling_order": 9, "upgrades": ["Enhanced", "Mixed"] },
+          { "name": "Deadly Venom", "final_rank": 1, "leveling_order": 10, "upgrades": [] },
+          { "name": "Weapon Mastery", "final_rank": 3, "leveling_order": 11, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Death from Above", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced"] },
+          { "name": "Adrenaline Rush", "final_rank": 1, "leveling_order": 13, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "rogue_phantom_rain",
+      "build_name": "Phantom Rain",
+      "class": "Rogue",
+      "available": "live",
+      "key_passive": "Momentum",
+      "specialization": "Preparation",
+      "tiers": {
+        "basic": [
+          { "name": "Puncture", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Fundamental"] }
+        ],
+        "core": [
+          { "name": "Twisting Blades", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Advanced"] },
+          { "name": "Sturdy", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Dark Shroud", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Evasion", "final_rank": 1, "leveling_order": 5, "upgrades": [] }
+        ],
+        "subterfuge": [
+          { "name": "Shadow Step", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] },
+          { "name": "Concealment", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "weapon_mastery": [
+          { "name": "Weapon Mastery", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Unstable Elixirs", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Shadow Imbuement", "final_rank": 5, "leveling_order": 10, "upgrades": ["Enhanced"] },
+          { "name": "Poison Imbuement", "final_rank": 5, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Cold Imbuement", "final_rank": 5, "leveling_order": 12, "upgrades": ["Enhanced"] },
+          { "name": "Deadly Venom", "final_rank": 3, "leveling_order": 13, "upgrades": [] },
+          { "name": "Frigid Finesse", "final_rank": 3, "leveling_order": 14, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Rain of Arrows", "final_rank": 1, "leveling_order": 15, "upgrades": ["Enhanced", "Prime", "Supreme"] },
+          { "name": "Aftermath", "final_rank": 3, "leveling_order": 16, "upgrades": [] },
+          { "name": "Adrenaline Rush", "final_rank": 1, "leveling_order": 17, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "rogue_endless_traps",
+      "build_name": "Endless Traps",
+      "class": "Rogue",
+      "available": "live",
+      "key_passive": "Victimize",
+      "specialization": "Inner Sight",
+      "tiers": {
+        "basic": [
+          { "name": "Invigorating Strike", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Flurry", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Stutter Step", "final_rank": 3, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Smoke Grenade", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Poison Trap", "final_rank": 5, "leveling_order": 5, "upgrades": ["Enhanced"] },
+          { "name": "Exploit", "final_rank": 3, "leveling_order": 6, "upgrades": [] }
+        ],
+        "subterfuge": [
+          { "name": "Dash", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Trick Attacks", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Agile", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Unstable Elixirs", "final_rank": 1, "leveling_order": 10, "upgrades": [] }
+        ],
+        "weapon_mastery": [
+          { "name": "Poison Imbuement", "final_rank": 5, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Deadly Venom", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Alchemical Advantage", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Death Trap", "final_rank": 1, "leveling_order": 14, "upgrades": ["Enhanced"] },
+          { "name": "Innervation", "final_rank": 3, "leveling_order": 15, "upgrades": [] },
+          { "name": "Trap Mastery", "final_rank": 3, "leveling_order": 16, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "rogue_shadow_clone_army",
+      "build_name": "Shadow Clone Army",
+      "class": "Rogue",
+      "available": "live",
+      "key_passive": "Close Quarters Combat",
+      "specialization": "Combo Points",
+      "tiers": {
+        "basic": [
+          { "name": "Blade Shift", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Rapid Fire", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Barrage", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Dark Shroud", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Subverting Dark Shroud", "final_rank": 1, "leveling_order": 5, "upgrades": [] }
+        ],
+        "subterfuge": [
+          { "name": "Shadow Step", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] },
+          { "name": "Concealment", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "weapon_mastery": [
+          { "name": "Weapon Mastery", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Unstable Elixirs", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Shadow Imbuement", "final_rank": 5, "leveling_order": 10, "upgrades": ["Enhanced"] },
+          { "name": "Shadow Crash", "final_rank": 3, "leveling_order": 11, "upgrades": [] },
+          { "name": "Consuming Shadows", "final_rank": 3, "leveling_order": 12, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Shadow Clone", "final_rank": 1, "leveling_order": 13, "upgrades": ["Enhanced"] },
+          { "name": "Innervation", "final_rank": 3, "leveling_order": 14, "upgrades": [] },
+          { "name": "Second Wind", "final_rank": 3, "leveling_order": 15, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "sorcerer_fireball_burn_chain",
+      "build_name": "Fireball Burn Chain",
+      "class": "Sorcerer",
+      "available": "live",
+      "key_passive": "Combustion",
+      "enchantment_slots": ["Fire Bolt", "Hydra"],
+      "tiers": {
+        "basic": [
+          { "name": "Fire Bolt", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced", "Glinting"] }
+        ],
+        "core": [
+          { "name": "Fireball", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Destructive"] },
+          { "name": "Incinerate", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Flame Shield", "final_rank": 1, "leveling_order": 3, "upgrades": ["Enhanced", "Shimmering"] },
+          { "name": "Teleport", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced", "Shimmering"] },
+          { "name": "Ice Armor", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced", "Shimmering"] },
+          { "name": "Align the Elements", "final_rank": 3, "leveling_order": 7, "upgrades": [] }
+        ],
+        "conjuration": [
+          { "name": "Hydra", "final_rank": 5, "leveling_order": 8, "upgrades": ["Enhanced", "Invoked"] },
+          { "name": "Conjuration Mastery", "final_rank": 1, "leveling_order": 9, "upgrades": [] }
+        ],
+        "mastery": [
+          { "name": "Coursing Currents", "final_rank": 3, "leveling_order": 11, "upgrades": [] },
+          { "name": "Align the Elements", "final_rank": 3, "leveling_order": 12, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Inferno", "final_rank": 1, "leveling_order": 10, "upgrades": ["Enhanced", "Prime", "Supreme"] }
+        ]
+      }
+    },
+    {
+      "id": "sorcerer_meteor_storm_engine",
+      "build_name": "Meteor Storm Engine",
+      "class": "Sorcerer",
+      "available": "live",
+      "key_passive": "Combustion",
+      "enchantment_slots": ["Frozen Orb", "Chain Lightning"],
+      "tiers": {
+        "basic": [
+          { "name": "Fire Bolt", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Meteor", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Devastation", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Teleport", "final_rank": 3, "leveling_order": 3, "upgrades": ["Enhanced", "Shimmering"] },
+          { "name": "Flame Shield", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] },
+          { "name": "Ice Armor", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "conjuration": [
+          { "name": "Hydra", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Lightning Spear", "final_rank": 1, "leveling_order": 8, "upgrades": ["Enhanced"] }
+        ],
+        "mastery": [
+          { "name": "Firewall", "final_rank": 3, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Inner Flames", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Inferno", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced", "Prime"] }
+        ]
+      }
+    },
+    {
+      "id": "sorcerer_permafrost_shatter",
+      "build_name": "Permafrost Shatter",
+      "class": "Sorcerer",
+      "available": "live",
+      "key_passive": "Avalanche",
+      "enchantment_slots": ["Frozen Orb", "Ice Shards"],
+      "tiers": {
+        "basic": [
+          { "name": "Frost Bolt", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Ice Shards", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Frozen Orb", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Frost Nova", "final_rank": 5, "leveling_order": 4, "upgrades": ["Enhanced", "Mystical"] },
+          { "name": "Ice Armor", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced", "Mystical"] },
+          { "name": "Flame Shield", "final_rank": 1, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "conjuration": [
+          { "name": "Ice Blades", "final_rank": 3, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Frigid Breeze", "final_rank": 2, "leveling_order": 8, "upgrades": [] },
+          { "name": "Icy Touch", "final_rank": 1, "leveling_order": 9, "upgrades": [] }
+        ],
+        "mastery": [
+          { "name": "Blizzard", "final_rank": 5, "leveling_order": 10, "upgrades": ["Enhanced"] },
+          { "name": "Snap Freeze", "final_rank": 1, "leveling_order": 11, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Deep Freeze", "final_rank": 1, "leveling_order": 12, "upgrades": ["Enhanced", "Prime", "Supreme"] }
+        ]
+      }
+    },
+    {
+      "id": "sorcerer_voltaic_blitz",
+      "build_name": "Voltaic Blitz",
+      "class": "Sorcerer",
+      "available": "live",
+      "key_passive": "Vyr's Mastery",
+      "enchantment_slots": ["Arc Lash", "Ball Lightning"],
+      "tiers": {
+        "basic": [
+          { "name": "Arc Lash", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Chain Lightning", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Devastation", "final_rank": 1, "leveling_order": 4, "upgrades": [] }
+        ],
+        "defensive": [
+          { "name": "Teleport", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced", "Shimmering"] },
+          { "name": "Flame Shield", "final_rank": 1, "leveling_order": 5, "upgrades": ["Enhanced"] },
+          { "name": "Ice Armor", "final_rank": 3, "leveling_order": 6, "upgrades": ["Enhanced"] }
+        ],
+        "conjuration": [
+          { "name": "Lightning Spear", "final_rank": 5, "leveling_order": 7, "upgrades": ["Enhanced"] },
+          { "name": "Conjuration Mastery", "final_rank": 1, "leveling_order": 8, "upgrades": [] }
+        ],
+        "mastery": [
+          { "name": "Ball Lightning", "final_rank": 5, "leveling_order": 9, "upgrades": ["Enhanced"] },
+          { "name": "Static Discharge", "final_rank": 1, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Unstable Currents", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced", "Prime", "Supreme"] }
+        ]
+      }
+    },
+    {
+      "id": "spiritborn_centipede_plague",
+      "build_name": "Centipede Plague",
+      "class": "Spiritborn",
+      "available": "live",
+      "key_passive": "Withering Fist",
+      "spirit_hall": { "primary": "Centipede", "secondary": "Eagle" },
+      "tiers": {
+        "basic": [
+          { "name": "Thrash", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Rake", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Stinger", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "focus": [
+          { "name": "Scourge", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Viper Strike", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Counterattack", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] },
+          { "name": "Armored Hide", "final_rank": 3, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "potency": [
+          { "name": "Potent", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Toxicity", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Nourishment", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "The Devourer", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Apex", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Unrelenting", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "spiritborn_eagle_soar",
+      "build_name": "Eagle Soar",
+      "class": "Spiritborn",
+      "available": "live",
+      "key_passive": "Harmonious",
+      "spirit_hall": { "primary": "Eagle", "secondary": "Jaguar" },
+      "tiers": {
+        "basic": [
+          { "name": "Thunderspike", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Rake", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Flourish", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "focus": [
+          { "name": "Soar", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Armored Hide", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Counterattack", "final_rank": 3, "leveling_order": 6, "upgrades": ["Enhanced"] },
+          { "name": "Ravager", "final_rank": 3, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "potency": [
+          { "name": "Potent", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Acceleration", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Adaptive", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "The Seeker", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Apex", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Unrelenting", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "spiritborn_gorilla_stampede_crusher",
+      "build_name": "Gorilla Stampede Crusher",
+      "class": "Spiritborn",
+      "available": "live",
+      "key_passive": "Indomitable",
+      "spirit_hall": { "primary": "Gorilla", "secondary": "Centipede" },
+      "tiers": {
+        "basic": [
+          { "name": "Crushing Hand", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Rake", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced"] },
+          { "name": "Payback", "final_rank": 5, "leveling_order": 3, "upgrades": ["Enhanced"] }
+        ],
+        "focus": [
+          { "name": "Crushing Advance", "final_rank": 3, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Armored Hide", "final_rank": 3, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "potency": [
+          { "name": "Resolute", "final_rank": 3, "leveling_order": 6, "upgrades": [] },
+          { "name": "Endurance", "final_rank": 3, "leveling_order": 7, "upgrades": [] },
+          { "name": "Ironclad", "final_rank": 3, "leveling_order": 8, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "Stampede", "final_rank": 5, "leveling_order": 9, "upgrades": ["Enhanced", "Prime", "Supreme"] },
+          { "name": "Indomitable", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ]
+      }
+    },
+    {
+      "id": "spiritborn_jaguar_inferno",
+      "build_name": "Jaguar Inferno",
+      "class": "Spiritborn",
+      "available": "live",
+      "key_passive": "Visceral",
+      "spirit_hall": { "primary": "Jaguar", "secondary": "Gorilla" },
+      "tiers": {
+        "basic": [
+          { "name": "Thunderspike", "final_rank": 6, "leveling_order": 1, "upgrades": ["Enhanced"] }
+        ],
+        "core": [
+          { "name": "Rake", "final_rank": 5, "leveling_order": 2, "upgrades": ["Enhanced", "Ferocious"] },
+          { "name": "Flourish", "final_rank": 1, "leveling_order": 4, "upgrades": ["Enhanced"] }
+        ],
+        "focus": [
+          { "name": "Armored Hide", "final_rank": 3, "leveling_order": 3, "upgrades": ["Enhanced"] },
+          { "name": "Scourge", "final_rank": 5, "leveling_order": 5, "upgrades": ["Enhanced"] }
+        ],
+        "defensive": [
+          { "name": "Counterattack", "final_rank": 5, "leveling_order": 6, "upgrades": ["Enhanced"] },
+          { "name": "Soar", "final_rank": 1, "leveling_order": 7, "upgrades": ["Enhanced"] }
+        ],
+        "potency": [
+          { "name": "Potent", "final_rank": 3, "leveling_order": 8, "upgrades": [] },
+          { "name": "Adaptive", "final_rank": 3, "leveling_order": 9, "upgrades": [] },
+          { "name": "Acceleration", "final_rank": 3, "leveling_order": 10, "upgrades": [] }
+        ],
+        "ultimate": [
+          { "name": "The Hunter", "final_rank": 1, "leveling_order": 11, "upgrades": ["Enhanced"] },
+          { "name": "Apex", "final_rank": 3, "leveling_order": 12, "upgrades": [] },
+          { "name": "Unrelenting", "final_rank": 3, "leveling_order": 13, "upgrades": [] }
+        ]
+      }
+    }
+  ]
+}

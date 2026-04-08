@@ -1,0 +1,44 @@
+{
+  "source": "fextralife.com",
+  "timestamp": "2026-04-05",
+  "classes": {
+    "downloaded": [],
+    "failed": [
+      "rogue",
+      "barbarian",
+      "druid",
+      "necromancer",
+      "sorcerer",
+      "spiritborn"
+    ]
+  },
+  "skills": {
+    "rogue": {
+      "downloaded": [],
+      "failed": [
+        "twisting_blades",
+        "puncture",
+        "blade_shift",
+        "rapid_fire",
+        "shadow_step",
+        "dark_shroud",
+        "concealment",
+        "weapon_mastery",
+        "shadow_imbuement",
+        "poison_imbuement",
+        "cold_imbuement",
+        "rain_of_arrows"
+      ]
+    },
+    "barbarian": {
+      "downloaded": [],
+      "failed": [
+        "frenzy",
+        "whirlwind",
+        "upheaval",
+        "leap",
+        "war_cry"
+      ]
+    }
+  }
+}

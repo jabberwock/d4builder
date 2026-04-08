@@ -1,0 +1,132 @@
+/* ─── Design tokens ─────────────────────────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg:          #070508;
+  --bg-raised:   #0d0a10;
+  --bg-card:     #110e15;
+  --bg-deep:     #0a0810;
+  --bg-inset:    #080609;
+
+  /* Borders */
+  --border:      #231828;
+  --border-mid:  #342040;
+  --border-gold: #5a4420;
+
+  /* Hellfire crimson */
+  --crimson:        #b81818;
+  --crimson-bright: #e02828;
+  --crimson-glow:   rgba(184, 24, 24, 0.35);
+  --crimson-subtle: rgba(184, 24, 24, 0.10);
+
+  /* Ancient gold */
+  --gold:        #c9a44d;
+  --gold-bright: #e8c870;
+  --gold-dim:    #7a6430;
+  --gold-glow:   rgba(201, 164, 77, 0.30);
+  --gold-subtle: rgba(201, 164, 77, 0.08);
+
+  /* Text */
+  --text-muted:   #6a6070;
+  --text-body:    #a09898;
+  --text-heading: #ccc4bc;
+  --text-bright:  #ece6df;
+
+  /* Tier palette — D4 item quality inspired */
+  --tier-s: #e8c870;
+  --tier-a: #d47820;
+  --tier-b: #c8a820;
+  --tier-c: #5078c8;
+
+  --tier-s-glow: rgba(232, 200, 112, 0.25);
+  --tier-a-glow: rgba(212, 120, 32, 0.25);
+  --tier-b-glow: rgba(200, 168, 32, 0.20);
+  --tier-c-glow: rgba(80, 120, 200, 0.20);
+
+  /* Class accent colors */
+  --class-barbarian:  #c02020;
+  --class-druid:      #508020;
+  --class-necromancer:#9060b0;
+  --class-paladin:    #c09030;
+  --class-rogue:      #7050a8;
+  --class-sorcerer:   #2080c8;
+  --class-spiritborn: #20a080;
+
+  /* Typography */
+  --font-display: 'Cinzel Decorative', 'Palatino Linotype', serif;
+  --font-heading: 'Cinzel', 'Palatino Linotype', serif;
+  --font-body:    'EB Garamond', Georgia, serif;
+  --font-ui:      'Roboto Condensed', 'Arial Narrow', sans-serif;
+
+  /* Spacing */
+  --page-max: 1240px;
+  --page-pad: 32px;
+
+  color-scheme: dark;
+}
+
+/* ─── Reset ─────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text-body);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button { cursor: pointer; }
+img { display: block; }
+
+/* ─── Keyframe animations ────────────────────────────────────────────────── */
+@keyframes ember-rise {
+  0%   { opacity: 0; transform: translateY(0)     translateX(0)   scale(1);   }
+  15%  { opacity: 0.9; }
+  80%  { opacity: 0.3; }
+  100% { opacity: 0; transform: translateY(-70px) translateX(var(--drift)) scale(0.4); }
+}
+
+@keyframes title-glow {
+  0%, 100% { text-shadow: 0 0 20px rgba(201,164,77,0.5), 0 0 60px rgba(184,24,24,0.2); }
+  50%       { text-shadow: 0 0 30px rgba(201,164,77,0.8), 0 0 80px rgba(184,24,24,0.4); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in {
+  from { opacity: 0; transform: translateX(-16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes divider-expand {
+  from { transform: scaleX(0); opacity: 0; }
+  to   { transform: scaleX(1); opacity: 1; }
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border-mid); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold-dim); }

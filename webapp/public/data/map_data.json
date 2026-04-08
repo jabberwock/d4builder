@@ -1,0 +1,5115 @@
+{
+  "aspects": {
+    "Aspect of Burning Rage": {
+      "name": "Aspect of Burning Rage",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Devilish Aspect": {
+      "name": "Devilish Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Limitless Rage": {
+      "name": "Aspect of Limitless Rage",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Berserk Ripping": {
+      "name": "Aspect of Berserk Ripping",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Mournfield",
+      "region": "Dry Steppes",
+      "x": -954.4340209960938,
+      "y": -669.0989990234375
+    },
+    "Earthquake Aspect": {
+      "name": "Earthquake Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Skullbreaker's Aspect": {
+      "name": "Skullbreaker's Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Ancestral Echoes": {
+      "name": "Aspect of Ancestral Echoes",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Ancient Reservoir",
+      "region": "Hawezar",
+      "x": -1230.9000244140625,
+      "y": 885.4000244140625
+    },
+    "Brawler's Aspect": {
+      "name": "Brawler's Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Haunted Refuge",
+      "region": "Hawezar",
+      "x": -1071.56005859375,
+      "y": 915.7639770507812
+    },
+    "Dust Devil's Aspect": {
+      "name": "Dust Devil's Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Encroaching Wrath": {
+      "name": "Aspect of Encroaching Wrath",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Death Wish Aspect": {
+      "name": "Death Wish Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Penitent Cairns",
+      "region": "Scosglen",
+      "x": -1982.1400146484375,
+      "y": -797.60498046875
+    },
+    "Aspect of the Dire Whirlwind": {
+      "name": "Aspect of the Dire Whirlwind",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Garan Hold",
+      "region": "Scosglen",
+      "x": -2069.1201171875,
+      "y": -411.72198486328125
+    },
+    "Windlasher Aspect": {
+      "name": "Windlasher Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Ancestral Force": {
+      "name": "Aspect of Ancestral Force",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Sunken Ruins",
+      "region": "Scosglen",
+      "x": -2055.02001953125,
+      "y": -1033.510009765625
+    },
+    "Earthstriker's Aspect": {
+      "name": "Earthstriker's Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Maugan's Works",
+      "region": "Hawezar",
+      "x": -568.9429931640625,
+      "y": 723.427978515625
+    },
+    "Weapon Master's Aspect": {
+      "name": "Weapon Master's Aspect",
+      "class": "Barbarian",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Relentless Berserker's Aspect": {
+      "name": "Relentless Berserker's Aspect",
+      "class": "Barbarian",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Hakan's Refuge",
+      "region": "Kehjistan",
+      "x": 538.9420166015625,
+      "y": -349.7720031738281
+    },
+    "Aspect of Grasping Whirlwind": {
+      "name": "Aspect of Grasping Whirlwind",
+      "class": "Barbarian",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of Anemia": {
+      "name": "Aspect of Anemia",
+      "class": "Barbarian",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Kor Dragan Barracks",
+      "region": "Fractured Peaks",
+      "x": -1669.3299560546875,
+      "y": -126.33499908447266,
+      "stronghold_required": "Kor Dragan"
+    },
+    "Luckbringer Aspect": {
+      "name": "Luckbringer Aspect",
+      "class": "Barbarian",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Iron Blood Aspect": {
+      "name": "Iron Blood Aspect",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Forgotten Ruins",
+      "region": "Kehjistan",
+      "x": 350.8489990234375,
+      "y": -695.6190185546875
+    },
+    "Aspect of the Iron Warrior": {
+      "name": "Aspect of the Iron Warrior",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Carrion Fields",
+      "region": "Dry Steppes",
+      "x": -441.4859924316406,
+      "y": -1100.1099853515625
+    },
+    "Aspect of Numbing Wrath": {
+      "name": "Aspect of Numbing Wrath",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Heathen's Keep",
+      "region": "Hawezar",
+      "x": -992.81298828125,
+      "y": 355.34698486328125
+    },
+    "Aspect of Bul-Kathos": {
+      "name": "Aspect of Bul-Kathos",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Light's Refuge",
+      "region": "Hawezar",
+      "x": -891.1290283203125,
+      "y": 250.78900146484375
+    },
+    "Steadfast Berserker's Aspect": {
+      "name": "Steadfast Berserker's Aspect",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Tempering Blows": {
+      "name": "Aspect of Tempering Blows",
+      "class": "Barbarian",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Defiled Catacomb",
+      "region": "Fractured Peaks",
+      "x": -1032.0400390625,
+      "y": 198.1300048828125
+    },
+    "Battle-Mad Aspect": {
+      "name": "Battle-Mad Aspect",
+      "class": "Barbarian",
+      "category": "Weapon",
+      "source": "world_drop"
+    },
+    "Aspect of Echoing Fury": {
+      "name": "Aspect of Echoing Fury",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Sirocco Caverns",
+      "region": "Kehjistan",
+      "x": -338.5270080566406,
+      "y": -316.0459899902344
+    },
+    "Aspect of Giant Strides": {
+      "name": "Aspect of Giant Strides",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of Unrelenting Fury": {
+      "name": "Aspect of Unrelenting Fury",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Hallowed Ossuary",
+      "region": "Fractured Peaks",
+      "x": -1588.8699951171875,
+      "y": 363.4159851074219
+    },
+    "Aspect of the Relentless Armsmaster": {
+      "name": "Aspect of the Relentless Armsmaster",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Calibel's Mine",
+      "region": "Scosglen",
+      "x": -1922.550048828125,
+      "y": -1121.6500244140625
+    },
+    "Aspect of Berserk Fury": {
+      "name": "Aspect of Berserk Fury",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Bold Chieftain's Aspect": {
+      "name": "Bold Chieftain's Aspect",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Slaking Aspect": {
+      "name": "Slaking Aspect",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Maulwood",
+      "region": "Fractured Peaks",
+      "x": -1235.3299560546875,
+      "y": 353.0270080566406
+    },
+    "Bear Clan Berserker's Aspect": {
+      "name": "Bear Clan Berserker's Aspect",
+      "class": "Barbarian",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of Perpetual Stomping": {
+      "name": "Aspect of Perpetual Stomping",
+      "class": "Barbarian",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Charnel House",
+      "region": "Dry Steppes",
+      "x": -439.95098876953125,
+      "y": -502.1260070800781
+    },
+    "Lightning Dancer's Aspect": {
+      "name": "Lightning Dancer's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Dire Wolf's Aspect": {
+      "name": "Dire Wolf's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Stampede": {
+      "name": "Aspect of the Stampede",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Metamorphic Stone": {
+      "name": "Aspect of Metamorphic Stone",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Blurred Beast": {
+      "name": "Aspect of the Blurred Beast",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Tempest": {
+      "name": "Aspect of the Tempest",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Blind Burrows",
+      "region": "Hawezar",
+      "x": -430.0459899902344,
+      "y": 647.197998046875
+    },
+    "Crashstone Aspect": {
+      "name": "Crashstone Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Stockades",
+      "region": "Scosglen",
+      "x": -1735.1500244140625,
+      "y": -709.5869750976562
+    },
+    "Overcharged Aspect": {
+      "name": "Overcharged Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Mariner's Refuge",
+      "region": "Scosglen",
+      "x": -2238.800048828125,
+      "y": -478.3110046386719
+    },
+    "Aspect of Natural Balance": {
+      "name": "Aspect of Natural Balance",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Seismic-shift Aspect": {
+      "name": "Seismic-shift Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Trampled Earth": {
+      "name": "Aspect of the Trampled Earth",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Stormclaw's Aspect": {
+      "name": "Stormclaw's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Anica's Claim",
+      "region": "Fractured Peaks",
+      "x": -1663.8900146484375,
+      "y": 364.5369873046875
+    },
+    "Aspect of The Aftershock": {
+      "name": "Aspect of The Aftershock",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Ursine Horror": {
+      "name": "Aspect of the Ursine Horror",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Belfry Zakara",
+      "region": "Hawezar",
+      "x": -1091.239990234375,
+      "y": 1214.27001953125
+    },
+    "Aspect of Retaliation": {
+      "name": "Aspect of Retaliation",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Seaside Descent",
+      "region": "Dry Steppes",
+      "x": -778.1929931640625,
+      "y": -1102.800048828125
+    },
+    "Shockwave Aspect": {
+      "name": "Shockwave Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Alpha": {
+      "name": "Aspect of the Alpha",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Nighthowler's Aspect": {
+      "name": "Nighthowler's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Forbidden City",
+      "region": "Fractured Peaks",
+      "x": -1516.469970703125,
+      "y": -183.9969940185547,
+      "stronghold_required": "Malnok"
+    },
+    "Aspect of Nature's Savagery": {
+      "name": "Aspect of Nature's Savagery",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Shepherd's Aspect": {
+      "name": "Shepherd's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Bloodsoaked Crag",
+      "region": "Dry Steppes",
+      "x": -656.0469970703125,
+      "y": -538.4860229492188
+    },
+    "Aspect of the Rampaging Werebeast": {
+      "name": "Aspect of the Rampaging Werebeast",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Endless Gates",
+      "region": "Hawezar",
+      "x": -418.2380065917969,
+      "y": 274.75299072265625
+    },
+    "Aspect of the Wildrage": {
+      "name": "Aspect of the Wildrage",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Stormchaser's Aspect": {
+      "name": "Stormchaser's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Runeworker's Conduit Aspect": {
+      "name": "Runeworker's Conduit Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Mighty Storm's Aspect": {
+      "name": "Mighty Storm's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Unsatiated": {
+      "name": "Aspect of the Unsatiated",
+      "class": "Druid",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Tormented Ruins",
+      "region": "Fractured Peaks",
+      "x": -1067.06005859375,
+      "y": 84.50509643554688
+    },
+    "Mangled Aspect": {
+      "name": "Mangled Aspect",
+      "class": "Druid",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Immortal Emanation",
+      "region": "Fractured Peaks",
+      "x": -1517.75,
+      "y": 338.0,
+      "stronghold_required": "Nostrava"
+    },
+    "Aspect of the Calm Breeze": {
+      "name": "Aspect of the Calm Breeze",
+      "class": "Druid",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Grinning Labyrinth",
+      "region": "Dry Steppes",
+      "x": -954.7069702148438,
+      "y": -553.3469848632812
+    },
+    "Aspect of the Changeling's Debt": {
+      "name": "Aspect of the Changeling's Debt",
+      "class": "Druid",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Conclave",
+      "region": "Kehjistan",
+      "x": 357.1579895019531,
+      "y": -345.4519958496094
+    },
+    "Balanced Aspect": {
+      "name": "Balanced Aspect",
+      "class": "Druid",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of Quicksand": {
+      "name": "Aspect of Quicksand",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Ferals' Den",
+      "region": "Scosglen",
+      "x": -2300.239990234375,
+      "y": -367.9939880371094
+    },
+    "Aspect of the Dark Howl": {
+      "name": "Aspect of the Dark Howl",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Ballistic Aspect": {
+      "name": "Ballistic Aspect",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Whispering Pines",
+      "region": "Scosglen",
+      "x": -2186.5400390625,
+      "y": 96.01750183105469
+    },
+    "Stormshifter's Aspect": {
+      "name": "Stormshifter's Aspect",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Crusaders' Cathedral",
+      "region": "Kehjistan",
+      "x": 124.01200103759766,
+      "y": -413.35400390625
+    },
+    "Symbiotic Aspect": {
+      "name": "Symbiotic Aspect",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of Mending Stone": {
+      "name": "Aspect of Mending Stone",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Sealed Archives",
+      "region": "Dry Steppes",
+      "x": -525.7689819335938,
+      "y": -487.0459899902344
+    },
+    "Skinwalker's Aspect": {
+      "name": "Skinwalker's Aspect",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Fading Echo",
+      "region": "Kehjistan",
+      "x": -723.8980102539062,
+      "y": 50.09320068359375
+    },
+    "Aspect of Cyclonic Force": {
+      "name": "Aspect of Cyclonic Force",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Collapsed Vault",
+      "region": "Kehjistan",
+      "x": -83.09210205078125,
+      "y": -444.2049865722656
+    },
+    "Vigorous Aspect": {
+      "name": "Vigorous Aspect",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Steadfast Barracks",
+      "region": "Hawezar",
+      "x": -746.5440063476562,
+      "y": 621.8690185546875
+    },
+    "Earthguard Aspect": {
+      "name": "Earthguard Aspect",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Accelerating Aspect": {
+      "name": "Accelerating Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Inner Calm": {
+      "name": "Aspect of Inner Calm",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Raethwind Wilds",
+      "region": "Scosglen",
+      "x": -1830.5999755859375,
+      "y": -679.8690185546875
+    },
+    "Conceited Aspect": {
+      "name": "Conceited Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Retribution": {
+      "name": "Aspect of Retribution",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Abandoned Mineworks",
+      "region": "Kehjistan",
+      "x": 12.668999671936035,
+      "y": -7.412829875946045
+    },
+    "Rapid Aspect": {
+      "name": "Rapid Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Buried Halls",
+      "region": "Dry Steppes",
+      "x": -816.0,
+      "y": -338.0
+    },
+    "Edgemaster's Aspect": {
+      "name": "Edgemaster's Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Oldstones",
+      "region": "Scosglen",
+      "x": -1886.93994140625,
+      "y": -292.4119873046875
+    },
+    "Aspect of the Expectant": {
+      "name": "Aspect of the Expectant",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Underroot",
+      "region": "Scosglen",
+      "x": -1411.1400146484375,
+      "y": -1064.0
+    },
+    "Needleflare Aspect": {
+      "name": "Needleflare Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Yshari Sanctum",
+      "region": "Kehjistan",
+      "x": 92.60919952392578,
+      "y": -508.739990234375
+    },
+    "Smiting Aspect": {
+      "name": "Smiting Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Exploiter's Aspect": {
+      "name": "Exploiter's Aspect",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of Shared Misery": {
+      "name": "Aspect of Shared Misery",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Oblivion",
+      "region": "Hawezar",
+      "x": -1180.8900146484375,
+      "y": 484.3340148925781
+    },
+    "Eluding Aspect": {
+      "name": "Eluding Aspect",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Caldera Gate",
+      "region": "Fractured Peaks",
+      "x": -1285.6400146484375,
+      "y": -301.9320068359375
+    },
+    "Starlight Aspect": {
+      "name": "Starlight Aspect",
+      "class": "Generic",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of the Umbral": {
+      "name": "Aspect of the Umbral",
+      "class": "Generic",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Champion's Demise",
+      "region": "Dry Steppes",
+      "x": -530.280029296875,
+      "y": -321.9779968261719
+    },
+    "Assimilation Aspect": {
+      "name": "Assimilation Aspect",
+      "class": "Generic",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of Might": {
+      "name": "Aspect of Might",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Dark Ravine",
+      "region": "Dry Steppes",
+      "x": -1038.6700439453125,
+      "y": -912.2369995117188
+    },
+    "Aspect of the Protector": {
+      "name": "Aspect of the Protector",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Lost Archives",
+      "region": "Fractured Peaks",
+      "x": -918.89501953125,
+      "y": 119.97899627685547
+    },
+    "Protecting Aspect": {
+      "name": "Protecting Aspect",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Disobedience": {
+      "name": "Aspect of Disobedience",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Halls of the Damned",
+      "region": "Kehjistan",
+      "x": -450.7929992675781,
+      "y": 108.66799926757812
+    },
+    "Aspect of the Crowded Sage": {
+      "name": "Aspect of the Crowded Sage",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Wind Striker Aspect": {
+      "name": "Wind Striker Aspect",
+      "class": "Generic",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Shivta Ruins",
+      "region": "Kehjistan",
+      "x": -136.53900146484375,
+      "y": -640.6279907226562
+    },
+    "Ghostwalker Aspect": {
+      "name": "Ghostwalker Aspect",
+      "class": "Generic",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Broken Bulwark",
+      "region": "Scosglen",
+      "x": -1360.550048828125,
+      "y": -513.6129760742188
+    },
+    "Aspect of Ultimate Shadow": {
+      "name": "Aspect of Ultimate Shadow",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Frenzied Dead": {
+      "name": "Aspect of Frenzied Dead",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Splintering Aspect": {
+      "name": "Splintering Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Guulrahn Slums",
+      "region": "Dry Steppes",
+      "x": -932.4039916992188,
+      "y": -396.875
+    },
+    "Aspect of Plunging Darkness": {
+      "name": "Aspect of Plunging Darkness",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Rimescar Cavern",
+      "region": "Fractured Peaks",
+      "x": -1712.0,
+      "y": 401.0010070800781
+    },
+    "Rotting Aspect": {
+      "name": "Rotting Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Empowering Reaper": {
+      "name": "Aspect of Empowering Reaper",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Flooded Depths",
+      "region": "Scosglen",
+      "x": -2094.25,
+      "y": -1317.0
+    },
+    "Blood Seeker's Aspect": {
+      "name": "Blood Seeker's Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Mercy's Reach",
+      "region": "Fractured Peaks",
+      "x": -1511.3800048828125,
+      "y": -349.8500061035156
+    },
+    "Aspect of Hungry Blood": {
+      "name": "Aspect of Hungry Blood",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Blood-soaked Aspect": {
+      "name": "Blood-soaked Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Swelling Curse": {
+      "name": "Aspect of Swelling Curse",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Hive",
+      "region": "Scosglen",
+      "x": -1898.4300537109375,
+      "y": -44.920799255371094
+    },
+    "Aspect of Bursting Bones": {
+      "name": "Aspect of Bursting Bones",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Path of the Blind",
+      "region": "Dry Steppes",
+      "x": -1220.5999755859375,
+      "y": -747.1160278320312
+    },
+    "Unyielding Commander's Aspect": {
+      "name": "Unyielding Commander's Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Faceless Shrine",
+      "region": "Hawezar",
+      "x": -733.864990234375,
+      "y": 1212.4599609375
+    },
+    "Aspect of Grasping Veins": {
+      "name": "Aspect of Grasping Veins",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Corrupted Grotto",
+      "region": "Kehjistan",
+      "x": 488.0780029296875,
+      "y": -538.1240234375
+    },
+    "Aspect of Serration": {
+      "name": "Aspect of Serration",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Osseous Gale Aspect": {
+      "name": "Osseous Gale Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Blighted Aspect": {
+      "name": "Blighted Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Akkhan's Grasp",
+      "region": "Hawezar",
+      "x": -742.2969970703125,
+      "y": 597.1950073242188
+    },
+    "Aspect of the Damned": {
+      "name": "Aspect of the Damned",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Uldur's Cave",
+      "region": "Kehjistan",
+      "x": 386.5660095214844,
+      "y": -628.968017578125
+    },
+    "Aspect of Decay": {
+      "name": "Aspect of Decay",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Blood-bathed Aspect": {
+      "name": "Blood-bathed Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Hoarfrost Demise",
+      "region": "Fractured Peaks",
+      "x": -1856.489990234375,
+      "y": 278.1839904785156
+    },
+    "Tidal Aspect": {
+      "name": "Tidal Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Rathma's Chosen": {
+      "name": "Aspect of Rathma's Chosen",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Untimely Death": {
+      "name": "Aspect of Untimely Death",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Sacrificial Aspect": {
+      "name": "Sacrificial Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Ruins of Eridu",
+      "region": "Hawezar",
+      "x": -391.0,
+      "y": 790.3740234375
+    },
+    "Aspect of Reanimation": {
+      "name": "Aspect of Reanimation",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Aldurwood",
+      "region": "Scosglen",
+      "x": -2077.340087890625,
+      "y": -340.91900634765625
+    },
+    "Cadaverous Aspect": {
+      "name": "Cadaverous Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Flesh-Rending Aspect": {
+      "name": "Flesh-Rending Aspect",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Nostrava Deepwood",
+      "region": "Fractured Peaks",
+      "x": -1240.3199462890625,
+      "y": -166.16600036621094
+    },
+    "Aspect of Torment": {
+      "name": "Aspect of Torment",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Black Asylum",
+      "region": "Fractured Peaks",
+      "x": -1621.75,
+      "y": 194.01499938964844
+    },
+    "Aspect of Exposed Flesh": {
+      "name": "Aspect of Exposed Flesh",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Fastblood Aspect": {
+      "name": "Fastblood Aspect",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Iron Hold",
+      "region": "Hawezar",
+      "x": -794.9459838867188,
+      "y": 619.4299926757812
+    },
+    "Aspect of Potent Blood": {
+      "name": "Aspect of Potent Blood",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Betrayer's Row",
+      "region": "Dry Steppes",
+      "x": -923.9290161132812,
+      "y": -70.4677963256836
+    },
+    "Hulking Aspect": {
+      "name": "Hulking Aspect",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Sepulcher of The Forsworn",
+      "region": "Kehjistan",
+      "x": -103.91699981689453,
+      "y": -761.4249877929688
+    },
+    "Requiem Aspect": {
+      "name": "Requiem Aspect",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Vault of The Forsaken",
+      "region": "Scosglen",
+      "x": -2151.719970703125,
+      "y": -775.2340087890625
+    },
+    "Aspect of Explosive Mist": {
+      "name": "Aspect of Explosive Mist",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of the Void": {
+      "name": "Aspect of the Void",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Coldbringer's Aspect": {
+      "name": "Coldbringer's Aspect",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Blood Getter's Aspect": {
+      "name": "Blood Getter's Aspect",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Torturous Aspect": {
+      "name": "Torturous Aspect",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Deserted Underpass",
+      "region": "Kehjistan",
+      "x": 321.3819885253906,
+      "y": -234.93099975585938
+    },
+    "Aspect of Shielding Storm": {
+      "name": "Aspect of Shielding Storm",
+      "class": "Necromancer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Hardened Bones": {
+      "name": "Aspect of Hardened Bones",
+      "class": "Necromancer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Embalmer": {
+      "name": "Aspect of the Embalmer",
+      "class": "Necromancer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Repeating Aspect": {
+      "name": "Repeating Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Imitated Imbuement": {
+      "name": "Aspect of Imitated Imbuement",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Trickshot Aspect": {
+      "name": "Trickshot Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Bastion of Faith",
+      "region": "Hawezar",
+      "x": -472.3399963378906,
+      "y": 225.88900756835938
+    },
+    "Aspect of Encircling Blades": {
+      "name": "Aspect of Encircling Blades",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Forsaken Quarry",
+      "region": "Fractured Peaks",
+      "x": -1572.510009765625,
+      "y": 64.36409759521484
+    },
+    "Aspect of Volatile Shadows": {
+      "name": "Aspect of Volatile Shadows",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Ancient's Lament",
+      "region": "Dry Steppes",
+      "x": -759.2310180664062,
+      "y": -403.677001953125
+    },
+    "Aspect of Surprise": {
+      "name": "Aspect of Surprise",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Trickster's Aspect": {
+      "name": "Trickster's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Guulrahn Canals",
+      "region": "Dry Steppes",
+      "x": -880.3410034179688,
+      "y": -413.3340148925781
+    },
+    "Aspect of Unstable Imbuements": {
+      "name": "Aspect of Unstable Imbuements",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Whispering Vault",
+      "region": "Dry Steppes",
+      "x": -1117.43994140625,
+      "y": -222.85899353027344
+    },
+    "Bladedancer's Aspect": {
+      "name": "Bladedancer's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Jalal's Vigil",
+      "region": "Scosglen",
+      "x": -2365.81005859375,
+      "y": -197.927001953125
+    },
+    "Toxic Alchemist's Aspect": {
+      "name": "Toxic Alchemist's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Icy Alchemist's Aspect": {
+      "name": "Icy Alchemist's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Shadowslicer Aspect": {
+      "name": "Shadowslicer Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Twisted Hollow",
+      "region": "Scosglen",
+      "x": -2239.280029296875,
+      "y": -384.79400634765625
+    },
+    "Aspect of Arrow Storms": {
+      "name": "Aspect of Arrow Storms",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Howling Warren",
+      "region": "Scosglen",
+      "x": -1675.239990234375,
+      "y": -950.10400390625
+    },
+    "Aspect of Bursting Venoms": {
+      "name": "Aspect of Bursting Venoms",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Branching Volleys": {
+      "name": "Aspect of Branching Volleys",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Shadowed Plunge",
+      "region": "Hawezar",
+      "x": -579.4119873046875,
+      "y": 886.2379760742188
+    },
+    "Blast-Trapper's Aspect": {
+      "name": "Blast-Trapper's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Kor Valar Ramparts",
+      "region": "Fractured Peaks",
+      "x": -2010.56005859375,
+      "y": 351.1520080566406
+    },
+    "Vengeful Aspect": {
+      "name": "Vengeful Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Inferno",
+      "region": "Kehjistan",
+      "x": -263.35101318359375,
+      "y": -448.0539855957031
+    },
+    "Opportunist's Aspect": {
+      "name": "Opportunist's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Prison of Caldeum",
+      "region": "Kehjistan",
+      "x": 262.9159851074219,
+      "y": -391.6499938964844
+    },
+    "Aspect of Corruption": {
+      "name": "Aspect of Corruption",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Renegade's Retreat",
+      "region": "Kehjistan",
+      "x": 93.1760025024414,
+      "y": -262.6080017089844
+    },
+    "Aspect of Synergy": {
+      "name": "Aspect of Synergy",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Infiltrator's Aspect": {
+      "name": "Infiltrator's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Snap Frozen Aspect": {
+      "name": "Snap Frozen Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Enshrouding Aspect": {
+      "name": "Enshrouding Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Ghoa Ruins ",
+      "region": "Hawezar",
+      "x": -472.9580078125,
+      "y": 1116.3599853515625
+    },
+    "Aspect of Uncanny Treachery": {
+      "name": "Aspect of Uncanny Treachery",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Demon's Wake",
+      "region": "Scosglen",
+      "x": -1449.739990234375,
+      "y": -541.0830078125
+    },
+    "Aspect of Cruel Sustenance": {
+      "name": "Aspect of Cruel Sustenance",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Escape Artist's Aspect": {
+      "name": "Escape Artist's Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Stolen Vigor": {
+      "name": "Aspect of Stolen Vigor",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Cheat's Aspect": {
+      "name": "Cheat's Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Luban's Rest",
+      "region": "Scosglen",
+      "x": -1934.6400146484375,
+      "y": -489.9960021972656
+    },
+    "Aspect of Siphoned Victuals": {
+      "name": "Aspect of Siphoned Victuals",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Leviathan's Maw",
+      "region": "Hawezar",
+      "x": -380.24200439453125,
+      "y": 1016.219970703125
+    },
+    "Umbrous Aspect": {
+      "name": "Umbrous Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Lethal Dusk": {
+      "name": "Aspect of Lethal Dusk",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of Elusive Menace": {
+      "name": "Aspect of Elusive Menace",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Energizing Aspect": {
+      "name": "Energizing Aspect",
+      "class": "Rogue",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Sanguine Chapel",
+      "region": "Fractured Peaks",
+      "x": -1939.9200439453125,
+      "y": 603.6380004882812
+    },
+    "Ravenous Aspect": {
+      "name": "Ravenous Aspect",
+      "class": "Rogue",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Shifting City",
+      "region": "Dry Steppes",
+      "x": -765.5540161132812,
+      "y": -189.83799743652344
+    },
+    "Aspect of Explosive Verve": {
+      "name": "Aspect of Explosive Verve",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Derelict Lodge",
+      "region": "Fractured Peaks",
+      "x": -1197.949951171875,
+      "y": -105.51100158691406
+    },
+    "Aspect of Quickening Fog": {
+      "name": "Aspect of Quickening Fog",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Mangler's Aspect": {
+      "name": "Mangler's Aspect",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of Noxious Ice": {
+      "name": "Aspect of Noxious Ice",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Frostbitten Aspect": {
+      "name": "Frostbitten Aspect",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Ravager's Aspect": {
+      "name": "Ravager's Aspect",
+      "class": "Rogue",
+      "category": "Mobility",
+      "source": "world_drop"
+    },
+    "Aspect of Frozen Memories": {
+      "name": "Aspect of Frozen Memories",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Abundant Energy": {
+      "name": "Aspect of Abundant Energy",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Shattered Aspect": {
+      "name": "Shattered Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Three Curses": {
+      "name": "Aspect of Three Curses",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Serpent's Lair",
+      "region": "Hawezar",
+      "x": -776.56201171875,
+      "y": 824.7030029296875
+    },
+    "Aspect of Frozen Orbit": {
+      "name": "Aspect of Frozen Orbit",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Serpentine Aspect": {
+      "name": "Serpentine Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Armageddon": {
+      "name": "Aspect of Armageddon",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Conflagration": {
+      "name": "Aspect of Conflagration",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Light's Watch",
+      "region": "Fractured Peaks",
+      "x": -1252.9200439453125,
+      "y": 236.76499938964844
+    },
+    "Aspect of Ancient Flame": {
+      "name": "Aspect of Ancient Flame",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Engulfing Flames": {
+      "name": "Aspect of Engulfing Flames",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Glacial Aspect": {
+      "name": "Glacial Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Frozen Wake": {
+      "name": "Aspect of the Frozen Wake",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Piercing Cold": {
+      "name": "Aspect of Piercing Cold",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Dead Man's Dredge",
+      "region": "Fractured Peaks",
+      "x": -1515.050048828125,
+      "y": 657.6699829101562
+    },
+    "Aspect of Biting Cold": {
+      "name": "Aspect of Biting Cold",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Forgotten Depths",
+      "region": "Dry Steppes",
+      "x": -705.531005859375,
+      "y": -864.7839965820312
+    },
+    "Storm Swell Aspect": {
+      "name": "Storm Swell Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Onyx Hold",
+      "region": "Dry Steppes",
+      "x": -842.4210205078125,
+      "y": -744.6510009765625
+    },
+    "Aspect of the Frozen Tundra": {
+      "name": "Aspect of the Frozen Tundra",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of Overwhelming Currents": {
+      "name": "Aspect of Overwhelming Currents",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Gravitational Aspect": {
+      "name": "Gravitational Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Mage-Lord's Aspect": {
+      "name": "Mage-Lord's Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Unbroken Tether": {
+      "name": "Aspect of the Unbroken Tether",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Stable Aspect": {
+      "name": "Stable Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop"
+    },
+    "Elementalist's Aspect": {
+      "name": "Elementalist's Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Pallid Delve",
+      "region": "Dry Steppes",
+      "x": -742.89599609375,
+      "y": -96.56439971923828
+    },
+    "Aspect of Control": {
+      "name": "Aspect of Control",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "dungeon": "Sunken Library",
+      "region": "Kehjistan",
+      "x": 128.23599243164062,
+      "y": -596.7540283203125
+    },
+    "Aspect of Binding Embers": {
+      "name": "Aspect of Binding Embers",
+      "class": "Sorcerer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Aspect of Singed Extremities": {
+      "name": "Aspect of Singed Extremities",
+      "class": "Sorcerer",
+      "category": "Utility",
+      "source": "dungeon",
+      "dungeon": "Earthen Wound",
+      "region": "Hawezar",
+      "x": -96.37860107421875,
+      "y": 365.7850036621094
+    },
+    "Aspect of Fortune": {
+      "name": "Aspect of Fortune",
+      "class": "Sorcerer",
+      "category": "Utility",
+      "source": "world_drop"
+    },
+    "Snowguard's Aspect": {
+      "name": "Snowguard's Aspect",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Fetid Mausoleum",
+      "region": "Hawezar",
+      "x": -1249.68994140625,
+      "y": 610.6060180664062
+    },
+    "Frostblitz Aspect": {
+      "name": "Frostblitz Aspect",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Snowveiled Aspect": {
+      "name": "Snowveiled Aspect",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": "Sarat's Lair",
+      "region": "Scosglen",
+      "x": -1603.1500244140625,
+      "y": -375.0090026855469
+    },
+    "Encased Aspect": {
+      "name": "Encased Aspect",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Aspect of the Unwavering": {
+      "name": "Aspect of the Unwavering",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "dungeon",
+      "dungeon": " Putrid Aquifer",
+      "region": "Kehjistan",
+      "x": 262.843994140625,
+      "y": -510.6730041503906
+    },
+    "Everliving Aspect": {
+      "name": "Everliving Aspect",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "world_drop"
+    },
+    "Charged Aspect": {
+      "name": "Charged Aspect",
+      "class": "Sorcerer",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Maddux Watch",
+      "region": "Scosglen",
+      "x": -1783.4000244140625,
+      "y": -50.12580108642578
+    },
+    "Flamewalker's Aspect": {
+      "name": "Flamewalker's Aspect",
+      "class": "Sorcerer",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Cultist Refuge",
+      "region": "Fractured Peaks",
+      "x": -1156.8499755859375,
+      "y": 4.283349990844727
+    },
+    "Aspect of the Bounding Conduit": {
+      "name": "Aspect of the Bounding Conduit",
+      "class": "Sorcerer",
+      "category": "Mobility",
+      "source": "dungeon",
+      "dungeon": "Komdor Temple",
+      "region": "Dry Steppes",
+      "x": -147.57400512695312,
+      "y": -1067.7900390625
+    },
+    "Incendiary Aspect": {
+      "name": "Incendiary Aspect",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Tomb of the Saints",
+      "region": "Kehjistan",
+      "x": 19.334199905395508,
+      "y": -881.0809936523438
+    },
+    "Recharging Aspect": {
+      "name": "Recharging Aspect",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Zenith",
+      "region": "Fractured Peaks",
+      "x": -1956.8199462890625,
+      "y": 416.90899658203125
+    },
+    "Prodigy's Aspect": {
+      "name": "Prodigy's Aspect",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Witchwater",
+      "region": "Hawezar",
+      "x": -629.4030151367188,
+      "y": 904.4219970703125
+    },
+    "Aspect of Concentration": {
+      "name": "Aspect of Concentration",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "world_drop"
+    },
+    "Aspect of Efficiency": {
+      "name": "Aspect of Efficiency",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "dungeon",
+      "dungeon": "Domhainne Tunnels",
+      "region": "Scosglen",
+      "x": -1909.989990234375,
+      "y": -593.9000244140625
+    },
+    "Veteran Brawler's Aspect": {
+      "name": "Veteran Brawler's Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Kehjistan",
+      "dungeon": "Heretics Asylum",
+      "x": 623.8510131835938,
+      "y": -762.4530029296875
+    },
+    "Aspect of the Deflecting Barrier": {
+      "name": "Aspect of the Deflecting Barrier",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Hawezar",
+      "dungeon": "Lost Keep",
+      "x": -383.6080017089844,
+      "y": 196.11099243164062
+    },
+    "Aspect of Piercing Static": {
+      "name": "Aspect of Piercing Static",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Scosglen",
+      "dungeon": "Wretched Delve",
+      "x": -1514.1400146484375,
+      "y": -1127.7900390625
+    },
+    "Aspect of Splintering Energy": {
+      "name": "Aspect of Splintering Energy",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Kehjistan",
+      "dungeon": "Crumbling Hekma",
+      "x": 407.1629943847656,
+      "y": -172.41799926757812
+    },
+    "Aspect of Wild Claws": {
+      "name": "Aspect of Wild Claws",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Hierophant Pyre",
+      "x": 837.0009765625,
+      "y": 62.43259811401367
+    },
+    "Aspect of Falling Feathers": {
+      "name": "Aspect of Falling Feathers",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Vile Hive",
+      "x": 864.8880004882812,
+      "y": 734.0679931640625
+    },
+    "Reaper's Aspect": {
+      "name": "Reaper's Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Murmuring Spiral",
+      "x": 1190.989990234375,
+      "y": -165.8260040283203
+    },
+    "Unrelenting Aspect": {
+      "name": "Unrelenting Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Remnants of Rage",
+      "x": 1111.6199951171875,
+      "y": -344.7279968261719
+    },
+    "Rebounding Aspect": {
+      "name": "Rebounding Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Forge of Malice",
+      "x": 737.198974609375,
+      "y": -145.86399841308594
+    },
+    "Aspect of Pestilence": {
+      "name": "Aspect of Pestilence",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Hallowed Stones",
+      "x": 874.5,
+      "y": 326.5
+    },
+    "Aspect of Bristling Vengeance": {
+      "name": "Aspect of Bristling Vengeance",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Iron Cenotaph",
+      "x": 1482.6199951171875,
+      "y": -152.88600158691406
+    },
+    "Insatiable Aspect": {
+      "name": "Insatiable Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Betrayed Tomb",
+      "x": 1101.27001953125,
+      "y": 689.8489990234375
+    },
+    "Bristleback Aspect": {
+      "name": "Bristleback Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Razak's Descent",
+      "x": 1328.3199462890625,
+      "y": 37.307701110839844
+    },
+    "Tormentor's Aspect": {
+      "name": "Tormentor's Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Forgotten Remains",
+      "x": 465.5559997558594,
+      "y": 458.572998046875
+    },
+    "Fell Soothsayer's Aspect": {
+      "name": "Fell Soothsayer's Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Ularian Sepulcher",
+      "x": 1135.030029296875,
+      "y": 572.5029907226562
+    },
+    "Aspect of Apprehension": {
+      "name": "Aspect of Apprehension",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Skatsimi Fane",
+      "x": -19.03350067138672,
+      "y": 584.0159912109375
+    },
+    "Aspect of Turbulence": {
+      "name": "Aspect of Turbulence",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Ruined Wild",
+      "x": 352.60101318359375,
+      "y": 705.1069946289062
+    },
+    "Bruiser's Aspect": {
+      "name": "Bruiser's Aspect",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Caves of Kutokue",
+      "x": 0.08814279735088348,
+      "y": 286.8680114746094
+    },
+    "Aspect of Deflection": {
+      "name": "Aspect of Deflection",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Sleepless Hollow",
+      "x": 437.6029968261719,
+      "y": 206.6009979248047
+    },
+    "Aspect of Kinetic Suppression": {
+      "name": "Aspect of Kinetic Suppression",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Farai Cliffs",
+      "x": 285.64801025390625,
+      "y": 420.5710144042969
+    },
+    "Aspect of Tenacity": {
+      "name": "Aspect of Tenacity",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Feeding Grounds",
+      "x": 1501.0799560546875,
+      "y": 368.9599914550781
+    },
+    "Aspect of Temporal Incisions": {
+      "name": "Aspect of Temporal Incisions",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Putrescent Larder",
+      "x": 1284.1600341796875,
+      "y": 375.2950134277344
+    },
+    "Aspect of Haste": {
+      "name": "Aspect of Haste",
+      "class": "Spiritborn",
+      "category": "Mobility",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Seething Underpass",
+      "x": 1165.75,
+      "y": 109.75
+    },
+    "Aspect of Momentum": {
+      "name": "Aspect of Momentum",
+      "class": "Spiritborn",
+      "category": "Mobility",
+      "source": "dungeon",
+      "region": "Nahantu",
+      "dungeon": "Beast Graveyard",
+      "x": 738.0869750976562,
+      "y": 653.3619995117188
+    },
+    "Aspect of Ancestral Charge": {
+      "name": "Aspect of Ancestral Charge",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_111"
+    },
+    "Wanton Rupture Aspect": {
+      "name": "Wanton Rupture Aspect",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_112"
+    },
+    "Aspect of Sundered Ground": {
+      "name": "Aspect of Sundered Ground",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_113"
+    },
+    "Aspect of Fierce Winds": {
+      "name": "Aspect of Fierce Winds",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_114"
+    },
+    "Aspect of Shattering Steel": {
+      "name": "Aspect of Shattering Steel",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_barb_114"
+    },
+    "Aspect of the Flaming Rampage": {
+      "name": "Aspect of the Flaming Rampage",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_barb_115"
+    },
+    "Aspect of Herculean Spectacle": {
+      "name": "Aspect of Herculean Spectacle",
+      "class": "Barbarian",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_117_x1"
+    },
+    "Aspect of Forward Momentum": {
+      "name": "Aspect of Forward Momentum",
+      "class": "Barbarian",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_barb_116"
+    },
+    "Ancients' Oath": {
+      "name": "Ancients' Oath",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HAxe_Unique_Barb_001"
+    },
+    "Hellhammer": {
+      "name": "Hellhammer",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HMace_Unique_Barb_001"
+    },
+    "Overkill": {
+      "name": "Overkill",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HMace_Unique_Barb_100"
+    },
+    "Battle Trance": {
+      "name": "Battle Trance",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Barb_100"
+    },
+    "100,000 Steps": {
+      "name": "100,000 Steps",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Barb_100"
+    },
+    "Rage of Harrogath": {
+      "name": "Rage of Harrogath",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Barb_100"
+    },
+    "Gohr's Devastating Grips": {
+      "name": "Gohr's Devastating Grips",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Barb_001"
+    },
+    "Ramaladni's Magnum Opus": {
+      "name": "Ramaladni's Magnum Opus",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HSword_Unique_Barb_101"
+    },
+    "Fields of Crimson": {
+      "name": "Fields of Crimson",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HSword_Unique_Barb_002"
+    },
+    "Tuskhelm of Joritz the Mighty": {
+      "name": "Tuskhelm of Joritz the Mighty",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Barb_100"
+    },
+    "Ring of Red Furor": {
+      "name": "Ring of Red Furor",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Barb_100"
+    },
+    "Ring of the Ravenous": {
+      "name": "Ring of the Ravenous",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Barb_101"
+    },
+    "Arreat's Bearing": {
+      "name": "Arreat's Bearing",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Barb_100"
+    },
+    "Twin Strikes": {
+      "name": "Twin Strikes",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Barb_100"
+    },
+    "Unbroken Chain": {
+      "name": "Unbroken Chain",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Barb_101"
+    },
+    "The Third Blade": {
+      "name": "The Third Blade",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HSword_Unique_Barbarian_001"
+    },
+    "Ugly Bastard Helm": {
+      "name": "Ugly Bastard Helm",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Barb_101_x1"
+    },
+    "PH Barb Boots": {
+      "name": "PH Barb Boots",
+      "class": "Barbarian",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Barb_101"
+    },
+    "Subterranean Aspect": {
+      "name": "Subterranean Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_121"
+    },
+    "Raw Might Aspect": {
+      "name": "Raw Might Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_122"
+    },
+    "Aspect of the Rabid Bear": {
+      "name": "Aspect of the Rabid Bear",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_druid_125"
+    },
+    "Stormcrow's Aspect": {
+      "name": "Stormcrow's Aspect",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_druid_126"
+    },
+    "Aspect of Shattered Defenses": {
+      "name": "Aspect of Shattered Defenses",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_128"
+    },
+    "Aspect of Anticline Burst": {
+      "name": "Aspect of Anticline Burst",
+      "class": "Druid",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_129"
+    },
+    "Virulent Aspect": {
+      "name": "Virulent Aspect",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_123"
+    },
+    "Aspect of the Agile Wolf": {
+      "name": "Aspect of the Agile Wolf",
+      "class": "Druid",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_druid_124"
+    },
+    "Aspect of Fevered Mauling": {
+      "name": "Aspect of Fevered Mauling",
+      "class": "Druid",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_124"
+    },
+    "Greatstaff of the Crone": {
+      "name": "Greatstaff of the Crone",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HStaff_Unique_Druid_001"
+    },
+    "Mad Wolf's Glee": {
+      "name": "Mad Wolf's Glee",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Druid_002"
+    },
+    "Insatiable Fury": {
+      "name": "Insatiable Fury",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Druid_003"
+    },
+    "Storm's Companion": {
+      "name": "Storm's Companion",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Druid_001"
+    },
+    "Hunter's Zenith": {
+      "name": "Hunter's Zenith",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Druid_003"
+    },
+    "Tempest Roar": {
+      "name": "Tempest Roar",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Druid_100"
+    },
+    "Waxing Gibbous": {
+      "name": "Waxing Gibbous",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HAxe_Unique_Druid_100"
+    },
+    "Vasily's Prayer": {
+      "name": "Vasily's Prayer",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Druid_101"
+    },
+    "Fleshrender": {
+      "name": "Fleshrender",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HMace_Unique_Druid_001"
+    },
+    "Dolmen Stone": {
+      "name": "Dolmen Stone",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Druid_100"
+    },
+    "Airidah's Inexorable Will": {
+      "name": "Airidah's Inexorable Will",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Druid_100"
+    },
+    "Unsung Ascetic's Wraps": {
+      "name": "Unsung Ascetic's Wraps",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Druid_100"
+    },
+    "Earthbreaker": {
+      "name": "Earthbreaker",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Druid_101"
+    },
+    "Wildheart Hunger": {
+      "name": "Wildheart Hunger",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Druid_100"
+    },
+    "The Basilisk": {
+      "name": "The Basilisk",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_2HStaff_Unique_Druid_001"
+    },
+    "Mjölnic Ryng": {
+      "name": "Mjölnic Ryng",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Druid_102"
+    },
+    "Stone of Vehemen": {
+      "name": "Stone of Vehemen",
+      "class": "Druid",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Totem_Unique_Druid_101_x1"
+    },
+    "Aspect of the Rushing Wilds": {
+      "name": "Aspect of the Rushing Wilds",
+      "class": "Druid",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_druid_127"
+    },
+    "Aspect of Elements": {
+      "name": "Aspect of Elements",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_114"
+    },
+    "Aspect of the Moonrise": {
+      "name": "Aspect of the Moonrise",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_120"
+    },
+    "Aspect of Accursed Touch": {
+      "name": "Aspect of Accursed Touch",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_122"
+    },
+    "Blood Boiling Aspect": {
+      "name": "Blood Boiling Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_123"
+    },
+    "[PH] Thorn & Heal Aspect": {
+      "name": "[PH] Thorn & Heal Aspect",
+      "class": "Generic",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_generic_117"
+    },
+    "Aspect of Audacity": {
+      "name": "Aspect of Audacity",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_113"
+    },
+    "Hectic Aspect": {
+      "name": "Hectic Aspect",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_118"
+    },
+    "Aspect of Frosty Strides": {
+      "name": "Aspect of Frosty Strides",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_124"
+    },
+    "Aspect of Concussive Strikes": {
+      "name": "Aspect of Concussive Strikes",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_125"
+    },
+    "Aspect of Assistance": {
+      "name": "Aspect of Assistance",
+      "class": "Generic",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_126_x1"
+    },
+    "Aspect of Adaptability": {
+      "name": "Aspect of Adaptability",
+      "class": "Generic",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_116"
+    },
+    "[PH] Resource & CDR Aspect": {
+      "name": "[PH] Resource & CDR Aspect",
+      "class": "Generic",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_generic_116"
+    },
+    "Juggernaut's Aspect": {
+      "name": "Juggernaut's Aspect",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_117"
+    },
+    "Undying Aspect": {
+      "name": "Undying Aspect",
+      "class": "Generic",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_119"
+    },
+    "Craven Aspect": {
+      "name": "Craven Aspect",
+      "class": "Generic",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_112"
+    },
+    "Aspect of Slaughter": {
+      "name": "Aspect of Slaughter",
+      "class": "Generic",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_115"
+    },
+    "Aspect of Metamorphosis": {
+      "name": "Aspect of Metamorphosis",
+      "class": "Generic",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_generic_121"
+    },
+    "The Butcher's Cleaver": {
+      "name": "The Butcher's Cleaver",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HAxe_Unique_Generic_001"
+    },
+    "Doombringer": {
+      "name": "Doombringer",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HSword_Unique_Generic_001"
+    },
+    "The Grandfather": {
+      "name": "The Grandfather",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HSword_Unique_Generic_001"
+    },
+    "Razorplate": {
+      "name": "Razorplate",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Generic_100"
+    },
+    "Fists of Fate": {
+      "name": "Fists of Fate",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Generic_002"
+    },
+    "Andariel's Visage": {
+      "name": "Andariel's Visage",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Generic_001"
+    },
+    "Melted Heart of Selig": {
+      "name": "Melted Heart of Selig",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Generic_100"
+    },
+    "Penitent Greaves": {
+      "name": "Penitent Greaves",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Generic_001"
+    },
+    "Frostburn": {
+      "name": "Frostburn",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Generic_003"
+    },
+    "Harlequin Crest": {
+      "name": "Harlequin Crest",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Generic_002"
+    },
+    "Mother's Embrace": {
+      "name": "Mother's Embrace",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Generic_100"
+    },
+    "Ring of Starless Skies": {
+      "name": "Ring of Starless Skies",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Generic_101"
+    },
+    "Temerity": {
+      "name": "Temerity",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Generic_100"
+    },
+    "Flickerstep": {
+      "name": "Flickerstep",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Generic_002"
+    },
+    "Ahavarion, Spear of Lycander": {
+      "name": "Ahavarion, Spear of Lycander",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HStaff_Unique_Generic_100"
+    },
+    "Tassets of the Dawning Sky": {
+      "name": "Tassets of the Dawning Sky",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Generic_101"
+    },
+    "Godslayer Crown": {
+      "name": "Godslayer Crown",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Generic_003"
+    },
+    "Tibault's Will": {
+      "name": "Tibault's Will",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Generic_102"
+    },
+    "X'Fal's Corroded Signet": {
+      "name": "X'Fal's Corroded Signet",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Generic_102"
+    },
+    "Soulbrand": {
+      "name": "Soulbrand",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Generic_101"
+    },
+    "Banished Lord's Talisman": {
+      "name": "Banished Lord's Talisman",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Generic_101"
+    },
+    "Paingorger's Gauntlets": {
+      "name": "Paingorger's Gauntlets",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Generic_004"
+    },
+    "Ring of Misfortune": {
+      "name": "Ring of Misfortune",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "SMP_WishingWell_Ring"
+    },
+    "Azurewrath": {
+      "name": "Azurewrath",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HSword_Unique_Generic_100"
+    },
+    "PvP Refresher": {
+      "name": "PvP Refresher",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "zzRing_PvP_DebugBuffRefresh"
+    },
+    "Yen's Blessing": {
+      "name": "Yen's Blessing",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Generic_125"
+    },
+    "Tyrael's Might": {
+      "name": "Tyrael's Might",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Generic_127"
+    },
+    "Grigso's Necronomicon": {
+      "name": "Grigso's Necronomicon",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "offHandsNecro_stor003"
+    },
+    "Antipathy Crux": {
+      "name": "Antipathy Crux",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "offHandsNecro_stor002"
+    },
+    "Salvation Finger": {
+      "name": "Salvation Finger",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Wand_stor003"
+    },
+    "Endurant Faith": {
+      "name": "Endurant Faith",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_Gloves_Unique_Generic_001"
+    },
+    "Crown of Lucion": {
+      "name": "Crown of Lucion",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_Helm_Unique_Generic_001"
+    },
+    "Shard of Verathiel": {
+      "name": "Shard of Verathiel",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HSword_Unique_Generic_001"
+    },
+    "Rakanoth's Wake": {
+      "name": "Rakanoth's Wake",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_Boots_Unique_Generic_001"
+    },
+    "Locran's Talisman": {
+      "name": "Locran's Talisman",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_Amulet_Unique_Generic_001"
+    },
+    "The Mortacrux / The Umbracrux": {
+      "name": "The Mortacrux / The Umbracrux",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HDagger_uniq17_TransmogItem"
+    },
+    "Shard of Verathiel / The Third Blade": {
+      "name": "Shard of Verathiel / The Third Blade",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HSword_uniq16_TransmogItem"
+    },
+    "PH Unique Quarterstaff": {
+      "name": "PH Unique Quarterstaff",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HQuarterstaff_Unique_Generic_001"
+    },
+    "Ring of the Jinx": {
+      "name": "Ring of the Jinx",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "SMP_X1_Ring"
+    },
+    "Resplendent Spark": {
+      "name": "Resplendent Spark",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "CraftingMaterial_Salvage_Uber_Unique"
+    },
+    "The Empyrean Eye": {
+      "name": "The Empyrean Eye",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gem_Mythic_01"
+    },
+    "Heir of Perdition": {
+      "name": "Heir of Perdition",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Generic_004"
+    },
+    "Shroud of False Death": {
+      "name": "Shroud of False Death",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Generic_103"
+    },
+    "Shattered Vow": {
+      "name": "Shattered Vow",
+      "class": "Generic",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HPolearm_Unique_Generic_001"
+    },
+    "Aspect of Gore Quills": {
+      "name": "Aspect of Gore Quills",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_123"
+    },
+    "Imprisoned Spirit's Aspect": {
+      "name": "Imprisoned Spirit's Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_133"
+    },
+    "Reaping Lotus' Aspect": {
+      "name": "Reaping Lotus' Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_necro_128"
+    },
+    "Phasing Poltergeist's Aspect": {
+      "name": "Phasing Poltergeist's Aspect",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_necro_129"
+    },
+    "Aspect of Fel Gluttony": {
+      "name": "Aspect of Fel Gluttony",
+      "class": "Necromancer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_necro_130"
+    },
+    "Aspect of the Long Shadow": {
+      "name": "Aspect of the Long Shadow",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_124"
+    },
+    "Shattered Spirit's Aspect": {
+      "name": "Shattered Spirit's Aspect",
+      "class": "Necromancer",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_125"
+    },
+    "Aspect of Occult Dominion": {
+      "name": "Aspect of Occult Dominion",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_031"
+    },
+    "Aphotic Aspect": {
+      "name": "Aphotic Aspect",
+      "class": "Necromancer",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_126"
+    },
+    "Black River": {
+      "name": "Black River",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HScythe_Unique_Necro_100"
+    },
+    "Deathspeaker's Pendant": {
+      "name": "Deathspeaker's Pendant",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Necro_100"
+    },
+    "Greaves of the Empty Tomb": {
+      "name": "Greaves of the Empty Tomb",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Necro_100"
+    },
+    "Blood Artisan's Cuirass": {
+      "name": "Blood Artisan's Cuirass",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Necro_101"
+    },
+    "Howl from Below": {
+      "name": "Howl from Below",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Necro_100"
+    },
+    "Deathless Visage": {
+      "name": "Deathless Visage",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Necro_100"
+    },
+    "Ring of Mendeln": {
+      "name": "Ring of Mendeln",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Necro_100"
+    },
+    "Bloodless Scream": {
+      "name": "Bloodless Scream",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HScythe_Unique_Necro_100"
+    },
+    "Blood Moon Breeches": {
+      "name": "Blood Moon Breeches",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Necro_100"
+    },
+    "Lidless Wall": {
+      "name": "Lidless Wall",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HShield_Unique_Necro_100"
+    },
+    "Ring of the Sacrilegious Soul": {
+      "name": "Ring of the Sacrilegious Soul",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Necro_101"
+    },
+    "Mutilator Plate": {
+      "name": "Mutilator Plate",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Necro_100"
+    },
+    "Cruor's Embrace": {
+      "name": "Cruor's Embrace",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Necro_101"
+    },
+    "Ebonpiercer": {
+      "name": "Ebonpiercer",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Necro_101"
+    },
+    "Path of Trag'Oul": {
+      "name": "Path of Trag'Oul",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Necro_101"
+    },
+    "The Mortacrux": {
+      "name": "The Mortacrux",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HDagger_Unique_Necro_001"
+    },
+    "The Unmaker": {
+      "name": "The Unmaker",
+      "class": "Necromancer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Necro_101_x1"
+    },
+    "Aspect of the Unholy Tether": {
+      "name": "Aspect of the Unholy Tether",
+      "class": "Necromancer",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_127"
+    },
+    "Inexorable Reaper's Aspect": {
+      "name": "Inexorable Reaper's Aspect",
+      "class": "Necromancer",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_131"
+    },
+    "Aspect of Creeping Mist": {
+      "name": "Aspect of Creeping Mist",
+      "class": "Necromancer",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_necro_132"
+    },
+    "Aspect of Pestilent Points": {
+      "name": "Aspect of Pestilent Points",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_126"
+    },
+    "Aspect of Artful Initiative": {
+      "name": "Aspect of Artful Initiative",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_127"
+    },
+    "High Velocity Aspect": {
+      "name": "High Velocity Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_129"
+    },
+    "Breakneck Bandit's Aspect": {
+      "name": "Breakneck Bandit's Aspect",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_131"
+    },
+    "Aspect of Iron Rain": {
+      "name": "Aspect of Iron Rain",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_133"
+    },
+    "Aspect of Poisonous Clouds": {
+      "name": "Aspect of Poisonous Clouds",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_rogue_129"
+    },
+    "Aspect of Splintering Shards": {
+      "name": "Aspect of Splintering Shards",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_rogue_130"
+    },
+    "Aspect of Star Shards": {
+      "name": "Aspect of Star Shards",
+      "class": "Rogue",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_rogue_131"
+    },
+    "Resistant Assailant's Aspect": {
+      "name": "Resistant Assailant's Aspect",
+      "class": "Rogue",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_128"
+    },
+    "Galvanized Slasher's  Aspect": {
+      "name": "Galvanized Slasher's  Aspect",
+      "class": "Rogue",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_132"
+    },
+    "Mired Sharpshooter's  Aspect": {
+      "name": "Mired Sharpshooter's  Aspect",
+      "class": "Rogue",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_134"
+    },
+    "Aspect of Nebulous Brews": {
+      "name": "Aspect of Nebulous Brews",
+      "class": "Rogue",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_rogue_130"
+    },
+    "Condemnation": {
+      "name": "Condemnation",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HDagger_Unique_Rogue_001"
+    },
+    "Skyhunter": {
+      "name": "Skyhunter",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HBow_Unique_Rogue_001"
+    },
+    "Windforce": {
+      "name": "Windforce",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HBow_Unique_Rogue_006"
+    },
+    "Word of Hakan": {
+      "name": "Word of Hakan",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Rogue_100"
+    },
+    "Grasp of Shadow": {
+      "name": "Grasp of Shadow",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Rogue_100"
+    },
+    "Cowl of the Nameless": {
+      "name": "Cowl of the Nameless",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Rogue_001"
+    },
+    "Eyes in the Dark": {
+      "name": "Eyes in the Dark",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Rogue_004"
+    },
+    "Asheara's Khanjar": {
+      "name": "Asheara's Khanjar",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HDagger_Unique_Rogue_002"
+    },
+    "Scoundrel's Leathers": {
+      "name": "Scoundrel's Leathers",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Rogue_100"
+    },
+    "Writhing Band of Trickery": {
+      "name": "Writhing Band of Trickery",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Rogue_100"
+    },
+    "Beastfall Boots": {
+      "name": "Beastfall Boots",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Rogue_100"
+    },
+    "Scoundrel's Kiss": {
+      "name": "Scoundrel's Kiss",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Rogue_101"
+    },
+    "Saboteur's Signet": {
+      "name": "Saboteur's Signet",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Rogue_102"
+    },
+    "Shroud of Khanduras": {
+      "name": "Shroud of Khanduras",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Rogue_101"
+    },
+    "The Umbracrux": {
+      "name": "The Umbracrux",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_1HDagger_Unique_Rogue_001"
+    },
+    "Pitfighter's Gull": {
+      "name": "Pitfighter's Gull",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "x1_Ring_Unique_Rogue_128"
+    },
+    "Eaglehorn": {
+      "name": "Eaglehorn",
+      "class": "Rogue",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HBow_Unique_Rogue_100"
+    },
+    "Aspect of Shattered Stars": {
+      "name": "Aspect of Shattered Stars",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_106"
+    },
+    "Battle Caster's Aspect": {
+      "name": "Battle Caster's Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_137"
+    },
+    "Aspect of Shredding Blades": {
+      "name": "Aspect of Shredding Blades",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_138"
+    },
+    "Aspect of (PH) of Ensnaring Current": {
+      "name": "Aspect of (PH) of Ensnaring Current",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_034"
+    },
+    "Flamethrower's Aspect": {
+      "name": "Flamethrower's Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_139"
+    },
+    "Aspect of Tenuous Destruction": {
+      "name": "Aspect of Tenuous Destruction",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_140"
+    },
+    "Lightning Rod Aspect": {
+      "name": "Lightning Rod Aspect",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_145"
+    },
+    "Aspect of Charged Flash": {
+      "name": "Aspect of Charged Flash",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_sorc_140"
+    },
+    "Aspect of Elemental Constellation": {
+      "name": "Aspect of Elemental Constellation",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_sorc_141"
+    },
+    "Aspect of Overheating": {
+      "name": "Aspect of Overheating",
+      "class": "Sorcerer",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "x1_legendary_sorc_142"
+    },
+    "Aspect of the Firebird": {
+      "name": "Aspect of the Firebird",
+      "class": "Sorcerer",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_142"
+    },
+    "Aspect of the Orange Herald": {
+      "name": "Aspect of the Orange Herald",
+      "class": "Sorcerer",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_143"
+    },
+    "Aspect of Searing Wards": {
+      "name": "Aspect of Searing Wards",
+      "class": "Sorcerer",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_136"
+    },
+    "Aspect of Tenuous Agility": {
+      "name": "Aspect of Tenuous Agility",
+      "class": "Sorcerer",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_141"
+    },
+    "Aspect of Elemental Acuity": {
+      "name": "Aspect of Elemental Acuity",
+      "class": "Sorcerer",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_sorc_144"
+    },
+    "Flamescar": {
+      "name": "Flamescar",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HWand_Unique_Sorc_100"
+    },
+    "Staff of Endless Rage": {
+      "name": "Staff of Endless Rage",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HStaff_Unique_Sorc_002"
+    },
+    "Staff of Lam Esen": {
+      "name": "Staff of Lam Esen",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "2HStaff_Unique_Sorc_100"
+    },
+    "Esadora's Overflowing Cameo": {
+      "name": "Esadora's Overflowing Cameo",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Sorc_100"
+    },
+    "Esu's Heirloom": {
+      "name": "Esu's Heirloom",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Sorc_100"
+    },
+    "Gloves of the Illuminator": {
+      "name": "Gloves of the Illuminator",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Sorc_002"
+    },
+    "Raiment of the Infinite": {
+      "name": "Raiment of the Infinite",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Sorc_002"
+    },
+    "Iceheart Brais": {
+      "name": "Iceheart Brais",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Sorc_100"
+    },
+    "Blue Rose": {
+      "name": "Blue Rose",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Sorc_100"
+    },
+    "The Oculus": {
+      "name": "The Oculus",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "1HWand_Unique_Sorc_101"
+    },
+    "Tal Rasha's Iridescent Loop": {
+      "name": "Tal Rasha's Iridescent Loop",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Sorc_101"
+    },
+    "Starfall Coronet": {
+      "name": "Starfall Coronet",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Sorc_100"
+    },
+    "Fractured Winterglass": {
+      "name": "Fractured Winterglass",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Amulet_Unique_Sorc_101"
+    },
+    "Flameweaver": {
+      "name": "Flameweaver",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Sorc_101"
+    },
+    "Axial Conduit": {
+      "name": "Axial Conduit",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Sorc_101"
+    },
+    "Vox Omnium": {
+      "name": "Vox Omnium",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "S05_BSK_2HStaff_Unique_Sorcerer_001"
+    },
+    "Sidhe Bindings": {
+      "name": "Sidhe Bindings",
+      "class": "Sorcerer",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Sorc_143_x1"
+    },
+    "Ruthless Aspect": {
+      "name": "Ruthless Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_001_x1"
+    },
+    "Aspect of (PH) offense": {
+      "name": "Aspect of (PH) offense",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_template_offense"
+    },
+    "Aspect of Rallying Reversal": {
+      "name": "Aspect of Rallying Reversal",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_002_x1"
+    },
+    "Aspect of Unyielding Hits": {
+      "name": "Aspect of Unyielding Hits",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_005_x1"
+    },
+    "Aspect of Combined Strikes": {
+      "name": "Aspect of Combined Strikes",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_006_x1"
+    },
+    "Aspect of Infestation": {
+      "name": "Aspect of Infestation",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_007_x1"
+    },
+    "Aspect of Redirected Force": {
+      "name": "Aspect of Redirected Force",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_021_x1"
+    },
+    "Starving Ravager's  Aspect": {
+      "name": "Starving Ravager's  Aspect",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_023_x1"
+    },
+    "Aspect of Recalling Feathers": {
+      "name": "Aspect of Recalling Feathers",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_025_x1"
+    },
+    "Aspect of Plains Power": {
+      "name": "Aspect of Plains Power",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_027_x1"
+    },
+    "Aspect of Simple Reprisal": {
+      "name": "Aspect of Simple Reprisal",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_026_x1"
+    },
+    "Aspect of Potent Exchange": {
+      "name": "Aspect of Potent Exchange",
+      "class": "Spiritborn",
+      "category": "Offensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_047_x1"
+    },
+    "Aspect of (PH) of Utility": {
+      "name": "Aspect of (PH) of Utility",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_template_utility"
+    },
+    "Aspect of Binding Morass": {
+      "name": "Aspect of Binding Morass",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_009_x1"
+    },
+    "Duelist's Aspect": {
+      "name": "Duelist's Aspect",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_013_x1"
+    },
+    "Aspect of Soil Power": {
+      "name": "Aspect of Soil Power",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_042_x1"
+    },
+    "Menacing Aspect": {
+      "name": "Menacing Aspect",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_041_x1"
+    },
+    "Aspect of Reactive Armor": {
+      "name": "Aspect of Reactive Armor",
+      "class": "Spiritborn",
+      "category": "Utility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_028_x1"
+    },
+    "Aspect of (PH) of Defense": {
+      "name": "Aspect of (PH) of Defense",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_template_defense"
+    },
+    "Raider's Aspect": {
+      "name": "Raider's Aspect",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_011_x1"
+    },
+    "Aspect of Avoidance": {
+      "name": "Aspect of Avoidance",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_022_x1"
+    },
+    "Aspect of Forest Power": {
+      "name": "Aspect of Forest Power",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_035_x1"
+    },
+    "Aspect of Endurance": {
+      "name": "Aspect of Endurance",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_029_x1"
+    },
+    "Aspect of Layered Wards": {
+      "name": "Aspect of Layered Wards",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_033_x1"
+    },
+    "Aspect of Interdiction": {
+      "name": "Aspect of Interdiction",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_034_x1"
+    },
+    "Aspect of Invigorating Will": {
+      "name": "Aspect of Invigorating Will",
+      "class": "Spiritborn",
+      "category": "Defensive",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_030_x1"
+    },
+    "Aspect of (PH) of Movement": {
+      "name": "Aspect of (PH) of Movement",
+      "class": "Spiritborn",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_template_movement"
+    },
+    "Aspect of Fleet Wings": {
+      "name": "Aspect of Fleet Wings",
+      "class": "Spiritborn",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_024_x1"
+    },
+    "Aspect of Sky Power": {
+      "name": "Aspect of Sky Power",
+      "class": "Spiritborn",
+      "category": "Mobility",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_045_x1"
+    },
+    "Aspect of (PH) of Resource": {
+      "name": "Aspect of (PH) of Resource",
+      "class": "Spiritborn",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_template_resource"
+    },
+    "Aspect of Exhilaration": {
+      "name": "Aspect of Exhilaration",
+      "class": "Spiritborn",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_003_x1"
+    },
+    "Aspect of Empowered Feathers": {
+      "name": "Aspect of Empowered Feathers",
+      "class": "Spiritborn",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_046_x1"
+    },
+    "Aspect of Alacrity": {
+      "name": "Aspect of Alacrity",
+      "class": "Spiritborn",
+      "category": "Resource",
+      "source": "world_drop",
+      "internal_id": "legendary_spiritborn_048_x1"
+    },
+    "Wound Drinker": {
+      "name": "Wound Drinker",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_001_x1"
+    },
+    "Ring of Writhing Moon": {
+      "name": "Ring of Writhing Moon",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_002_x1"
+    },
+    "Band of First Breath": {
+      "name": "Band of First Breath",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_003_x1"
+    },
+    "Peacemonger's Signet": {
+      "name": "Peacemonger's Signet",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_004_x1"
+    },
+    "Ring of the Midday Hunt": {
+      "name": "Ring of the Midday Hunt",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_005_x1"
+    },
+    "Ring of the Midnight Sun": {
+      "name": "Ring of the Midnight Sun",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Ring_Unique_Spiritborn_006_x1"
+    },
+    "Scorn of the Earth": {
+      "name": "Scorn of the Earth",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Boots_Unique_Spiritborn_008_x1"
+    },
+    "Craze of the Dead God": {
+      "name": "Craze of the Dead God",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Gloves_Unique_Spiritborn_007_x1"
+    },
+    "Jacinth Shell": {
+      "name": "Jacinth Shell",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Chest_Unique_Spiritborn_013_x1"
+    },
+    "Sepazontec": {
+      "name": "Sepazontec",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Quarterstaff_Unique_Spiritborn_012_x1"
+    },
+    "Harmony of Ebewaka": {
+      "name": "Harmony of Ebewaka",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Spiritborn_009_x1"
+    },
+    "Loyalty's Mantle": {
+      "name": "Loyalty's Mantle",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Helm_Unique_Spiritborn_011_x1"
+    },
+    "Wushe Nak Pa": {
+      "name": "Wushe Nak Pa",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Glaive_Unique_Spiritborn_010_x1"
+    },
+    "Protection of the Prime": {
+      "name": "Protection of the Prime",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Pants_Unique_Spiritborn_015_x1"
+    },
+    "Rod of Kepeleke": {
+      "name": "Rod of Kepeleke",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Quarterstaff_Unique_Spiritborn_016_x1"
+    },
+    "Nesekem, the Herald": {
+      "name": "Nesekem, the Herald",
+      "class": "Spiritborn",
+      "category": "Unique",
+      "source": "world_drop",
+      "internal_id": "Glaive_Unique_Spiritborn_014_x1"
+    }
+  },
+  "dungeons": {
+    "Mournfield": {
+      "id": "Dungeon|DGN_Step_Mournfield|500380",
+      "name": "Mournfield",
+      "aspect": "legendary_barb_001",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -954.4340209960938,
+      "y": -669.0989990234375
+    },
+    "Onyx Hold": {
+      "id": "Dungeon|DGN_Step_OnyxHold|624865",
+      "name": "Onyx Hold",
+      "aspect": "legendary_sorc_115",
+      "region": "The Onyx Watchtower",
+      "zone": "Dry Steppes",
+      "x": -842.4210205078125,
+      "y": -744.6510009765625
+    },
+    "Crumbling Hekma": {
+      "id": "Dungeon|DGN_Kehj_CrumblingHekma|444196",
+      "name": "Crumbling Hekma",
+      "aspect": "legendary_sorc_121",
+      "region": "Omath's Redoubt",
+      "zone": "Kehjistan",
+      "x": 407.1629943847656,
+      "y": -172.41799926757812
+    },
+    "Seaside Descent": {
+      "id": "Dungeon|DGN_Step_SeasideDescent|300021",
+      "name": "Seaside Descent",
+      "aspect": "legendary_druid_071",
+      "region": "Kotama Grasslands",
+      "zone": "Dry Steppes",
+      "x": -778.1929931640625,
+      "y": -1102.800048828125
+    },
+    "Sepulcher of The Forsworn": {
+      "id": "Dungeon|DGN_Kehj_SepulcherOfTheForsworn|982227",
+      "name": "Sepulcher of The Forsworn",
+      "aspect": "legendary_necro_114",
+      "region": "Altar of Ruin",
+      "zone": "Kehjistan",
+      "x": -103.91699981689453,
+      "y": -761.4249877929688
+    },
+    "Dark Ravine": {
+      "id": "Dungeon|DGN_Step_DarkRavine|571178",
+      "name": "Dark Ravine",
+      "aspect": "legendary_generic_009",
+      "region": "Tusmaa Rift",
+      "zone": "Dry Steppes",
+      "x": -1038.6700439453125,
+      "y": -912.2369995117188
+    },
+    "Light's Watch": {
+      "id": "Dungeon|DGN_Frac_LightsWatch|445557",
+      "name": "Light's Watch",
+      "aspect": "legendary_sorc_100",
+      "region": "Dobrev Taiga",
+      "zone": "Fractured Peaks",
+      "x": -1252.9200439453125,
+      "y": 236.76499938964844
+    },
+    "Maulwood": {
+      "id": "Dungeon|DGN_Frac_Maulwood|725577",
+      "name": "Maulwood",
+      "aspect": "legendary_barb_103",
+      "region": "Dobrev Taiga",
+      "zone": "Fractured Peaks",
+      "x": -1235.3299560546875,
+      "y": 353.0270080566406
+    },
+    "Caldera Gate": {
+      "id": "Dungeon|DGN_Frac_CalderaGate|1103553",
+      "name": "Caldera Gate",
+      "aspect": "legendary_generic_103",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1285.6400146484375,
+      "y": -301.9320068359375
+    },
+    "Derelict Lodge": {
+      "id": "Dungeon|DGN_Frac_DerelictLodge|445559",
+      "name": "Derelict Lodge",
+      "aspect": "legendary_rogue_102",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1197.949951171875,
+      "y": -105.51100158691406
+    },
+    "Nostrava Deepwood": {
+      "id": "Dungeon|DGN_Frac_NostravaDeepwood|1110818",
+      "name": "Nostrava Deepwood",
+      "aspect": "legendary_necro_003",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1240.3199462890625,
+      "y": -166.16600036621094
+    },
+    "Mercy's Reach": {
+      "id": "Dungeon|DGN_Frac_MercysReach|1108119",
+      "name": "Mercy's Reach",
+      "aspect": "legendary_necro_028",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1511.3800048828125,
+      "y": -349.8500061035156
+    },
+    "Kor Dragan Barracks": {
+      "id": "Dungeon|DGN_Frac_KorDraganBarracks|1102739",
+      "name": "Kor Dragan Barracks",
+      "aspect": "legendary_barb_102",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1669.3299560546875,
+      "y": -126.33499908447266
+    },
+    "Forbidden City": {
+      "id": "Dungeon|DGN_Frac_ForbiddenCity|1108138",
+      "name": "Forbidden City",
+      "aspect": "legendary_druid_077",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1516.469970703125,
+      "y": -183.9969940185547
+    },
+    "Hallowed Ossuary": {
+      "id": "Dungeon|DGN_Frac_HallowedOssuary|1095013",
+      "name": "Hallowed Ossuary",
+      "aspect": "legendary_barb_013",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1588.8699951171875,
+      "y": 363.4159851074219
+    },
+    "Black Asylum": {
+      "id": "Dungeon|DGN_Frac_BlackAsylum|1094974",
+      "name": "Black Asylum",
+      "aspect": "legendary_necro_100",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1621.75,
+      "y": 194.01499938964844
+    },
+    "Forsaken Quarry": {
+      "id": "Dungeon|DGN_Frac_ForsakenQuarry|1094977",
+      "name": "Forsaken Quarry",
+      "aspect": "legendary_rogue_011",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1572.510009765625,
+      "y": 64.36409759521484
+    },
+    "Hoarfrost Demise": {
+      "id": "Dungeon|DGN_Frac_HoarfrostDemise|571348",
+      "name": "Hoarfrost Demise",
+      "aspect": "legendary_necro_108",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1856.489990234375,
+      "y": 278.1839904785156
+    },
+    "Zenith": {
+      "id": "Dungeon|DGN_Frac_Zenith|1100700",
+      "name": "Zenith",
+      "aspect": "legendary_sorc_118",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1956.8199462890625,
+      "y": 416.90899658203125
+    },
+    "Dead Man's Dredge": {
+      "id": "Dungeon|DGN_Frac_DeadMansDredge|1042786",
+      "name": "Dead Man's Dredge",
+      "aspect": "legendary_sorc_110",
+      "region": "Gale Valley",
+      "zone": "Fractured Peaks",
+      "x": -1515.050048828125,
+      "y": 657.6699829101562
+    },
+    "Guulrahn Canals": {
+      "id": "Dungeon|DGN_Step_GuulrahnCanals|540194",
+      "name": "Guulrahn Canals",
+      "aspect": "legendary_rogue_019",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -880.3410034179688,
+      "y": -413.3340148925781
+    },
+    "Guulrahn Slums": {
+      "id": "Dungeon|DGN_Step_GuulrahnSlums|286932",
+      "name": "Guulrahn Slums",
+      "aspect": "legendary_necro_012",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -932.4039916992188,
+      "y": -396.875
+    },
+    "Whispering Vault": {
+      "id": "Dungeon|DGN_Step_WhisperingVault|287546",
+      "name": "Whispering Vault",
+      "aspect": "legendary_rogue_020",
+      "region": "Chambatar Ridge",
+      "zone": "Dry Steppes",
+      "x": -1117.43994140625,
+      "y": -222.85899353027344
+    },
+    "Shifting City": {
+      "id": "Dungeon|DGN_Step_ShiftingCity|444195",
+      "name": "Shifting City",
+      "aspect": "legendary_rogue_106",
+      "region": "Qara Yisu",
+      "zone": "Dry Steppes",
+      "x": -765.5540161132812,
+      "y": -189.83799743652344
+    },
+    "Pallid Delve": {
+      "id": "Dungeon|DGN_Step_PallidDelve|444195",
+      "name": "Pallid Delve",
+      "aspect": "legendary_sorc_127",
+      "region": "Qara Yisu",
+      "zone": "Dry Steppes",
+      "x": -742.89599609375,
+      "y": -96.56439971923828
+    },
+    "Tormented Ruins": {
+      "id": "Dungeon|DGN_Frac_RitualTower|1284311",
+      "name": "Tormented Ruins",
+      "aspect": "legendary_druid_002",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -1067.06005859375,
+      "y": 84.50509643554688
+    },
+    "Lost Archives": {
+      "id": "Dungeon|DGN_Frac_LostArchives|445558",
+      "name": "Lost Archives",
+      "aspect": "legendary_generic_011",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -918.89501953125,
+      "y": 119.97899627685547
+    },
+    "Defiled Catacomb": {
+      "id": "Dungeon|DGN_Frac_DefiledCatacomb|494641",
+      "name": "Defiled Catacomb",
+      "aspect": "legendary_barb_105",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -1032.0400390625,
+      "y": 198.1300048828125
+    },
+    "Calibel's Mine": {
+      "id": "Dungeon|DGN_Scos_CalibelsMine|981845",
+      "name": "Calibel's Mine",
+      "aspect": "legendary_barb_021",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -1922.550048828125,
+      "y": -1121.6500244140625
+    },
+    "Howling Warren": {
+      "id": "Dungeon|DGN_Scos_HowlingWarren|1025344",
+      "name": "Howling Warren",
+      "aspect": "legendary_rogue_028",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -1675.239990234375,
+      "y": -950.10400390625
+    },
+    "Sunken Ruins": {
+      "id": "Dungeon|DGN_Scos_SunkenRuins|695461",
+      "name": "Sunken Ruins",
+      "aspect": "legendary_barb_041",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -2055.02001953125,
+      "y": -1033.510009765625
+    },
+    "Oldstones": {
+      "id": "Dungeon|DGN_Scos_Oldstones|976292",
+      "name": "Oldstones",
+      "aspect": "legendary_generic_063",
+      "region": "The Downs",
+      "zone": "Scosglen",
+      "x": -1886.93994140625,
+      "y": -292.4119873046875
+    },
+    "Sarat's Lair": {
+      "id": "Dungeon|DGN_Scos_SaratsLair|1065518",
+      "name": "Sarat's Lair",
+      "aspect": "legendary_sorc_108",
+      "region": "The Downs",
+      "zone": "Scosglen",
+      "x": -1603.1500244140625,
+      "y": -375.0090026855469
+    },
+    "Hive": {
+      "id": "Dungeon|DGN_Scos_Hive|486750",
+      "name": "Hive",
+      "aspect": "legendary_necro_036",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -1898.4300537109375,
+      "y": -44.920799255371094
+    },
+    "Whispering Pines": {
+      "id": "Dungeon|DGN_Scos_WhisperingPines|987574",
+      "name": "Whispering Pines",
+      "aspect": "legendary_druid_108",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -2186.5400390625,
+      "y": 96.01750183105469
+    },
+    "Maddux Watch": {
+      "id": "Dungeon|DGN_Scos_MadduxWatch|978350",
+      "name": "Maddux Watch",
+      "aspect": "legendary_sorc_027",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -1783.4000244140625,
+      "y": -50.12580108642578
+    },
+    "Ferals' Den": {
+      "id": "Dungeon|DGN_Scos_FeralsDen|622832",
+      "name": "Ferals' Den",
+      "aspect": "legendary_druid_018",
+      "region": "Moordaine Lodge",
+      "zone": "Scosglen",
+      "x": -2300.239990234375,
+      "y": -367.9939880371094
+    },
+    "Twisted Hollow": {
+      "id": "Dungeon|DGN_Scos_TwistedHollow|527228",
+      "name": "Twisted Hollow",
+      "aspect": "legendary_rogue_026",
+      "region": "Moordaine Lodge",
+      "zone": "Scosglen",
+      "x": -2239.280029296875,
+      "y": -384.79400634765625
+    },
+    "Ancient Reservoir": {
+      "id": "Dungeon|DGN_Hawe_AncientReservoir|1271071",
+      "name": "Ancient Reservoir",
+      "aspect": "legendary_barb_014",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1230.9000244140625,
+      "y": 885.4000244140625
+    },
+    "Haunted Refuge": {
+      "id": "Dungeon|DGN_Hawe_HauntedRefuge|1271056",
+      "name": "Haunted Refuge",
+      "aspect": "legendary_barb_018",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1071.56005859375,
+      "y": 915.7639770507812
+    },
+    "Belfry Zakara": {
+      "id": "Dungeon|DGN_Hawe_BelfryZakara|1271078",
+      "name": "Belfry Zakara",
+      "aspect": "legendary_druid_066",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1091.239990234375,
+      "y": 1214.27001953125
+    },
+    "Witchwater": {
+      "id": "Dungeon|DGN_Hawe_Witchwater|674831",
+      "name": "Witchwater",
+      "aspect": "legendary_sorc_125",
+      "region": "Blightmarsh",
+      "zone": "Hawezar",
+      "x": -629.4030151367188,
+      "y": 904.4219970703125
+    },
+    "Faceless Shrine": {
+      "id": "Dungeon|DGN_Hawe_FacelessShrine|1328608",
+      "name": "Faceless Shrine",
+      "aspect": "legendary_necro_053",
+      "region": "Forsaken Coast",
+      "zone": "Hawezar",
+      "x": -733.864990234375,
+      "y": 1212.4599609375
+    },
+    "Ruins of Eridu": {
+      "id": "Dungeon|DGN_Hawe_RuinsofEridu|1029260",
+      "name": "Ruins of Eridu",
+      "aspect": "legendary_necro_116",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -391.0,
+      "y": 790.3740234375
+    },
+    "Ghoa Ruins ": {
+      "id": "Dungeon|DGN_Hawe_GhoaRuins|1029364",
+      "name": "Ghoa Ruins ",
+      "aspect": "legendary_rogue_004",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -472.9580078125,
+      "y": 1116.3599853515625
+    },
+    "Leviathan's Maw": {
+      "id": "Dungeon|DGN_Hawe_LeviathansMaw|1357495",
+      "name": "Leviathan's Maw",
+      "aspect": "legendary_rogue_112",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -380.24200439453125,
+      "y": 1016.219970703125
+    },
+    "Maugan's Works": {
+      "id": "Dungeon|DGN_Hawe_MaugansWorks|1070910",
+      "name": "Maugan's Works",
+      "aspect": "legendary_barb_104",
+      "region": "Fethis Wetlands",
+      "zone": "Hawezar",
+      "x": -568.9429931640625,
+      "y": 723.427978515625
+    },
+    "Blind Burrows": {
+      "id": "Dungeon|DGN_Hawe_BlindBurrows|1232672",
+      "name": "Blind Burrows",
+      "aspect": "legendary_druid_013",
+      "region": "Fethis Wetlands",
+      "zone": "Hawezar",
+      "x": -430.0459899902344,
+      "y": 647.197998046875
+    },
+    "Abandoned Mineworks": {
+      "id": "Dungeon|DGN_Kehj_AbandonedMineworks|1101512",
+      "name": "Abandoned Mineworks",
+      "aspect": "legendary_generic_038",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": 12.668999671936035,
+      "y": -7.412829875946045
+    },
+    "Sirocco Caverns": {
+      "id": "Dungeon|DGN_Kehj_SiroccoCaverns|1101639",
+      "name": "Sirocco Caverns",
+      "aspect": "legendary_barb_007",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -338.5270080566406,
+      "y": -316.0459899902344
+    },
+    "Halls of the Damned": {
+      "id": "Dungeon|DGN_Kehj_HallsoftheDamned|1101747",
+      "name": "Halls of the Damned",
+      "aspect": "legendary_generic_036",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -450.7929992675781,
+      "y": 108.66799926757812
+    },
+    "Conclave": {
+      "id": "Dungeon|DGN_Kehj_Conclave|970672",
+      "name": "Conclave",
+      "aspect": "legendary_druid_038",
+      "region": "Southern Expanse",
+      "zone": "Kehjistan",
+      "x": 357.1579895019531,
+      "y": -345.4519958496094
+    },
+    "Hakan's Refuge": {
+      "id": "Dungeon|DGN_Kehj_HakansRefuge|970672",
+      "name": "Hakan's Refuge",
+      "aspect": "legendary_barb_011",
+      "region": "Southern Expanse",
+      "zone": "Kehjistan",
+      "x": 538.9420166015625,
+      "y": -349.7720031738281
+    },
+    "Forgotten Ruins": {
+      "id": "Dungeon|DGN_Kehj_ForgottenRuins|971657",
+      "name": "Forgotten Ruins",
+      "aspect": "legendary_barb_005",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 350.8489990234375,
+      "y": -695.6190185546875
+    },
+    "Corrupted Grotto": {
+      "id": "Dungeon|DGN_Kehj_CorruptedGrotto|971658",
+      "name": "Corrupted Grotto",
+      "aspect": "legendary_necro_066",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 488.0780029296875,
+      "y": -538.1240234375
+    },
+    " Putrid Aquifer": {
+      "id": "Dungeon|DGN_Kehj_PutridAquifer|1102844",
+      "name": " Putrid Aquifer",
+      "aspect": "legendary_sorc_126",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 262.843994140625,
+      "y": -510.6730041503906
+    },
+    "Uldur's Cave": {
+      "id": "Dungeon|DGN_Kehj_UldursCave|971659",
+      "name": "Uldur's Cave",
+      "aspect": "legendary_necro_106",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 386.5660095214844,
+      "y": -628.968017578125
+    },
+    "Heretics Asylum": {
+      "id": "Dungeon|DGN_Kehj_HereticsAsylum|926114",
+      "name": "Heretics Asylum",
+      "aspect": "legendary_barb_040",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 623.8510131835938,
+      "y": -762.4530029296875
+    },
+    "Shivta Ruins": {
+      "id": "Dungeon|DGN_Kehj_ShivtaRuins|975602",
+      "name": "Shivta Ruins",
+      "aspect": "legendary_generic_016",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -136.53900146484375,
+      "y": -640.6279907226562
+    },
+    "Inferno": {
+      "id": "Dungeon|DGN_Kehj_Inferno|975602",
+      "name": "Inferno",
+      "aspect": "legendary_rogue_105",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -263.35101318359375,
+      "y": -448.0539855957031
+    },
+    "Tomb of the Saints": {
+      "id": "Dungeon|DGN_Kehj_TomboftheSaints|975246",
+      "name": "Tomb of the Saints",
+      "aspect": "legendary_sorc_103",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": 19.334199905395508,
+      "y": -881.0809936523438
+    },
+    "Sunken Library": {
+      "id": "Dungeon|DGN_Kehj_SunkenLibrary|975247",
+      "name": "Sunken Library",
+      "aspect": "legendary_sorc_129",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": 128.23599243164062,
+      "y": -596.7540283203125
+    },
+    "Collapsed Vault": {
+      "id": "Dungeon|DGN_Kehj_CollapsedVault|975602",
+      "name": "Collapsed Vault",
+      "aspect": "legendary_druid_062",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -83.09210205078125,
+      "y": -444.2049865722656
+    },
+    "Deserted Underpass": {
+      "id": "Dungeon|DGN_Kehj_DesertedUnderpass|1041656",
+      "name": "Deserted Underpass",
+      "aspect": "legendary_necro_105",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 321.3819885253906,
+      "y": -234.93099975585938
+    },
+    "Endless Gates": {
+      "id": "Dungeon|DGN_Hawe_EndlessGates|673841",
+      "name": "Endless Gates",
+      "aspect": "legendary_druid_104",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -418.2380065917969,
+      "y": 274.75299072265625
+    },
+    "Bastion of Faith": {
+      "id": "Dungeon|DGN_Hawe_BastionOfFaith|673841",
+      "name": "Bastion of Faith",
+      "aspect": "legendary_rogue_010",
+      "region": "Crusaders' Monument",
+      "zone": "Hawezar",
+      "x": -472.3399963378906,
+      "y": 225.88900756835938
+    },
+    "Earthen Wound": {
+      "id": "Dungeon|DGN_Hawe_EarthenWound|1019439",
+      "name": "Earthen Wound",
+      "aspect": "legendary_sorc_104",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -96.37860107421875,
+      "y": 365.7850036621094
+    },
+    "Lost Keep": {
+      "id": "Dungeon|DGN_Hawe_LostKeep|673841",
+      "name": "Lost Keep",
+      "aspect": "legendary_generic_107",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -383.6080017089844,
+      "y": 196.11099243164062
+    },
+    "Heathen's Keep": {
+      "id": "Dungeon|DGN_Hawe_HeathensKeep|1261064",
+      "name": "Heathen's Keep",
+      "aspect": "legendary_barb_017",
+      "region": "Dismal Foothills",
+      "zone": "Hawezar",
+      "x": -992.81298828125,
+      "y": 355.34698486328125
+    },
+    "Light's Refuge": {
+      "id": "Dungeon|DGN_Hawe_LightsRefuge|1231613",
+      "name": "Light's Refuge",
+      "aspect": "legendary_barb_026",
+      "region": "Dismal Foothills",
+      "zone": "Hawezar",
+      "x": -891.1290283203125,
+      "y": 250.78900146484375
+    },
+    "Rimescar Cavern": {
+      "id": "Dungeon|DGN_Frac_RimescarCavern|545857",
+      "name": "Rimescar Cavern",
+      "aspect": "legendary_necro_016",
+      "region": "Malnok",
+      "zone": "Fractured Peaks",
+      "x": -1712.0,
+      "y": 401.0010070800781
+    },
+    "Anica's Claim": {
+      "id": "Dungeon|DGN_Frac_AnicasClaim|544102",
+      "name": "Anica's Claim",
+      "aspect": "legendary_druid_059",
+      "region": "Malnok",
+      "zone": "Fractured Peaks",
+      "x": -1663.8900146484375,
+      "y": 364.5369873046875
+    },
+    "Cultist Refuge": {
+      "id": "Dungeon|DGN_Frac_CultistRefuge|545919",
+      "name": "Cultist Refuge",
+      "aspect": "legendary_sorc_105",
+      "region": "Nostrava",
+      "zone": "Fractured Peaks",
+      "x": -1156.8499755859375,
+      "y": 4.283349990844727
+    },
+    "Flooded Depths": {
+      "id": "Dungeon|DGN_Scos_FloodedDepths|633634",
+      "name": "Flooded Depths",
+      "aspect": "legendary_necro_022",
+      "region": "Hope's Light",
+      "zone": "Scosglen",
+      "x": -2094.25,
+      "y": -1317.0
+    },
+    "Underroot": {
+      "id": "Dungeon|DGN_Scos_Underroot|578968",
+      "name": "Underroot",
+      "aspect": "legendary_generic_067",
+      "region": "T\\xfar D\\xfalra",
+      "zone": "Scosglen",
+      "x": -1411.1400146484375,
+      "y": -1064.0
+    },
+    "Wretched Delve": {
+      "id": "Dungeon|DGN_Scos_WretchedDelve|578967",
+      "name": "Wretched Delve",
+      "aspect": "legendary_sorc_012",
+      "region": "T\\xfar D\\xfalra",
+      "zone": "Scosglen",
+      "x": -1514.1400146484375,
+      "y": -1127.7900390625
+    },
+    "Yshari Sanctum": {
+      "id": "Dungeon|DGN_Kehj_YshariSanctum|607491",
+      "name": "Yshari Sanctum",
+      "aspect": "legendary_generic_106",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 92.60919952392578,
+      "y": -508.739990234375
+    },
+    "Renegade's Retreat": {
+      "id": "Dungeon|DGN_Kehj_RenegadesRetreat|607489",
+      "name": "Renegade's Retreat",
+      "aspect": "legendary_rogue_113",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 93.1760025024414,
+      "y": -262.6080017089844
+    },
+    "Crusaders' Cathedral": {
+      "id": "Dungeon|DGN_Kehj_CrusadersCathedral|1103480",
+      "name": "Crusaders' Cathedral",
+      "aspect": "legendary_druid_109",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 124.01200103759766,
+      "y": -413.35400390625
+    },
+    "Prison of Caldeum": {
+      "id": "Dungeon|DGN_Kehj_PrisonofCaldeum|733700",
+      "name": "Prison of Caldeum",
+      "aspect": "legendary_rogue_109",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 262.9159851074219,
+      "y": -391.6499938964844
+    },
+    "Raethwind Wilds": {
+      "id": "Dungeon|DGN_Scos_RaethwindWilds|754753",
+      "name": "Raethwind Wilds",
+      "aspect": "legendary_generic_014",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -1830.5999755859375,
+      "y": -679.8690185546875
+    },
+    "Penitent Cairns": {
+      "id": "Dungeon|DGN_Scos_PenitentCairns|1028476",
+      "name": "Penitent Cairns",
+      "aspect": "legendary_barb_023",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -1982.1400146484375,
+      "y": -797.60498046875
+    },
+    "Vault of The Forsaken": {
+      "id": "Dungeon|DGN_Scos_VaultofTheForsaken|1103983",
+      "name": "Vault of The Forsaken",
+      "aspect": "legendary_necro_117",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -2151.719970703125,
+      "y": -775.2340087890625
+    },
+    "Steadfast Barracks": {
+      "id": "Dungeon|DGN_Hawe_SteadfastBarracks|589710",
+      "name": "Steadfast Barracks",
+      "aspect": "legendary_druid_100",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -746.5440063476562,
+      "y": 621.8690185546875
+    },
+    "Akkhan's Grasp": {
+      "id": "Dungeon|DGN_Hawe_AkkhansGrasp|589710",
+      "name": "Akkhan's Grasp",
+      "aspect": "legendary_necro_104",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -742.2969970703125,
+      "y": 597.1950073242188
+    },
+    "Iron Hold": {
+      "id": "Dungeon|DGN_Hawe_IronHold|589710",
+      "name": "Iron Hold",
+      "aspect": "legendary_necro_110",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -794.9459838867188,
+      "y": 619.4299926757812
+    },
+    "Oblivion": {
+      "id": "Dungeon|DGN_Hawe_Oblivion|601585",
+      "name": "Oblivion",
+      "aspect": "legendary_generic_102",
+      "region": "Eriman's Pyre",
+      "zone": "Hawezar",
+      "x": -1180.8900146484375,
+      "y": 484.3340148925781
+    },
+    "Garan Hold": {
+      "id": "Dungeon|DGN_Scos_GaranHold|378358",
+      "name": "Garan Hold",
+      "aspect": "legendary_barb_025",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -2069.1201171875,
+      "y": -411.72198486328125
+    },
+    "Luban's Rest": {
+      "id": "Dungeon|DGN_Scos_LubansRest|977162",
+      "name": "Luban's Rest",
+      "aspect": "legendary_rogue_111",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -1934.6400146484375,
+      "y": -489.9960021972656
+    },
+    "Domhainne Tunnels": {
+      "id": "Dungeon|DGN_Scos_DomhainneTunnels|171044",
+      "name": "Domhainne Tunnels",
+      "aspect": "legendary_sorc_132",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -1909.989990234375,
+      "y": -593.9000244140625
+    },
+    "Mariner's Refuge": {
+      "id": "Dungeon|DGN_Scos_MarinersRefuge|196459",
+      "name": "Mariner's Refuge",
+      "aspect": "legendary_druid_028",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -2238.800048828125,
+      "y": -478.3110046386719
+    },
+    "Kor Valar Ramparts": {
+      "id": "Dungeon|DGN_Frac_KorValarRamparts|533325",
+      "name": "Kor Valar Ramparts",
+      "aspect": "legendary_rogue_101",
+      "region": "Kor Valar",
+      "zone": "Fractured Peaks",
+      "x": -2010.56005859375,
+      "y": 351.1520080566406
+    },
+    "Aldurwood": {
+      "id": "Dungeon|DGN_Scos_Aldurwood|486753",
+      "name": "Aldurwood",
+      "aspect": "legendary_necro_118",
+      "region": "The Shrouded Moors",
+      "zone": "Scosglen",
+      "x": -2077.340087890625,
+      "y": -340.91900634765625
+    },
+    "Jalal's Vigil": {
+      "id": "Dungeon|DGN_Scos_JalalsVigil|790065",
+      "name": "Jalal's Vigil",
+      "aspect": "legendary_rogue_021",
+      "region": "The Shrouded Moors",
+      "zone": "Scosglen",
+      "x": -2365.81005859375,
+      "y": -197.927001953125
+    },
+    "Serpent's Lair": {
+      "id": "Dungeon|DGN_Hawe_SerpentsLair|741310",
+      "name": "Serpent's Lair",
+      "aspect": "legendary_sorc_008",
+      "region": "Blightmarsh",
+      "zone": "Hawezar",
+      "x": -776.56201171875,
+      "y": 824.7030029296875
+    },
+    "Shadowed Plunge": {
+      "id": "Dungeon|DGN_Hawe_ShadowedPlunge|1088277",
+      "name": "Shadowed Plunge",
+      "aspect": "legendary_rogue_100",
+      "region": "Vyeresz",
+      "zone": "Hawezar",
+      "x": -579.4119873046875,
+      "y": 886.2379760742188
+    },
+    "Demon's Wake": {
+      "id": "Dungeon|DGN_Scos_DemonsWake|809167",
+      "name": "Demon's Wake",
+      "aspect": "legendary_rogue_103",
+      "region": "Westering Lowlands",
+      "zone": "Scosglen",
+      "x": -1449.739990234375,
+      "y": -541.0830078125
+    },
+    "Broken Bulwark": {
+      "id": "Dungeon|DGN_Scos_BrokenBulwark|521043",
+      "name": "Broken Bulwark",
+      "aspect": "legendary_generic_100",
+      "region": "Westering Lowlands",
+      "zone": "Scosglen",
+      "x": -1360.550048828125,
+      "y": -513.6129760742188
+    },
+    "Fetid Mausoleum": {
+      "id": "Dungeon|DGN_Hawe_FetidMausoleum|674541",
+      "name": "Fetid Mausoleum",
+      "aspect": "legendary_sorc_006",
+      "region": "The Writhing Mire",
+      "zone": "Hawezar",
+      "x": -1249.68994140625,
+      "y": 610.6060180664062
+    },
+    "Buried Halls": {
+      "id": "Dungeon|DGN_Step_BuriedHalls|540194",
+      "name": "Buried Halls",
+      "aspect": "legendary_generic_043",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -816.0,
+      "y": -338.0
+    },
+    "Path of the Blind": {
+      "id": "Dungeon|DGN_Step_PathoftheBlind|1103603",
+      "name": "Path of the Blind",
+      "aspect": "legendary_necro_038",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -1220.5999755859375,
+      "y": -747.1160278320312
+    },
+    "Grinning Labyrinth": {
+      "id": "Dungeon|DGN_Step_GrinningLabyrinth|1103611",
+      "name": "Grinning Labyrinth",
+      "aspect": "legendary_druid_010",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -954.7069702148438,
+      "y": -553.3469848632812
+    },
+    "Betrayer's Row": {
+      "id": "Dungeon|DGN_Step_BetrayersRow|1103998",
+      "name": "Betrayer's Row",
+      "aspect": "legendary_necro_113",
+      "region": "The Accursed Wastes",
+      "zone": "Dry Steppes",
+      "x": -923.9290161132812,
+      "y": -70.4677963256836
+    },
+    "Stockades": {
+      "id": "Dungeon|DGN_Scos_Stockades|486744",
+      "name": "Stockades",
+      "aspect": "legendary_druid_023",
+      "region": "The Emerald Chase",
+      "zone": "Scosglen",
+      "x": -1735.1500244140625,
+      "y": -709.5869750976562
+    },
+    "Carrion Fields": {
+      "id": "Dungeon|DGN_Step_CarrionFields|1103955",
+      "name": "Carrion Fields",
+      "aspect": "legendary_barb_008",
+      "region": "The Scarred Coast",
+      "zone": "Dry Steppes",
+      "x": -441.4859924316406,
+      "y": -1100.1099853515625
+    },
+    "Komdor Temple": {
+      "id": "Dungeon|DGN_Step_KomdorTemple|1103958",
+      "name": "Komdor Temple",
+      "aspect": "legendary_sorc_123",
+      "region": "The Scarred Coast",
+      "zone": "Dry Steppes",
+      "x": -147.57400512695312,
+      "y": -1067.7900390625
+    },
+    "Ancient's Lament": {
+      "id": "Dungeon|DGN_Step_AncientsLament|592028",
+      "name": "Ancient's Lament",
+      "aspect": "legendary_rogue_013",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -759.2310180664062,
+      "y": -403.677001953125
+    },
+    "Champion's Demise": {
+      "id": "Dungeon|DGN_Step_ChampionsDemise|502144",
+      "name": "Champion's Demise",
+      "aspect": "legendary_generic_021",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -530.280029296875,
+      "y": -321.9779968261719
+    },
+    "Sealed Archives": {
+      "id": "Dungeon|DGN_Step_SealedArchives|1226416",
+      "name": "Sealed Archives",
+      "aspect": "legendary_druid_026",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -525.7689819335938,
+      "y": -487.0459899902344
+    },
+    "Bloodsoaked Crag": {
+      "id": "Dungeon|DGN_Step_BloodsoakedCrag|216316",
+      "name": "Bloodsoaked Crag",
+      "aspect": "legendary_druid_080",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -656.0469970703125,
+      "y": -538.4860229492188
+    },
+    "Charnel House": {
+      "id": "Dungeon|DGN_Step_CharnelHouse|1226416",
+      "name": "Charnel House",
+      "aspect": "legendary_barb_100",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -439.95098876953125,
+      "y": -502.1260070800781
+    },
+    "Fading Echo": {
+      "id": "Dungeon|DGN_Kehj_FadingEcho|575414",
+      "name": "Fading Echo",
+      "aspect": "legendary_druid_042",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -723.8980102539062,
+      "y": 50.09320068359375
+    },
+    "Sanguine Chapel": {
+      "id": "Dungeon|DGN_Frac_SanguineChapel|533370",
+      "name": "Sanguine Chapel",
+      "aspect": "legendary_rogue_014",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1939.9200439453125,
+      "y": 603.6380004882812
+    },
+    "Immortal Emanation": {
+      "id": "Dungeon|DGN_Frac_ImmortalEmanation|1094963",
+      "name": "Immortal Emanation",
+      "aspect": "legendary_druid_005",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1517.75,
+      "y": 338.0
+    },
+    "Forgotten Depths": {
+      "id": "Dungeon|DGN_Step_ForgottenDepths|502267",
+      "name": "Forgotten Depths",
+      "aspect": "legendary_sorc_113",
+      "region": "Dindai Flats",
+      "zone": "Dry Steppes",
+      "x": -705.531005859375,
+      "y": -864.7839965820312
+    },
+    "Ularian Sepulcher": {
+      "id": "Dungeon|DGN_Naha_UlarianSepulcher|2015507",
+      "name": "Ularian Sepulcher",
+      "aspect": "legendary_spiritborn_036_x1",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 1135.030029296875,
+      "y": 572.5029907226562
+    },
+    "Hallowed Stones": {
+      "id": "Dungeon|DGN_Naha_HallowedStones|1381823",
+      "name": "Hallowed Stones",
+      "aspect": "legendary_spiritborn_016_x1",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 874.5,
+      "y": 326.5
+    },
+    "Vile Hive": {
+      "id": "Dungeon|DGN_Naha_VileHive|1761929",
+      "name": "Vile Hive",
+      "aspect": "legendary_spiritborn_010_x1",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 864.8880004882812,
+      "y": 734.0679931640625
+    },
+    "Remnants of Rage": {
+      "id": "Dungeon|DGN_Naha_RemnantsofRage|1487459",
+      "name": "Remnants of Rage",
+      "aspect": "legendary_spiritborn_014_x1",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 1111.6199951171875,
+      "y": -344.7279968261719
+    },
+    "Forge of Malice": {
+      "id": "Dungeon|DGN_Naha_ForgeofMalice|2045334",
+      "name": "Forge of Malice",
+      "aspect": "legendary_spiritborn_015_x1",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 737.198974609375,
+      "y": -145.86399841308594
+    },
+    "Hierophant Pyre": {
+      "id": "Dungeon|DGN_Naha_HierophantPyre|1380157",
+      "name": "Hierophant Pyre",
+      "aspect": "legendary_spiritborn_004_x1",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 837.0009765625,
+      "y": 62.43259811401367
+    },
+    "Murmuring Spiral": {
+      "id": "Dungeon|DGN_Naha_MurmuringSpiral|1382128",
+      "name": "Murmuring Spiral",
+      "aspect": "legendary_spiritborn_012_x1",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1190.989990234375,
+      "y": -165.8260040283203
+    },
+    "Iron Cenotaph": {
+      "id": "Dungeon|DGN_Naha_IronCenotaph|1382293",
+      "name": "Iron Cenotaph",
+      "aspect": "legendary_spiritborn_017_x1",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1482.6199951171875,
+      "y": -152.88600158691406
+    },
+    "Razak's Descent": {
+      "id": "Dungeon|DGN_Naha_RazaksDescent|1382293",
+      "name": "Razak's Descent",
+      "aspect": "legendary_spiritborn_019_x1",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1328.3199462890625,
+      "y": 37.307701110839844
+    },
+    "Feeding Grounds": {
+      "id": "Dungeon|DGN_Naha_FeedingGrounds|1921729",
+      "name": "Feeding Grounds",
+      "aspect": "legendary_spiritborn_032_x1",
+      "region": "Five Hills",
+      "zone": "Nahantu",
+      "x": 1501.0799560546875,
+      "y": 368.9599914550781
+    },
+    "Putrescent Larder": {
+      "id": "Dungeon|DGN_Naha_PutrescentLarder|2010244",
+      "name": "Putrescent Larder",
+      "aspect": "legendary_spiritborn_038_x1",
+      "region": "Five Hills",
+      "zone": "Nahantu",
+      "x": 1284.1600341796875,
+      "y": 375.2950134277344
+    },
+    "Seething Underpass": {
+      "id": "Dungeon|DGN_Naha_SeethingUnderpass|1479100",
+      "name": "Seething Underpass",
+      "aspect": "legendary_spiritborn_044_x1",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 1165.75,
+      "y": 109.75
+    },
+    "Betrayed Tomb": {
+      "id": "Dungeon|DGN_Naha_BetrayedTomb|2070625",
+      "name": "Betrayed Tomb",
+      "aspect": "legendary_spiritborn_018_x1",
+      "region": "The Festering Dark",
+      "zone": "Nahantu",
+      "x": 1101.27001953125,
+      "y": 689.8489990234375
+    },
+    "Caves of Kutokue": {
+      "id": "Dungeon|DGN_Naha_CavesofKutokue|1578186",
+      "name": "Caves of Kutokue",
+      "aspect": "legendary_spiritborn_008_x1",
+      "region": "Kichuk",
+      "zone": "Nahantu",
+      "x": 0.08814279735088348,
+      "y": 286.8680114746094
+    },
+    "Sleepless Hollow": {
+      "id": "Dungeon|DGN_Naha_SleeplessHollow|2025138",
+      "name": "Sleepless Hollow",
+      "aspect": "legendary_spiritborn_031_x1",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": 437.6029968261719,
+      "y": 206.6009979248047
+    },
+    "Farai Cliffs": {
+      "id": "Dungeon|DGN_Naha_FaraiCliffs|1527347",
+      "name": "Farai Cliffs",
+      "aspect": "legendary_spiritborn_037_x1",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": 285.64801025390625,
+      "y": 420.5710144042969
+    },
+    "Ruined Wild": {
+      "id": "Dungeon|DGN_Naha_RuinedWild|1762913",
+      "name": "Ruined Wild",
+      "aspect": "legendary_spiritborn_039_x1",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 352.60101318359375,
+      "y": 705.1069946289062
+    },
+    "Beast Graveyard": {
+      "id": "Dungeon|DGN_Naha_BeastGraveyard|1762939",
+      "name": "Beast Graveyard",
+      "aspect": "legendary_spiritborn_043_x1",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 738.0869750976562,
+      "y": 653.3619995117188
+    },
+    "Forgotten Remains": {
+      "id": "Dungeon|DGN_Naha_ForgottenRemains|1762911",
+      "name": "Forgotten Remains",
+      "aspect": "legendary_spiritborn_020_x1",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 465.5559997558594,
+      "y": 458.572998046875
+    },
+    "Skatsimi Fane": {
+      "id": "Dungeon|DGN_Naha_SkatsimiFane|1476091",
+      "name": "Skatsimi Fane",
+      "aspect": "legendary_spiritborn_040_x1",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": -19.03350067138672,
+      "y": 584.0159912109375
+    }
+  },
+  "strongholds": [
+    {
+      "id": "Stronghold|CMP_Scos_TurDulra|577936",
+      "name": "T\\xfar D\\xfalra",
+      "zone": "Scosglen",
+      "x": -1376.0,
+      "y": -1081.4000244140625
+    },
+    {
+      "id": "Stronghold|CMP_Scos_Lighthouse|560028",
+      "name": "Hope's Light",
+      "zone": "Scosglen",
+      "x": -2004.489990234375,
+      "y": -1236.68994140625
+    },
+    {
+      "id": "Stronghold|CMP_Scos_AbandonedLodge|527087",
+      "name": "Moordaine Lodge",
+      "zone": "Scosglen",
+      "x": -2214.77001953125,
+      "y": -311.86199951171875
+    },
+    {
+      "id": "Stronghold|CMP_Frac_KorDragan|652439",
+      "name": "Kor Dragan",
+      "zone": "Fractured Peaks",
+      "x": -1596.050048828125,
+      "y": -143.4759979248047
+    },
+    {
+      "id": "Stronghold|CMP_Frac_Malnok|707148",
+      "name": "Malnok",
+      "zone": "Fractured Peaks",
+      "x": -1644.989990234375,
+      "y": 399.16900634765625
+    },
+    {
+      "id": "Stronghold|CMP_Frac_Nostrava|545895",
+      "name": "Nostrava",
+      "zone": "Fractured Peaks",
+      "x": -1114.5999755859375,
+      "y": -14.776300430297852
+    },
+    {
+      "id": "Stronghold|CMP_Step_OnyxWatchtower|424187",
+      "name": "The Onyx Watchtower",
+      "zone": "Dry Steppes",
+      "x": -764.47998046875,
+      "y": -706.3519897460938
+    },
+    {
+      "id": "Stronghold|CMP_Step_QaraYisu|496526",
+      "name": "The Ruins of Qara-Yisu",
+      "zone": "Dry Steppes",
+      "x": -671.864990234375,
+      "y": -173.64999389648438
+    },
+    {
+      "id": "Stronghold|CMP_Step_TempleOfRot|479411",
+      "name": "Temple of Rot",
+      "zone": "Dry Steppes",
+      "x": -423.16400146484375,
+      "y": -580.3359985351562
+    },
+    {
+      "id": "Stronghold|CMP_Kehj_Alcarnus|671428",
+      "name": "Alcarnus",
+      "zone": "Kehjistan",
+      "x": -140.69200134277344,
+      "y": -303.90301513671875
+    },
+    {
+      "id": "Stronghold|CMP_Kehj_AltarOfRuin|472774",
+      "name": "Altar of Ruin",
+      "zone": "Kehjistan",
+      "x": -37.871700286865234,
+      "y": -719.656982421875
+    },
+    {
+      "id": "Stronghold|CMP_Kehj_Omaths|466298",
+      "name": "Omath's Redoubt",
+      "zone": "Kehjistan",
+      "x": 422.510009765625,
+      "y": -132.0050048828125
+    },
+    {
+      "id": "Stronghold|CMP_Hawe_KeironsPyre|601603",
+      "name": "Eriman's Pyre",
+      "zone": "Hawezar",
+      "x": -1168.81005859375,
+      "y": 538.8460083007812
+    },
+    {
+      "id": "Stronghold|Camp_Hawe_CrusadersMont|638703",
+      "name": "Crusaders' Monument",
+      "zone": "Hawezar",
+      "x": -453.7120056152344,
+      "y": 210.39100646972656
+    },
+    {
+      "id": "Stronghold|CMP_Hawe_SnakeCultist|881083",
+      "name": "Vyeresz",
+      "zone": "Hawezar",
+      "x": -504.4530029296875,
+      "y": 892.0579833984375
+    },
+    {
+      "id": "Stronghold|CMP_Naha_Chakhir|1685705",
+      "name": "Chakhir",
+      "zone": "Nahantu",
+      "x": 1446.97998046875,
+      "y": -329.0450134277344
+    },
+    {
+      "id": "Stronghold|CMP_Naha_GatesOfTheNecropolis|1589985",
+      "name": "The Festering Dark",
+      "zone": "Nahantu",
+      "x": 963.2020263671875,
+      "y": 799.2650146484375
+    },
+    {
+      "id": "Stronghold|CMP_Naha_Kichuk|1573729",
+      "name": "Kichuk",
+      "zone": "Nahantu",
+      "x": 33.761199951171875,
+      "y": 419.87298583984375
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.collab
+.env
+.DS_Store
+.claude
+.vscode
+.cursor
+.idea
+*.pyc
+temp/
