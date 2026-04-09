@@ -1,0 +1,4711 @@
+{
+  "Rare_001_Intelligence_Main": {
+    "id": 1023184,
+    "name": "Enchanter",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageBonus_Intelligence_Generic",
+      "Power_001_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageBonus_Intelligence_Generic",
+        "stat": "Intelligence",
+        "side": "Generic",
+        "category": "DamageBonus"
+      },
+      {
+        "raw": "Power_001_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_002_Intelligence_Main": {
+    "id": 1023185,
+    "name": "Unleash",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_002_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_002_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_003_Intelligence_Main": {
+    "id": 1023186,
+    "name": "Elementalist",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_003_Intelligence_Main",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_003_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_004_Intelligence_Main": {
+    "id": 1023187,
+    "name": "Adept",
+    "rarity": "rare",
+    "affixes_raw": [
+      "MasteryDamage_Intelligence_Main",
+      "Power_004_Intelligence_Main",
+      "MultDmgPercentBySkillTag_Mastery_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "MasteryDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "MasteryDamage",
+        "skill_class": "mastery"
+      },
+      {
+        "raw": "Power_004_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Mastery_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Mastery"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "skill_classes": [
+      "mastery"
+    ],
+    "skill_tags": [
+      "Mastery"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_005_Intelligence_Main": {
+    "id": 1023188,
+    "name": "Conjurer",
+    "rarity": "rare",
+    "affixes_raw": [
+      "ConjurationDamage_Intelligence_Main",
+      "Power_005_Intelligence_Main",
+      "MultDmgPercentBySkillTag_Conjuration_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "ConjurationDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "ConjurationDamage",
+        "skill_class": "conjuration"
+      },
+      {
+        "raw": "Power_005_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Conjuration_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Conjuration"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "skill_classes": [
+      "conjuration"
+    ],
+    "skill_tags": [
+      "Conjuration"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_006_Intelligence_Main": {
+    "id": 1023189,
+    "name": "Charged",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CracklingEnergyDamage_Intelligence_Main",
+      "Power_006_Intelligence_Main",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CracklingEnergyDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "CracklingEnergyDamage",
+        "target": "crackling_energy"
+      },
+      {
+        "raw": "Power_006_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "targets": [
+      "crackling_energy"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_007_Willpower_Side": {
+    "id": 1023190,
+    "name": "Torch",
+    "rarity": "rare",
+    "affixes_raw": [
+      "BurningDamage_Willpower_Side",
+      "Power_007_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "BurningDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "BurningDamage",
+        "target": "burning"
+      },
+      {
+        "raw": "Power_007_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "targets": [
+      "burning"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_008_Willpower_Side": {
+    "id": 1023191,
+    "name": "Pyromaniac",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_008_Willpower_Side",
+      "MultDmgPercentbyDamageType_Fire_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_008_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Fire_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_009_Willpower_Side": {
+    "id": 1023192,
+    "name": "Cryopathy",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToChilled_Willpower_Side",
+      "Power_009_Willpower_Side",
+      "MultDmgPercentbyDamageType_Cold_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToChilled_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "DamageToChilled",
+        "target": "chilled"
+      },
+      {
+        "raw": "Power_009_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Cold_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "targets": [
+      "chilled"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_010_Dexterity_Main": {
+    "id": 1023193,
+    "name": "Tactician",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_010_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_010_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_011_Intelligence_Side": {
+    "id": 1023194,
+    "name": "Guzzler",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWhileHealthy_Intelligence_Side",
+      "Power_011_Intelligence_Side",
+      "MultDmgPercentWhileHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWhileHealthy_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageWhileHealthy"
+      },
+      {
+        "raw": "Power_011_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileHealthy"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_012_Willpower_Side": {
+    "id": 1023195,
+    "name": "Reinforced",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_012_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_012_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_077_Willpower_Side": {
+    "id": 1023196,
+    "name": "Warding",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_077_Willpower_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_077_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_014_Dexterity_Side": {
+    "id": 1023197,
+    "name": "Territorial",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToNear_Dexterity_Side",
+      "Power_014_Dexterity_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToNear_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToNear"
+      },
+      {
+        "raw": "Power_014_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_015_Dexterity_Side": {
+    "id": 1023198,
+    "name": "Flamefeeder",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToBurning_Dexterity_Side",
+      "Power_015_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToBurning_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToBurning",
+        "target": "burning"
+      },
+      {
+        "raw": "Power_015_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "burning"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_016_Dexterity_Side": {
+    "id": 1023199,
+    "name": "Exploit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToVulnerable_Dexterity_Side",
+      "Power_016_Dexterity_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToVulnerable_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToVulnerable",
+        "target": "vulnerable"
+      },
+      {
+        "raw": "Power_016_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_017_Dexterity_Side": {
+    "id": 1023200,
+    "name": "Winter",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_017_Dexterity_Side",
+      "MultDmgPercentToCC_All_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_017_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_All_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "cc"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_018_Dexterity_Side": {
+    "id": 1023201,
+    "name": "Electrocute",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_018_Dexterity_Side",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_018_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_019_Dexterity_Side": {
+    "id": 1023202,
+    "name": "Destruction",
+    "rarity": "rare",
+    "affixes_raw": [
+      "MajorDestructionCritDamage_Dexterity_Side",
+      "Power_019_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "MajorDestructionCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "MajorDestructionCritDamage"
+      },
+      {
+        "raw": "Power_019_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_020_Dexterity_Side": {
+    "id": 1023203,
+    "name": "Control",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToCCed_Dexterity_Side",
+      "Power_020_Dexterity_Side",
+      "MultDmgPercentToCC_All_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToCCed_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToCCed",
+        "target": "cc"
+      },
+      {
+        "raw": "Power_020_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_All_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "cc"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_021_Strength_Main": {
+    "id": 1027075,
+    "name": "Ambidextrous",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic_Lesser",
+      "Power_021_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_021_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_022_Strength_Main": {
+    "id": 1027083,
+    "name": "Might",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic_Lesser",
+      "Power_022_Strength_Main",
+      "MultDmgToHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_022_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToHealthy"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_023_Strength_Main": {
+    "id": 1027084,
+    "name": "Cleaver",
+    "rarity": "rare",
+    "affixes_raw": [
+      "AxeDamage_Strength_Main",
+      "Power_023_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "AxeDamage_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "AxeDamage",
+        "skill_class": "axe"
+      },
+      {
+        "raw": "Power_023_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "axe"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_024_Strength_Main": {
+    "id": 1027085,
+    "name": "Seething",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SwordDamage_Strength_Main",
+      "Power_024_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SwordDamage_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "SwordDamage",
+        "skill_class": "sword"
+      },
+      {
+        "raw": "Power_024_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "sword"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_025_Strength_Main": {
+    "id": 1027086,
+    "name": "Crusher",
+    "rarity": "rare",
+    "affixes_raw": [
+      "MaceDamage_Strength_Main",
+      "Power_025_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "MaceDamage_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "MaceDamage",
+        "skill_class": "mace"
+      },
+      {
+        "raw": "Power_025_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "mace"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_026_Strength_Main": {
+    "id": 1027087,
+    "name": "Executioner",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PolearmDamage_Strength_Main",
+      "Power_026_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PolearmDamage_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "PolearmDamage",
+        "skill_class": "polearm"
+      },
+      {
+        "raw": "Power_026_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "polearm"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_027_Strength_Main": {
+    "id": 1027088,
+    "name": "Ire",
+    "rarity": "rare",
+    "affixes_raw": [
+      "BerserkDamage_Strength_Main",
+      "Power_027_Strength_Main",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "BerserkDamage_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "BerserkDamage",
+        "target": "berserking"
+      },
+      {
+        "raw": "Power_027_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "berserking"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_028_Strength_Main": {
+    "id": 1027089,
+    "name": "Marshal",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic_Lesser",
+      "Power_028_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_028_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_029_Dexterity_Side": {
+    "id": 1027090,
+    "name": "Bloodfeeder",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToBleeding_Dexterity_Side",
+      "Power_029_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToBleeding_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToBleeding",
+        "target": "bleeding"
+      },
+      {
+        "raw": "Power_029_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "bleeding"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_030_Dexterity_Side": {
+    "id": 1027091,
+    "name": "Wrath",
+    "rarity": "rare",
+    "affixes_raw": [
+      "FurySkillCritDamage_Dexterity_Side",
+      "Power_030_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "FurySkillCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "FurySkillCritDamage",
+        "skill_class": "fury"
+      },
+      {
+        "raw": "Power_030_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_classes": [
+      "fury"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_031_Dexterity_Side": {
+    "id": 1027093,
+    "name": "Weapon Master",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_031_Dexterity_Side",
+      "MultDmgPercentBySkillTag_WeaponMastery_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_031_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_WeaponMastery_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "WeaponMastery"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_tags": [
+      "WeaponMastery"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_032_Dexterity_Side": {
+    "id": 1027094,
+    "name": "Mortal Draw",
+    "rarity": "rare",
+    "affixes_raw": [
+      "WeaponSwapDamage_Dexterity_Side",
+      "Power_032_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "WeaponSwapDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "WeaponSwapDamage"
+      },
+      {
+        "raw": "Power_032_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_033_Willpower_Side": {
+    "id": 1027095,
+    "name": "Revenge",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare_Lesser",
+      "Power_033_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_033_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_034_Willpower_Side": {
+    "id": 1027096,
+    "name": "Undaunted",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWhileFortified_Willpower_Side",
+      "Power_034_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWhileFortified_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "DamageWhileFortified"
+      },
+      {
+        "raw": "Power_034_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_035_Willpower_Side": {
+    "id": 1027097,
+    "name": "Dominate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "OverpowerDamage_Willpower_Side",
+      "Power_035_Willpower_Side",
+      "MultDmgPercentWithOverpower_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "OverpowerDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "OverpowerDamage"
+      },
+      {
+        "raw": "Power_035_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWithOverpower_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWithOverpower"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_036_Willpower_Side": {
+    "id": 1027098,
+    "name": "Disembowel",
+    "rarity": "rare",
+    "affixes_raw": [
+      "BleedingDamage_Willpower_Side",
+      "Power_036_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "BleedingDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "BleedingDamage",
+        "target": "bleeding"
+      },
+      {
+        "raw": "Power_036_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "targets": [
+      "bleeding"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_037_Willpower_Side": {
+    "id": 1027099,
+    "name": "Brawl",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_037_Willpower_Side",
+      "MultDmgPercentBySkillTag_Brawling_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_037_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Brawling_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Brawling"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_tags": [
+      "Brawling"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_013_Dexterity_Side": {
+    "id": 1028219,
+    "name": "Poise",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_013_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_013_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_039_Willpower_Main": {
+    "id": 1028226,
+    "name": "Fang and Claw",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_039_Willpower_Main",
+      "MultDmgPercentWhileShapeshifted_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_039_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileShapeshifted_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileShapeshifted"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_040_Willpower_Main": {
+    "id": 1028227,
+    "name": "Earth and Sky",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_040_Willpower_Main",
+      "MultDmgPercentBySkillTag_NatureMagic_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_040_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_NatureMagic_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "NatureMagic"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_tags": [
+      "NatureMagic"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_041_Intelligence_Side": {
+    "id": 1028228,
+    "name": "Wilds",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CompanionDamage_Intelligence_Side",
+      "Power_041_Intelligence_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CompanionDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "CompanionDamage",
+        "skill_class": "companion"
+      },
+      {
+        "raw": "Power_041_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "skill_classes": [
+      "companion"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_042_Willpower_Main": {
+    "id": 1028229,
+    "name": "Werebear",
+    "rarity": "rare",
+    "affixes_raw": [
+      "WerebearFormDamage_Willpower_Main",
+      "Power_042_Willpower_Main",
+      "MultDmgPercentWhileWerebear_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "WerebearFormDamage_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "WerebearFormDamage",
+        "skill_class": "werebear"
+      },
+      {
+        "raw": "Power_042_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileWerebear_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileWerebear",
+        "skill_class": "werebear"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_classes": [
+      "werebear"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_043_Willpower_Main": {
+    "id": 1028230,
+    "name": "Werewolf",
+    "rarity": "rare",
+    "affixes_raw": [
+      "WerewolfFormDamage_Willpower_Main",
+      "Power_043_Willpower_Main",
+      "MultDmgPercentWhileWerewolf_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "WerewolfFormDamage_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "WerewolfFormDamage",
+        "skill_class": "werewolf"
+      },
+      {
+        "raw": "Power_043_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileWerewolf_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileWerewolf",
+        "skill_class": "werewolf"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_classes": [
+      "werewolf"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_044_Willpower_Main": {
+    "id": 1028231,
+    "name": "Human",
+    "rarity": "rare",
+    "affixes_raw": [
+      "HumanFormDamage_Willpower_Main",
+      "Power_044_Willpower_Main",
+      "MultDmgPercentBySkillTag_NatureMagic_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "HumanFormDamage_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "HumanFormDamage"
+      },
+      {
+        "raw": "Power_044_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_NatureMagic_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "NatureMagic"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_tags": [
+      "NatureMagic"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_045_Intelligence_Side": {
+    "id": 1028232,
+    "name": "Bane",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PoisonDamage_Intelligence_Side",
+      "Power_045_Intelligence_Side",
+      "MultDmgPercentbyDamageType_Poison_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PoisonDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "PoisonDamage",
+        "element": "poison"
+      },
+      {
+        "raw": "Power_045_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Poison_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "elements": [
+      "poison"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_046_Intelligence_Side": {
+    "id": 1028233,
+    "name": "Keeper",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_046_Intelligence_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_046_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_047_Dexterity_Side": {
+    "id": 1028234,
+    "name": "Fulminate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "LightningDamage_Dexterity_Side",
+      "Power_047_Dexterity_Side",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "LightningDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "LightningDamage",
+        "element": "lightning"
+      },
+      {
+        "raw": "Power_047_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "elements": [
+      "lightning"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_048_Dexterity_Side": {
+    "id": 1028235,
+    "name": "Tracker",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToPoisoned_Dexterity_Side",
+      "Power_048_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToPoisoned_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToPoisoned",
+        "target": "poisoned",
+        "element": "poison"
+      },
+      {
+        "raw": "Power_048_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "poisoned"
+    ],
+    "elements": [
+      "poison"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_049_Dexterity_Side": {
+    "id": 1028236,
+    "name": "Outmatch",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_049_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_049_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_050_Dexterity_Side": {
+    "id": 1028237,
+    "name": "Spirit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SpiritCritDamage_Dexterity_Side",
+      "Power_050_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SpiritCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "SpiritCritDamage"
+      },
+      {
+        "raw": "Power_050_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_051_Dexterity_Side": {
+    "id": 1028238,
+    "name": "Shapeshifter",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_051_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_051_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_052_Dexterity_Main": {
+    "id": 1029476,
+    "name": "Versatility",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_052_Dexterity_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_052_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_053_Dexterity_Main": {
+    "id": 1029477,
+    "name": "Closer",
+    "rarity": "rare",
+    "affixes_raw": [
+      "MeleeSkillDamage_Dexterity_Main",
+      "Power_053_Dexterity_Main",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "MeleeSkillDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "MeleeSkillDamage"
+      },
+      {
+        "raw": "Power_053_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_054_Dexterity_Main": {
+    "id": 1029478,
+    "name": "Ranger",
+    "rarity": "rare",
+    "affixes_raw": [
+      "RangedSkillDamage_Dexterity_Main",
+      "Power_054_Dexterity_Main",
+      "MultDmgPercentBySkillTag_Marksman_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "RangedSkillDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "RangedSkillDamage"
+      },
+      {
+        "raw": "Power_054_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Marksman_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Marksman"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_tags": [
+      "Marksman"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_055_Dexterity_Main": {
+    "id": 1029479,
+    "name": "Chip",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PhysicalDamage_Dexterity_Main",
+      "Power_055_Dexterity_Main",
+      "MultDmgPercentbyDamageType_Physical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PhysicalDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "PhysicalDamage",
+        "element": "physical"
+      },
+      {
+        "raw": "Power_055_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Physical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "elements": [
+      "physical"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_056_Dexterity_Main": {
+    "id": 1029480,
+    "name": "Frostfeeder",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToChilled_Dexterity_Main",
+      "Power_056_Dexterity_Main",
+      "MultDmgPercentToCC_Chilled_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToChilled_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "DamageToChilled",
+        "target": "chilled"
+      },
+      {
+        "raw": "Power_056_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_Chilled_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "cc",
+      "chilled"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_057_Dexterity_Main": {
+    "id": 1029481,
+    "name": "Fluidity",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_057_Dexterity_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_057_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_059_Dexterity_Main": {
+    "id": 1029482,
+    "name": "Devious",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_059_Dexterity_Main",
+      "MultDmgPercentToCC_All_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_059_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_All_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "cc"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_058_Intelligence_Side": {
+    "id": 1029485,
+    "name": "Infusion",
+    "rarity": "rare",
+    "affixes_raw": [
+      "ImbuedSkillDamage_Intelligence_Side",
+      "Power_058_Intelligence_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "ImbuedSkillDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "ImbuedSkillDamage"
+      },
+      {
+        "raw": "Power_058_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_061_Intelligence_Side": {
+    "id": 1029486,
+    "name": "Combat",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CombatCritDamage_Intelligence_Side",
+      "Power_061_Intelligence_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CombatCritDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "CombatCritDamage"
+      },
+      {
+        "raw": "Power_061_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_063_Intelligence_Side": {
+    "id": 1029487,
+    "name": "Canny",
+    "rarity": "rare",
+    "affixes_raw": [
+      "NonPhysicalDamage_Intelligence_Side",
+      "Power_063_Intelligence_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "NonPhysicalDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "NonPhysicalDamage",
+        "element": "physical"
+      },
+      {
+        "raw": "Power_063_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "elements": [
+      "physical"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_064_Intelligence_Side": {
+    "id": 1029488,
+    "name": "Efficacy",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_064_Intelligence_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_064_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_065_Intelligence_Side": {
+    "id": 1029489,
+    "name": "Snare",
+    "rarity": "rare",
+    "affixes_raw": [
+      "TrapDamage_Intelligence_Side",
+      "Power_065_Intelligence_Side",
+      "MultDmgPercentBySkillTag_Traps_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "TrapDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "TrapDamage",
+        "skill_class": "trap"
+      },
+      {
+        "raw": "Power_065_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Traps_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Traps"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "skill_classes": [
+      "trap"
+    ],
+    "skill_tags": [
+      "Traps"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_016_Strength_Side": {
+    "id": 1029490,
+    "name": "Exploit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToVulnerable_Strength_Side",
+      "Power_016_Strength_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToVulnerable_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "DamageToVulnerable",
+        "target": "vulnerable"
+      },
+      {
+        "raw": "Power_016_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_020_Intelligence_Side": {
+    "id": 1029491,
+    "name": "Control",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToCCed_Intelligence_Side",
+      "Power_020_Intelligence_Side",
+      "MultDmgPercentToCC_All_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToCCed_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageToCCed",
+        "target": "cc"
+      },
+      {
+        "raw": "Power_020_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_All_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "targets": [
+      "cc"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_014_Strength_Side": {
+    "id": 1029493,
+    "name": "Turf",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToNear_Strength_Side",
+      "Power_014_Strength_Side",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToNear_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "DamageToNear"
+      },
+      {
+        "raw": "Power_014_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_067_Strength_Side": {
+    "id": 1029494,
+    "name": "Pride",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_067_Strength_Side",
+      "MultDmgPercentToElites_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_067_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToElites_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToElites"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_068_Strength_Side": {
+    "id": 1029495,
+    "name": "Ambush",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToTrapped_Strength_Side",
+      "Power_068_Strength_Side",
+      "MultDmgPercentBySkillTag_Traps_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToTrapped_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "DamageToTrapped",
+        "skill_class": "trap"
+      },
+      {
+        "raw": "Power_068_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Traps_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Traps"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "trap"
+    ],
+    "skill_tags": [
+      "Traps"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_048_Intelligence_Side": {
+    "id": 1029496,
+    "name": "Tracker",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToPoisoned_Intelligence_Side",
+      "Power_048_Intelligence_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToPoisoned_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageToPoisoned",
+        "target": "poisoned",
+        "element": "poison"
+      },
+      {
+        "raw": "Power_048_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "targets": [
+      "poisoned"
+    ],
+    "elements": [
+      "poison"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_045_Strength_Side": {
+    "id": 1029497,
+    "name": "Bane",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PoisonDamage_Strength_Side",
+      "Power_045_Strength_Side",
+      "MultDmgPercentbyDamageType_Poison_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PoisonDamage_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "PoisonDamage",
+        "element": "poison"
+      },
+      {
+        "raw": "Power_045_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Poison_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "elements": [
+      "poison"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_069_Intelligence_Main": {
+    "id": 1031000,
+    "name": "Sacrificial",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_069_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_069_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_038_Intelligence_Main": {
+    "id": 1031001,
+    "name": "Corporeal",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_038_Intelligence_Main",
+      "MultDmgPercentbyDamageType_Physical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_038_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Physical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_070_Intelligence_Main": {
+    "id": 1031002,
+    "name": "Blood-drinker",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_070_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_070_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_020_Intelligence_Main": {
+    "id": 1031003,
+    "name": "Control",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToCCed_Intelligence_Main",
+      "Power_020_Intelligence_Main",
+      "MultDmgPercentToCC_All_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToCCed_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "DamageToCCed",
+        "target": "cc"
+      },
+      {
+        "raw": "Power_020_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToCC_All_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToCC",
+        "target": "cc"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "targets": [
+      "cc"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_071_Intelligence_Main": {
+    "id": 1031004,
+    "name": "Deadraiser",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMinion",
+      "Power_071_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMinion",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_071_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_072_Intelligence_Main": {
+    "id": 1031005,
+    "name": "Mage",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SkeletonMageDamage_Intelligence_Main",
+      "Power_072_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SkeletonMageDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "SkeletonMageDamage"
+      },
+      {
+        "raw": "Power_072_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_073_Intelligence_Main": {
+    "id": 1031006,
+    "name": "Amplify",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_073_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_073_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_074_Willpower_Side": {
+    "id": 1031007,
+    "name": "Golem",
+    "rarity": "rare",
+    "affixes_raw": [
+      "GolemDamage_Willpower_Side",
+      "Power_074_Willpower_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "GolemDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "GolemDamage"
+      },
+      {
+        "raw": "Power_074_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_075_Willpower_Side": {
+    "id": 1031008,
+    "name": "Scourge",
+    "rarity": "rare",
+    "affixes_raw": [
+      "ShadowDoTDamage_Intelligence_Main",
+      "Power_075_Intelligence_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "ShadowDoTDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "ShadowDoTDamage",
+        "element": "shadow"
+      },
+      {
+        "raw": "Power_075_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "elements": [
+      "shadow"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_066_Dexterity_Side": {
+    "id": 1031010,
+    "name": "Essence",
+    "rarity": "rare",
+    "affixes_raw": [
+      "EssenceCritDamage_Dexterity_Side",
+      "Power_066_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "EssenceCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "EssenceCritDamage"
+      },
+      {
+        "raw": "Power_066_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_060_Dexterity_Side": {
+    "id": 1031011,
+    "name": "Warrior",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SkeletonWarriorDamage_Dexterity_Side",
+      "Power_060_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SkeletonWarriorDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "SkeletonWarriorDamage"
+      },
+      {
+        "raw": "Power_060_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_062_Dexterity_Side": {
+    "id": 1031012,
+    "name": "Gravekeeper",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_062_Dexterity_Side",
+      "MultDmgToHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_062_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToHealthy"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_046_Dexterity_Side": {
+    "id": 1031058,
+    "name": "Abyssal",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_046_Dexterity_Side",
+      "MultDmgPercentbyDamageType_NonPhysical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_046_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_NonPhysical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_012_Intelligence_Side": {
+    "id": 1068816,
+    "name": "Protector",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_012_Intelligence_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_012_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_034_Intelligence_Side": {
+    "id": 1068821,
+    "name": "Undaunted",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWhileFortified_Intelligence_Side",
+      "Power_034_Intelligence_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWhileFortified_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageWhileFortified"
+      },
+      {
+        "raw": "Power_034_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_035_Intelligence_Side": {
+    "id": 1068833,
+    "name": "Dominate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "OverpowerDamage_Intelligence_Side",
+      "Power_035_Intelligence_Side",
+      "MultDmgPercentWithOverpower_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "OverpowerDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "OverpowerDamage"
+      },
+      {
+        "raw": "Power_035_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWithOverpower_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWithOverpower"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_011_Willpower_Side": {
+    "id": 1071719,
+    "name": "Imbiber",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWhileHealthy_Willpower_Side",
+      "Power_011_Willpower_Side",
+      "MultDmgPercentWhileHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWhileHealthy_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "DamageWhileHealthy"
+      },
+      {
+        "raw": "Power_011_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileHealthy"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_076_Strength_Side": {
+    "id": 1217015,
+    "name": "Diminish",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_076_Strength_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_076_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_078_Willpower_Side": {
+    "id": 1294418,
+    "name": "Darkness",
+    "rarity": "rare",
+    "affixes_raw": [
+      "ShadowDamage_Intelligence_Main",
+      "Power_078_Intelligence_Main",
+      "MultDmgPercentbyDamageType_Shadow_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "ShadowDamage_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "ShadowDamage",
+        "element": "shadow"
+      },
+      {
+        "raw": "Power_078_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Shadow_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "elements": [
+      "shadow"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_079_Dexterity_Side": {
+    "id": 1296014,
+    "name": "Exploit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToVulnerable_Dexterity_Side",
+      "Power_079_Dexterity_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToVulnerable_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageToVulnerable",
+        "target": "vulnerable"
+      },
+      {
+        "raw": "Power_079_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_035_Willpower_Side_Necro": {
+    "id": 1331811,
+    "name": "Dominate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "OverpowerDamage_Willpower_Side",
+      "Power_035_Willpower_Side_Necro",
+      "MultDmgPercentWithOverpower_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "OverpowerDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "OverpowerDamage"
+      },
+      {
+        "raw": "Power_035_Willpower_Side_Necro",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWithOverpower_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWithOverpower"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_033_Willpower_Side_Necro": {
+    "id": 1331846,
+    "name": "Revenge",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_033_Willpower_Side_Necro",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_033_Willpower_Side_Necro",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_080_Strength_Main": {
+    "id": 1621704,
+    "name": "Twister",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithDustDevils_Strength_Main",
+      "Power_080_Strength_Main",
+      "MultDmgPercentBySkillTag_DustDevils_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithDustDevils_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageWithDustDevils"
+      },
+      {
+        "raw": "Power_080_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_DustDevils_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "DustDevils"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_tags": [
+      "DustDevils"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_081_Strength_Main": {
+    "id": 1622788,
+    "name": "Rumble",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithEarthquakes_Strength_Main",
+      "Power_081_Strength_Main",
+      "MultDmgPercentBySkillTag_Earthquake_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithEarthquakes_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageWithEarthquakes",
+        "skill_class": "earth"
+      },
+      {
+        "raw": "Power_081_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Earthquake_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Earthquake"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "skill_classes": [
+      "earth"
+    ],
+    "skill_tags": [
+      "Earthquake"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_082_Dexterity_Main": {
+    "id": 1622887,
+    "name": "Explosive",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithStunGrenades_Dexterity_Main",
+      "Power_082_Dexterity_Main",
+      "MultDmgPercentBySkillTag_Grenades_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithStunGrenades_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "DamageWithStunGrenades"
+      },
+      {
+        "raw": "Power_082_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Grenades_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Grenades"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_tags": [
+      "Grenades"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_083_Intelligence_Side": {
+    "id": 1622957,
+    "name": "Nightstalker",
+    "rarity": "rare",
+    "affixes_raw": [
+      "ShadowDamage_Intelligence_Side",
+      "Power_083_Intelligence_Side",
+      "MultDmgPercentbyDamageType_Shadow_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "ShadowDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "ShadowDamage",
+        "element": "shadow"
+      },
+      {
+        "raw": "Power_083_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Shadow_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "elements": [
+      "shadow"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_084_Intelligence_Main": {
+    "id": 1623724,
+    "name": "Stalagmite",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithIceSpikes_Intelligence_Main",
+      "Power_084_Intelligence_Main",
+      "MultDmgPercentbyDamageType_Cold_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithIceSpikes_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "DamageWithIceSpikes"
+      },
+      {
+        "raw": "Power_084_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Cold_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_085_Dexterity_Side": {
+    "id": 1623747,
+    "name": "Invocation",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CritDamageWithConjuration_Dexterity_Side",
+      "Power_085_Dexterity_Side",
+      "MultDmgPercentBySkillTag_Conjuration_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CritDamageWithConjuration_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "CritDamageWithConjuration",
+        "skill_class": "conjuration"
+      },
+      {
+        "raw": "Power_085_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Conjuration_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Conjuration"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_classes": [
+      "conjuration"
+    ],
+    "skill_tags": [
+      "Conjuration"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_086_Dexterity_Side": {
+    "id": 1624740,
+    "name": "Tectonic",
+    "rarity": "rare",
+    "affixes_raw": [
+      "EarthCritDamage_Dexterity_Side",
+      "Power_086_Dexterity_Side",
+      "MultDmgPercentBySkillTag_Earth_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "EarthCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "EarthCritDamage",
+        "skill_class": "earth"
+      },
+      {
+        "raw": "Power_086_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Earth_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Earth"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_classes": [
+      "earth"
+    ],
+    "skill_tags": [
+      "Earth"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_087_Willpower_Main": {
+    "id": 1627925,
+    "name": "Electrocution",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithLightningSubPower_Willpower_Main",
+      "Power_087_Willpower_Main",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithLightningSubPower_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "DamageWithLightningSubPower",
+        "element": "lightning"
+      },
+      {
+        "raw": "Power_087_Willpower_Main",
+        "stat": "Willpower",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "elements": [
+      "lightning"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_088_Intelligence_Main": {
+    "id": 1629205,
+    "name": "Exhumation",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithCorpse_Intelligence_Main",
+      "Power_088_Intelligence_Main",
+      "MultDmgPercentWhileHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithCorpse_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "DamageWithCorpse"
+      },
+      {
+        "raw": "Power_088_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileHealthy"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_089_Willpower_Side": {
+    "id": 1631011,
+    "name": "Desecration",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithDesecratedGround_Willpower_Side",
+      "Power_089_Willpower_Side",
+      "MultDmgPercentBySkillTag_DesecratedGround_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithDesecratedGround_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "DamageWithDesecratedGround"
+      },
+      {
+        "raw": "Power_089_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_DesecratedGround_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "DesecratedGround"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "skill_tags": [
+      "DesecratedGround"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_093_Dexterity_Main": {
+    "id": 2063983,
+    "name": "Fitness",
+    "rarity": "rare",
+    "affixes_raw": [
+      "VigorSkillCritDamage_Dexterity_Main",
+      "Power_093_Dexterity_Main",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "VigorSkillCritDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "VigorSkillCritDamage"
+      },
+      {
+        "raw": "Power_093_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_090_Dexterity_Main": {
+    "id": 2064639,
+    "name": "Menagerist",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic_Lesser",
+      "Power_090_Dexterity_Main",
+      "MultDmgPercentBySkillTag_Incarnate_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_090_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentBySkillTag_Incarnate_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentBySkillTag",
+        "skill_tag": "Incarnate"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "skill_tags": [
+      "Incarnate"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_095_Dexterity_Main": {
+    "id": 2066786,
+    "name": "Jagged Plume",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SpiritFeatherPotency_Dexterity_Main",
+      "Power_095_Dexterity_Main",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SpiritFeatherPotency_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "SpiritFeatherPotency"
+      },
+      {
+        "raw": "Power_095_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_091_Strength_Side": {
+    "id": 2067363,
+    "name": "Hone",
+    "rarity": "rare",
+    "affixes_raw": [
+      "HoneJaguarDamage_Strength_Side",
+      "Power_091_Strength_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "HoneJaguarDamage_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "HoneJaguarDamage"
+      },
+      {
+        "raw": "Power_091_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_100_Dexterity_Main": {
+    "id": 2067375,
+    "name": "Talon",
+    "rarity": "rare",
+    "affixes_raw": [
+      "EagleSkillDamage_Dexterity_Main",
+      "Power_100_Dexterity_Main",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "EagleSkillDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "EagleSkillDamage"
+      },
+      {
+        "raw": "Power_100_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_096_Strength_Side": {
+    "id": 2067561,
+    "name": "Innate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "IncarnateDmg_Strength_Side",
+      "Power_096_Strength_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "IncarnateDmg_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "IncarnateDmg"
+      },
+      {
+        "raw": "Power_096_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_097_Dexterity_Main": {
+    "id": 2067631,
+    "name": "Wildfire",
+    "rarity": "rare",
+    "affixes_raw": [
+      "FireDamage_Dexterity_Main",
+      "Power_097_Dexterity_Main",
+      "MultDmgPercentbyDamageType_Fire_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "FireDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "FireDamage",
+        "element": "fire"
+      },
+      {
+        "raw": "Power_097_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Fire_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "elements": [
+      "fire"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_098_Strength_Side": {
+    "id": 2069252,
+    "name": "Colossal",
+    "rarity": "rare",
+    "affixes_raw": [
+      "GorillaDmg_Strength_Side",
+      "Power_098_Strength_Side",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "GorillaDmg_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "GorillaDmg"
+      },
+      {
+        "raw": "Power_098_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_094_Intelligence_Side": {
+    "id": 2069914,
+    "name": "Ritual",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CirclePotency_Intelligence_Side",
+      "Power_094_Intelligence_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CirclePotency_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "CirclePotency"
+      },
+      {
+        "raw": "Power_094_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_092_Intelligence_Side": {
+    "id": 2070496,
+    "name": "Consumption",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithSwarms_Intelligence_Main",
+      "Power_092_Intelligence_Side",
+      "MultDmgPercentbyDamageType_Poison_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithSwarms_Intelligence_Main",
+        "stat": "Intelligence",
+        "side": "Main",
+        "category": "DamageWithSwarms"
+      },
+      {
+        "raw": "Power_092_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Poison_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_101_Strength_Side": {
+    "id": 2070631,
+    "name": "Hubris",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_101_Strength_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_101_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_102_Dexterity_Main": {
+    "id": 2072563,
+    "name": "Fester",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CentiSkillDamage_Dexterity_Main",
+      "Power_102_Dexterity_Main",
+      "MultDmgPercentbyDamageType_Poison_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CentiSkillDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "CentiSkillDamage"
+      },
+      {
+        "raw": "Power_102_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Poison_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_Int_Generic": {
+    "id": 2072751,
+    "name": "Eliminator",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToNormal",
+      "DamageElite__Intelligence",
+      "MultDmgPercentToElites_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToNormal",
+        "category": "Nodes"
+      },
+      {
+        "raw": "DamageElite__Intelligence",
+        "stat": "Intelligence",
+        "category": "DamageElite"
+      },
+      {
+        "raw": "MultDmgPercentToElites_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToElites"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_Str_Generic": {
+    "id": 2073373,
+    "name": "Challenger",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToNormal",
+      "DamageElite__Strength_Legendary",
+      "MultDmgPercentToElites_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToNormal",
+        "category": "Nodes"
+      },
+      {
+        "raw": "DamageElite__Strength_Legendary",
+        "stat": "Strength",
+        "side": "Legendary",
+        "category": "DamageElite"
+      },
+      {
+        "raw": "MultDmgPercentToElites_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToElites"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_Dex_Generic": {
+    "id": 2073378,
+    "name": "Headhunter",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToNormal",
+      "DamageElite__Dexterity",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToNormal",
+        "category": "Nodes"
+      },
+      {
+        "raw": "DamageElite__Dexterity",
+        "stat": "Dexterity",
+        "category": "DamageElite"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_047_Intelligence_Side": {
+    "id": 2077016,
+    "name": "Fulminate",
+    "rarity": "rare",
+    "affixes_raw": [
+      "LightningDamage_Intelligence_Side",
+      "Power_047_Dexterity_Side",
+      "MultDmgPercentbyDamageType_Lightning_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "LightningDamage_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "LightningDamage",
+        "element": "lightning"
+      },
+      {
+        "raw": "Power_047_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Lightning_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "elements": [
+      "lightning"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_050_Dexterity_Main": {
+    "id": 2077106,
+    "name": "Spirit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "VigorCritDamage_Dexterity_Main",
+      "Power_050_Dexterity_Main",
+      "MultDmgPercentToElites_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "VigorCritDamage_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "VigorCritDamage"
+      },
+      {
+        "raw": "Power_050_Dexterity_Main",
+        "stat": "Dexterity",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToElites_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentToElites"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_049_Strength_Side": {
+    "id": 2077200,
+    "name": "Outmatch",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_049_Strength_Side",
+      "MultDmgPercentWhileHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_049_Strength_Side",
+        "stat": "Strength",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileHealthy"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_Will_Generic": {
+    "id": 2117207,
+    "name": "Headhunter",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToNormal",
+      "DamageElite__Willpower",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToNormal",
+        "category": "Nodes"
+      },
+      {
+        "raw": "DamageElite__Willpower",
+        "stat": "Willpower",
+        "category": "DamageElite"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_033_Intelligence_Side": {
+    "id": 2120405,
+    "name": "Revenge",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare_Lesser",
+      "Power_033_Intelligence_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare_Lesser",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_033_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_103_Strength_Main": {
+    "id": 2477888,
+    "name": "Sentinel",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithJuggernautSkills_Strength_Main",
+      "Power_103_Strength_Main",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithJuggernautSkills_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageWithJuggernautSkills"
+      },
+      {
+        "raw": "Power_103_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_104_Dexterity_Side": {
+    "id": 2477896,
+    "name": "Honed",
+    "rarity": "rare",
+    "affixes_raw": [
+      "CombatCritDamage_Dexterity_Side",
+      "Power_104_Dexterity_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "CombatCritDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "CombatCritDamage"
+      },
+      {
+        "raw": "Power_104_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_105_Strength_Main": {
+    "id": 2478228,
+    "name": "Law",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithJudgement_Strength_Main",
+      "Power_105_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithJudgement_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageWithJudgement"
+      },
+      {
+        "raw": "Power_105_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_106_Willpower_Side": {
+    "id": 2478242,
+    "name": "Arbiter ",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithArbiterSkills_Willpower_Side",
+      "Power_106_Willpower_Side",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithArbiterSkills_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "DamageWithArbiterSkills"
+      },
+      {
+        "raw": "Power_106_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_107_Strength_Main": {
+    "id": 2478548,
+    "name": "Resplendence",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToMagic",
+      "Power_107_Strength_Main",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToMagic",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_107_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_108_Intelligence_Side": {
+    "id": 2478561,
+    "name": "Judicator",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithJudicatorSkills_Intelligence_Side",
+      "Power_108_Intelligence_Side",
+      "MultDmgPercentbyDamageType_Holy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithJudicatorSkills_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageWithJudicatorSkills"
+      },
+      {
+        "raw": "Power_108_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Holy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_109_Dexterity_Side": {
+    "id": 2478571,
+    "name": "Feverous",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithZealotSkills_Dexterity_Side",
+      "Power_109_Dexterity_Side",
+      "MultDmgPercentAll_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithZealotSkills_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "DamageWithZealotSkills"
+      },
+      {
+        "raw": "Power_109_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentAll_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentAll"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_110_Strength_Main": {
+    "id": 2478580,
+    "name": "Apostle",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageWithDiscipleSkills_Strength_Main",
+      "Power_110_Strength_Main",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageWithDiscipleSkills_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageWithDiscipleSkills"
+      },
+      {
+        "raw": "Power_110_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_055_Dexterity_Side": {
+    "id": 2479231,
+    "name": "Chip",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PhysicalDamage_Dexterity_Side",
+      "Power_055_Dexterity_Side",
+      "MultDmgPercentbyDamageType_Physical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PhysicalDamage_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "PhysicalDamage",
+        "element": "physical"
+      },
+      {
+        "raw": "Power_055_Dexterity_Side",
+        "stat": "Dexterity",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Physical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Dexterity"
+    ],
+    "elements": [
+      "physical"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_076_Strength_Main": {
+    "id": 2479306,
+    "name": "Diminish",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_076_Strength_Main",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_076_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_055_Willpower_Side": {
+    "id": 2506071,
+    "name": "Chip",
+    "rarity": "rare",
+    "affixes_raw": [
+      "PhysicalDamage_Willpower_Side",
+      "Power_055_Willpower_Side",
+      "MultDmgPercentbyDamageType_Physical_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "PhysicalDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "PhysicalDamage",
+        "element": "physical"
+      },
+      {
+        "raw": "Power_055_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentbyDamageType_Physical_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentbyDamageType"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "elements": [
+      "physical"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_016_Intelligence_Side": {
+    "id": 2506132,
+    "name": "Exploit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToVulnerable_Intelligence_Side",
+      "Power_016_Intelligence_Side",
+      "MultDmgPercentToVulnerableLegendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToVulnerable_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "DamageToVulnerable",
+        "target": "vulnerable"
+      },
+      {
+        "raw": "Power_016_Intelligence_Side",
+        "stat": "Intelligence",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentToVulnerableLegendary",
+        "category": "MultDmgPercentToVulnerableLegendary",
+        "target": "vulnerable"
+      }
+    ],
+    "main_stats": [
+      "Intelligence"
+    ],
+    "targets": [
+      "vulnerable"
+    ],
+    "has_legendary_bonus": false
+  },
+  "Rare_049_Strength_Main": {
+    "id": 2506253,
+    "name": "Outmatch",
+    "rarity": "rare",
+    "affixes_raw": [
+      "Nodes_BonusToRare",
+      "Power_049_Strength_Main",
+      "MultDmgPercentWhileHealthy_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "Nodes_BonusToRare",
+        "category": "Nodes"
+      },
+      {
+        "raw": "Power_049_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgPercentWhileHealthy_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgPercentWhileHealthy"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_050_Willpower_Side": {
+    "id": 2506810,
+    "name": "Spirit",
+    "rarity": "rare",
+    "affixes_raw": [
+      "SpiritCritDamage_Willpower_Side",
+      "Power_050_Willpower_Side",
+      "MultCritDmgPercent_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "SpiritCritDamage_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "SpiritCritDamage"
+      },
+      {
+        "raw": "Power_050_Willpower_Side",
+        "stat": "Willpower",
+        "side": "Side",
+        "category": "Power"
+      },
+      {
+        "raw": "MultCritDmgPercent_Legendary",
+        "side": "Legendary",
+        "category": "MultCritDmgPercent"
+      }
+    ],
+    "main_stats": [
+      "Willpower"
+    ],
+    "has_legendary_bonus": true
+  },
+  "Rare_014_Strength_Main": {
+    "id": 2506847,
+    "name": "Turf",
+    "rarity": "rare",
+    "affixes_raw": [
+      "DamageToNear_Strength_Main",
+      "Power_014_Strength_Main",
+      "MultDmgToClose_Legendary"
+    ],
+    "parsed_affixes": [
+      {
+        "raw": "DamageToNear_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "DamageToNear"
+      },
+      {
+        "raw": "Power_014_Strength_Main",
+        "stat": "Strength",
+        "side": "Main",
+        "category": "Power"
+      },
+      {
+        "raw": "MultDmgToClose_Legendary",
+        "side": "Legendary",
+        "category": "MultDmgToClose"
+      }
+    ],
+    "main_stats": [
+      "Strength"
+    ],
+    "has_legendary_bonus": true
+  }
+}

@@ -1,0 +1,4642 @@
+{
+  "Sorcerer_Enchantment_Spark": {
+    "name": "Sorcerer_Enchantment_Spark",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Killing an enemy has a 20% chance to form a Crackling Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_FireBall": {
+    "name": "Sorcerer_Enchantment_FireBall",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you kill an enemy, they explode in a Fireball for 50% of its damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_IceShards": {
+    "name": "Sorcerer_Enchantment_IceShards",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Ice Shards automatically conjure and fly towards Frozen enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_FlameShield": {
+    "name": "Sorcerer_Enchantment_FlameShield",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Losing 30% of your Maximum life within 2 seconds automatically activates Flame Shield. Can only happen once every 302? seconds.",
+    "buffs": [
+      {
+        "id": 117712,
+        "name": "Flame Shield Enchant Cooldown",
+        "desc": "Flame Shield Enchant Cooldown"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_FrostNova": {
+    "name": "Sorcerer_Enchantment_FrostNova",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to a 10% chance to unleash a Frost Nova after hitting an enemy.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "free_proc_chance",
+        "value": 0.1,
+        "type": "proc"
+      }
+    ]
+  },
+  "Sorcerer_Enchantment_Firebolt": {
+    "name": "Sorcerer_Enchantment_Firebolt",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Dealing Burning damage has a 10% chance to heal you for 4% of your Maximum Life and unleash a Fire Bolt at a nearby enemy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_ChargedBolt": {
+    "name": "Sorcerer_Enchantment_ChargedBolt",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you Stun an enemy, there's a 40% chance to release 3 Charged Bolts from them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Frostbolt": {
+    "name": "Sorcerer_Enchantment_Frostbolt",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Direct damage from Skills applies up to 18% Chill.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_IceArmor": {
+    "name": "Sorcerer_Enchantment_IceArmor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Healing Potions apply Ice Armor and have a 25% chance to refund themselves.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Firewall": {
+    "name": "Sorcerer_Enchantment_Firewall",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to 25% chance when dealing Burning damage to spawn 2 Firewalls for 3 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Blizzard": {
+    "name": "Sorcerer_Enchantment_Blizzard",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 152? seconds, a Blizzard forms over you and follows you for 62? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Incinerate": {
+    "name": "Sorcerer_Enchantment_Incinerate",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 82? seconds, a serpent spawns and Incinerates enemies for 8 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_ArcLash": {
+    "name": "Sorcerer_Enchantment_ArcLash",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you use a Cooldown, enemies around you are Stunned for 341 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Meteor": {
+    "name": "Sorcerer_Enchantment_Meteor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to a 8% chance for a Meteor to fall on enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_IceBlades": {
+    "name": "Sorcerer_Enchantment_IceBlades",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "For every 402? seconds in Cooldowns you spend, you spawn an Ice Blades on a random enemy.",
+    "buffs": [
+      {
+        "id": 1061123376,
+        "name": "Ice Blades Enchantment",
+        "desc": "Cooldowns spawn Ice Blades."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Hydra": {
+    "name": "Sorcerer_Enchantment_Hydra",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After spending 2002? Mana, a 5-headed Hydra spawns for 102? seconds.",
+    "buffs": [
+      {
+        "id": 1783276972,
+        "name": "Hydra Enchantment",
+        "desc": "Spending Mana spawns a Hydra."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_BallLightning": {
+    "name": "Sorcerer_Enchantment_BallLightning",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes have up to a 25% chance to spawn a static Ball Lightning.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_Teleport": {
+    "name": "Sorcerer_Enchantment_Teleport",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Evade invokes Teleport with a 52? second Cooldown that cannot be reduced.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_LightningSpear": {
+    "name": "Sorcerer_Enchantment_LightningSpear",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Absorbing Crackling Energy has a 10% chance to conjure a Lightning Spear.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Enchantment_FrozenOrb": {
+    "name": "Sorcerer_Enchantment_FrozenOrb",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Skill has a 30% chance to launch a Frozen Orb at a Nearby enemy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Cold_T2_N2": {
+    "name": "Permafrost",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased damage while a Frost Skill is on your Action Bar.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_02": {
+    "name": "Primordial Binding",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 6%x Summon Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_01": {
+    "name": "Hoarfrost",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased damage to Chilled enemies, and 6%x increased damage to Frozen enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Cold_T2_N3": {
+    "name": "Icy Touch",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 4%x increased damage to Vulnerable enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Sorcerer_Talent_Cold_T3_N1": {
+    "name": "Shatter",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After Freeze expires, enemies explode for 45% of the damage you dealt to them while Frozen.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_proc_explode",
+        "value": 0.45,
+        "type": "proc"
+      }
+    ]
+  },
+  "Sorcerer_Talent_Cold_T3_N2": {
+    "name": "Avalanche",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Frost Skills cost 30% less Mana and deal 60%[x] increased damage. Damage is increased by an additional 25%x against Vulnerable enemies.",
+    "buffs": [
+      {
+        "id": 1895795771,
+        "name": "Avalanche",
+        "desc": "Next Mana-spending Cold Skill is free and deals more damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Sorcerer_Talent_Elemental_T2_N3": {
+    "name": "Elemental Dominance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Core Skills deal 4%x increased damage when cast above 50 Mana.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Elemental_T2_N2": {
+    "name": "Elemental Attunement",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes have up to a 7% chance to reset the Cooldown of one of your Defensive Skills. Can only happen once every 10 seconds.",
+    "buffs": [
+      {
+        "id": 2209130471,
+        "name": "Elemental Attunement",
+        "desc": "Cannot reset Defensive Skills."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Elemental_T2_N1": {
+    "name": "Glass Cannon",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 8%x increased damage, but take 2%x more damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T2_N1": {
+    "name": "Warmth",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 1 second, you Heal for 0.21% of your Maximum Life (0.01) for each Nearby Burning enemy. Healing increased to 21% from Bosses.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T1_N2": {
+    "name": "Inner Flames",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased damage while Healthy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T1_N1": {
+    "name": "Soulfire",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Pyromancy Skills cost 4% less Mana and deal 2%x increased damage. Double these bonuses after standing still for 2 seconds.",
+    "buffs": [
+      {
+        "id": 3162754615,
+        "name": "Soulfire",
+        "desc": "Pyromancy Skill costs and damage are much better."
+      },
+      {
+        "id": 1333045285,
+        "name": "Soulfire",
+        "desc": "Pyromancy Skill costs and damage are slightly better."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T2_N2": {
+    "name": "Endless Pyre",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased Burning damage. This bonus is increased to 25%x to enemies while they are affected by more Burning Damage Over Time than their total Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T3_N1": {
+    "name": "Combustion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Burning effects deal 50%[x] increased damage, and an additional 20%[x] of your Burning Damage and Damage to Burning targets bonuses, up to 100%[x] .  Current Bonus: 1001%x",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.5,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Sorcerer_Talent_Fire_T3_N2": {
+    "name": "Esu's Ferocity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Fire Critical Strike Damage is increased by 75%[x] against enemies above 50% Life. Your Fire Critical Strike Chance is increased by 40%[+] against enemies below 50% Life.  Critical Strikes that kill enemies or hit a Boss grant both bonuses against all enemies for X2? seconds.",
+    "buffs": [
+      {
+        "id": 2173872434,
+        "name": "Esu's Ferocity",
+        "desc": "Increased Fire Critical Strike Chance and damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T1_N1": {
+    "name": "Coursing Currents",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Hitting enemies with Shock Skills increases your Critical Strike Chance by 1%+. Resets upon getting a Critical Strike.",
+    "buffs": [
+      {
+        "id": 1703665717,
+        "name": "Coursing Currents",
+        "desc": "Critical Strike Chance increased."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_09": {
+    "name": "Invigorating Conduit",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Upon absorbing Crackling Energy, you gain 42? Mana.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_10": {
+    "name": "Conduction",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critical Strikes with Shock Skills increase your Movement Speed by 4%+ for 4 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T1_N2": {
+    "name": "Static Discharge",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes with Shock Skills have up to a 6% chance to form a Crackling Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T3_N1": {
+    "name": "Overflowing Energy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 85%[x] increased Lightning Damage and Crackling Energy hits 1 additional enemy. Each time Crackling Energy hits an enemy, your Shock Skill Cooldowns are reduced by 0.1 seconds, increased to 0.35 seconds against Elites.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.85,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Sorcerer_Talent_Lightning_T3_N2": {
+    "name": "Vyr's Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you Critically Strike an enemy with a Shock Skill you become Charged and take 25%[x] less damage for X2? seconds.  While Charged:  Critical Strikes have a 25% chance to cause the damage to arc as Lightning damage to up to 3 surrounding enemies, or if there are no other targets you hit the target again for 300% of the damage.",
+    "buffs": [
+      {
+        "id": 3919095796,
+        "name": "Vyr's Mastery",
+        "desc": "Bonuses increased."
+      },
+      {
+        "id": 2967225172,
+        "name": "Mage Lord's",
+        "desc": "Damage Reduction increased."
+      },
+      {
+        "id": 3195637678,
+        "name": "Charged",
+        "desc": "Damage reduction and a chance to Arc damage when Critical Striking."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.25,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Sorcerer_Talent_05": {
+    "name": "Frigid Breeze",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Cold damage against Vulnerable enemies has up to a 20% chance to generate 52? Mana.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Sorcerer_Talent_03": {
+    "name": "Precision Magic",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Lucky Hit Chance is increased by 5+%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T2_N1": {
+    "name": "Shocking Impact",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every time you Stun an enemy or attempt to Stun a Boss, you deal X2? Lightning damage to them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Elemental_T1_N2": {
+    "name": "Devastation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Maximum Mana is increased by 32?.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_07": {
+    "name": "Protection",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Using a Cooldown grants 5% of your Maximum Life (0.1) as a Barrier for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Sorcerer_Talent_08": {
+    "name": "Crippling Flames",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your Pyromancy Skills have up to a 7.0% chance to Immobilize enemies for 2 seconds. This chance is doubled while you are Healthy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Cold_T1_N2": {
+    "name": "Snap Freeze",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Frost Skills have up to a 72?% chance to instantly Freeze.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Cold_T2_N1": {
+    "name": "Cold Front",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While you have a Barrier active, you apply 8x% more Chill.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Sorcerer_Talent_06": {
+    "name": "Mana Shield",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every time you spend 100 Mana, you gain 10% Damage Reduction for 5 seconds.",
+    "buffs": [
+      {
+        "id": 645480941,
+        "name": "Mana Shield",
+        "desc": "Damage Reduction increased."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.1
+      }
+    ]
+  },
+  "Sorcerer_Talent_Cold_T1_N1": {
+    "name": "Icy Veil",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Barriers have an 8%+ increased duration.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Sorcerer_Talent_04": {
+    "name": "Fiery Surge",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Killing a Burning enemy increases your Mana Regeneration by 15%+ for X2? seconds.",
+    "buffs": [
+      {
+        "id": 110096574,
+        "name": "Fiery Surge",
+        "desc": "Resource Regeneration increased."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T2_N2": {
+    "name": "Convulsions",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5x% increased damage while you have Crackling Energy. You periodically pick up nearby Crackling Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Lightning_T2_N3": {
+    "name": "Electrocution",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Enemies deal 6% less damage for X2? seconds after being Critically Struck by your Shock Skills.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Fire_T2_N3": {
+    "name": "Devouring Blaze",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Pyromancy Skills deal 10%x increased Critical Strike Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Elemental_T1_N1": {
+    "name": "Potent Warding",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Skill grants 3+% All Resistance and 5+% Resistance to that Skill's Element for 9 seconds.",
+    "buffs": [
+      {
+        "id": 2326585362,
+        "name": "Potent Warding",
+        "desc": "Resistances increased."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Elemental_T1_N3": {
+    "name": "Align the Elements",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 32?% Damage Reduction against Elites for each second you haven't taken damage from one, up to 60%. This bonus persists for 3 seconds after taking damage.",
+    "buffs": [
+      {
+        "id": 2095241667,
+        "name": "Align The Elements",
+        "desc": "Damage Reduction against Elites, Bosses, and Players is increased."
+      },
+      {
+        "id": 2238034413,
+        "name": "Align The Elements",
+        "desc": "Damage Reduction against Elites, Bosses, and Players is increased."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_12": {
+    "name": "Elemental Synergies",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Frost, Shock, and Pyromancy Skills deal 1%x increased damage for each Skill you have equipped of their type. This bonus is doubled if all of your Skills are the same Element.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_14": {
+    "name": "Energy Focus",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You generate a Barrier for 0.51% of your Maximum Life every second up to 20%. This effect is lost for 5 seconds after losing Life.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Sorcerer_Talent_11": {
+    "name": "Dampen Layer",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 2% Damage Reduction while you have an active Barrier.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      },
+      {
+        "tag": "damage_reduction",
+        "value": 0.02
+      }
+    ]
+  },
+  "Sorcerer_Talent_13": {
+    "name": "Evocation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 4% Cooldown Reduction.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "cooldown_reduction",
+        "value": 0.04
+      }
+    ]
+  },
+  "Druid_Talent_Shapeshifting_T2_N2": {
+    "name": "Digitigrade Gait",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 4%+ Movement Speed while in Werewolf form.  This bonus persists for X2? seconds after leaving Werewolf form.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T2_N1": {
+    "name": "Elemental Exposure",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your Storm Skills have up to a 10% chance to make enemies Vulnerable for X1 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_11": {
+    "name": "Mending",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While in Werebear form, you receive 6%+ additional Healing from all sources and gain 4%x increased Maximum Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_06": {
+    "name": "Nature's Reach",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Deal 5%x increased damage to Distant enemies. Deal an additional 5%x damage if they are also Slowed, Stunned, Immobilized, or Knocked Back.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T1_N2": {
+    "name": "Abundance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Basic Skills generate 15% more Spirit.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T2_N1": {
+    "name": "Iron Fur",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 4% Damage Reduction while in Werebear form.  This bonus persists for X2? seconds after leaving Werebear form.",
+    "buffs": [
+      {
+        "id": 1263545399,
+        "name": "Iron Fur",
+        "desc": "Increased Werebear Damage Reduction."
+      },
+      {
+        "id": 126867084,
+        "name": "Iron Fur",
+        "desc": "Increased Werebear Damage Reduction."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.04
+      }
+    ]
+  },
+  "Druid_Talent_03": {
+    "name": "Clarity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After casting a Companion Skill, your next Core or Wrath Skill's damage and Critical Strike Chance are increased by 5%x, up to 5%x.",
+    "buffs": [
+      {
+        "id": 2349059050,
+        "name": "Clarity",
+        "desc": "Your next Core or Wrath Skill has increased damage and Critical Strike Chance."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T4_N3": {
+    "name": "Toxic Claws",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5%x increased Poison damage. This is doubled while in Werewolf form and for X2? seconds after leaving it.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_07": {
+    "name": "Thick Hide",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Whenever you are Stunned, Immobilized or Knocked Down, Fortify for 10% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Talent_Shapeshifting_T3_N2": {
+    "name": "Nature's Resolve",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "5% chance when struck to Fortify you for 4% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Talent_10": {
+    "name": "Wild Impulses",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Core Skills cost 3%x more Spirit but deal 5%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_04": {
+    "name": "Defensive Posture",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increases the amount of Fortify you gain from all sources by 5%+.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Talent_02": {
+    "name": "Safeguard",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critical Strikes with Earth Skills Fortify you for 0.11% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Talent_01": {
+    "name": "Stone Guard",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While Fortified, your Earth Skills deal 4%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Hybrid_T5_N2": {
+    "name": "Nature's Fury",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting or Channeling an Earth Skill has a 40% chance to trigger a free Storm Skill of the same category, and vice versa. You deal 40%[x] more Earth and Storm damage and these free Skills count as both.  Skills on your Action Bar are far more likely to trigger.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "free_proc_chance",
+        "value": 0.4,
+        "type": "proc"
+      }
+    ]
+  },
+  "Druid_Talent_NatureMagic_T2_N2": {
+    "name": "Crushing Earth",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Earth Skills deal 5%x increased damage to Slowed, Stunned, Immobilized or Knocked Back enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Hybrid_T5_N1": {
+    "name": "Bestial Rampage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When Shapeshifting, Werebear grants 40%[x] increased damage and Werewolf grants 30%[+] Attack Speed.   Both bonuses persist as long as you are in either animal form and are lost after 3 seconds in Human form.",
+    "buffs": [
+      {
+        "id": 1278482058,
+        "name": "Bestial Fury Attack Speed",
+        "desc": "Attack Speed increased for being a Werewolf."
+      },
+      {
+        "id": 2745818397,
+        "name": "Bestial Fury Attack Speed",
+        "desc": "Attack Speed increased for being a Werewolf."
+      },
+      {
+        "id": 2930665880,
+        "name": "Bestial Fury Attack Damage",
+        "desc": "Damage increased for being a Werebear."
+      },
+      {
+        "id": 4108124811,
+        "name": "Bestial Fury Attack Damage",
+        "desc": "Damage increased for being a Werebear."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.4,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "attack_speed",
+        "value": 0.3,
+        "type": "additive"
+      }
+    ]
+  },
+  "Druid_Talent_Shapeshifting_T5_N2": {
+    "name": "Lupine Ferocity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 3rd Werewolf Skill hit Critically Strikes. Werewolf Critical Strikes deal 75%x increased damage.",
+    "buffs": [
+      {
+        "id": 3415415053,
+        "name": "Ferocity",
+        "desc": "Critical Strike and bonus damage every 3 strikes"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T5_N1": {
+    "name": "Ursine Strength",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 301% Maximum Life, 201%x more damage, and a 1001%x Overpower bonus while in Werebear form and for X2? seconds after leaving it.",
+    "buffs": [
+      {
+        "id": 3563426049,
+        "name": "Ursine Strength",
+        "desc": "Maximum Life increased by 30%. You are dealing more damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_Shapeshifting_T3_N1": {
+    "name": "Neurotoxin",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Poisoned enemies are slowed by 8%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T4_N1": {
+    "name": "Quickshift",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Shapeshifting into a new animal form grants 1%x increased damage, up to 1%x. This bonus is lost after 3 seconds in Human form.",
+    "buffs": [
+      {
+        "id": 2841370369,
+        "name": "Quickshift",
+        "desc": "Dealing increased damage."
+      },
+      {
+        "id": 4096444220,
+        "name": "Quickshift",
+        "desc": "Dealing increased damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T4_N2": {
+    "name": "Natural Fortitude",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Shapeshifting Fortifies you for 0.21% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T4_N2": {
+    "name": "Defiance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Nature Magic Skills deal 4%x increased damage to Elites.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_05": {
+    "name": "Heart of the Wild",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Maximum Spirit is increased by 32?.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T2_N3": {
+    "name": "Call of the Wild",
+    "primary_tag": "Skill_Primary_Companion",
+    "category": 12,
+    "desc": "Your Companion Skills deal 12%x bonus damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_13": {
+    "name": "Charged Atmosphere",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 3 seconds, a Lightning Bolt hits a Nearby enemy dealing X2? damage. Your Lightning Bolts deal 10% increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage",
+        "value": 0.1,
+        "type": "additive"
+      }
+    ]
+  },
+  "Druid_Talent_12": {
+    "name": "Provocation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After 10 seconds of Werebear form, your next non-Defensive Skill will Overpower and deal 5%x increased damage.",
+    "buffs": [
+      {
+        "id": 2458444021,
+        "name": "Provocation",
+        "desc": "At 10 stacks, your next Skill will Overpower."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_09": {
+    "name": "Vigilance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 5% Damage Reduction for X2? seconds after using a Defensive Skill.",
+    "buffs": [
+      {
+        "id": 4276614347,
+        "name": "Vigilance",
+        "desc": "Taking reduced damage"
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.05
+      }
+    ]
+  },
+  "Druid_Talent_Shapeshifting_T1_N1": {
+    "name": "Heightened Senses",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When Shapeshifting, Werebear grants 3% Damage Reduction and Werewolf grants 3%+ Movement Speed.   Both bonuses persist as long as you are in either animal form. They are lost after 3 seconds in Human form.",
+    "buffs": [
+      {
+        "id": 645480941,
+        "name": "Heightened Senses",
+        "desc": "Increased Damage Reduction"
+      },
+      {
+        "id": 969284096,
+        "name": "Heightened Senses",
+        "desc": "Increases Damage Reduction"
+      },
+      {
+        "id": 3457756493,
+        "name": "Heightened Senses",
+        "desc": "Increased Movement Speed"
+      },
+      {
+        "id": 562340448,
+        "name": "Heightened Senses",
+        "desc": "Increased Movement Speed"
+      },
+      {
+        "id": 3759094661,
+        "name": "Heightened Senses",
+        "desc": "Increased Movement Speed and Damage Reduction."
+      },
+      {
+        "id": 1354982618,
+        "name": "Heightened Senses",
+        "desc": "Increased Movement Speed and Damage Reduction."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.03
+      }
+    ]
+  },
+  "Druid_Talent_NatureMagic_T5_N2": {
+    "name": "Perfect Storm",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Storm Skills deal 80%[x] increased damage and damaging a Vulnerable, Immobilized or Slowed enemy with Storm Skills you Cast grants 2 Spirit.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.8,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_NatureMagic_T5_N1": {
+    "name": "Earthen Might",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Damaging enemies with Earth Skills has up to a 15% chance to:  Restore 100 Spirit  Cause your attacks to be guaranteed Critical Strikes and deal 70%[x] increased Critical Strike Damage for X2? seconds  This chance is increased by:  20% for Critical Strikes  25% if the target is Stunned, Immobilized, or Knocked Back",
+    "buffs": [
+      {
+        "id": 3519920441,
+        "name": "Earthen Might",
+        "desc": "Attacks are guaranteed Critcal Strikes"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_08": {
+    "name": "Unrestrained",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Reduce the duration of Control Impairing Effects by 5%. Double this effect while Fortified.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T4_N3": {
+    "name": "Natural Disaster",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Earth Skills deal 4%x increased damage to Vulnerable enemies.  Your Storm Skills deal 4%x increased damage to enemies that are Stunned, Immobilized or Knocked Back.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_NatureMagic_T4_N1": {
+    "name": "Electric Shock",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Dealing Lightning damage to enemies has up to a 82?% chance to Immobilize them for X2? seconds.  If the target is already Immobilized, the Lightning damage dealt to them is increased by 7.0%x instead.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T3_N3": {
+    "name": "Endless Tempest",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase the duration of Hurricane and Cataclysm by 5%x.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T3_N2": {
+    "name": "Resonance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Nature Magic Skills deal 2%x increased damage. Triple this bonus if an Earth Skill is the next Skill cast after a Storm Skill, or a  Storm Skill is the next Skill cast after an Earth Skill.",
+    "buffs": [
+      {
+        "id": 2305307228,
+        "name": "Empowered Earth",
+        "desc": "Bonus damage if next Skill cast is an Earth Skill."
+      },
+      {
+        "id": 338188349,
+        "name": "Empowered Storm",
+        "desc": "Bonus damage if next Skill cast is a Storm Skill."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_Shapeshifting_T1_N2": {
+    "name": "Predatory Instinct",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critical Strike Chance against Close enemies is increased by 2%+.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_14": {
+    "name": "Bad Omen",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to a 30% chance when dealing damage to a Vulnerable, Immobilized or Stunned enemy that a Lightning Bolt also hits dealing X2? damage.  Applying Immobilized or Stun will also hit the target with a Lightning Bolt.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_NatureMagic_T2_N3": {
+    "name": "Ancestral Fortitude",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase your Non-Physical Resistances by 5+%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T1_N1": {
+    "name": "Circle of Life",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Nature Magic Skills that consume Spirit, Heal you for 1% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_15": {
+    "name": "Envenom",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You and your Companions gain 10%x bonus Critical Strike Damage against Poisoned enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "X1_Druid_Talent_Hybrid_T5_N6": {
+    "name": "One With Nature",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Companion Skills each gain 1 additional companion and deal 80%[x] increased damage.  Gain the Passive Effect of Ravens, Wolves and Poison Creeper.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.8,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Druid_Talent_17": {
+    "name": "Humanity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5x% increased damage and gain  2% Damage Reduction while in Human form.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.02
+      }
+    ]
+  },
+  "Druid_Talent_16": {
+    "name": "Catastrophe",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5x% increased damage for 8 seconds after casting an Ultimate Skill.",
+    "buffs": [
+      {
+        "id": 747772933,
+        "name": "Catastrophe",
+        "desc": "Dealing 5%x increased damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_18": {
+    "name": "Feral Aptitude ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased damage while Healthy and 3%x increased damage while above 100% Movement Speed. These bonuses can stack.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Talent_19": {
+    "name": "Backlash",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 4%x increased damage for 5 seconds after casting a Defensive Skill.",
+    "buffs": [
+      {
+        "id": 747772933,
+        "name": "Backlash",
+        "desc": "Dealing increased damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Deer_01": {
+    "name": "Prickleskin",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Deal 5% increased damage to enemies for 5 seconds after they attack you.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_vs_enemies",
+        "value": 0.05,
+        "type": "additive"
+      }
+    ]
+  },
+  "Druid_Passive_Deer_02": {
+    "name": "Gift of the Stag",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 30[+] Maximum Spirit. You gain 10 Spirit every second.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Deer_03": {
+    "name": "Wariness",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Take 15% reduced damage from Elites.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Deer_04": {
+    "name": "Advantageous Beast",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 15%[+] Movement Speed and 15%[+] Impairment Reduction.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "movement_speed",
+        "value": 0.15
+      }
+    ]
+  },
+  "Druid_Passive_Eagle_01": {
+    "name": "Scythe Talons",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 15%[+] increased Critical Strike Chance and 15%[x] increased Lucky Hit Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Eagle_02": {
+    "name": "Iron Feather",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 30%[x] Maximum Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Eagle_03": {
+    "name": "Swooping Attacks",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 20%[+] Attack Speed.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "attack_speed",
+        "value": 0.2,
+        "type": "additive"
+      }
+    ]
+  },
+  "Druid_Passive_Eagle_04": {
+    "name": "Avian Wrath",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 40%[x] Critical Strike Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Wolf_01": {
+    "name": "Pack Leader",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes have up to a 301% chance to reset the Cooldowns of your Companion Skills.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Wolf_02": {
+    "name": "Energize",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Dealing damage has up to a 15% chance to restore 100 Spirit.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Wolf_03": {
+    "name": "Bolster",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Fortify for 50% of your Maximum Life when you use a Defensive Skill.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Passive_Wolf_04": {
+    "name": "Calamity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Extend the duration of Ultimate Skills by 35%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Snake_01": {
+    "name": "Obsidian Slam",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 6th casted attack will cause your next Earth Skill to Overpower.",
+    "buffs": [
+      {
+        "id": 110125068,
+        "name": "Obsidian Slam",
+        "desc": "Attacks will lead to a guaranteed Overpower."
+      },
+      {
+        "id": 3642543401,
+        "name": "Obsidian Slam: Overpower",
+        "desc": "Your next Earth Skill will Overpower."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Passive_Snake_02": {
+    "name": "Overload",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Dealing damage with Storm Skills, Lightning Bolts, and Dancing Bolts also applies an additional X2? Poisoning damage over 5 seconds.  Lucky Hit: Dealing Poison damage has up to a 35% chance to summon a Lightning Bolt on the target dealing X2? damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Passive_Snake_03": {
+    "name": "Masochistic",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes with Shapeshifting Skills have up to a 30% chance to Fortify you for 1% Maximum Life (0.0).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Druid_Passive_Snake_04": {
+    "name": "Calm Before the Storm",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Nature Magic Skills have up to a 10% chance to reduce the Cooldown of your Ultimate Skill by 2 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T1_N2": {
+    "name": "Tough as Nails",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase your Thorns by 3%+. When enemies hit you, they take an additional 15% of your Thorns as Bleeding damage over X2? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_09": {
+    "name": "Raid Leader",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Shouts also Heal allies for 1% of their Maximum Life per second.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_07": {
+    "name": "Outburst",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 12? Thorns. Also gain 12? Thorns for each 12? bonus Maximum Life you have.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_01": {
+    "name": "Aggressive Resistance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 4% Damage Reduction while Berserking.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_berserking",
+        "value": 1.0
+      },
+      {
+        "tag": "damage_reduction",
+        "value": 0.04
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T3_N2": {
+    "name": "Quick Impulses",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Reduce the duration of Control Impairing Effects by 6%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_08": {
+    "name": "Pressure Point",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your Core and Weapon Mastery skills have up to a 102?% chance to make enemies Vulnerable for 2 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_03": {
+    "name": "Counteroffensive ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While Fortified, deal 4%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T3_N3": {
+    "name": "Invigorating Fury",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Heal for 3% of your Maximum Life (1) for each 100 Fury spent.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_04": {
+    "name": "Defensive Stance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While Fortified, gain 3% Damage Reduction.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.03
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T4_N3": {
+    "name": "Prolific Fury",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While Berserking, Fury Generation is increased by 6%x.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_berserking",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T2_N4": {
+    "name": "Heavy Handed",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While using Two-Handed weapons you deal 6%x increased Critical Strike Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T5_N2": {
+    "name": "Unbridled Rage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Core Skills deal 50%[x] increased damage, but cost 100%[x] more Fury. The damage is doubled against Injured enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.5,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T5_N1": {
+    "name": "Walking Arsenal",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Skill with a Two-Handed Bludgeoning, Two-Handed Slashing, or Dual-Wielded weapon grants 15%[x] increased damage for X2? seconds.  While all three bonuses are active, you gain Unstoppable and 45%[+] Attack Speed.",
+    "buffs": [
+      {
+        "id": 2540570877,
+        "name": "100,000 Steps Cooldown",
+        "desc": "100,000 Steps Cooldown"
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.15,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "attack_speed",
+        "value": 0.45,
+        "type": "additive"
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T2_N3": {
+    "name": "Duelist",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Attack Speed is increased by 3%+ while using One-Handed weapons.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_06": {
+    "name": "Imposing Presence ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 5%x additional Maximum Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T1_N2": {
+    "name": "Endless Fury",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Basic Skills generate 12%x more Fury.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T2_N2": {
+    "name": "Expose Vulnerability",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for X |4second:seconds;.",
+    "buffs": [
+      {
+        "id": 2570358309,
+        "name": "Expose Vulnerability",
+        "desc": "Dealing direct damage with a Weapon Mastery skill causes your next Core Skill to make enemies Vulnerable for X |4second:seconds;."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T3_N1": {
+    "name": "Guttural Yell",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Shout Skills cause enemies to deal 4% less damage for 5 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_05": {
+    "name": "Tempered Fury",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase your Maximum Fury by 52?.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T2_N2": {
+    "name": "Brute Force",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Overpowers deal 8%x increased damage when using a Two-Handed weapon.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T2_N1": {
+    "name": "Booming Voice",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Shout Skill effect durations are increased by 8%x.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_10": {
+    "name": "Wallop",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Skills using Bludgeoning weapons deal 5%x increased damage if the enemy is Stunned or Vulnerable.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T1_N1": {
+    "name": "Martial Vigor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Damage Reduction against Elites is increased by 5%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T5_N2": {
+    "name": "Unconstrained",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Berserking's damage bonus is increased to 25%x. While not Healthy, you are always Berserk and gain a 30%[x] Physical Damage Reduction bonus.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.3,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "grants_berserking",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T5_N1": {
+    "name": "Gushing Wounds",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When causing an enemy to Bleed, you have a chance equal to your Critical Strike Chance to increase the Bleed amount by 70%[x], and also increased by 100%[+] of your Critical Strike Damage bonus.  Overpowering a Bleeding enemy creates an explosion that inflicts X2? Bleeding damage over 5 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T4_N2": {
+    "name": "No Mercy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You have 3%+ increased Critical Strike Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T4_N2": {
+    "name": "Battle Fervor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When a Brawling Skill damages at least one enemy, gain Berserking for X2? |4second.:seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_berserking",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T4_N1": {
+    "name": "Cut to the Bone",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Bleeding effects deal 5%x increased damage to Vulnerable enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T3_N2": {
+    "name": "Furious Impulse",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Each time you swap weapons, gain 22? Fury.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T4_N1": {
+    "name": "Pit Fighter",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased damage to Close enemies and gain 2% Damage Reduction.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.02
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T3_N1": {
+    "name": "Hamstring",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "The first time you apply a Bleeding effect to an enemy, Slow them by 70% for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Warlord_T2_N3": {
+    "name": "Thick Skin",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Each time you take direct damage gain 0.11% Maximum Life (10) as Fortify.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Barbarian_Talent_Berserker_T1_N1": {
+    "name": "Swiftness",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Movement Speed is increased by 4%+.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_02": {
+    "name": "Concussion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Skills using Bludgeoning weapons have up to a 20% chance to Stun enemies for X2? seconds, or up to a 30% chance when using a Two-Handed Bludgeoning weapon. This also deals X2? Physical damage to them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T3_N3": {
+    "name": "Slaying Strike",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5%x increased damage to Injured and Healthy enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "X1_Barbarian_Talent_Key_Passive_Thorns_vCD": {
+    "name": "Barbed Carapace",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "For every 25 Fury you spend, you gain 10%[+] Thorns for 8 seconds, up to 120%.  Casting a Skill with a Cooldown grants you Unhindered for 5 seconds. During this time, you deal 120% of your Thorns as Physical damage to Close enemies every second.",
+    "buffs": [
+      {
+        "id": 1315467206,
+        "name": "Barbed Carapace",
+        "desc": "Thorns increased."
+      },
+      {
+        "id": 4246818384,
+        "name": "Barbed Carapace",
+        "desc": "Dealing Thorns damage upon colliding with enemies."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_11": {
+    "name": "Belligerence ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Damaging an enemy with a Basic Skill increases your damage by 4%x for X2? seconds.",
+    "buffs": [
+      {
+        "id": 747772933,
+        "name": "Belligerence",
+        "desc": "Dealing more damage due to Basic Skills."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_13": {
+    "name": "Warpath",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After Overpowering, you deal 4%x increased damage for 4 seconds.",
+    "buffs": [
+      {
+        "id": 4213458925,
+        "name": "Warpath",
+        "desc": "Dealing increased damage after Overpowering."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_14": {
+    "name": "Irrepressible ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Weapon Mastery Skill Fortifies you for 3% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_12": {
+    "name": "Heavy Hitter",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Ultimate Skills, Earthquakes, and Dust Devils deal 10%x more damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T1_N1": {
+    "name": "Agile",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Using a Cooldown increases your Dodge Chance by 4% for X2? seconds.",
+    "buffs": [
+      {
+        "id": 2875503721,
+        "name": "Agile",
+        "desc": "Increased Dodge Chance after using a Cooldown."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T2_N1": {
+    "name": "Weapon Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain a bonus to your Melee and Ranged Skills based on the weapons used in your attack:  Daggers: 7.0%x increased damage to Healthy and Injured enemies.  Swords: 3%x increased damage.  Bows: 4%x increased damage to Vulnerable enemies.  Crossbows: 5%x increased Critical Strike Damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Rogue_Talent_Cunning_T2_N1": {
+    "name": "Alchemist's Fortune",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Non-Physical damage you deal has a 5%+ increased Lucky Hit Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_01": {
+    "name": "Trap Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After a Trap Skill activates, gain 4%+ Critical Strike Chance for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T4_N3": {
+    "name": "Aftermath",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While an Ultimate is on your Action Bar, you Heal 0.51% Maximum Life every second. After using an Ultimate, restore 35 Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T1_N2": {
+    "name": "Mending Obscurity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When entering Stealth and every second while Stealthed, you Heal for 7.0% of your Maximum Life (1).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T4_N1": {
+    "name": "Frigid Finesse",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5%x increased damage to Chilled enemies. This bonus increases to 10%x against Frozen enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_08": {
+    "name": "Haste",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While at or above 50% maximum Energy, gain 5%+ increased Movement Speed. While below 50% maximum Energy, gain 5%+ increased Attack Speed.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_07": {
+    "name": "Second Wind",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 100 Energy you spend grants 15% of your Maximum Life (0.1) as a Barrier for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Rogue_Talent_Cunning_T5_N2": {
+    "name": "Momentum",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting or Channeling a Cutthroat Skill grants a stack of Momentum. Casting a Marksman Skill removes a stack of Momentum.   For each stack of Momentum, you gain:  3% Damage Reduction  3% Maximum Energy  3%[x] Energy Regeneration  3%[+] Movement Speed  6%[x] Increased Damage  Maximum of 10 Stacks.",
+    "buffs": [
+      {
+        "id": 3105590452,
+        "name": "Momentum",
+        "desc": "Momentum stacking up to 10."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.06,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "movement_speed",
+        "value": 0.03
+      },
+      {
+        "tag": "damage_reduction",
+        "value": 0.03
+      }
+    ]
+  },
+  "Rogue_Talent_Cunning_T3_N1": {
+    "name": "Exploit",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 8%x increased damage to Healthy and Injured enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T4_N2": {
+    "name": "Malice",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased damage to Vulnerable enemies and 3%x increased damage to Knocked Down enemies. These bonuses can apply simultaneously.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Rogue_Talent_Discipline_T2_N3": {
+    "name": "Siphoning Strikes",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Critical Strikes against Close enemies have up to a 85% chance to Heal you for 0.51% of your Maximum Life (1).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_09": {
+    "name": "Adrenaline Rush",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While moving, you gain 7.0%x increased Energy Regeneration.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T3_N4": {
+    "name": "Unstable Elixirs",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Using a Healing Potion Stuns surrounding enemies for 2 seconds and increases your damage by 6%x for 10 seconds.  You may now drink your Healing Potion while at full Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T1_N2": {
+    "name": "Sturdy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 6% Close Damage Reduction.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_10": {
+    "name": "Innervation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to a 102?% chance to gain 8 Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T3_N3": {
+    "name": "Reactive Defense",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 61% Damage Reduction while inflicted with Control Impairing Effects.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.61
+      }
+    ]
+  },
+  "Rogue_Talent_Cunning_T2_N2": {
+    "name": "Deadly Venom",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased Poisoning damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_02": {
+    "name": "Shadow Crash",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Shadow damage has up to a 1002?% chance to Stun for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T5_N1": {
+    "name": "Close Quarters Combat",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Damaging a Close enemy with Marksman or Cutthroat Skills each grant a 15%[+] Attack Speed bonus for X2? seconds.  While both Attack Speed bonuses are active, you deal increased damage equal to 50%[x] of your Damage vs Close bonus, up to 90%[x].  Current Damage Increase: 90%x",
+    "buffs": [
+      {
+        "id": 4271720110,
+        "name": "Close Quarters Combat",
+        "desc": "Increased Attack Speed from Cutthroat Skills."
+      },
+      {
+        "id": 463144247,
+        "name": "Close Quarters Combat",
+        "desc": "Increased Attack Speed from Marksman Skills."
+      },
+      {
+        "id": 110553398,
+        "name": "Close Quarters Combat",
+        "desc": "Increased damage vs Close enemies"
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "attack_speed",
+        "value": 0.15,
+        "type": "additive"
+      }
+    ]
+  },
+  "Rogue_Talent_Discipline_T5_N3": {
+    "name": "Victimize",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a 50% chance to cause an explosion, dealing X2? damage of the same type to them and surrounding enemies.  Enemies hit by Victimize's explosion take 75%[x] increased damage from you for 3 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.75,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Rogue_Talent_Cunning_T5_N1": {
+    "name": "Exposure",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Dealing damage to an enemy affected by a Trap Skill has up to a 40% chance to:  Reduce the active Cooldowns of your Trap Skills by 30%  Increase your Trap Skill damage by 10%[x] for 10 seconds, stacking up to 100%[x]",
+    "buffs": [
+      {
+        "id": 3987073239,
+        "name": "Exposure",
+        "desc": "Dealing Increased Trap Damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T3_N2": {
+    "name": "Consuming Shadows",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Each time you kill an enemy with Shadow damage, you generate 102? Energy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_03": {
+    "name": "Chilling Weight",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Chilled enemies have their Movement Speed further reduced by up to 10% and you gain 5%x increased Chill effect.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_04": {
+    "name": "Trick Attacks",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Attempting to Daze or Stun an enemy increases your Critical Strike Chance by 1%+ and Critical Strike Damage by 1%x for 8 seconds, both up to 1%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_05": {
+    "name": "Debilitating Toxins",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Poisoned enemies deal 5% less damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T4_N1": {
+    "name": "Alchemical Advantage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Dealing Poison damage increases your Attack Speed and Lucky Hit Chance by 1%+ for 8 seconds, up to 1%+ .",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T4_N3": {
+    "name": "Precision Imbuement",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Imbued Skills gain 3%+ increased Critical Strike Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T2_N2": {
+    "name": "Rugged",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 9% Damage Reduction against Damage Over Time effects.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.09
+      }
+    ]
+  },
+  "Rogue_Talent_Discipline_T3_N2": {
+    "name": "Impetus",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After moving 15 meters, your next Core or Ultimate Skill deals 8%x increased damage.   While this damage bonus is ready, your Basic, Agility, and Subterfuge Skills deal 5%x increased damage.",
+    "buffs": [
+      {
+        "id": 3570702661,
+        "name": "Impetus",
+        "desc": "Your next Core or Ultimate attack deals increased damage. Agility and Subterfuge Skills are dealing more damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T1_N1": {
+    "name": "Stutter Step",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critically Striking an enemy grants 5%+ Movement Speed for X2? seconds.",
+    "buffs": [
+      {
+        "id": 2151823514,
+        "name": "Stutter Step",
+        "desc": "Increased Movement Speed from Critically Striking an enemy."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Buildaround_01": {
+    "name": "Precision",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you cast a Marksman Skill, you gain a stack of Precision.  When you reach 3 stacks of Precision, your next Marksman Ultimate or Core Skill is a guaranteed Critical Strike and deals 65%[x] increased Critical Strike Damage, consuming all stacks of Precision. This damage is further increased by 100%[x] of your Critical Strike Damage bonus, up to 360%[x].  Current Bonus: 3601%x",
+    "buffs": [
+      {
+        "id": 2448458830,
+        "name": "Precision",
+        "desc": "Bonus Critical Strike Damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_06": {
+    "name": "Rapid Gambits",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Evading through an enemy Dazes them for 2 seconds. Your Evade Cooldown is reduced by 0.22 seconds when you Daze an enemy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T5_N3": {
+    "name": "Alchemical Admixture",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Dealing 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by 100%[x] and Non-Physical damage by 50%[x] for 8 seconds.",
+    "buffs": [
+      {
+        "id": 8272455,
+        "name": "Elementally Charged",
+        "desc": "Imbuement Potency is increased."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T1_N3": {
+    "name": "Evasive",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After Dodging an attack, gain 2% Damage Reduction for 4 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.02
+      }
+    ]
+  },
+  "Rogue_Talent_Discipline_T4_N4": {
+    "name": "Unto Dawn",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Ultimate skills deal 15%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_11": {
+    "name": "Target Practice",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Critical Strike Chance with Marksman and Cutthroat Skills is increased by 3%+.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_12": {
+    "name": "Balestra",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 4%x increased damage for 4 seconds after Evading.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_13": {
+    "name": "Deadeye",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 10%x increased damage to Distant enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Mechanic_T1_N3": {
+    "name": "Combo Points",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Basic Skills now generate Combo Points. Core Skills Consume Combo Points for additional effects.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Mechanic_T1_N2": {
+    "name": "Preparation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Spend 75 Energy to reduce your Ultimate Skill's Cooldown by 5 seconds. Ultimate Skills reset other Cooldowns and grant 15% Damage Reduction for 10 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.15
+      }
+    ]
+  },
+  "Rogue_Talent_Mechanic_T1_N1": {
+    "name": "Inner Sight",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Attack enemies to fill your Inner Sight gauge. Marked enemies fill it faster. When full, restore 300 Energy, and gain 100% Energy Cost Reduction, 25%[+] Critical Strike Chance, and 25%[x] Critical Strike Damage for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T2_N1": {
+    "name": "Terror",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased Shadow damage to Crowd Controlled enemies and 3%x increased Shadow damage to Elites and Bosses. These bonuses stack.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_01": {
+    "name": "Gloom",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When you damage enemies with Darkness Skills, they take 2%x increased Shadow damage from you and your Minions for X2? seconds, stacking up to 4 times.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T4_N2": {
+    "name": "Transfusion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your Blood Skills have up to a 32?% chance to create a Blood Orb at the target's location. This can only occur once every 2 seconds.  This chance is doubled against Bosses.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T1_N1": {
+    "name": "Stand Alone",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increases Damage Reduction by 6% when you have no minions. Each active minion reduces this bonus by 2%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T3_N2": {
+    "name": "Compound Fracture",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After Critically Striking 10 times with Bone Skills, your Bone Skills deal 6%x increased damage for X2? seconds.",
+    "buffs": [
+      {
+        "id": 3133869787,
+        "name": "Critical Skill Damage Count",
+        "desc": "Critical Skill Damage Count"
+      },
+      {
+        "id": 378939431,
+        "name": "Solid Bones",
+        "desc": "Dealing bonus damage with Bone Skills."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T4_N1": {
+    "name": "Reaper's Pursuit",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "For each Darkness Skill on your Action Bar, gain 2%+ increased Movement Speed and 2%x more damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T3_N1": {
+    "name": "Imperfectly Balanced",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Core Skills cost 3x% more Essence, but deal 5%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T4_N3": {
+    "name": "Serration",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Bone Skills have a 1%+ increased Critical Strike Chance for each 30 Essence you have upon cast.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T5_N1": {
+    "name": "Ossified Essence",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Essence Generation is increased by 50% and your Bone Skills deal 0.7%[x] increased damage for each point of Essence you have when Cast, up to 140%[x].  Current Bonus: 1401%x",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.006999999999999999,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_Talent_Caster_T5_N2": {
+    "name": "Shadowblight",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Shadow damage infects enemies with Shadowblight for X2? seconds. Every 8th time an enemy receives Shadow damage from you while they are affected by Shadowblight, they take an additional X2? Shadow damage.   Shadowblight's damage is increased by 70%[x] of your Corrupting Damage and Shadow Damage Bonuses, up to 450%[x].  Current Bonus: 450%x",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Playstyle_T1_N1": {
+    "name": "Rapid Ossification",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 100 Essence you spend reduces the cooldowns of your Bone Skills by 0.51 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T2_N2": {
+    "name": "Coalesced Blood",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased damage while Healthy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T1_N1": {
+    "name": "Bonded in Essence",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 5 seconds, your Skeletal Priest's Healing will Heal your Skeletons for an additional 20% of their Maximum Life.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T1_N2": {
+    "name": "Evulsion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Bone Skills deal 6%x increased damage to Vulnerable enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Talent_04": {
+    "name": "Grim Harvest",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Consuming a Corpse generates 22? Essence.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T2_N2": {
+    "name": "Hewed Flesh",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your damage has up to a 42?% chance to create a Corpse at the target's location.   This chance is doubled against Bosses.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_07": {
+    "name": "Necrotic Carapace",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "When a Corpse is formed from your Skills or your Minions, Fortify for 5% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Necromancer_Talent_Summoning_T4_N1": {
+    "name": "Inspiring Leader",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While you are Healthy, you gain 4+% increased Critical Strike Chance and your Minions gain 4+% increased Critical Strike Chance.",
+    "buffs": [
+      {
+        "id": 3190102200,
+        "name": "Inspiring Leader",
+        "desc": "Critical Strike Chance Increased"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_06": {
+    "name": "Memento Mori",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Sacrificing both Skeletal Warriors and Skeletal Mages increases their Sacrifice bonuses by 20%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T4_N3": {
+    "name": "Drain Vitality",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Hitting enemies with Blood Skills has up to a 30% chance to Fortify you for 0.5%1 of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Necromancer_Talent_Playstyle_T1_N2": {
+    "name": "Tides of Blood",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Blood Skills deal 5%x increased Overpower damage. This bonus is doubled while you are Healthy.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Talent_Summoning_T5_N1": {
+    "name": "Rathma's Vigor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After being Healthy for 10 seconds, your next Blood Skill Overpowers. This timer is reduced by 2 seconds each time Blood Orbs Heal or Overheal you for X2? Life.  You deal 100%[x] increased Overpower damage.",
+    "buffs": [
+      {
+        "id": 622703449,
+        "name": "Rathma's Vigor",
+        "desc": "At 10 stacks, your next Blood Skill will Overpower."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 1.0,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Talent_Summoning_T5_N2": {
+    "name": "Kalan's Edict",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Minions gain 40%[+] Attack Speed and deal 40%[x] increased damage.   When one of your Minions die, your other Minions enrage, dealing 20%[x] increased damage for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.4,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "attack_speed",
+        "value": 0.4,
+        "type": "additive"
+      }
+    ]
+  },
+  "Necromancer_Talent_Summoning_T2_N1": {
+    "name": "Hellbent Commander",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 10%x increased Summon Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_SkeletonWarrior": {
+    "name": "Skeletal Warrior Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase the damage and Life of your Skeletal Warriors by 15%x .",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_SkeletonMage": {
+    "name": "Skeletal Mage Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase the damage and Life of your Skeletal Mages by 20%x .",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Golem": {
+    "name": "Golem Mastery",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase the damage and Life of your Golem by 25%x .",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T1_N2": {
+    "name": "Crippling Darkness",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Darkness Skills have up to a 15% chance to Stun for X2? seconds and deal X2? Shadow damage to them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_02": {
+    "name": "Death's Defense",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Minions gain 8+% increased Armor and 8+% increased All Resistance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T3_N2": {
+    "name": "Fueled by Death",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased damage for X2? seconds after consuming a Corpse.",
+    "buffs": [
+      {
+        "id": 3570702661,
+        "name": "Fueled By Death",
+        "desc": "Dealing bonus damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Caster_T4_N2": {
+    "name": "Gruesome Mending",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You receive 1000%+ more Healing from all sources.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_03": {
+    "name": "Unliving Energy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your maximum Essence is increased by 32?.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_05": {
+    "name": "Death's Approach",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 5%+ Movement Speed.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_09": {
+    "name": "Death's Embrace",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Close enemies take 2%x more damage from you and deal 4% less damage to you.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_10": {
+    "name": "Spiked Armor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 0.12? Thorns, 5%x Armor, and 10%[+] Block Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Summoning_T3_N1": {
+    "name": "Amplify Damage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 4%x increased damage to Cursed and Feared enemies. These bonuses can stack.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "x1_necro_key_passive": {
+    "name": "Affliction",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Vulnerable, Crowd Controlled, or Corrupted enemies are Afflicted, taking 45%[x] increased damage from you.  Your Curse Skills deal X2? Shadow damage when applied to Afflicted enemies. This amount increases by 120%[x] of your Damage to Crowd Controlled, Vulnerable Damage, and Critical Strike Damage bonuses, up to 900%[x].  Current Damage Bonus: 900%x",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.45,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Talent_11": {
+    "name": "Necrotic Fortitude",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Up to a 7.0% chance to grant yourself a Barrier for 7% of your Maximum Life (X2?) for X2? seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Necromancer_Talent_12": {
+    "name": "Finality",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5x% increased damage for 8 seconds after casting an Ultimate Skill.",
+    "buffs": [
+      {
+        "id": 747772933,
+        "name": "Finality",
+        "desc": "Dealing 5%x increased damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_14": {
+    "name": "Precision Decay",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Lucky Hit Chance is increased by 5+%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_13": {
+    "name": "Titan's Fall",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5%x increased damage to Elites.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You can raise one additional Skirmisher Warrior.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Each time you Critically Strike, your Skirmishers Warriors' next attack Critically Strikes and deals 50%[x] bonus Critical Strike damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Critical Strike Chance is increased by 10%+, but you can no longer raise Skeletal Warriors.   Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_SkeletonWarrior_Defender_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Every 6 seconds your Skeletal Defenders Taunt enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Defender_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Skeletal Defenders take 99% reduced damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You gain 25+% Resistance to All Elements, but you can no longer raise Skeletal Warriors.  Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Reaper's wind-up attacks now reduce one of your active Cooldowns by 3 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Reapers have a 15% chance to carve the flesh off enemies, forming a Corpse.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You deal 20%x increased Shadow damage, but you can no longer raise Skeletal Warriors.  Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You deal 3%[x] increased damage for each active Shadow Mage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.03,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Shadow_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Shadow Mages fire an additional shadow bolt every 3 attacks.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Essence Regeneration is increased by 20+% and your maximum Essence is increased by 202?, but you can no longer raise Skeletal Mages.  Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Cold_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Each time your Cold Mages damage enemies with their primary attack, you gain 3 Essence.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonMage_Cold_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Cold Mages' attacks apply Vulnerable for 4 seconds and have a 10% chance to instantly Freeze them for 2.5 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Cold_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You deal 20%x increased damage to Vulnerable enemies, but you can no longer raise Skeletal Mages.  Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Every 6th attack, your Bone Mages cast Bone Splinters or Bone Spear if it is on your Action Bar.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Each time a Bone Mage dies, they leave behind a Corpse. Their attacks Fortify you for 0.1% of your Maximum Life (10).",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Overpower damage is increased by 30%x, but you can no longer raise Skeletal Mages.  Your Golem gains 60%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.6,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Golem_Passive": {
+    "name": "Golem",
+    "primary_tag": "Skill_Primary_Minion",
+    "category": 0,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 3586014449,
+        "name": "Golem Respawn Cooldown",
+        "desc": "Golem cannot respawn yet."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Bone_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Activating your Golem's ability causes it to shed 5 corpses.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Bone_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When your Bone Golem takes damage, it unleashes Bone Spikes dealing X2? damage and makes enemies Vulnerable for 4 seconds. This effect can only happen once every 3 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Golem_Bone_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You gain 15%+ increased Attack Speed, but you lose the ability to Summon a Golem.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Blood_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Blood Golem absorbs 30% of damage you would take.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Blood_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When Blood Golem heals itself with its active ability, you are healed for 100% of your Maximum Life for each enemy drained. While your Blood Golem is Healthy, they gain 25% Damage Reduction and 50%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.5,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "damage_reduction",
+        "value": 0.25
+      }
+    ]
+  },
+  "Necromancer_Golem_Blood_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Maximum Life is increased by 20%x, but you lose the ability to Summon a Golem.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Iron_Passive_UpgradeA": {
+    "name": "Upgrade A",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Every 2nd Iron Golem attack causes a shockwave, dealing X2? damage to the primary enemy and to enemies behind them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Iron_Passive_UpgradeB": {
+    "name": "Upgrade B",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Your Iron Golem's slam attack also pulls in enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Golem_Iron_Passive_Sacrifice": {
+    "name": "Sacrifice",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You deal 35%x increased Critical Strike Damage, but you lose the ability to Summon a Golem.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_KeyPassive_1": {
+    "name": "Vital Strikes",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 100%[x] increased damage to Vulnerable enemies.  After making an enemy Vulnerable, your next Direct damage dealt to them:  Heals you for 5% of your Maximum Life (1)  Generates 10 Vigor  Removes the Vulnerable effect",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult_vs_vulnerable",
+        "value": 1.0,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "resource_gen",
+        "value": 10,
+        "resource": "vigor"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Spiritborn_Talent_KeyPassive_5": {
+    "name": "Adaptive Stances",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "The Base Spirit of a Skill cast grants:  Eagle: 30%[+] Movement Speed  Gorilla: 30% Damage Reduction  Jaguar: 30%[+] Attack Speed  Centipede: 3% Life per Second  Casting a Skill of a different Base Spirit:  Swaps to the new bonus  Increases Core Stats by 100%[+] for 7 seconds",
+    "buffs": [
+      {
+        "id": 4281870628,
+        "name": "Adaptive Eagle Stance",
+        "desc": "Movement Speed Increased"
+      },
+      {
+        "id": 3306310845,
+        "name": "Adaptive Gorilla Stance",
+        "desc": "Damage Reduction Increased"
+      },
+      {
+        "id": 3783782,
+        "name": "Adaptive Jaguar Stance",
+        "desc": "Attack Speed Increased"
+      },
+      {
+        "id": 223736344,
+        "name": "Adaptive Centipede Stance",
+        "desc": "Life Regeneration Increased"
+      },
+      {
+        "id": 4128796798,
+        "name": "Adaptive Stance Swap",
+        "desc": "Core Stats Increased"
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "attack_speed",
+        "value": 0.3,
+        "type": "additive"
+      },
+      {
+        "tag": "movement_speed",
+        "value": 0.3
+      },
+      {
+        "tag": "damage_reduction",
+        "value": 0.3
+      }
+    ]
+  },
+  "Spiritborn_Talent_KeyPassive_3": {
+    "name": "Prodigy's Tempo",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 3rd consecutive Cast of the same Basic Skill increases all purchased Skills' Ranks by 4 for 5 seconds.  Every 3rd consecutive Cast of the same Core or Potency Skill reduces all Skills' active Cooldowns by 10%, increased by 2% for each of their Skill Ranks.",
+    "buffs": [
+      {
+        "id": 2806302003,
+        "name": "Prodigy's Tempo",
+        "desc": "Skill Ranks increased"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_KeyPassive_4": {
+    "name": "Noxious Resonance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Critical Strikes cause your Poisoning on an enemy to burst, dealing 300% of the total Poisoning instantly to them and 10% of the burst to surrounding enemies before removing the Poisoning effect from the primary target.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_8": {
+    "name": "Vigorous",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Core Skill increases all Vigor Generation by 5%x for 3 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_7": {
+    "name": "Dominant",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Attempting to Knock Down an enemy increases your Gorilla Skill damage by 5%x for 10 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_6": {
+    "name": "Endurance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Defensive Skill grants 102? Vigor.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_5": {
+    "name": "Acceleration",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 1[+] additional Evade Charge. After you Evade or use a Mobility Skill, your Eagle Skills deal 8%x increased damage for 3 seconds.",
+    "buffs": [
+      {
+        "id": 4141814748,
+        "name": "Acceleration",
+        "desc": "Eagle Skill deals Bonus Damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Sky_4": {
+    "name": "Auspicious",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You accumulate 10% of your Maximum Life (1) as Barrier every second, up to 10% (1).  Taking damage prevents additional accumulation for 2 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Spiritborn_Talent_Forest_1": {
+    "name": "Patient Guard",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 10%[+] Block Chance.   After standing still for 0.5 seconds, you gain 3%+ Blocked Damage Reduction until you move.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Forest_3": {
+    "name": "Perseverance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 0.5%1 additional Damage Reduction per stack of Resolve.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Forest_2": {
+    "name": "Diminishment",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Vulnerable enemies deal 5% less damage to you.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Spiritborn_Talent_Generic_3": {
+    "name": "Resilient",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "For each Base Gorilla Skill on your Action Bar, gain 1.51% Maximum Life, Knock Down Duration, and Barrier Generation.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Spiritborn_Talent_Forest_4": {
+    "name": "Bastion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 0.32? Thorns. While you have a Barrier your Thorns are increased by 20%[x].",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "Spiritborn_Talent_Sky_1": {
+    "name": "Furnace",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Jaguar Skills deal 0.5%x1 increased Critical Strike Damage per stack of Ferocity.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Sky_3": {
+    "name": "Follow Through",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Basic Skills deal 2%x increased damage, doubled to 2%x for 3rd casts.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Sky_2": {
+    "name": "Apex",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 3%x increased Vulnerable damage. Double this bonus vs Elite enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Spiritborn_Talent_Generic_4": {
+    "name": "Potent",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Jaguar Skills deal 6%x increased direct damage to up to 3 of the Closest enemies to you.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Plains_4": {
+    "name": "Fueled",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 1 Life On Hit while you have at least 4 stacks of Ferocity.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Soil_1": {
+    "name": "Antivenom",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 15%+ increased Poison Resistance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Soil_3": {
+    "name": "Ravenous",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Centipede Skills deal 2.5%1x increased damage. Double this bonus vs Healthy enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Soil_2": {
+    "name": "Nourishment",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Healing is increased by 20%[+]. Whenever you Heal, your Poison Damage is increased by 4%x for 3 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_2": {
+    "name": "Oppressive",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Centipede Skills deal 4%x increased damage to Crowd Controlled enemies and gain 30%[+] increased Crowd Control Durations.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Plains_2": {
+    "name": "Mirage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 20%+ increased Dodge Chance during Evade. Whenever you Dodge, you gain 5%+ Critical Strike Chance for 3 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Plains_3": {
+    "name": "Velocity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Generate X2? Vigor per second while moving.",
+    "buffs": [
+      {
+        "id": 2583592401,
+        "name": "Velocity",
+        "desc": "Gain Resource while moving"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Plains_1": {
+    "name": "Brilliance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Eagle Skill damage is increased by 3%1x of your Movement Speed.  Current Bonus: 3%1x",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Soil_4": {
+    "name": "Unrestrained Power",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 4%x increased damage while Unhindered or Unstoppable.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_1": {
+    "name": "Swift",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Mobility Skill Cooldowns are reduced up to 0.1 seconds based on how far you travel with them.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_1_Alternate": {
+    "name": "Sustenance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Hitting enemies with Ultimate Skills Heals you for 2% of your Maximum Life (1).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_2": {
+    "name": "Initiative",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting an Ultimate Skill makes you Unstoppable for 22? seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_4": {
+    "name": "Resolution",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting an Ultimate Skill grants 5x% increased damage to Elites for 3 seconds. Double this bonus if you are only fighting one enemy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_3": {
+    "name": "Spiritual Attunement",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your maximum Vigor is increased by 102? while you have an Ultimate Skill equipped.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_6": {
+    "name": "Intricacy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Upon casting an Ultimate Skill, the last different Potency, Defensive, or Focus Skill you cast prior is reset and can be cast for free up to X2? times in the next 7 seconds.",
+    "buffs": [
+      {
+        "id": 3974995119,
+        "name": "Intricacy",
+        "desc": "Free casting previous Skill"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_5": {
+    "name": "Supremacy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Any enemies you kill while an Ultimate Skill is active grants a stack of Supremacy, each increasing your damage by 1x%, up to 1x%. When an Ultimate Skill ends, you gain 5 stacks of Supremacy, but you begin to lose one stack every second.",
+    "buffs": [
+      {
+        "id": 2498430394,
+        "name": "Supremacy",
+        "desc": "Gain increased damage from kills."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_10": {
+    "name": "Vehemence",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Potency Skills deal 10%x increased damage, but have 5% increased Cooldowns.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Generic_9": {
+    "name": "Balanced Exertion",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Core Skills cost 3x% more Vigor, but deal 5%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Sky_5": {
+    "name": "Focal Point",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain a bonus based on the weapon type you wield. Casting a Focus Skill doubles this bonus for 5 seconds:   Glaive: 5%+ Bonus Lucky Hit Chance  Quarterstaff: 3+% Blocked Damage Reduction  Polearm: 10%+ Lucky Hit Chance to make enemies Vulnerable",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Paladin_Talent_Core_1": {
+    "name": "Piety ",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Maximum Faith is increased by 52?.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Core_2": {
+    "name": "Discipline",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Core Skills deal 6%x increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Defense_1": {
+    "name": "En Garde",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 10%+ Armor and 5%+ Block Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_05": {
+    "name": "Righteousness",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased Holy and Fire damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_02": {
+    "name": "Thorns and Thistles",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 20 Thorns and your total Thorns damage is increased by 15%x",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Ultimate_01": {
+    "name": "Shining Armor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain a bonus based on your equipped weapon and armor qualities:   Unique Weapon or Shield: Gain 5%x Damage.   Unique Helmet, Chest or Pants: Gain 5%+ Armor.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_04": {
+    "name": "Giant Slayer",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 5%x increased damage to Elites and 8%x increased damage to Healthy enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Ultimate_02": {
+    "name": "Sacred Arms",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain a bonus based on your equipped weapon types:   Two Handed: Gain 5%x Critical Strike Damage.  One Handed and Shield: 5% chance to ignore damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Unlock_Talent_Defense_2": {
+    "name": "Parry",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Blocking restores X2? Faith.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Defense_2": {
+    "name": "Riposte",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Blocking grants you 6x% damage for 5 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Defense_3": {
+    "name": "Renewal",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Blocking Fortifies you for 0.51% of your Maximum Life (1).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Defense_4": {
+    "name": "Anointing",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Allies heal for 11.1% of the Healing you receive.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Defense_5": {
+    "name": "Longevity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 10% Healing received.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_01": {
+    "name": "Crack in the Armor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased damage to Vulnerable enemies.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Paladin_Talent_Justice_12": {
+    "name": "Press the Advantage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critically Striking grants you 3% Damage Reduction for 5 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.03
+      }
+    ]
+  },
+  "Paladin_Talent_Valor_03": {
+    "name": "Repentance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 6%+ Retribution chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_KeyPassive_1": {
+    "name": "Coat of Arms",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your damage is increased by 75% of your Armor Percent and 50% of your Block Chance.  Current Damage Bonus : 75%x",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_KeyPassive_2": {
+    "name": "Path of the Penitent",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Zealot Skills cost 100% more Faith, but Casting them grants all Skills 6%[+] Resource Cost Reduction and 12%[x] increased damage for 4 seconds, up to 10 times.",
+    "buffs": [
+      {
+        "id": 2498430394,
+        "name": "Path of the Penitent",
+        "desc": "Gain 6%[+] Resource Cost Reduction and 12%[x] increased damage per stack."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.12,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "resource_cost_reduction",
+        "value": 0.06
+      }
+    ]
+  },
+  "Paladin_Talent_KeyPassive_3": {
+    "name": "Judgement Day",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Consuming Judgement increases your damage by 6%[x] for 5 seconds, up to 90%[x].  Judgement now spreads to nearby targets without Judgement when it detonates.",
+    "buffs": [
+      {
+        "id": 1788432113,
+        "name": "Judgement Day",
+        "desc": "Gain 6%[x] increased damage per stack."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.06,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "Paladin_Talent_KeyPassive_4": {
+    "name": "Exaltation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "During Arbiter your damage is increased by 85%[x] and Wing Strikes strike 1 additional time.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_10": {
+    "name": "Iron Sharpens Iron",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 6%x Critical Strike Damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_08": {
+    "name": "Resolute",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gaining a stack of Resolve Heals for 0.51% of your Maximum Life (1).",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_09": {
+    "name": "Conviction",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 0.31%+ Attack Speed for each stack of Resolve up to 10001%+.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_10": {
+    "name": "Attenuate",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 1%+ Resource Cost Reduction for every stack of Resolve up to 1%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_03": {
+    "name": "High Charity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 4% Cooldown Reduction.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "cooldown_reduction",
+        "value": 0.04
+      }
+    ]
+  },
+  "Paladin_Talent_Justice_11": {
+    "name": "Break the Line",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You have a 2%+ increased Critical Strike Chance and deal 5%x increased Damage to Weakened enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_02": {
+    "name": "Pacify",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 15%+ increased Crowd Control duration.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_06": {
+    "name": "The Best Offense",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased damage while Fortified.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_11": {
+    "name": "Fortitude",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 6%x Critical Strike Damage while Fortified.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_13": {
+    "name": "Heavyweight",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 6%x increased Critical Strike Damage while Healthy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_09": {
+    "name": "Dizzying Blow",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You deal 7.0%x increased damage to Crowd Controled enemies.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Ultimate_03": {
+    "name": "Leave Luck to Heaven",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 3% Lucky Hit Chance.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "lucky_hit",
+        "value": 0.03
+      }
+    ]
+  },
+  "Paladin_Talent_Juggernaut_01": {
+    "name": "Courage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 1 Resolve every 82? seconds an Elite enemy is Nearby.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Ultimate_04": {
+    "name": "Master Craftwork",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Armor is increased by 50% of your Shield's Block Chance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Ultimate_05": {
+    "name": "Shake It Off",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You have a 8% chance to become Unstoppable for 1 second after being hit by a Crowd Control Effect.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA1": {
+    "name": "Raheir's Guard",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Raheir grants you 15%[+] Armor.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA2": {
+    "name": "Vanguard",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Raheir Slows surrounding enemies by 40%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA3": {
+    "name": "Mocking Lure",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "You deal 15%[x] increased damage to enemies Taunted by Raheir.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult_vs_enemies",
+        "value": 0.15,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA4": {
+    "name": "Iron Wolf's Ward",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When Raheir's Valiance is triggered, he Knocks Back Close enemies and Taunts Distant enemies for 4 seconds.  Raheir's Valiance Cooldown is reduced by 35%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA6": {
+    "name": "Iron Wolf's Call",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When Raheir's Valiance is triggered, your next 4 Core Skills within 10 seconds deal 25%[x] increased damage and cost no Resource.  Raheir's Valiance Cooldown is reduced by 25%.",
+    "buffs": [
+      {
+        "id": 3425067693,
+        "name": "Hero's Call",
+        "desc": "Next Core Skill consumes no Resource and deals 25% increased damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.25,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "damage",
+        "value": 0.25,
+        "type": "additive"
+      }
+    ]
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveA5": {
+    "name": "Sundering Shield",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Raheir's final Crater burst deals 200%[x] increased damage and inflicts Vulnerable on enemies for 4 seconds.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 2.0,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB6": {
+    "name": "Iron Wolf's Arrival",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When Raheir's Valiance is triggered, he also casts Ground Slam and Shield Throw.  Raheir's Valiance's Cooldown is reduced by 35%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB5": {
+    "name": "Consecrated Shield",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Raheir's Shield Throw Consecrates enemies for 6 seconds. Directly damaging a Consecrated enemy Heals you for 6% of your Maximum Life, once per target.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB4": {
+    "name": "Iron Wolf's Virtue",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When Raheir's Valiance is triggered, he Heals you for 25% of your Maximum Life.  Raheir's Valiance Cooldown is reduced by 35%.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB3": {
+    "name": "Inspiration",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Enemies affected by Raheir's Ground Slam take 15%[x] increased damage.  Allies affected by Raheir's Bastion deal 25%[x] increased damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.25,
+        "type": "multiplicative"
+      }
+    ]
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB1": {
+    "name": "Raheir's Aegis",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Raheir grants you 15% Resistance to All Elements.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "NPC_Mercenary_ShieldBearer_PassiveB2": {
+    "name": "Draw Fire",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "When you use a Healing Potion, Raheir Taunts enemies around him for 4 seconds. Can only occur once every 20 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Mercenary_BerserkerCrone_MassacrePassive2": {
+    "name": "Massacre",
+    "primary_tag": "Skill_Mercenary_Perk",
+    "category": 0,
+    "desc": "You and Varyana stack Massacre together on kills. Certain stack thresholds grant Movement Speed:    10 Stacks : 5%[+] Movement Speed   25 Stacks : 10%[+] Movement Speed   50 Stacks : 15%[+] Movement Speed   100 Stacks  : 20%[+] Movement Speed  Massacre resets after 7 seconds of not killing an enemy.",
+    "buffs": [
+      {
+        "id": 2414491126,
+        "name": "Massacre",
+        "desc": "Increased Movement Speed from killing enemies alongside Varyana."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "movement_speed",
+        "value": 0.2
+      }
+    ]
+  },
+  "Druid_CycloneArmor_Passive": {
+    "name": "Druid_CycloneArmor_Passive",
+    "primary_tag": "Skill_Primary_Defensive",
+    "category": 2,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 2110834489,
+        "name": "Cyclone Armor Bonus",
+        "desc": "Taking reduced damage."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Druid_Talent_NatureMagic_T3_N1": {
+    "name": "Primal Resonance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Overpower damage is increased by 9%x.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Rogue_Talent_Discipline_T5_N2": {
+    "name": "Celerity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: 50% chance to decrease all active cooldowns by 20% when you critically strike.  You can only pick 1 talent in this tier.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Evade_T1_N1": {
+    "name": "Endless Vigor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You can store up to 3 charges of evade. 5 seconds recharge.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Evade_T1_N2": {
+    "name": "Lightning Reflex",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You gain 100% dodge chance during evade.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Evade_T1_N3": {
+    "name": "Relentless Pursuit",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "You can immediately evade again after using a attack or skill.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Druid_Landslide_Passive": {
+    "name": "Druid_Landslide_Passive",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 1456491667,
+        "name": "Terramote",
+        "desc": "Consumed by Landslide to deal a guaranteed Critical Strike for 40% increased damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage",
+        "value": 0.4,
+        "type": "additive"
+      }
+    ]
+  },
+  "Rogue_DarkShroud_Passive": {
+    "name": "Rogue_DarkShroud_Passive",
+    "primary_tag": null,
+    "category": 0,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 102852945,
+        "name": "Dark Shroud",
+        "desc": "Damage is reduced by each shadow."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Sorcerer_CracklingEnergy_Passive": {
+    "name": "Crackling Energy",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "Crackling Energy periodically damages nearby enemies when picked up.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_08": {
+    "name": "Coagulation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While Healthy, Fortify for 1.1% Base Life (10) per second.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_fortify",
+        "value": 0.5
+      }
+    ]
+  },
+  "Barbarian_HammeroftheAncients_Passive": {
+    "name": "Barbarian_HammeroftheAncients_Passive",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 1052912113,
+        "name": "Critical Counter",
+        "desc": "After 5 Critical Strikes, next cast Overpowers."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Bash_Passive": {
+    "name": "Barbarian_Bash_Passive",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 2851240,
+        "name": "Bash Two-Hand Criticals",
+        "desc": "At 4, your next Core or Weapon Mastery Skill will Overpower."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Pulverize_Passive_HealthyCheck": {
+    "name": "Druid_Pulverize_Passive_HealthyCheck",
+    "primary_tag": null,
+    "category": 1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 2850428599,
+        "name": "Enhanced Pulverize",
+        "desc": "At 10 stacks, your next Pulverize will Overpower."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_Hybrid_T5_N3": {
+    "name": "[PH] Rampaging Earth",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Critically Striking with an Earth Skill makes you go on a rampage for 4 seconds, causing your Werebear form to deal X2? to Nearby enemies every 1.0 seconds.  Overpowering with a Werebear Skill increases the damage of your Earth Skills by 40%[x] for 4 seconds.",
+    "buffs": [
+      {
+        "id": 833025693,
+        "name": "RAMPAGE!",
+        "desc": "While in Werebear form, deal damage to Nearby enemies."
+      },
+      {
+        "id": 3912497266,
+        "name": "Empowered Earth",
+        "desc": "Increased Earth Skill damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "grants_overpower_proc",
+        "value": 1.0
+      }
+    ]
+  },
+  "Druid_Talent_Hybrid_T5_N5": {
+    "name": "[PH] Lightning Charged",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Using a Werewolf Skill grants you 5% increased Attack Speed for 6 seconds, stacking up to 10 times and cannot be refreshed at maximum stacks.  The damage of your Storm Skills is increased by 30% of your Bonus Attack Speed.",
+    "buffs": [
+      {
+        "id": 1647315560,
+        "name": "[PH] Ride the Lightning",
+        "desc": "Increased Attack Speed"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Barbarian_Talent_Berserker_T5_N3": {
+    "name": "Bloodthirsty Rage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Damaging a Bleeding enemy while Berserking grants a non-refreshing stack of Bloodthirsty Rage for 10 seconds.  While Bloodthirsty Rage is active:  You take 5% of your Current Health as damage every second  You deal increased damage versus Bleeding enemies equal to double your missing Health percent  If you would take fatal damage during Bloodthirsty Rage you instead consume all stacks and Heal for 5% of your Maximum Health per stack.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_berserking",
+        "value": 1.0
+      }
+    ]
+  },
+  "Barbarian_Talent_Warlord_T5_N3": {
+    "name": "Relentless Juggernaut",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While moving you generate Fury, increased based on distance and speed.  Moving while Unstoppable creates Earthquakes beneath you that deal 500% of your Thorns as Physical damage over 4 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Sorcerer_Talent_Hybrid_T3_N1": {
+    "name": "Dual Affinity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "After casting 3 Skills of the same Element you gain a related Elemental Affinity. Having a combination of 2 Elemental Affinities grants a bonus:   Cooled + Warmed: Your Burning deals damage 100% quicker versus Vulnerable enemies, double this if they are also Frozen.   Warmed + Charged: Critical Strikes against Stunned enemies created an implosion, dealing X2? Fire Damage and Pulling surrounding enemies together.   Charged + Cooled: Unclaimed Crackling Energy constantly Chills enemies around it by 30% per second.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Sorcerer_Talent_Hybrid_T3_N2": {
+    "name": "Elemental Singularity",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Hitting enemies 100 times with Crackling Energy while they are both Burning and Chilled grants you Elemental Singularity.  Elemental Singularity lasts for 20 seconds and while active:  All your Elemental damage bonuses are equalized to your highest value bonus  Casting your Mana-spending Skills rotates through the Elements, each becoming free to cast and calling down Meteorites dealing X2? matching damage",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Cunning_T5_N4": {
+    "name": "PH Build Around",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Not Yet Implemented",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Necromancer_Talent_Hybrid_T5_N1": {
+    "name": "[PH] Jagged Bones",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Your Bone Skill Critical Strikes have up to a 20% chance to create a pool of blood that deals X2? damage over 6 seconds.   While standing in these pools, your Blood Skills:  Gain 30%[+] Attack Speed  Gain 30%[x] Vulnerable Damage",
+    "buffs": [
+      {
+        "id": 2868435926,
+        "name": "[PH] Jagged Bones",
+        "desc": "Blood Skills gain increased Attack Speed and Vulnerable Damage."
+      }
+    ],
+    "extracted_effects": [
+      {
+        "tag": "damage_mult",
+        "value": 0.3,
+        "type": "multiplicative"
+      },
+      {
+        "tag": "attack_speed",
+        "value": 0.3,
+        "type": "additive"
+      },
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Necromancer_Talent_Hybrid_T5_N2": {
+    "name": "[PH] Vampiric Feast",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Damaging enemies with your Blood or Darkness Skills has a up to a 30% chance to grant a stack of Blood Feast or Shadow Feast respectively. (up to 10 stacks)  Gaining Blood Feast Heals for 5.0% of your Maximum Life (0.1). Gaining Shadow Feast increases your Shadow damage by 30% for 4 seconds.  When you have 10 stacks of both, unleash a burst of Shadow damage that deals X2? damage and Stuns enemies for 3 seconds.",
+    "buffs": [
+      {
+        "id": 2872806018,
+        "name": "Blood Feast",
+        "desc": "At 10 stacks of Shadow Feast and Blood Feast, unleash a burst of Shadow damage."
+      },
+      {
+        "id": 1367353208,
+        "name": "Shadow Feast",
+        "desc": "At 10 stacks of Shadow Feast and Blood Feast, unleash a burst of Shadow damage."
+      },
+      {
+        "id": 1993566632,
+        "name": "Empowered Shadow",
+        "desc": "Dealing increased Shadow Damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Forest_Passive": {
+    "name": "Spiritborn_Forest_Passive",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 3002996435,
+        "name": "(PH) Resolve",
+        "desc": "(PH) Resolve The Gorilla provides retribution and resilience."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_SoilSky": {
+    "name": "(PH) {icon:bullet,1.2} Reaper {icon:bullet,1.2}\r\n{c_gray}[Eagle][Centipede]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  Critical Strikes cause enemies to burst 100% of the Poisoning on them as Poison damage to those around them.   Your Eagle Skills affect 50% larger areas.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_SkyPlains": {
+    "name": "(PH) {icon:bullet,1.2} Duelist {icon:bullet,1.2}\r\n{c_gray}[Jaguar][Eagle]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  Your Eagle Skill missiles fly 10000% faster and have a 25% chance to hit twice.   Every second while moving gain 10% Bonus Movement Speed for 1.5 seconds, up to 40%.",
+    "buffs": [
+      {
+        "id": 2583592401,
+        "name": "(PH) Duelist",
+        "desc": "(PH) Gain Resource while moving after dealing damage"
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_SkyForest": {
+    "name": "(PH) {icon:bullet,1.2} Vindicator {icon:bullet,1.2}\r\n{c_gray}[Eagle][Gorilla]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  Gain 30%[+] Block Chance and 15%[+] Block Reduction while you have a Eagle Skill active.   Gain increased Critical Strike Damage equal to 100%[+] of your Block Chance. Blocking an attack doubles this bonus for 20 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_PlainsSoil": {
+    "name": "(PH) {icon:bullet,1.2} Raider {icon:bullet,1.2}\r\n{c_gray}[Jaguar][Centipede]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  Your Poisoning deals damage 200% faster.   Gain 1 Ferocity when you Crowd Control an enemy.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_ForestPlains": {
+    "name": "(PH) {icon:bullet,1.2} Bruiser {icon:bullet,1.2}\r\n{c_gray}[Jaguar][Gorilla]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  While moving you gain 30%[+] Dodge Chance or after standing still for 3 seconds you become Unstoppable.   When you Dodge or Block an attack you trigger a 300% Thorns attack against the attacker.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Combo_SoilForest": {
+    "name": "(PH) {icon:bullet,1.2} Tormentor {icon:bullet,1.2}\r\n{c_gray}[Centipede][Gorilla]{/c}",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH)  When you take direct damage you instead only receive 85% of it in the form of Poisoning over 10 seconds.   Enemies who move while Poisoned by you additionally take 100% of your Thorns damage per second.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_1": {
+    "name": "(PH) Sustained Decay",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) While Invoke is active, you gain 33.3+% increased Poisoning Duration and 33.3+% increased Crowd Control Duration.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_7": {
+    "name": "(PH) Legacy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) Invoke only requires 250 Allegiance to activate.  Invoke can be recast to deactivate.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_8": {
+    "name": "(PH) Persistence",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) You gain 3 Allegiance per second.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_9": {
+    "name": "(PH) No Mercy",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) Whenever you kill an enemy, you gain 10 Allegiance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_10": {
+    "name": "(PH) Proliferation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) Whenever you cast a Core Skill, you gain 5 Allegiance.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_11": {
+    "name": "(PH) Transcendence",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) Your Maximum Allegiance is increased by 100%[x] and all Allegiance Generation is increased by 100%[x].",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Talent_Ultimate_12": {
+    "name": "(PH) Invoke Mod",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "(PH) PH",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Spiritborn_Plains_Passive": {
+    "name": "Ferocity",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 2422627006,
+        "name": "Ferocity",
+        "desc": "Ferocity Attack Speed increased by 5% per stack. Stacks up to 42? times."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Spiritborn_Gorilla_Passive": {
+    "name": "Resolve",
+    "primary_tag": null,
+    "category": -1,
+    "desc": "",
+    "buffs": [
+      {
+        "id": 3286275506,
+        "name": "Resolve",
+        "desc": "Resolve Damage Reduction increased by 20% while active. Direct damage consumes a stack. Stores up to 82? stacks."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Rogue_Talent_Discipline_T4_N5": {
+    "name": "Apothecary",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Your Damage-Over-Time effects deal 5%x  increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_01": {
+    "name": "Valiance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Valor Skill increases your Damage Reduction by 3%x for X2? seconds.",
+    "buffs": [
+      {
+        "id": 2418419448,
+        "name": "Valiance",
+        "desc": "Increased Damage Reduction."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Arbiter_01": {
+    "name": "(PH) Arbiter Damage Reduction",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While an Arbiter, you gain 4%x Damage Reduction.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Arbiter_02": {
+    "name": "(PH) Arbiter CDR",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "While an Arbiter, you gain 4%x Cooldown Reduction.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Arbiter_03": {
+    "name": "(PH) Arbiter Resource",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Lucky Hit: Damage against Vulnerable enemies while an Arbiter has up to a 20% chance to restore 52? Faith.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "applies_vulnerable",
+        "value": 1.0
+      }
+    ]
+  },
+  "Paladin_Talent_Auras_1": {
+    "name": "[WIP] Meditation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 5%x Primary Resource Generation for you and allies within your auras.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Auras_2": {
+    "name": "[WIP] Concentration",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Increase damage and crit strike damage by 1.51%x for you and allies within your auras.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Auras_3": {
+    "name": "[WIP] Salvation",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain an additional 1% Damage Reduction and 2% Maximum Life for you and allies within your auras.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "damage_reduction",
+        "value": 0.01
+      }
+    ]
+  },
+  "Paladin_Talent_Auras_4": {
+    "name": "[WIP] Vigor",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "WIP Increase the movement speed of you and all allies within your auras by 3%x.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Auras_5": {
+    "name": "[WIP] Conviction",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "WIP Enemies within your Auras take 3x% increased damage.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Auras_6": {
+    "name": "[WIP] Radiance",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "X Increase the potency of all of your auras by x %",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_04": {
+    "name": "[WIP] Update needed",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Update needed  - - Taking damage grants you 5%x Critical Strike Chance for 5 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_05": {
+    "name": "Courage",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Casting a Valor Skill increases your core skill damage by 3%x for X2? seconds.",
+    "buffs": [
+      {
+        "id": 4082807297,
+        "name": "Courage",
+        "desc": "Increased Damage Reduction."
+      }
+    ],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Valor_07": {
+    "name": "[WIP] DR for Resolve",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Gain 0.5%1 additional Damage Reduction per stack of Resolve.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_06": {
+    "name": "[WIP] Faith Spend CDR",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Every 100 Faith you spend reduces the cooldowns of your Angelic Skills by 0.51 seconds.",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_07": {
+    "name": "[WIP] Vulnerable 1",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Not yet implemented",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "Paladin_Talent_Justice_08": {
+    "name": "[WIP] Vulnerable 3",
+    "primary_tag": null,
+    "category": 12,
+    "desc": "Not yet implemented",
+    "buffs": [],
+    "extracted_effects": []
+  },
+  "yhuo_PreloadPerfTest_IceArmor_Good": {
+    "name": "Ice Armor",
+    "primary_tag": "Skill_Primary_Defensive",
+    "category": 12,
+    "desc": "Cooldown: X2? seconds A Barrier of ice forms around you for X2? seconds, absorbing 56.0% of your Maximum Life (X2?) in damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  },
+  "yhuo_PreloadPerfTest_IceArmor_Bad": {
+    "name": "Ice Armor",
+    "primary_tag": "Skill_Primary_Defensive",
+    "category": 12,
+    "desc": "Cooldown: X2? seconds A Barrier of ice forms around you for X2? seconds, absorbing 56.0% of your Maximum Life (X2?) in damage.",
+    "buffs": [],
+    "extracted_effects": [
+      {
+        "tag": "grants_barrier",
+        "value": 0.5
+      }
+    ]
+  }
+}

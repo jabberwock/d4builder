@@ -1,0 +1,1566 @@
+{
+  "Barbarian_Bash": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ]
+  },
+  "Barbarian_Charge": {
+    "coefficient": 1.8,
+    "hit_count": 3,
+    "max_coefficient": 1.8,
+    "all_coefficients": [
+      1.8,
+      1.5,
+      1.5
+    ]
+  },
+  "Barbarian_DoubleSwing": {
+    "coefficient": 0.85,
+    "hit_count": 1,
+    "max_coefficient": 0.85,
+    "all_coefficients": [
+      0.85
+    ]
+  },
+  "Barbarian_Frenzy": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "Barbarian_GroundStomp": {
+    "coefficient": 1.4,
+    "hit_count": 1,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4
+    ]
+  },
+  "Barbarian_HammeroftheAncients": {
+    "coefficient": 1.75,
+    "hit_count": 2,
+    "max_coefficient": 1.75,
+    "all_coefficients": [
+      1.75,
+      1.75
+    ]
+  },
+  "Barbarian_IronMaelstrom": {
+    "coefficient": 1.5,
+    "hit_count": 3,
+    "max_coefficient": 1.5,
+    "all_coefficients": [
+      1.5,
+      0.4,
+      0.86
+    ]
+  },
+  "Barbarian_Kick": {
+    "coefficient": 1.0,
+    "hit_count": 5,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "Barbarian_Leap": {
+    "coefficient": 0.55,
+    "hit_count": 3,
+    "max_coefficient": 0.55,
+    "all_coefficients": [
+      0.55,
+      0.55,
+      0.55
+    ]
+  },
+  "Barbarian_LungingStrike": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ]
+  },
+  "Barbarian_Maim": {
+    "coefficient": 0.055,
+    "hit_count": 1,
+    "max_coefficient": 0.055,
+    "all_coefficients": [
+      0.055
+    ]
+  },
+  "Barbarian_Rend": {
+    "coefficient": 0.25,
+    "hit_count": 1,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25
+    ]
+  },
+  "Barbarian_SteelGrasp": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Barbarian_Upheaval": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ]
+  },
+  "Barbarian_Whirlwind": {
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ]
+  },
+  "Druid_Boulder": {
+    "coefficient": 0.7,
+    "hit_count": 4,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  "Druid_Cataclysm": {
+    "coefficient": 1.15,
+    "hit_count": 3,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      0.46
+    ]
+  },
+  "Druid_Claw": {
+    "coefficient": 0.8,
+    "hit_count": 2,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.8
+    ]
+  },
+  "Druid_CycloneArmor": {
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3
+    ]
+  },
+  "Druid_EarthenBulwark": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "Druid_Earthspike_Instant": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ]
+  },
+  "Druid_Lacerate": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "Druid_LightningStorm": {
+    "coefficient": 0.65,
+    "hit_count": 3,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65,
+      0.65
+    ]
+  },
+  "Druid_Maul": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Druid_Pulverize": {
+    "coefficient": 1.75,
+    "hit_count": 1,
+    "max_coefficient": 1.75,
+    "all_coefficients": [
+      1.75
+    ]
+  },
+  "Druid_Rabies": {
+    "coefficient": 0.28,
+    "hit_count": 1,
+    "max_coefficient": 0.28,
+    "all_coefficients": [
+      0.28
+    ]
+  },
+  "Druid_Ravens": {
+    "coefficient": 0.9,
+    "hit_count": 3,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      3.0,
+      0.9,
+      3.0
+    ]
+  },
+  "Druid_Shred_NEW": {
+    "coefficient": 1.5,
+    "hit_count": 8,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      1.0,
+      1.0,
+      1.5,
+      1.5,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ]
+  },
+  "Druid_StoneBurst": {
+    "coefficient": 1.3,
+    "hit_count": 1,
+    "max_coefficient": 1.3,
+    "all_coefficients": [
+      1.3
+    ]
+  },
+  "Druid_StormStrike": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "Druid_Tornado": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "Druid_Trample": {
+    "coefficient": 0.75,
+    "hit_count": 2,
+    "max_coefficient": 0.75,
+    "all_coefficients": [
+      0.75,
+      0.45
+    ]
+  },
+  "Druid_WindShear": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "Druid_WolfPack": {
+    "coefficient": 0.14,
+    "hit_count": 4,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      0.14,
+      0.14,
+      2.0,
+      2.0
+    ]
+  },
+  "Druid_Wolf_Lightning_Howl": {
+    "coefficient": 1.95,
+    "hit_count": 1,
+    "max_coefficient": 1.95,
+    "all_coefficients": [
+      1.95
+    ]
+  },
+  "Druid_landslide": {
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ]
+  },
+  "Necromancer_ArmyoftheDead": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ]
+  },
+  "Necromancer_Blight": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Necromancer_BloodLance": {
+    "coefficient": 1.3,
+    "hit_count": 3,
+    "max_coefficient": 1.3,
+    "all_coefficients": [
+      1.3,
+      1.3,
+      1.3
+    ]
+  },
+  "Necromancer_BloodSurge": {
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      0.2
+    ]
+  },
+  "Necromancer_BloodWave": {
+    "coefficient": 3.0,
+    "hit_count": 2,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      3.0,
+      3.0
+    ]
+  },
+  "Necromancer_BoneSpear": {
+    "coefficient": 2.6,
+    "hit_count": 5,
+    "max_coefficient": 2.6,
+    "all_coefficients": [
+      2.6,
+      2.6,
+      0.25,
+      0.25,
+      2.6
+    ]
+  },
+  "Necromancer_BoneSpirit": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Necromancer_BoneSplinters": {
+    "coefficient": 0.3,
+    "hit_count": 1,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3
+    ]
+  },
+  "Necromancer_BoneStorm": {
+    "coefficient": 3.0,
+    "hit_count": 2,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      3.0,
+      3.0
+    ]
+  },
+  "Necromancer_CorpseExplosion": {
+    "coefficient": 1.1,
+    "hit_count": 1,
+    "max_coefficient": 1.1,
+    "all_coefficients": [
+      1.1
+    ]
+  },
+  "Necromancer_CorpseTendrils": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ]
+  },
+  "Necromancer_Decompose": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ]
+  },
+  "Necromancer_Golem": {
+    "coefficient": 1.4,
+    "hit_count": 1,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4
+    ]
+  },
+  "Necromancer_Hemorrhage": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Necromancer_IronMaiden": {
+    "coefficient": 0.3,
+    "hit_count": 3,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "Necromancer_Reap": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ]
+  },
+  "Necromancer_Sever": {
+    "coefficient": 0.6,
+    "hit_count": 4,
+    "max_coefficient": 1.6,
+    "all_coefficients": [
+      1.6,
+      1.6,
+      0.6,
+      0.6
+    ]
+  },
+  "Necromancer_SkeletonWarrior": {
+    "coefficient": 0.168,
+    "hit_count": 3,
+    "max_coefficient": 0.48,
+    "all_coefficients": [
+      0.182,
+      0.168,
+      0.48
+    ]
+  },
+  "Necromancer_SkeletonWarrior_Scythe_Standard": {
+    "coefficient": 0.035,
+    "hit_count": 4,
+    "max_coefficient": 0.34,
+    "all_coefficients": [
+      0.035,
+      0.035,
+      0.068,
+      0.34
+    ]
+  },
+  "Paladin_Advance_lunge": {
+    "coefficient": 1.05,
+    "hit_count": 1,
+    "max_coefficient": 1.05,
+    "all_coefficients": [
+      1.05
+    ]
+  },
+  "Paladin_Banner": {
+    "coefficient": 0.33,
+    "hit_count": 1,
+    "max_coefficient": 0.33,
+    "all_coefficients": [
+      0.33
+    ]
+  },
+  "Paladin_BlessedHammer": {
+    "coefficient": 1.15,
+    "hit_count": 2,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15
+    ]
+  },
+  "Paladin_BlessedShield": {
+    "coefficient": 2.16,
+    "hit_count": 1,
+    "max_coefficient": 2.16,
+    "all_coefficients": [
+      2.16
+    ]
+  },
+  "Paladin_Brandish": {
+    "coefficient": 0.75,
+    "hit_count": 1,
+    "max_coefficient": 0.75,
+    "all_coefficients": [
+      0.75
+    ]
+  },
+  "Paladin_Collapse": {
+    "coefficient": 0.28,
+    "hit_count": 2,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.28,
+      0.5
+    ]
+  },
+  "Paladin_Condemn": {
+    "coefficient": 2.4,
+    "hit_count": 2,
+    "max_coefficient": 2.4,
+    "all_coefficients": [
+      2.4,
+      2.4
+    ]
+  },
+  "Paladin_CrossSlash": {
+    "coefficient": 0.65,
+    "hit_count": 2,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65
+    ]
+  },
+  "Paladin_Disciple_of_Justice": {
+    "coefficient": 6.0,
+    "hit_count": 1,
+    "max_coefficient": 6.0,
+    "all_coefficients": [
+      6.0
+    ]
+  },
+  "Paladin_HolyShock_Aura": {
+    "coefficient": 0.9,
+    "hit_count": 3,
+    "max_coefficient": 3.2,
+    "all_coefficients": [
+      0.9,
+      3.2,
+      1.3
+    ]
+  },
+  "Paladin_Impale": {
+    "coefficient": 0.9,
+    "hit_count": 4,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "Paladin_LanceDive_OLD": {
+    "coefficient": 2.4,
+    "hit_count": 2,
+    "max_coefficient": 2.4,
+    "all_coefficients": [
+      0.8,
+      2.4
+    ]
+  },
+  "Paladin_PreTrailZeal": {
+    "coefficient": 0.8,
+    "hit_count": 4,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.2,
+      0.45,
+      0.2
+    ]
+  },
+  "Paladin_Punish": {
+    "coefficient": 1.15,
+    "hit_count": 2,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15
+    ]
+  },
+  "Paladin_ShieldBash": {
+    "coefficient": 2.05,
+    "hit_count": 2,
+    "max_coefficient": 2.05,
+    "all_coefficients": [
+      2.05,
+      2.05
+    ]
+  },
+  "Paladin_ShieldCharge": {
+    "coefficient": 0.65,
+    "hit_count": 2,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65
+    ]
+  },
+  "Paladin_ShieldCharge_Channel": {
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9
+    ]
+  },
+  "Paladin_ShieldCharge_Channel_Short": {
+    "coefficient": 0.9,
+    "hit_count": 3,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      0.9
+    ]
+  },
+  "Paladin_SpearOfTheHeavens": {
+    "coefficient": 1.6,
+    "hit_count": 3,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      1.6,
+      1.2,
+      3.0
+    ]
+  },
+  "Paladin_StormBolt": {
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 3.15,
+    "all_coefficients": [
+      0.9,
+      3.15
+    ]
+  },
+  "Paladin_Trinity": {
+    "coefficient": 4.5,
+    "hit_count": 1,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      4.5
+    ]
+  },
+  "Rogue_Barrage": {
+    "coefficient": 0.25,
+    "hit_count": 4,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "Rogue_BladeShift": {
+    "coefficient": 0.45,
+    "hit_count": 1,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45
+    ]
+  },
+  "Rogue_Caltrops": {
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.6
+    ]
+  },
+  "Rogue_DanceOfKnives": {
+    "coefficient": 0.78,
+    "hit_count": 2,
+    "max_coefficient": 0.78,
+    "all_coefficients": [
+      0.78,
+      0.2
+    ]
+  },
+  "Rogue_Dash": {
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ]
+  },
+  "Rogue_DeathTrap": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ]
+  },
+  "Rogue_Flurry": {
+    "coefficient": 1.4,
+    "hit_count": 4,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      1.4,
+      1.4,
+      1.4
+    ]
+  },
+  "Rogue_ForcefulArrow": {
+    "coefficient": 0.5,
+    "hit_count": 2,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5,
+      0.5
+    ]
+  },
+  "Rogue_Heartseeker": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ]
+  },
+  "Rogue_InvigoratingStrike": {
+    "coefficient": 0.65,
+    "hit_count": 2,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65
+    ]
+  },
+  "Rogue_PartingGift_Recast": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ]
+  },
+  "Rogue_PenetratingShot": {
+    "coefficient": 1.1,
+    "hit_count": 4,
+    "max_coefficient": 1.1,
+    "all_coefficients": [
+      1.1,
+      1.1,
+      1.1,
+      1.1
+    ]
+  },
+  "Rogue_Puncture": {
+    "coefficient": 0.45,
+    "hit_count": 2,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45,
+      0.45
+    ]
+  },
+  "Rogue_RapidFire": {
+    "coefficient": 0.45,
+    "hit_count": 4,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ]
+  },
+  "Rogue_ShadowStep": {
+    "coefficient": 0.8,
+    "hit_count": 3,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.8,
+      0.8
+    ]
+  },
+  "Rogue_SmokeBomb": {
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9
+    ]
+  },
+  "Rogue_TwistingBlades": {
+    "coefficient": 0.3,
+    "hit_count": 4,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "S02_BloodSeeker_Necromancer_BoneSpear": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ]
+  },
+  "S02_BloodSeeker_Sorc_FrozenOrb": {
+    "coefficient": 0.3169,
+    "hit_count": 1,
+    "max_coefficient": 0.3169,
+    "all_coefficients": [
+      0.3169
+    ]
+  },
+  "S02_BloodSeeker_Sorc_Teleport": {
+    "coefficient": 0.25,
+    "hit_count": 1,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25
+    ]
+  },
+  "S02_Bloodseeker_Sorcerer_Fireball": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "S11_Paladin_Follower_BlessedHammer": {
+    "coefficient": 0.05,
+    "hit_count": 1,
+    "max_coefficient": 0.05,
+    "all_coefficients": [
+      0.05
+    ]
+  },
+  "S11_Paladin_Follower_SpearOfTheHeavens": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ]
+  },
+  "S12_Wanderer_Barb_GroundStomp": {
+    "coefficient": 0.02,
+    "hit_count": 1,
+    "max_coefficient": 0.02,
+    "all_coefficients": [
+      0.02
+    ]
+  },
+  "S12_Wanderer_Barb_Leap": {
+    "coefficient": 0.075,
+    "hit_count": 2,
+    "max_coefficient": 0.075,
+    "all_coefficients": [
+      0.075,
+      0.075
+    ]
+  },
+  "S12_Wanderer_Barb_Upheaval": {
+    "coefficient": 0.04,
+    "hit_count": 1,
+    "max_coefficient": 0.04,
+    "all_coefficients": [
+      0.04
+    ]
+  },
+  "S12_Wanderer_Barbarian_Earthquake": {
+    "coefficient": 0.1,
+    "hit_count": 2,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1,
+      0.1
+    ]
+  },
+  "S12_Wanderer_Druid_Boulder": {
+    "coefficient": 0.7,
+    "hit_count": 3,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7,
+      0.7,
+      0.7
+    ]
+  },
+  "S12_Wanderer_Druid_Landslide": {
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ]
+  },
+  "S12_Wanderer_Druid_Petrify": {
+    "coefficient": 4.5,
+    "hit_count": 1,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      4.5
+    ]
+  },
+  "S12_Wanderer_Druid_Ravens": {
+    "coefficient": 3.0,
+    "hit_count": 3,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      3.0,
+      0.9,
+      3.0
+    ]
+  },
+  "S12_Wanderer_Necro_BloodWave": {
+    "coefficient": 0.065,
+    "hit_count": 1,
+    "max_coefficient": 0.065,
+    "all_coefficients": [
+      0.065
+    ]
+  },
+  "S12_Wanderer_Necro_BoneSpear": {
+    "coefficient": 0.04,
+    "hit_count": 1,
+    "max_coefficient": 0.04,
+    "all_coefficients": [
+      0.04
+    ]
+  },
+  "S12_Wanderer_Paladin_FallingStar": {
+    "coefficient": 0.8,
+    "hit_count": 2,
+    "max_coefficient": 2.4,
+    "all_coefficients": [
+      0.8,
+      2.4
+    ]
+  },
+  "S12_Wanderer_Paladin_HolyShock_Aura": {
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 3.2,
+    "all_coefficients": [
+      0.9,
+      3.2
+    ]
+  },
+  "S12_Wanderer_Rogue_Caltrops": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "S12_Wanderer_Rogue_Dash": {
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ]
+  },
+  "S12_Wanderer_Rogue_DeathTrap": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ]
+  },
+  "S12_Wanderer_Rogue_PenetratingShot": {
+    "coefficient": 1.1,
+    "hit_count": 1,
+    "max_coefficient": 1.1,
+    "all_coefficients": [
+      1.1
+    ]
+  },
+  "S12_Wanderer_Rogue_TwistingBlades": {
+    "coefficient": 0.3,
+    "hit_count": 4,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ]
+  },
+  "S12_Wanderer_Sorc_Hydra": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "S12_Wanderer_Sorc_Inferno": {
+    "coefficient": 4.25,
+    "hit_count": 1,
+    "max_coefficient": 4.25,
+    "all_coefficients": [
+      4.25
+    ]
+  },
+  "S12_Wanderer_Sorc_LightningSpear": {
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ]
+  },
+  "S12_Wanderer_Sorc_Teleport": {
+    "coefficient": 0.25,
+    "hit_count": 1,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25
+    ]
+  },
+  "S12_Wanderer_Spiritborn_QuillVolley": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ]
+  },
+  "S12_Wanderer_Spiritborn_RazorWings": {
+    "coefficient": 0.05,
+    "hit_count": 2,
+    "max_coefficient": 0.95,
+    "all_coefficients": [
+      0.05,
+      0.95
+    ]
+  },
+  "S12_Wanderer_Spiritborn_RushingClaw": {
+    "coefficient": 1.6,
+    "hit_count": 1,
+    "max_coefficient": 1.6,
+    "all_coefficients": [
+      1.6
+    ]
+  },
+  "S12_Wanderer_Spiritborn_TheSeeker": {
+    "coefficient": 0.52,
+    "hit_count": 2,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      0.52,
+      4.5
+    ]
+  },
+  "Sorcerer_ArcLash": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Sorcerer_BallLightning": {
+    "coefficient": 3.4,
+    "hit_count": 2,
+    "max_coefficient": 3.4,
+    "all_coefficients": [
+      3.4,
+      3.4
+    ]
+  },
+  "Sorcerer_ChainLightning": {
+    "coefficient": 0.43,
+    "hit_count": 1,
+    "max_coefficient": 0.43,
+    "all_coefficients": [
+      0.43
+    ]
+  },
+  "Sorcerer_ChargedBolt": {
+    "coefficient": 0.35,
+    "hit_count": 2,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35,
+      0.35
+    ]
+  },
+  "Sorcerer_DeepFreeze": {
+    "coefficient": 1.25,
+    "hit_count": 1,
+    "max_coefficient": 1.25,
+    "all_coefficients": [
+      1.25
+    ]
+  },
+  "Sorcerer_FireBolt": {
+    "coefficient": 0.18,
+    "hit_count": 1,
+    "max_coefficient": 0.18,
+    "all_coefficients": [
+      0.18
+    ]
+  },
+  "Sorcerer_Fireball": {
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ]
+  },
+  "Sorcerer_FlameShield": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ]
+  },
+  "Sorcerer_FrostBolt": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ]
+  },
+  "Sorcerer_FrozenOrb": {
+    "coefficient": 0.65,
+    "hit_count": 3,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.65,
+      0.65,
+      0.7
+    ]
+  },
+  "Sorcerer_Hydra": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "Sorcerer_Inferno": {
+    "coefficient": 4.25,
+    "hit_count": 1,
+    "max_coefficient": 4.25,
+    "all_coefficients": [
+      4.25
+    ]
+  },
+  "Sorcerer_LightningSpear": {
+    "coefficient": 1.2,
+    "hit_count": 2,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2,
+      1.2
+    ]
+  },
+  "Sorcerer_Meteor": {
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      0.35
+    ]
+  },
+  "Sorcerer_PrismaticShard": {
+    "coefficient": 0.4,
+    "hit_count": 4,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ]
+  },
+  "Sorcerer_Spark": {
+    "coefficient": 0.25,
+    "hit_count": 1,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25
+    ]
+  },
+  "Sorcerer_Teleport": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ]
+  },
+  "Spiritborn_Centipede_Basic": {
+    "coefficient": 0.05,
+    "hit_count": 2,
+    "max_coefficient": 0.05,
+    "all_coefficients": [
+      0.05,
+      0.05
+    ]
+  },
+  "Spiritborn_Centipede_Core": {
+    "coefficient": 1.15,
+    "hit_count": 4,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      1.15,
+      1.15
+    ]
+  },
+  "Spiritborn_Centipede_Focus": {
+    "coefficient": 0.3,
+    "hit_count": 1,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3
+    ]
+  },
+  "Spiritborn_Centipede_Potency": {
+    "coefficient": 0.1,
+    "hit_count": 2,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1,
+      0.1
+    ]
+  },
+  "Spiritborn_Centipede_Ultimate": {
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.95,
+    "all_coefficients": [
+      0.95,
+      0.3
+    ]
+  },
+  "Spiritborn_Eagle_Basic": {
+    "coefficient": 0.45,
+    "hit_count": 1,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45
+    ]
+  },
+  "Spiritborn_Eagle_Core": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ]
+  },
+  "Spiritborn_Eagle_Focus": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "Spiritborn_Eagle_Focus2": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ]
+  },
+  "Spiritborn_Eagle_Potency1": {
+    "coefficient": 0.05,
+    "hit_count": 2,
+    "max_coefficient": 0.95,
+    "all_coefficients": [
+      0.05,
+      0.95
+    ]
+  },
+  "Spiritborn_Eagle_Ultimate": {
+    "coefficient": 4.5,
+    "hit_count": 2,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      0.52,
+      4.5
+    ]
+  },
+  "Spiritborn_Forest_Basic": {
+    "coefficient": 0.35,
+    "hit_count": 4,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ]
+  },
+  "Spiritborn_Gorilla_Basic": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ]
+  },
+  "Spiritborn_Gorilla_Core": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ]
+  },
+  "Spiritborn_Gorilla_Defensive2": {
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ]
+  },
+  "Spiritborn_Gorilla_Potency": {
+    "coefficient": 1.75,
+    "hit_count": 2,
+    "max_coefficient": 1.75,
+    "all_coefficients": [
+      1.75,
+      1.75
+    ]
+  },
+  "Spiritborn_Gorilla_Ultimate": {
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      1.4
+    ]
+  },
+  "Spiritborn_Jaguar_Basic": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ]
+  },
+  "Spiritborn_Jaguar_Core": {
+    "coefficient": 0.4,
+    "hit_count": 2,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4,
+      0.4
+    ]
+  },
+  "Spiritborn_Jaguar_Defensive": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ]
+  },
+  "Spiritborn_Jaguar_Focus": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ]
+  },
+  "Spiritborn_Jaguar_Focus2": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ]
+  },
+  "Spiritborn_Jaguar_Potency": {
+    "coefficient": 1.6,
+    "hit_count": 1,
+    "max_coefficient": 1.6,
+    "all_coefficients": [
+      1.6
+    ]
+  },
+  "Spiritborn_Jaguar_Ultimate": {
+    "coefficient": 0.5,
+    "hit_count": 2,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      0.5,
+      2.0
+    ]
+  },
+  "Spiritborn_Plains_Basic": {
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3
+    ]
+  },
+  "Spiritborn_Plains_Defense": {
+    "coefficient": 1.5,
+    "hit_count": 1,
+    "max_coefficient": 1.5,
+    "all_coefficients": [
+      1.5
+    ]
+  },
+  "Spiritborn_Plains_Mobility1": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ]
+  },
+  "Spiritborn_Sky_Basic": {
+    "coefficient": 0.4,
+    "hit_count": 2,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4,
+      0.3
+    ]
+  },
+  "Spiritborn_Sky_Offense2": {
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.2
+    ]
+  },
+  "Spiritborn_Soil_Basic": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ]
+  },
+  "Spiritborn_Soil_Core": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ]
+  },
+  "X1_Barbarian_WeaponThrow": {
+    "coefficient": 0.5,
+    "hit_count": 3,
+    "max_coefficient": 1.05,
+    "all_coefficients": [
+      0.5,
+      1.05,
+      0.5
+    ]
+  },
+  "X1_Necromancer_Ultimate4": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ]
+  },
+  "X1_Sorcerer_Familiar": {
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ]
+  },
+  "pal_lanceDive_ground": {
+    "coefficient": 0.55,
+    "hit_count": 2,
+    "max_coefficient": 0.55,
+    "all_coefficients": [
+      0.55,
+      0.55
+    ]
+  },
+  "sorc_familiar_death_fam": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  },
+  "sorc_familiar_fire_fam": {
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ]
+  }
+}

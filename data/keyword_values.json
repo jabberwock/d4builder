@@ -1,0 +1,72 @@
+{
+  "Keyword_Stealth": {
+    "name": "Stealth",
+    "description": "Stealthed characters cannot be directly targeted by enemies. Using an attack or taking damage will instantly remove Stealth.",
+    "categories": [
+      "buff"
+    ]
+  },
+  "Keyword_Vulnerable": {
+    "name": "Vulnerable",
+    "description": "Vulnerable enemies take 20% increased damage.",
+    "damage_amp_pct": 20,
+    "damage_amp_type": "additive",
+    "enemy_damage_taken_pct": 20,
+    "categories": [
+      "debuff_damage"
+    ]
+  },
+  "Keyword_Berserk": {
+    "name": "Berserking",
+    "description": "Berserking grants [25|%x|] increased damage and [15|%+|] increased Movement Speed. This effect lasts up to 5 seconds.",
+    "damage_mult_pct": 25.0,
+    "damage_mult_type": "multiplicative",
+    "movement_speed_pct": 15.0,
+    "categories": [
+      "buff"
+    ]
+  },
+  "Keyword_Immune": {
+    "name": "Immune",
+    "description": "Immune characters cannot be damaged and are Unstoppable with all Control Impairing Effects removed and prevented.",
+    "categories": [
+      "defense"
+    ]
+  },
+  "Keyword_Fortify": {
+    "name": "Fortify",
+    "description": "Fortify is an additional reservoir of Life that is drained to heal you over time.",
+    "categories": [
+      "defense"
+    ]
+  },
+  "Keyword_Barrier": {
+    "name": "Barrier",
+    "description": "Barriers absorb damage from all sources up to a specified amount.",
+    "categories": [
+      "defense"
+    ]
+  },
+  "Keyword_Daze": {
+    "name": "Daze",
+    "description": "Dazed enemies cannot attack or use Skills but are still able to move.",
+    "categories": [
+      "crowd_control"
+    ]
+  },
+  "Keyword_Ignited": {
+    "name": "Ignited",
+    "description": "Ignited enemies take [200|%x|]  extra Burning damage per source of Burning.",
+    "damage_mult_pct": 200.0,
+    "damage_mult_type": "multiplicative",
+    "categories": [
+      "dot"
+    ]
+  },
+  "Keyword_Volatility": {
+    "name": "Volatility",
+    "description": "Volatility randomly empowers Hellfire Skills when you attack with them. Empowered skills deal 50% increased damage on their next cast.",
+    "damage_amp_pct": 50,
+    "damage_amp_type": "additive"
+  }
+}

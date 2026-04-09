@@ -1,0 +1,2972 @@
+{
+  "Sorcerer_Spark": {
+    "name": "Spark",
+    "coefficient": 0.25,
+    "hit_count": 2,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25,
+      0.2
+    ],
+    "raw_formulas": [
+      "0.25*Table(34,sLevel)",
+      "0.25*Table(34,sLevel)*0.8"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 9,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Sorcerer_Fireball": {
+    "name": "Fireball",
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ],
+    "raw_formulas": [
+      "1.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": 33,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Sorcerer_IceShards": {
+    "name": "Ice Shards",
+    "coefficient": 0.33,
+    "hit_count": 4,
+    "max_coefficient": 0.99,
+    "all_coefficients": [
+      0.33,
+      0.495,
+      0.66,
+      0.99
+    ],
+    "raw_formulas": [
+      "1.65*Table(34,sLevel)/5",
+      "1.65*Table(34,sLevel)/5*1.5",
+      "1.65*Table(34,sLevel)/5*(1+(AffixIsEquipped(1212506)?5:1))",
+      "1.65*Table(34,sLevel)/5*1.5*(1+(AffixIsEquipped(1212506)?5:1))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 16,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Sorcerer_ChainLightning": {
+    "name": "Chain Lightning",
+    "coefficient": 0.43,
+    "hit_count": 1,
+    "max_coefficient": 0.43,
+    "all_coefficients": [
+      0.43
+    ],
+    "raw_formulas": [
+      "0.43*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Sorcerer_FlameShield": {
+    "name": "Flame Shield",
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 20.0,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Sorcerer_FireBolt": {
+    "name": "Fire Bolt",
+    "coefficient": 0.18,
+    "hit_count": 1,
+    "max_coefficient": 0.18,
+    "all_coefficients": [
+      0.18
+    ],
+    "raw_formulas": [
+      "0.18*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 19.377422517014498,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Sorcerer_ChargedBolt": {
+    "name": "Charged Bolts",
+    "coefficient": 0.35,
+    "hit_count": 3,
+    "max_coefficient": 0.875,
+    "all_coefficients": [
+      0.35,
+      0.35,
+      0.875
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)",
+      "AffixIsEquipped(579746)?0.35*Table(34,sLevel)*(1/(1-Affix_Value_1(579746)/100)):0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)*2.5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Sorcerer_FrostBolt": {
+    "name": "Frost Bolt",
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 40,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Sorcerer_ArcLash": {
+    "name": "Arc Lash",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 14,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Sorcerer_Meteor": {
+    "name": "Meteor",
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      0.35
+    ],
+    "raw_formulas": [
+      "1.4*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 22.54033307585166,
+    "primary_tag": "Skill_Primary_Mastery"
+  },
+  "Sorcerer_IceBlades": {
+    "name": "Ice Blades",
+    "coefficient": 0.22999995,
+    "hit_count": 1,
+    "max_coefficient": 0.22999995,
+    "all_coefficients": [
+      0.22999995
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)*1.533333/4"
+    ],
+    "cooldown_sec": 16.0,
+    "resource_cost": 0,
+    "lucky_hit": null,
+    "primary_tag": "Skill_Primary_Conjuration"
+  },
+  "Sorcerer_Hydra": {
+    "name": "Hydra",
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 5,
+    "primary_tag": "Skill_Primary_Conjuration"
+  },
+  "Sorcerer_BallLightning": {
+    "name": "Ball Lightning",
+    "coefficient": 0.204,
+    "hit_count": 9,
+    "max_coefficient": 7.6499999999999995,
+    "all_coefficients": [
+      0.204,
+      0.204,
+      3.4,
+      0.9,
+      3.4,
+      7.6499999999999995,
+      7.6499999999999995,
+      0.45899999999999996,
+      0.408
+    ],
+    "raw_formulas": [
+      "3.4*Table(34,sLevel)*0.3/5",
+      "3.4*Table(34,sLevel)*0.3/5",
+      "3.4*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "3.4*Table(34,sLevel)",
+      "3.4*Table(34,sLevel)*2.25",
+      "3.4*Table(34,sLevel)*2.25",
+      "3.4*Table(34,sLevel)*0.3/5*2.25",
+      "3.4*Table(34,sLevel)*0.3/5*2"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 50,
+    "lucky_hit": 5,
+    "primary_tag": "Skill_Primary_Mastery"
+  },
+  "Sorcerer_Teleport": {
+    "name": "Teleport",
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 65,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Sorcerer_LightningSpear": {
+    "name": "Lightning Spear",
+    "coefficient": 1.2,
+    "hit_count": 2,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2,
+      1.2
+    ],
+    "raw_formulas": [
+      "1.2*Table(34,sLevel)",
+      "1.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 20.0,
+    "resource_cost": 0,
+    "lucky_hit": 5,
+    "primary_tag": "Skill_Primary_Conjuration"
+  },
+  "Sorcerer_FrozenOrb": {
+    "name": "Frozen Orb",
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ],
+    "raw_formulas": [
+      "0.7*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 40,
+    "lucky_hit": 4,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Sorcerer_Inferno": {
+    "name": "Inferno",
+    "coefficient": 4.25,
+    "hit_count": 1,
+    "max_coefficient": 4.25,
+    "all_coefficients": [
+      4.25
+    ],
+    "raw_formulas": [
+      "4.25*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 5,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Sorcerer_DeepFreeze": {
+    "name": "Deep Freeze",
+    "coefficient": 0.25,
+    "hit_count": 2,
+    "max_coefficient": 1.25,
+    "all_coefficients": [
+      0.25,
+      1.25
+    ],
+    "raw_formulas": [
+      "((Floor(sLevel/5)?1:0)==0?2*Table(34,sLevel):2*Table(34,sLevel)*(1+Min(2,((1+Vulnerable_Health_Damage_Bonus)*(1+Multiplicative_Vulnerable_Health_Damage_Bonus)*1.2+-1)*0.3)))/8",
+      "(Floor(sLevel/5)?1:0)==0?1.25*Table(34,sLevel):1.25*Table(34,sLevel)*(1+Min(2,((1+Vulnerable_Health_Damage_Bonus)*(1+Multiplicative_Vulnerable_Health_Damage_Bonus)*1.2+-1)*0.3))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 2,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "X1_Sorcerer_Familiar": {
+    "name": "Familiar",
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ],
+    "raw_formulas": [
+      "0.7*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 10,
+    "primary_tag": "Skill_Primary_Conjuration"
+  },
+  "Druid_Earthspike_Instant": {
+    "name": "Earth Spike",
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Druid_landslide": {
+    "name": "Landslide",
+    "coefficient": 0.7,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      0.7,
+      1.4
+    ],
+    "raw_formulas": [
+      "0.7*Table(34,sLevel)",
+      "0.7*Table(34,sLevel)*2"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Druid_Pulverize": {
+    "name": "Pulverize",
+    "coefficient": 1.75,
+    "hit_count": 1,
+    "max_coefficient": 1.75,
+    "all_coefficients": [
+      1.75
+    ],
+    "raw_formulas": [
+      "Mod(2588151487)?1.2*(1.75*Table(34,sLevel)):1.75*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Druid_EarthenBulwark": {
+    "name": "Earthen Bulwark",
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 16.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Druid_Claw": {
+    "name": "Claw",
+    "coefficient": 0.8,
+    "hit_count": 2,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)",
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Druid_StormStrike": {
+    "name": "Storm Strike",
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Druid_Tornado": {
+    "name": "Tornado",
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": 8,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Druid_LightningStorm": {
+    "name": "Lightning Storm",
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ],
+    "raw_formulas": [
+      "0.65*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 15,
+    "lucky_hit": 15,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Druid_Trample": {
+    "name": "Trample",
+    "coefficient": 0.75,
+    "hit_count": 2,
+    "max_coefficient": 0.75,
+    "all_coefficients": [
+      0.75,
+      0.45
+    ],
+    "raw_formulas": [
+      "0.75*Table(34,sLevel)",
+      "0.45*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 14.0,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Wrath"
+  },
+  "Druid_Hurricane": {
+    "name": "Hurricane",
+    "coefficient": 0.21625,
+    "hit_count": 1,
+    "max_coefficient": 0.21625,
+    "all_coefficients": [
+      0.21625
+    ],
+    "raw_formulas": [
+      "3.46*Table(34,sLevel)*0.5/8"
+    ],
+    "cooldown_sec": 20.0,
+    "resource_cost": 0,
+    "lucky_hit": 1.5,
+    "primary_tag": "Skill_Primary_Wrath"
+  },
+  "Druid_WindShear": {
+    "name": "Wind Shear",
+    "coefficient": 0.6,
+    "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Druid_Boulder": {
+    "name": "Boulder",
+    "coefficient": 0.7,
+    "hit_count": 4,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "raw_formulas": [
+      "0.7*Table(34,sLevel)",
+      "0.7*Table(34,sLevel)",
+      "0.7*Table(34,sLevel)",
+      "0.7*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 10.0,
+    "resource_cost": 0,
+    "lucky_hit": 4,
+    "primary_tag": "Skill_Primary_Wrath"
+  },
+  "Druid_Maul": {
+    "name": "Maul",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Druid_Ravens": {
+    "name": "Ravens",
+    "coefficient": 0.25,
+    "hit_count": 3,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      0.25,
+      0.9,
+      3.0
+    ],
+    "raw_formulas": [
+      "3*Table(34,sLevel)*(0.5/(((GetCollectiblePowerEquippedSlotIndex(2353911)>-1?1:0)?3:6)*(AffixIsEquipped(1815979)?0.5:1)))",
+      "0.9*Table(34,sLevel)*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*(Mod(2686060810)?1.4:1)",
+      "3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": "(1-Pow(0.7416198487095663,1/(((GetCollectiblePowerEquippedSlotIndex(2353911)>-1?1:0)?3:6)*(AffixIsEquipped(1815979)?0.5:1)/0.5)))*100",
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Druid_WolfPack": {
+    "name": "Wolves",
+    "coefficient": 0.14,
+    "hit_count": 4,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      0.14,
+      0.14,
+      2.0,
+      2.0
+    ],
+    "raw_formulas": [
+      "0.14*Table(34,sLevel)*(ParagonGlyphAffixIsActive(1028541)?2.3:1)",
+      "0.14*Table(34,sLevel)*(ParagonGlyphAffixIsActive(1028541)?2.3:1)",
+      "2*Table(34,sLevel)",
+      "2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 11.0,
+    "resource_cost": 0,
+    "lucky_hit": null,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Druid_CycloneArmor": {
+    "name": "Cyclone Armor",
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 18.0,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Druid_Rabies": {
+    "name": "Rabies",
+    "coefficient": 0.28,
+    "hit_count": 1,
+    "max_coefficient": 0.28,
+    "all_coefficients": [
+      0.28
+    ],
+    "raw_formulas": [
+      "0.28*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 29.28932188134524,
+    "primary_tag": "Skill_Primary_Wrath"
+  },
+  "Druid_Cataclysm": {
+    "name": "Cataclysm",
+    "coefficient": 1.15,
+    "hit_count": 3,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      0.46
+    ],
+    "raw_formulas": [
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)",
+      "0.46*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 62,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Druid_Lacerate": {
+    "name": "Lacerate",
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.0675
+    ],
+    "raw_formulas": [
+      "(Floor(sLevel/5)?1:0)==0?0.6*Table(34,sLevel):0.6*Table(34,sLevel)*(1+Min(2,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)*0.3))",
+      "((Floor(sLevel/5)?1:0)==0?0.6*Table(34,sLevel):0.6*Table(34,sLevel)*(1+Min(2,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)*0.3)))*0.45/4"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 7,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Druid_Shred_NEW": {
+    "name": "Shred",
+    "coefficient": 1.0,
+    "hit_count": 8,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      1.0,
+      1.0,
+      1.5,
+      1.5,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "raw_formulas": [
+      "Table(34,sLevel)",
+      "Table(34,sLevel)",
+      "1.5*Table(34,sLevel)",
+      "1.5*Table(34,sLevel)",
+      "3*Table(34,sLevel)",
+      "3*Table(34,sLevel)",
+      "3*Table(34,sLevel)",
+      "3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Druid_StoneBurst": {
+    "name": "Stone Burst",
+    "coefficient": 1.3,
+    "hit_count": 1,
+    "max_coefficient": 1.3,
+    "all_coefficients": [
+      1.3
+    ],
+    "raw_formulas": [
+      "Mod(2740659211)?1.5*(1.3*Table(34,sLevel)):1.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_Bash": {
+    "name": "Bash",
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Barbarian_HammeroftheAncients": {
+    "name": "Hammer of the Ancients",
+    "coefficient": 1.75,
+    "hit_count": 2,
+    "max_coefficient": 1.75,
+    "all_coefficients": [
+      1.75,
+      1.75
+    ],
+    "raw_formulas": [
+      "1.75*Table(34,sLevel)",
+      "1.75*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_Rend": {
+    "name": "Rend",
+    "coefficient": 0.25,
+    "hit_count": 1,
+    "max_coefficient": 0.25,
+    "all_coefficients": [
+      0.25
+    ],
+    "raw_formulas": [
+      "0.25*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 18.146472281275507,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_DoubleSwing": {
+    "name": "Double Swing",
+    "coefficient": 0.85,
+    "hit_count": 1,
+    "max_coefficient": 0.85,
+    "all_coefficients": [
+      0.85
+    ],
+    "raw_formulas": [
+      "0.85*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 20,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_GroundStomp": {
+    "name": "Ground Stomp",
+    "coefficient": 1.4,
+    "hit_count": 1,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4
+    ],
+    "raw_formulas": [
+      "1.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 33,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Barbarian_Maim": {
+    "name": "Flay",
+    "coefficient": 0.055,
+    "hit_count": 1,
+    "max_coefficient": 0.055,
+    "all_coefficients": [
+      0.055
+    ],
+    "raw_formulas": [
+      "0.055*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 29.28932188134524,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Barbarian_Frenzy": {
+    "name": "Frenzy",
+    "coefficient": 0.35,
+    "hit_count": 2,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.35,
+      0.7
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)*2"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Barbarian_LungingStrike": {
+    "name": "Lunging Strike",
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Barbarian_Upheaval": {
+    "name": "Upheaval",
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ],
+    "raw_formulas": [
+      "2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_Kick": {
+    "name": "Kick",
+    "coefficient": 1.0,
+    "hit_count": 5,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "raw_formulas": [
+      "Table(34,sLevel)",
+      "Table(34,sLevel)",
+      "Table(34,sLevel)",
+      "Table(34,sLevel)",
+      "Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 40,
+    "primary_tag": "Skill_Primary_Brawling"
+  },
+  "Barbarian_Leap": {
+    "name": "Leap",
+    "coefficient": 0.55,
+    "hit_count": 3,
+    "max_coefficient": 0.77,
+    "all_coefficients": [
+      0.55,
+      0.77,
+      0.55
+    ],
+    "raw_formulas": [
+      "0.55*Table(34,sLevel)",
+      "0.55*Table(34,sLevel)*1.4",
+      "0.55*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 66,
+    "primary_tag": "Skill_Primary_Brawling"
+  },
+  "Barbarian_Charge": {
+    "name": "Charge",
+    "coefficient": 1.8,
+    "hit_count": 3,
+    "max_coefficient": 1.8,
+    "all_coefficients": [
+      1.8,
+      1.5,
+      1.5
+    ],
+    "raw_formulas": [
+      "1.8*Table(34,sLevel)",
+      "1.5*Table(34,sLevel)",
+      "1.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Brawling"
+  },
+  "Barbarian_SteelGrasp": {
+    "name": "Steel Grasp",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "Mod(2686060809)?0.8*Table(34,sLevel)*3:0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Weapon_Mastery"
+  },
+  "Barbarian_DeathBlow": {
+    "name": "Death Blow",
+    "coefficient": 3.0,
+    "hit_count": 1,
+    "max_coefficient": 3.0,
+    "all_coefficients": [
+      3.0
+    ],
+    "raw_formulas": [
+      "3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Weapon_Mastery"
+  },
+  "Barbarian_Whirlwind": {
+    "name": "Whirlwind",
+    "coefficient": 0.7583333333333333,
+    "hit_count": 2,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      0.7583333333333333,
+      1.2
+    ],
+    "raw_formulas": [
+      "1.75*Table(34,sLevel)/2.3076923076923075",
+      "1.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Barbarian_IronMaelstrom": {
+    "name": "Iron Maelstrom",
+    "coefficient": 1.5,
+    "hit_count": 3,
+    "max_coefficient": 1.5,
+    "all_coefficients": [
+      1.5,
+      0.4,
+      0.86
+    ],
+    "raw_formulas": [
+      "(Floor(sLevel/5)?1:0)==0?1.5*Table(34,sLevel):1.5*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_To_High_Health)*(1+Damage_Bonus_To_High_Health)+(1+Multiplicative_Damage_Bonus_To_Low_Health)*(1+Damage_Bonus_To_Low_Health)-2)*0.6))",
+      "(Floor(sLevel/5)?1:0)==0?0.4*Table(34,sLevel):0.4*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_To_High_Health)*(1+Damage_Bonus_To_High_Health)+(1+Multiplicative_Damage_Bonus_To_Low_Health)*(1+Damage_Bonus_To_Low_Health)-2)*0.6))",
+      "(Floor(sLevel/5)?1:0)==0?0.86*Table(34,sLevel):0.86*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_To_High_Health)*(1+Damage_Bonus_To_High_Health)+(1+Multiplicative_Damage_Bonus_To_Low_Health)*(1+Damage_Bonus_To_Low_Health)-2)*0.6))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Barbarian_CalloftheAncients": {
+    "name": "Call of the Ancients",
+    "coefficient": 1.1,
+    "hit_count": 4,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      1.1,
+      0.4,
+      0.8,
+      2.0
+    ],
+    "raw_formulas": [
+      "1.1*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)",
+      "0.8*Table(34,sLevel)",
+      "2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": null,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "X1_Barbarian_WeaponThrow": {
+    "name": "Mighty Throw",
+    "coefficient": 0.5,
+    "hit_count": 4,
+    "max_coefficient": 3.0583335,
+    "all_coefficients": [
+      0.5,
+      1.05,
+      3.0583335,
+      0.5
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)",
+      "1.05*Table(34,sLevel)",
+      "1.05*Table(34,sLevel)+0.5*Table(34,sLevel)*4.016667",
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 14.937758096451612,
+    "primary_tag": "Skill_Primary_Weapon_Mastery"
+  },
+  "Rogue_Heartseeker": {
+    "name": "Heartseeker",
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Rogue_RapidFire": {
+    "name": "Rapid Fire",
+    "coefficient": 0.45,
+    "hit_count": 3,
+    "max_coefficient": 0.55125,
+    "all_coefficients": [
+      0.45,
+      0.49500000000000005,
+      0.55125
+    ],
+    "raw_formulas": [
+      "0.45*Table(34,sLevel)",
+      "0.45*Table(34,sLevel)*1.1",
+      "0.45*Table(34,sLevel)*1.225"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 25,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_Flurry": {
+    "name": "Flurry",
+    "coefficient": 0.35,
+    "hit_count": 7,
+    "max_coefficient": 2.0999999999999996,
+    "all_coefficients": [
+      0.35,
+      0.35,
+      0.35,
+      0.35,
+      1.4,
+      1.75,
+      2.0999999999999996
+    ],
+    "raw_formulas": [
+      "1.4*Table(34,sLevel)/4",
+      "1.4*Table(34,sLevel)/4",
+      "1.4*Table(34,sLevel)/4",
+      "1.4*Table(34,sLevel)/4",
+      "1.4*Table(34,sLevel)",
+      "1.4*Table(34,sLevel)*1.25",
+      "1.4*Table(34,sLevel)*1.5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 25,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_Barrage": {
+    "name": "Barrage",
+    "coefficient": 0.25,
+    "hit_count": 3,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.25,
+      0.3,
+      0.35
+    ],
+    "raw_formulas": [
+      "0.25*Table(34,sLevel)",
+      "0.25*Table(34,sLevel)*1.2",
+      "0.25*Table(34,sLevel)*1.4"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 16,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_SmokeBomb": {
+    "name": "Smoke Grenade",
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Subterfuge"
+  },
+  "Rogue_Caltrops": {
+    "name": "Caltrops",
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.6
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)",
+      "0.6*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Agility"
+  },
+  "Rogue_Puncture": {
+    "name": "Puncture",
+    "coefficient": 0.45,
+    "hit_count": 3,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45,
+      0.45,
+      0.1575
+    ],
+    "raw_formulas": [
+      "0.45*Table(34,sLevel)",
+      "0.45*Table(34,sLevel)",
+      "0.45*Table(34,sLevel)*0.35"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Rogue_InvigoratingStrike": {
+    "name": "Invigorating Strike",
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ],
+    "raw_formulas": [
+      "0.65*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Rogue_TwistingBlades": {
+    "name": "Twisting Blades",
+    "coefficient": 0.3,
+    "hit_count": 4,
+    "max_coefficient": 0.699,
+    "all_coefficients": [
+      0.3,
+      0.699,
+      0.39,
+      0.48
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)",
+      "0.699*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)*1.3",
+      "0.3*Table(34,sLevel)*1.6"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 30,
+    "lucky_hit": 33,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_PenetratingShot": {
+    "name": "Penetrating Shot",
+    "coefficient": 1.1,
+    "hit_count": 3,
+    "max_coefficient": 1.7600000000000002,
+    "all_coefficients": [
+      1.1,
+      1.4300000000000002,
+      1.7600000000000002
+    ],
+    "raw_formulas": [
+      "1.1*Table(34,sLevel)",
+      "1.1*Table(34,sLevel)*1.3",
+      "1.1*Table(34,sLevel)*1.6"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 35,
+    "lucky_hit": "50+Round(Resource_Cur(4))*10*(1+ParagonNodeIsPurchased(679695)*Floor(Resource_Cur(4)/3)*0.4)*RogueComboPointsEnabled()",
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_ForcefulArrow": {
+    "name": "Forceful Arrow",
+    "coefficient": 0.5,
+    "hit_count": 2,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5,
+      0.5
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)",
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Rogue_ShadowStep": {
+    "name": "Shadow Step",
+    "coefficient": 0.8,
+    "hit_count": 5,
+    "max_coefficient": 1.04,
+    "all_coefficients": [
+      0.8,
+      0.8,
+      0.8800000000000001,
+      0.96,
+      1.04
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)",
+      "0.8*Table(34,sLevel)",
+      "0.8*Table(34,sLevel)*1.1",
+      "0.8*Table(34,sLevel)*1.2",
+      "0.8*Table(34,sLevel)*1.3"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Agility"
+  },
+  "Rogue_BladeShift": {
+    "name": "Blade Shift",
+    "coefficient": 0.45,
+    "hit_count": 1,
+    "max_coefficient": 0.45,
+    "all_coefficients": [
+      0.45
+    ],
+    "raw_formulas": [
+      "0.45*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Rogue_PoisonTrap": {
+    "name": "Poison Trap",
+    "coefficient": 2.04,
+    "hit_count": 3,
+    "max_coefficient": 3.2640000000000002,
+    "all_coefficients": [
+      2.04,
+      2.652,
+      3.2640000000000002
+    ],
+    "raw_formulas": [
+      "(AffixIsEquipped(2246442)?0.17*(9*(1+Power_Duration_Bonus_Pct(416528)))/3:0.17)*Table(34,sLevel)*(AffixIsEquipped(2246442)?3:9*(1+Power_Duration_Bonus_Pct(416528)))/0.25",
+      "(AffixIsEquipped(2246442)?0.17*(9*(1+Power_Duration_Bonus_Pct(416528)))/3:0.17)*Table(34,sLevel)*(AffixIsEquipped(2246442)?3:9*(1+Power_Duration_Bonus_Pct(416528)))/0.25*1.3",
+      "(AffixIsEquipped(2246442)?0.17*(9*(1+Power_Duration_Bonus_Pct(416528)))/3:0.17)*Table(34,sLevel)*(AffixIsEquipped(2246442)?3:9*(1+Power_Duration_Bonus_Pct(416528)))/0.25*1.6"
+    ],
+    "cooldown_sec": 10.0,
+    "resource_cost": 0,
+    "lucky_hit": "25+(AffixIsEquipped(2246442)?RogueComboPointsEnabled():0)*10*(1+ParagonNodeIsPurchased(679695)*Floor(Resource_Cur(4)/3)*0.4)*Round(Resource_Cur(4))",
+    "primary_tag": "Skill_Primary_Subterfuge"
+  },
+  "Rogue_RainofArrows": {
+    "name": "Rain of Arrows",
+    "coefficient": 1.125,
+    "hit_count": 2,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      1.125,
+      4.5
+    ],
+    "raw_formulas": [
+      "((Floor(sLevel/5)?1:0)==0?4.5*Table(34,sLevel):4.5*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_To_Far)*(1+Damage_Bonus_To_Far)-1)*0.8)))/4",
+      "((Floor(sLevel/5)?1:0)==0?4.5*Table(34,sLevel):4.5*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_To_Far)*(1+Damage_Bonus_To_Far)-1)*0.8)))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 12,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Rogue_DeathTrap": {
+    "name": "Death Trap",
+    "coefficient": 2.0,
+    "hit_count": 4,
+    "max_coefficient": 2.4,
+    "all_coefficients": [
+      2.0,
+      0.6666666666666666,
+      1.2,
+      2.4
+    ],
+    "raw_formulas": [
+      "2*Table(34,sLevel)",
+      "2*Table(34,sLevel)/3",
+      "2*Table(34,sLevel)*0.6",
+      "2*Table(34,sLevel)*0.6*2"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 15,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Rogue_DanceOfKnives": {
+    "name": "Dance of Knives",
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "raw_formulas": [
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 1.1,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Agility"
+  },
+  "Necromancer_BoneSplinters": {
+    "name": "Bone Splinters",
+    "coefficient": 0.3,
+    "hit_count": 1,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Necromancer_BoneSpear": {
+    "name": "Bone Spear",
+    "coefficient": 1.3,
+    "hit_count": 4,
+    "max_coefficient": 1.3,
+    "all_coefficients": [
+      1.3,
+      1.3,
+      0.25,
+      0.25
+    ],
+    "raw_formulas": [
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?2.6:1.3)*Table(34,sLevel)",
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?2.6:1.3)*Table(34,sLevel)",
+      "0.25*Table(34,sLevel)",
+      "0.25*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Necromancer_Blight": {
+    "name": "Blight",
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "raw_formulas": [
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?0.8:0.4)*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 22.54033307585166,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Necromancer_Sever": {
+    "name": "Sever",
+    "coefficient": 1.0,
+    "hit_count": 5,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0,
+      1.0,
+      0.2,
+      0.2,
+      0.85
+    ],
+    "raw_formulas": [
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1.6:1)*Table(34,sLevel)",
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1.6:1)*Table(34,sLevel)",
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?0.6:0.2)*Table(34,sLevel)",
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?0.6:0.2)*Table(34,sLevel)",
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1.6:1)*Table(34,sLevel)*0.85"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 40,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Necromancer_BoneSpirit": {
+    "name": "Bone Spirit",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 33,
+    "primary_tag": "Skill_Primary_Macabre"
+  },
+  "Necromancer_BloodSurge": {
+    "name": "Blood Surge",
+    "coefficient": 0.8,
+    "hit_count": 2,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.2
+    ],
+    "raw_formulas": [
+      "((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1.4:0.8)*Table(34,sLevel)",
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 12,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Necromancer_Reap": {
+    "name": "Reap",
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Necromancer_CorpseExplosion": {
+    "name": "Corpse Explosion",
+    "coefficient": 1.1,
+    "hit_count": 1,
+    "max_coefficient": 1.1,
+    "all_coefficients": [
+      1.1
+    ],
+    "raw_formulas": [
+      "1.1*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 17.45181877763433,
+    "primary_tag": "Skill_Primary_Corpse"
+  },
+  "Necromancer_IronMaiden": {
+    "name": "Iron Maiden",
+    "coefficient": 0.3,
+    "hit_count": 3,
+    "max_coefficient": 0.39,
+    "all_coefficients": [
+      0.3,
+      0.3,
+      0.39
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)*1.3"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 5,
+    "primary_tag": "Skill_Primary_Curse"
+  },
+  "Necromancer_CorpseTendrils": {
+    "name": "Corpse Tendrils",
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "raw_formulas": [
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Corpse"
+  },
+  "Necromancer_Hemorrhage": {
+    "name": "Hemorrhage",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Necromancer_ArmyoftheDead": {
+    "name": "Army of the Dead",
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ],
+    "raw_formulas": [
+      "(Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1:1.2)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?1:1.2)*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Power_Damage_Percent_Bonus(440313))*(1+Power_Damage_Percent_Bonus(440313))+(1+Multiplicative_Power_Damage_Percent_Bonus(446956))*(1+Power_Damage_Percent_Bonus(446956))-2)*0.4))"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 7,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Necromancer_BoneStorm": {
+    "name": "Bone Storm",
+    "coefficient": 0.17500000000000002,
+    "hit_count": 3,
+    "max_coefficient": 3.5,
+    "all_coefficients": [
+      0.17500000000000002,
+      3.5,
+      3.5
+    ],
+    "raw_formulas": [
+      "((Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel)*(1+Min(2,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)*0.3)))*0.5/((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?2:10)",
+      "(Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel)*(1+Min(2,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)*0.3))",
+      "(Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:3.5)*Table(34,sLevel)*(1+Min(2,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)*0.3))"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 2,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Necromancer_BloodLance": {
+    "name": "Blood Lance",
+    "coefficient": 1.3,
+    "hit_count": 3,
+    "max_coefficient": 1.3,
+    "all_coefficients": [
+      1.3,
+      1.3,
+      1.3
+    ],
+    "raw_formulas": [
+      "1.3*Table(34,sLevel)",
+      "1.3*Table(34,sLevel)",
+      "1.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Necromancer_BloodWave": {
+    "name": "Blood Wave",
+    "coefficient": 5.0,
+    "hit_count": 2,
+    "max_coefficient": 5.0,
+    "all_coefficients": [
+      5.0,
+      5.0
+    ],
+    "raw_formulas": [
+      "(Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:5)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:5)*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_At_High_Health)*(1+Damage_Bonus_At_High_Health)+(1+Damage_Percent_Bonus_When_Fortified)-2)*0.3))",
+      "(Floor(sLevel/5)?1:0)==0?((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:5)*Table(34,sLevel):((GetCollectiblePowerEquippedSlotIndex(2353919)>-1?1:0)?3:5)*Table(34,sLevel)*(1+Min(2,((1+Multiplicative_Damage_Bonus_At_High_Health)*(1+Damage_Bonus_At_High_Health)+(1+Damage_Percent_Bonus_When_Fortified)-2)*0.3))"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "X1_Necromancer_Ultimate4": {
+    "name": "Soulrift",
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "raw_formulas": [
+      "0.1*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Spiritborn_Gorilla_Basic": {
+    "name": "Rock Splitter",
+    "coefficient": 0.5,
+    "hit_count": 3,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.5,
+      0.8,
+      0.8
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)",
+      "0.5*Table(34,sLevel)*1.6",
+      "0.5*Table(34,sLevel)*1.6"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 28,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Eagle_Basic": {
+    "name": "Thunderspike",
+    "coefficient": 0.45,
+    "hit_count": 3,
+    "max_coefficient": 0.648,
+    "all_coefficients": [
+      0.45,
+      0.648,
+      0.648
+    ],
+    "raw_formulas": [
+      "0.45*Table(34,sLevel)",
+      "0.45*Table(34,sLevel)*1.44",
+      "0.45*Table(34,sLevel)*1.44"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 22,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Jaguar_Basic": {
+    "name": "Thrash",
+    "coefficient": 0.4,
+    "hit_count": 3,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.4,
+      0.13999999999999999,
+      0.7
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)*3.5/10",
+      "0.4*Table(34,sLevel)*3.5/10*5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Centipede_Basic": {
+    "name": "Withering Fist",
+    "coefficient": 0.05,
+    "hit_count": 4,
+    "max_coefficient": 0.05,
+    "all_coefficients": [
+      0.05,
+      0.025,
+      0.016666666666666666,
+      0.05
+    ],
+    "raw_formulas": [
+      "0.05*Table(34,sLevel)",
+      "0.05*Table(34,sLevel)/2",
+      "0.05*Table(34,sLevel)/3",
+      "0.05*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 13.397459621556141,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Gorilla_Core": {
+    "name": "Crushing Hand",
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ],
+    "raw_formulas": [
+      "Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 30,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Spiritborn_Eagle_Core": {
+    "name": "Quill Volley",
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "raw_formulas": [
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 35,
+    "lucky_hit": 12,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Spiritborn_Jaguar_Core": {
+    "name": "Rake",
+    "coefficient": 0.4,
+    "hit_count": 3,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      0.4,
+      0.6000000000000001,
+      1.0
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)*1.5",
+      "0.4*Table(34,sLevel)*1.5+0.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 30,
+    "lucky_hit": 18,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Spiritborn_Centipede_Core": {
+    "name": "Stinger",
+    "coefficient": 1.15,
+    "hit_count": 4,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      1.15,
+      1.15
+    ],
+    "raw_formulas": [
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 40,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Spiritborn_Gorilla_Potency": {
+    "name": "Payback",
+    "coefficient": 1.75,
+    "hit_count": 2,
+    "max_coefficient": 3.5,
+    "all_coefficients": [
+      1.75,
+      3.5
+    ],
+    "raw_formulas": [
+      "1.75*Table(34,sLevel)",
+      "1.75*Table(34,sLevel)*2"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Potency"
+  },
+  "Spiritborn_Eagle_Potency1": {
+    "name": "Razor Wings",
+    "coefficient": 0.05,
+    "hit_count": 2,
+    "max_coefficient": 0.95,
+    "all_coefficients": [
+      0.05,
+      0.95
+    ],
+    "raw_formulas": [
+      "0.05*Table(34,sLevel)",
+      "0.95*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 22,
+    "primary_tag": "Skill_Primary_Potency"
+  },
+  "Spiritborn_Jaguar_Potency": {
+    "name": "Rushing Claw",
+    "coefficient": 1.6,
+    "hit_count": 3,
+    "max_coefficient": 1.6,
+    "all_coefficients": [
+      1.6,
+      0.8,
+      0.8
+    ],
+    "raw_formulas": [
+      "1.6*Table(34,sLevel)",
+      "1.6*Table(34,sLevel)/2",
+      "1.6*Table(34,sLevel)/2"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Potency"
+  },
+  "Spiritborn_Centipede_Potency": {
+    "name": "Touch of Death",
+    "coefficient": 0.1,
+    "hit_count": 2,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1,
+      0.1
+    ],
+    "raw_formulas": [
+      "0.1*Table(34,sLevel)",
+      "0.1*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 10.557280900008415,
+    "primary_tag": "Skill_Primary_Potency"
+  },
+  "Spiritborn_Gorilla_Defensive2": {
+    "name": "Concussive Stomp",
+    "coefficient": 0.65,
+    "hit_count": 1,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65
+    ],
+    "raw_formulas": [
+      "0.65*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 10.0,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Spiritborn_Jaguar_Defensive": {
+    "name": "Counterattack",
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Spiritborn_Eagle_Focus": {
+    "name": "Vortex",
+    "coefficient": 0.35,
+    "hit_count": 2,
+    "max_coefficient": 1.0499999999999998,
+    "all_coefficients": [
+      0.35,
+      1.0499999999999998
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)*3"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Focus"
+  },
+  "Spiritborn_Eagle_Focus2": {
+    "name": "Soar",
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Focus"
+  },
+  "Spiritborn_Jaguar_Focus": {
+    "name": "Ravager",
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 25.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Focus"
+  },
+  "Spiritborn_Centipede_Focus": {
+    "name": "Toxic Skin",
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.36,
+    "all_coefficients": [
+      0.3,
+      0.36
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)",
+      "0.36*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 10.557280900008415,
+    "primary_tag": "Skill_Primary_Focus"
+  },
+  "Spiritborn_Gorilla_Ultimate": {
+    "name": "The Protector",
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      1.4
+    ],
+    "raw_formulas": [
+      "1.4*Table(34,sLevel)",
+      "1.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 15,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Spiritborn_Eagle_Ultimate": {
+    "name": "The Seeker",
+    "coefficient": 0.52,
+    "hit_count": 2,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      0.52,
+      4.5
+    ],
+    "raw_formulas": [
+      "0.52*Table(34,sLevel)",
+      "4.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Spiritborn_Jaguar_Ultimate": {
+    "name": "The Hunter",
+    "coefficient": 0.5,
+    "hit_count": 3,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      0.5,
+      0.2857142857142857,
+      2.0
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)",
+      "2*Table(34,sLevel)/7",
+      "2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 15,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Spiritborn_Centipede_Ultimate": {
+    "name": "The Devourer",
+    "coefficient": 2.0,
+    "hit_count": 4,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0,
+      0.95,
+      0.3,
+      1.0499999999999998
+    ],
+    "raw_formulas": [
+      "0.5*Table(34,sLevel)*4",
+      "0.95*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)*6*0.5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 10,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Paladin_BlessedShield": {
+    "name": "Blessed Shield",
+    "coefficient": 2.16,
+    "hit_count": 3,
+    "max_coefficient": 3.7800000000000002,
+    "all_coefficients": [
+      2.16,
+      2.7,
+      3.7800000000000002
+    ],
+    "raw_formulas": [
+      "2.16*Table(34,sLevel)",
+      "2.16*Table(34,sLevel)*1.25",
+      "2.16*Table(34,sLevel)*1.75"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 28,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_ShieldBash": {
+    "name": "Shield Bash",
+    "coefficient": 2.05,
+    "hit_count": 6,
+    "max_coefficient": 2.8699999999999997,
+    "all_coefficients": [
+      2.05,
+      2.4599999999999995,
+      2.8699999999999997,
+      1.025,
+      2.05,
+      1.025
+    ],
+    "raw_formulas": [
+      "2.05*Table(34,sLevel)",
+      "2.05*Table(34,sLevel)*1.2",
+      "2.05*Table(34,sLevel)*1.4",
+      "2.05*Table(34,sLevel)*0.5",
+      "2.05*Table(34,sLevel)",
+      "2.05*Table(34,sLevel)*0.5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 32,
+    "lucky_hit": 16,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_Punish": {
+    "name": "Clash",
+    "coefficient": 1.15,
+    "hit_count": 5,
+    "max_coefficient": 1.5525,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      1.5525,
+      1.5525,
+      0.263925
+    ],
+    "raw_formulas": [
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)*1.35",
+      "1.15*Table(34,sLevel)*1.35",
+      "1.15*Table(34,sLevel)*1.35*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Paladin_SpearOfTheHeavens": {
+    "name": "Spear of the Heavens",
+    "coefficient": 1.6,
+    "hit_count": 5,
+    "max_coefficient": 3.8560000000000003,
+    "all_coefficients": [
+      1.6,
+      1.2,
+      3.8560000000000003,
+      3.0,
+      3.8560000000000003
+    ],
+    "raw_formulas": [
+      "1.6*Table(34,sLevel)",
+      "1.2*Table(34,sLevel)",
+      "1.6*Table(34,sLevel)*2.41",
+      "3*Table(34,sLevel)",
+      "1.6*Table(34,sLevel)*2.41"
+    ],
+    "cooldown_sec": 14.0,
+    "resource_cost": 0,
+    "lucky_hit": 33,
+    "primary_tag": "Skill_Primary_Justice"
+  },
+  "Paladin_BlessedHammer": {
+    "name": "Blessed Hammer",
+    "coefficient": 1.15,
+    "hit_count": 4,
+    "max_coefficient": 1.15,
+    "all_coefficients": [
+      1.15,
+      1.15,
+      0.45999999999999996,
+      0.6708333333333333
+    ],
+    "raw_formulas": [
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)",
+      "1.15*Table(34,sLevel)/3*1.2",
+      "1.15*Table(34,sLevel)*1.75/3"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 10,
+    "lucky_hit": 24,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_ShieldCharge_Channel_Short": {
+    "name": "Shield Charge",
+    "coefficient": 0.9,
+    "hit_count": 5,
+    "max_coefficient": 1.575,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      0.9,
+      1.575,
+      0.216
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)*1.75",
+      "0.9*Table(34,sLevel)*1.2/5"
+    ],
+    "cooldown_sec": 10.0,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Valor"
+  },
+  "Paladin_Impale": {
+    "name": "Divine Lance",
+    "coefficient": 0.9,
+    "hit_count": 8,
+    "max_coefficient": 4.5,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      0.675,
+      0.315,
+      0.30600000000000005,
+      0.9,
+      0.9,
+      4.5
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)*2/2*0.75",
+      "0.9*Table(34,sLevel)*2/2*0.35",
+      "0.9*Table(34,sLevel)*2*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))",
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "(0.9*Table(34,sLevel)+0.9*Table(34,sLevel))*2.5"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 25,
+    "lucky_hit": 6,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_PreTrailZeal": {
+    "name": "Zeal",
+    "coefficient": 0.8,
+    "hit_count": 5,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8,
+      0.2,
+      0.23800000000000004,
+      0.45,
+      0.2
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)",
+      "0.2*Table(34,sLevel)",
+      "(0.8*Table(34,sLevel)+0.2*Table(34,sLevel)*(3+(Mod(863202854)?2:0)))*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))",
+      "0.45*Table(34,sLevel)",
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 3,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_Advance_lunge": {
+    "name": "Advance",
+    "coefficient": 1.05,
+    "hit_count": 4,
+    "max_coefficient": 2.2995,
+    "all_coefficients": [
+      1.05,
+      2.2995,
+      1.3650000000000002,
+      0.17850000000000002
+    ],
+    "raw_formulas": [
+      "1.05*Table(34,sLevel)",
+      "2.2995*Table(34,sLevel)",
+      "1.05*Table(34,sLevel)*1.3",
+      "1.05*Table(34,sLevel)*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": 14,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Paladin_StormBolt": {
+    "name": "Holy Bolt",
+    "coefficient": 0.9,
+    "hit_count": 5,
+    "max_coefficient": 3.15,
+    "all_coefficients": [
+      0.9,
+      1.35,
+      1.1997,
+      3.15,
+      0.36
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)*1.5",
+      "0.9*Table(34,sLevel)*1.333",
+      "3.15*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)/3*1.2"
+    ],
+    "cooldown_sec": 0.0,
+    "resource_cost": 0,
+    "lucky_hit": "Mod(2686060811)?90:44",
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Paladin_LanceDive_OLD": {
+    "name": "Falling Star",
+    "coefficient": 0.8,
+    "hit_count": 6,
+    "max_coefficient": 5.599200000000001,
+    "all_coefficients": [
+      0.8,
+      2.4,
+      5.599200000000001,
+      1.7999999999999998,
+      0.6000000000000001,
+      0.544
+    ],
+    "raw_formulas": [
+      "0.8*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)",
+      "2.4*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)",
+      "2.4*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)*2.333",
+      "2.4*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)*0.75",
+      "0.8*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)*0.75",
+      "(0.8*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1)+2.4*Table(34,sLevel)*(AffixIsEquipped(2446874)?1+Affix_Value_1(2446874)/100:1))*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 24,
+    "primary_tag": "Skill_Primary_Valor"
+  },
+  "Paladin_Condemn": {
+    "name": "Condemn",
+    "coefficient": 2.4,
+    "hit_count": 3,
+    "max_coefficient": 4.2,
+    "all_coefficients": [
+      2.4,
+      2.4,
+      4.2
+    ],
+    "raw_formulas": [
+      "2.4*Table(34,sLevel)",
+      "2.4*Table(34,sLevel)",
+      "2.4*Table(34,sLevel)*1.75"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 26,
+    "primary_tag": "Skill_Primary_Justice"
+  },
+  "Paladin_Consecration": {
+    "name": "Consecration",
+    "coefficient": 0.375,
+    "hit_count": 3,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.375,
+      0.75,
+      0.9
+    ],
+    "raw_formulas": [
+      "0.75*Table(34,sLevel)*0.5",
+      "0.75*Table(34,sLevel)",
+      "0.75*Table(34,sLevel)*3*0.4"
+    ],
+    "cooldown_sec": 18.0,
+    "resource_cost": 0,
+    "lucky_hit": 12,
+    "primary_tag": "Skill_Primary_Justice"
+  },
+  "Paladin_Brandish": {
+    "name": "Brandish",
+    "coefficient": 0.75,
+    "hit_count": 4,
+    "max_coefficient": 1.275,
+    "all_coefficients": [
+      0.75,
+      0.5249999999999999,
+      1.275,
+      1.2000000000000002
+    ],
+    "raw_formulas": [
+      "0.75*Table(34,sLevel)",
+      "0.75*Table(34,sLevel)*0.7",
+      "0.75*Table(34,sLevel)*1.7",
+      "0.75*Table(34,sLevel)*1.6"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 20,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Paladin_HeavensFury": {
+    "name": "Heaven's Fury",
+    "coefficient": 0.6,
+    "hit_count": 7,
+    "max_coefficient": 12.6,
+    "all_coefficients": [
+      0.6,
+      0.78,
+      0.6,
+      0.6,
+      0.57,
+      1.05,
+      12.6
+    ],
+    "raw_formulas": [
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))*1.3",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))*0.95",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))*1.75",
+      "0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))*35-0.6*((Floor(sLevel/5)?1:0)?Table(34,sLevel)*1.5:Table(34,sLevel))*1.75*8"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 2.8,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Paladin_Disciple_of_Justice": {
+    "name": "Arbiter of Justice",
+    "coefficient": 6.0,
+    "hit_count": 1,
+    "max_coefficient": 6.0,
+    "all_coefficients": [
+      6.0
+    ],
+    "raw_formulas": [
+      "6*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 16,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Paladin_Trinity": {
+    "name": "Zenith",
+    "coefficient": 4.5,
+    "hit_count": 5,
+    "max_coefficient": 9.0,
+    "all_coefficients": [
+      4.5,
+      1.575,
+      1.445,
+      9.0,
+      6.75
+    ],
+    "raw_formulas": [
+      "4.5*Table(34,sLevel)",
+      "4.5*Table(34,sLevel)/5*1.75",
+      "(4.5*Table(34,sLevel)+4*Table(34,sLevel))*(0.17*(1+(AffixIsEquipped(2445850)?Affix_Value_1(2445850):0)))",
+      "4.5*Table(34,sLevel)*2",
+      "4.5*Table(34,sLevel)*2*0.75"
+    ],
+    "cooldown_sec": 25.0,
+    "resource_cost": 0,
+    "lucky_hit": 28,
+    "primary_tag": "Skill_Primary_Ultimate"
+  },
+  "Druid_Wolf_Attack": {
+    "name": "Druid_Wolf_Attack",
+    "coefficient": 2.3,
+    "hit_count": 1,
+    "max_coefficient": 2.3,
+    "all_coefficients": [
+      2.3
+    ],
+    "raw_formulas": [
+      "0.14*Table(34,SkillRank(265663))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 29.28932188134524,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Necromancer_CommandSkeletons": {
+    "name": "Command Skeletons",
+    "coefficient": 1.2,
+    "hit_count": 1,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2
+    ],
+    "raw_formulas": [
+      "(0.35*Table(34,sLevel)+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.6*Table(34,SkillRank(440313))*(NecroPetPassiveIsActive(931566)?1.2:1)/1.15"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 15,
+    "lucky_hit": 100,
+    "primary_tag": null
+  },
+  "Necromancer_SkeletonWarrior_Sword_Command": {
+    "name": "Necromancer_SkeletonWarrior_Sword_Command",
+    "coefficient": 12.0,
+    "hit_count": 1,
+    "max_coefficient": 12.0,
+    "all_coefficients": [
+      12.0
+    ],
+    "raw_formulas": [
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.182*Table(34,SkillRank(439912))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 1,
+    "primary_tag": "Skill_Primary_Minion"
+  },
+  "Necromancer_SkeletonWarrior_Shield_Command": {
+    "name": "Necromancer_SkeletonWarrior_Shield_Command",
+    "coefficient": 12.0,
+    "hit_count": 1,
+    "max_coefficient": 12.0,
+    "all_coefficients": [
+      12.0
+    ],
+    "raw_formulas": [
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+1.3"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 1,
+    "primary_tag": "Skill_Primary_Minion"
+  },
+  "Necromancer_SkeletonMage_Command": {
+    "name": "Necromancer_SkeletonMage_Command",
+    "coefficient": 12.0,
+    "hit_count": 3,
+    "max_coefficient": 12.0,
+    "all_coefficients": [
+      12.0,
+      12.0,
+      12.0
+    ],
+    "raw_formulas": [
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.6*Table(34,SkillRank(440313))/1.15",
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.9*Table(34,SkillRank(440313))/1.15",
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.6*Table(34,SkillRank(440313))*(NecroPetPassiveIsActive(931566)?1.2:1)/1.15"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 1,
+    "primary_tag": "Skill_Primary_Minion"
+  },
+  "Necromancer_SkeletonMage_Shadow_Attack": {
+    "name": "Necromancer_SkeletonMage_Shadow_Attack",
+    "coefficient": 1.2,
+    "hit_count": 2,
+    "max_coefficient": 1.2,
+    "all_coefficients": [
+      1.2,
+      1.2
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,SkillRank(440313))*(NecroPetPassiveIsActive(931566)?1.2:1)/1.15",
+      "0.6*Table(34,SkillRank(440313))*(NecroPetPassiveIsActive(931566)?1.2:1)/1.15*(1+Affix_Value_1(2317340))*(1+Affix_Value_1(2419149))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 12,
+    "primary_tag": "Skill_Primary_Minion"
+  },
+  "Necromancer_SkeletonWarrior_Scythe_Command": {
+    "name": "Necromancer_SkeletonWarrior_Scythe_Command",
+    "coefficient": 12.0,
+    "hit_count": 1,
+    "max_coefficient": 12.0,
+    "all_coefficients": [
+      12.0
+    ],
+    "raw_formulas": [
+      "(0.35*Table(34,SkillRank(443382))+Mod(4032599903)*0.35)/(Level>40?12:Table(32,Level))+0.168*Table(34,SkillRank(439912))"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 1,
+    "primary_tag": "Skill_Primary_Minion"
+  },
+  "Druid_Werewolf_Pet_Attack": {
+    "name": "Druid_Werewolf_Pet_Attack",
+    "coefficient": 2.3,
+    "hit_count": 1,
+    "max_coefficient": 2.3,
+    "all_coefficients": [
+      2.3
+    ],
+    "raw_formulas": [
+      "0.14*Table(34,SkillRank(265663))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 29.28932188134524,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Druid_Werewolf_Pet_SpecialAttack": {
+    "name": "Druid_Werewolf_Pet_SpecialAttack",
+    "coefficient": 2.3,
+    "hit_count": 2,
+    "max_coefficient": 2.3,
+    "all_coefficients": [
+      2.3,
+      2.3
+    ],
+    "raw_formulas": [
+      "0.14*Table(34,SkillRank(265663))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*3*1.3",
+      "0.14*Table(34,SkillRank(265663))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*3*1.3/3"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Druid_Wolf_Lightning_Howl": {
+    "name": "Druid_Wolf_Lightning_Howl",
+    "coefficient": 1.95,
+    "hit_count": 1,
+    "max_coefficient": 1.95,
+    "all_coefficients": [
+      1.95
+    ],
+    "raw_formulas": [
+      "1.95*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 50,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Druid_Ravens_Attack": {
+    "name": "Druid_Ravens_Attack",
+    "coefficient": 1.4,
+    "hit_count": 2,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4,
+      1.4
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,SkillRank(281516))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*(Mod(2686060810)?1.4:1)",
+      "0.9*Table(34,SkillRank(281516))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*(Mod(2686060810)?1.4:1)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25.838015129043367,
+    "primary_tag": "Skill_Primary_Companion"
+  },
+  "Spiritborn_Sky_Basic": {
+    "name": "(PH) Raptor Strike",
+    "coefficient": 0.4,
+    "hit_count": 2,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4,
+      0.3
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Plains_Mobility1": {
+    "name": "(PH) Pounce",
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "raw_formulas": [
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": null,
+    "primary_tag": "Skill_Primary_Potency"
+  },
+  "Spiritborn_Plains_Defense": {
+    "name": "(PH) Counterattack",
+    "coefficient": 1.5,
+    "hit_count": 1,
+    "max_coefficient": 1.5,
+    "all_coefficients": [
+      1.5
+    ],
+    "raw_formulas": [
+      "1.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 0.25,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Defensive"
+  },
+  "Sorcerer_PrismaticShard": {
+    "name": "Prismatic Shard",
+    "coefficient": 0.4,
+    "hit_count": 4,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "raw_formulas": [
+      "0.4*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)",
+      "0.4*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 10,
+    "primary_tag": "Skill_Primary_Conjuration"
+  },
+  "Spiritborn_Plains_Basic": {
+    "name": "(PH) Thrust",
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3,
+      0.3
+    ],
+    "raw_formulas": [
+      "0.3*Table(34,sLevel)",
+      "0.3*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Forest_Basic": {
+    "name": "(PH) Clobber",
+    "coefficient": 0.35,
+    "hit_count": 4,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)",
+      "0.35*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Soil_Basic": {
+    "name": "(PH) Spore Pod",
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "raw_formulas": [
+      "0.1*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Spiritborn_Sky_Offense2": {
+    "name": "(PH) Bird Swarm",
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.2
+    ],
+    "raw_formulas": [
+      "0.6*Table(34,sLevel)",
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Offense"
+  },
+  "Spiritborn_Soil_Core": {
+    "name": "(PH) Centipede Wake",
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "raw_formulas": [
+      "0.35*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 60,
+    "lucky_hit": null,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Rogue_PartingGift_Recast": {
+    "name": "Parting Gift",
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "raw_formulas": [
+      "0.2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Search_Copy_Core"
+  },
+  "Spiritborn_Jaguar_Focus2": {
+    "name": "(PH) Ravager Marks",
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ],
+    "raw_formulas": [
+      "2*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": "Skill_Primary_Focus"
+  },
+  "Paladin_Zeal": {
+    "name": "(PH) Zeal",
+    "coefficient": 0.43333333333333335,
+    "hit_count": 1,
+    "max_coefficient": 0.43333333333333335,
+    "all_coefficients": [
+      0.43333333333333335
+    ],
+    "raw_formulas": [
+      "1.3*Table(34,sLevel)/3"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Basic"
+  },
+  "Paladin_CrossSlash": {
+    "name": "(PH) Cross Slash",
+    "coefficient": 0.65,
+    "hit_count": 2,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65
+    ],
+    "raw_formulas": [
+      "0.65*Table(34,sLevel)",
+      "0.65*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Mastery"
+  },
+  "Paladin_Banner": {
+    "name": "(PH) Battle Standard",
+    "coefficient": 0.33,
+    "hit_count": 1,
+    "max_coefficient": 0.33,
+    "all_coefficients": [
+      0.33
+    ],
+    "raw_formulas": [
+      "0.33*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 15.0,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": null
+  },
+  "Paladin_Collapse": {
+    "name": "Sunder",
+    "coefficient": 0.28,
+    "hit_count": 2,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.28,
+      0.5
+    ],
+    "raw_formulas": [
+      "0.28*Table(34,sLevel)",
+      "0.5*Table(34,sLevel)"
+    ],
+    "cooldown_sec": 12.0,
+    "resource_cost": 0,
+    "lucky_hit": 30,
+    "primary_tag": null
+  },
+  "Paladin_ShieldCharge": {
+    "name": "{c_red}[WIP] Shield Charge{/c}",
+    "coefficient": 0.65,
+    "hit_count": 2,
+    "max_coefficient": 0.65,
+    "all_coefficients": [
+      0.65,
+      0.65
+    ],
+    "raw_formulas": [
+      "0.65*Table(34,sLevel)",
+      "0.65*Table(34,sLevel)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 100,
+    "primary_tag": "Skill_Primary_Core"
+  },
+  "Paladin_ShieldCharge_Channel": {
+    "name": "Shield Charge",
+    "coefficient": 0.9,
+    "hit_count": 4,
+    "max_coefficient": 1.575,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      1.575,
+      0.216
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)",
+      "0.9*Table(34,sLevel)*1.75",
+      "0.9*Table(34,sLevel)*1.2/5"
+    ],
+    "cooldown_sec": 10.0,
+    "resource_cost": 0,
+    "lucky_hit": 35,
+    "primary_tag": "Skill_Primary_Valor"
+  },
+  "BloodSeal_Major_003_TEST": {
+    "name": "BloodSeal_Major_003_TEST",
+    "coefficient": 1.4,
+    "hit_count": 1,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4
+    ],
+    "raw_formulas": [
+      "0.9*Table(34,SkillRank(281516))*(ParagonGlyphAffixIsActive(1028541)?2.3:1)*(Mod(2686060810)?1.4:1)"
+    ],
+    "cooldown_sec": null,
+    "resource_cost": 0,
+    "lucky_hit": 25.838015129043367,
+    "primary_tag": "Skill_Primary_Companion"
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "legendary_barb_002": [
+    "element_physical"
+  ],
+  "legendary_barb_003": [
+    "element_physical"
+  ],
+  "legendary_barb_026": [
+    "element_physical"
+  ],
+  "legendary_barb_102": [
+    "vulnerable"
+  ],
+  "legendary_barb_104": [
+    "overpower"
+  ],
+  "legendary_barb_108": [
+    "element_fire"
+  ],
+  "legendary_barb_113": [
+    "overpower"
+  ],
+  "legendary_druid_023": [
+    "cc_bonus"
+  ],
+  "legendary_druid_028": [
+    "vulnerable",
+    "element_lightning"
+  ],
+  "legendary_druid_038": [
+    "cc_bonus"
+  ],
+  "legendary_druid_059": [
+    "element_lightning"
+  ],
+  "legendary_druid_062": [
+    "element_physical"
+  ],
+  "legendary_druid_066": [
+    "overpower"
+  ],
+  "legendary_druid_110": [
+    "elite"
+  ],
+  "legendary_druid_111": [
+    "element_lightning",
+    "close"
+  ],
+  "legendary_druid_114": [
+    "cc_bonus"
+  ],
+  "legendary_druid_115": [
+    "element_lightning"
+  ],
+  "legendary_druid_123": [
+    "elite"
+  ],
+  "legendary_druid_124": [
+    "attack_speed"
+  ],
+  "legendary_druid_129": [
+    "overpower"
+  ],
+  "legendary_druid_130": [
+    "element_lightning"
+  ],
+  "legendary_generic_021": [
+    "cc_bonus"
+  ],
+  "legendary_generic_038": [
+    "distant"
+  ],
+  "legendary_generic_043": [
+    "attack_speed"
+  ],
+  "legendary_generic_102": [
+    "cc_bonus"
+  ],
+  "legendary_generic_103": [
+    "cc_bonus"
+  ],
+  "legendary_generic_107": [
+    "distant"
+  ],
+  "legendary_generic_109": [
+    "cc_bonus"
+  ],
+  "legendary_generic_110": [
+    "attack_speed"
+  ],
+  "legendary_generic_111": [
+    "cc_bonus"
+  ],
+  "legendary_generic_113": [
+    "close"
+  ],
+  "legendary_generic_120": [
+    "attack_speed"
+  ],
+  "legendary_generic_121": [
+    "element_physical"
+  ],
+  "legendary_generic_122": [
+    "vulnerable"
+  ],
+  "legendary_generic_123": [
+    "overpower",
+    "element_physical"
+  ],
+  "legendary_generic_124": [
+    "vulnerable",
+    "close",
+    "element_cold"
+  ],
+  "legendary_necro_002": [
+    "attack_speed"
+  ],
+  "legendary_necro_012": [
+    "vulnerable"
+  ],
+  "legendary_necro_023": [
+    "element_cold"
+  ],
+  "legendary_necro_036": [
+    "element_shadow"
+  ],
+  "legendary_necro_103": [
+    "vulnerable"
+  ],
+  "legendary_necro_105": [
+    "element_shadow"
+  ],
+  "legendary_necro_106": [
+    "element_shadow"
+  ],
+  "legendary_necro_111": [
+    "attack_speed",
+    "overpower"
+  ],
+  "legendary_necro_121": [
+    "element_shadow"
+  ],
+  "legendary_necro_126": [
+    "element_shadow"
+  ],
+  "legendary_necro_135": [
+    "overpower"
+  ],
+  "legendary_necro_136": [
+    "element_physical"
+  ],
+  "legendary_paladin_001": [
+    "distant"
+  ],
+  "legendary_paladin_004": [
+    "overpower",
+    "cc_bonus"
+  ],
+  "legendary_paladin_005": [
+    "vulnerable"
+  ],
+  "legendary_paladin_014": [
+    "cc_bonus"
+  ],
+  "legendary_paladin_016": [
+    "attack_speed"
+  ],
+  "legendary_paladin_045": [
+    "close"
+  ],
+  "legendary_paladin_053": [
+    "cc_bonus"
+  ],
+  "legendary_paladin_075": [
+    "cc_bonus"
+  ],
+  "legendary_paladin_082": [
+    "element_fire"
+  ],
+  "legendary_paladin_083": [
+    "vulnerable"
+  ],
+  "legendary_rogue_013": [
+    "element_shadow"
+  ],
+  "legendary_rogue_018": [
+    "element_physical"
+  ],
+  "legendary_rogue_019": [
+    "element_physical"
+  ],
+  "legendary_rogue_024": [
+    "element_cold"
+  ],
+  "legendary_rogue_028": [
+    "element_physical"
+  ],
+  "legendary_rogue_101": [
+    "vulnerable",
+    "element_shadow"
+  ],
+  "legendary_rogue_105": [
+    "vulnerable",
+    "element_physical"
+  ],
+  "legendary_rogue_106": [
+    "vulnerable"
+  ],
+  "legendary_rogue_109": [
+    "element_physical"
+  ],
+  "legendary_rogue_112": [
+    "vulnerable"
+  ],
+  "legendary_rogue_114": [
+    "vulnerable"
+  ],
+  "legendary_rogue_117": [
+    "element_poison"
+  ],
+  "legendary_rogue_127": [
+    "element_physical"
+  ],
+  "legendary_rogue_129": [
+    "attack_speed"
+  ],
+  "legendary_rogue_133": [
+    "vulnerable",
+    "element_physical"
+  ],
+  "legendary_rogue_134": [
+    "vulnerable",
+    "element_shadow"
+  ],
+  "legendary_rogue_138": [
+    "element_poison"
+  ],
+  "legendary_sorc_043": [
+    "element_fire"
+  ],
+  "legendary_sorc_101": [
+    "attack_speed"
+  ],
+  "legendary_sorc_106": [
+    "element_fire"
+  ],
+  "legendary_sorc_113": [
+    "vulnerable"
+  ],
+  "legendary_sorc_116": [
+    "element_cold"
+  ],
+  "legendary_sorc_119": [
+    "element_lightning"
+  ],
+  "legendary_sorc_131": [
+    "vulnerable",
+    "cc_bonus"
+  ],
+  "legendary_sorc_133": [
+    "vulnerable"
+  ],
+  "legendary_sorc_138": [
+    "vulnerable"
+  ],
+  "legendary_sorc_142": [
+    "element_fire"
+  ],
+  "legendary_sorc_145": [
+    "cc_bonus"
+  ],
+  "legendary_spiritborn_002_x1": [
+    "cc_bonus"
+  ],
+  "legendary_spiritborn_007_x1": [
+    "element_poison"
+  ],
+  "legendary_spiritborn_009_x1": [
+    "close"
+  ],
+  "legendary_spiritborn_010_x1": [
+    "element_lightning"
+  ],
+  "legendary_spiritborn_025_x1": [
+    "element_lightning"
+  ],
+  "legendary_spiritborn_036_x1": [
+    "vulnerable"
+  ],
+  "legendary_spiritborn_042_x1": [
+    "cc_bonus"
+  ],
+  "legendary_spiritborn_045_x1": [
+    "element_lightning"
+  ],
+  "legendary_spiritborn_050": [
+    "overpower"
+  ]
+}
