@@ -6,4 +6,15 @@
 .cursor
 .idea
 *.pyc
+__pycache__/
 temp/
+
+# 16GB CASC extracts — re-fetchable from game files
+*.pow
+*.gam
+
+# Database backups
+*.db.bak
+
+# Maxroll game data dump (not committed; see data/_maxroll.py for path)
+data/maxroll_data.json

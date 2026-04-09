@@ -12,7 +12,7 @@ from pathlib import Path
 
 # ── paths ──────────────────────────────────────────────────────────────────
 BASE       = Path(__file__).parent
-SOURCE     = Path('/tmp/maxroll_data.json')
+SOURCE = (lambda: __import__("_maxroll").MAXROLL_PATH)()
 DB_PATH    = BASE / 'd4_stats.db'
 DB_BACKUP  = BASE / 'd4_stats.db.bak'
 
