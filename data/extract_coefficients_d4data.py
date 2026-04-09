@@ -122,6 +122,48 @@ def _strip_outer_parens(s: str) -> str:
     return s
 
 
+def _find_top_level_op(s: str, op: str) -> int:
+    """Find position of `op` at parenthesis depth 0 (rightmost wins for assoc)."""
+    depth = 0
+    last = -1
+    i = 0
+    while i < len(s):
+        c = s[i]
+        if c == "(":
+            depth += 1
+        elif c == ")":
+            depth -= 1
+        elif c == op and depth == 0:
+            # Skip ** or // (not valid here but defensive)
+            if i + 1 < len(s) and s[i + 1] == op:
+                i += 2
+                continue
+            last = i
+        i += 1
+    return last
+
+
+def _load_external_sf(power_name: str, sf_index: int) -> str | None:
+    """
+    Resolve a PowerTag.<Power>."Script Formula N" reference by loading the
+    referenced power's d4data JSON and reading ptScriptFormulas[N].tFormula.value.
+    """
+    fp = POWER_DIR / f"{power_name}.pow.json"
+    if not fp.exists():
+        return None
+    try:
+        with open(fp) as f:
+            d = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    sfs = d.get("ptScriptFormulas", [])
+    if 0 <= sf_index < len(sfs):
+        sf = sfs[sf_index]
+        if isinstance(sf, dict):
+            return sf.get("tFormula", {}).get("value", "")
+    return None
+
+
 def resolve_sf_chain(scalar: str, sf_map: dict[str, str], depth: int = 0,
                      prefer_table: int = 34) -> tuple[float | None, int | None]:
     """
@@ -149,6 +191,31 @@ def resolve_sf_chain(scalar: str, sf_map: dict[str, str], depth: int = 0,
         if not resolved or resolved == s:
             return None, None
         return resolve_sf_chain(resolved, sf_map, depth + 1, prefer_table)
+
+    # PowerTag.<Power>."Script Formula N" — cross-power reference
+    # Used by attack subpowers like Sorcerer_IceBlades_Attack which delegates
+    # to Sorcerer_IceBlades.SF[N]. Load the target power's SF table.
+    pt_match = re.match(r'^PowerTag\.(\w+)\."Script Formula (\d+)"$', s)
+    if pt_match:
+        target_power = pt_match.group(1)
+        target_sf_idx = int(pt_match.group(2))
+        external_formula = _load_external_sf(target_power, target_sf_idx)
+        if external_formula:
+            # Build a fresh SF map for the target power so chained refs resolve.
+            target_fp = POWER_DIR / f"{target_power}.pow.json"
+            target_sf_map: dict[str, str] = {}
+            try:
+                with open(target_fp) as f:
+                    td = json.load(f)
+                for i, sf in enumerate(td.get("ptScriptFormulas", [])):
+                    if isinstance(sf, dict):
+                        val = sf.get("tFormula", {}).get("value", "")
+                        if val:
+                            target_sf_map[f"SF_{i}"] = val
+            except (json.JSONDecodeError, OSError):
+                pass
+            return resolve_sf_chain(external_formula, target_sf_map, depth + 1, prefer_table)
+        return None, None
 
     # Ternary at top level — prefer the branch that produces a meaningful value.
     parts = _balanced_split_ternary(s)
@@ -198,21 +265,21 @@ def resolve_sf_chain(scalar: str, sf_map: dict[str, str], depth: int = 0,
         sub_coeff, _ = resolve_sf_chain(m.group(1), sf_map, depth + 1)
         return sub_coeff, int(m.group(2))
 
-    # Pure division: "SF_A / SF_B" or "SF_A / N"
-    m = re.match(r"^(SF_\d+|\d+\.?\d*)\s*/\s*(SF_\d+|\d+\.?\d*)$", s)
-    if m:
-        a, _ = resolve_sf_chain(m.group(1), sf_map, depth + 1)
-        b, _ = resolve_sf_chain(m.group(2), sf_map, depth + 1)
-        if a is not None and b is not None and b != 0:
-            return a / b, None
-
-    # Pure multiplication: "SF_A * SF_B" or "SF_A * N"
-    m = re.match(r"^(SF_\d+|\d+\.?\d*)\s*\*\s*(SF_\d+|\d+\.?\d*)$", s)
-    if m:
-        a, _ = resolve_sf_chain(m.group(1), sf_map, depth + 1)
-        b, _ = resolve_sf_chain(m.group(2), sf_map, depth + 1)
-        if a is not None and b is not None:
-            return a * b, None
+    # Top-level binary operators (parens-aware split). Handles nested
+    # expressions like "(SF_5*SF_7)/SF_6" by splitting on the lowest-
+    # precedence operator at depth 0 and recursing.
+    for op in ("/", "*"):
+        op_pos = _find_top_level_op(s, op)
+        if op_pos > 0:
+            left = s[:op_pos].strip()
+            right = s[op_pos + 1:].strip()
+            a, ta = resolve_sf_chain(left, sf_map, depth + 1, prefer_table)
+            b, tb = resolve_sf_chain(right, sf_map, depth + 1, prefer_table)
+            if a is not None and b is not None:
+                if op == "*":
+                    return a * b, ta or tb
+                if op == "/" and b != 0:
+                    return a / b, ta or tb
 
     # SF * (1 + something) — keep the SF coefficient and ignore the multiplier
     m = re.match(r"^(SF_\d+)\s*\*\s*\(", s)
@@ -269,7 +336,10 @@ def extract_power_coefficients(filepath: Path) -> dict | None:
         if not scalar:
             continue
         coeff, tid = resolve_sf_chain(scalar, sf_map)
-        if coeff is not None and coeff > 0:
+        # Filter out near-zero coefficients (real damage skills are >= 0.05).
+        # Tiny values usually mean partial resolution of expressions like
+        # SF_16 - SF_12 where one branch is unresolvable.
+        if coeff is not None and coeff >= 0.05:
             indexed_coeffs.append((idx, coeff, tid))
 
     if not indexed_coeffs:
@@ -316,10 +386,27 @@ def main():
         if data:
             results[key] = data
 
+    # Conjuration alias resolution: skills like Sorcerer_Familiar have no
+    # direct payload (only spawn buffs). The actual damage is on the
+    # _Attack / _ProjectileAttack subpower. If a parent skill has no
+    # extracted coefficient but a sibling _Attack does, copy it across.
+    ATTACK_SUFFIXES = ("_Attack", "_ProjectileAttack")
+    aliased = 0
+    for key in list(results.keys()):
+        for suffix in ATTACK_SUFFIXES:
+            if key.endswith(suffix):
+                parent = key[: -len(suffix)]
+                if parent not in results and parent + ".pow.json" in {f.name for f in files}:
+                    results[parent] = dict(results[key])
+                    results[parent]["aliased_from"] = key
+                    aliased += 1
+                break
+
     with open(OUT, "w") as f:
         json.dump(results, f, indent=2)
 
     print(f"\nWrote {len(results)} skills with coefficients to {OUT}")
+    print(f"  ({aliased} parents aliased from _Attack subpowers)")
 
     # Show some samples for verification
     samples = ["Necromancer_BoneSpear", "Necromancer_Blight", "Necromancer_Sever",

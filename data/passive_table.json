@@ -28,7 +28,7 @@
     "desc": "When you kill an enemy, they explode in a Fireball for [0.5*(1+(ParagonNodeIsPurchased(673447)?0.3:0))*100|%|] of its damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_proc",
         "value": 0.5,
         "raw_value": 50.0,
         "format": "%",
@@ -484,7 +484,7 @@
     "desc": "Gain [0.06*sLevel*100|%x|] Summon Damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_mult_summon",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%x",
@@ -580,7 +580,7 @@
     "desc": "Your Frost Skills cost [(0.3+(AffixIsEquipped(1211552)?0.3:0))*100|%|] less Mana and deal 60%[x] increased damage. Damage is increased by an additional [(0.25+Affix_Value_1(1211552))*100|%x|] against Vulnerable enemies.",
     "effects": [
       {
-        "tag": "damage",
+        "tag": "mana_cost_reduction",
         "value": 0.3,
         "raw_value": 30.0,
         "format": "%",
@@ -760,7 +760,7 @@
     "desc": "Your Pyromancy Skills cost [0.04*sLevel*100|%|] less Mana and deal [0.02*sLevel*100|%x|] increased damage. Double these bonuses after standing still for 2 seconds.",
     "effects": [
       {
-        "tag": "damage",
+        "tag": "mana_cost_reduction",
         "value": 0.04,
         "raw_value": 4.0,
         "format": "%",
@@ -1085,7 +1085,7 @@
     "desc": "Your Maximum Mana is increased by [3*sLevel|2?|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 3.0,
         "raw_value": 3.0,
         "format": "2?",
@@ -1181,7 +1181,7 @@
     "desc": "While you have a Barrier active, you apply [0.08*sLevel*100|x%|] more Chill.",
     "effects": [
       {
-        "tag": "barrier",
+        "tag": "applies_chill",
         "value": 0.08,
         "raw_value": 8.0,
         "format": "x%",
@@ -1502,7 +1502,7 @@
     "desc": "While in Werebear form, you receive [sLevel*0.06*100|%+|] additional Healing from all sources and gain [sLevel*0.04*100|%x|] increased Maximum Life.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "healing_received",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%+",
@@ -1921,7 +1921,7 @@
     "desc": "Poisoned enemies are slowed by [0.08*sLevel*100|%|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "slow_pct",
         "value": 0.08,
         "raw_value": 8.0,
         "format": "%",
@@ -2019,7 +2019,7 @@
     "desc": "Maximum Spirit is increased by [sLevel*3|2?|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 3.0,
         "raw_value": 3.0,
         "format": "2?",
@@ -3129,7 +3129,7 @@
     "desc": "Increase your Maximum Fury by [5*sLevel|2?|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 5.0,
         "raw_value": 5.0,
         "format": "2?",
@@ -5271,7 +5271,7 @@
     "desc": "Gain [0.1*sLevel*100|%x|] increased Summon Damage.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "damage_mult_summon",
         "value": 0.1,
         "raw_value": 10.0,
         "format": "%x",
@@ -5398,7 +5398,7 @@
     "desc": "You receive [sLevel/10*100|%+|] more Healing from all sources.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "healing_received",
         "value": 10.0,
         "raw_value": 1000.0,
         "format": "%+",
@@ -5415,7 +5415,7 @@
     "desc": "Your maximum Essence is increased by [3*sLevel|2?|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 3.0,
         "raw_value": 3.0,
         "format": "2?",
@@ -5787,7 +5787,7 @@
     "desc": "Your Essence Regeneration is increased by [0.2*(1+Affix_Value_1(1222268)/100)*100|+%|] and your maximum Essence is increased by [Round(20*(1+Affix_Value_1(1222268)/100))|2?|], but you can no longer raise Skeletal Mages.  Your Golem gains 60%[x] increased damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 0.2,
         "raw_value": 20.0,
         "format": "+%",
@@ -6686,7 +6686,7 @@
     "desc": "Your maximum Vigor is increased by [10*sLevel|2?|] while you have an Ultimate Skill equipped.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 10.0,
         "raw_value": 10.0,
         "format": "2?",
@@ -6839,7 +6839,7 @@
     "desc": "Your Maximum Faith is increased by [5*sLevel|2?|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_max",
         "value": 5.0,
         "raw_value": 5.0,
         "format": "2?",
@@ -7113,7 +7113,7 @@
     "desc": "You gain [0.1*sLevel*100|%|] Healing received.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "healing_received",
         "value": 0.1,
         "raw_value": 10.0,
         "format": "%",

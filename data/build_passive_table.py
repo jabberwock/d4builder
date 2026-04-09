@@ -201,6 +201,31 @@ def _infer_tag(context: str, fmt_type: str) -> str:
         return "cooldown_reduction"
     if "damage reduction" in context:
         return "damage_reduction"
+    # Resource cost / mana cost reduction (Avalanche: "less Mana", Soulfire: "less Mana")
+    if re.search(r"less\s+(mana|fury|spirit|essence|energy|faith|vigor)", context):
+        return "mana_cost_reduction"
+    if "summon damage" in context or "minion damage" in context:
+        return "damage_mult_summon" if fmt_type == "multiplicative" else "damage_summon"
+    # Healing received (Mending: "additional Healing")
+    if (
+        "additional healing" in context
+        or "healing received" in context
+        or "increased healing" in context
+        or re.search(r"healing\s+from", context)
+    ):
+        return "healing_received"
+    # Maximum resource (Devastation: "Maximum Mana is increased",
+    # Heart of the Wild: "Maximum Spirit is increased")
+    if re.search(r"maximum\s+(mana|fury|spirit|essence|energy|faith|vigor)", context):
+        return "resource_max"
+    # Slow application (Cold Front: "more Chill", Neurotoxin: "slowed by")
+    if "more chill" in context or "apply" in context and "chill" in context:
+        return "applies_chill"
+    if re.search(r"slowed?\s+by", context):
+        return "slow_pct"
+    # Damage proc on its own damage (Sorcerer Enchantments: "of its damage")
+    if "of its damage" in context:
+        return "damage_proc"
 
     # === Damage variants ===
     if "damage to" in context:

@@ -37,13 +37,12 @@
   },
   "ACD_Merc_Barb_DW_BasicAtk": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.04
+      0.06
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.06
   },
   "ACD_Mercenary_BerserkerCrone_Cleave": {
     "coefficient": 0.2,
@@ -73,6 +72,15 @@
     ],
     "total_coefficient": 2.1
   },
+  "AI_TraversePath_Astaroth_ToLeapSpot": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
   "AhBulan_Clone_Explode": {
     "coefficient": 0.3,
     "hit_count": 1,
@@ -81,24 +89,6 @@
       0.3
     ],
     "total_coefficient": 0.3
-  },
-  "AhBulan_Clone_Shield": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "AhBulan_CorruptPool_Explode": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
   },
   "AhBulan_CorruptPool_SetUp": {
     "coefficient": 0.1,
@@ -257,13 +247,12 @@
   },
   "Azmodan_Lava_Orb": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.008
+      0.06
     ],
-    "total_coefficient": 0.068
+    "total_coefficient": 0.06
   },
   "Azmodan_Melee": {
     "coefficient": 0.1,
@@ -309,24 +298,6 @@
       0.15
     ],
     "total_coefficient": 0.15
-  },
-  "Azmodan_Totem_BasicAttack": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "Azmodan_Totem_FireSpew": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
   },
   "Azmodan_Totem_LaserBeam": {
     "coefficient": 0.05,
@@ -428,6 +399,15 @@
     ],
     "total_coefficient": 0.13
   },
+  "Bandit_Ranged_twr_Animated_Blades": {
+    "coefficient": 0.11249999999999999,
+    "hit_count": 1,
+    "max_coefficient": 0.11249999999999999,
+    "all_coefficients": [
+      0.11249999999999999
+    ],
+    "total_coefficient": 0.11249999999999999
+  },
   "Bandit_Ranged_twr_Basic_Attack": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -496,6 +476,53 @@
     ],
     "total_coefficient": 0.4
   },
+  "Barbarian_CalloftheAncients_Charge_test": {
+    "coefficient": 1.8,
+    "hit_count": 3,
+    "max_coefficient": 1.8,
+    "all_coefficients": [
+      1.8,
+      1.5,
+      1.5
+    ],
+    "total_coefficient": 4.8
+  },
+  "Barbarian_CalloftheAncients_Frenzy": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "total_coefficient": 0.4
+  },
+  "Barbarian_CalloftheAncients_Leap": {
+    "coefficient": 1.1,
+    "hit_count": 1,
+    "max_coefficient": 1.1,
+    "all_coefficients": [
+      1.1
+    ],
+    "total_coefficient": 1.1
+  },
+  "Barbarian_CalloftheAncients_Upheaval": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ],
+    "total_coefficient": 2.0
+  },
+  "Barbarian_CalloftheAncients_Whirlwind": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "total_coefficient": 0.8
+  },
   "Barbarian_Charge": {
     "coefficient": 1.8,
     "hit_count": 3,
@@ -556,6 +583,24 @@
     ],
     "total_coefficient": 2.76
   },
+  "Barbarian_IronMaelstrom_Attack_2": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "total_coefficient": 0.4
+  },
+  "Barbarian_IronMaelstrom_Attack_3": {
+    "coefficient": 0.86,
+    "hit_count": 1,
+    "max_coefficient": 0.86,
+    "all_coefficients": [
+      0.86
+    ],
+    "total_coefficient": 0.86
+  },
   "Barbarian_Kick": {
     "coefficient": 1.0,
     "hit_count": 8,
@@ -612,14 +657,13 @@
   },
   "Barbarian_Rupture": {
     "coefficient": 0.25,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.25,
     "all_coefficients": [
       0.25,
-      0.01,
       0.25
     ],
-    "total_coefficient": 0.51
+    "total_coefficient": 0.5
   },
   "Barbarian_SteelGrasp": {
     "coefficient": 0.8,
@@ -650,14 +694,15 @@
   },
   "Barbarian_Whirlwind": {
     "coefficient": 1.75,
-    "hit_count": 3,
+    "hit_count": 4,
     "max_coefficient": 1.75,
     "all_coefficients": [
       1.75,
+      0.7583333333333334,
       1.2,
       1.75
     ],
-    "total_coefficient": 4.7
+    "total_coefficient": 5.458333333333333
   },
   "Barbarian_WrathoftheBerserker": {
     "coefficient": 5.0,
@@ -668,14 +713,32 @@
     ],
     "total_coefficient": 5.0
   },
-  "Barbarian_unique_RareSpawn": {
-    "coefficient": 0.0001,
+  "BloodSeal_Bat_Attack": {
+    "coefficient": 0.2,
     "hit_count": 1,
-    "max_coefficient": 0.0001,
+    "max_coefficient": 0.2,
     "all_coefficients": [
-      0.0001
+      0.2
     ],
-    "total_coefficient": 0.0001
+    "total_coefficient": 0.2
+  },
+  "BloodSeal_Bat_Attack_TEMP": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "total_coefficient": 0.9
+  },
+  "BloodSeal_Major_003_TEST": {
+    "coefficient": 0.9,
+    "hit_count": 1,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9
+    ],
+    "total_coefficient": 0.9
   },
   "BloodSeal_Major_07_Old": {
     "coefficient": 100.0,
@@ -751,24 +814,6 @@
     ],
     "total_coefficient": 10.22
   },
-  "CAMP_Necrop_Hollow_Boss_Enrage": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "CAMP_Necrop_Hollow_Boss_LightTracker": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "CAMP_Necrop_Hollow_Boss_OrbitalTeleport": {
     "coefficient": 0.1,
     "hit_count": 2,
@@ -808,16 +853,13 @@
     "total_coefficient": 0.1
   },
   "CAMP_Necrop_hollow_brute_frenzy_attack": {
-    "coefficient": 0.04,
-    "hit_count": 4,
+    "coefficient": 0.095,
+    "hit_count": 1,
     "max_coefficient": 0.095,
     "all_coefficients": [
-      0.04,
-      0.04,
-      0.095,
-      0.035
+      0.095
     ],
-    "total_coefficient": 0.21000000000000002
+    "total_coefficient": 0.095
   },
   "CAMP_Step_Cannibal_Egg_Death": {
     "coefficient": 0.075,
@@ -914,33 +956,23 @@
     ],
     "total_coefficient": 0.065
   },
-  "CMP_Naha_Chakhir_Dreg_Boss_Ranged_attk": {
-    "coefficient": 0.015,
+  "CMP_Naha_Chakhir_Dreg_Boss_melee_hamstring": {
+    "coefficient": 0.08,
     "hit_count": 1,
-    "max_coefficient": 0.015,
+    "max_coefficient": 0.08,
     "all_coefficients": [
-      0.015
+      0.08
     ],
-    "total_coefficient": 0.015
-  },
-  "CMP_Naha_Chakhir_Dreg_Boss_melee_hookshot": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
+    "total_coefficient": 0.08
   },
   "CMP_Naha_Chakhir_Dreg_Boss_melee_hookshotLeap": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.045
+      0.06
     ],
-    "total_coefficient": 0.105
+    "total_coefficient": 0.06
   },
   "CMP_Naha_Chakhir_Dreg_Boss_ranged_bullethell": {
     "coefficient": 0.11,
@@ -950,15 +982,6 @@
       0.11
     ],
     "total_coefficient": 0.11
-  },
-  "CMP_Naha_Chakhir_Dreg_Caster_SuperElite_BasicAttk": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "CMP_Naha_Chakhir_FireFlower_DeathPuddle": {
     "coefficient": 0.14,
@@ -1007,25 +1030,14 @@
     ],
     "total_coefficient": 0.07
   },
-  "CMP_Naha_Chakhir_PoisonFlower_PoisonLaunch": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "CMP_Naha_Chakhir_dreg_Boss_melee_fissure": {
-    "coefficient": 0.04,
-    "hit_count": 3,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.04,
-      0.04,
       0.08
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.08
   },
   "CMP_Naha_Chakhir_dreg_boss_melee_leap": {
     "coefficient": 0.1,
@@ -1085,15 +1097,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "CSD_Scos_AmalgamOfRage_FleeingHowl": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "CSD_Scos_AmalgamOfRage_Leap": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -1115,42 +1118,30 @@
   },
   "Camp_Alcarnus_NPC_Necro_Basic_attk": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.04
+      0.06
     ],
-    "total_coefficient": 0.1
-  },
-  "Camp_Alcarnus_NPC_Necro_Basic_attk_melee": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.06
   },
   "Camp_Alcarnus_NPC_Necro_Line_attk": {
     "coefficient": 0.18,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.18,
     "all_coefficients": [
-      0.18,
-      0.010000000000000002
+      0.18
     ],
-    "total_coefficient": 0.19
+    "total_coefficient": 0.18
   },
   "Camp_Alcarnus_NPC_Necro_Rain_attk": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.020000000000000004
+      0.2
     ],
-    "total_coefficient": 0.22000000000000003
+    "total_coefficient": 0.2
   },
   "Camp_Alcarnus_NPC_Necro_Spiral_attk": {
     "coefficient": 0.08,
@@ -1164,13 +1155,12 @@
   },
   "Camp_Kichuk_Lacuni_Caster_Boss_BirdRain": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.020000000000000004
+      0.15
     ],
-    "total_coefficient": 0.16999999999999998
+    "total_coefficient": 0.15
   },
   "Camp_Kichuk_Lacuni_Caster_Boss_LightningProj": {
     "coefficient": 0.08,
@@ -1183,14 +1173,13 @@
   },
   "Camp_Kichuk_Lacuni_Horror_Boss_BirdRain": {
     "coefficient": 0.15,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 10.0,
     "all_coefficients": [
       0.15,
-      0.020000000000000004,
       10.0
     ],
-    "total_coefficient": 10.17
+    "total_coefficient": 10.15
   },
   "Camp_Kichuk_Lacuni_Horror_Boss_LightningProj": {
     "coefficient": 0.08,
@@ -1254,14 +1243,13 @@
     "total_coefficient": 10.1
   },
   "Camp_Kichuk_Lacuni_Horror_boss_Spawn": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 10.0,
+    "hit_count": 1,
     "max_coefficient": 10.0,
     "all_coefficients": [
-      0.02,
       10.0
     ],
-    "total_coefficient": 10.02
+    "total_coefficient": 10.0
   },
   "Camp_Kichuk_Lacuni_Horror_boss_Stalk": {
     "coefficient": 0.08,
@@ -1294,14 +1282,13 @@
   },
   "Camp_Onyx_Tower_Boss_BombSummon": {
     "coefficient": 0.125,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.125,
     "all_coefficients": [
       0.125,
-      0.025,
       0.09
     ],
-    "total_coefficient": 0.24
+    "total_coefficient": 0.215
   },
   "Camp_QaraYisu_Boss_Totem_SelfDestruct": {
     "coefficient": 0.2,
@@ -1314,14 +1301,13 @@
     "total_coefficient": 0.30000000000000004
   },
   "Camp_QaraYisu_Fallen_Shaman_FirePool_Dmg": {
-    "coefficient": 0.035,
-    "hit_count": 2,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.035,
       0.08
     ],
-    "total_coefficient": 0.115
+    "total_coefficient": 0.08
   },
   "Camp_QaraYisu_Fallen_Shaman_Firebolt": {
     "coefficient": 0.1,
@@ -1351,26 +1337,6 @@
     ],
     "total_coefficient": 0.18
   },
-  "Camp_TempleOfRot_Boss_Brute_Spit": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.02
-    ],
-    "total_coefficient": 0.06
-  },
-  "Camp_TempleOfRot_Boss_Fly_Spit": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.02
-    ],
-    "total_coefficient": 0.06
-  },
   "Camp_TempleOfRot_Boss_brute_frenzy": {
     "coefficient": 0.06,
     "hit_count": 1,
@@ -1388,16 +1354,6 @@
       0.12
     ],
     "total_coefficient": 0.12
-  },
-  "Camp_TurDulra_Boss_Breath_Projectiles": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.01,
-      0.02
-    ],
-    "total_coefficient": 0.03
   },
   "Camp_TurDulra_Boss_Melee_Basic": {
     "coefficient": 0.05,
@@ -1506,13 +1462,12 @@
   },
   "Cultist_Summoner_Camp_ChurchOfKaramat_Basic_Attk": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.025
+      0.06
     ],
-    "total_coefficient": 0.08499999999999999
+    "total_coefficient": 0.06
   },
   "Cultist_Summoner_Camp_ChurchOfKaramat_Intro": {
     "coefficient": 0.25,
@@ -1553,15 +1508,6 @@
     ],
     "total_coefficient": 2.25
   },
-  "DE_ShrineOfZagraal_Goatman_Infection": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "DE_TolloftheDeep_Bell_Spawn": {
     "coefficient": 0.25,
     "hit_count": 1,
@@ -1570,15 +1516,6 @@
       0.25
     ],
     "total_coefficient": 0.25
-  },
-  "DGN_NPC_Prisoner_Generic_NPC_Attack": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "DOV_CalibelsMine_BridgeDetonate": {
     "coefficient": 1.0,
@@ -1735,16 +1672,6 @@
       0.4
     ],
     "total_coefficient": 0.8
-  },
-  "DRLG_Trap_Spectral": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.04
   },
   "DRLG_Trap_Spikes": {
     "coefficient": 0.2,
@@ -1936,23 +1863,21 @@
   },
   "Demon_Council_Member_Shadow_Step": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.035
+      0.2
     ],
-    "total_coefficient": 0.23500000000000001
+    "total_coefficient": 0.2
   },
   "Demon_Council_Member_Shadow_Step_Solo": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.035
+      0.2
     ],
-    "total_coefficient": 0.23500000000000001
+    "total_coefficient": 0.2
   },
   "Demon_Council_Member_Smoke_Bomb": {
     "coefficient": 0.05,
@@ -2019,15 +1944,6 @@
     ],
     "total_coefficient": 0.25
   },
-  "Demon_Council_Summoner_HydraBeam": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "Demon_Council_Summoner_HydraCross": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -2050,34 +1966,31 @@
     "total_coefficient": 0.6
   },
   "Dreg_Melee_Lightning_TWR_Boss_fissure": {
-    "coefficient": 0.04,
-    "hit_count": 3,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.04,
-      0.04,
       0.08
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.08
   },
-  "Dreg_Melee_Lightning_TWR_Boss_hookshot": {
-    "coefficient": 0.02,
+  "Dreg_Melee_Lightning_TWR_Boss_hamstring": {
+    "coefficient": 0.08,
     "hit_count": 1,
-    "max_coefficient": 0.02,
+    "max_coefficient": 0.08,
     "all_coefficients": [
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.02
+    "total_coefficient": 0.08
   },
   "Dreg_Melee_Lightning_TWR_Boss_hookshotLeap": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.045
+      0.06
     ],
-    "total_coefficient": 0.105
+    "total_coefficient": 0.06
   },
   "Dreg_Melee_Lightning_TWR_Boss_leap": {
     "coefficient": 0.1,
@@ -2107,24 +2020,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "Dreg_caster_basicAttk": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "Dreg_caster_knockedDown_poison": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "Dreg_caster_lobbedBug_Fire": {
     "coefficient": 0.12,
@@ -2162,44 +2057,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "Dreg_melee_hookshotLeap": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.04,
-      0.045
-    ],
-    "total_coefficient": 0.08499999999999999
-  },
-  "Dreg_melee_hookshotV2": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Dreg_ranged_attk": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.05
-  },
-  "Drowned_mini_melee_moving": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "Druid_Boulder": {
     "coefficient": 0.7,
@@ -2280,15 +2137,26 @@
     ],
     "total_coefficient": 0.9
   },
+  "Druid_Hurricane": {
+    "coefficient": 0.21625,
+    "hit_count": 2,
+    "max_coefficient": 0.21625,
+    "all_coefficients": [
+      0.21625,
+      0.0540625
+    ],
+    "total_coefficient": 0.2703125
+  },
   "Druid_Lacerate": {
     "coefficient": 0.6,
-    "hit_count": 2,
+    "hit_count": 3,
     "max_coefficient": 6.0,
     "all_coefficients": [
       0.6,
-      6.0
+      6.0,
+      0.0675
     ],
-    "total_coefficient": 6.6
+    "total_coefficient": 6.6675
   },
   "Druid_LightningStorm": {
     "coefficient": 0.65,
@@ -2300,6 +2168,18 @@
       0.65
     ],
     "total_coefficient": 1.9500000000000002
+  },
+  "Druid_LightningStrike": {
+    "coefficient": 1.2,
+    "hit_count": 4,
+    "max_coefficient": 2.2,
+    "all_coefficients": [
+      1.2,
+      0.3,
+      0.7,
+      2.2
+    ],
+    "total_coefficient": 4.4
   },
   "Druid_Maul": {
     "coefficient": 0.8,
@@ -2349,9 +2229,19 @@
     ],
     "total_coefficient": 6.9
   },
+  "Druid_Ravens_Attack": {
+    "coefficient": 0.9,
+    "hit_count": 2,
+    "max_coefficient": 0.9,
+    "all_coefficients": [
+      0.9,
+      0.9
+    ],
+    "total_coefficient": 1.8
+  },
   "Druid_Shred_NEW": {
     "coefficient": 1.5,
-    "hit_count": 8,
+    "hit_count": 10,
     "max_coefficient": 3.0,
     "all_coefficients": [
       1.0,
@@ -2361,9 +2251,11 @@
       3.0,
       3.0,
       3.0,
+      3.0,
+      3.0,
       3.0
     ],
-    "total_coefficient": 17.0
+    "total_coefficient": 23.0
   },
   "Druid_StoneBurst": {
     "coefficient": 1.3,
@@ -2448,6 +2340,15 @@
     ],
     "total_coefficient": 0.5
   },
+  "Druid_Werewolf_Pet_Attack": {
+    "coefficient": 0.14,
+    "hit_count": 1,
+    "max_coefficient": 0.14,
+    "all_coefficients": [
+      0.14
+    ],
+    "total_coefficient": 0.14
+  },
   "Druid_Werewolf_Pet_Rabies": {
     "coefficient": 0.25,
     "hit_count": 1,
@@ -2456,6 +2357,16 @@
       0.25
     ],
     "total_coefficient": 0.25
+  },
+  "Druid_Werewolf_Pet_SpecialAttack": {
+    "coefficient": 0.546,
+    "hit_count": 2,
+    "max_coefficient": 0.546,
+    "all_coefficients": [
+      0.546,
+      0.18200000000000002
+    ],
+    "total_coefficient": 0.7280000000000001
   },
   "Druid_WindShear": {
     "coefficient": 0.6,
@@ -2478,6 +2389,24 @@
     ],
     "total_coefficient": 4.28
   },
+  "Druid_Wolf_Attack": {
+    "coefficient": 0.14,
+    "hit_count": 1,
+    "max_coefficient": 0.14,
+    "all_coefficients": [
+      0.14
+    ],
+    "total_coefficient": 0.14
+  },
+  "Druid_Wolf_Leap": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ],
+    "total_coefficient": 2.0
+  },
   "Druid_Wolf_Lightning_Howl": {
     "coefficient": 1.95,
     "hit_count": 1,
@@ -2486,6 +2415,15 @@
       1.95
     ],
     "total_coefficient": 1.95
+  },
+  "Druid_Wolf_Lightning_Teleport": {
+    "coefficient": 2.0,
+    "hit_count": 1,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0
+    ],
+    "total_coefficient": 2.0
   },
   "Druid_landslide": {
     "coefficient": 0.7,
@@ -2620,7 +2558,25 @@
     ],
     "total_coefficient": 0.5
   },
+  "EGB_Astaroth_Boss_AffixBackgroundMeteor": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
   "EGB_Astaroth_Boss_Amalgam_FireBreath_swipe": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "EGB_Astaroth_Boss_Amalgam_FireBreath_swipe_test": {
     "coefficient": 0.1,
     "hit_count": 1,
     "max_coefficient": 0.1,
@@ -2640,15 +2596,25 @@
   },
   "EGB_Astaroth_Boss_Amalgam_Mount_Tripleattack_New": {
     "coefficient": 0.2,
-    "hit_count": 4,
+    "hit_count": 5,
     "max_coefficient": 0.2,
     "all_coefficients": [
       0.2,
       0.2,
+      0.175,
       0.12,
       0.2
     ],
-    "total_coefficient": 0.72
+    "total_coefficient": 0.895
+  },
+  "EGB_Astaroth_Boss_Amalgam_Mount_firebreath": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
   },
   "EGB_Astaroth_Boss_Amalgam_Mount_firebreath_front": {
     "coefficient": 0.05,
@@ -2660,13 +2626,23 @@
     "total_coefficient": 0.05
   },
   "EGB_Astaroth_Boss_Amalgam_Mount_leapmulti": {
-    "coefficient": 0.05,
-    "hit_count": 1,
-    "max_coefficient": 0.05,
+    "coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.3,
     "all_coefficients": [
+      0.3,
       0.05
     ],
-    "total_coefficient": 0.05
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_Amalgam_Mount_meteorstorm": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
   },
   "EGB_Astaroth_Boss_Amalgam_RelocationLeap": {
     "coefficient": 0.15,
@@ -2696,7 +2672,52 @@
     ],
     "total_coefficient": 0.35
   },
+  "EGB_Astaroth_Boss_ComboMeteorPounce": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_MeteorStorm_concentric": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_MeteorStorm_multitarget": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
   "EGB_Astaroth_Boss_MeteorStorm_singleTarget": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_MeteorStorm_tracking": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_Resurrect_MeteorStorm": {
     "coefficient": 0.35,
     "hit_count": 1,
     "max_coefficient": 0.35,
@@ -2734,6 +2755,24 @@
       0.45
     ],
     "total_coefficient": 0.45
+  },
+  "EGB_Astaroth_Boss_comboAttack": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
+  },
+  "EGB_Astaroth_Boss_meteorlines": {
+    "coefficient": 0.35,
+    "hit_count": 1,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35
+    ],
+    "total_coefficient": 0.35
   },
   "EGB_BabyBelial_CrystalActivate_Passive": {
     "coefficient": 0.15,
@@ -2907,14 +2946,13 @@
     "total_coefficient": 1.55
   },
   "EGB_Duriel_Add_BurrowSpit": {
-    "coefficient": 0.005,
-    "hit_count": 2,
+    "coefficient": 0.1,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.005,
       0.1
     ],
-    "total_coefficient": 0.10500000000000001
+    "total_coefficient": 0.1
   },
   "EGB_Duriel_Add_Lobbed": {
     "coefficient": 0.05,
@@ -2926,14 +2964,13 @@
     "total_coefficient": 0.05
   },
   "EGB_Duriel_Add_Spit": {
-    "coefficient": 0.005,
-    "hit_count": 2,
+    "coefficient": 0.1,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.005,
       0.1
     ],
-    "total_coefficient": 0.10500000000000001
+    "total_coefficient": 0.1
   },
   "EGB_Duriel_Add_Summon": {
     "coefficient": 0.2,
@@ -3002,14 +3039,13 @@
   },
   "EGB_Duriel_slam": {
     "coefficient": 0.36,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.36,
     "all_coefficients": [
       0.36,
-      0.36,
-      0.03
+      0.36
     ],
-    "total_coefficient": 0.75
+    "total_coefficient": 0.72
   },
   "EGB_Harbinger_Akarat_Imprisoned": {
     "coefficient": 0.05,
@@ -3049,14 +3085,13 @@
     "total_coefficient": 0.875
   },
   "EGB_Harbinger_PlayerUnleash": {
-    "coefficient": 0.03,
-    "hit_count": 2,
+    "coefficient": 0.5,
+    "hit_count": 1,
     "max_coefficient": 0.5,
     "all_coefficients": [
-      0.03,
       0.5
     ],
-    "total_coefficient": 0.53
+    "total_coefficient": 0.5
   },
   "EGB_Harbinger_PortalCharge": {
     "coefficient": 0.8,
@@ -3070,12 +3105,13 @@
   },
   "EGB_Harbinger_Portal_Attack_Controller": {
     "coefficient": 0.6,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.6,
     "all_coefficients": [
-      0.6
+      0.6,
+      0.3
     ],
-    "total_coefficient": 0.6
+    "total_coefficient": 0.8999999999999999
   },
   "EGB_Harbinger_SmallProjectile": {
     "coefficient": 0.05,
@@ -3088,13 +3124,14 @@
     "total_coefficient": 0.35
   },
   "EGB_Harbinger_Spit": {
-    "coefficient": 0.75,
-    "hit_count": 1,
+    "coefficient": 0.3,
+    "hit_count": 2,
     "max_coefficient": 0.75,
     "all_coefficients": [
+      0.3,
       0.75
     ],
-    "total_coefficient": 0.75
+    "total_coefficient": 1.05
   },
   "EGB_Harbinger_Tentacle_Slam": {
     "coefficient": 0.8,
@@ -3171,14 +3208,13 @@
   },
   "EGB_Knight_Brute_Lightning_Brute_Intro_Squares": {
     "coefficient": 0.3,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.3,
     "all_coefficients": [
       0.3,
-      0.01,
       0.3
     ],
-    "total_coefficient": 0.61
+    "total_coefficient": 0.6
   },
   "EGB_Knight_Brute_Lightning_Brute_Maze": {
     "coefficient": 0.5,
@@ -3240,15 +3276,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "EGB_Universal_HealthThresholdShield": {
-    "coefficient": 0.001,
-    "hit_count": 1,
-    "max_coefficient": 0.001,
-    "all_coefficients": [
-      0.001
-    ],
-    "total_coefficient": 0.001
-  },
   "EGB_Urivar_Basic_Attk": {
     "coefficient": 0.21,
     "hit_count": 1,
@@ -3277,15 +3304,14 @@
     "total_coefficient": 0.25
   },
   "EGB_Urivar_Evangelion": {
-    "coefficient": 0.02,
-    "hit_count": 3,
+    "coefficient": 0.35,
+    "hit_count": 2,
     "max_coefficient": 0.35,
     "all_coefficients": [
-      0.02,
       0.35,
       0.17
     ],
-    "total_coefficient": 0.54
+    "total_coefficient": 0.52
   },
   "EGB_Urivar_FinalPhase": {
     "coefficient": 0.08,
@@ -3296,14 +3322,14 @@
     ],
     "total_coefficient": 0.08
   },
-  "EGB_Urivar_Guard_Melee": {
-    "coefficient": 0.0225,
+  "EGB_Urivar_Guard_CommandAttack": {
+    "coefficient": 0.17,
     "hit_count": 1,
-    "max_coefficient": 0.0225,
+    "max_coefficient": 0.17,
     "all_coefficients": [
-      0.0225
+      0.17
     ],
-    "total_coefficient": 0.0225
+    "total_coefficient": 0.17
   },
   "EGB_Urivar_SpearRain": {
     "coefficient": 0.34,
@@ -3445,6 +3471,24 @@
     ],
     "total_coefficient": 0.1
   },
+  "EGB_duriel_boss_devour_sync": {
+    "coefficient": 10.0,
+    "hit_count": 1,
+    "max_coefficient": 10.0,
+    "all_coefficients": [
+      10.0
+    ],
+    "total_coefficient": 10.0
+  },
+  "EGB_duriel_boss_devour_sync_short": {
+    "coefficient": 10.0,
+    "hit_count": 1,
+    "max_coefficient": 10.0,
+    "all_coefficients": [
+      10.0
+    ],
+    "total_coefficient": 10.0
+  },
   "EGB_duriel_boss_melee": {
     "coefficient": 0.15,
     "hit_count": 1,
@@ -3483,13 +3527,12 @@
   },
   "EGD_BossAffix_Camp_Alcarnus_NPC_Necro_Rain_attk": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.020000000000000004
+      0.2
     ],
-    "total_coefficient": 0.22000000000000003
+    "total_coefficient": 0.2
   },
   "EGD_BossAffix_Cannibal_Tyrant_Capstone_Slam_Combo_LobbedProj": {
     "coefficient": 0.15,
@@ -3523,13 +3566,12 @@
   },
   "EGD_BossAffix_Tchort_Boss_Blink_Assult": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.01
+      0.15
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.15
   },
   "EGD_BossAffix_USZ_skeleton_boss_bonewall": {
     "coefficient": 0.2,
@@ -3608,14 +3650,13 @@
   },
   "EGD_BossAffix_demon_mega_sboss_rainFire_v2": {
     "coefficient": 0.15,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.15,
     "all_coefficients": [
       0.15,
-      0.01,
       0.1
     ],
-    "total_coefficient": 0.26
+    "total_coefficient": 0.25
   },
   "EGD_BossAffix_knight_caster_crusadersmon_circlingProj": {
     "coefficient": 0.07,
@@ -3625,15 +3666,6 @@
       0.07
     ],
     "total_coefficient": 0.07
-  },
-  "EH_Brawler_Attack": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "EH_Naha_LacuniHunt_Lacuni_Horror_Disappear": {
     "coefficient": 0.1,
@@ -3803,24 +3835,6 @@
     ],
     "total_coefficient": 0.15
   },
-  "Elias_Boss_attack_DestructiveWave": {
-    "coefficient": 0.035,
-    "hit_count": 1,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035
-    ],
-    "total_coefficient": 0.035
-  },
-  "Elias_Boss_attack_DestructiveWave_Long": {
-    "coefficient": 0.035,
-    "hit_count": 1,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035
-    ],
-    "total_coefficient": 0.035
-  },
   "Elias_Boss_attack_projectile_3_shots": {
     "coefficient": 0.06,
     "hit_count": 1,
@@ -3896,16 +3910,6 @@
     ],
     "total_coefficient": 0.075
   },
-  "Frac_Prologue_demon_mega_miniboss_pentagram": {
-    "coefficient": 0.005,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.005,
-      0.025
-    ],
-    "total_coefficient": 0.030000000000000002
-  },
   "Generic_Cave_Mine_Entrance_Crush": {
     "coefficient": 1.0,
     "hit_count": 2,
@@ -3933,24 +3937,6 @@
       0.06
     ],
     "total_coefficient": 0.06
-  },
-  "Generic_NPC_Attack_Magic_Projectile_QST_Hell_Cultist_Locran": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "Generic_NPC_Attack_Magic_Projectile_QST_S01_Cormond": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "Generic_NPC_Attack_Magic_Projectile_RightHandCast": {
     "coefficient": 0.06,
@@ -4062,13 +4048,12 @@
   },
   "Goatman_Brute_Camp_Malnok_Basic_Attk": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_Camp_Malnok_Frozen_Circle_Inner": {
     "coefficient": 0.05,
@@ -4090,33 +4075,50 @@
   },
   "Goatman_Brute_Camp_Malnok_Left_Swing": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_Camp_Malnok_Right_Swing": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_Camp_Malnok_Slam": {
+    "coefficient": 0.15,
+    "hit_count": 1,
+    "max_coefficient": 0.15,
+    "all_coefficients": [
+      0.15
+    ],
+    "total_coefficient": 0.15
+  },
+  "Goatman_Brute_MJD_miniboss_atk_basicTurnL": {
     "coefficient": 0.15,
     "hit_count": 2,
     "max_coefficient": 0.15,
     "all_coefficients": [
       0.15,
-      0.03
+      0.1
     ],
-    "total_coefficient": 0.18
+    "total_coefficient": 0.25
+  },
+  "Goatman_Brute_MJD_miniboss_atk_basicTurnR": {
+    "coefficient": 0.15,
+    "hit_count": 2,
+    "max_coefficient": 0.15,
+    "all_coefficients": [
+      0.15,
+      0.1
+    ],
+    "total_coefficient": 0.25
   },
   "Goatman_Brute_MJD_miniboss_attk_basic": {
     "coefficient": 0.15,
@@ -4130,52 +4132,49 @@
   },
   "Goatman_Brute_MJD_miniboss_attk_special_slam": {
     "coefficient": 0.2,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2
+      0.2,
+      0.1
     ],
-    "total_coefficient": 0.2
+    "total_coefficient": 0.30000000000000004
   },
   "Goatman_Brute_TWR_Boss_Basic_Attk": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_TWR_Boss_Left_Swing": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_TWR_Boss_Right_Swing": {
     "coefficient": 0.08,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "Goatman_Brute_TWR_Boss_Slam": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.03
+      0.15
     ],
-    "total_coefficient": 0.18
+    "total_coefficient": 0.15
   },
   "Goatman_Brute_attk_1": {
     "coefficient": 0.07,
@@ -4213,88 +4212,6 @@
       0.07
     ],
     "total_coefficient": 0.07
-  },
-  "Goatman_melee_attk": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Goatman_melee_attk_moving": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Goatman_melee_attk_triple": {
-    "coefficient": 0.005,
-    "hit_count": 2,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.005,
-      0.03
-    ],
-    "total_coefficient": 0.034999999999999996
-  },
-  "Goatman_ranged_attk": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Goatman_ranged_attk_moving": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Goatman_sorcerer_attk_cold": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "Goatman_sorcerer_attk_lightning": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "Goatman_sorcerer_attk_poison": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "Goatman_sorcerer_ice_turret": {
-    "coefficient": 0.045,
-    "hit_count": 1,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.045
-    ],
-    "total_coefficient": 0.045
   },
   "Goatman_sorcerer_lightning": {
     "coefficient": 0.1,
@@ -4399,15 +4316,14 @@
   },
   "Harbinger_Frenzy": {
     "coefficient": 0.1,
-    "hit_count": 4,
+    "hit_count": 3,
     "max_coefficient": 0.15,
     "all_coefficients": [
       0.1,
       0.15,
-      0.05,
-      0.04
+      0.05
     ],
-    "total_coefficient": 0.34
+    "total_coefficient": 0.3
   },
   "Harbinger_FuriousLunge2": {
     "coefficient": 0.15,
@@ -4421,24 +4337,14 @@
   },
   "Harbinger_HatredBarrage_Combat": {
     "coefficient": 0.35,
-    "hit_count": 4,
+    "hit_count": 3,
     "max_coefficient": 0.35,
     "all_coefficients": [
       0.35,
       0.05,
-      0.1,
-      0.04
+      0.1
     ],
-    "total_coefficient": 0.54
-  },
-  "Harbinger_HatredBarrage_Cutscene": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.5
   },
   "Harbinger_HatredBarrage_Ledge2": {
     "coefficient": 0.1,
@@ -4479,24 +4385,22 @@
     "total_coefficient": 0.06
   },
   "Harbinger_PlayerUnleash": {
-    "coefficient": 0.03,
-    "hit_count": 2,
+    "coefficient": 0.5,
+    "hit_count": 1,
     "max_coefficient": 0.5,
     "all_coefficients": [
-      0.03,
       0.5
     ],
-    "total_coefficient": 0.53
+    "total_coefficient": 0.5
   },
   "Harbinger_PlayerUnleash_Final": {
-    "coefficient": 0.005,
-    "hit_count": 2,
+    "coefficient": 0.5,
+    "hit_count": 1,
     "max_coefficient": 0.5,
     "all_coefficients": [
-      0.005,
       0.5
     ],
-    "total_coefficient": 0.505
+    "total_coefficient": 0.5
   },
   "Harbinger_SprintToLoc": {
     "coefficient": 0.24,
@@ -4617,14 +4521,13 @@
     "total_coefficient": 0.15
   },
   "Hollow_Boss_Enrage": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.15,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.01,
       0.15
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.15
   },
   "Hollow_Boss_Evade_Big": {
     "coefficient": 0.08,
@@ -4634,33 +4537,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "Hollow_Boss_Evade_Small": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "Hollow_Boss_Evade_Spin": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "Hollow_Boss_Ranged_Special": {
-    "coefficient": 0.035,
-    "hit_count": 1,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035
-    ],
-    "total_coefficient": 0.035
   },
   "Hollow_Boss_Turn_Attk_L": {
     "coefficient": 0.06,
@@ -4721,24 +4597,6 @@
     ],
     "total_coefficient": 0.06
   },
-  "LE_Ambush_Cannibal_SpawnCharge": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "LE_Ambush_Drowned_SpawnCharge": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "LE_Ambush_Execute_NPC": {
     "coefficient": 99.0,
     "hit_count": 1,
@@ -4757,24 +4615,6 @@
     ],
     "total_coefficient": 0.2
   },
-  "LE_Ambush_Goatman_SpawnCharge": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "LE_Ambush_Goatman_SpawnChargeBrute": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "LE_Ambush_Undead_BonusSpawn": {
     "coefficient": 1.0,
     "hit_count": 1,
@@ -4784,44 +4624,15 @@
     ],
     "total_coefficient": 1.0
   },
-  "LE_Ambush_Undead_Spawn": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "LE_Ambush_Wildlife_Bear_SpawnCharge": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "LE_Ambush_Wildlife_Warg_Charge": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "LE_Attack_AiProp_Prey_Attack": {
     "coefficient": 0.05,
-    "hit_count": 4,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
       0.05,
-      0.035,
-      0.015,
       0.1
     ],
-    "total_coefficient": 0.2
+    "total_coefficient": 0.15000000000000002
   },
   "LE_Attack_AiProp_Prey_Attack_LeftRight": {
     "coefficient": 0.05,
@@ -4831,15 +4642,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "LE_Sacrifice_LuredEnemy": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "LTE_Hibernal_Boss_Cold_Snap": {
     "coefficient": 0.15,
@@ -4923,14 +4725,34 @@
     ],
     "total_coefficient": 0.1
   },
-  "LTE_LE_Hibernal_BuildParty_Controller": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
+  "LTE_LNY_Shrine_Barrage": {
+    "coefficient": 1.2,
+    "hit_count": 2,
+    "max_coefficient": 3.5999999999999996,
     "all_coefficients": [
-      0.03
+      1.2,
+      3.5999999999999996
     ],
-    "total_coefficient": 0.03
+    "total_coefficient": 4.8
+  },
+  "LTE_LNY_Shrine_Conduit": {
+    "coefficient": 0.2,
+    "hit_count": 2,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2,
+      0.06666666666666667
+    ],
+    "total_coefficient": 0.26666666666666666
+  },
+  "LTE_LNY_Shrine_PBAoE": {
+    "coefficient": 8.0,
+    "hit_count": 1,
+    "max_coefficient": 8.0,
+    "all_coefficients": [
+      8.0
+    ],
+    "total_coefficient": 8.0
   },
   "LTE_demon_succubus_hibernal_underlings_chillweave": {
     "coefficient": 0.05,
@@ -4950,33 +4772,6 @@
       0.075
     ],
     "total_coefficient": 0.075
-  },
-  "LTE_drowned_brute_hibernal_underlings_mistwave": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "Lacuni_Caster_Rope_attk": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "Lacuni_Caster_Rope_attk_Lightning": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "Lacuni_Caster_Vulture_SendOut": {
     "coefficient": 0.08,
@@ -5042,69 +4837,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "Lacuni_Horror_melee_attk": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "Lacuni_Horror_moving_attk": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "Lacuni_Hybrid_Attack_Moving": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "Lacuni_Hybrid_Melee_Basic": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "Lacuni_Hybrid_Ranged_Basic": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Lacuni_Hybrid_Ranged_JumpForward": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Lacuni_Hybrid_Ranged_melee_attk": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "Lacuni_TWR_boss_FlankingProjectiles": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -5141,15 +4873,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "Lacuni_Trapper_Attack_Moving": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "Lacuni_Trapper_Miniboss_Attack_Moving": {
     "coefficient": 0.15,
@@ -5204,15 +4927,13 @@
   },
   "Lacuni_Trapper_Trap_Lightning": {
     "coefficient": 0.05,
-    "hit_count": 4,
+    "hit_count": 2,
     "max_coefficient": 0.05,
     "all_coefficients": [
       0.05,
-      0.05,
-      0.03,
-      0.03
+      0.05
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.1
   },
   "Lacuni_Trapper_Trap_Npc": {
     "coefficient": 0.05,
@@ -5223,15 +4944,6 @@
       0.05
     ],
     "total_coefficient": 0.1
-  },
-  "Lacuni_Trapper_melee_attk": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "Lilith_p1_Boss_ClawBlades_Cross": {
     "coefficient": 0.25,
@@ -5429,6 +5141,33 @@
     ],
     "total_coefficient": 0.2
   },
+  "MJD_coredemon_mega_shocktroop_attk_basicMeleeLeft": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "MJD_coredemon_mega_shocktroop_attk_basicMeleeRight": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "MJD_coredemon_mega_shocktroop_attk_special_meteorSlam": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
   "MJD_fallen_brute_shocktroop_attk_basic_closeFire": {
     "coefficient": 0.07,
     "hit_count": 1,
@@ -5498,21 +5237,23 @@
   },
   "Mercenary_BerserkerCrone_Cleave": {
     "coefficient": 0.6,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.6,
     "all_coefficients": [
-      0.6
+      0.6,
+      0.06
     ],
-    "total_coefficient": 0.6
+    "total_coefficient": 0.6599999999999999
   },
   "Mercenary_BerserkerCrone_Cleave_Enemy": {
     "coefficient": 0.1,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1
+      0.1,
+      0.06
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.16
   },
   "Mercenary_BerserkerCrone_Harpoons": {
     "coefficient": 1.8,
@@ -5536,21 +5277,22 @@
   "Mercenary_BerserkerCrone_RumblingEarth": {
     "coefficient": 0.3,
     "hit_count": 2,
-    "max_coefficient": 0.3,
+    "max_coefficient": 1.7999999999999998,
     "all_coefficients": [
       0.3,
-      0.3
+      1.7999999999999998
     ],
-    "total_coefficient": 0.6
+    "total_coefficient": 2.0999999999999996
   },
   "Mercenary_BerserkerCrone_Shockwave": {
     "coefficient": 0.8,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.8,
     "all_coefficients": [
+      0.8,
       0.8
     ],
-    "total_coefficient": 0.8
+    "total_coefficient": 1.6
   },
   "Mercenary_BerserkerCrone_Whirlwind": {
     "coefficient": 0.85,
@@ -5594,21 +5336,23 @@
   },
   "Mercenary_CursedChild_FlameSurge": {
     "coefficient": 0.06,
-    "hit_count": 1,
-    "max_coefficient": 0.06,
+    "hit_count": 3,
+    "max_coefficient": 222.22222222222223,
     "all_coefficients": [
-      0.06
+      0.06,
+      222.22222222222223,
+      0.9
     ],
-    "total_coefficient": 0.06
+    "total_coefficient": 223.18222222222224
   },
   "Mercenary_CursedChild_Haunt": {
-    "coefficient": 0.01,
+    "coefficient": 0.3,
     "hit_count": 1,
-    "max_coefficient": 0.01,
+    "max_coefficient": 0.3,
     "all_coefficients": [
-      0.01
+      0.3
     ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.3
   },
   "Mercenary_CursedChild_InfernalDemon_GroundStomp": {
     "coefficient": 2.2,
@@ -5667,12 +5411,12 @@
   "Mercenary_CursedChild_WaveOfFlame": {
     "coefficient": 0.275,
     "hit_count": 2,
-    "max_coefficient": 0.275,
+    "max_coefficient": 72.72727272727272,
     "all_coefficients": [
       0.275,
-      0.01
+      72.72727272727272
     ],
-    "total_coefficient": 0.28500000000000003
+    "total_coefficient": 73.00227272727273
   },
   "Mercenary_Level_Up": {
     "coefficient": 2.0,
@@ -5711,15 +5455,6 @@
     ],
     "total_coefficient": 0.25
   },
-  "MonsterAffix_ElectricLance_Cast": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "MonsterAffix_FireChains": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -5737,6 +5472,15 @@
       0.2
     ],
     "total_coefficient": 0.2
+  },
+  "MonsterAffix_FireEnchanted_Proc": {
+    "coefficient": 0.075,
+    "hit_count": 1,
+    "max_coefficient": 0.075,
+    "all_coefficients": [
+      0.075
+    ],
+    "total_coefficient": 0.075
   },
   "MonsterAffix_FireEnchanted_V3": {
     "coefficient": 0.16,
@@ -5765,34 +5509,6 @@
       0.15
     ],
     "total_coefficient": 0.15
-  },
-  "MonsterAffix_LightningEnchanted": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "MonsterAffix_LightningEnchanted_V4": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.0125
-    ],
-    "total_coefficient": 0.037500000000000006
-  },
-  "MonsterAffix_LightningTotems_Cast": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "MonsterAffix_LightningTotems_Cast_V5": {
     "coefficient": 0.06,
@@ -5848,33 +5564,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "MonsterAffix_Sawblades_Cast": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "MonsterAffix_SeekingCold_Cast": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "MonsterAffix_Teleporter_Cast": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "MonsterAffix_Vortex_Cast": {
     "coefficient": 0.15,
@@ -5970,15 +5659,6 @@
     ],
     "total_coefficient": 0.5
   },
-  "NPC_Attack_Ranged": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "NPC_Donan_Attack_Magic_Projectile": {
     "coefficient": 0.06,
     "hit_count": 1,
@@ -6065,23 +5745,13 @@
     "total_coefficient": 0.2
   },
   "NPC_Follower_Vigo_Charge": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.05,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.01,
       0.05
     ],
-    "total_coefficient": 0.060000000000000005
-  },
-  "NPC_Follower_Yorin_Holy_Strike": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
+    "total_coefficient": 0.05
   },
   "NPC_Gulyas_BloodProjectile": {
     "coefficient": 0.06,
@@ -6121,12 +5791,13 @@
   },
   "NPC_Mercenary_BountyHunter_ConcussiveTrap": {
     "coefficient": 0.8,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.8,
     "all_coefficients": [
+      0.8,
       0.8
     ],
-    "total_coefficient": 0.8
+    "total_coefficient": 1.6
   },
   "NPC_Mercenary_BountyHunter_ExplosiveCharge": {
     "coefficient": 0.6,
@@ -6144,10 +5815,10 @@
     "max_coefficient": 0.36,
     "all_coefficients": [
       0.1,
-      0.04,
-      0.36
+      0.36,
+      0.3
     ],
-    "total_coefficient": 0.5
+    "total_coefficient": 0.76
   },
   "NPC_Mercenary_BountyHunter_ScatterTraps": {
     "coefficient": 3.0,
@@ -6215,12 +5886,13 @@
   },
   "NPC_Mercenary_ShieldBearer_ChargeSkill": {
     "coefficient": 1.1,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 1.1,
     "all_coefficients": [
-      1.1
+      1.1,
+      0.8
     ],
-    "total_coefficient": 1.1
+    "total_coefficient": 1.9000000000000001
   },
   "NPC_Mercenary_ShieldBearer_Crater": {
     "coefficient": 0.3,
@@ -6234,12 +5906,13 @@
   },
   "NPC_Mercenary_ShieldBearer_GroundSlam": {
     "coefficient": 1.6,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 1.6,
     "all_coefficients": [
-      1.6
+      1.6,
+      0.85
     ],
-    "total_coefficient": 1.6
+    "total_coefficient": 2.45
   },
   "NPC_Mercenary_ShieldBearer_Hammer_BasicAttack": {
     "coefficient": 0.3,
@@ -6316,13 +5989,13 @@
     "total_coefficient": 3.9000000000000004
   },
   "Necromancer_BloodMist": {
-    "coefficient": 4.2,
+    "coefficient": 0.35000000000000003,
     "hit_count": 1,
-    "max_coefficient": 4.2,
+    "max_coefficient": 0.35000000000000003,
     "all_coefficients": [
-      4.2
+      0.35000000000000003
     ],
-    "total_coefficient": 4.2
+    "total_coefficient": 0.35000000000000003
   },
   "Necromancer_BloodSurge": {
     "coefficient": 1.4,
@@ -6376,14 +6049,15 @@
     "total_coefficient": 0.3
   },
   "Necromancer_BoneStorm": {
-    "coefficient": 3.0,
-    "hit_count": 2,
+    "coefficient": 0.75,
+    "hit_count": 3,
     "max_coefficient": 3.0,
     "all_coefficients": [
+      0.75,
       3.0,
       3.0
     ],
-    "total_coefficient": 6.0
+    "total_coefficient": 6.75
   },
   "Necromancer_CorpseExplosion": {
     "coefficient": 1.1,
@@ -6423,14 +6097,99 @@
     "total_coefficient": 3.0
   },
   "Necromancer_Golem": {
-    "coefficient": 1.4,
-    "hit_count": 2,
+    "coefficient": 0.7699999999999999,
+    "hit_count": 3,
     "max_coefficient": 2.0,
     "all_coefficients": [
+      0.7699999999999999,
       1.4,
       2.0
     ],
-    "total_coefficient": 3.4
+    "total_coefficient": 4.17
+  },
+  "Necromancer_Golem_Blood_Active": {
+    "coefficient": 1.4,
+    "hit_count": 1,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      1.4
+    ],
+    "total_coefficient": 1.4
+  },
+  "Necromancer_Golem_Blood_Attack": {
+    "coefficient": 0.7699999999999999,
+    "hit_count": 1,
+    "max_coefficient": 0.7699999999999999,
+    "all_coefficients": [
+      0.7699999999999999
+    ],
+    "total_coefficient": 0.7699999999999999
+  },
+  "Necromancer_Golem_Bone_Attack": {
+    "coefficient": 0.7699999999999999,
+    "hit_count": 1,
+    "max_coefficient": 0.7699999999999999,
+    "all_coefficients": [
+      0.7699999999999999
+    ],
+    "total_coefficient": 0.7699999999999999
+  },
+  "Necromancer_Golem_Bone_Passive_UpgradeB": {
+    "coefficient": 1.5399999999999998,
+    "hit_count": 1,
+    "max_coefficient": 1.5399999999999998,
+    "all_coefficients": [
+      1.5399999999999998
+    ],
+    "total_coefficient": 1.5399999999999998
+  },
+  "Necromancer_Golem_Iron_Active_Slam": {
+    "coefficient": 2.0,
+    "hit_count": 2,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0,
+      2.0
+    ],
+    "total_coefficient": 4.0
+  },
+  "Necromancer_Golem_Iron_Active_Slam_Leap": {
+    "coefficient": 2.0,
+    "hit_count": 2,
+    "max_coefficient": 2.0,
+    "all_coefficients": [
+      2.0,
+      2.0
+    ],
+    "total_coefficient": 4.0
+  },
+  "Necromancer_Golem_Iron_Attack": {
+    "coefficient": 0.7699999999999999,
+    "hit_count": 1,
+    "max_coefficient": 0.7699999999999999,
+    "all_coefficients": [
+      0.7699999999999999
+    ],
+    "total_coefficient": 0.7699999999999999
+  },
+  "Necromancer_Golem_Iron_Attack_Enhanced": {
+    "coefficient": 0.7699999999999999,
+    "hit_count": 2,
+    "max_coefficient": 1.5399999999999998,
+    "all_coefficients": [
+      0.7699999999999999,
+      1.5399999999999998
+    ],
+    "total_coefficient": 2.3099999999999996
+  },
+  "Necromancer_Golem_Iron_Passive_UpgradeA": {
+    "coefficient": 1.5399999999999998,
+    "hit_count": 1,
+    "max_coefficient": 1.5399999999999998,
+    "all_coefficients": [
+      1.5399999999999998
+    ],
+    "total_coefficient": 1.5399999999999998
   },
   "Necromancer_Hemorrhage": {
     "coefficient": 0.8,
@@ -6474,6 +6233,47 @@
     ],
     "total_coefficient": 5.76
   },
+  "Necromancer_SkeletonMage": {
+    "coefficient": 0.5217391304347826,
+    "hit_count": 3,
+    "max_coefficient": 0.782608695652174,
+    "all_coefficients": [
+      0.5217391304347826,
+      0.782608695652174,
+      0.5217391304347826
+    ],
+    "total_coefficient": 1.8260869565217392
+  },
+  "Necromancer_SkeletonMage_BoneShards_Attack": {
+    "coefficient": 0.782608695652174,
+    "hit_count": 2,
+    "max_coefficient": 0.782608695652174,
+    "all_coefficients": [
+      0.782608695652174,
+      0.782608695652174
+    ],
+    "total_coefficient": 1.565217391304348
+  },
+  "Necromancer_SkeletonMage_Cold_Attack": {
+    "coefficient": 0.5217391304347826,
+    "hit_count": 2,
+    "max_coefficient": 0.5217391304347826,
+    "all_coefficients": [
+      0.5217391304347826,
+      0.5217391304347826
+    ],
+    "total_coefficient": 1.0434782608695652
+  },
+  "Necromancer_SkeletonMage_Shadow_Attack": {
+    "coefficient": 0.5217391304347826,
+    "hit_count": 2,
+    "max_coefficient": 0.5217391304347826,
+    "all_coefficients": [
+      0.5217391304347826,
+      0.5217391304347826
+    ],
+    "total_coefficient": 1.0434782608695652
+  },
   "Necromancer_SkeletonPriest": {
     "coefficient": 1.0,
     "hit_count": 1,
@@ -6495,17 +6295,96 @@
     ],
     "total_coefficient": 2.13
   },
+  "Necromancer_SkeletonWarrior_Scythe_Attack": {
+    "coefficient": 0.168,
+    "hit_count": 1,
+    "max_coefficient": 0.168,
+    "all_coefficients": [
+      0.168
+    ],
+    "total_coefficient": 0.168
+  },
+  "Necromancer_SkeletonWarrior_Scythe_Attack_shadow": {
+    "coefficient": 0.168,
+    "hit_count": 1,
+    "max_coefficient": 0.168,
+    "all_coefficients": [
+      0.168
+    ],
+    "total_coefficient": 0.168
+  },
+  "Necromancer_SkeletonWarrior_Scythe_DoubleStrike_Attack": {
+    "coefficient": 0.24,
+    "hit_count": 1,
+    "max_coefficient": 0.24,
+    "all_coefficients": [
+      0.24
+    ],
+    "total_coefficient": 0.24
+  },
   "Necromancer_SkeletonWarrior_Scythe_Standard": {
-    "coefficient": 0.035,
-    "hit_count": 4,
+    "coefficient": 0.068,
+    "hit_count": 2,
     "max_coefficient": 0.34,
     "all_coefficients": [
-      0.035,
-      0.035,
       0.068,
       0.34
     ],
-    "total_coefficient": 0.47800000000000004
+    "total_coefficient": 0.40800000000000003
+  },
+  "Necromancer_SkeletonWarrior_Scythe_TwoHand_Attack": {
+    "coefficient": 0.48,
+    "hit_count": 1,
+    "max_coefficient": 0.48,
+    "all_coefficients": [
+      0.48
+    ],
+    "total_coefficient": 0.48
+  },
+  "Necromancer_SkeletonWarrior_Scythe_TwoHand_Attack_Shadow": {
+    "coefficient": 0.48,
+    "hit_count": 1,
+    "max_coefficient": 0.48,
+    "all_coefficients": [
+      0.48
+    ],
+    "total_coefficient": 0.48
+  },
+  "Necromancer_SkeletonWarrior_Shield_Attack": {
+    "coefficient": 0.182,
+    "hit_count": 1,
+    "max_coefficient": 0.182,
+    "all_coefficients": [
+      0.182
+    ],
+    "total_coefficient": 0.182
+  },
+  "Necromancer_SkeletonWarrior_Shield_Attack_Shadow": {
+    "coefficient": 0.182,
+    "hit_count": 1,
+    "max_coefficient": 0.182,
+    "all_coefficients": [
+      0.182
+    ],
+    "total_coefficient": 0.182
+  },
+  "Necromancer_SkeletonWarrior_Sword_Attack": {
+    "coefficient": 0.2366,
+    "hit_count": 1,
+    "max_coefficient": 0.2366,
+    "all_coefficients": [
+      0.2366
+    ],
+    "total_coefficient": 0.2366
+  },
+  "Necromancer_SkeletonWarrior_Sword_Attack_Shadow": {
+    "coefficient": 0.2366,
+    "hit_count": 1,
+    "max_coefficient": 0.2366,
+    "all_coefficients": [
+      0.2366
+    ],
+    "total_coefficient": 0.2366
   },
   "Necromancer_Talent_Caster_T1_N2": {
     "coefficient": 0.2,
@@ -6526,13 +6405,14 @@
     "total_coefficient": 2.0
   },
   "Necromancer_Talent_Hybrid_T5_N1": {
-    "coefficient": 1.8,
-    "hit_count": 1,
+    "coefficient": 0.6,
+    "hit_count": 2,
     "max_coefficient": 1.8,
     "all_coefficients": [
+      0.6,
       1.8
     ],
-    "total_coefficient": 1.8
+    "total_coefficient": 2.4
   },
   "Necromancer_Talent_Hybrid_T5_N2": {
     "coefficient": 2.0,
@@ -6563,35 +6443,13 @@
   },
   "OLTest_KnightBoss_OverheadSlam": {
     "coefficient": 0.05,
-    "hit_count": 5,
+    "hit_count": 2,
     "max_coefficient": 0.05,
     "all_coefficients": [
       0.05,
-      0.04,
-      0.04,
-      0.025,
       0.05
     ],
-    "total_coefficient": 0.20500000000000002
-  },
-  "OLTest_ghost_ranged_attack_combo": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.04
-  },
-  "OmniMonk_unique_RareSpawn": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.1
   },
   "Paladin_Advance_lunge": {
     "coefficient": 1.05,
@@ -6614,13 +6472,15 @@
   },
   "Paladin_BlessedHammer": {
     "coefficient": 1.15,
-    "hit_count": 2,
+    "hit_count": 4,
     "max_coefficient": 1.15,
     "all_coefficients": [
       1.15,
-      1.15
+      1.15,
+      0.45999999999999996,
+      0.6708333333333333
     ],
-    "total_coefficient": 2.3
+    "total_coefficient": 3.430833333333333
   },
   "Paladin_BlessedShield": {
     "coefficient": 2.16,
@@ -6687,8 +6547,8 @@
   },
   "Paladin_HeavensFury": {
     "coefficient": 2.0,
-    "hit_count": 7,
-    "max_coefficient": 2.0,
+    "hit_count": 8,
+    "max_coefficient": 21.0,
     "all_coefficients": [
       2.0,
       0.6,
@@ -6696,9 +6556,10 @@
       0.6,
       0.6,
       0.57,
-      1.05
+      1.05,
+      21.0
     ],
-    "total_coefficient": 6.2
+    "total_coefficient": 27.2
   },
   "Paladin_HolyShock_Aura": {
     "coefficient": 0.9,
@@ -6713,15 +6574,17 @@
   },
   "Paladin_Impale": {
     "coefficient": 0.9,
-    "hit_count": 4,
+    "hit_count": 6,
     "max_coefficient": 0.9,
     "all_coefficients": [
       0.9,
       0.9,
+      0.675,
+      0.315,
       0.9,
       0.9
     ],
-    "total_coefficient": 3.6
+    "total_coefficient": 4.59
   },
   "Paladin_LanceDive_OLD": {
     "coefficient": 2.4,
@@ -6737,6 +6600,24 @@
     "total_coefficient": 11.199200000000001
   },
   "Paladin_Phalanx": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ],
+    "total_coefficient": 1.0
+  },
+  "Paladin_Phalanx_Attack": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ],
+    "total_coefficient": 1.0
+  },
+  "Paladin_Phalanx_ChargeAttack_Lunge": {
     "coefficient": 1.0,
     "hit_count": 1,
     "max_coefficient": 1.0,
@@ -6805,26 +6686,28 @@
   },
   "Paladin_ShieldCharge_Channel": {
     "coefficient": 0.9,
-    "hit_count": 3,
-    "max_coefficient": 1.575,
-    "all_coefficients": [
-      0.9,
-      0.9,
-      1.575
-    ],
-    "total_coefficient": 3.375
-  },
-  "Paladin_ShieldCharge_Channel_Short": {
-    "coefficient": 0.9,
     "hit_count": 4,
     "max_coefficient": 1.575,
     "all_coefficients": [
       0.9,
       0.9,
-      0.9,
-      1.575
+      1.575,
+      0.21600000000000003
     ],
-    "total_coefficient": 4.275
+    "total_coefficient": 3.591
+  },
+  "Paladin_ShieldCharge_Channel_Short": {
+    "coefficient": 0.9,
+    "hit_count": 5,
+    "max_coefficient": 1.575,
+    "all_coefficients": [
+      0.9,
+      0.9,
+      0.9,
+      1.575,
+      0.21600000000000003
+    ],
+    "total_coefficient": 4.491
   },
   "Paladin_SpearOfTheHeavens": {
     "coefficient": 3.8560000000000003,
@@ -6841,15 +6724,16 @@
   },
   "Paladin_StormBolt": {
     "coefficient": 1.35,
-    "hit_count": 4,
+    "hit_count": 5,
     "max_coefficient": 3.15,
     "all_coefficients": [
       0.9,
       1.35,
       1.1997,
-      3.15
+      3.15,
+      0.36
     ],
-    "total_coefficient": 6.5997
+    "total_coefficient": 6.9597
   },
   "Paladin_Sub_Angel": {
     "coefficient": 1.6,
@@ -6881,13 +6765,32 @@
   },
   "Paladin_Trinity": {
     "coefficient": 4.5,
-    "hit_count": 2,
+    "hit_count": 5,
     "max_coefficient": 9.0,
     "all_coefficients": [
       4.5,
-      9.0
+      0.5142857142857142,
+      9.0,
+      6.75,
+      4.0
     ],
-    "total_coefficient": 13.5
+    "total_coefficient": 24.764285714285712
+  },
+  "Paladin_Trinity_Cast_3": {
+    "coefficient": 0.5142857142857142,
+    "hit_count": 8,
+    "max_coefficient": 9.0,
+    "all_coefficients": [
+      4.0,
+      0.5142857142857142,
+      9.0,
+      4.0,
+      6.75,
+      4.0,
+      4.0,
+      4.5
+    ],
+    "total_coefficient": 36.76428571428571
   },
   "Paladin_WeaponAttack": {
     "coefficient": 0.625,
@@ -6908,15 +6811,6 @@
     ],
     "total_coefficient": 0.43333333333333335
   },
-  "Paragon_Barb_Legendary_001": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "Paragon_Druid_Legendary_017": {
     "coefficient": 10.0,
     "hit_count": 1,
@@ -6935,24 +6829,6 @@
     ],
     "total_coefficient": 2.0
   },
-  "Player_Hellfire": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "Power_EH_SpringCleansing_Root": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "Power_Rune_Effect_SummonSpiritWolf": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -6961,15 +6837,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "Procgen_Chains": {
-    "coefficient": 0.003,
-    "hit_count": 1,
-    "max_coefficient": 0.003,
-    "all_coefficients": [
-      0.003
-    ],
-    "total_coefficient": 0.003
   },
   "QST_EnkindledJudicator_X1_FireCones": {
     "coefficient": 0.2,
@@ -6989,24 +6856,14 @@
     ],
     "total_coefficient": 0.05
   },
-  "QST_Frac_Underworld_npcF_vhenard_boss_phaseTransition": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "QST_Frac_Underworld_npcF_vhenard_boss_summon": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.01
+      0.15
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.15
   },
   "QST_Hawe_Verge_npcF_Valtha_Boss_attk_explodeMinion": {
     "coefficient": 0.3,
@@ -7059,13 +6916,12 @@
   },
   "QST_Hell_Battlefield_MegaDemon_VacuumExplosion": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.025
+      0.2
     ],
-    "total_coefficient": 0.225
+    "total_coefficient": 0.2
   },
   "QST_Hell_Battlefield_Succubus_FlyAway": {
     "coefficient": 0.05,
@@ -7114,6 +6970,24 @@
     ],
     "total_coefficient": 0.1
   },
+  "QST_Hell_Main_03_Trigger_Lilith_Meteors_Fast": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "QST_Hell_Main_03_Trigger_Lilith_Meteors_Slow": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
   "QST_Hell_Main_Meteor": {
     "coefficient": 0.5,
     "hit_count": 1,
@@ -7123,15 +6997,14 @@
     ],
     "total_coefficient": 0.5
   },
-  "QST_Kehj_Caldeum_01_UE_Demon_Succubus_MortarRain": {
-    "coefficient": 0.0125,
-    "hit_count": 2,
-    "max_coefficient": 0.0125,
+  "QST_Kehj_Caldeum_01_Demon_Mega_Rain": {
+    "coefficient": 0.12,
+    "hit_count": 1,
+    "max_coefficient": 0.12,
     "all_coefficients": [
-      0.0125,
-      0.0025
+      0.12
     ],
-    "total_coefficient": 0.015000000000000001
+    "total_coefficient": 0.12
   },
   "QST_Kehj_Caldeum_Debris": {
     "coefficient": 0.05,
@@ -7243,13 +7116,12 @@
   },
   "QST_Naha_FiveHills_04_Donan_SpiritPool": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
+    "total_coefficient": 0.1
   },
   "QST_Naha_FiveHills_04_GhostCasterBoss_BulletHells": {
     "coefficient": 0.08,
@@ -7261,102 +7133,60 @@
     "total_coefficient": 0.08
   },
   "QST_Naha_FiveHills_04_GhostCasterBoss_MultiShot": {
-    "coefficient": 0.04,
-    "hit_count": 3,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.04,
       0.1,
       0.08
     ],
-    "total_coefficient": 0.22
-  },
-  "QST_Naha_FiveHills_04_GhostCasterBoss_SoulTether": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.18
   },
   "QST_Naha_FiveHills_04_GhostCasterBoss_SpiritPool": {
     "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "QST_Naha_FiveHills_04_Iosef_SeekingProjectiles": {
+    "coefficient": 0.1,
     "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
-    ],
-    "total_coefficient": 0.11
-  },
-  "QST_Naha_FiveHills_04_GhostCasterBoss_Teleport": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "QST_Naha_FiveHills_04_Iosef_SeekingProjectiles": {
-    "coefficient": 0.04,
-    "hit_count": 3,
-    "max_coefficient": 0.1,
-    "all_coefficients": [
-      0.04,
       0.1,
       0.08
     ],
-    "total_coefficient": 0.22
+    "total_coefficient": 0.18
   },
   "QST_Naha_FiveHills_04_Iosef_SpiritPool": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
-  },
-  "QST_Naha_FiveHills_04_Meshif_CombatMemory_Teleport": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.1
   },
   "QST_Naha_FiveHills_04_Meshif_SpiritPool": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
-  },
-  "QST_Naha_FiveHills_04_Vigo_CombatMemory_SoulTether": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.1
   },
   "QST_Naha_FiveHills_04_Vigo_SpiritPool": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
+    "total_coefficient": 0.1
   },
   "QST_Naha_FiveHills_04_Yorin_CombatMemory_ShadowBeam": {
     "coefficient": 0.15,
@@ -7369,13 +7199,12 @@
   },
   "QST_Naha_FiveHills_04_Yorin_SpiritPool": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
+    "total_coefficient": 0.1
   },
   "QST_Naha_ScalesOfHistory_MageRemains_Shadow_Attack": {
     "coefficient": 0.05,
@@ -7461,16 +7290,6 @@
     ],
     "total_coefficient": 0.15000000000000002
   },
-  "QST_Naha_VenatorTeunis_Boss_Attk_FireSpread": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.02
-    ],
-    "total_coefficient": 0.06
-  },
   "QST_S05_BSK_BridgeMeteorShower": {
     "coefficient": 0.75,
     "hit_count": 1,
@@ -7482,14 +7301,13 @@
   },
   "QST_Scos_Hills_ShrineBolt": {
     "coefficient": 0.15,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.2,
     "all_coefficients": [
       0.15,
-      0.025,
       0.2
     ],
-    "total_coefficient": 0.375
+    "total_coefficient": 0.35
   },
   "QST_Step_FiendSoFamiliar_Shadow_Geyser": {
     "coefficient": 0.1,
@@ -7503,15 +7321,6 @@
       0.1
     ],
     "total_coefficient": 0.5
-  },
-  "QST_UniqueHollow_X1_Prologue_Basic": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "QST_UniqueHollow_X1_Prologue_Ritual": {
     "coefficient": 0.075,
@@ -7572,15 +7381,6 @@
     ],
     "total_coefficient": 1.2000000000000002
   },
-  "RareSpawn_MoveUnderground": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "Realmwalker_BeamSwirl": {
     "coefficient": 0.08,
     "hit_count": 1,
@@ -7589,15 +7389,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "Realmwalker_BeamSwirl_Fallback": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "Realmwalker_Buried": {
     "coefficient": 0.1,
@@ -7744,15 +7535,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "Realmwalker_Leviathan_Attack_Beam": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "Realmwalker_MeteorRain": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -7838,15 +7620,6 @@
     ],
     "total_coefficient": 0.11
   },
-  "Rogue_ArrowStorm": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "Rogue_Barrage": {
     "coefficient": 0.25,
     "hit_count": 4,
@@ -7880,12 +7653,13 @@
   },
   "Rogue_ColdImbue": {
     "coefficient": 0.2,
-    "hit_count": 1,
-    "max_coefficient": 0.2,
+    "hit_count": 2,
+    "max_coefficient": 50.0,
     "all_coefficients": [
+      50.0,
       0.2
     ],
-    "total_coefficient": 0.2
+    "total_coefficient": 50.2
   },
   "Rogue_DanceOfKnives": {
     "coefficient": 0.78,
@@ -7911,18 +7685,19 @@
   },
   "Rogue_DeathTrap": {
     "coefficient": 2.0,
-    "hit_count": 2,
-    "max_coefficient": 2.0,
+    "hit_count": 3,
+    "max_coefficient": 2.4,
     "all_coefficients": [
       2.0,
-      1.2
+      1.2,
+      2.4
     ],
-    "total_coefficient": 3.2
+    "total_coefficient": 5.6
   },
   "Rogue_Flurry": {
     "coefficient": 0.35,
     "hit_count": 8,
-    "max_coefficient": 1.4,
+    "max_coefficient": 4.199999999999999,
     "all_coefficients": [
       0.35,
       0.35,
@@ -7930,10 +7705,10 @@
       0.35,
       1.4,
       1.4,
-      1.4,
-      1.4
+      2.8,
+      4.199999999999999
     ],
-    "total_coefficient": 7.0
+    "total_coefficient": 11.2
   },
   "Rogue_ForcefulArrow": {
     "coefficient": 0.5,
@@ -7985,14 +7760,14 @@
   "Rogue_PenetratingShot": {
     "coefficient": 1.1,
     "hit_count": 4,
-    "max_coefficient": 1.1,
+    "max_coefficient": 3.3000000000000003,
     "all_coefficients": [
       1.1,
       1.1,
-      1.1,
-      1.1
+      2.2,
+      3.3000000000000003
     ],
-    "total_coefficient": 4.4
+    "total_coefficient": 7.700000000000001
   },
   "Rogue_Puncture": {
     "coefficient": 0.45,
@@ -8037,14 +7812,17 @@
     "total_coefficient": 5.0
   },
   "Rogue_ShadowImbue": {
-    "coefficient": 0.11,
-    "hit_count": 2,
-    "max_coefficient": 0.11,
+    "coefficient": 0.4,
+    "hit_count": 5,
+    "max_coefficient": 0.6,
     "all_coefficients": [
-      0.11,
-      0.04
+      0.4,
+      0.4,
+      0.4,
+      0.6,
+      0.11
     ],
-    "total_coefficient": 0.15
+    "total_coefficient": 1.9100000000000001
   },
   "Rogue_ShadowStep": {
     "coefficient": 0.8,
@@ -8069,6 +7847,15 @@
       0.9
     ],
     "total_coefficient": 1.8
+  },
+  "Rogue_Talent_Cunning_T5_N1": {
+    "coefficient": 0.8,
+    "hit_count": 1,
+    "max_coefficient": 0.8,
+    "all_coefficients": [
+      0.8
+    ],
+    "total_coefficient": 0.8
   },
   "Rogue_Talent_Cunning_T5_N3": {
     "coefficient": 0.5,
@@ -8101,14 +7888,14 @@
   "Rogue_TwistingBlades": {
     "coefficient": 0.3,
     "hit_count": 4,
-    "max_coefficient": 0.3,
+    "max_coefficient": 0.8999999999999999,
     "all_coefficients": [
       0.3,
       0.3,
-      0.3,
-      0.3
+      0.6,
+      0.8999999999999999
     ],
-    "total_coefficient": 1.2
+    "total_coefficient": 2.0999999999999996
   },
   "Rogue_WeaponAttack": {
     "coefficient": 0.45,
@@ -8193,46 +7980,6 @@
     ],
     "total_coefficient": 0.2
   },
-  "S01_MalignantAffix_Offensive_T1": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01,
-      0.01
-    ],
-    "total_coefficient": 0.02
-  },
-  "S01_MalignantAffix_Offensive_T2": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01,
-      0.01
-    ],
-    "total_coefficient": 0.02
-  },
-  "S01_MalignantAffix_Offensive_T3": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01,
-      0.01
-    ],
-    "total_coefficient": 0.02
-  },
-  "S01_MalignantAffix_Offensive_T3_No_Season": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01,
-      0.01
-    ],
-    "total_coefficient": 0.02
-  },
   "S02_BloodSeeker_Barb_Bash": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -8241,15 +7988,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "S02_BloodSeeker_Barb_GroundStomp": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "S02_BloodSeeker_Barb_Leap": {
     "coefficient": 0.075,
@@ -8260,15 +7998,6 @@
       0.075
     ],
     "total_coefficient": 0.15
-  },
-  "S02_BloodSeeker_Barb_Upheaval": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "S02_BloodSeeker_Druid_EarthenBulwark": {
     "coefficient": 0.3,
@@ -8308,14 +8037,13 @@
     "total_coefficient": 0.065
   },
   "S02_BloodSeeker_Necromancer_BoneSpear": {
-    "coefficient": 0.04,
-    "hit_count": 2,
+    "coefficient": 0.1,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.04,
       0.1
     ],
-    "total_coefficient": 0.14
+    "total_coefficient": 0.1
   },
   "S02_BloodSeeker_Rogue_Barrage": {
     "coefficient": 0.05,
@@ -8330,41 +8058,26 @@
     "total_coefficient": 0.2
   },
   "S02_BloodSeeker_Rogue_Flurry": {
-    "coefficient": 0.01875,
-    "hit_count": 8,
-    "max_coefficient": 0.075,
+    "coefficient": 0.075,
+    "hit_count": 4,
+    "max_coefficient": 0.22499999999999998,
     "all_coefficients": [
-      0.01875,
-      0.01875,
-      0.01875,
-      0.01875,
       0.075,
       0.075,
-      0.075,
-      0.075
+      0.15,
+      0.22499999999999998
     ],
-    "total_coefficient": 0.375
-  },
-  "S02_BloodSeeker_Rogue_InvigoratingStrike": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.5249999999999999
   },
   "S02_BloodSeeker_Rogue_PenetratingShot": {
-    "coefficient": 0.04,
-    "hit_count": 4,
-    "max_coefficient": 0.04,
+    "coefficient": 0.08,
+    "hit_count": 2,
+    "max_coefficient": 0.12,
     "all_coefficients": [
-      0.04,
-      0.04,
-      0.04,
-      0.04
+      0.08,
+      0.12
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.2
   },
   "S02_BloodSeeker_Rogue_ShadowStep": {
     "coefficient": 0.08,
@@ -8379,39 +8092,26 @@
     "total_coefficient": 0.368
   },
   "S02_BloodSeeker_Rogue_TwistingBlades": {
-    "coefficient": 0.04,
-    "hit_count": 5,
-    "max_coefficient": 0.065,
+    "coefficient": 0.065,
+    "hit_count": 3,
+    "max_coefficient": 0.12,
     "all_coefficients": [
-      0.04,
       0.065,
-      0.04,
-      0.04,
-      0.04
+      0.08,
+      0.12
     ],
-    "total_coefficient": 0.225
-  },
-  "S02_BloodSeeker_Sorc_FrostBolt": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.265
   },
   "S02_BloodSeeker_Sorc_FrozenOrb": {
     "coefficient": 0.07,
-    "hit_count": 5,
+    "hit_count": 3,
     "max_coefficient": 0.3169,
     "all_coefficients": [
       0.07,
-      0.04,
       0.05,
-      0.04,
       0.3169
     ],
-    "total_coefficient": 0.5169
+    "total_coefficient": 0.4369
   },
   "S02_BloodSeeker_Sorc_Teleport": {
     "coefficient": 0.25,
@@ -8430,15 +8130,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "S02_Bloodseeker_Barbarian_GroundStomp": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "S02_Bloodseeker_Sorcerer_Fireball": {
     "coefficient": 0.6,
@@ -8507,24 +8198,6 @@
     ],
     "total_coefficient": 0.26
   },
-  "S02_boss_summon_blood_curse": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "S02_boss_summon_blood_seeker": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
   "S02_boss_turn_left_attack": {
     "coefficient": 0.1,
     "hit_count": 2,
@@ -8572,6 +8245,16 @@
       0.95
     ],
     "total_coefficient": 0.95
+  },
+  "S03_Boss_Chakram_Swipe_Left": {
+    "coefficient": 0.2,
+    "hit_count": 2,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2,
+      0.15
+    ],
+    "total_coefficient": 0.35
   },
   "S03_Boss_Chakram_Swipe_Right": {
     "coefficient": 0.2,
@@ -8685,14 +8368,72 @@
     ],
     "total_coefficient": 0.1
   },
-  "S03_Construct_Buddy_Tempest": {
-    "coefficient": 0.605,
+  "S03_Construct_Buddy_Bushwhack": {
+    "coefficient": 0.6,
     "hit_count": 1,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6
+    ],
+    "total_coefficient": 0.6
+  },
+  "S03_Construct_Buddy_Firefly": {
+    "coefficient": 0.275,
+    "hit_count": 3,
+    "max_coefficient": 0.77,
+    "all_coefficients": [
+      0.275,
+      0.385,
+      0.77
+    ],
+    "total_coefficient": 1.4300000000000002
+  },
+  "S03_Construct_Buddy_Gyrate": {
+    "coefficient": 1.56,
+    "hit_count": 1,
+    "max_coefficient": 1.56,
+    "all_coefficients": [
+      1.56
+    ],
+    "total_coefficient": 1.56
+  },
+  "S03_Construct_Buddy_Impale": {
+    "coefficient": 2.34,
+    "hit_count": 1,
+    "max_coefficient": 2.34,
+    "all_coefficients": [
+      2.34
+    ],
+    "total_coefficient": 2.34
+  },
+  "S03_Construct_Buddy_LightningBolt": {
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.21
+    ],
+    "total_coefficient": 0.8099999999999999
+  },
+  "S03_Construct_Buddy_Slash": {
+    "coefficient": 1.43,
+    "hit_count": 1,
+    "max_coefficient": 1.43,
+    "all_coefficients": [
+      1.43
+    ],
+    "total_coefficient": 1.43
+  },
+  "S03_Construct_Buddy_Tempest": {
+    "coefficient": 0.121,
+    "hit_count": 2,
     "max_coefficient": 0.605,
     "all_coefficients": [
+      0.121,
       0.605
     ],
-    "total_coefficient": 0.605
+    "total_coefficient": 0.726
   },
   "S03_Construct_Scorpion_Elemental_Expulsion": {
     "coefficient": 0.15,
@@ -8711,24 +8452,6 @@
       0.15
     ],
     "total_coefficient": 0.15
-  },
-  "S03_Construct_Spider_Mini_Attack": {
-    "coefficient": 0.0085,
-    "hit_count": 1,
-    "max_coefficient": 0.0085,
-    "all_coefficients": [
-      0.0085
-    ],
-    "total_coefficient": 0.0085
-  },
-  "S03_Construct_Wasp_Elemental_Barrage": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "S03_Construct_Wasp_Tracer_Shot": {
     "coefficient": 0.1,
@@ -8827,18 +8550,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "S03_demon_mega_miniboss_empower": {
-    "coefficient": 0.02,
-    "hit_count": 4,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02,
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.08
-  },
   "S03_demon_mega_miniboss_escape": {
     "coefficient": 0.075,
     "hit_count": 4,
@@ -8900,42 +8611,6 @@
     ],
     "total_coefficient": 1.2
   },
-  "S04_HellSeeker": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "S04_Helltide_IronWolf_ChargedBolt": {
-    "coefficient": 0.001,
-    "hit_count": 1,
-    "max_coefficient": 0.001,
-    "all_coefficients": [
-      0.001
-    ],
-    "total_coefficient": 0.001
-  },
-  "S04_Helltide_IronWolf_Firebolt": {
-    "coefficient": 0.001,
-    "hit_count": 1,
-    "max_coefficient": 0.001,
-    "all_coefficients": [
-      0.001
-    ],
-    "total_coefficient": 0.001
-  },
-  "S04_Helltide_IronWolf_IceSpike": {
-    "coefficient": 0.001,
-    "hit_count": 1,
-    "max_coefficient": 0.001,
-    "all_coefficients": [
-      0.001
-    ],
-    "total_coefficient": 0.001
-  },
   "S04_demon_succubus_miniboss_attract": {
     "coefficient": 0.125,
     "hit_count": 2,
@@ -8955,16 +8630,6 @@
     ],
     "total_coefficient": 0.15
   },
-  "S04_demon_succubus_miniboss_bloodstar": {
-    "coefficient": 0.035,
-    "hit_count": 2,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035,
-      0.035
-    ],
-    "total_coefficient": 0.07
-  },
   "S04_demon_succubus_miniboss_charge": {
     "coefficient": 0.2,
     "hit_count": 1,
@@ -8983,14 +8648,14 @@
     ],
     "total_coefficient": 1.2
   },
-  "S07_Bandit_Ranged_Attack_UE": {
-    "coefficient": 0.02,
+  "S07_Bandit_Ranged_Animated_Blades": {
+    "coefficient": 0.11249999999999999,
     "hit_count": 1,
-    "max_coefficient": 0.02,
+    "max_coefficient": 0.11249999999999999,
     "all_coefficients": [
-      0.02
+      0.11249999999999999
     ],
-    "total_coefficient": 0.02
+    "total_coefficient": 0.11249999999999999
   },
   "S07_Bandit_Ranged_Basic_Attack": {
     "coefficient": 0.05,
@@ -9039,15 +8704,6 @@
       0.05
     ],
     "total_coefficient": 0.15000000000000002
-  },
-  "S07_Bandit_Ranged_Triple_Shot_UE": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "S07_Bounty_GatheringSwarm_GrowSizePulse": {
     "coefficient": 0.07,
@@ -9228,6 +8884,25 @@
     ],
     "total_coefficient": 0.6
   },
+  "S07_Witch_Eldritch_Unique_001": {
+    "coefficient": 3.6,
+    "hit_count": 2,
+    "max_coefficient": 7.2,
+    "all_coefficients": [
+      3.6,
+      7.2
+    ],
+    "total_coefficient": 10.8
+  },
+  "S07_Witch_Firebats_Attack": {
+    "coefficient": 0.4,
+    "hit_count": 1,
+    "max_coefficient": 0.4,
+    "all_coefficients": [
+      0.4
+    ],
+    "total_coefficient": 0.4
+  },
   "S07_Witch_GrowthRot_Magic_004": {
     "coefficient": 5.0,
     "hit_count": 1,
@@ -9262,14 +8937,13 @@
   },
   "S08_Bandit_Melee_Bomb_Fire_Apparition_Boss_BombSummon": {
     "coefficient": 0.125,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.125,
     "all_coefficients": [
       0.125,
-      0.025,
       0.09
     ],
-    "total_coefficient": 0.24
+    "total_coefficient": 0.215
   },
   "S08_Bandit_Melee_Bomb_Fire_Apparition_Boss_GroundSlam": {
     "coefficient": 0.1,
@@ -9282,34 +8956,31 @@
     "total_coefficient": 0.15000000000000002
   },
   "S08_Dreg_Melee_Fire_Apparition_Boss_fissure": {
-    "coefficient": 0.04,
-    "hit_count": 3,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.04,
-      0.04,
       0.08
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.08
   },
-  "S08_Dreg_Melee_Fire_Apparition_Boss_hookshot": {
-    "coefficient": 0.02,
+  "S08_Dreg_Melee_Fire_Apparition_Boss_hamstring": {
+    "coefficient": 0.08,
     "hit_count": 1,
-    "max_coefficient": 0.02,
+    "max_coefficient": 0.08,
     "all_coefficients": [
-      0.02
+      0.08
     ],
-    "total_coefficient": 0.02
+    "total_coefficient": 0.08
   },
   "S08_Dreg_Melee_Fire_Apparition_Boss_hookshotLeap": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.045
+      0.06
     ],
-    "total_coefficient": 0.105
+    "total_coefficient": 0.06
   },
   "S08_Dreg_Melee_Fire_Apparition_Boss_ranged_bullethell": {
     "coefficient": 0.11,
@@ -9331,15 +9002,6 @@
     ],
     "total_coefficient": 0.19
   },
-  "S08_Dreg_Ranged_Poison_Apparition_Boss_attk": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
   "S08_Eagle_Lightning_Apparition_Boss_BasicAttack": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -9351,6 +9013,26 @@
   },
   "S08_Eagle_Lightning_Apparition_Boss_Charge": {
     "coefficient": 0.1,
+    "hit_count": 2,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1,
+      0.1
+    ],
+    "total_coefficient": 0.2
+  },
+  "S08_Eagle_Lightning_Apparition_Boss_FeathersThrow": {
+    "coefficient": 0.1,
+    "hit_count": 2,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1,
+      0.1
+    ],
+    "total_coefficient": 0.2
+  },
+  "S08_Eagle_Lightning_Apparition_Boss_LightningBurst": {
+    "coefficient": 0.1,
     "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
@@ -9358,26 +9040,23 @@
     ],
     "total_coefficient": 0.1
   },
-  "S08_Eagle_Lightning_Apparition_Boss_FeathersThrow": {
+  "S08_Eagle_Lightning_Apparition_Boss_LightningStrikes": {
     "coefficient": 0.1,
-    "hit_count": 3,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.03,
       0.1
     ],
-    "total_coefficient": 0.23
+    "total_coefficient": 0.1
   },
-  "S08_Eagle_Lightning_Apparition_Boss_LightningBurst": {
+  "S08_Eagle_Lightning_Apparition_Boss_RangedAttack": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.03
+      0.1
     ],
-    "total_coefficient": 0.13
+    "total_coefficient": 0.1
   },
   "S08_Hollow_Caster_Shadow_Apparition_Boss_Beam": {
     "coefficient": 0.05,
@@ -9398,25 +9077,14 @@
     ],
     "total_coefficient": 0.1
   },
-  "S08_Hollow_Caster_Shadow_Apparition_Boss_energybolt": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.05
-  },
   "S08_Lacuni_Horror_Lightning_Apparition_Boss_BirdRain": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.020000000000000004
+      0.15
     ],
-    "total_coefficient": 0.16999999999999998
+    "total_coefficient": 0.15
   },
   "S08_Lacuni_Horror_Lightning_Apparition_Boss_Leap": {
     "coefficient": 0.17,
@@ -9482,15 +9150,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "S08_Rhino_Physical_Apparition_Boss_Breath": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "S08_Rhino_Physical_Apparition_Boss_FireLineHorn": {
     "coefficient": 0.15,
     "hit_count": 1,
@@ -9541,25 +9200,6 @@
     ],
     "total_coefficient": 0.42
   },
-  "S09_HoradricPower_Catalyst_03_Propulsion": {
-    "coefficient": 1.0666666666666667,
-    "hit_count": 2,
-    "max_coefficient": 1.0666666666666667,
-    "all_coefficients": [
-      1.0666666666666667,
-      1.0666666666666667
-    ],
-    "total_coefficient": 2.1333333333333333
-  },
-  "S09_HoradricPower_Infusion_01_Fire": {
-    "coefficient": 4.5,
-    "hit_count": 1,
-    "max_coefficient": 4.5,
-    "all_coefficients": [
-      4.5
-    ],
-    "total_coefficient": 4.5
-  },
   "S09_HoradricPower_Infusion_03_Cold": {
     "coefficient": 15.0,
     "hit_count": 1,
@@ -9595,15 +9235,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "S10_Bartuc_WaveBarrage": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "S10_Bartuc_boss_LaserSwipe": {
     "coefficient": 0.7,
@@ -9821,15 +9452,29 @@
   },
   "S10_Chaos_Brute_Setup": {
     "coefficient": 0.2,
-    "hit_count": 4,
-    "max_coefficient": 0.2,
+    "hit_count": 6,
+    "max_coefficient": 3.0,
     "all_coefficients": [
       0.2,
       0.15,
       0.15,
-      0.15
+      0.15,
+      3.0,
+      3.0
     ],
-    "total_coefficient": 0.65
+    "total_coefficient": 6.65
+  },
+  "S10_Chaos_brute_PlayerBuff": {
+    "coefficient": 6.0,
+    "hit_count": 4,
+    "max_coefficient": 6.0,
+    "all_coefficients": [
+      6.0,
+      4.0,
+      1.5,
+      1.0
+    ],
+    "total_coefficient": 12.5
   },
   "S10_Chaos_demon_spitter_attack": {
     "coefficient": 0.05,
@@ -9936,15 +9581,6 @@
       15.0
     ],
     "total_coefficient": 15.0
-  },
-  "S11_Belial_Eyeball_ShootProjectiles": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "S11_Belial_Giga_Illusion_Attk_Breath": {
     "coefficient": 1.25,
@@ -10089,15 +9725,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "S11_Parasite_Affix_Maggot_infest": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "S11_Pit_BabyBelial_ProjectileBurst": {
     "coefficient": 0.1,
@@ -10256,14 +9883,13 @@
     "total_coefficient": 0.1
   },
   "S12_Butcher_FireSquares": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.05,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.01,
       0.05
     ],
-    "total_coefficient": 0.060000000000000005
+    "total_coefficient": 0.05
   },
   "S12_Butcher_MeteorRain": {
     "coefficient": 0.4,
@@ -10344,24 +9970,6 @@
     ],
     "total_coefficient": 1.5
   },
-  "S12_Chicken_Small_Death": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "S12_KillStreak_Feast_Bite": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "S12_LTE_Butcher_Dominate_GeyserAttack2": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -10383,25 +9991,23 @@
   },
   "S12_Playable_Butcher_TheCulling": {
     "coefficient": 0.05,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.05,
-      0.005
+      0.05
     ],
-    "total_coefficient": 0.055
+    "total_coefficient": 0.05
   },
   "S12_Playable_Butcher_attack": {
     "coefficient": 0.9,
-    "hit_count": 6,
+    "hit_count": 5,
     "max_coefficient": 0.9,
     "all_coefficients": [
       0.9,
       0.9,
       0.9,
       0.2,
-      0.025,
-      0.025
+      0.05
     ],
     "total_coefficient": 2.95
   },
@@ -10417,26 +10023,23 @@
   },
   "S12_Playable_Butcher_shoulderCharge": {
     "coefficient": 0.05,
-    "hit_count": 5,
+    "hit_count": 3,
     "max_coefficient": 0.1,
     "all_coefficients": [
       0.05,
       0.1,
-      0.005,
-      0.1,
-      0.005
+      0.1
     ],
-    "total_coefficient": 0.26
+    "total_coefficient": 0.25
   },
   "S12_Playable_Butcher_sicklepull": {
-    "coefficient": 0.03,
-    "hit_count": 2,
+    "coefficient": 0.05,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.03,
       0.05
     ],
-    "total_coefficient": 0.08
+    "total_coefficient": 0.05
   },
   "S12_Uber_Butcher_Spawn_Ceiling": {
     "coefficient": 0.2,
@@ -10449,15 +10052,6 @@
     ],
     "total_coefficient": 0.30000000000000004
   },
-  "S12_Wanderer_Barb_GroundStomp": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "S12_Wanderer_Barb_Leap": {
     "coefficient": 0.075,
     "hit_count": 2,
@@ -10468,23 +10062,15 @@
     ],
     "total_coefficient": 0.15
   },
-  "S12_Wanderer_Barb_Upheaval": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "S12_Wanderer_Barb_Whirlwind": {
     "coefficient": 1.75,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 1.75,
     "all_coefficients": [
-      1.75
+      1.75,
+      0.7583333333333334
     ],
-    "total_coefficient": 1.75
+    "total_coefficient": 2.5083333333333333
   },
   "S12_Wanderer_Barb_WrathoftheBerserker": {
     "coefficient": 5.0,
@@ -10555,14 +10141,15 @@
     ],
     "total_coefficient": 0.065
   },
-  "S12_Wanderer_Necro_BoneSpear": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
+  "S12_Wanderer_Necro_SkeletonMage_Shadow_Attack": {
+    "coefficient": 0.5217391304347826,
+    "hit_count": 2,
+    "max_coefficient": 0.5217391304347826,
     "all_coefficients": [
-      0.04
+      0.5217391304347826,
+      0.5217391304347826
     ],
-    "total_coefficient": 0.04
+    "total_coefficient": 1.0434782608695652
   },
   "S12_Wanderer_Paladin_FallingStar": {
     "coefficient": 0.8,
@@ -10625,14 +10212,14 @@
   "S12_Wanderer_Rogue_TwistingBlades": {
     "coefficient": 0.3,
     "hit_count": 4,
-    "max_coefficient": 0.3,
+    "max_coefficient": 0.8999999999999999,
     "all_coefficients": [
       0.3,
       0.3,
-      0.3,
-      0.3
+      0.6,
+      0.8999999999999999
     ],
-    "total_coefficient": 1.2
+    "total_coefficient": 2.0999999999999996
   },
   "S12_Wanderer_Sorc_Hydra": {
     "coefficient": 0.35,
@@ -10643,6 +10230,16 @@
       1.0
     ],
     "total_coefficient": 1.35
+  },
+  "S12_Wanderer_Sorc_Hydra_ProjectileAttack": {
+    "coefficient": 0.35,
+    "hit_count": 2,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35,
+      0.35
+    ],
+    "total_coefficient": 0.7
   },
   "S12_Wanderer_Sorc_Inferno": {
     "coefficient": 4.25,
@@ -10730,15 +10327,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "S2_DE_Immolation_Trap_Bloodpool": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
   "S2_DGN_Frac_VampireBossDungeon_Dungeon_Affix_Blood Surge": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -10748,17 +10336,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "S2_DGN_Frac_VampireBossDungeon_Dungeon_Affix_BloodLance": {
-    "coefficient": 0.025,
-    "hit_count": 3,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.07500000000000001
-  },
   "S9_MonsterAffix_FireOrbs_Cast_BOSS": {
     "coefficient": 0.2,
     "hit_count": 1,
@@ -10767,25 +10344,6 @@
       0.2
     ],
     "total_coefficient": 0.2
-  },
-  "S9_MonsterAffix_LightningTotems_Cast_V2_BOSS": {
-    "coefficient": 0.01,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.01,
-      0.04
-    ],
-    "total_coefficient": 0.05
-  },
-  "SMP_Brawl_Attack_LeftRight": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
   },
   "SMP_Firestorm": {
     "coefficient": 0.2,
@@ -10805,23 +10363,42 @@
     ],
     "total_coefficient": 0.05
   },
-  "Shrine_Conduit": {
-    "coefficient": 1.0,
-    "hit_count": 1,
-    "max_coefficient": 1.0,
+  "Shrine_Barrage": {
+    "coefficient": 1.2,
+    "hit_count": 2,
+    "max_coefficient": 3.5999999999999996,
     "all_coefficients": [
-      1.0
+      1.2,
+      3.5999999999999996
     ],
-    "total_coefficient": 1.0
+    "total_coefficient": 4.8
   },
-  "Skeleton_Boss_Capstone_Intro": {
-    "coefficient": 0.01,
+  "Shrine_Conduit": {
+    "coefficient": 1.2000000000000002,
     "hit_count": 1,
-    "max_coefficient": 0.01,
+    "max_coefficient": 1.2000000000000002,
     "all_coefficients": [
-      0.01
+      1.2000000000000002
     ],
-    "total_coefficient": 0.01
+    "total_coefficient": 1.2000000000000002
+  },
+  "Shrine_Conduit_Surge": {
+    "coefficient": 6.5,
+    "hit_count": 1,
+    "max_coefficient": 6.5,
+    "all_coefficients": [
+      6.5
+    ],
+    "total_coefficient": 6.5
+  },
+  "Shrine_PBAoE": {
+    "coefficient": 8.0,
+    "hit_count": 1,
+    "max_coefficient": 8.0,
+    "all_coefficients": [
+      8.0
+    ],
+    "total_coefficient": 8.0
   },
   "Sorcerer_ArcLash": {
     "coefficient": 0.8,
@@ -10833,16 +10410,20 @@
     "total_coefficient": 0.8
   },
   "Sorcerer_BallLightning": {
-    "coefficient": 3.4,
-    "hit_count": 4,
+    "coefficient": 0.20400000000000001,
+    "hit_count": 8,
     "max_coefficient": 3.4,
     "all_coefficients": [
+      0.20400000000000001,
+      0.20400000000000001,
       3.4,
       3.4,
       3.4,
-      3.4
+      3.4,
+      0.20400000000000001,
+      0.40800000000000003
     ],
-    "total_coefficient": 13.6
+    "total_coefficient": 14.62
   },
   "Sorcerer_ChainLightning": {
     "coefficient": 0.43,
@@ -10883,6 +10464,15 @@
       1.25
     ],
     "total_coefficient": 1.5
+  },
+  "Sorcerer_Familiar_Attack": {
+    "coefficient": 0.7,
+    "hit_count": 1,
+    "max_coefficient": 0.7,
+    "all_coefficients": [
+      0.7
+    ],
+    "total_coefficient": 0.7
   },
   "Sorcerer_FireBolt": {
     "coefficient": 0.18,
@@ -10930,16 +10520,13 @@
     "total_coefficient": 0.1
   },
   "Sorcerer_FrozenOrb": {
-    "coefficient": 0.1,
-    "hit_count": 4,
+    "coefficient": 0.7,
+    "hit_count": 1,
     "max_coefficient": 0.7,
     "all_coefficients": [
-      0.65,
-      0.1,
-      0.65,
       0.7
     ],
-    "total_coefficient": 2.1
+    "total_coefficient": 0.7
   },
   "Sorcerer_Hydra": {
     "coefficient": 0.35,
@@ -10951,16 +10538,46 @@
     ],
     "total_coefficient": 1.35
   },
+  "Sorcerer_Hydra_ProjectileAttack": {
+    "coefficient": 0.35,
+    "hit_count": 2,
+    "max_coefficient": 0.35,
+    "all_coefficients": [
+      0.35,
+      0.35
+    ],
+    "total_coefficient": 0.7
+  },
+  "Sorcerer_IceBlades": {
+    "coefficient": 0.23,
+    "hit_count": 1,
+    "max_coefficient": 0.23,
+    "all_coefficients": [
+      0.23
+    ],
+    "total_coefficient": 0.23
+  },
+  "Sorcerer_IceBlades_Attack": {
+    "coefficient": 0.23,
+    "hit_count": 2,
+    "max_coefficient": 0.23,
+    "all_coefficients": [
+      0.23,
+      0.23
+    ],
+    "total_coefficient": 0.46
+  },
   "Sorcerer_IceShards": {
     "coefficient": 0.32999999999999996,
-    "hit_count": 3,
+    "hit_count": 4,
     "max_coefficient": 0.32999999999999996,
     "all_coefficients": [
       0.32999999999999996,
       0.32999999999999996,
+      0.32999999999999996,
       0.32999999999999996
     ],
-    "total_coefficient": 0.9899999999999999
+    "total_coefficient": 1.3199999999999998
   },
   "Sorcerer_IceSpike": {
     "coefficient": 0.1,
@@ -11078,26 +10695,33 @@
     ],
     "total_coefficient": 0.75
   },
-  "Spider_miniboss_adult_basic_ranged": {
-    "coefficient": 0.03,
+  "Spiritborn_CentipedeRuler_BreathAttack": {
+    "coefficient": 0.5,
     "hit_count": 1,
-    "max_coefficient": 0.03,
+    "max_coefficient": 0.5,
     "all_coefficients": [
-      0.03
+      0.5
     ],
-    "total_coefficient": 0.03
+    "total_coefficient": 0.5
+  },
+  "Spiritborn_CentipedeRuler_ProjectileAttack": {
+    "coefficient": 0.95,
+    "hit_count": 1,
+    "max_coefficient": 0.95,
+    "all_coefficients": [
+      0.95
+    ],
+    "total_coefficient": 0.95
   },
   "Spiritborn_Centipede_Basic": {
-    "coefficient": 0.025,
-    "hit_count": 4,
+    "coefficient": 0.05,
+    "hit_count": 2,
     "max_coefficient": 0.05,
     "all_coefficients": [
       0.05,
-      0.025,
-      0.016666666666666666,
       0.05
     ],
-    "total_coefficient": 0.14166666666666666
+    "total_coefficient": 0.1
   },
   "Spiritborn_Centipede_Core": {
     "coefficient": 1.15,
@@ -11121,6 +10745,15 @@
     ],
     "total_coefficient": 0.6599999999999999
   },
+  "Spiritborn_Centipede_Focus_Passive": {
+    "coefficient": 0.3,
+    "hit_count": 1,
+    "max_coefficient": 0.3,
+    "all_coefficients": [
+      0.3
+    ],
+    "total_coefficient": 0.3
+  },
   "Spiritborn_Centipede_Potency": {
     "coefficient": 0.075,
     "hit_count": 4,
@@ -11135,15 +10768,16 @@
   },
   "Spiritborn_Centipede_Ultimate": {
     "coefficient": 0.3,
-    "hit_count": 4,
+    "hit_count": 5,
     "max_coefficient": 2.0,
     "all_coefficients": [
       0.15,
       2.0,
       0.95,
-      0.3
+      0.3,
+      1.0499999999999998
     ],
-    "total_coefficient": 3.4
+    "total_coefficient": 4.45
   },
   "Spiritborn_Eagle_Basic": {
     "coefficient": 0.45,
@@ -11266,14 +10900,29 @@
     ],
     "total_coefficient": 2.8
   },
+  "Spiritborn_Invoke": {
+    "coefficient": 0.5,
+    "hit_count": 5,
+    "max_coefficient": 1.4,
+    "all_coefficients": [
+      0.5,
+      0.52,
+      0.15,
+      0.52,
+      1.4
+    ],
+    "total_coefficient": 3.09
+  },
   "Spiritborn_Jaguar_Basic": {
     "coefficient": 0.4,
-    "hit_count": 1,
-    "max_coefficient": 0.4,
+    "hit_count": 3,
+    "max_coefficient": 0.7000000000000001,
     "all_coefficients": [
-      0.4
+      0.4,
+      0.14,
+      0.7000000000000001
     ],
-    "total_coefficient": 0.4
+    "total_coefficient": 1.2400000000000002
   },
   "Spiritborn_Jaguar_Core": {
     "coefficient": 0.4,
@@ -11362,6 +11011,15 @@
     ],
     "total_coefficient": 0.2
   },
+  "Spiritborn_Plains_Mobility1_Recast": {
+    "coefficient": 0.2,
+    "hit_count": 1,
+    "max_coefficient": 0.2,
+    "all_coefficients": [
+      0.2
+    ],
+    "total_coefficient": 0.2
+  },
   "Spiritborn_Sky_Basic": {
     "coefficient": 0.4,
     "hit_count": 2,
@@ -11382,6 +11040,16 @@
       0.2
     ],
     "total_coefficient": 0.9
+  },
+  "Spiritborn_Sky_Offense2_Recast": {
+    "coefficient": 0.6,
+    "hit_count": 2,
+    "max_coefficient": 0.6,
+    "all_coefficients": [
+      0.6,
+      0.2
+    ],
+    "total_coefficient": 0.8
   },
   "Spiritborn_Soil_Basic": {
     "coefficient": 0.1,
@@ -11514,15 +11182,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "Structure_Goatman_CorruptedShrine_PoisonLaunch": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "Structure_Goatman_CorruptedStone_LightningAoeCast": {
     "coefficient": 0.07,
     "hit_count": 1,
@@ -11534,23 +11193,12 @@
   },
   "Structure_Hollow_Hatred": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.02
+      0.1
     ],
-    "total_coefficient": 0.12000000000000001
-  },
-  "Structure_Hollow_WhisperInfestationNest": {
-    "coefficient": 0.03,
-    "hit_count": 2,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03,
-      0.02
-    ],
-    "total_coefficient": 0.05
+    "total_coefficient": 0.1
   },
   "Structure_Knight_DeserterShrine_HolyAoeCast": {
     "coefficient": 0.08,
@@ -11588,15 +11236,6 @@
     ],
     "total_coefficient": 0.09
   },
-  "Structure_Zombie_CorpsePile_BileLaunch": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "TWR_vampire_brute_attk_ghostblades": {
     "coefficient": 0.1,
     "hit_count": 2,
@@ -11608,35 +11247,32 @@
     "total_coefficient": 0.2
   },
   "Tchort_Boss_Activate_Device": {
-    "coefficient": 0.03,
-    "hit_count": 2,
+    "coefficient": 0.15,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.03,
       0.15
     ],
-    "total_coefficient": 0.18
+    "total_coefficient": 0.15
   },
   "Tchort_Boss_Activate_SpellBook": {
-    "coefficient": 0.03,
-    "hit_count": 3,
+    "coefficient": 0.2,
+    "hit_count": 2,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.03,
       0.2,
       0.15
     ],
-    "total_coefficient": 0.38
+    "total_coefficient": 0.35
   },
   "Tchort_Boss_Blink_Assult": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.03
+      0.15
     ],
-    "total_coefficient": 0.18
+    "total_coefficient": 0.15
   },
   "Tchort_Boss_Death": {
     "coefficient": 10.0,
@@ -11646,16 +11282,6 @@
       10.0
     ],
     "total_coefficient": 10.0
-  },
-  "Tchort_Boss_Lightning_Bolt": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.005
-    ],
-    "total_coefficient": 0.045
   },
   "Tchort_Boss_Stagger": {
     "coefficient": 10.0,
@@ -11723,12 +11349,94 @@
   },
   "Uber_Lilith_p1_Boss_Dancing_Blood_Orbs": {
     "coefficient": 0.3,
-    "hit_count": 1,
-    "max_coefficient": 0.3,
+    "hit_count": 2,
+    "max_coefficient": 0.5,
     "all_coefficients": [
-      0.3
+      0.3,
+      0.5
     ],
-    "total_coefficient": 0.3
+    "total_coefficient": 0.8
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Side": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Side_2": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Side_2_Bombard": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Side_Bombard": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Side_Clone_Cast": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Slam": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Slam_2": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Slam_2_Bombard": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_DeathFromAbove_Slam_Bombard": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
   },
   "Uber_Lilith_p1_Boss_Death_Transition_To_p2": {
     "coefficient": 10.0,
@@ -11766,6 +11474,17 @@
     ],
     "total_coefficient": 0.25
   },
+  "Uber_Lilith_p1_Boss_HeartCrucible": {
+    "coefficient": 0.5,
+    "hit_count": 3,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "total_coefficient": 1.5
+  },
   "Uber_Lilith_p1_Boss_MeleeAttack_Combo": {
     "coefficient": 0.08,
     "hit_count": 2,
@@ -11797,6 +11516,15 @@
     "total_coefficient": 0.2
   },
   "Uber_Lilith_p1_Boss_WindOfHate": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
+  },
+  "Uber_Lilith_p1_Boss_WindOfHate_Clone_Cast": {
     "coefficient": 0.5,
     "hit_count": 1,
     "max_coefficient": 0.5,
@@ -11845,13 +11573,14 @@
   },
   "Uber_lilith_p2_boss_combo": {
     "coefficient": 0.3,
-    "hit_count": 2,
-    "max_coefficient": 0.3,
+    "hit_count": 3,
+    "max_coefficient": 0.5,
     "all_coefficients": [
       0.3,
-      0.3
+      0.3,
+      0.5
     ],
-    "total_coefficient": 0.6
+    "total_coefficient": 1.1
   },
   "Uber_lilith_p2_boss_combo_Clone_Cast_1": {
     "coefficient": 0.3,
@@ -11881,6 +11610,15 @@
       0.2
     ],
     "total_coefficient": 0.6000000000000001
+  },
+  "Uber_lilith_p2_boss_subjugate": {
+    "coefficient": 0.5,
+    "hit_count": 1,
+    "max_coefficient": 0.5,
+    "all_coefficients": [
+      0.5
+    ],
+    "total_coefficient": 0.5
   },
   "Undercity_Enticement_001_X1": {
     "coefficient": 15.0,
@@ -11913,42 +11651,30 @@
   },
   "Urivar_Charge_Single": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.001
+      0.2
     ],
-    "total_coefficient": 0.201
-  },
-  "Urivar_Guard_Melee": {
-    "coefficient": 0.0225,
-    "hit_count": 1,
-    "max_coefficient": 0.0225,
-    "all_coefficients": [
-      0.0225
-    ],
-    "total_coefficient": 0.0225
+    "total_coefficient": 0.2
   },
   "Urivar_Knight_Charge": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.001
+      0.2
     ],
-    "total_coefficient": 0.201
+    "total_coefficient": 0.2
   },
   "Urivar_Lobbed_Bomb": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.11
+    "total_coefficient": 0.1
   },
   "Urivar_OverheadSwordSlash": {
     "coefficient": 0.2,
@@ -12014,35 +11740,23 @@
     ],
     "total_coefficient": 0.12
   },
-  "VFX_Template_ProjectileMegaOmni": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
   "VFX_Template_ProjectileMegaOmniTimed": {
-    "coefficient": 0.025,
-    "hit_count": 2,
+    "coefficient": 0.1,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.025,
       0.1
     ],
-    "total_coefficient": 0.125
+    "total_coefficient": 0.1
   },
   "VGN_Kehj_EliasPalace_SandstormDamage": {
-    "coefficient": 0.02,
-    "hit_count": 3,
+    "coefficient": 0.06,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.02,
-      0.03,
       0.06
     ],
-    "total_coefficient": 0.11
+    "total_coefficient": 0.06
   },
   "VGN_Kehj_EliasPalace_Sandstorm_Tornado_Rotating_Missile": {
     "coefficient": 0.15,
@@ -12071,24 +11785,6 @@
     ],
     "total_coefficient": 1.0
   },
-  "Warg_Attack": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "Warg_Attack_Moving": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "Weapon_Melee_Instant": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -12109,23 +11805,21 @@
   },
   "Werewolf_Miniboss_Spiritborn_QST_EarthSpikes": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.04
-    ],
-    "total_coefficient": 0.1
-  },
-  "Werewolf_Miniboss_Spiritborn_QST_FireProjectiles": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.06,
-    "all_coefficients": [
-      0.02,
       0.06
     ],
-    "total_coefficient": 0.08
+    "total_coefficient": 0.06
+  },
+  "Werewolf_Miniboss_Spiritborn_QST_FireProjectiles": {
+    "coefficient": 0.06,
+    "hit_count": 1,
+    "max_coefficient": 0.06,
+    "all_coefficients": [
+      0.06
+    ],
+    "total_coefficient": 0.06
   },
   "Werewolf_Miniboss_Spiritborn_QST_LungeWave": {
     "coefficient": 0.2,
@@ -12137,23 +11831,13 @@
     "total_coefficient": 0.2
   },
   "Werewolf_Miniboss_Spiritborn_QST_PoisonWaves": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 0.06,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.02,
       0.06
     ],
-    "total_coefficient": 0.08
-  },
-  "Werewolf_Miniboss_Spiritborn_QST_Tornados": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.06
   },
   "Werewolf_Miniboss_Spiritborn_QST_TripleSlam": {
     "coefficient": 0.05,
@@ -12177,42 +11861,30 @@
   },
   "Werewolf_TWR_Miniboss_EarthSpikes": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.04
+      0.06
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.06
   },
   "Werewolf_TWR_Miniboss_FireProjectiles": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 0.06,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.02,
       0.06
     ],
-    "total_coefficient": 0.08
+    "total_coefficient": 0.06
   },
   "Werewolf_TWR_Miniboss_PoisonWaves": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 0.06,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.02,
       0.06
     ],
-    "total_coefficient": 0.08
-  },
-  "Werewolf_TWR_Miniboss_Tornados": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.06
   },
   "Wildlife_Bear_attk_left": {
     "coefficient": 0.07,
@@ -12222,25 +11894,6 @@
       0.07
     ],
     "total_coefficient": 0.07
-  },
-  "Wildlife_Flayer_Summoned_Animating_Ceiling": {
-    "coefficient": 0.005,
-    "hit_count": 1,
-    "max_coefficient": 0.005,
-    "all_coefficients": [
-      0.005
-    ],
-    "total_coefficient": 0.005
-  },
-  "Wildlife_Leviathan_Attack_Beam": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.04
   },
   "Wildlife_Leviathan_Attack_Projectile": {
     "coefficient": 0.08,
@@ -12599,14 +12252,13 @@
     "total_coefficient": 999999.0
   },
   "X1_Raid_Final_Boss_Wing_Buffet": {
-    "coefficient": 0.04,
-    "hit_count": 2,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.04,
       0.08
     ],
-    "total_coefficient": 0.12
+    "total_coefficient": 0.08
   },
   "X1_Raid_KhazRealm_Buffs": {
     "coefficient": 0.3,
@@ -12678,13 +12330,15 @@
   },
   "X1_Undercity_Ghost_Caster_Miniboss_PieTime": {
     "coefficient": 0.23,
-    "hit_count": 2,
+    "hit_count": 4,
     "max_coefficient": 0.23,
     "all_coefficients": [
       0.23,
-      0.23
+      0.23,
+      0.14950000000000002,
+      0.14950000000000002
     ],
-    "total_coefficient": 0.46
+    "total_coefficient": 0.7590000000000001
   },
   "X1_Undercity_Ghost_Caster_Miniboss_Projectile_Attack": {
     "coefficient": 0.06,
@@ -12698,13 +12352,15 @@
   },
   "X1_Undercity_Ghost_Caster_Miniboss_Walls": {
     "coefficient": 0.23,
-    "hit_count": 2,
+    "hit_count": 4,
     "max_coefficient": 0.23,
     "all_coefficients": [
       0.23,
-      0.23
+      0.23,
+      0.14950000000000002,
+      0.14950000000000002
     ],
-    "total_coefficient": 0.46
+    "total_coefficient": 0.7590000000000001
   },
   "X1_Undercity_GreaterAfflicted_BugCave_Cast": {
     "coefficient": 0.05,
@@ -12729,24 +12385,6 @@
       0.05
     ],
     "total_coefficient": 0.5
-  },
-  "X1_Undercity_SMPEnticement_EventComplete": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "X1_Undercity_Snake_Brute_Miniboss_Caster_Add_Spit": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "X1_Undercity_Snake_Brute_Miniboss_Charge": {
     "coefficient": 0.16,
@@ -12777,15 +12415,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "X1_Undercity_Snake_Brute_Miniboss_Envenom": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "X1_Undercity_Snake_Brute_Miniboss_RoomWideAOE": {
     "coefficient": 5.0,
@@ -12822,15 +12451,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "X1_Undercity_Snake_Brute_Miniboss_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "X1_Undercity_Snake_Brute_Miniboss_attk_turn_left": {
     "coefficient": 0.05,
@@ -12886,15 +12506,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "X1_undercity_lacuni_boss_basicattack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "X1_undercity_lacuni_boss_charge": {
     "coefficient": 0.08,
@@ -13075,15 +12686,14 @@
   },
   "ahbulan_charge_single": {
     "coefficient": 0.25,
-    "hit_count": 4,
+    "hit_count": 3,
     "max_coefficient": 0.25,
     "all_coefficients": [
       0.25,
       0.25,
-      0.001,
       0.05
     ],
-    "total_coefficient": 0.551
+    "total_coefficient": 0.55
   },
   "ahbulan_furiouslunge_1": {
     "coefficient": 0.2,
@@ -13123,25 +12733,6 @@
       0.05
     ],
     "total_coefficient": 0.25
-  },
-  "ahbulan_spearflurry": {
-    "coefficient": 0.017,
-    "hit_count": 2,
-    "max_coefficient": 0.017,
-    "all_coefficients": [
-      0.017,
-      0.017
-    ],
-    "total_coefficient": 0.034
-  },
-  "ahbulan_stab_basic": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "andariel_boss_line_damage": {
     "coefficient": 0.2,
@@ -13207,6 +12798,15 @@
     ],
     "total_coefficient": 0.2
   },
+  "astaroth_boss_meteor_previous_areas": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
   "astaroth_boss_mount_area1_leaphouse": {
     "coefficient": 0.075,
     "hit_count": 1,
@@ -13235,14 +12835,25 @@
     ],
     "total_coefficient": 0.35
   },
-  "astaroth_boss_mount_firebreath": {
-    "coefficient": 0.012,
-    "hit_count": 1,
-    "max_coefficient": 0.012,
+  "astaroth_boss_mount_bite_left": {
+    "coefficient": 0.175,
+    "hit_count": 2,
+    "max_coefficient": 0.175,
     "all_coefficients": [
-      0.012
+      0.175,
+      0.175
     ],
-    "total_coefficient": 0.012
+    "total_coefficient": 0.35
+  },
+  "astaroth_boss_mount_bite_right": {
+    "coefficient": 0.175,
+    "hit_count": 2,
+    "max_coefficient": 0.175,
+    "all_coefficients": [
+      0.175,
+      0.175
+    ],
+    "total_coefficient": 0.35
   },
   "astaroth_boss_mount_leap": {
     "coefficient": 0.15,
@@ -13282,23 +12893,25 @@
   },
   "astaroth_boss_mount_tripleattack_LtoR": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 3,
     "max_coefficient": 0.2,
     "all_coefficients": [
       0.2,
-      0.2
+      0.2,
+      0.175
     ],
-    "total_coefficient": 0.4
+    "total_coefficient": 0.575
   },
   "astaroth_boss_mount_tripleattack_RtoL": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 3,
     "max_coefficient": 0.2,
     "all_coefficients": [
       0.2,
-      0.2
+      0.2,
+      0.175
     ],
-    "total_coefficient": 0.4
+    "total_coefficient": 0.575
   },
   "bandit_ambusher_ambush": {
     "coefficient": 0.05,
@@ -13308,15 +12921,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "bandit_ambusher_attk": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "bandit_ambusher_backstab": {
     "coefficient": 0.05,
@@ -13336,15 +12940,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "bandit_melee_attk": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "bandit_melee_attk_aoe": {
     "coefficient": 0.18,
     "hit_count": 1,
@@ -13354,25 +12949,15 @@
     ],
     "total_coefficient": 0.18
   },
-  "bandit_melee_attk_moving": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "bandit_melee_bomb_BombSummon": {
     "coefficient": 0.125,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.125,
     "all_coefficients": [
       0.125,
-      0.025,
       0.09
     ],
-    "total_coefficient": 0.24
+    "total_coefficient": 0.215
   },
   "bandit_melee_bomb_miniboss_GroundSlam": {
     "coefficient": 0.1,
@@ -13401,24 +12986,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "bandit_ranged_attack": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "bandit_ranged_attack_long": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "bandit_ranged_explosiveshot": {
     "coefficient": 0.15,
@@ -13450,33 +13017,6 @@
     ],
     "total_coefficient": 0.25
   },
-  "bandit_sword_attack": {
-    "coefficient": 0.0225,
-    "hit_count": 1,
-    "max_coefficient": 0.0225,
-    "all_coefficients": [
-      0.0225
-    ],
-    "total_coefficient": 0.0225
-  },
-  "bloodhawk_frenzy_attack": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "camp_TempleOfRot_Fly_warrior_3hit": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "camp_TempleOfRot_fly_warrior_dash": {
     "coefficient": 0.15,
     "hit_count": 2,
@@ -13487,15 +13027,6 @@
     ],
     "total_coefficient": 0.3
   },
-  "camp_lodge_bear_attack": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "camp_lodge_bear_attack_moving": {
     "coefficient": 0.06,
     "hit_count": 1,
@@ -13505,106 +13036,14 @@
     ],
     "total_coefficient": 0.06
   },
-  "camp_lodge_bear_boss_windtornados": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "camp_lodge_boss_basic_proj": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "camp_lodge_boss_earthprojectile": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "camp_lodge_boss_human_melee": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "camp_lodge_boss_slam": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.04
+      0.15
     ],
-    "total_coefficient": 0.19
-  },
-  "camp_lodge_boss_windblast": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "camp_lodge_boss_windtornados": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "camp_nostrava_bloodstar_fire": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "camp_nostrava_bloodstar_lightning": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "camp_nostrava_boss_bloodstar_base": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "camp_nostrava_boss_dash_dark": {
-    "coefficient": 0.03,
-    "hit_count": 2,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03,
-      0.03
-    ],
-    "total_coefficient": 0.06
+    "total_coefficient": 0.15
   },
   "camp_nostrava_boss_dash_fire": {
     "coefficient": 0.125,
@@ -13619,41 +13058,12 @@
   },
   "camp_nostrava_boss_dash_lightning": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.005
+      0.1
     ],
-    "total_coefficient": 0.10500000000000001
-  },
-  "camp_nostrava_boss_electricLance": {
-    "coefficient": 0.005,
-    "hit_count": 1,
-    "max_coefficient": 0.005,
-    "all_coefficients": [
-      0.005
-    ],
-    "total_coefficient": 0.005
-  },
-  "camp_nostrava_boss_enrage_dark": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.08
-  },
-  "camp_nostrava_boss_enrage_lightning": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
+    "total_coefficient": 0.1
   },
   "camp_nostrava_boss_evade_fire": {
     "coefficient": 0.125,
@@ -13664,15 +13074,6 @@
       0.08
     ],
     "total_coefficient": 0.20500000000000002
-  },
-  "camp_nostrava_boss_evade_lightning": {
-    "coefficient": 0.005,
-    "hit_count": 1,
-    "max_coefficient": 0.005,
-    "all_coefficients": [
-      0.005
-    ],
-    "total_coefficient": 0.005
   },
   "camp_nostrava_boss_evade_shadow": {
     "coefficient": 0.12,
@@ -13691,15 +13092,6 @@
       0.2
     ],
     "total_coefficient": 0.2
-  },
-  "camp_omath_boss_projectile_attk": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
   },
   "camp_omath_boss_small_explosions": {
     "coefficient": 0.125,
@@ -13738,24 +13130,14 @@
     ],
     "total_coefficient": 0.24
   },
-  "camp_turdulra_druid_poisonblast": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "camp_turdulra_druid_tornados": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.01,
       0.08
     ],
-    "total_coefficient": 0.09
+    "total_coefficient": 0.08
   },
   "cannibal_Twohand_twr_boss_Blade_Charge": {
     "coefficient": 0.1,
@@ -13825,15 +13207,6 @@
     ],
     "total_coefficient": 0.15
   },
-  "cannibal_brute_frenzy": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "cannibal_brute_stun": {
     "coefficient": 0.15,
     "hit_count": 1,
@@ -13843,24 +13216,14 @@
     ],
     "total_coefficient": 0.15
   },
-  "cannibal_dualwield_attack": {
-    "coefficient": 0.0125,
-    "hit_count": 1,
-    "max_coefficient": 0.0125,
-    "all_coefficients": [
-      0.0125
-    ],
-    "total_coefficient": 0.0125
-  },
   "cannibal_dualwield_dash": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 0.08,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.02,
       0.08
     ],
-    "total_coefficient": 0.1
+    "total_coefficient": 0.08
   },
   "cannibal_dualwield_dash_tyrant_capstone": {
     "coefficient": 0.1,
@@ -13872,15 +13235,6 @@
     ],
     "total_coefficient": 0.18
   },
-  "cannibal_melee_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "cannibal_melee_wildswings": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -13889,15 +13243,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "cannibal_twohand_attack": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "cannibal_twohand_attack_chop_only": {
     "coefficient": 0.08,
@@ -14023,15 +13368,6 @@
     ],
     "total_coefficient": 0.22999999999999998
   },
-  "cannibal_tyrant_basic_attack": {
-    "coefficient": 0.0325,
-    "hit_count": 1,
-    "max_coefficient": 0.0325,
-    "all_coefficients": [
-      0.0325
-    ],
-    "total_coefficient": 0.0325
-  },
   "cannibal_tyrant_capstone_basic_attack": {
     "coefficient": 0.07,
     "hit_count": 2,
@@ -14109,15 +13445,6 @@
     ],
     "total_coefficient": 0.065
   },
-  "cannibal_tyrant_shockwave": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "cannibal_tyrant_slam": {
     "coefficient": 0.12,
     "hit_count": 1,
@@ -14193,17 +13520,6 @@
     ],
     "total_coefficient": 0.35
   },
-  "cultist_caster_male_unique_RareSpawn_Setup": {
-    "coefficient": 0.01,
-    "hit_count": 3,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01,
-      0.01,
-      0.01
-    ],
-    "total_coefficient": 0.03
-  },
   "cultist_caster_miniboss_projectile_basic": {
     "coefficient": 0.08,
     "hit_count": 1,
@@ -14269,15 +13585,6 @@
     ],
     "total_coefficient": 0.06
   },
-  "cultist_caster_projectile_varPoison": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "cultist_caster_twr_miniboss_Knockback": {
     "coefficient": 0.07,
     "hit_count": 1,
@@ -14306,55 +13613,14 @@
     "total_coefficient": 0.08
   },
   "cultist_caster_twr_miniboss_seeking": {
-    "coefficient": 0.025,
-    "hit_count": 3,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.025,
       0.1,
       0.15
     ],
-    "total_coefficient": 0.275
-  },
-  "cultist_melee_attk": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "cultist_melee_attk_enhanced": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "cultist_summoner_attk_fireWall": {
-    "coefficient": 0.04,
-    "hit_count": 4,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04,
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.16
-  },
-  "cultist_summoner_attk_melee": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.08
+    "total_coefficient": 0.25
   },
   "cultist_summoner_dungeon_miniboss_projectileexplode": {
     "coefficient": 0.05,
@@ -14366,14 +13632,13 @@
     "total_coefficient": 0.05
   },
   "cultist_summoner_dungeon_miniboss_projectilelineattack": {
-    "coefficient": 0.045000000000000005,
-    "hit_count": 2,
+    "coefficient": 0.15,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.045000000000000005,
       0.15
     ],
-    "total_coefficient": 0.195
+    "total_coefficient": 0.15
   },
   "cultist_summoner_dungeon_miniboss_summoned_tether": {
     "coefficient": 0.35,
@@ -14453,12 +13718,13 @@
   },
   "demon_mega_FrostT4Boss_Breath": {
     "coefficient": 0.35,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.35,
     "all_coefficients": [
-      0.35
+      0.35,
+      0.16
     ],
-    "total_coefficient": 0.35
+    "total_coefficient": 0.51
   },
   "demon_mega_FrostT4Boss_IceShardLine": {
     "coefficient": 0.2,
@@ -14470,6 +13736,15 @@
     "total_coefficient": 0.2
   },
   "demon_mega_FrostT4Boss_StormLines": {
+    "coefficient": 0.33,
+    "hit_count": 1,
+    "max_coefficient": 0.33,
+    "all_coefficients": [
+      0.33
+    ],
+    "total_coefficient": 0.33
+  },
+  "demon_mega_FrostT4Boss_StormLinesAnimated": {
     "coefficient": 0.33,
     "hit_count": 1,
     "max_coefficient": 0.33,
@@ -14521,23 +13796,15 @@
     ],
     "total_coefficient": 1.27
   },
-  "demon_mega_FrostT4Boss_summoned_flyingLanding": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "demon_mega_FrostT4Boss_summoned_flyingLandingProj": {
     "coefficient": 0.5,
-    "hit_count": 1,
+    "hit_count": 2,
     "max_coefficient": 0.5,
     "all_coefficients": [
-      0.5
+      0.5,
+      0.16
     ],
-    "total_coefficient": 0.5
+    "total_coefficient": 0.66
   },
   "demon_mega_attack": {
     "coefficient": 0.07,
@@ -14586,15 +13853,25 @@
     ],
     "total_coefficient": 1009998.0
   },
+  "demon_mega_betaWing_MazeWipeChannel": {
+    "coefficient": 0.23,
+    "hit_count": 1,
+    "max_coefficient": 0.23,
+    "all_coefficients": [
+      0.23
+    ],
+    "total_coefficient": 0.23
+  },
   "demon_mega_betaWing_WaveOfFlame": {
     "coefficient": 0.13,
-    "hit_count": 2,
+    "hit_count": 3,
     "max_coefficient": 0.2,
     "all_coefficients": [
       0.13,
+      0.08,
       0.2
     ],
-    "total_coefficient": 0.33
+    "total_coefficient": 0.41000000000000003
   },
   "demon_mega_betaWing_attack": {
     "coefficient": 0.05,
@@ -14607,17 +13884,34 @@
     ],
     "total_coefficient": 0.30000000000000004
   },
+  "demon_mega_betaWing_attk_left": {
+    "coefficient": 0.05,
+    "hit_count": 1,
+    "max_coefficient": 0.05,
+    "all_coefficients": [
+      0.05
+    ],
+    "total_coefficient": 0.05
+  },
+  "demon_mega_betaWing_attk_right": {
+    "coefficient": 0.05,
+    "hit_count": 1,
+    "max_coefficient": 0.05,
+    "all_coefficients": [
+      0.05
+    ],
+    "total_coefficient": 0.05
+  },
   "demon_mega_betawing_FlyFire": {
-    "coefficient": 0.01,
-    "hit_count": 4,
+    "coefficient": 0.2,
+    "hit_count": 3,
     "max_coefficient": 0.23,
     "all_coefficients": [
-      0.01,
       0.2,
       0.23,
       0.08
     ],
-    "total_coefficient": 0.52
+    "total_coefficient": 0.51
   },
   "demon_mega_betawing_Hallway": {
     "coefficient": 0.33,
@@ -14647,14 +13941,25 @@
     ],
     "total_coefficient": 0.16499999999999998
   },
-  "demon_mega_miniboss_fire_breath": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
+  "demon_mega_frostT4Boss_attk_left": {
+    "coefficient": 0.14,
+    "hit_count": 2,
+    "max_coefficient": 0.16,
     "all_coefficients": [
-      0.04
+      0.14,
+      0.16
     ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.30000000000000004
+  },
+  "demon_mega_frostT4Boss_attk_right": {
+    "coefficient": 0.14,
+    "hit_count": 2,
+    "max_coefficient": 0.16,
+    "all_coefficients": [
+      0.14,
+      0.16
+    ],
+    "total_coefficient": 0.30000000000000004
   },
   "demon_mega_miniboss_frenzy": {
     "coefficient": 0.07,
@@ -14715,23 +14020,13 @@
   },
   "demon_mega_sboss_rainFire_v2": {
     "coefficient": 0.12,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.12,
     "all_coefficients": [
       0.12,
-      0.01,
       0.1
     ],
-    "total_coefficient": 0.23
-  },
-  "demon_mega_sboss_summoned_flyingLanding": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
+    "total_coefficient": 0.22
   },
   "demon_mega_shocktroop_meteor_slam": {
     "coefficient": 0.1,
@@ -14750,25 +14045,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "demon_spitter_attack": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "demon_succubus_bloodstar": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.08
   },
   "demon_succubus_bloodstar_backpedal": {
     "coefficient": 0.08,
@@ -14790,26 +14066,23 @@
     "total_coefficient": 0.08
   },
   "demon_succubus_miniboss_AreaDenial": {
-    "coefficient": 0.01,
-    "hit_count": 4,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.01,
       0.1,
-      0.1,
-      0.01
+      0.1
     ],
-    "total_coefficient": 0.22
+    "total_coefficient": 0.2
   },
   "demon_succubus_miniboss_dash": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.01
+      0.15
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.15
   },
   "demon_succubus_miniboss_projectileStorm": {
     "coefficient": 0.06,
@@ -14841,23 +14114,12 @@
   },
   "demon_succubus_twr_boss_Blink_Assult": {
     "coefficient": 0.15,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.15,
-      0.03
+      0.15
     ],
-    "total_coefficient": 0.18
-  },
-  "demon_succubus_twr_boss_Frost_Bolt": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.005
-    ],
-    "total_coefficient": 0.045
+    "total_coefficient": 0.15
   },
   "demon_succubus_twr_boss_Frozen_Circle": {
     "coefficient": 0.05,
@@ -14887,24 +14149,6 @@
       0.95
     ],
     "total_coefficient": 1.27
-  },
-  "demon_swarmer_melee": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
-  "demon_swarmer_melee_bite": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "demon_unique_RareSpawn_humanform_2H_attack": {
     "coefficient": 0.06,
@@ -14936,25 +14180,22 @@
   },
   "dreg_brute_combo": {
     "coefficient": 0.08,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.08,
     "all_coefficients": [
       0.08,
-      0.045,
       0.05
     ],
-    "total_coefficient": 0.175
+    "total_coefficient": 0.13
   },
   "dreg_brute_combo_fire": {
     "coefficient": 0.08,
-    "hit_count": 3,
+    "hit_count": 1,
     "max_coefficient": 0.08,
     "all_coefficients": [
-      0.08,
-      0.04,
-      0.04
+      0.08
     ],
-    "total_coefficient": 0.16
+    "total_coefficient": 0.08
   },
   "dreg_brute_enrage": {
     "coefficient": 0.1,
@@ -14964,24 +14205,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "dreg_brute_miniboss_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "dreg_brute_miniboss_attack_enraged": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "dreg_brute_miniboss_charge": {
     "coefficient": 0.125,
@@ -14994,15 +14217,14 @@
   },
   "dreg_brute_miniboss_combo": {
     "coefficient": 0.1,
-    "hit_count": 4,
+    "hit_count": 3,
     "max_coefficient": 0.1,
     "all_coefficients": [
       0.1,
-      0.04,
       0.05,
       0.08
     ],
-    "total_coefficient": 0.27
+    "total_coefficient": 0.23
   },
   "dreg_brute_miniboss_enrage": {
     "coefficient": 0.1,
@@ -15068,34 +14290,6 @@
     ],
     "total_coefficient": 0.2
   },
-  "dreg_melee_attack": {
-    "coefficient": 0.045,
-    "hit_count": 1,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.045
-    ],
-    "total_coefficient": 0.045
-  },
-  "dreg_melee_swipe_attack": {
-    "coefficient": 0.035,
-    "hit_count": 1,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035
-    ],
-    "total_coefficient": 0.035
-  },
-  "dreg_ranged_evade": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.05
-  },
   "drowned_Brute_attk_left": {
     "coefficient": 0.07,
     "hit_count": 1,
@@ -15131,6 +14325,15 @@
       0.2
     ],
     "total_coefficient": 0.2
+  },
+  "drowned_brute_TWR_miniboss_lightning_orbs": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
   },
   "drowned_brute_TWR_miniboss_vortex": {
     "coefficient": 0.2,
@@ -15187,69 +14390,6 @@
       0.15
     ],
     "total_coefficient": 0.15
-  },
-  "drowned_melee_attk": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "drowned_melee_attk_moving": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "drowned_mini_melee": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "drowned_mini_projectile_attack": {
-    "coefficient": 0.024,
-    "hit_count": 1,
-    "max_coefficient": 0.024,
-    "all_coefficients": [
-      0.024
-    ],
-    "total_coefficient": 0.024
-  },
-  "drowned_mini_projectile_attack_backpedal": {
-    "coefficient": 0.024,
-    "hit_count": 1,
-    "max_coefficient": 0.024,
-    "all_coefficients": [
-      0.024
-    ],
-    "total_coefficient": 0.024
-  },
-  "drowned_mini_projectile_attack_strafeL": {
-    "coefficient": 0.024,
-    "hit_count": 1,
-    "max_coefficient": 0.024,
-    "all_coefficients": [
-      0.024
-    ],
-    "total_coefficient": 0.024
-  },
-  "drowned_mini_projectile_attack_strafeR": {
-    "coefficient": 0.024,
-    "hit_count": 1,
-    "max_coefficient": 0.024,
-    "all_coefficients": [
-      0.024
-    ],
-    "total_coefficient": 0.024
   },
   "drowned_seahag_attk_melee": {
     "coefficient": 0.1,
@@ -15322,15 +14462,6 @@
       0.2
     ],
     "total_coefficient": 0.2
-  },
-  "drowned_special_attk": {
-    "coefficient": 0.024,
-    "hit_count": 1,
-    "max_coefficient": 0.024,
-    "all_coefficients": [
-      0.024
-    ],
-    "total_coefficient": 0.024
   },
   "drowned_special_attk_ambush": {
     "coefficient": 0.1,
@@ -15433,15 +14564,6 @@
     ],
     "total_coefficient": 0.15000000000000002
   },
-  "duriel_boss_burst": {
-    "coefficient": 0.008,
-    "hit_count": 1,
-    "max_coefficient": 0.008,
-    "all_coefficients": [
-      0.008
-    ],
-    "total_coefficient": 0.008
-  },
   "duriel_boss_devour": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -15451,14 +14573,32 @@
     ],
     "total_coefficient": 0.1
   },
-  "duriel_boss_intro_unburrow": {
-    "coefficient": 0.015,
+  "duriel_boss_devour_bursted": {
+    "coefficient": 0.1,
     "hit_count": 1,
-    "max_coefficient": 0.015,
+    "max_coefficient": 0.1,
     "all_coefficients": [
-      0.015
+      0.1
     ],
-    "total_coefficient": 0.015
+    "total_coefficient": 0.1
+  },
+  "duriel_boss_devour_sync": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
+  },
+  "duriel_boss_devour_sync_short": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
   },
   "duriel_boss_jab": {
     "coefficient": 0.08,
@@ -15468,6 +14608,15 @@
       0.08
     ],
     "total_coefficient": 0.08
+  },
+  "duriel_boss_jab_burst": {
+    "coefficient": 0.1,
+    "hit_count": 1,
+    "max_coefficient": 0.1,
+    "all_coefficients": [
+      0.1
+    ],
+    "total_coefficient": 0.1
   },
   "duriel_boss_spew_spray": {
     "coefficient": 0.25,
@@ -15504,24 +14653,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "fallen_brute_attack_close_fire": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "fallen_brute_attack_fire": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "fallen_brute_fire_miniboss_BurstCone": {
     "coefficient": 0.2,
@@ -15596,15 +14727,6 @@
     ],
     "total_coefficient": 0.125
   },
-  "fallen_grunt_attack": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
   "fallen_lunatic_suicide": {
     "coefficient": 0.25,
     "hit_count": 3,
@@ -15635,17 +14757,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "fallen_shaman_elementalbolt": {
-    "coefficient": 0.0375,
-    "hit_count": 3,
-    "max_coefficient": 0.0375,
-    "all_coefficients": [
-      0.0375,
-      0.0375,
-      0.0375
-    ],
-    "total_coefficient": 0.11249999999999999
   },
   "fallen_shaman_miniboss_elementalbolt": {
     "coefficient": 0.075,
@@ -15695,15 +14806,6 @@
     ],
     "total_coefficient": 0.08
   },
-  "fly_swarm_attack": {
-    "coefficient": 0.00125,
-    "hit_count": 1,
-    "max_coefficient": 0.00125,
-    "all_coefficients": [
-      0.00125
-    ],
-    "total_coefficient": 0.00125
-  },
   "fly_warrior_3hit_attack": {
     "coefficient": 2.0,
     "hit_count": 1,
@@ -15741,26 +14843,6 @@
     ],
     "total_coefficient": 0.32
   },
-  "fly_warrior_hellTide_roamingBoss_attk_melee_3hit": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.025,
-      0.045
-    ],
-    "total_coefficient": 0.07
-  },
-  "fly_warrior_hellTide_roamingBoss_attk_spitBarrageSweep": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.01
-    ],
-    "total_coefficient": 0.05
-  },
   "fly_warrior_hellTide_roamingBoss_escape": {
     "coefficient": 0.49950000000000006,
     "hit_count": 1,
@@ -15778,25 +14860,6 @@
       2.0
     ],
     "total_coefficient": 2.0
-  },
-  "fly_warrior_miniboss_3hit_attack": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.03
-    ],
-    "total_coefficient": 0.07
-  },
-  "fly_warrior_miniboss_PoisonBarrage": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "fly_warrior_miniboss_ambush_breath": {
     "coefficient": 0.3,
@@ -15865,14 +14928,13 @@
     "total_coefficient": 0.17
   },
   "ghost_caster_camp_keironspyre_projectile": {
-    "coefficient": 0.04,
-    "hit_count": 2,
+    "coefficient": 0.15,
+    "hit_count": 1,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.04,
       0.15
     ],
-    "total_coefficient": 0.19
+    "total_coefficient": 0.15
   },
   "ghost_caster_camp_keironspyre_projectile_fire": {
     "coefficient": 0.05,
@@ -15967,44 +15029,6 @@
     ],
     "total_coefficient": 0.2
   },
-  "ghost_melee_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "ghost_melee_attack_combo": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "ghost_ranged_attack": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.04
-  },
-  "ghost_ranged_attack_combo": {
-    "coefficient": 0.02,
-    "hit_count": 2,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.04
-  },
   "goatman_brute_shadow_miniboss_PoolProjectiles": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -16031,15 +15055,6 @@
       0.05
     ],
     "total_coefficient": 0.05
-  },
-  "goatman_sorcerer_orb_aoe": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "grandfather_vampireBoss_bouncing_blood": {
     "coefficient": 0.05,
@@ -16079,24 +15094,22 @@
     "total_coefficient": 0.125
   },
   "hollow_brute_miniboss_Ambush": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.01,
       0.2
     ],
-    "total_coefficient": 0.21000000000000002
+    "total_coefficient": 0.2
   },
   "hollow_brute_miniboss_Ambush_passive": {
-    "coefficient": 0.02,
-    "hit_count": 2,
+    "coefficient": 0.2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.02,
       0.2
     ],
-    "total_coefficient": 0.22
+    "total_coefficient": 0.2
   },
   "hollow_brute_miniboss_LineAttack": {
     "coefficient": 0.08,
@@ -16187,16 +15200,6 @@
     ],
     "total_coefficient": 0.1
   },
-  "hollow_caster_energybolt": {
-    "coefficient": 0.025,
-    "hit_count": 2,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.05
-  },
   "hollow_caster_miniboss_ritual": {
     "coefficient": 0.075,
     "hit_count": 2,
@@ -16208,38 +15211,34 @@
     "total_coefficient": 0.525
   },
   "hollow_caster_miniboss_seeking": {
-    "coefficient": 0.025,
-    "hit_count": 3,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.025,
       0.1,
       0.15
     ],
-    "total_coefficient": 0.275
+    "total_coefficient": 0.25
   },
   "hollow_caster_miniboss_summon_shade": {
-    "coefficient": 0.03875,
-    "hit_count": 4,
+    "coefficient": 0.0678125,
+    "hit_count": 2,
     "max_coefficient": 0.0678125,
     "all_coefficients": [
-      0.03875,
-      0.031,
       0.0678125,
       0.05425
     ],
-    "total_coefficient": 0.1918125
+    "total_coefficient": 0.12206249999999999
   },
   "hollow_caster_twr_miniboss_seeking": {
-    "coefficient": 0.025,
-    "hit_count": 3,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.15,
     "all_coefficients": [
-      0.025,
       0.1,
       0.15
     ],
-    "total_coefficient": 0.275
+    "total_coefficient": 0.25
   },
   "hollow_caster_twr_miniboss_shade_setup": {
     "coefficient": 0.1,
@@ -16251,26 +15250,23 @@
     "total_coefficient": 0.1
   },
   "hollow_caster_twr_miniboss_summon_shade": {
-    "coefficient": 0.03875,
-    "hit_count": 4,
+    "coefficient": 0.0678125,
+    "hit_count": 2,
     "max_coefficient": 0.0678125,
     "all_coefficients": [
-      0.03875,
-      0.031,
       0.0678125,
       0.05425
     ],
-    "total_coefficient": 0.1918125
+    "total_coefficient": 0.12206249999999999
   },
   "hollow_spitter_lobbed": {
-    "coefficient": 0.025,
-    "hit_count": 2,
+    "coefficient": 0.055,
+    "hit_count": 1,
     "max_coefficient": 0.055,
     "all_coefficients": [
-      0.025,
       0.055
     ],
-    "total_coefficient": 0.08
+    "total_coefficient": 0.055
   },
   "hollow_spitter_spray": {
     "coefficient": 0.055,
@@ -16280,24 +15276,6 @@
       0.055
     ],
     "total_coefficient": 0.055
-  },
-  "hollow_swarmer_attack": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "hollow_swarmer_meld": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "khazra_brute_attk_charge": {
     "coefficient": 0.1,
@@ -16366,17 +15344,6 @@
     ],
     "total_coefficient": 0.6000000000000001
   },
-  "khazra_casterAnchor_attk_Special_bulletHell": {
-    "coefficient": 0.025,
-    "hit_count": 3,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.07500000000000001
-  },
   "khazra_casterAnchor_attk_basic": {
     "coefficient": 0.125,
     "hit_count": 6,
@@ -16393,14 +15360,13 @@
   },
   "khazra_casterAnchor_miniboss_MJD_spectral_attk_leap": {
     "coefficient": 0.1,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
       0.1,
-      0.02,
       0.05
     ],
-    "total_coefficient": 0.17
+    "total_coefficient": 0.15000000000000002
   },
   "khazra_casterAnchor_miniboss_attk_leap": {
     "coefficient": 0.1,
@@ -16464,12 +15430,14 @@
   },
   "khazra_caster_reflectoTwin_attk_leap": {
     "coefficient": 0.35,
-    "hit_count": 1,
+    "hit_count": 3,
     "max_coefficient": 0.35,
     "all_coefficients": [
-      0.35
+      0.35,
+      0.25,
+      0.175
     ],
-    "total_coefficient": 0.35
+    "total_coefficient": 0.7749999999999999
   },
   "khazra_caster_reflectoTwin_megaProjectile": {
     "coefficient": 0.075,
@@ -16484,18 +15452,6 @@
     ],
     "total_coefficient": 0.49874999999999997
   },
-  "khazra_melee_attk_basic": {
-    "coefficient": 0.01,
-    "hit_count": 4,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.01,
-      0.02,
-      0.02,
-      0.02
-    ],
-    "total_coefficient": 0.07
-  },
   "khazra_melee_imbueAttk_dash": {
     "coefficient": 0.15,
     "hit_count": 3,
@@ -16508,17 +15464,13 @@
     "total_coefficient": 0.44999999999999996
   },
   "khazra_melee_livingBomber_attk_basic": {
-    "coefficient": 0.01,
-    "hit_count": 5,
+    "coefficient": 0.1,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.01,
-      0.035,
-      0.035,
-      0.035,
       0.1
     ],
-    "total_coefficient": 0.21500000000000002
+    "total_coefficient": 0.1
   },
   "khazra_melee_livingBomber_attk_dashingSlash": {
     "coefficient": 0.15,
@@ -16563,16 +15515,15 @@
     "total_coefficient": 0.44999999999999996
   },
   "khazra_range_utility_chakram": {
-    "coefficient": 0.03,
-    "hit_count": 4,
+    "coefficient": 0.05,
+    "hit_count": 3,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.03,
       0.05,
       0.05,
       0.05
     ],
-    "total_coefficient": 0.18
+    "total_coefficient": 0.15000000000000002
   },
   "khazra_utility_trailWaller": {
     "coefficient": 0.1,
@@ -16678,13 +15629,12 @@
   },
   "knight_caster_fire_holyBurst": {
     "coefficient": 0.05,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.05,
-      0.01
+      0.05
     ],
-    "total_coefficient": 0.060000000000000005
+    "total_coefficient": 0.05
   },
   "knight_caster_heal": {
     "coefficient": 0.17,
@@ -16731,33 +15681,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "knight_caster_projectile": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "knight_caster_projectile_cold": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "knight_caster_projectile_fire": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
   "knight_caster_shadowrope_crusadersmont": {
     "coefficient": 0.15,
     "hit_count": 1,
@@ -16797,15 +15720,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "knight_melee_attack_combo": {
-    "coefficient": 0.0225,
-    "hit_count": 1,
-    "max_coefficient": 0.0225,
-    "all_coefficients": [
-      0.0225
-    ],
-    "total_coefficient": 0.0225
-  },
   "knight_melee_crusadersmon_lineattk": {
     "coefficient": 0.15,
     "hit_count": 2,
@@ -16844,15 +15758,6 @@
     ],
     "total_coefficient": 0.06
   },
-  "knight_melee_fire_shield_attack_flameJet": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "knight_melee_pbaoe": {
     "coefficient": 0.08,
     "hit_count": 1,
@@ -16871,15 +15776,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "knight_melee_shield_attack": {
-    "coefficient": 0.0225,
-    "hit_count": 1,
-    "max_coefficient": 0.0225,
-    "all_coefficients": [
-      0.0225
-    ],
-    "total_coefficient": 0.0225
-  },
   "knight_melee_shield_attack_crusadersmont": {
     "coefficient": 0.06,
     "hit_count": 2,
@@ -16889,33 +15785,6 @@
       0.12
     ],
     "total_coefficient": 0.18
-  },
-  "knight_monk_attk": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "knight_monk_attk_triple": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "knight_monk_rolling_attack": {
-    "coefficient": 0.0225,
-    "hit_count": 1,
-    "max_coefficient": 0.0225,
-    "all_coefficients": [
-      0.0225
-    ],
-    "total_coefficient": 0.0225
   },
   "lacuni_caster_shadow_miniboss_LineAttack": {
     "coefficient": 0.12,
@@ -17011,15 +15880,6 @@
     ],
     "total_coefficient": 0.075
   },
-  "lilith_p2_boss_field_burst": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "lilith_p2_boss_subjugate": {
     "coefficient": 0.5,
     "hit_count": 1,
@@ -17029,33 +15889,14 @@
     ],
     "total_coefficient": 0.5
   },
-  "maggot_melee": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
-  "maggot_spit": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
-  },
   "mercenary_cursedChild_soulChain": {
-    "coefficient": 0.01,
-    "hit_count": 2,
+    "coefficient": 0.35,
+    "hit_count": 1,
     "max_coefficient": 0.35,
     "all_coefficients": [
-      0.01,
       0.35
     ],
-    "total_coefficient": 0.36
+    "total_coefficient": 0.35
   },
   "npcF_Valtha_boss_QST_Hawe_Verge_atk_trapRoom": {
     "coefficient": 0.2,
@@ -17138,15 +15979,6 @@
     ],
     "total_coefficient": 0.15
   },
-  "owv_brawler_attack": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "pal_lanceDive_ground": {
     "coefficient": 0.55,
     "hit_count": 2,
@@ -17156,26 +15988,6 @@
       0.55
     ],
     "total_coefficient": 1.1
-  },
-  "skeleton_ballista_ranged_attack": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.08
-  },
-  "skeleton_ballista_ranged_inaccurate_attack": {
-    "coefficient": 0.04,
-    "hit_count": 2,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04,
-      0.04
-    ],
-    "total_coefficient": 0.08
   },
   "skeleton_boss_bonewall": {
     "coefficient": 0.2,
@@ -17226,13 +16038,12 @@
   },
   "skeleton_boss_capstone_rez_skeletons": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.04
+      0.1
     ],
-    "total_coefficient": 0.14
+    "total_coefficient": 0.1
   },
   "skeleton_boss_capstone_wave_cloneAttk": {
     "coefficient": 0.18,
@@ -17264,15 +16075,6 @@
     ],
     "total_coefficient": 0.36
   },
-  "skeleton_melee_attack": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "skeleton_melee_attack_running": {
     "coefficient": 0.06,
     "hit_count": 1,
@@ -17281,15 +16083,6 @@
       0.06
     ],
     "total_coefficient": 0.06
-  },
-  "skeleton_melee_shield_attack": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
   },
   "skeleton_melee_shield_setup": {
     "coefficient": 0.05,
@@ -17308,15 +16101,6 @@
       0.06
     ],
     "total_coefficient": 0.06
-  },
-  "skeleton_ranged_attack": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "skeleton_ranged_volley_poison": {
     "coefficient": 0.05,
@@ -17415,15 +16199,6 @@
     ],
     "total_coefficient": 0.2
   },
-  "snake_brute_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "snake_brute_attk_turn_left": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -17519,24 +16294,6 @@
     ],
     "total_coefficient": 0.22
   },
-  "snake_brute_envenom": {
-    "coefficient": 0.012,
-    "hit_count": 1,
-    "max_coefficient": 0.012,
-    "all_coefficients": [
-      0.012
-    ],
-    "total_coefficient": 0.012
-  },
-  "snake_brute_envenom_attack": {
-    "coefficient": 0.012,
-    "hit_count": 1,
-    "max_coefficient": 0.012,
-    "all_coefficients": [
-      0.012
-    ],
-    "total_coefficient": 0.012
-  },
   "snake_caster_eh_beam": {
     "coefficient": 0.3,
     "hit_count": 1,
@@ -17564,15 +16321,6 @@
     ],
     "total_coefficient": 0.05
   },
-  "snake_caster_lobbed_poison": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "snake_caster_lobbed_shadow": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -17591,15 +16339,6 @@
     ],
     "total_coefficient": 0.25
   },
-  "snake_caster_miniboss_lobbed_poison": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
   "snake_caster_miniboss_summon": {
     "coefficient": 5.0,
     "hit_count": 1,
@@ -17610,14 +16349,13 @@
     "total_coefficient": 5.0
   },
   "snake_caster_unique_EH_boss_Spit": {
-    "coefficient": 0.04,
-    "hit_count": 2,
+    "coefficient": 0.05,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.04,
       0.05
     ],
-    "total_coefficient": 0.09
+    "total_coefficient": 0.05
   },
   "snake_caster_unique_EH_boss_beam": {
     "coefficient": 0.1,
@@ -17627,17 +16365,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "snake_exploder_shadow_snakeRake": {
-    "coefficient": 0.035,
-    "hit_count": 3,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035,
-      0.035,
-      0.035
-    ],
-    "total_coefficient": 0.10500000000000001
   },
   "snake_exploder_snakesplosion": {
     "coefficient": 0.15,
@@ -17657,24 +16384,6 @@
     ],
     "total_coefficient": 0.15
   },
-  "snake_eye_lightning": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "snake_queen_enrage": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "snake_queen_melee_combo": {
     "coefficient": 0.1,
     "hit_count": 2,
@@ -17684,35 +16393,6 @@
       0.1
     ],
     "total_coefficient": 0.2
-  },
-  "snake_queen_venom_stream": {
-    "coefficient": 0.015,
-    "hit_count": 2,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015,
-      0.003
-    ],
-    "total_coefficient": 0.018
-  },
-  "snake_serpent_melee_attk": {
-    "coefficient": 0.018,
-    "hit_count": 2,
-    "max_coefficient": 0.018,
-    "all_coefficients": [
-      0.018,
-      0.00594
-    ],
-    "total_coefficient": 0.02394
-  },
-  "snake_serpent_spit": {
-    "coefficient": 0.015,
-    "hit_count": 1,
-    "max_coefficient": 0.015,
-    "all_coefficients": [
-      0.015
-    ],
-    "total_coefficient": 0.015
   },
   "sorc_familiar_death_fam": {
     "coefficient": 0.6,
@@ -17734,22 +16414,12 @@
   },
   "spider_adult_attack": {
     "coefficient": 0.07,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.07,
     "all_coefficients": [
-      0.07,
-      0.035
+      0.07
     ],
-    "total_coefficient": 0.10500000000000001
-  },
-  "spider_adult_cold_barrage": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
+    "total_coefficient": 0.07
   },
   "spider_host_attack": {
     "coefficient": 0.1,
@@ -17768,15 +16438,6 @@
       0.1
     ],
     "total_coefficient": 0.1
-  },
-  "spider_host_fire_miniboss_Summon": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
   },
   "spider_host_miniboss_ExplodingSpiders": {
     "coefficient": 0.07,
@@ -17800,25 +16461,6 @@
     ],
     "total_coefficient": 0.75
   },
-  "spider_mini_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "spider_mini_leap": {
-    "coefficient": 0.035,
-    "hit_count": 2,
-    "max_coefficient": 0.035,
-    "all_coefficients": [
-      0.035,
-      0.035
-    ],
-    "total_coefficient": 0.07
-  },
   "spider_miniboss_add_host_explode_nospawn": {
     "coefficient": 0.15,
     "hit_count": 2,
@@ -17828,17 +16470,6 @@
       0.15
     ],
     "total_coefficient": 0.3
-  },
-  "spider_miniboss_fire_spit_big": {
-    "coefficient": 0.005,
-    "hit_count": 3,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.005,
-      0.04,
-      0.02
-    ],
-    "total_coefficient": 0.065
   },
   "spider_miniboss_host_melee": {
     "coefficient": 0.12,
@@ -17850,63 +16481,14 @@
     ],
     "total_coefficient": 0.24
   },
-  "spider_miniboss_host_summon": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "spider_miniboss_knockback": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
-  "spider_miniboss_mini_attack": {
-    "coefficient": 0.0085,
-    "hit_count": 1,
-    "max_coefficient": 0.0085,
-    "all_coefficients": [
-      0.0085
-    ],
-    "total_coefficient": 0.0085
-  },
-  "spider_miniboss_noHost_fire_spit_big": {
-    "coefficient": 0.005,
-    "hit_count": 3,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.005,
-      0.04,
-      0.02
-    ],
-    "total_coefficient": 0.065
-  },
-  "spider_miniboss_poison_rain_host": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
-  },
   "spider_miniboss_poison_spit_big": {
-    "coefficient": 0.005,
-    "hit_count": 3,
+    "coefficient": 0.06,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.005,
-      0.025,
       0.06
     ],
-    "total_coefficient": 0.09
+    "total_coefficient": 0.06
   },
   "spider_miniboss_summon_hosts": {
     "coefficient": 10.0,
@@ -17945,34 +16527,23 @@
     ],
     "total_coefficient": 100.0
   },
-  "vampire_bat_attack": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "vampire_boss_frontal_attack_impale": {
     "coefficient": 0.12,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.12,
     "all_coefficients": [
-      0.12,
-      0.02
+      0.12
     ],
-    "total_coefficient": 0.13999999999999999
+    "total_coefficient": 0.12
   },
   "vampire_boss_multiprojectile_attk": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.02
+      0.1
     ],
-    "total_coefficient": 0.12000000000000001
+    "total_coefficient": 0.1
   },
   "vampire_boss_projectile": {
     "coefficient": 0.05,
@@ -18049,15 +16620,14 @@
     "total_coefficient": 0.16
   },
   "vampire_brute_miniboss_SummoningPools": {
-    "coefficient": 0.04,
-    "hit_count": 3,
+    "coefficient": 0.1,
+    "hit_count": 2,
     "max_coefficient": 0.18,
     "all_coefficients": [
-      0.04,
       0.1,
       0.18
     ],
-    "total_coefficient": 0.32
+    "total_coefficient": 0.28
   },
   "vampire_brute_twr_boss_SpiralProjectiles": {
     "coefficient": 0.1,
@@ -18077,45 +16647,6 @@
       0.2
     ],
     "total_coefficient": 0.2
-  },
-  "vampire_caster_attk": {
-    "coefficient": 0.025,
-    "hit_count": 4,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025,
-      0.025,
-      0.025,
-      0.025
-    ],
-    "total_coefficient": 0.1
-  },
-  "vampire_caster_camp_kordragan_projectile_gattling": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "vampire_swarmer_attack": {
-    "coefficient": 0.004,
-    "hit_count": 1,
-    "max_coefficient": 0.004,
-    "all_coefficients": [
-      0.004
-    ],
-    "total_coefficient": 0.004
-  },
-  "vampire_swarmer_attack_moving": {
-    "coefficient": 0.004,
-    "hit_count": 1,
-    "max_coefficient": 0.004,
-    "all_coefficients": [
-      0.004
-    ],
-    "total_coefficient": 0.004
   },
   "vfx_fire_burstCylindrical": {
     "coefficient": 0.2,
@@ -18153,15 +16684,6 @@
     ],
     "total_coefficient": 0.06
   },
-  "werewolf_melee_electrify": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "werewolf_melee_groundpound": {
     "coefficient": 0.06,
     "hit_count": 2,
@@ -18174,13 +16696,12 @@
   },
   "werewolf_melee_special_attack_1": {
     "coefficient": 0.1,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.1,
     "all_coefficients": [
-      0.1,
-      0.03
+      0.1
     ],
-    "total_coefficient": 0.13
+    "total_coefficient": 0.1
   },
   "werewolf_miniboss_attack": {
     "coefficient": 0.08,
@@ -18202,32 +16723,21 @@
   },
   "werewolf_miniboss_special_attack_2": {
     "coefficient": 0.06,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.06,
     "all_coefficients": [
-      0.06,
-      0.03
+      0.06
     ],
-    "total_coefficient": 0.09
-  },
-  "werewolf_stealth_attack": {
-    "coefficient": 0.04,
-    "hit_count": 1,
-    "max_coefficient": 0.04,
-    "all_coefficients": [
-      0.04
-    ],
-    "total_coefficient": 0.04
+    "total_coefficient": 0.06
   },
   "werewolf_stealth_attack_miniboss": {
     "coefficient": 0.05,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.05,
     "all_coefficients": [
-      0.05,
-      0.02
+      0.05
     ],
-    "total_coefficient": 0.07
+    "total_coefficient": 0.05
   },
   "werewolf_stealth_attk_lunge": {
     "coefficient": 0.1,
@@ -18251,13 +16761,12 @@
   },
   "werewolf_stealth_attk_lunge_miniboss": {
     "coefficient": 0.2,
-    "hit_count": 2,
+    "hit_count": 1,
     "max_coefficient": 0.2,
     "all_coefficients": [
-      0.2,
-      0.02
+      0.2
     ],
-    "total_coefficient": 0.22
+    "total_coefficient": 0.2
   },
   "werewolf_stealth_miniboss_lightningStorm": {
     "coefficient": 0.2,
@@ -18362,23 +16871,13 @@
   },
   "wildlife_eagle_predatoryFocus": {
     "coefficient": 0.1,
-    "hit_count": 3,
+    "hit_count": 2,
     "max_coefficient": 0.1,
     "all_coefficients": [
       0.1,
-      0.1,
-      0.03
+      0.1
     ],
-    "total_coefficient": 0.23
-  },
-  "wildlife_flayer_melee": {
-    "coefficient": 0.005,
-    "hit_count": 1,
-    "max_coefficient": 0.005,
-    "all_coefficients": [
-      0.005
-    ],
-    "total_coefficient": 0.005
+    "total_coefficient": 0.2
   },
   "wildlife_mosquito_StabAttack": {
     "coefficient": 0.06,
@@ -18408,15 +16907,6 @@
     ],
     "total_coefficient": 0.14
   },
-  "wildlife_quillrat_attack": {
-    "coefficient": 0.008,
-    "hit_count": 1,
-    "max_coefficient": 0.008,
-    "all_coefficients": [
-      0.008
-    ],
-    "total_coefficient": 0.008
-  },
   "wildlife_rhino_Attack": {
     "coefficient": 0.05,
     "hit_count": 1,
@@ -18445,33 +16935,6 @@
     ],
     "total_coefficient": 0.12
   },
-  "wildlife_scorpion_attack_claw": {
-    "coefficient": 0.045,
-    "hit_count": 1,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.045
-    ],
-    "total_coefficient": 0.045
-  },
-  "wildlife_scorpion_attack_claw_turn_left": {
-    "coefficient": 0.045,
-    "hit_count": 1,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.045
-    ],
-    "total_coefficient": 0.045
-  },
-  "wildlife_scorpion_attack_claw_turn_right": {
-    "coefficient": 0.045,
-    "hit_count": 1,
-    "max_coefficient": 0.045,
-    "all_coefficients": [
-      0.045
-    ],
-    "total_coefficient": 0.045
-  },
   "wildlife_scorpion_attack_moving": {
     "coefficient": 0.1,
     "hit_count": 1,
@@ -18489,42 +16952,6 @@
       0.08
     ],
     "total_coefficient": 0.08
-  },
-  "wildlife_scorpion_kehj_unique_attack_claw": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "wildlife_scorpion_kehj_unique_attack_stinger": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
-  "wildlife_wasp_attackV2": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
-  },
-  "wildlife_wasp_attackV3": {
-    "coefficient": 0.025,
-    "hit_count": 1,
-    "max_coefficient": 0.025,
-    "all_coefficients": [
-      0.025
-    ],
-    "total_coefficient": 0.025
   },
   "wildlife_wasp_attack_RLMV2": {
     "coefficient": 0.05,
@@ -18805,15 +17232,6 @@
     ],
     "total_coefficient": 0.6000000000000001
   },
-  "zombie_brute_miniboss_PoisonPoolProjectile": {
-    "coefficient": 0.01,
-    "hit_count": 1,
-    "max_coefficient": 0.01,
-    "all_coefficients": [
-      0.01
-    ],
-    "total_coefficient": 0.01
-  },
   "zombie_brute_miniboss_PushAway": {
     "coefficient": 0.2,
     "hit_count": 2,
@@ -18872,33 +17290,6 @@
     ],
     "total_coefficient": 0.08
   },
-  "zombie_melee_attack": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "zombie_melee_attack_enraged": {
-    "coefficient": 0.03,
-    "hit_count": 1,
-    "max_coefficient": 0.03,
-    "all_coefficients": [
-      0.03
-    ],
-    "total_coefficient": 0.03
-  },
-  "zombie_melee_poison_projectile": {
-    "coefficient": 0.02,
-    "hit_count": 1,
-    "max_coefficient": 0.02,
-    "all_coefficients": [
-      0.02
-    ],
-    "total_coefficient": 0.02
-  },
   "zombie_poison_burstLine": {
     "coefficient": 0.08,
     "hit_count": 1,
@@ -18907,5 +17298,25 @@
       0.08
     ],
     "total_coefficient": 0.08
+  },
+  "BloodSeal_Vamp_Curse": {
+    "coefficient": 1.0,
+    "hit_count": 1,
+    "max_coefficient": 1.0,
+    "all_coefficients": [
+      1.0
+    ],
+    "total_coefficient": 1.0,
+    "aliased_from": "BloodSeal_Vamp_Curse_Attack"
+  },
+  "Dungeon_Affix_LightningPulse": {
+    "coefficient": 0.27,
+    "hit_count": 1,
+    "max_coefficient": 0.27,
+    "all_coefficients": [
+      0.27
+    ],
+    "total_coefficient": 0.27,
+    "aliased_from": "Dungeon_Affix_LightningPulse_Attack"
   }
 }
