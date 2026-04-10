@@ -211,10 +211,21 @@ const tierLabel: Record<string, string> = {
     min-height: 44px;
   }
 
-  .build-card:hover {
+  .build-card:hover,
+  .build-card:focus-visible {
+    outline: none;
     border-color: var(--color-primary);
     box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   }
+
+  /* Class color left-border accent on build cards */
+  .class-page--barbarian  .build-card { border-left: 3px solid var(--class-barbarian); }
+  .class-page--druid       .build-card { border-left: 3px solid var(--class-druid); }
+  .class-page--necromancer .build-card { border-left: 3px solid var(--class-necromancer); }
+  .class-page--paladin     .build-card { border-left: 3px solid var(--class-paladin); }
+  .class-page--rogue       .build-card { border-left: 3px solid var(--class-rogue); }
+  .class-page--sorcerer    .build-card { border-left: 3px solid var(--class-sorcerer); }
+  .class-page--spiritborn  .build-card { border-left: 3px solid var(--class-spiritborn); }
 
   /* Tier badge column */
   .build-card__left {

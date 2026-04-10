@@ -92,7 +92,10 @@ function parseMercenaryReason(reason: string): { name: string; detail: string } 
 }
 ---
 
-<Layout title={`${build.purpose_label} ${build.class} — D4Builder`}>
+<Layout
+  title={`${build.purpose_label} ${build.class} — D4Builder`}
+  description={`${build.purpose_label} ${build.class} build for Season 12. Tier ${build.tier}, rank #${build.global_rank}. Key passive: ${build.key_passive}${build.specialization ? ` · ${build.specialization}` : ''}. All data sourced from optimizer.`}
+>
   <main class={`build-detail build-detail--${classSlug}`}>
     <div class="container">
 
@@ -140,19 +143,14 @@ function parseMercenaryReason(reason: string): { name: string; detail: string } 
           <span class="summary-stat__value">{build.key_passive}</span>
         </div>
         <div class="summary-stat">
-          <span class="summary-stat__label">Skill Bar</span>
-          <span class="summary-stat__value">{build.skill_bar_rank} pts each</span>
-        </div>
-        <div class="summary-stat">
-          <span class="summary-stat__label">Passives</span>
-          <span class="summary-stat__value">{build.passives.length} · rank {build.passive_rank}</span>
+          <span class="summary-stat__label">Skills</span>
+          <span class="summary-stat__value">{build.skill_bar.join(' · ')}</span>
         </div>
       </div>
 
       <!-- Skills -->
       <section class="section" id="skills">
         <h2 class="section__title">Skill Bar</h2>
-        <p class="section__sub">Rank {build.skill_bar_rank} each · Enhanced → Morph shown</p>
         <div class="skill-list">
           {build.skill_upgrades.map((su) => (
             <div class="skill-row">
@@ -170,7 +168,6 @@ function parseMercenaryReason(reason: string): { name: string; detail: string } 
       <!-- Passives -->
       <section class="section" id="passives">
         <h2 class="section__title">Passives</h2>
-        <p class="section__sub">Rank {build.passive_rank} each</p>
         <div class="passive-chips">
           {build.passives.map((p) => (
             <span class="passive-chip">{p}</span>
@@ -188,7 +185,14 @@ function parseMercenaryReason(reason: string): { name: string; detail: string } 
         <div class="gear-table">
           {GEAR_SLOTS.filter((slot) => build.gear[slot]).map((slot) => {
             const item = build.gear[slot];
-            const name = item._optimizer_name ?? item.unique_id ?? '—';
+            let name: string;
+            if (item._optimizer_name) {
+              name = item._optimizer_name;
+            } else if (item.rarity === 'legendary' && item.base_item_type && item.aspect_id) {
+              name = `${item.base_item_type} — ${item.aspect_id.replace(/_/g, ' ')}`;
+            } else {
+              name = '—';
+            }
             return (
               <div class="gear-row">
                 <span class="gear-row__slot">{slot}</span>
@@ -918,10 +922,6 @@ function parseMercenaryReason(reason: string): { name: string; detail: string } 
   }
 
   /* Sources */
-  .section--sources {
-    opacity: 0.6;
-  }
-
   .sources-list {
     display: grid;
     grid-template-columns: auto 1fr;

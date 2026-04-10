@@ -1906,19 +1906,40 @@ def main() -> None:
     # Write all builds
     write_builds(out_conn, all_class_builds)
 
-    # Compute global ranks
+    # Compute global ranks (for cross-class comparison, not used for tier badge)
     all_rows = out_conn.execute(
         "SELECT id, build_score FROM optimizer_results ORDER BY build_score DESC"
     ).fetchall()
     total = len(all_rows)
     for i, (row_id, _) in enumerate(all_rows):
         grank = i + 1
-        pct = grank / total
-        tier = "S" if pct <= 0.10 else "A" if pct <= 0.30 else "B" if pct <= 0.60 else "C"
         out_conn.execute(
-            "UPDATE optimizer_results SET global_rank = ?, tier = ? WHERE id = ?",
-            (grank, tier, row_id),
+            "UPDATE optimizer_results SET global_rank = ? WHERE id = ?",
+            (grank, row_id),
         )
+
+    # Compute per-class tiers (what users actually see)
+    # Each class's 4 builds are ranked relative to that class's score range.
+    # This prevents one class with higher raw coefficients from sweeping all top tiers.
+    classes = out_conn.execute(
+        "SELECT DISTINCT class FROM optimizer_results"
+    ).fetchall()
+    for (cls,) in classes:
+        cls_rows = out_conn.execute(
+            "SELECT id, build_score FROM optimizer_results WHERE class = ? ORDER BY build_score DESC",
+            (cls,),
+        ).fetchall()
+        if not cls_rows:
+            continue
+        top_score = cls_rows[0][1]
+        for row_id, score in cls_rows:
+            # Tier by percentage of the class's top score
+            pct_of_top = score / top_score if top_score > 0 else 0
+            tier = "S" if pct_of_top >= 0.90 else "A" if pct_of_top >= 0.75 else "B" if pct_of_top >= 0.60 else "C"
+            out_conn.execute(
+                "UPDATE optimizer_results SET tier = ? WHERE id = ?",
+                (tier, row_id),
+            )
     out_conn.commit()
     out_conn.close()
 

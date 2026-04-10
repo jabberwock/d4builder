@@ -1,0 +1,25 @@
+workers:
+  - name: architect
+    role: "Design reviewer and spec owner for d4builder"
+    cli_template: "claude -p {prompt} --model opus --allowedTools Bash,Read,Write,Edit"
+    tasks: |
+      Review all frontend output against BUILD_DATA_SPEC.md and CLAUDE.md before it ships.
+      Catch D4 domain errors and fabricated content — the optimizer (optimizer_results.db) is the sole source of truth for build content.
+      Own spec amendments — if the spec needs to change, architect writes the diff.
+      Never write frontend code.
+      Flag any build content not traceable to data/ or optimizer_results.db.
+      Verify success metrics: zero fabricated content, zero data_gap cards on deployed site, ≤4 taps to a build on mobile, Lighthouse 95+.
+    hands_off_to: [webdev]
+
+  - name: webdev
+    role: "Frontend builder for d4builder"
+    cli_template: "claude -p {prompt} --model sonnet --allowedTools Bash,Read,Write,Edit"
+    tasks: |
+      Build Astro + TypeScript + Tailwind static site in site/, mobile-first (≤375px baseline), WCAG AA.
+      All build data comes from optimizer_results.db via baked JSON — zero hand-authoring of D4 content.
+      Stop at checkpoints for architect review, do not proceed without approval.
+      Legendary gear shape is {base_item_type, aspect_id} — display name computed at render time.
+      Sourced-stat tooltips use human-readable provenance, never raw SQL.
+      Suspicious optimizer output rendered verbatim, logged to docs/optimizer_concerns.md, never editorialized in the UI.
+      Compare drawer is scope-protected — do not cut before landing page or polish.
+    hands_off_to: [architect]

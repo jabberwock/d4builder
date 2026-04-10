@@ -1,6 +1,6 @@
 # d4-builder Data Spec
 
-All data lives in `site/`. Paths below are relative to that directory. (This directory was previously named `workers/d4-builder/`; renamed 2026-04-09 because the project ships as a static Astro site, not a Cloudflare Worker.)
+All data lives in `webapp/`. Paths below are relative to that directory. (This directory was previously named `workers/d4-builder/`; renamed 2026-04-09 because the project ships as a static Astro site, not a Cloudflare Worker.)
 
 **This spec follows the optimizer.** Build composition comes from `data/optimizer_results.db` via `data/optimizer_v2.py`. Where the spec and the optimizer disagree, the spec gets updated to match the optimizer — never the other way around. The optimizer is the source of truth for what fields exist and what shape they take.
 
@@ -14,7 +14,7 @@ Hand-authoring of build composition is forbidden. See `~/.claude/projects/-Users
 | `/data/builds/<id>.json` | Full build data (skills, gear, paragon, runewords, mercenary, dungeons) |
 | `/data/skill_trees.json` | Per-build skill tree data — bar, upgrades, passives, key passive |
 
-## Source Files (`site/`)
+## Source Files (`webapp/`)
 
 | File | Purpose |
 |------|---------|
