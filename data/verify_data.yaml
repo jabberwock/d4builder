@@ -63,7 +63,7 @@ affixes:
 passive_effects:
   - power_name: Sorcerer_Talent_Cold_T3_N1
     name: Shatter
-    require_tag: damage
+    require_tag: damage_proc
     expected_value: 0.45
   - power_name: Barbarian_Talent_Warlord_T5_N1
     name: Walking Arsenal

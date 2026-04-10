@@ -19,7 +19,9 @@
     "d4data_sfs": {
       "SF_0": 0.2,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_FireBall": {
     "name": "Sorcerer_Enchantment_FireBall",
@@ -41,7 +43,9 @@
     "d4data_sfs": {
       "SF_0": 0.5,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_FlameShield": {
     "name": "Sorcerer_Enchantment_FlameShield",
@@ -65,7 +69,9 @@
       "SF_2": 0.3,
       "SF_3": 2.0,
       "SF_4": 30.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_FrostNova": {
     "name": "Sorcerer_Enchantment_FrostNova",
@@ -88,7 +94,9 @@
       "SF_0": 10.0,
       "SF_1": 1.0,
       "SF_2": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Firebolt": {
     "name": "Sorcerer_Enchantment_Firebolt",
@@ -115,7 +123,9 @@
       "SF_6": 0.2,
       "SF_7": 0.1,
       "SF_8": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_ChargedBolt": {
     "name": "Sorcerer_Enchantment_ChargedBolt",
@@ -138,7 +148,9 @@
       "SF_0": 3.0,
       "SF_1": 0.4,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Frostbolt": {
     "name": "Sorcerer_Enchantment_Frostbolt",
@@ -147,20 +159,20 @@
     "desc": "Direct damage from Skills applies up to [18*Table(34,SkillRank(287256))*(1+(ParagonNodeIsPurchased(673447)?0.3:0))|%|] Chill.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "applies_chill",
         "value": 0.18,
-        "raw_value": 18.0,
-        "format": "%",
-        "type": "percent",
-        "expr": "18*Table(34,SkillRank(287256))*(1+(ParagonNodeIsPurchased(673447)?0.3:0))",
-        "d4data_sf": "SF_0",
-        "d4data_verified": true
+        "raw_value": 0.18,
+        "format": "override",
+        "type": "manual",
+        "source": "18% chill application per skill rank, scales with paragon node"
       }
     ],
     "d4data_sfs": {
       "SF_0": 18.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": true
   },
   "Sorcerer_Enchantment_IceArmor": {
     "name": "Sorcerer_Enchantment_IceArmor",
@@ -182,7 +194,9 @@
     "d4data_sfs": {
       "SF_0": 0.25,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Firewall": {
     "name": "Sorcerer_Enchantment_Firewall",
@@ -206,7 +220,9 @@
       "SF_1": 3.0,
       "SF_2": 3.0,
       "SF_3": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Blizzard": {
     "name": "Sorcerer_Enchantment_Blizzard",
@@ -239,7 +255,9 @@
       "SF_0": 15.0,
       "SF_1": 6.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Incinerate": {
     "name": "Sorcerer_Enchantment_Incinerate",
@@ -263,7 +281,9 @@
       "SF_1": 8.0,
       "SF_2": 1.0,
       "SF_3": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_ArcLash": {
     "name": "Sorcerer_Enchantment_ArcLash",
@@ -284,7 +304,9 @@
       "SF_0": 1.0,
       "SF_1": 2.0,
       "SF_3": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Meteor": {
     "name": "Sorcerer_Enchantment_Meteor",
@@ -307,7 +329,9 @@
       "SF_0": 8.0,
       "SF_1": 4.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_IceBlades": {
     "name": "Sorcerer_Enchantment_IceBlades",
@@ -329,7 +353,9 @@
     "d4data_sfs": {
       "SF_0": 40.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Hydra": {
     "name": "Sorcerer_Enchantment_Hydra",
@@ -338,7 +364,7 @@
     "desc": "After spending [200*(1/(1+(ParagonNodeIsPurchased(673447)?0.3:0)))|2?|] Mana, a 5-headed Hydra spawns for [10*(1+Affix_Value_1(579752)/100)*(ParagonGlyphAffixIsActive(1025799)?1:1)|2?|] seconds.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_cost",
         "value": 200.0,
         "raw_value": 200.0,
         "format": "2?",
@@ -365,7 +391,9 @@
       "SF_3": 1.0,
       "SF_4": 1.0,
       "SF_5": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_BallLightning": {
     "name": "Sorcerer_Enchantment_BallLightning",
@@ -389,7 +417,9 @@
       "SF_1": 3.0,
       "SF_2": 1.0,
       "SF_3": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_Teleport": {
     "name": "Sorcerer_Enchantment_Teleport",
@@ -398,17 +428,19 @@
     "desc": "Evade invokes Teleport with a [5*(1-(ParagonNodeIsPurchased(673447)?0.3:0))|2?|] second Cooldown that cannot be reduced.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "cooldown_value",
         "value": 5.0,
         "raw_value": 5.0,
-        "format": "2?",
-        "type": "duration_or_value",
-        "expr": "5*(1-(ParagonNodeIsPurchased(673447)?0.3:0))"
+        "format": "override",
+        "type": "manual",
+        "source": "5s cooldown on Evade-replaces-Teleport (cannot be reduced)"
       }
     ],
     "d4data_sfs": {
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": true
   },
   "Sorcerer_Enchantment_LightningSpear": {
     "name": "Sorcerer_Enchantment_LightningSpear",
@@ -430,7 +462,9 @@
     "d4data_sfs": {
       "SF_0": 0.1,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Enchantment_FrozenOrb": {
     "name": "Sorcerer_Enchantment_FrozenOrb",
@@ -454,7 +488,9 @@
       "SF_1": 18.0,
       "SF_2": 1.0,
       "SF_3": 12.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T2_N2": {
     "name": "Permafrost",
@@ -475,7 +511,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_02": {
     "name": "Primordial Binding",
@@ -496,7 +534,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_01": {
     "name": "Hoarfrost",
@@ -528,7 +568,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T2_N3": {
     "name": "Icy Touch",
@@ -549,7 +591,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T3_N1": {
     "name": "Shatter",
@@ -558,7 +602,7 @@
     "desc": "After Freeze expires, enemies explode for [(0.45+Sorc_Shatter_Damage)*100|%|] of the damage you dealt to them while Frozen.",
     "effects": [
       {
-        "tag": "damage",
+        "tag": "damage_proc",
         "value": 0.45,
         "raw_value": 45.0,
         "format": "%",
@@ -571,7 +615,9 @@
     "d4data_sfs": {
       "SF_0": 0.45,
       "SF_1": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T3_N2": {
     "name": "Avalanche",
@@ -611,7 +657,9 @@
       "SF_0": 0.0,
       "SF_1": 0.6,
       "SF_4": 0.25
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T2_N3": {
     "name": "Elemental Dominance",
@@ -633,7 +681,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 50.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T2_N2": {
     "name": "Elemental Attunement",
@@ -655,7 +705,9 @@
     "d4data_sfs": {
       "SF_0": 7.0,
       "SF_1": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T2_N1": {
     "name": "Glass Cannon",
@@ -687,7 +739,9 @@
     "d4data_sfs": {
       "SF_0": 0.08,
       "SF_1": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T2_N1": {
     "name": "Warmth",
@@ -716,7 +770,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "healing_pct",
         "value": 0.02,
         "raw_value": 2.0,
         "format": "1%",
@@ -730,7 +784,9 @@
       "SF_0": 1.0,
       "SF_1": 0.002,
       "SF_2": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T1_N2": {
     "name": "Inner Flames",
@@ -751,7 +807,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T1_N1": {
     "name": "Soulfire",
@@ -786,7 +844,9 @@
       "SF_2": 0.04,
       "SF_3": 0.04,
       "SF_4": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T2_N2": {
     "name": "Endless Pyre",
@@ -818,7 +878,9 @@
     "d4data_sfs": {
       "SF_0": 0.06,
       "SF_1": 0.25
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T3_N1": {
     "name": "Combustion",
@@ -858,7 +920,9 @@
       "SF_0": 0.2,
       "SF_1": 0.5,
       "SF_4": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T3_N2": {
     "name": "Esu's Ferocity",
@@ -889,7 +953,9 @@
       "SF_0": 0.75,
       "SF_1": 0.4,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T1_N1": {
     "name": "Coursing Currents",
@@ -912,7 +978,9 @@
       "SF_0": 0.01,
       "SF_2": 5.0,
       "SF_3": 50.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_09": {
     "name": "Invigorating Conduit",
@@ -921,7 +989,7 @@
     "desc": "Upon absorbing Crackling Energy, you gain [4*sLevel|2?|] Mana.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_flat",
         "value": 4.0,
         "raw_value": 4.0,
         "format": "2?",
@@ -933,7 +1001,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_10": {
     "name": "Conduction",
@@ -955,7 +1025,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T1_N2": {
     "name": "Static Discharge",
@@ -976,7 +1048,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T3_N1": {
     "name": "Overflowing Energy",
@@ -999,7 +1073,9 @@
       "SF_1": 0.1,
       "SF_2": 0.35,
       "SF_3": 0.85
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T3_N2": {
     "name": "Vyr's Mastery",
@@ -1033,7 +1109,9 @@
       "SF_15": 0.016666666666666666,
       "SF_16": 0.5,
       "SF_17": 0.25
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_05": {
     "name": "Frigid Breeze",
@@ -1055,7 +1133,9 @@
     "d4data_sfs": {
       "SF_0": 5.0,
       "SF_1": 20.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_03": {
     "name": "Precision Magic",
@@ -1076,7 +1156,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T1_N2": {
     "name": "Devastation",
@@ -1097,7 +1179,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_07": {
     "name": "Protection",
@@ -1116,7 +1200,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "barrier",
+        "tag": "life",
         "value": 0.05,
         "raw_value": 0.05,
         "format": "",
@@ -1129,7 +1213,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_08": {
     "name": "Crippling Flames",
@@ -1151,7 +1237,9 @@
     "d4data_sfs": {
       "SF_0": 0.07,
       "SF_1": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T1_N2": {
     "name": "Snap Freeze",
@@ -1172,7 +1260,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 7.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T2_N1": {
     "name": "Cold Front",
@@ -1193,7 +1283,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_06": {
     "name": "Mana Shield",
@@ -1216,7 +1308,9 @@
       "SF_0": 100.0,
       "SF_1": 0.1,
       "SF_2": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Cold_T1_N1": {
     "name": "Icy Veil",
@@ -1237,7 +1331,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_04": {
     "name": "Fiery Surge",
@@ -1259,7 +1355,9 @@
     "d4data_sfs": {
       "SF_0": 0.15,
       "SF_1": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T2_N2": {
     "name": "Convulsions",
@@ -1283,7 +1381,9 @@
       "SF_1": 3.0,
       "SF_3": 15.0,
       "SF_4": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Lightning_T2_N3": {
     "name": "Electrocution",
@@ -1306,7 +1406,9 @@
       "SF_0": 0.06,
       "SF_1": 5.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Fire_T2_N3": {
     "name": "Devouring Blaze",
@@ -1315,7 +1417,7 @@
     "desc": "Your Pyromancy Skills deal [0.1*sLevel*100|%x|] increased Critical Strike Damage.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.1,
         "raw_value": 10.0,
         "format": "%x",
@@ -1327,7 +1429,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T1_N1": {
     "name": "Potent Warding",
@@ -1360,7 +1464,9 @@
       "SF_0": 0.03,
       "SF_1": 0.05,
       "SF_2": 9.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_Elemental_T1_N3": {
     "name": "Align the Elements",
@@ -1383,7 +1489,9 @@
       "SF_0": 3.0,
       "SF_1": 60.0,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_12": {
     "name": "Elemental Synergies",
@@ -1405,7 +1513,9 @@
     "d4data_sfs": {
       "SF_0": 0.01,
       "SF_1": 6.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_14": {
     "name": "Energy Focus",
@@ -1429,7 +1539,9 @@
       "SF_1": 0.2,
       "SF_2": 5.0,
       "SF_3": 6.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_11": {
     "name": "Dampen Layer",
@@ -1450,7 +1562,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Sorcerer_Talent_13": {
     "name": "Evocation",
@@ -1471,7 +1585,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T2_N2": {
     "name": "Digitigrade Gait",
@@ -1493,7 +1609,9 @@
     "d4data_sfs": {
       "SF_0": 3.0,
       "SF_1": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_11": {
     "name": "Mending",
@@ -1518,7 +1636,9 @@
         "expr": "sLevel*0.04*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_06": {
     "name": "Nature's Reach",
@@ -1535,7 +1655,9 @@
         "expr": "sLevel*0.05*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T1_N2": {
     "name": "Abundance",
@@ -1544,7 +1666,7 @@
     "desc": "Basic Skills generate [0.15*sLevel*100|%|] more Spirit.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_pct",
         "value": 0.15,
         "raw_value": 15.0,
         "format": "%",
@@ -1556,7 +1678,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T2_N1": {
     "name": "Iron Fur",
@@ -1578,7 +1702,9 @@
     "d4data_sfs": {
       "SF_0": 3.0,
       "SF_1": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_03": {
     "name": "Clarity",
@@ -1593,19 +1719,13 @@
         "format": "%x",
         "type": "multiplicative",
         "expr": "0.05*sLevel*100"
-      },
-      {
-        "tag": "unknown",
-        "value": 0.05,
-        "raw_value": 5.0,
-        "format": "%x",
-        "type": "multiplicative",
-        "expr": "0.05*sLevel*3*100"
       }
     ],
     "d4data_sfs": {
       "SF_1": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T4_N3": {
     "name": "Toxic Claws",
@@ -1627,7 +1747,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_07": {
     "name": "Thick Hide",
@@ -1652,7 +1774,9 @@
         "expr": "Max(1,)"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T3_N2": {
     "name": "Nature's Resolve",
@@ -1682,7 +1806,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 0.044
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_10": {
     "name": "Wild Impulses",
@@ -1691,7 +1817,7 @@
     "desc": "Your Core Skills cost [sLevel*0.03*100|%x|] more Spirit but deal [sLevel*0.05*100|%x|] increased damage.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "resource_gen_pct",
         "value": 0.03,
         "raw_value": 3.0,
         "format": "%x",
@@ -1707,7 +1833,9 @@
         "expr": "sLevel*0.05*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_04": {
     "name": "Defensive Posture",
@@ -1724,7 +1852,9 @@
         "expr": "sLevel*0.05*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_02": {
     "name": "Safeguard",
@@ -1749,7 +1879,9 @@
         "expr": "Max(1,)"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_01": {
     "name": "Stone Guard",
@@ -1766,7 +1898,9 @@
         "expr": "sLevel*0.04*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Hybrid_T5_N2": {
     "name": "Nature's Fury",
@@ -1789,7 +1923,9 @@
       "SF_1": 7.0,
       "SF_5": 0.4,
       "SF_6": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T2_N2": {
     "name": "Crushing Earth",
@@ -1811,7 +1947,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Hybrid_T5_N1": {
     "name": "Bestial Rampage",
@@ -1843,7 +1981,9 @@
       "SF_1": 0.3,
       "SF_2": 0.4,
       "SF_3": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T5_N2": {
     "name": "Lupine Ferocity",
@@ -1867,7 +2007,9 @@
       "SF_1": 3.0,
       "SF_2": 0.5,
       "SF_3": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T5_N1": {
     "name": "Ursine Strength",
@@ -1912,7 +2054,9 @@
       "SF_2": 0.8,
       "SF_3": 8.0,
       "SF_4": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T3_N1": {
     "name": "Neurotoxin",
@@ -1934,7 +2078,9 @@
     "d4data_sfs": {
       "SF_0": 0.08,
       "SF_1": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T4_N1": {
     "name": "Quickshift",
@@ -1958,7 +2104,9 @@
       "SF_1": 3.0,
       "SF_2": 6.0,
       "SF_3": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T4_N2": {
     "name": "Natural Fortitude",
@@ -1989,7 +2137,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.002
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T4_N2": {
     "name": "Defiance",
@@ -2010,7 +2160,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_05": {
     "name": "Heart of the Wild",
@@ -2027,7 +2179,9 @@
         "expr": "sLevel*3"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T2_N3": {
     "name": "Call of the Wild",
@@ -2036,7 +2190,7 @@
     "desc": "Your Companion Skills deal [0.12*sLevel*100|%x|] bonus damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 0.12,
         "raw_value": 12.0,
         "format": "%x",
@@ -2048,7 +2202,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.12
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_13": {
     "name": "Charged Atmosphere",
@@ -2073,7 +2229,9 @@
       "SF_2": 8.0,
       "SF_3": 1.0,
       "SF_4": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_12": {
     "name": "Provocation",
@@ -2095,7 +2253,9 @@
     "d4data_sfs": {
       "SF_0": 10.0,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_09": {
     "name": "Vigilance",
@@ -2114,7 +2274,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 6.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T1_N1": {
     "name": "Heightened Senses",
@@ -2149,7 +2311,9 @@
       "SF_2": 0.03,
       "SF_3": 0.03,
       "SF_4": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T5_N2": {
     "name": "Perfect Storm",
@@ -2170,7 +2334,9 @@
     "d4data_sfs": {
       "SF_1": 0.8,
       "SF_4": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T5_N1": {
     "name": "Earthen Might",
@@ -2179,7 +2345,7 @@
     "desc": "Lucky Hit: Damaging enemies with Earth Skills has up to a 15% chance to:  Restore 100 Spirit  Cause your attacks to be guaranteed Critical Strikes and deal 70%[x] increased Critical Strike Damage for [|2?|] seconds  This chance is increased by:  20% for Critical Strikes  25% if the target is Stunned",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.7,
         "raw_value": 70.0,
         "type": "multiplicative",
@@ -2197,7 +2363,9 @@
       "SF_5": 0.7,
       "SF_6": 1.0,
       "SF_7": 100.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_08": {
     "name": "Unrestrained",
@@ -2216,7 +2384,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 0.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T4_N3": {
     "name": "Natural Disaster",
@@ -2249,7 +2419,9 @@
       "SF_0": 0.04,
       "SF_2": 5.0,
       "SF_3": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T4_N1": {
     "name": "Electric Shock",
@@ -2268,7 +2440,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 0.07,
         "raw_value": 7.000000000000001,
         "format": "%x",
@@ -2282,7 +2454,9 @@
       "SF_0": 0.08,
       "SF_2": 3.0,
       "SF_3": 0.07
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T3_N3": {
     "name": "Endless Tempest",
@@ -2303,7 +2477,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T3_N2": {
     "name": "Resonance",
@@ -2325,7 +2501,9 @@
     "d4data_sfs": {
       "SF_0": 0.02,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Shapeshifting_T1_N2": {
     "name": "Predatory Instinct",
@@ -2334,7 +2512,7 @@
     "desc": "Critical Strike Chance against Close enemies is increased by [0.02*sLevel*100|%+|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "crit_chance",
         "value": 0.02,
         "raw_value": 2.0,
         "format": "%+",
@@ -2346,7 +2524,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T2_N3": {
     "name": "Ancestral Fortitude",
@@ -2367,7 +2547,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T1_N1": {
     "name": "Circle of Life",
@@ -2398,7 +2580,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.01
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_15": {
     "name": "Envenom",
@@ -2419,7 +2603,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "X1_Druid_Talent_Hybrid_T5_N6": {
     "name": "One With Nature",
@@ -2440,7 +2626,9 @@
     "d4data_sfs": {
       "SF_0": 1.0,
       "SF_1": 0.8
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_17": {
     "name": "Humanity",
@@ -2472,7 +2660,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_2": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_16": {
     "name": "Catastrophe",
@@ -2494,7 +2684,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_2": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_18": {
     "name": "Feral Aptitude ",
@@ -2516,7 +2708,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_19": {
     "name": "Backlash",
@@ -2538,7 +2732,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Deer_04": {
     "name": "Advantageous Beast",
@@ -2559,7 +2755,9 @@
     "d4data_sfs": {
       "SF_0": 0.15,
       "SF_1": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Eagle_01": {
     "name": "Scythe Talons",
@@ -2589,7 +2787,9 @@
     "d4data_sfs": {
       "SF_0": 0.15,
       "SF_1": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Eagle_02": {
     "name": "Iron Feather",
@@ -2609,7 +2809,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.3
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Eagle_03": {
     "name": "Swooping Attacks",
@@ -2629,7 +2831,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.2
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Eagle_04": {
     "name": "Avian Wrath",
@@ -2649,7 +2853,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.4
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Wolf_01": {
     "name": "Pack Leader",
@@ -2670,7 +2876,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 30.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Wolf_04": {
     "name": "Calamity",
@@ -2691,7 +2899,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.35
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Passive_Snake_03": {
     "name": "Masochistic",
@@ -2700,7 +2910,7 @@
     "desc": "Lucky Hit: Critical Strikes with Shapeshifting Skills have up to a 30% chance to Fortify you for 1% Maximum Life ([PlayerHealthMax()*0.01||]).",
     "effects": [
       {
-        "tag": "proc_chance",
+        "tag": "life",
         "value": 0.01,
         "raw_value": 0.01,
         "format": "",
@@ -2713,7 +2923,9 @@
     "d4data_sfs": {
       "SF_0": 0.01,
       "SF_1": 30.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T1_N2": {
     "name": "Tough as Nails",
@@ -2722,7 +2934,7 @@
     "desc": "Increase your Thorns by [0.03*sLevel*100|%+|]. When enemies hit you, they take an additional 15% of your Thorns as Bleeding damage over [|2?|] seconds.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "thorns",
         "value": 0.03,
         "raw_value": 3.0,
         "format": "%+",
@@ -2734,7 +2946,9 @@
       "SF_1": 5.0,
       "SF_3": 0.15,
       "SF_6": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_09": {
     "name": "Raid Leader",
@@ -2755,7 +2969,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.01
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_07": {
     "name": "Outburst",
@@ -2764,7 +2980,7 @@
     "desc": "Gain [Max(1,ToPlayerDmgNum(0.04*sLevel))|2?|] Thorns. Also gain [Max(1,ToPlayerDmgNum(0.02))|2?|] Thorns for each [Max(1,ToPlayerDmgNum(0.1))|2?|] bonus Maximum Life you have.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "thorns",
         "value": 0.04,
         "raw_value": 0.04,
         "format": "2?",
@@ -2774,7 +2990,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "thorns",
         "value": 0.02,
         "raw_value": 0.02,
         "format": "2?",
@@ -2798,7 +3014,9 @@
       "SF_0": 0.04,
       "SF_2": 0.1,
       "SF_3": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_01": {
     "name": "Aggressive Resistance",
@@ -2819,7 +3037,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T3_N2": {
     "name": "Quick Impulses",
@@ -2836,7 +3056,9 @@
         "expr": "0.06*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_08": {
     "name": "Pressure Point",
@@ -2857,7 +3079,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_03": {
     "name": "Counteroffensive ",
@@ -2879,7 +3103,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T3_N3": {
     "name": "Invigorating Fury",
@@ -2911,7 +3137,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 100.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_04": {
     "name": "Defensive Stance",
@@ -2934,7 +3162,9 @@
       "SF_0": 0.03,
       "SF_1": 1.0,
       "SF_2": 0.005
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T4_N3": {
     "name": "Prolific Fury",
@@ -2943,7 +3173,7 @@
     "desc": "While Berserking, Fury Generation is increased by [0.06*sLevel*100|%x|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_pct",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%x",
@@ -2951,7 +3181,9 @@
         "expr": "0.06*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T2_N4": {
     "name": "Heavy Handed",
@@ -2960,7 +3192,7 @@
     "desc": "While using Two-Handed weapons you deal [0.06*sLevel*100|%x|] increased Critical Strike Damage.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%x",
@@ -2972,7 +3204,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T5_N2": {
     "name": "Unbridled Rage",
@@ -2990,7 +3224,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "damage_mult",
+        "tag": "resource_gen_pct",
         "value": 1.0,
         "raw_value": 100.0,
         "type": "multiplicative",
@@ -3003,7 +3237,9 @@
       "SF_0": -1.0,
       "SF_1": 0.5,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T5_N1": {
     "name": "Walking Arsenal",
@@ -3035,7 +3271,9 @@
       "SF_1": 1.0,
       "SF_2": 15.0,
       "SF_7": 0.45
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T2_N3": {
     "name": "Duelist",
@@ -3056,7 +3294,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_06": {
     "name": "Imposing Presence ",
@@ -3077,7 +3317,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T1_N2": {
     "name": "Endless Fury",
@@ -3086,7 +3328,7 @@
     "desc": "Basic Skills generate [0.12*sLevel*100|%x|] more Fury.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_pct",
         "value": 0.12,
         "raw_value": 12.0,
         "format": "%x",
@@ -3098,7 +3340,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.12
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T3_N1": {
     "name": "Guttural Yell",
@@ -3120,7 +3364,9 @@
     "d4data_sfs": {
       "SF_0": 5.0,
       "SF_1": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_05": {
     "name": "Tempered Fury",
@@ -3141,7 +3387,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T2_N2": {
     "name": "Brute Force",
@@ -3162,7 +3410,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T2_N1": {
     "name": "Booming Voice",
@@ -3183,7 +3433,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_10": {
     "name": "Wallop",
@@ -3204,7 +3456,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T1_N1": {
     "name": "Martial Vigor",
@@ -3225,7 +3479,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T5_N2": {
     "name": "Unconstrained",
@@ -3234,7 +3490,7 @@
     "desc": "Berserking's damage bonus is increased to [(0.25+0.35*SkillRank(213966))*100|%x|]. While not Healthy, you are always Berserk and gain a 30%[x] Physical Damage Reduction bonus.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 0.25,
         "raw_value": 25.0,
         "format": "%x",
@@ -3256,7 +3512,9 @@
       "SF_1": 0.0,
       "SF_3": 0.8,
       "SF_4": 0.3
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T5_N1": {
     "name": "Gushing Wounds",
@@ -3293,7 +3551,9 @@
       "SF_8": 1.0,
       "SF_9": 0.7,
       "SF_10": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T4_N2": {
     "name": "No Mercy",
@@ -3315,7 +3575,9 @@
     "d4data_sfs": {
       "SF_0": 0.045,
       "SF_1": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T4_N1": {
     "name": "Cut to the Bone",
@@ -3336,7 +3598,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T3_N2": {
     "name": "Furious Impulse",
@@ -3345,7 +3609,7 @@
     "desc": "Each time you swap weapons, gain [2*sLevel|2?|] Fury.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_flat",
         "value": 2.0,
         "raw_value": 2.0,
         "format": "2?",
@@ -3357,7 +3621,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T4_N1": {
     "name": "Pit Fighter",
@@ -3389,7 +3655,9 @@
     "d4data_sfs": {
       "SF_0": 0.02,
       "SF_2": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T2_N3": {
     "name": "Thick Skin",
@@ -3420,7 +3688,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.001
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T1_N1": {
     "name": "Swiftness",
@@ -3441,7 +3711,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_Berserker_T3_N3": {
     "name": "Slaying Strike",
@@ -3463,7 +3735,9 @@
     "d4data_sfs": {
       "SF_0": 0.35,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "X1_Barbarian_Talent_Key_Passive_Thorns_vCD": {
     "name": "Barbed Carapace",
@@ -3472,7 +3746,7 @@
     "desc": "For every 25 Fury you spend, you gain 10%[+] Thorns for 8 seconds, up to 120%.  Casting a Skill with a Cooldown grants you Unhindered for 5 seconds. During this time, you deal 120% of your Thorns as Physical damage to Close enemies every second.",
     "effects": [
       {
-        "tag": "duration",
+        "tag": "thorns",
         "value": 0.1,
         "raw_value": 10.0,
         "type": "additive",
@@ -3493,7 +3767,9 @@
       "SF_8": 5.0,
       "SF_9": 0.0,
       "SF_10": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_11": {
     "name": "Belligerence ",
@@ -3515,7 +3791,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_13": {
     "name": "Warpath",
@@ -3537,7 +3815,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_14": {
     "name": "Irrepressible ",
@@ -3566,7 +3846,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Barbarian_Talent_12": {
     "name": "Heavy Hitter",
@@ -3587,7 +3869,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T1_N1": {
     "name": "Agile",
@@ -3609,7 +3893,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T2_N1": {
     "name": "Weapon Mastery",
@@ -3648,7 +3934,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%x",
@@ -3664,7 +3950,9 @@
       "SF_4": 0.04,
       "SF_6": 0.05,
       "SF_8": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T2_N1": {
     "name": "Alchemist's Fortune",
@@ -3685,7 +3973,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_01": {
     "name": "Trap Mastery",
@@ -3707,7 +3997,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T4_N3": {
     "name": "Aftermath",
@@ -3730,7 +4022,9 @@
       "SF_0": 35.0,
       "SF_1": 0.005,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T1_N2": {
     "name": "Mending Obscurity",
@@ -3761,7 +4055,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.07
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T4_N1": {
     "name": "Frigid Finesse",
@@ -3793,7 +4089,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_08": {
     "name": "Haste",
@@ -3826,7 +4124,9 @@
       "SF_0": 0.5,
       "SF_1": 0.05,
       "SF_2": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_07": {
     "name": "Second Wind",
@@ -3845,7 +4145,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "barrier",
+        "tag": "life",
         "value": 0.15,
         "raw_value": 0.15,
         "format": "",
@@ -3859,7 +4159,9 @@
       "SF_0": 100.0,
       "SF_1": 0.15,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T5_N2": {
     "name": "Momentum",
@@ -3868,7 +4170,7 @@
     "desc": "Casting or Channeling a Cutthroat Skill grants a stack of Momentum. Casting a Marksman Skill removes a stack of Momentum.   For each stack of Momentum, you gain:  3% Damage Reduction  3% Maximum Energy  3%[x] Energy Regeneration  3%[+] Movement Speed  6%[x] Increased Damage  Maximum of 10 Stacks.",
     "effects": [
       {
-        "tag": "damage_reduction",
+        "tag": "resource_regen_pct",
         "value": 0.03,
         "raw_value": 3.0,
         "type": "multiplicative",
@@ -3904,7 +4206,9 @@
       "SF_8": 6.0,
       "SF_9": 0.06,
       "SF_11": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T3_N1": {
     "name": "Exploit",
@@ -3925,7 +4229,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T4_N2": {
     "name": "Malice",
@@ -3956,7 +4262,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T2_N3": {
     "name": "Siphoning Strikes",
@@ -3988,7 +4296,9 @@
     "d4data_sfs": {
       "SF_0": 0.005,
       "SF_1": 85.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_09": {
     "name": "Adrenaline Rush",
@@ -3997,7 +4307,7 @@
     "desc": "While moving, you gain [0.07*sLevel*100|%x|] increased Energy Regeneration.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_regen_pct",
         "value": 0.07,
         "raw_value": 7.000000000000001,
         "format": "%x",
@@ -4010,7 +4320,9 @@
     "d4data_sfs": {
       "SF_0": 0.07,
       "SF_1": 0.2
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T3_N4": {
     "name": "Unstable Elixirs",
@@ -4035,7 +4347,9 @@
       "SF_2": 3.0,
       "SF_3": 4.5,
       "SF_4": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T1_N2": {
     "name": "Sturdy",
@@ -4056,7 +4370,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_10": {
     "name": "Innervation",
@@ -4065,7 +4381,7 @@
     "desc": "Lucky Hit: Up to a [10*sLevel|2?|]% chance to gain 8 Energy.",
     "effects": [
       {
-        "tag": "proc_chance",
+        "tag": "resource_gen_flat",
         "value": 10.0,
         "raw_value": 10.0,
         "format": "2?",
@@ -4078,7 +4394,9 @@
     "d4data_sfs": {
       "SF_0": 10.0,
       "SF_1": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T3_N3": {
     "name": "Reactive Defense",
@@ -4099,7 +4417,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T2_N2": {
     "name": "Deadly Venom",
@@ -4120,7 +4440,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_02": {
     "name": "Shadow Crash",
@@ -4139,7 +4461,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 1.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T5_N1": {
     "name": "Close Quarters Combat",
@@ -4157,7 +4481,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "damage_mult",
+        "tag": "damage_mult_vs_close",
         "value": 0.5,
         "raw_value": 50.0,
         "type": "multiplicative",
@@ -4166,7 +4490,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "damage_mult_vs_close",
         "value": 0.9,
         "raw_value": 90.0,
         "type": "multiplicative",
@@ -4180,7 +4504,9 @@
       "SF_1": 8.0,
       "SF_2": 0.5,
       "SF_4": 0.9
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T5_N3": {
     "name": "Victimize",
@@ -4206,7 +4532,9 @@
       "SF_6": 3.0,
       "SF_8": 2.0,
       "SF_9": 0.2
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T5_N1": {
     "name": "Exposure",
@@ -4224,7 +4552,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "duration",
+        "tag": "damage_mult",
         "value": 1.0,
         "raw_value": 100.0,
         "type": "multiplicative",
@@ -4237,7 +4565,9 @@
       "SF_6": 0.1,
       "SF_7": 10.0,
       "SF_8": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T3_N2": {
     "name": "Consuming Shadows",
@@ -4246,7 +4576,7 @@
     "desc": "Each time you kill an enemy with Shadow damage, you generate [10*sLevel|2?|] Energy.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_flat",
         "value": 10.0,
         "raw_value": 10.0,
         "format": "2?",
@@ -4258,7 +4588,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_03": {
     "name": "Chilling Weight",
@@ -4267,7 +4599,7 @@
     "desc": "Chilled enemies have their Movement Speed further reduced by up to [0.1*sLevel*100|%|] and you gain [0.05*sLevel*100|%x|] increased Chill effect.",
     "effects": [
       {
-        "tag": "movement_speed",
+        "tag": "slow_pct",
         "value": 0.1,
         "raw_value": 10.0,
         "format": "%",
@@ -4277,7 +4609,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "applies_chill",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%x",
@@ -4290,7 +4622,9 @@
     "d4data_sfs": {
       "SF_0": 0.1,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_04": {
     "name": "Trick Attacks",
@@ -4313,12 +4647,22 @@
         "format": "%x",
         "type": "multiplicative",
         "expr": "0.01*sLevel*100"
+      },
+      {
+        "tag": "damage",
+        "value": 0.01,
+        "raw_value": 1.0,
+        "format": "%",
+        "type": "percent",
+        "expr": "0.01*sLevel*5*100"
       }
     ],
     "d4data_sfs": {
       "SF_1": 5.0,
       "SF_3": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_05": {
     "name": "Debilitating Toxins",
@@ -4327,7 +4671,7 @@
     "desc": "Poisoned enemies deal [0.05*sLevel*100|%|] less damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%",
@@ -4339,7 +4683,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T4_N1": {
     "name": "Alchemical Advantage",
@@ -4363,7 +4709,9 @@
       "SF_1": 5.0,
       "SF_2": 8.0,
       "SF_4": 0.01
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T4_N3": {
     "name": "Precision Imbuement",
@@ -4384,7 +4732,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T2_N2": {
     "name": "Rugged",
@@ -4405,7 +4755,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.09
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T3_N2": {
     "name": "Impetus",
@@ -4438,7 +4790,9 @@
       "SF_0": 15.0,
       "SF_1": 0.08,
       "SF_3": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T1_N1": {
     "name": "Stutter Step",
@@ -4460,7 +4814,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Buildaround_01": {
     "name": "Precision",
@@ -4469,7 +4825,7 @@
     "desc": "When you cast a Marksman Skill, you gain a stack of Precision.  When you reach 3 stacks of Precision, your next Marksman Ultimate or Core Skill is a guaranteed Critical Strike and deals 65%[x] increased Critical Strike Damage, consuming all stacks of Precision. This damage is further increased by 10",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.65,
         "raw_value": 65.0,
         "type": "multiplicative",
@@ -4502,7 +4858,9 @@
       "SF_6": 1.0,
       "SF_8": 3.6,
       "SF_10": 0.65
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_06": {
     "name": "Rapid Gambits",
@@ -4524,7 +4882,9 @@
     "d4data_sfs": {
       "SF_0": 0.25,
       "SF_1": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T5_N3": {
     "name": "Alchemical Admixture",
@@ -4533,7 +4893,7 @@
     "desc": "Dealing 2 different types of Non-Physical damage increases the Potency of your Imbuement Skills by 100%[x] and Non-Physical damage by 50%[x] for 8 seconds.",
     "effects": [
       {
-        "tag": "duration",
+        "tag": "damage_mult",
         "value": 1.0,
         "raw_value": 100.0,
         "type": "multiplicative",
@@ -4560,7 +4920,9 @@
       "SF_5": 2.0,
       "SF_6": 0.5,
       "SF_7": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Cunning_T1_N3": {
     "name": "Evasive",
@@ -4582,7 +4944,9 @@
     "d4data_sfs": {
       "SF_0": 0.02,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T4_N4": {
     "name": "Unto Dawn",
@@ -4603,7 +4967,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_11": {
     "name": "Target Practice",
@@ -4612,7 +4978,7 @@
     "desc": "Your Critical Strike Chance with Marksman and Cutthroat Skills is increased by [0.03*sLevel*100|%+|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "crit_chance",
         "value": 0.03,
         "raw_value": 3.0,
         "format": "%+",
@@ -4624,7 +4990,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_12": {
     "name": "Balestra",
@@ -4646,7 +5014,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_13": {
     "name": "Deadeye",
@@ -4669,7 +5039,9 @@
       "SF_0": 0.1,
       "SF_1": 5.0,
       "SF_2": 14.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Rogue_Talent_Mechanic_T1_N1": {
     "name": "Inner Sight",
@@ -4710,7 +5082,9 @@
       "SF_11": 0.25,
       "SF_14": 0.25,
       "SF_15": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T2_N1": {
     "name": "Terror",
@@ -4735,7 +5109,9 @@
         "expr": "0.03*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_01": {
     "name": "Gloom",
@@ -4757,7 +5133,9 @@
     "d4data_sfs": {
       "SF_1": 4.0,
       "SF_2": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T4_N2": {
     "name": "Transfusion",
@@ -4776,7 +5154,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T1_N1": {
     "name": "Stand Alone",
@@ -4798,7 +5178,9 @@
     "d4data_sfs": {
       "SF_0": 0.06,
       "SF_1": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T3_N2": {
     "name": "Compound Fracture",
@@ -4818,7 +5200,9 @@
     "d4data_sfs": {
       "SF_1": 10.0,
       "SF_2": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T4_N1": {
     "name": "Reaper's Pursuit",
@@ -4855,7 +5239,9 @@
       "SF_4": 6.0,
       "SF_5": 2.0,
       "SF_6": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T3_N1": {
     "name": "Imperfectly Balanced",
@@ -4864,7 +5250,7 @@
     "desc": "Your Core Skills cost [0.03*sLevel*100|x%|] more Essence, but deal [0.05*sLevel*100|%x|] increased damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_pct",
         "value": 0.03,
         "raw_value": 3.0,
         "format": "x%",
@@ -4887,7 +5273,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T4_N3": {
     "name": "Serration",
@@ -4908,7 +5296,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.01
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T5_N1": {
     "name": "Ossified Essence",
@@ -4926,7 +5316,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 1.4,
         "raw_value": 140.0,
         "type": "multiplicative",
@@ -4940,7 +5330,9 @@
       "SF_1": 0.0,
       "SF_6": 0.5,
       "SF_7": 1.4
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T5_N2": {
     "name": "Shadowblight",
@@ -4949,7 +5341,7 @@
     "desc": "Shadow damage infects enemies with Shadowblight for [|2?|] seconds. Every 8th time an enemy receives Shadow damage from you while they are affected by Shadowblight, they take an additional [|2?|] Shadow damage.   Shadowblight's damage is increased by 70%[x] of your Corrupting Damage and Shadow Damag",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 0.7,
         "raw_value": 70.0,
         "type": "multiplicative",
@@ -4958,7 +5350,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 4.5,
         "raw_value": 450.0,
         "type": "multiplicative",
@@ -4973,7 +5365,9 @@
       "SF_2": 8.0,
       "SF_3": 0.7,
       "SF_8": 4.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Playstyle_T1_N1": {
     "name": "Rapid Ossification",
@@ -4995,7 +5389,9 @@
     "d4data_sfs": {
       "SF_0": 0.5,
       "SF_1": 100.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T2_N2": {
     "name": "Coalesced Blood",
@@ -5016,7 +5412,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T1_N1": {
     "name": "Bonded in Essence",
@@ -5038,7 +5436,9 @@
     "d4data_sfs": {
       "SF_0": 0.2,
       "SF_1": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T1_N2": {
     "name": "Evulsion",
@@ -5057,7 +5457,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_04": {
     "name": "Grim Harvest",
@@ -5066,7 +5468,7 @@
     "desc": "Consuming a Corpse generates [2*sLevel|2?|] Essence.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_flat",
         "value": 2.0,
         "raw_value": 2.0,
         "format": "2?",
@@ -5078,7 +5480,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T2_N2": {
     "name": "Hewed Flesh",
@@ -5099,7 +5503,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_07": {
     "name": "Necrotic Carapace",
@@ -5128,7 +5534,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T4_N1": {
     "name": "Inspiring Leader",
@@ -5151,7 +5559,9 @@
       "SF_0": 0.04,
       "SF_1": 0.25,
       "SF_2": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_06": {
     "name": "Memento Mori",
@@ -5160,15 +5570,17 @@
     "desc": "Sacrificing both Skeletal Warriors and Skeletal Mages increases their Sacrifice bonuses by [0.2*sLevel*100|%|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "sacrifice_bonus_pct",
         "value": 0.2,
-        "raw_value": 20.0,
-        "format": "%",
-        "type": "percent",
-        "expr": "0.2*sLevel*100"
+        "raw_value": 0.2,
+        "format": "override",
+        "type": "manual",
+        "source": "20% per skill level increase to Book of the Dead Sacrifice bonuses"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": true
   },
   "Necromancer_Talent_Summoning_T4_N3": {
     "name": "Drain Vitality",
@@ -5200,7 +5612,9 @@
     "d4data_sfs": {
       "SF_0": 0.005,
       "SF_1": 30.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Playstyle_T1_N2": {
     "name": "Tides of Blood",
@@ -5209,7 +5623,7 @@
     "desc": "Your Blood Skills deal [0.05*sLevel*100|%x|] increased Overpower damage. This bonus is doubled while you are Healthy.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "overpower_damage_mult",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%x",
@@ -5222,7 +5636,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 0.8
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T5_N1": {
     "name": "Rathma's Vigor",
@@ -5231,7 +5647,7 @@
     "desc": "After being Healthy for 10 seconds, your next Blood Skill Overpowers. This timer is reduced by 2 seconds each time Blood Orbs Heal or Overheal you for [TableHealthToFlat(Hitpoints_Max,Level)|2?|] Life.  You deal 100%[x] increased Overpower damage.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "overpower_damage_mult",
         "value": 1.0,
         "raw_value": 100.0,
         "type": "multiplicative",
@@ -5247,7 +5663,9 @@
       "SF_5": 2.0,
       "SF_9": 1.0,
       "SF_10": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T5_N2": {
     "name": "Kalan's Edict",
@@ -5291,7 +5709,9 @@
       "SF_4": 3.0,
       "SF_6": 2.0,
       "SF_7": 15.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T2_N1": {
     "name": "Hellbent Commander",
@@ -5313,7 +5733,9 @@
     "d4data_sfs": {
       "SF_0": 0.1,
       "SF_1": 0.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_SkeletonWarrior": {
     "name": "Skeletal Warrior Mastery",
@@ -5330,7 +5752,9 @@
         "expr": "0.15*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_SkeletonMage": {
     "name": "Skeletal Mage Mastery",
@@ -5347,7 +5771,9 @@
         "expr": "0.2*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Golem": {
     "name": "Golem Mastery",
@@ -5364,7 +5790,9 @@
         "expr": "0.25*sLevel*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_02": {
     "name": "Death's Defense",
@@ -5396,7 +5824,9 @@
     "d4data_sfs": {
       "SF_0": 0.08,
       "SF_1": 0.08
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T3_N2": {
     "name": "Fueled by Death",
@@ -5418,7 +5848,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Caster_T4_N2": {
     "name": "Gruesome Mending",
@@ -5435,7 +5867,9 @@
         "expr": "sLevel/10*100"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_03": {
     "name": "Unliving Energy",
@@ -5456,7 +5890,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_05": {
     "name": "Death's Approach",
@@ -5478,7 +5914,9 @@
     "d4data_sfs": {
       "SF_0": 0.04,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_09": {
     "name": "Death's Embrace",
@@ -5510,7 +5948,9 @@
     "d4data_sfs": {
       "SF_0": 0.02,
       "SF_1": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_10": {
     "name": "Spiked Armor",
@@ -5519,7 +5959,7 @@
     "desc": "Gain [ToPlayerDmgNum(0.1*sLevel)|2?|] Thorns, [0.05*sLevel*100|%x|] Armor, and 10%[+] Block Chance.",
     "effects": [
       {
-        "tag": "armor",
+        "tag": "thorns",
         "value": 0.1,
         "raw_value": 0.1,
         "format": "2?",
@@ -5539,7 +5979,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "armor",
+        "tag": "block_chance",
         "value": 0.1,
         "raw_value": 10.0,
         "type": "additive",
@@ -5552,7 +5992,9 @@
       "SF_0": 0.1,
       "SF_2": 0.05,
       "SF_3": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Summoning_T3_N1": {
     "name": "Amplify Damage",
@@ -5573,7 +6015,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "x1_necro_key_passive": {
     "name": "Affliction",
@@ -5614,7 +6058,9 @@
       "SF_2": 1.2,
       "SF_7": 0.45,
       "SF_9": 9.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_11": {
     "name": "Necrotic Fortitude",
@@ -5637,7 +6083,9 @@
       "SF_0": 0.07,
       "SF_1": 0.07,
       "SF_2": 6.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_12": {
     "name": "Finality",
@@ -5659,7 +6107,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_2": 8.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_14": {
     "name": "Precision Decay",
@@ -5680,7 +6130,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_13": {
     "name": "Titan's Fall",
@@ -5701,7 +6153,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB": {
     "name": "Upgrade B",
@@ -5722,7 +6176,9 @@
     "d4data_sfs": {
       "SF_0": 3.0,
       "SF_1": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5748,7 +6204,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5774,7 +6232,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5800,7 +6260,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonMage_Shadow_Passive_UpgradeA": {
     "name": "Upgrade A",
@@ -5816,7 +6278,9 @@
         "format": "%[x]"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonMage_Shadow_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5845,7 +6309,9 @@
     "d4data_sfs": {
       "SF_2": 1.0,
       "SF_3": 0.2
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonMage_Cold_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5871,7 +6337,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB": {
     "name": "Upgrade B",
@@ -5888,7 +6356,9 @@
         "expr": "Max(1,)"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5897,7 +6367,7 @@
     "desc": "Your Overpower damage is increased by [0.3*(1+Affix_Value_1(1222268)/100)*100|%x|], but you can no longer raise Skeletal Mages.  Your Golem gains 60%[x] increased damage.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "overpower_damage_mult",
         "value": 0.3,
         "raw_value": 30.0,
         "format": "%x",
@@ -5914,7 +6384,9 @@
     ],
     "d4data_sfs": {
       "SF_3": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Golem_Bone_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5933,7 +6405,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Golem_Blood_Passive_UpgradeB": {
     "name": "Upgrade B",
@@ -5957,7 +6431,9 @@
         "format": "%[x]"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Golem_Blood_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5976,7 +6452,9 @@
     ],
     "d4data_sfs": {
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Golem_Iron_Passive_Sacrifice": {
     "name": "Sacrifice",
@@ -5985,7 +6463,7 @@
     "desc": "You deal [0.35*(1+Affix_Value_1(1222268)/100)*100|%x|] increased Critical Strike Damage, but you lose the ability to Summon a Golem.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.35,
         "raw_value": 35.0,
         "format": "%x",
@@ -5995,7 +6473,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_KeyPassive_1": {
     "name": "Vital Strikes",
@@ -6027,7 +6507,9 @@
       "SF_0": 1.0,
       "SF_1": 0.05,
       "SF_2": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_KeyPassive_5": {
     "name": "Adaptive Stances",
@@ -6071,7 +6553,9 @@
       "SF_4": 0.3,
       "SF_5": 0.03,
       "SF_6": 7.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_8": {
     "name": "Vigorous",
@@ -6093,7 +6577,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_7": {
     "name": "Dominant",
@@ -6116,7 +6602,9 @@
       "SF_0": 0.05,
       "SF_1": 0.05,
       "SF_2": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_6": {
     "name": "Endurance",
@@ -6125,7 +6613,7 @@
     "desc": "Casting a Defensive Skill grants [10*sLevel|2?|] Vigor.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_flat",
         "value": 10.0,
         "raw_value": 10.0,
         "format": "2?",
@@ -6137,7 +6625,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_5": {
     "name": "Acceleration",
@@ -6160,7 +6650,9 @@
       "SF_0": 0.08,
       "SF_1": 1.0,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Sky_4": {
     "name": "Auspicious",
@@ -6179,7 +6671,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "barrier",
+        "tag": "life",
         "value": 0.1,
         "raw_value": 0.1,
         "format": "",
@@ -6203,7 +6695,9 @@
       "SF_0": 0.1,
       "SF_1": 10.0,
       "SF_2": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Forest_1": {
     "name": "Patient Guard",
@@ -6222,7 +6716,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "duration",
+        "tag": "block_chance",
         "value": 0.1,
         "raw_value": 10.0,
         "type": "additive",
@@ -6236,7 +6730,9 @@
       "SF_1": 2.0,
       "SF_2": 0.5,
       "SF_3": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Forest_3": {
     "name": "Perseverance",
@@ -6258,7 +6754,9 @@
     "d4data_sfs": {
       "SF_0": 1.0,
       "SF_1": 0.005
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Forest_2": {
     "name": "Diminishment",
@@ -6279,7 +6777,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_3": {
     "name": "Resilient",
@@ -6301,7 +6801,9 @@
     "d4data_sfs": {
       "SF_0": 0.015,
       "SF_1": 6.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Forest_4": {
     "name": "Bastion",
@@ -6310,7 +6812,7 @@
     "desc": "Gain [ToPlayerDmgNum(0.3*sLevel)|2?|] Thorns. While you have a Barrier your Thorns are increased by 20%[x].",
     "effects": [
       {
-        "tag": "barrier",
+        "tag": "thorns",
         "value": 0.3,
         "raw_value": 0.3,
         "format": "2?",
@@ -6320,7 +6822,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "barrier",
+        "tag": "thorns",
         "value": 0.2,
         "raw_value": 20.0,
         "type": "multiplicative",
@@ -6332,7 +6834,9 @@
     "d4data_sfs": {
       "SF_0": 0.3,
       "SF_1": 0.2
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Sky_1": {
     "name": "Furnace",
@@ -6341,7 +6845,7 @@
     "desc": "Jaguar Skills deal [0.005*sLevel*100|%x1|] increased Critical Strike Damage per stack of Ferocity.",
     "effects": [
       {
-        "tag": "damage",
+        "tag": "crit_damage",
         "value": 0.005,
         "raw_value": 0.5,
         "format": "%x1",
@@ -6353,7 +6857,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.005
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Sky_3": {
     "name": "Follow Through",
@@ -6374,7 +6880,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Sky_2": {
     "name": "Apex",
@@ -6395,7 +6903,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_4": {
     "name": "Potent",
@@ -6418,7 +6928,9 @@
       "SF_0": 0.06,
       "SF_1": 3.0,
       "SF_2": 0.33
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Plains_4": {
     "name": "Fueled",
@@ -6440,7 +6952,9 @@
     "d4data_sfs": {
       "SF_1": 4.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Soil_1": {
     "name": "Antivenom",
@@ -6462,7 +6976,9 @@
     "d4data_sfs": {
       "SF_0": 0.15,
       "SF_1": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Soil_3": {
     "name": "Ravenous",
@@ -6484,7 +7000,9 @@
     "d4data_sfs": {
       "SF_0": 0.025,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Soil_2": {
     "name": "Nourishment",
@@ -6503,7 +7021,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "damage",
         "value": 0.2,
         "raw_value": 20.0,
         "type": "additive",
@@ -6517,7 +7035,9 @@
       "SF_1": 5.0,
       "SF_2": 0.04,
       "SF_3": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_2": {
     "name": "Oppressive",
@@ -6548,7 +7068,9 @@
     "d4data_sfs": {
       "SF_0": 0.3,
       "SF_1": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Plains_2": {
     "name": "Mirage",
@@ -6557,7 +7079,7 @@
     "desc": "Gain [Min(0.2*sLevel,1)*100|%+|] increased Dodge Chance during Evade. Whenever you Dodge, you gain [0.05*sLevel*100|%+|] Critical Strike Chance for 3 seconds.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "dodge_chance",
         "value": 0.2,
         "raw_value": 20.0,
         "format": "%+",
@@ -6578,7 +7100,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Plains_1": {
     "name": "Brilliance",
@@ -6600,7 +7124,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Soil_4": {
     "name": "Unrestrained Power",
@@ -6621,7 +7147,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_1": {
     "name": "Swift",
@@ -6643,7 +7171,9 @@
     "d4data_sfs": {
       "SF_0": 0.1,
       "SF_1": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_1_Alternate": {
     "name": "Sustenance",
@@ -6674,7 +7204,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.02
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_2": {
     "name": "Initiative",
@@ -6695,7 +7227,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_4": {
     "name": "Resolution",
@@ -6715,7 +7249,9 @@
     "d4data_sfs": {
       "SF_1": 18.0,
       "SF_2": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_3": {
     "name": "Spiritual Attunement",
@@ -6736,7 +7272,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_5": {
     "name": "Supremacy",
@@ -6745,7 +7283,7 @@
     "desc": "Any enemies you kill while an Ultimate Skill is active grants a stack of Supremacy, each increasing your damage by [0.01*sLevel*100|x%|], up to [0.01*sLevel*10*100|x%|]. When an Ultimate Skill ends, you gain 5 stacks of Supremacy, but you begin to lose one stack every second.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage",
         "value": 0.01,
         "raw_value": 1.0,
         "format": "x%",
@@ -6759,7 +7297,9 @@
       "SF_0": 0.01,
       "SF_1": 10.0,
       "SF_2": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_10": {
     "name": "Vehemence",
@@ -6791,7 +7331,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Generic_9": {
     "name": "Balanced Exertion",
@@ -6800,7 +7342,7 @@
     "desc": "Your Core Skills cost [0.03*sLevel*100|x%|] more Vigor, but deal [0.05*sLevel*100|%x|] increased damage.",
     "effects": [
       {
-        "tag": "damage",
+        "tag": "resource_gen_pct",
         "value": 0.03,
         "raw_value": 3.0,
         "format": "x%",
@@ -6823,7 +7365,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Spiritborn_Talent_Sky_5": {
     "name": "Focal Point",
@@ -6868,7 +7412,9 @@
       "SF_2": 0.05,
       "SF_3": 0.1,
       "SF_4": 3.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Core_1": {
     "name": "Piety ",
@@ -6889,7 +7435,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Core_2": {
     "name": "Discipline",
@@ -6910,7 +7458,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Defense_1": {
     "name": "En Garde",
@@ -6929,7 +7479,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "armor",
+        "tag": "block_chance",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%+",
@@ -6942,7 +7492,9 @@
     "d4data_sfs": {
       "SF_0": 0.1,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_05": {
     "name": "Righteousness",
@@ -6963,7 +7515,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_02": {
     "name": "Thorns and Thistles",
@@ -6972,7 +7526,7 @@
     "desc": "Gain 20 Thorns and your total Thorns damage is increased by [0.15*sLevel*100|%x|]",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "thorns",
         "value": 0.15,
         "raw_value": 15.0,
         "format": "%x",
@@ -6985,7 +7539,9 @@
     "d4data_sfs": {
       "SF_0": 20.0,
       "SF_1": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Ultimate_01": {
     "name": "Shining Armor",
@@ -7007,7 +7563,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_04": {
     "name": "Giant Slayer",
@@ -7040,7 +7598,9 @@
       "SF_0": 0.35,
       "SF_1": 0.08,
       "SF_2": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Ultimate_02": {
     "name": "Sacred Arms",
@@ -7071,7 +7631,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Defense_2": {
     "name": "Riposte",
@@ -7090,7 +7652,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Defense_3": {
     "name": "Renewal",
@@ -7121,7 +7685,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.005
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Defense_4": {
     "name": "Anointing",
@@ -7130,7 +7696,7 @@
     "desc": "Your Allies heal for [0.111*sLevel*100|%|] of the Healing you receive.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "heal_share",
         "value": 0.111,
         "raw_value": 11.1,
         "format": "%",
@@ -7142,7 +7708,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.111
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Defense_5": {
     "name": "Longevity",
@@ -7163,7 +7731,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.1
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_01": {
     "name": "Crack in the Armor",
@@ -7184,7 +7754,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_12": {
     "name": "Press the Advantage",
@@ -7206,7 +7778,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_03": {
     "name": "Repentance",
@@ -7215,7 +7789,7 @@
     "desc": "Gain [0.06*sLevel*100|%+|] Retribution chance.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "retribution",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%+",
@@ -7227,7 +7801,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_KeyPassive_1": {
     "name": "Coat of Arms",
@@ -7236,7 +7812,7 @@
     "desc": "Your damage is increased by 75% of your Armor Percent and 50% of your Block Chance.  Current Damage Bonus : [(0.75*ComputeArmorDamageReduction()+0.5*Min(1,Block_Chance))*100|%x|]",
     "effects": [
       {
-        "tag": "armor",
+        "tag": "damage_mult",
         "value": 0.75,
         "raw_value": 75.0,
         "format": "%x",
@@ -7249,7 +7825,9 @@
     "d4data_sfs": {
       "SF_0": 0.75,
       "SF_1": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_KeyPassive_2": {
     "name": "Path of the Penitent",
@@ -7282,7 +7860,9 @@
       "SF_2": 0.06,
       "SF_3": 4.0,
       "SF_4": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_KeyPassive_3": {
     "name": "Judgement Day",
@@ -7300,7 +7880,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "duration",
+        "tag": "damage_mult",
         "value": 0.9,
         "raw_value": 90.0,
         "type": "multiplicative",
@@ -7311,7 +7891,9 @@
       "SF_0": 0.06,
       "SF_1": 5.0,
       "SF_2": 15.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_KeyPassive_4": {
     "name": "Exaltation",
@@ -7320,7 +7902,7 @@
     "desc": "During Arbiter your damage is increased by 85%[x] and Wing Strikes strike 1 additional time.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "damage_mult",
         "value": 0.85,
         "raw_value": 85.0,
         "type": "multiplicative",
@@ -7332,7 +7914,9 @@
     "d4data_sfs": {
       "SF_0": 0.85,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_10": {
     "name": "Iron Sharpens Iron",
@@ -7353,7 +7937,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_08": {
     "name": "Resolute",
@@ -7385,7 +7971,9 @@
     "d4data_sfs": {
       "SF_0": 0.005,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_09": {
     "name": "Conviction",
@@ -7414,7 +8002,9 @@
     ],
     "d4data_sfs": {
       "SF_1": 10.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_10": {
     "name": "Attenuate",
@@ -7437,7 +8027,9 @@
       "SF_0": 0.01,
       "SF_1": 5.0,
       "SF_2": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_03": {
     "name": "High Charity",
@@ -7458,7 +8050,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_11": {
     "name": "Break the Line",
@@ -7490,7 +8084,9 @@
     "d4data_sfs": {
       "SF_0": 0.02,
       "SF_1": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_02": {
     "name": "Pacify",
@@ -7511,7 +8107,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_06": {
     "name": "The Best Offense",
@@ -7532,7 +8130,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_11": {
     "name": "Fortitude",
@@ -7553,7 +8153,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_13": {
     "name": "Heavyweight",
@@ -7562,7 +8164,7 @@
     "desc": "You deal [0.06*sLevel*100|%x|] increased Critical Strike Damage while Healthy.",
     "effects": [
       {
-        "tag": "damage_mult",
+        "tag": "crit_damage",
         "value": 0.06,
         "raw_value": 6.0,
         "format": "%x",
@@ -7574,7 +8176,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.06
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_09": {
     "name": "Dizzying Blow",
@@ -7595,7 +8199,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.07
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Ultimate_03": {
     "name": "Leave Luck to Heaven",
@@ -7616,7 +8222,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Juggernaut_01": {
     "name": "Courage",
@@ -7639,7 +8247,9 @@
       "SF_0": 8.0,
       "SF_2": 0.5,
       "SF_3": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Ultimate_04": {
     "name": "Master Craftwork",
@@ -7648,7 +8258,7 @@
     "desc": "Your Armor is increased by [0.5*sLevel*100|%|] of your Shield's Block Chance.",
     "effects": [
       {
-        "tag": "armor",
+        "tag": "block_chance",
         "value": 0.5,
         "raw_value": 50.0,
         "format": "%",
@@ -7660,7 +8270,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Ultimate_05": {
     "name": "Shake It Off",
@@ -7682,7 +8294,9 @@
     "d4data_sfs": {
       "SF_0": 0.08,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "NPC_Mercenary_ShieldBearer_PassiveA1": {
     "name": "Raheir's Guard",
@@ -7705,7 +8319,9 @@
       "SF_1": 9.0,
       "SF_2": 1.0,
       "SF_3": 81.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "NPC_Mercenary_ShieldBearer_PassiveA3": {
     "name": "Mocking Lure",
@@ -7725,7 +8341,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.15
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "NPC_Mercenary_ShieldBearer_PassiveA6": {
     "name": "Iron Wolf's Call",
@@ -7748,7 +8366,9 @@
       "SF_1": 0.25,
       "SF_2": 10.0,
       "SF_3": 0.25
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "NPC_Mercenary_ShieldBearer_PassiveA5": {
     "name": "Sundering Shield",
@@ -7770,7 +8390,9 @@
       "SF_0": 4.0,
       "SF_1": 3.0,
       "SF_2": 2.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "NPC_Mercenary_ShieldBearer_PassiveB3": {
     "name": "Inspiration",
@@ -7800,7 +8422,9 @@
     "d4data_sfs": {
       "SF_0": 0.15,
       "SF_1": 0.25
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Mercenary_BerserkerCrone_MassacrePassive2": {
     "name": "Massacre",
@@ -7852,7 +8476,9 @@
       "SF_7": 10.0,
       "SF_8": 10.0,
       "SF_9": 0.5
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_NatureMagic_T3_N1": {
     "name": "Primal Resonance",
@@ -7861,7 +8487,7 @@
     "desc": "Your Overpower damage is increased by [0.09*sLevel*100|%x|].",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "overpower_damage_mult",
         "value": 0.09,
         "raw_value": 9.0,
         "format": "%x",
@@ -7873,7 +8499,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.09
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_08": {
     "name": "Coagulation",
@@ -7904,7 +8532,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.011
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Druid_Talent_Hybrid_T5_N3": {
     "name": "[PH] Rampaging Earth",
@@ -7928,7 +8558,9 @@
       "SF_4": 1.0,
       "SF_5": 0.7,
       "SF_6": 4.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Barbarian_Talent_Warlord_T5_N3": {
     "name": "Relentless Juggernaut",
@@ -7945,7 +8577,9 @@
         "expr": "4*(1+Power_Duration_Bonus_Pct(1031902))"
       }
     ],
-    "d4data_sfs": {}
+    "d4data_sfs": {},
+    "placeholder": false,
+    "override_applied": false
   },
   "Necromancer_Talent_Hybrid_T5_N1": {
     "name": "[PH] Jagged Bones",
@@ -7980,7 +8614,9 @@
       "SF_5": 0.5,
       "SF_6": 20.0,
       "SF_7": 1.8
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Necromancer_Talent_Hybrid_T5_N2": {
     "name": "[PH] Vampiric Feast",
@@ -8008,7 +8644,9 @@
       "SF_6": 30.0,
       "SF_7": 0.3,
       "SF_8": 4.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Combo_SoilSky": {
     "name": "(PH) {icon:bullet,1.2} Reaper {icon:bullet,1.2}\r\n{c_gray}[Eagle][Centipede]{/c}",
@@ -8036,7 +8674,9 @@
       "SF_6": 1.0,
       "SF_7": 2.0,
       "SF_8": 6.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Combo_SkyPlains": {
     "name": "(PH) {icon:bullet,1.2} Duelist {icon:bullet,1.2}\r\n{c_gray}[Jaguar][Eagle]{/c}",
@@ -8074,7 +8714,9 @@
       "SF_7": 0.4,
       "SF_8": 1.5,
       "SF_9": 0.25
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Combo_SkyForest": {
     "name": "(PH) {icon:bullet,1.2} Vindicator {icon:bullet,1.2}\r\n{c_gray}[Eagle][Gorilla]{/c}",
@@ -8083,7 +8725,7 @@
     "desc": "(PH)  Gain 30%[+] Block Chance and 15%[+] Block Reduction while you have a Eagle Skill active.   Gain increased Critical Strike Damage equal to 100%[+] of your Block Chance. Blocking an attack doubles this bonus for 20 seconds.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "block_chance",
         "value": 0.3,
         "raw_value": 30.0,
         "type": "additive",
@@ -8092,7 +8734,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "unknown",
+        "tag": "block_reduction",
         "value": 0.15,
         "raw_value": 15.0,
         "type": "additive",
@@ -8101,7 +8743,7 @@
         "d4data_verified": true
       },
       {
-        "tag": "damage",
+        "tag": "block_chance",
         "value": 1.0,
         "raw_value": 100.0,
         "type": "additive",
@@ -8117,7 +8759,9 @@
       "SF_3": 0.15,
       "SF_4": 1.0,
       "SF_6": 20.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Combo_ForestPlains": {
     "name": "(PH) {icon:bullet,1.2} Bruiser {icon:bullet,1.2}\r\n{c_gray}[Jaguar][Gorilla]{/c}",
@@ -8126,7 +8770,7 @@
     "desc": "(PH)  While moving you gain 30%[+] Dodge Chance or after standing still for 3 seconds you become Unstoppable.   When you Dodge or Block an attack you trigger a 300% Thorns attack against the attacker.",
     "effects": [
       {
-        "tag": "duration",
+        "tag": "dodge_chance",
         "value": 0.3,
         "raw_value": 30.0,
         "type": "additive",
@@ -8143,7 +8787,9 @@
       "SF_4": 0.02,
       "SF_5": 0.01,
       "SF_7": 3.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_1": {
     "name": "(PH) Sustained Decay",
@@ -8164,7 +8810,9 @@
       "SF_0": 1.0,
       "SF_1": 1.0,
       "SF_2": 1.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Spiritborn_Talent_Ultimate_11": {
     "name": "(PH) Transcendence",
@@ -8185,7 +8833,9 @@
     "d4data_sfs": {
       "SF_0": 1.0,
       "SF_1": 1.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Rogue_Talent_Discipline_T4_N5": {
     "name": "Apothecary",
@@ -8206,7 +8856,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_01": {
     "name": "Valiance",
@@ -8228,7 +8880,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 4.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Arbiter_01": {
     "name": "(PH) Arbiter Damage Reduction",
@@ -8249,7 +8903,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Arbiter_02": {
     "name": "(PH) Arbiter CDR",
@@ -8270,7 +8926,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.04
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Arbiter_03": {
     "name": "(PH) Arbiter Resource",
@@ -8292,7 +8950,9 @@
     "d4data_sfs": {
       "SF_0": 5.0,
       "SF_1": 20.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Auras_1": {
     "name": "[WIP] Meditation",
@@ -8301,7 +8961,7 @@
     "desc": "Gain [0.05*sLevel*100|%x|] Primary Resource Generation for you and allies within your auras.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "resource_gen_pct",
         "value": 0.05,
         "raw_value": 5.0,
         "format": "%x",
@@ -8313,7 +8973,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.05
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Auras_2": {
     "name": "[WIP] Concentration",
@@ -8322,7 +8984,7 @@
     "desc": "Increase damage and crit strike damage by [0.015*sLevel*100|1%x|] for you and allies within your auras.",
     "effects": [
       {
-        "tag": "unknown",
+        "tag": "crit_damage",
         "value": 0.015,
         "raw_value": 1.5,
         "format": "1%x",
@@ -8334,7 +8996,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.015
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Auras_3": {
     "name": "[WIP] Salvation",
@@ -8366,7 +9030,9 @@
     "d4data_sfs": {
       "SF_0": 0.01,
       "SF_1": 0.02
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Auras_4": {
     "name": "[WIP] Vigor",
@@ -8387,7 +9053,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Auras_5": {
     "name": "[WIP] Conviction",
@@ -8408,7 +9076,9 @@
     ],
     "d4data_sfs": {
       "SF_0": 0.03
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_04": {
     "name": "[WIP] Update needed",
@@ -8430,7 +9100,9 @@
     "d4data_sfs": {
       "SF_0": 0.05,
       "SF_1": 5.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_05": {
     "name": "Courage",
@@ -8452,7 +9124,9 @@
     "d4data_sfs": {
       "SF_0": 0.03,
       "SF_1": 5.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "Paladin_Talent_Valor_07": {
     "name": "[WIP] DR for Resolve",
@@ -8474,7 +9148,9 @@
     "d4data_sfs": {
       "SF_0": 1.0,
       "SF_1": 0.005
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "Paladin_Talent_Justice_06": {
     "name": "[WIP] Faith Spend CDR",
@@ -8496,7 +9172,9 @@
     "d4data_sfs": {
       "SF_0": 0.5,
       "SF_1": 100.0
-    }
+    },
+    "placeholder": true,
+    "override_applied": false
   },
   "yhuo_PreloadPerfTest_IceArmor_Good": {
     "name": "Ice Armor",
@@ -8530,7 +9208,9 @@
       "SF_20": 0.15,
       "SF_21": 1.0,
       "SF_22": 50.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   },
   "yhuo_PreloadPerfTest_IceArmor_Bad": {
     "name": "Ice Armor",
@@ -8564,6 +9244,8 @@
       "SF_20": 0.15,
       "SF_21": 1.0,
       "SF_22": 50.0
-    }
+    },
+    "placeholder": false,
+    "override_applied": false
   }
 }

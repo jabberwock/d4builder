@@ -30,6 +30,58 @@ MAXROLL = (lambda: __import__("_maxroll").MAXROLL_PATH)()
 POWER_DIR = Path("/Users/michael/code/d4builder/temp/d4data/json/base/meta/Power")
 PASSIVE_D4DATA = Path(__file__).parent / "passive_effects_d4data.json"
 OUT = Path(__file__).parent / "passive_table.json"
+OVERRIDES = Path(__file__).parent / "passive_overrides.yaml"
+
+
+def _load_overrides_yaml(path: Path) -> dict:
+    """
+    Minimal YAML parser for passive_overrides.yaml shape (no pyyaml dep).
+    Supports top-level mappings → list of inline-or-block mappings.
+    """
+    result: dict = {}
+    current_key: str | None = None
+    current_list: list | None = None
+    pending_block: dict | None = None
+    pending_indent = 0
+
+    def coerce(s: str):
+        s = s.strip()
+        if s.startswith("'") and s.endswith("'"):
+            return s[1:-1]
+        if s.startswith('"') and s.endswith('"'):
+            return s[1:-1]
+        try:
+            if "." in s:
+                return float(s)
+            return int(s)
+        except ValueError:
+            return s
+
+    with open(path) as f:
+        for raw in f:
+            stripped = raw.split("#", 1)[0].rstrip() if not raw.lstrip().startswith("#") else ""
+            if not stripped:
+                continue
+            indent = len(stripped) - len(stripped.lstrip())
+            line = stripped.strip()
+
+            if indent == 0 and line.endswith(":"):
+                current_key = line[:-1].strip()
+                result[current_key] = []
+                current_list = result[current_key]
+                pending_block = None
+            elif current_key is not None and line.startswith("- "):
+                rest = line[2:].strip()
+                if ":" in rest:
+                    k, v = rest.split(":", 1)
+                    pending_block = {k.strip(): coerce(v)}
+                    pending_indent = indent + 2
+                    current_list.append(pending_block)
+            elif pending_block is not None and indent >= pending_indent and ":" in line:
+                k, v = line.split(":", 1)
+                pending_block[k.strip()] = coerce(v)
+
+    return result
 
 
 def strip_markup_keep_brackets(s: str) -> str:
@@ -139,8 +191,28 @@ def extract_inline_value(token_match: re.Match, full_desc: str) -> dict | None:
 
     raw_value = leading * multiplier
 
-    # Try forward context first; fall back to backward, then wide bidirectional.
+    # Expression-driven tag detection: when the expression itself unambiguously
+    # identifies the effect type, skip context inference.
     fmt_type = parse_format_hint(fmt)
+    if "PlayerHealthMax" in expr:
+        # X * PlayerHealthMax() → "X% of max life" (heal/barrier value)
+        return {
+            "tag": "life",
+            "value": leading * multiplier / 100.0 if multiplier == 100 else leading,
+            "raw_value": raw_value,
+            "format": fmt,
+            "type": fmt_type,
+            "expr": expr[:80],
+        }
+
+    # Token-local hint: when the format marker is %[x] AND there's a "%[x]"
+    # earlier in the description with "damage" nearby, the value is likely
+    # a damage cap on the same effect.
+    fmt_str = fmt.lower()
+    is_damage_mult_marker = "x" in fmt_str
+
+    # Try forward context first; fall back to backward, then wide bidirectional,
+    # then full-description scan for global patterns.
     context = _forward_context(full_desc, token_match.end())
     tag = _infer_tag(context, fmt_type)
     if tag == "unknown":
@@ -148,10 +220,24 @@ def extract_inline_value(token_match: re.Match, full_desc: str) -> dict | None:
         if back:
             tag = _infer_tag(back, fmt_type)
     if tag == "unknown":
-        # Last resort: wide bidirectional 60-char window (legacy behavior)
+        # Wide bidirectional 60-char window
         wide = full_desc[max(0, token_match.start() - 60):
                          min(len(full_desc), token_match.end() + 60)].lower()
         tag = _infer_tag(wide, fmt_type)
+    if tag == "unknown":
+        # Final fallback: scan the entire description. Used for global
+        # patterns where the descriptor is far from the value
+        # (e.g., "Critical Strike Chance with X is increased by [val]").
+        # When the marker is multiplicative, prefer a damage-related tag
+        # since unannotated %[x] caps are nearly always damage mults.
+        full = full_desc.lower()
+        if is_damage_mult_marker and (
+            "increased damage" in full or "more damage" in full
+            or "deal " in full and "damage" in full
+        ):
+            tag = "damage_mult"
+        else:
+            tag = _infer_tag(full, fmt_type)
 
     # Convert to a normalized 0-1 fraction for percent values
     value = raw_value / 100.0 if "%" in fmt or fmt_type in ("percent", "multiplicative", "additive") else raw_value
@@ -172,7 +258,8 @@ def extract_hardcoded_value(match: re.Match, full_desc: str) -> dict | None:
     fmt_marker = match.group(2)  # 'x' or '+'
     fmt_type = "multiplicative" if fmt_marker == "x" else "additive"
 
-    # Forward context first, backward fallback, wide bidirectional last.
+    # Forward → backward → wide bidirectional → full desc scan.
+    is_damage_mult_marker = fmt_marker == "x"
     context = _forward_context(full_desc, match.end())
     tag = _infer_tag(context, fmt_type)
     if tag == "unknown":
@@ -183,6 +270,17 @@ def extract_hardcoded_value(match: re.Match, full_desc: str) -> dict | None:
         wide = full_desc[max(0, match.start() - 60):
                          min(len(full_desc), match.end() + 60)].lower()
         tag = _infer_tag(wide, fmt_type)
+    if tag == "unknown":
+        full = full_desc.lower()
+        # Multiplicative caps default to damage_mult since unannotated %[x]
+        # values are nearly always damage caps in D4 passives.
+        if is_damage_mult_marker and (
+            "increased damage" in full or "more damage" in full
+            or "damage is increased" in full
+        ):
+            tag = "damage_mult"
+        else:
+            tag = _infer_tag(full, fmt_type)
 
     return {
         "tag": tag,
@@ -223,6 +321,9 @@ def _backward_context(desc: str, end_pos: int, max_len: int = 50) -> str:
     return snippet.lower()
 
 
+_RESOURCE_WORDS = r"(mana|fury|spirit|essence|energy|faith|vigor)"
+
+
 def _infer_tag(context: str, fmt_type: str) -> str:
     """Determine semantic tag from surrounding context words.
 
@@ -230,19 +331,51 @@ def _infer_tag(context: str, fmt_type: str) -> str:
     generic "damage" fallback, otherwise nearby damage clauses pollute tags
     for things like resource_cost_reduction.
     """
-    # === Specific compound phrases (must come before generic damage) ===
+    # === Reductions and cost modifiers ===
     if "resource cost reduction" in context:
         return "resource_cost_reduction"
     if "cooldown reduction" in context:
         return "cooldown_reduction"
     if "damage reduction" in context:
         return "damage_reduction"
-    # Resource cost / mana cost reduction (Avalanche: "less Mana", Soulfire: "less Mana")
-    if re.search(r"less\s+(mana|fury|spirit|essence|energy|faith|vigor)", context):
+    if re.search(rf"less\s+{_RESOURCE_WORDS}", context):
         return "mana_cost_reduction"
-    if "summon damage" in context or "minion damage" in context:
+    if re.search(rf"cost\s+\S+\s+more\s+{_RESOURCE_WORDS}", context):
+        return "resource_cost_increase"
+
+    # === Summon / Minion / Companion damage ===
+    if (
+        "summon damage" in context
+        or "minion damage" in context
+        or "companion skills deal" in context
+    ):
         return "damage_mult_summon" if fmt_type == "multiplicative" else "damage_summon"
-    # Healing received (Mending: "additional Healing")
+
+    # === Resource generation / regeneration ===
+    # "X more Spirit" / "X more Fury" — % increase to generation
+    if re.search(rf"more\s+{_RESOURCE_WORDS}", context):
+        return "resource_gen_pct"
+    # "Fury Generation is increased by" / "X Generation is increased"
+    if re.search(rf"{_RESOURCE_WORDS}\s+generation\s+is\s+increased", context):
+        return "resource_gen_pct"
+    # "Primary Resource Generation" (general, [WIP] Meditation)
+    if "primary resource generation" in context or "resource generation" in context:
+        return "resource_gen_pct"
+    # "generates N Essence" / "gain N Fury" / "grants N Vigor"
+    if re.search(rf"(?:generates?|gain(?:s)?|grants?)\s+\S+\s+{_RESOURCE_WORDS}", context):
+        return "resource_gen_flat"
+    # "spending X Mana" / "costs X Mana" — resource cost
+    if re.search(rf"spend(?:ing)?\s+\S+\s+{_RESOURCE_WORDS}", context):
+        return "resource_cost"
+    # "Energy Regeneration" (increased)
+    if re.search(rf"{_RESOURCE_WORDS}\s+regeneration", context):
+        return "resource_regen_pct"
+
+    # === Maximum resource ===
+    if re.search(rf"maximum\s+{_RESOURCE_WORDS}", context):
+        return "resource_max"
+
+    # === Healing ===
     if (
         "additional healing" in context
         or "healing received" in context
@@ -250,45 +383,77 @@ def _infer_tag(context: str, fmt_type: str) -> str:
         or re.search(r"healing\s+from", context)
     ):
         return "healing_received"
-    # Maximum resource (Devastation: "Maximum Mana is increased",
-    # Heart of the Wild: "Maximum Spirit is increased")
-    if re.search(r"maximum\s+(mana|fury|spirit|essence|energy|faith|vigor)", context):
-        return "resource_max"
-    # Slow application (Cold Front: "more Chill", Neurotoxin: "slowed by")
-    if "more chill" in context or "apply" in context and "chill" in context:
+    if re.search(r"heal\s+for\s+\S+\s+of\s+your\s+maximum\s+life", context):
+        return "healing_pct"
+    if "allies heal" in context:
+        return "heal_share"
+    if re.search(r"healing\s+(?:you\s+)?(?:receive|gain)", context):
+        return "heal_share"
+
+    # === Crowd control / states applied ===
+    if "more chill" in context or "increased chill effect" in context:
         return "applies_chill"
-    if re.search(r"slowed?\s+by", context):
+    if re.search(r"appl(?:y|ies|ying)\s+\S*\s*chill", context):
+        return "applies_chill"
+    if re.search(r"slowed?\s+by", context) or "movement speed further reduced" in context:
         return "slow_pct"
-    # Damage proc on its own damage (Sorcerer Enchantments: "of its damage")
-    if "of its damage" in context:
+    if re.search(r"chance\s+to\s+(immobilize|stun|freeze|daze|fear|knock)", context):
+        return "proc_chance"
+    # "X% chance to Immobilize" — value precedes percent literal
+    if "chance to immobilize" in context:
+        return "proc_chance"
+
+    # === Thorns ===
+    if "thorns" in context:
+        return "thorns"
+
+    # === Dodge / Retribution / misc defense ===
+    if "dodge chance" in context:
+        return "dodge_chance"
+    if "retribution" in context:
+        return "retribution"
+    if "block chance" in context:
+        return "block_chance"
+    if "block reduction" in context:
+        return "block_reduction"
+
+    # === Damage proc on dealt damage ===
+    if "of its damage" in context or "of the damage" in context or "explode for" in context:
         return "damage_proc"
 
     # === Damage variants ===
-    if "damage to" in context:
-        m = re.search(r"damage to (\w+)", context)
+    if "damage to" in context or "damage vs" in context:
+        m = re.search(r"damage (?:to|vs)\s+(\w+)", context)
         if m:
             target = m.group(1).rstrip(".,?")
             return f"damage_mult_vs_{target}" if fmt_type == "multiplicative" else f"damage_vs_{target}"
-    # "more damage" / "increased damage" — also catch "more <element> damage"
-    # (e.g. "more Earth and Storm damage", "more Fire damage", "more Bone damage")
+    # Positional damage (overpower/crit/vuln) before generic damage
+    if "overpower damage" in context:
+        return "overpower_damage_mult" if fmt_type == "multiplicative" else "overpower_damage"
+    if "crit strike damage" in context or "critical strike damage" in context:
+        return "crit_damage"
+    if "critical strike chance" in context:
+        return "crit_chance"
+    # "more damage" / "increased damage" / "bonus damage" / "deal X damage"
+    # Also catch "X damage is increased by" and "damage bonus is increased to"
     if (
         "more damage" in context
         or "increased damage" in context
+        or "bonus damage" in context
+        or "damage is increased" in context
+        or "damage bonus" in context
         or "damage you" in context
-        or re.search(r"more\s+(?:\w+\s+(?:and\s+\w+\s+)?){1,3}damage", context)
-        or re.search(r"increased\s+(?:\w+\s+(?:and\s+\w+\s+)?){1,3}damage", context)
+        or "damage by" in context  # "increasing your damage by"
+        or "damage dealt" in context  # "damage dealt to them is increased"
+        or re.search(r"(?:more|increased)\s+(?:\w+\s+(?:and\s+\w+\s+)?){1,3}damage", context)
+        or re.search(r"deals?\s+\S*\s*\w*\s*damage", context)
     ):
         return "damage_mult" if fmt_type == "multiplicative" else "damage"
-    if "explode for" in context or "of the damage" in context:
-        return "damage_proc"
+
     if "attack speed" in context:
         return "attack_speed_mult" if fmt_type == "multiplicative" else "attack_speed"
     if "movement speed" in context:
         return "movement_speed"
-    if "critical strike chance" in context:
-        return "crit_chance"
-    if "critical strike damage" in context:
-        return "crit_damage"
     if "lucky hit" in context:
         return "lucky_hit"
     if "chance to" in context:
@@ -376,6 +541,18 @@ def main() -> None:
         with open(PASSIVE_D4DATA) as f:
             d4_passives = json.load(f)
 
+    # Load hand-tagged overrides for custom-mechanic passives.
+    # These replace any auto-extracted unknown effects with curated tags.
+    overrides: dict = {}
+    if OVERRIDES.exists():
+        try:
+            import yaml
+            with open(OVERRIDES) as f:
+                overrides = yaml.safe_load(f) or {}
+        except ImportError:
+            # Fallback: minimal YAML parser for our shape
+            overrides = _load_overrides_yaml(OVERRIDES)
+
     results: dict[str, dict] = {}
     for sid, s in skills_mx.items():
         if not isinstance(s, dict):
@@ -420,31 +597,86 @@ def main() -> None:
         if not effects:
             continue
 
+        # Mark dev placeholders so they're excluded from tag-rate denominator.
+        # These are stub passives in maxroll data that don't represent
+        # shipped game content (PH = placeholder, WIP = work in progress).
+        name_str = s.get("name") or sid
+        is_placeholder = bool(
+            re.search(r"\b(?:\(PH\)|\[PH\]|\[WIP\])", name_str, re.IGNORECASE)
+            or "(PH)" in name_str
+            or "[WIP]" in name_str
+            or name_str.startswith("(PH)")
+            or name_str.startswith("[PH]")
+        )
+
+        # Apply hand-tagged overrides: replace any unknown effects with the
+        # curated entries from passive_overrides.yaml. Lookup is by sid OR by
+        # display name (some overrides use the human name like "Memento Mori").
+        applied_override = False
+        override_entries = overrides.get(sid) or overrides.get(name_str)
+        if override_entries and isinstance(override_entries, list):
+            # Drop unknown effects and append curated overrides
+            effects = [e for e in effects if e["tag"] != "unknown"]
+            for ov in override_entries:
+                if not isinstance(ov, dict):
+                    continue
+                effects.append({
+                    "tag": ov.get("tag", "unknown"),
+                    "value": ov.get("value", 0),
+                    "raw_value": ov.get("value", 0),
+                    "format": "override",
+                    "type": "manual",
+                    "source": ov.get("source", ""),
+                })
+            applied_override = True
+
         results[sid] = {
-            "name": s.get("name") or sid,
+            "name": name_str,
             "primary_tag": s.get("primaryTag"),
             "category": s.get("category"),
             "desc": desc[:300],
             "effects": effects,
             "d4data_sfs": d4_sfs,
+            "placeholder": is_placeholder,
+            "override_applied": applied_override,
         }
 
     with open(OUT, "w") as f:
         json.dump(results, f, indent=2)
 
-    # Stats
+    # Stats — separate placeholder dev stubs from real game content
     total_passives = len(results)
-    with_meaningful = sum(
+    placeholders = sum(1 for r in results.values() if r.get("placeholder"))
+    real = total_passives - placeholders
+
+    real_effects = sum(
+        len(r["effects"]) for r in results.values() if not r.get("placeholder")
+    )
+    real_unknown = sum(
         1 for r in results.values()
-        if any(e["tag"] != "unknown" for e in r["effects"])
+        if not r.get("placeholder")
+        for e in r["effects"]
+        if e["tag"] == "unknown"
+    )
+    real_with_unknown = sum(
+        1 for r in results.values()
+        if not r.get("placeholder")
+        and any(e["tag"] == "unknown" for e in r["effects"])
     )
     with_d4_match = sum(
         1 for r in results.values()
         if any(e.get("d4data_verified") for e in r["effects"])
     )
+    tag_rate = (
+        100 * (real_effects - real_unknown) / real_effects if real_effects else 0.0
+    )
     print(f"\nExtracted {total_passives} passives to {OUT}")
-    print(f"  With non-unknown tags:  {with_meaningful}")
-    print(f"  With d4data verified:   {with_d4_match}")
+    print(f"  Real content:           {real} ({placeholders} dev placeholders excluded)")
+    print(f"  Real effects total:     {real_effects}")
+    print(f"  Real unknown effects:   {real_unknown}")
+    print(f"  Real passives w/ unknown: {real_with_unknown}")
+    print(f"  Tag rate (real):        {tag_rate:.1f}%")
+    print(f"  d4data verified:        {with_d4_match}")
     print()
 
     # Show key passive verifications

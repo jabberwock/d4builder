@@ -1,0 +1,41 @@
+# Hand-tagged overrides for passive effects the regex extractor can't classify.
+#
+# These are real game mechanics with custom logic — not data gaps, not regex
+# fixable patterns, just one-off effects whose semantic meaning needs human
+# interpretation.
+#
+# Each entry maps a power_name to a list of effect overrides. The extractor
+# applies these AFTER its own extraction, replacing any auto-extracted effects
+# for that passive. Each override must have:
+#   - tag: semantic category (free-form, e.g. "applies_chill", "cooldown_value")
+#   - value: numeric value
+#   - source: 1-line comment explaining where this came from in the desc
+#
+# To add a new override:
+#   1. Run `python3 build_passive_table.py` and inspect the unknown effects
+#   2. Read the passive's full description
+#   3. Decide what tag best categorizes the mechanic
+#   4. Add an entry here, re-run, and verify
+
+Sorcerer_Enchantment_Frostbolt:
+  # Desc: "Direct damage from Skills applies up to [18*Table(34, SkillRank)*...|%|] Chill."
+  # The 18% per skill rank is the chill application strength.
+  # Pattern: scales with skill rank, not fixed value. We tag as applies_chill.
+  - tag: applies_chill
+    value: 0.18
+    source: "18% chill application per skill rank, scales with paragon node"
+
+Sorcerer_Enchantment_Teleport:
+  # Desc: "Evade invokes Teleport with a [5*(...)|2?|] second Cooldown that cannot be reduced."
+  # The 5 is the literal cooldown of the Teleport-on-Evade replacement.
+  - tag: cooldown_value
+    value: 5.0
+    source: "5s cooldown on Evade-replaces-Teleport (cannot be reduced)"
+
+Memento Mori:
+  # Desc: "Sacrificing both Skeletal Warriors and Skeletal Mages increases their
+  # Sacrifice bonuses by [0.2*sLevel*100|%|]."
+  # 20% per skill level boost to the Book of the Dead Sacrifice bonus values.
+  - tag: sacrifice_bonus_pct
+    value: 0.2
+    source: "20% per skill level increase to Book of the Dead Sacrifice bonuses"
