@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Pre-commit hook: run data regression suite before allowing commits.
+#
+# Installed via scripts/install-hooks.sh which copies this file to
+# .git/hooks/pre-commit and makes it executable.
+#
+# To bypass for an emergency commit (NOT recommended): git commit --no-verify
+# To run manually: bash scripts/pre-commit
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+# Only run if any data files OR extractors are touched.
+# Other commits (docs, webapp, etc.) skip the suite for speed.
+CHANGED=$(git diff --cached --name-only)
+if ! echo "$CHANGED" | grep -qE '^(data/|tools/pow_to_json\.py)'; then
+    exit 0
+fi
+
+echo "[pre-commit] Running data regression suite (data/ or extractor changed)..."
+if ! python3 data/verify_data.py; then
+    echo ""
+    echo "[pre-commit] FAIL — verify_data.py reported regressions."
+    echo "             Fix the values OR update data/verify_data.yaml if the new"
+    echo "             values are intentionally correct, then re-stage and commit."
+    echo "             Bypass with --no-verify only in emergencies."
+    exit 1
+fi
+echo "[pre-commit] OK"

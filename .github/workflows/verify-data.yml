@@ -1,0 +1,32 @@
+name: verify-data
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'tools/pow_to_json.py'
+      - '.github/workflows/verify-data.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'tools/pow_to_json.py'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      # PyYAML is optional — verify_data.py has an inline fallback parser.
+      # Install it anyway for marginally faster runs.
+      - name: Install pyyaml (optional)
+        run: pip install pyyaml
+
+      - name: Run data regression suite
+        run: python3 data/verify_data.py
