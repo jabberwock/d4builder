@@ -827,16 +827,6 @@
     "desc": "Your Burning effects deal 50%[x] increased damage, and an additional 20%[x] of your Burning Damage and Damage to Burning targets bonuses, up to 100%[x] .  Current Bonus: [Min(1,0.2*((1+DOT_DPS_Bonus_Percent_Per_Damage_Type(1))*(1+Multiplicative_DOT_DPS_Bonus_Percent_Per_Damage_Type(1))+-1+DOT_DPS_Bo",
     "effects": [
       {
-        "tag": "unknown",
-        "value": 0.2,
-        "raw_value": 20.0,
-        "format": "1%x",
-        "type": "multiplicative",
-        "expr": "Min(1,0.2*((1+DOT_DPS_Bonus_Percent_Per_Damage_Type(1))*(1+Multiplicative_DOT_DP",
-        "d4data_sf": "SF_0",
-        "d4data_verified": true
-      },
-      {
         "tag": "damage_mult",
         "value": 0.5,
         "raw_value": 50.0,
@@ -4158,14 +4148,6 @@
     "desc": "Damaging a Close enemy with Marksman or Cutthroat Skills each grant a 15%[+] Attack Speed bonus for [|2?|] seconds.  While both Attack Speed bonuses are active, you deal increased damage equal to 50%[x] of your Damage vs Close bonus, up to 90%[x].  Current Damage Increase: [Min(0.9,(1+Damage_Bonus_T",
     "effects": [
       {
-        "tag": "unknown",
-        "value": 1.0,
-        "raw_value": 100.0,
-        "format": "%x",
-        "type": "multiplicative",
-        "expr": "Min(0.9,(1+Damage_Bonus_To_Near)*(1+Multiplicative_Damage_Bonus_To_Near)*0.5)*10"
-      },
-      {
         "tag": "attack_speed",
         "value": 0.15,
         "raw_value": 15.0,
@@ -4486,16 +4468,6 @@
     "category": 12,
     "desc": "When you cast a Marksman Skill, you gain a stack of Precision.  When you reach 3 stacks of Precision, your next Marksman Ultimate or Core Skill is a guaranteed Critical Strike and deals 65%[x] increased Critical Strike Damage, consuming all stacks of Precision. This damage is further increased by 10",
     "effects": [
-      {
-        "tag": "unknown",
-        "value": 1.0,
-        "raw_value": 100.0,
-        "format": "1%x",
-        "type": "multiplicative",
-        "expr": "Min(3.6,((1+Crit_Damage_Percent)*(1+Multiplicative_Crit_Damage_Percent)*1.5+-1)+",
-        "d4data_sf": "SF_6",
-        "d4data_verified": true
-      },
       {
         "tag": "damage_mult",
         "value": 0.65,
@@ -4945,14 +4917,6 @@
     "desc": "Your Essence Generation is increased by 50% and your Bone Skills deal 0.7%[x] increased damage for each point of Essence you have when Cast, up to 140%[x].  Current Bonus: [Min(1.4,Max((Resource_Cur(6))*0.007,0))*100|1%x|]",
     "effects": [
       {
-        "tag": "unknown",
-        "value": 6.0,
-        "raw_value": 600.0,
-        "format": "1%x",
-        "type": "multiplicative",
-        "expr": "Min(1.4,Max((Resource_Cur(6))*0.007,0))*100"
-      },
-      {
         "tag": "damage_mult",
         "value": 0.006999999999999999,
         "raw_value": 0.7,
@@ -4984,14 +4948,6 @@
     "category": 12,
     "desc": "Shadow damage infects enemies with Shadowblight for [|2?|] seconds. Every 8th time an enemy receives Shadow damage from you while they are affected by Shadowblight, they take an additional [|2?|] Shadow damage.   Shadowblight's damage is increased by 70%[x] of your Corrupting Damage and Shadow Damag",
     "effects": [
-      {
-        "tag": "unknown",
-        "value": 5.0,
-        "raw_value": 500.0,
-        "format": "%x",
-        "type": "multiplicative",
-        "expr": "Min(4.5,((DOT_DPS_Bonus_Percent+DOT_DPS_Bonus_Percent_Per_Damage_Type(5))*(1+Mul"
-      },
       {
         "tag": "unknown",
         "value": 0.7,
@@ -5625,14 +5581,6 @@
     "category": 12,
     "desc": "Vulnerable, Crowd Controlled, or Corrupted enemies are Afflicted, taking 45%[x] increased damage from you.  Your Curse Skills deal [|2?|] Shadow damage when applied to Afflicted enemies. This amount increases by 120%[x] of your Damage to Crowd Controlled, Vulnerable Damage, and Critical Strike Damag",
     "effects": [
-      {
-        "tag": "unknown",
-        "value": 1.0,
-        "raw_value": 100.0,
-        "format": "%x",
-        "type": "multiplicative",
-        "expr": "Min(9,(Damage_Percent_Bonus_Vs_CC_All+((1+Crit_Damage_Percent)*(1+Multiplicative"
-      },
       {
         "tag": "damage_mult",
         "value": 0.45,

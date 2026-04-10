@@ -84,6 +84,37 @@ def extract_leading_number(expr: str) -> float | None:
     return None
 
 
+# Bonus-percentage runtime variables — when an expression contains one of
+# these AND is wrapped in Min/Max, it's the game computing the player's
+# CURRENT live bonus from their actual stats. These are tooltip displays,
+# not new effects.
+#
+# Important: PlayerHealthMax() and ToPlayerDmgNum() are NOT in this list
+# because they're just display formatters around real numeric coefficients
+# (e.g. PlayerHealthMax()*0.05 for "5% of max life heal" — the 0.05 is real).
+_BONUS_RUNTIME_PATTERNS = (
+    "_Bonus",          # Damage_Bonus_*, DOT_DPS_Bonus_*, Multiplicative_*_Bonus_*
+    "_Percent",        # *_Percent_Bonus, Crit_Damage_Percent, Damage_Percent_*
+    "Resource_Cur",    # Resource_Cur(N) — only used in "Current Bonus" displays
+)
+
+
+def _is_runtime_display_expr(expr: str) -> bool:
+    """
+    Detect 'Current Bonus' tooltip displays — expressions wrapped in Min/Max
+    clamps AND referencing live bonus state (Damage_Bonus_*, *_Percent_*,
+    Resource_Cur). These compute the player's current computed bonus and
+    would double-count if extracted as new effects.
+
+    Does NOT filter PlayerHealthMax/ToPlayerDmgNum tokens since those just
+    render real numeric coefficients (e.g. "5% of max life heal").
+    """
+    has_clamp = "Min(" in expr or "Max(" in expr
+    if not has_clamp:
+        return False
+    return any(p in expr for p in _BONUS_RUNTIME_PATTERNS)
+
+
 def extract_inline_value(token_match: re.Match, full_desc: str) -> dict | None:
     """
     Extract value + semantic tag from a [expr|format|] token, using surrounding
@@ -91,6 +122,11 @@ def extract_inline_value(token_match: re.Match, full_desc: str) -> dict | None:
     """
     expr = token_match.group(1) or ""
     fmt = token_match.group(2) or ""
+
+    # Skip 'Current Bonus' tooltip displays — they're computed from other
+    # effects and would double-count if extracted.
+    if _is_runtime_display_expr(expr):
+        return None
 
     leading = extract_leading_number(expr)
     if leading is None:

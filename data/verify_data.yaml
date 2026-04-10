@@ -1,0 +1,101 @@
+# Regression test fixtures for d4_stats.db and derived JSON files.
+#
+# Hand-curated known-correct values. When these change, EITHER an extractor
+# improved (and you should update this YAML and commit) OR something
+# regressed (and you should fix the extractor before committing).
+#
+# Tolerances:
+#   - skill_damage values: exact (DB stores them as fixed values)
+#   - cooldowns: ±0.5 sec (rounding)
+#   - affix max_value: ±0.5 (rounding from random ranges)
+#   - passive effect values: ±0.001 (floating point)
+#
+# To add a new fixture: pick a value you've manually verified against
+# game/maxroll, add it here, and re-run `python3 verify_data.py`.
+
+skill_damage:
+  # rank 5 damage_pct values from skill_damage table
+  - {power_name: Barbarian_DeathBlow,        display_name: Death Blow,         rank: 5, damage_pct: 420.0}
+  - {power_name: Barbarian_Upheaval,         display_name: Upheaval,           rank: 5, damage_pct: 280.0}
+  - {power_name: Barbarian_Charge,           display_name: Charge,             rank: 5, damage_pct: 252.0}
+  - {power_name: Druid_Hurricane,            display_name: Hurricane,          rank: 5, damage_pct: 484.4}
+  - {power_name: Druid_Ravens,               display_name: Ravens,             rank: 5, damage_pct: 420.0}
+  - {power_name: Necromancer_BloodWave,      display_name: Blood Wave,         rank: 5, damage_pct: 1540.0}
+  - {power_name: Necromancer_ArmyoftheDead,  display_name: Army of the Dead,   rank: 5, damage_pct: 980.0}
+  - {power_name: Necromancer_BoneStorm,      display_name: Bone Storm,         rank: 5, damage_pct: 560.0}
+  - {power_name: Paladin_Disciple_of_Justice, display_name: Arbiter of Justice, rank: 5, damage_pct: 840.0}
+  - {power_name: Paladin_Trinity,            display_name: Zenith,             rank: 5, damage_pct: 630.0}
+  - {power_name: Rogue_RainofArrows,         display_name: Rain of Arrows,     rank: 5, damage_pct: 630.0}
+  - {power_name: Rogue_DeathTrap,            display_name: Death Trap,         rank: 5, damage_pct: 280.0}
+  - {power_name: Rogue_Flurry,               display_name: Flurry,             rank: 5, damage_pct: 196.0}
+  - {power_name: Sorcerer_Inferno,           display_name: Inferno,            rank: 5, damage_pct: 595.0}
+  - {power_name: Sorcerer_BallLightning,     display_name: Ball Lightning,     rank: 5, damage_pct: 476.0}
+  - {power_name: Sorcerer_Firewall,          display_name: Firewall,           rank: 5, damage_pct: 420.0}
+  - {power_name: Spiritborn_Gorilla_Defensive1, display_name: Armored Hide,    rank: 5, damage_pct: 420.0}
+  - {power_name: Spiritborn_Gorilla_Potency, display_name: Payback,            rank: 5, damage_pct: 245.0}
+  - {power_name: Spiritborn_Jaguar_Potency,  display_name: Rushing Claw,       rank: 5, damage_pct: 224.0}
+
+# Cooldowns from data/d4data_cooldowns.json (extracted from .pow.json files)
+cooldowns:
+  - {power_name: Barbarian_WrathoftheBerserker, name: Wrath of the Berserker, seconds: 60.0}
+  - {power_name: Sorcerer_Inferno,             name: Inferno,                seconds: 45.0}
+  - {power_name: Sorcerer_DeepFreeze,          name: Deep Freeze,            seconds: 60.0}
+  - {power_name: Sorcerer_UnstableCurrents,    name: Unstable Currents,      seconds: 70.0}
+  - {power_name: Necromancer_ArmyoftheDead,    name: Army of the Dead,       seconds: 60.0}
+  - {power_name: Druid_GrizzlyRage,            name: Grizzly Rage,           seconds: 35.0}
+  - {power_name: Druid_Petrify,                name: Petrify,                seconds: 50.0}
+  - {power_name: Rogue_DeathTrap,              name: Death Trap,             seconds: 60.0}
+  - {power_name: Paladin_Fortress,             name: Fortress,               seconds: 60.0}
+  - {power_name: Sorcerer_FrostNova,           name: Frost Nova,             seconds: 24.0}
+  - {power_name: Sorcerer_IceBlades,           name: Ice Blades,             seconds: 16.0}
+  - {power_name: X1_Sorcerer_Familiar,         name: Familiar,               seconds: 12.0}
+  - {power_name: Spiritborn_Eagle_Ultimate,    name: The Seeker,             seconds: 45.0}
+
+# Affix max_value from affixes table (computed at item power 800)
+affixes:
+  - {internal_name: CritDamage,       max_value: 21.0}
+  - {internal_name: OverpowerDamage,  max_value: 63.5}
+  - {internal_name: AttackSpeed,      max_value: 10.0}
+  # NULL/missing entries — these reference real affixes whose internal names
+  # vary across seasons. Track that they're at least PRESENT in the DB.
+
+# Passive effects from data/passive_table.json
+passive_effects:
+  - power_name: Sorcerer_Talent_Cold_T3_N1
+    name: Shatter
+    require_tag: damage
+    expected_value: 0.45
+  - power_name: Barbarian_Talent_Warlord_T5_N1
+    name: Walking Arsenal
+    require_tag: damage_mult
+    expected_value: 0.15
+  - power_name: Necromancer_Talent_Caster_T5_N1
+    name: Ossified Essence
+    require_tag: damage_mult
+    expected_value: 0.007
+  - power_name: Paladin_Talent_KeyPassive_2
+    name: Path of the Penitent
+    require_tag: damage_mult
+    expected_value: 0.12
+  - power_name: Spiritborn_Talent_KeyPassive_1
+    name: Vital Strikes
+    require_tag: damage_mult_vs_vulnerable
+    expected_value: 1.0
+  - power_name: Druid_Talent_Hybrid_T5_N2
+    name: Nature's Fury
+    require_tag: damage_mult
+    expected_value: 0.4
+  - power_name: Rogue_Talent_Cunning_T5_N2
+    name: Momentum
+    require_tag: damage_mult
+    expected_value: 0.06
+
+# Sanity counts — overall data shape
+counts:
+  active_class_skills_min: 220
+  passives_total_min: 340
+  paragon_glyphs_total: 137
+  paragon_boards_total: 69
+  paragon_nodes_total: 493
+  unique_items_min: 850
+  d4data_cooldowns_min: 380
