@@ -1,6 +1,11 @@
 {
-  "last_task": null,
+  "last_task": "4b45a18",
   "pending": null,
-  "files_touched": [],
-  "status": "36-page static site builds clean — home, 7 class pages, 28 build detail pages all populated from real data"
+  "files_touched": [
+    "src/styles/global.css",
+    "src/pages/index.astro",
+    "src/pages/class/[class].astro",
+    "src/pages/builds/[...id].astro"
+  ],
+  "status": "All bugs fixed — tier colors, focus-visible, score breakdown, class cards, breadcrumbs. 36 pages clean."
 }

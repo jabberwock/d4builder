@@ -1,3 +1,4 @@
+.collab.db*
 .collab
 .env
 .DS_Store

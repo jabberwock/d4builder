@@ -1,53 +1,91 @@
 /* Design tokens */
 :root {
-  /* Colors */
+  /* Brand */
   --color-primary: #d8a500;
   --color-primary-dark: #b8860b;
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f5f5f5;
-  --color-text: #1a1a1a;
-  --color-text-secondary: #666666;
-  --color-border: #e0e0e0;
-  --color-error: #dc3545;
-  --color-success: #28a745;
+  --color-primary-glow: rgba(216, 165, 0, 0.15);
+
+  /* Dark background scale */
+  --color-bg: #0e0e12;
+  --color-bg-secondary: #16161d;
+  --color-bg-elevated: #1e1e28;
+  --color-bg-card: #1a1a23;
+
+  /* Text */
+  --color-text: #e8e8ec;
+  --color-text-secondary: #8a8a9a;
+  --color-text-muted: #555568;
+
+  /* Borders */
+  --color-border: #2a2a36;
+  --color-border-subtle: #1e1e28;
+
+  /* Semantic */
+  --color-error: #e05555;
+  --color-success: #4caf6e;
+
+  /* Tier colors */
+  --tier-s: #d4af37;
+  --tier-a: #22c55e;
+  --tier-b: #3b82f6;
+  --tier-c: #9ca3af;
+
+  /* Tier color aliases (canonical names) */
+  --color-tier-s: #d4af37;
+  --color-tier-a: #22c55e;
+  --color-tier-b: #3b82f6;
+  --color-tier-c: #9ca3af;
+
+  /* Section divider */
+  --color-divider: #e5e5e5;
+
+  /* Class accent colors (border/tag decoration only) */
+  --class-barbarian: #e25822;
+  --class-druid: #5d9e3c;
+  --class-necromancer: #9b59b6;
+  --class-paladin: #f0c040;
+  --class-rogue: #4a82b8;
+  --class-sorcerer: #3ab0d4;
+  --class-spiritborn: #2ec4b6;
 
   /* Spacing (8px baseline) */
-  --space-xs: 0.25rem; /* 4px */
-  --space-sm: 0.5rem;  /* 8px */
-  --space-md: 1rem;    /* 16px */
-  --space-lg: 1.5rem;  /* 24px */
-  --space-xl: 2rem;    /* 32px */
-  --space-2xl: 3rem;   /* 48px */
+  --space-xs: 0.25rem;  /* 4px */
+  --space-sm: 0.5rem;   /* 8px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+  --space-2xl: 3rem;    /* 48px */
 
   /* Typography */
   --font-family-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  --font-size-xs: 0.75rem;  /* 12px */
-  --font-size-sm: 0.875rem; /* 14px */
-  --font-size-base: 1rem;   /* 16px */
-  --font-size-lg: 1.125rem; /* 18px */
-  --font-size-xl: 1.25rem;  /* 20px */
-  --font-size-2xl: 1.5rem;  /* 24px */
-  --font-size-3xl: 2rem;    /* 32px */
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-base: 1rem;    /* 16px */
+  --font-size-lg: 1.125rem;  /* 18px */
+  --font-size-xl: 1.25rem;   /* 20px */
+  --font-size-2xl: 1.5rem;   /* 24px */
+  --font-size-3xl: 2rem;     /* 32px */
 
   /* Line heights */
   --line-height-tight: 1.2;
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.75;
 
-  /* Breakpoints (mobile-first) */
-  --breakpoint-sm: 375px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-
-  /* Z-index scale */
+  /* Z-index */
   --z-base: 0;
   --z-dropdown: 100;
   --z-sticky: 200;
   --z-modal: 300;
 }
 
-/* Global styles */
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base */
 html {
   font-family: var(--font-family-sans);
   font-size: var(--font-size-base);
@@ -59,8 +97,8 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
 }
 
 /* Typography */
@@ -68,12 +106,14 @@ h1 {
   font-size: var(--font-size-3xl);
   font-weight: 700;
   line-height: var(--line-height-tight);
+  color: var(--color-text);
 }
 
 h2 {
   font-size: var(--font-size-2xl);
   font-weight: 700;
   line-height: var(--line-height-tight);
+  color: var(--color-text);
 }
 
 h3 {
@@ -86,6 +126,9 @@ p {
   margin: var(--space-md) 0;
 }
 
+p:first-child { margin-top: 0; }
+p:last-child  { margin-bottom: 0; }
+
 /* Links */
 a {
   color: var(--color-primary);
@@ -94,6 +137,13 @@ a {
 
 a:hover {
   color: var(--color-primary-dark);
+}
+
+/* Accessibility: keyboard navigation */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 /* Buttons */
@@ -112,30 +162,10 @@ button:active {
   transform: scale(0.98);
 }
 
-/* Forms */
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
-  padding: var(--space-sm);
-  min-height: 44px;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-  outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(216, 165, 0, 0.1);
-}
-
 /* Utility classes */
 .container {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-md);
 }

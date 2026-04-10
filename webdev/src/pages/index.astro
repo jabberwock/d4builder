@@ -1,175 +1,300 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
 
-const classes = ['Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Rogue', 'Sorcerer', 'Spiritborn'];
-const classDescriptions: Record<string, string> = {
-  Barbarian: 'Melee powerhouse. Bleeds, fury, and relentless offense.',
-  Druid: 'Nature shapeshifter. Wolves, bears, and elemental magic.',
-  Necromancer: 'Death master. Corpses, bone magic, and army control.',
-  Paladin: 'Holy warrior. Blessed attacks and defensive auras.',
-  Rogue: 'Shadow assassin. Speed, precision, and ranged damage.',
-  Sorcerer: 'Spell caster. Fire, ice, and lightning devastation.',
-  Spiritborn: 'Mystic guardian. Spirit powers and cosmic balance.'
+type BuildSummary = {
+  id: string;
+  class: string;
+  tier: string;
+  build_score: number;
+  global_rank: number;
+  purpose_label: string;
+  key_passive: string;
+  specialization: string;
+  skill_bar_summary: string[];
+};
+
+const index = JSON.parse(
+  readFileSync(resolve('public/data/builds_index.json'), 'utf-8')
+) as { builds: BuildSummary[] };
+
+const classes = ['Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Rogue', 'Sorcerer', 'Spiritborn'] as const;
+
+// Per class: find the best-ranked build (lowest global_rank) and count total builds
+type ClassSummary = {
+  bestBuild: BuildSummary;
+  buildCount: number;
+};
+const classSummaries: Record<string, ClassSummary> = {};
+for (const cls of classes) {
+  const builds = index.builds.filter((b) => b.class === cls);
+  const best = builds.reduce((a, b) => a.global_rank < b.global_rank ? a : b);
+  classSummaries[cls] = { bestBuild: best, buildCount: builds.length };
+}
+
+const tierColor: Record<string, string> = {
+  S: 'var(--color-tier-s)',
+  A: 'var(--color-tier-a)',
+  B: 'var(--color-tier-b)',
+  C: 'var(--color-tier-c)',
 };
 ---
 
-<Layout title="D4Builder - Choose Your Class">
-  <main class="picker-hero">
-    <div class="container picker-hero__content">
-      <header class="picker-hero__header">
-        <h1>D4Builder</h1>
-        <p class="picker-hero__subtitle">Fast, honest Diablo 4 builds for returning seasonal players</p>
+<Layout title="D4Builder — Choose Your Class">
+  <main class="home">
+    <div class="container home__inner">
+
+      <header class="hero">
+        <div class="hero__wordmark">D4Builder</div>
+        <h1 class="hero__title">Pick your class.<br/>Find your build.</h1>
+        <p class="hero__sub">Fast, sourced Diablo 4 builds for returning seasonal players.<br class="desktop-only"/>Every number traced to the optimizer — no guesswork.</p>
       </header>
 
-      <section class="picker-hero__intro">
-        <p>Pick your class. Find your build. Get back in the game.</p>
+      <section class="class-picker" aria-label="Choose a class">
+        <div class="class-grid">
+          {classes.map((cls) => {
+            const slug = cls.toLowerCase();
+            const { bestBuild, buildCount } = classSummaries[cls];
+            const tier = bestBuild.tier;
+            return (
+              <a
+                href={`/class/${slug}`}
+                class={`class-tile class-tile--${slug}`}
+                aria-label={`${cls} builds`}
+              >
+                <div class="class-tile__accent" aria-hidden="true"></div>
+                <div class="class-tile__body">
+                  <div class="class-tile__top">
+                    <h2 class="class-tile__name">{cls}</h2>
+                    <span
+                      class="tier-badge"
+                      style={`color: ${tierColor[tier] ?? '#999'}`}
+                      title={`Best build: Tier ${tier}`}
+                    >
+                      {tier}
+                    </span>
+                  </div>
+                  <div class="class-tile__summary">
+                    <span class="class-tile__summary-line">Best: {tier}-tier · Rank #{bestBuild.global_rank}</span>
+                    <span class="class-tile__summary-line">Key: {bestBuild.key_passive}{bestBuild.specialization ? ` · ${bestBuild.specialization}` : ''}</span>
+                  </div>
+                  <div class="class-tile__footer">
+                    <span class="class-tile__builds-label">{buildCount} builds</span>
+                    <span class="class-tile__arrow" aria-hidden="true">→</span>
+                  </div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
       </section>
 
-      <div class="class-grid">
-        {classes.map((className) => (
-          <a href={`/class/${className.toLowerCase()}`} class="class-tile">
-            <div class="class-tile__header">
-              <h2 class="class-tile__name">{className}</h2>
-            </div>
-            <p class="class-tile__description">{classDescriptions[className]}</p>
-            <div class="class-tile__cta">4 Builds Available</div>
-          </a>
-        ))}
-      </div>
-
-      <footer class="picker-hero__footer">
-        <p class="footer-note">
-          Built from verified Diablo 4 data. <a href="/about">Learn more</a>.
-        </p>
+      <footer class="home-footer">
+        <p>Season 12 · Patch 2.6.0.70982 · All data sourced from optimizer_results.db</p>
       </footer>
+
     </div>
   </main>
 </Layout>
 
 <style>
-  .picker-hero {
-    flex: 1;
+  .home {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: var(--space-lg) 0;
-    min-height: 100vh;
+    padding: var(--space-lg) 0 var(--space-2xl);
   }
 
-  .picker-hero__content {
+  .home__inner {
     display: flex;
     flex-direction: column;
     gap: var(--space-2xl);
+    flex: 1;
   }
 
-  .picker-hero__header {
+  /* Hero */
+  .hero {
     text-align: center;
+    padding-top: var(--space-xl);
   }
 
-  .picker-hero__header h1 {
-    font-size: var(--font-size-3xl);
-    margin-bottom: var(--space-sm);
+  .hero__wordmark {
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
     color: var(--color-primary);
+    margin-bottom: var(--space-md);
   }
 
-  .picker-hero__subtitle {
-    font-size: var(--font-size-lg);
-    color: var(--color-text-secondary);
-    margin: 0;
-  }
-
-  .picker-hero__intro {
-    text-align: center;
-    padding: var(--space-lg) var(--space-md);
-    background: var(--color-bg-secondary);
-    border-radius: 8px;
-  }
-
-  .picker-hero__intro p {
-    font-size: var(--font-size-lg);
-    margin: 0;
+  .hero__title {
+    font-size: clamp(1.75rem, 5vw, 2.75rem);
+    font-weight: 800;
+    line-height: 1.15;
     color: var(--color-text);
+    margin-bottom: var(--space-md);
   }
 
-  .class-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
+  .hero__sub {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    line-height: var(--line-height-relaxed);
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .desktop-only {
+    display: none;
   }
 
   @media (min-width: 768px) {
+    .desktop-only {
+      display: inline;
+    }
+  }
+
+  /* Class grid */
+  .class-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-sm);
+  }
+
+  @media (min-width: 480px) {
     .class-grid {
       grid-template-columns: repeat(2, 1fr);
-      gap: var(--space-lg);
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 900px) {
     .class-grid {
-      grid-template-columns: repeat(3, 1fr);
-      gap: var(--space-lg);
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-md);
     }
   }
 
+  @media (min-width: 1100px) {
+    .class-grid {
+      grid-template-columns: repeat(7, 1fr);
+    }
+  }
+
+  /* Class tile */
   .class-tile {
     display: flex;
     flex-direction: column;
-    gap: var(--space-md);
-    padding: var(--space-lg);
-    background: var(--color-bg-secondary);
+    background: var(--color-bg-card);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
-    transition: all 0.2s ease;
-    min-height: 200px;
-    justify-content: space-between;
+    overflow: hidden;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+    min-height: 120px;
+  }
+
+  @media (min-width: 480px) {
+    .class-tile {
+      min-height: 160px;
+    }
   }
 
   .class-tile:hover {
-    background: var(--color-bg);
     border-color: var(--color-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(216, 165, 0, 0.15);
+    box-shadow: 0 0 0 1px var(--color-primary), 0 8px 24px rgba(0,0,0,0.4);
+    transform: translateY(-1px);
   }
 
-  .class-tile__header {
-    flex: 0;
+  .class-tile:active {
+    transform: translateY(0);
+  }
+
+  /* Class accent stripe at top */
+  .class-tile__accent {
+    height: 3px;
+    flex-shrink: 0;
+  }
+
+  .class-tile--barbarian .class-tile__accent  { background: var(--class-barbarian); }
+  .class-tile--druid .class-tile__accent       { background: var(--class-druid); }
+  .class-tile--necromancer .class-tile__accent { background: var(--class-necromancer); }
+  .class-tile--paladin .class-tile__accent     { background: var(--class-paladin); }
+  .class-tile--rogue .class-tile__accent       { background: var(--class-rogue); }
+  .class-tile--sorcerer .class-tile__accent    { background: var(--class-sorcerer); }
+  .class-tile--spiritborn .class-tile__accent  { background: var(--class-spiritborn); }
+
+  .class-tile__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    flex: 1;
+  }
+
+  .class-tile__top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-sm);
   }
 
   .class-tile__name {
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    color: var(--color-text);
+    line-height: 1.2;
     margin: 0;
-    font-size: var(--font-size-xl);
-    color: var(--color-primary);
   }
 
-  .class-tile__description {
+  .tier-badge {
+    font-size: var(--font-size-lg);
+    font-weight: 800;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+
+  .class-tile__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
     flex: 1;
-    font-size: var(--font-size-sm);
+  }
+
+  .class-tile__summary-line {
+    font-size: var(--font-size-xs);
     color: var(--color-text-secondary);
-    margin: 0;
-    line-height: var(--line-height-relaxed);
+    line-height: 1.5;
   }
 
-  .class-tile__cta {
-    font-size: var(--font-size-sm);
-    font-weight: 600;
+  .class-tile__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+  }
+
+  .class-tile__builds-label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+  }
+
+  .class-tile__arrow {
     color: var(--color-primary);
+    font-size: var(--font-size-base);
+    font-weight: 700;
   }
 
-  .picker-hero__footer {
+  /* Footer */
+  .home-footer {
     text-align: center;
-    padding-top: var(--space-xl);
-    border-top: 1px solid var(--color-border);
+    border-top: 1px solid var(--color-border-subtle);
+    padding-top: var(--space-lg);
   }
 
-  .footer-note {
-    font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
+  .home-footer p {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
     margin: 0;
-  }
-
-  .footer-note a {
-    color: var(--color-primary);
   }
 </style>

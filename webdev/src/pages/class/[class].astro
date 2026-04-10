@@ -17,6 +17,8 @@ type BuildSummary = {
   purpose: string;
   purpose_label: string;
   tier: string;
+  build_score: number;
+  global_rank: number;
   key_passive: string;
   skill_bar_summary: string[];
   specialization: string;
@@ -27,125 +29,222 @@ const index = JSON.parse(
 ) as { builds: BuildSummary[] };
 
 const classDisplayName = className!.charAt(0).toUpperCase() + className!.slice(1);
+const classBuilds = index.builds
+  .filter((b) => b.class.toLowerCase() === className)
+  .sort((a, b) => a.global_rank - b.global_rank);
 
-const classBuilds = index.builds.filter(
-  (b) => b.class.toLowerCase() === className
-);
+const purposeIcon: Record<string, string> = {
+  pit: '⚔',
+  speed: '⚡',
+  leveling: '↑',
+  mythic: '★',
+};
 
-const tierColor: Record<string, string> = {
-  S: '#d4af37',
-  A: '#4fc3f7',
-  B: '#81c784',
-  C: '#ffb74d',
-  D: '#ef9a9a',
+const tierLabel: Record<string, string> = {
+  S: 'S',
+  A: 'A',
+  B: 'B',
+  C: 'C',
 };
 ---
 
-<Layout title={`${classDisplayName} Builds - D4Builder`}>
-  <main class="builds-page">
+<Layout title={`${classDisplayName} Builds — D4Builder`}>
+  <main class={`class-page class-page--${className}`}>
     <div class="container">
-      <header class="builds-header">
-        <a href="/" class="back-link">&larr; All Classes</a>
-        <h1>{classDisplayName} Builds</h1>
-        <p class="builds-subtitle">Season 12 · {classBuilds.length} builds available</p>
+
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">All Classes</a>
+        <span aria-hidden="true" class="breadcrumb__sep">/</span>
+        <span aria-current="page">{classDisplayName}</span>
+      </nav>
+
+      <header class="class-header">
+        <div class={`class-header__accent class-header__accent--${className}`}></div>
+        <div class="class-header__text">
+          <h1>{classDisplayName}</h1>
+          <p class="class-header__meta">Season 12 · {classBuilds.length} builds</p>
+        </div>
       </header>
 
-      <div class="builds-grid">
+      <div class="builds-list">
         {classBuilds.map((build) => (
           <a href={`/builds/${build.id}`} class="build-card">
-            <div class="build-card__top">
+            <div class="build-card__left">
               <span
-                class="tier-badge"
-                style={`background: ${tierColor[build.tier] ?? '#999'}`}
+                class={`tier-badge tier-badge--${build.tier.toLowerCase()}`}
+                aria-label={`Tier ${build.tier}`}
               >
-                {build.tier}
+                {tierLabel[build.tier] ?? build.tier}
               </span>
-              <h2 class="build-card__title">{build.purpose_label}</h2>
             </div>
-            <div class="build-card__meta">
-              <span class="meta-label">Key Passive</span>
-              <span class="meta-value">{build.key_passive}</span>
+
+            <div class="build-card__main">
+              <div class="build-card__top">
+                <h2 class="build-card__title">{build.purpose_label}</h2>
+                <span class="build-card__purpose-icon" aria-hidden="true">
+                  {purposeIcon[build.purpose] ?? ''}
+                </span>
+              </div>
+
+              <div class="build-card__detail">
+                <div class="build-card__passive">
+                  <span class="detail-label">Key Passive</span>
+                  <span class="detail-value">{build.key_passive}</span>
+                </div>
+                {build.specialization && (
+                  <div class="build-card__spec">
+                    <span class="detail-label">Spec</span>
+                    <span class="detail-value">{build.specialization}</span>
+                  </div>
+                )}
+                <div class="build-card__rank">
+                  <span class="detail-label">Rank</span>
+                  <span class="detail-value">#{build.global_rank} of 28</span>
+                </div>
+                <div class="build-card__score">
+                  <span class="detail-label">Score</span>
+                  <span class="detail-value">{Math.round(build.build_score).toLocaleString('en-US')} pts</span>
+                </div>
+              </div>
+
+              <div class="build-card__skills">
+                {build.skill_bar_summary.map((s) => (
+                  <span class="skill-chip">{s}</span>
+                ))}
+              </div>
             </div>
-            <div class="build-card__skills">
-              {build.skill_bar_summary.slice(0, 4).map((s) => (
-                <span class="skill-chip">{s}</span>
-              ))}
-            </div>
-            <div class="build-card__cta">View Build &rarr;</div>
+
+            <div class="build-card__cta" aria-hidden="true">→</div>
           </a>
         ))}
       </div>
+
     </div>
   </main>
 </Layout>
 
 <style>
-  .builds-page {
-    padding: var(--space-lg) 0 var(--space-2xl);
+  .class-page {
     min-height: 100vh;
+    padding: var(--space-lg) 0 var(--space-2xl);
   }
 
-  .builds-header {
+  /* Breadcrumb */
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-xl);
+  }
+
+  .breadcrumb a {
+    color: var(--color-primary);
+  }
+
+  .breadcrumb__sep {
+    color: var(--color-text-muted);
+  }
+
+  .breadcrumb span[aria-current] {
+    color: var(--color-text-secondary);
+  }
+
+  /* Class header */
+  .class-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
     margin-bottom: var(--space-2xl);
   }
 
-  .back-link {
-    display: inline-block;
-    margin-bottom: var(--space-md);
+  .class-header__accent {
+    width: 4px;
+    height: 48px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .class-header__accent--barbarian  { background: var(--class-barbarian); }
+  .class-header__accent--druid       { background: var(--class-druid); }
+  .class-header__accent--necromancer { background: var(--class-necromancer); }
+  .class-header__accent--paladin     { background: var(--class-paladin); }
+  .class-header__accent--rogue       { background: var(--class-rogue); }
+  .class-header__accent--sorcerer    { background: var(--class-sorcerer); }
+  .class-header__accent--spiritborn  { background: var(--class-spiritborn); }
+
+  .class-header h1 {
+    margin-bottom: 2px;
+  }
+
+  .class-header__meta {
     font-size: var(--font-size-sm);
-    color: var(--color-primary);
-    text-decoration: none;
-  }
-
-  .back-link:hover {
-    text-decoration: underline;
-  }
-
-  .builds-header h1 {
-    margin-bottom: var(--space-xs);
-  }
-
-  .builds-subtitle {
-    font-size: var(--font-size-base);
     color: var(--color-text-secondary);
     margin: 0;
   }
 
-  .builds-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-  }
-
-  @media (min-width: 768px) {
-    .builds-grid {
-      grid-template-columns: repeat(2, 1fr);
-      gap: var(--space-lg);
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .builds-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  .build-card {
+  /* Builds list */
+  .builds-list {
     display: flex;
     flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  @media (min-width: 640px) {
+    .builds-list {
+      gap: var(--space-md);
+    }
+  }
+
+  /* Build card */
+  .build-card {
+    display: flex;
+    align-items: center;
     gap: var(--space-md);
-    padding: var(--space-lg);
-    background: var(--color-bg-secondary);
+    padding: var(--space-md);
+    background: var(--color-bg-card);
     border: 1px solid var(--color-border);
     border-radius: 8px;
     text-decoration: none;
     color: inherit;
     transition: border-color 0.15s, box-shadow 0.15s;
+    min-height: 44px;
   }
 
   .build-card:hover {
     border-color: var(--color-primary);
-    box-shadow: 0 4px 12px rgba(216, 165, 0, 0.12);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  }
+
+  /* Tier badge column */
+  .build-card__left {
+    flex-shrink: 0;
+  }
+
+  .tier-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .tier-badge--s { background: rgba(212, 175, 55, 0.15);  color: var(--color-tier-s); border: 1px solid rgba(212,175,55,0.3); }
+  .tier-badge--a { background: rgba(34, 197, 94, 0.12);   color: var(--color-tier-a); border: 1px solid rgba(34,197,94,0.25); }
+  .tier-badge--b { background: rgba(59, 130, 246, 0.12);  color: var(--color-tier-b); border: 1px solid rgba(59,130,246,0.25); }
+  .tier-badge--c { background: rgba(156, 163, 175, 0.10); color: var(--color-tier-c); border: 1px solid rgba(156,163,175,0.2); }
+
+  /* Main content */
+  .build-card__main {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
   }
 
   .build-card__top {
@@ -154,37 +253,39 @@ const tierColor: Record<string, string> = {
     gap: var(--space-sm);
   }
 
-  .tier-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    border-radius: 4px;
-    font-size: var(--font-size-sm);
-    font-weight: 700;
-    color: #1a1a1a;
-    flex-shrink: 0;
-  }
-
   .build-card__title {
-    margin: 0;
     font-size: var(--font-size-lg);
     font-weight: 600;
     color: var(--color-text);
+    margin: 0;
   }
 
-  .build-card__meta {
-    display: flex;
-    gap: var(--space-sm);
+  .build-card__purpose-icon {
     font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
   }
 
-  .meta-label {
-    color: var(--color-text-secondary);
+  .build-card__detail {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
   }
 
-  .meta-value {
+  .build-card__passive,
+  .build-card__spec {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+  }
+
+  .detail-label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+  }
+
+  .detail-value {
+    font-size: var(--font-size-sm);
     font-weight: 500;
     color: var(--color-primary);
   }
@@ -192,22 +293,35 @@ const tierColor: Record<string, string> = {
   .build-card__skills {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--space-xs);
+    gap: 4px;
   }
 
   .skill-chip {
-    font-size: var(--font-size-xs);
-    padding: 2px var(--space-sm);
-    background: rgba(216, 165, 0, 0.1);
-    border: 1px solid rgba(216, 165, 0, 0.25);
+    font-size: 11px;
+    padding: 2px 6px;
+    background: var(--color-bg-elevated);
+    border: 1px solid var(--color-border);
     border-radius: 3px;
     color: var(--color-text-secondary);
+    white-space: nowrap;
   }
 
+  .skill-chip--more {
+    color: var(--color-text-muted);
+    border-style: dashed;
+  }
+
+  /* CTA arrow */
   .build-card__cta {
-    font-size: var(--font-size-sm);
-    font-weight: 600;
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    transition: color 0.15s, transform 0.15s;
+  }
+
+  .build-card:hover .build-card__cta {
     color: var(--color-primary);
-    margin-top: auto;
+    transform: translateX(3px);
   }
 </style>

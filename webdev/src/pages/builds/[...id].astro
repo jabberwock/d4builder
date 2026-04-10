@@ -13,7 +13,13 @@ export function getStaticPaths() {
 const { id } = Astro.params;
 
 type SkillUpgrade = { name: string; enhanced: string; morph: string };
-type GearItem = { rarity: string; unique_id?: string; _optimizer_name?: string; aspect_id?: string; base_item_type?: string };
+type GearItem = {
+  rarity: string;
+  unique_id?: string;
+  _optimizer_name?: string;
+  aspect_id?: string;
+  base_item_type?: string;
+};
 type Gear = Record<string, GearItem>;
 type AspectRec = { slot: string; aspect_name: string; max_value: number };
 type Tempers = Record<string, string>;
@@ -22,6 +28,7 @@ type ParagonBoard = { board: string; glyph: string };
 type RunePair = { ritual: string; invocation: string; score: number };
 type NightmareDungeon = { name: string; zone: string; region: string; aspect: string };
 type Mercenary = { primary: string; reason: string };
+
 type Build = {
   id: string;
   build_name: string;
@@ -57,65 +64,103 @@ const build: Build = JSON.parse(
   readFileSync(resolve(`public/data/builds/${id}.json`), 'utf-8')
 );
 
+const classSlug = build.class.toLowerCase();
+
 const tierColor: Record<string, string> = {
-  S: '#d4af37',
-  A: '#4fc3f7',
-  B: '#81c784',
-  C: '#ffb74d',
-  D: '#ef9a9a',
+  S: 'var(--color-tier-s)',
+  A: 'var(--color-tier-a)',
+  B: 'var(--color-tier-b)',
+  C: 'var(--color-tier-c)',
 };
 
 const GEAR_SLOTS = ['Helm', 'Chest', 'Gloves', 'Legs', 'Boots', 'Weapon', 'Offhand', 'Ring', 'Amulet'];
 
-function capitalize(s: string) {
-  return s.charAt(0).toUpperCase() + s.slice(1);
+function cap(s: string) {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+}
+
+// Mercenary reason sometimes has "Name — description" format, split for display
+function parseMercenaryReason(reason: string): { name: string; detail: string } {
+  const dashIdx = reason.indexOf('\u2014');
+  if (dashIdx > -1) {
+    return {
+      name: reason.slice(0, dashIdx).trim(),
+      detail: reason.slice(dashIdx + 1).trim(),
+    };
+  }
+  return { name: '', detail: reason };
 }
 ---
 
-<Layout title={`${build.build_name} - D4Builder`}>
-  <main class="build-detail">
+<Layout title={`${build.purpose_label} ${build.class} — D4Builder`}>
+  <main class={`build-detail build-detail--${classSlug}`}>
     <div class="container">
 
-      <!-- Header -->
-      <nav class="breadcrumb">
-        <a href="/">{build.class}s</a>
-        <span aria-hidden="true"> / </span>
-        <a href={`/class/${build.class.toLowerCase()}`}>{build.class} Builds</a>
-        <span aria-hidden="true"> / </span>
-        <span>{build.purpose_label}</span>
+      <!-- Breadcrumb nav -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="/">All Classes</a>
+        <span aria-hidden="true" class="sep">/</span>
+        <a href={`/class/${classSlug}`}>{build.class}</a>
+        <span aria-hidden="true" class="sep">/</span>
+        <span aria-current="page">{build.purpose_label}</span>
       </nav>
 
+      <!-- Build header -->
       <header class="build-header">
-        <div class="build-header__left">
-          <h1>{build.build_name}</h1>
-          <div class="build-meta">
-            <span class="tier-badge" style={`background: ${tierColor[build.tier] ?? '#999'}`}>
-              Tier {build.tier}
+        <div class={`class-stripe class-stripe--${classSlug}`} aria-hidden="true"></div>
+        <div class="build-header__content">
+          <div class="build-header__title-row">
+            <h1 class="build-header__h1">{build.purpose_label} {build.class}</h1>
+            <span
+              class={`tier-badge tier-badge--${build.tier.toLowerCase()}`}
+              aria-label={`Tier ${build.tier}`}
+            >
+              {build.tier}
             </span>
-            <span class="meta-sep">·</span>
-            <span class="meta-item">Rank #{build.global_rank} of 28</span>
-            <span class="meta-sep">·</span>
-            <span class="meta-item">{build.season}</span>
           </div>
-          <p class="build-patch">Patch {build.patch}</p>
-        </div>
-        <div class="build-header__right">
-          <div class="spec-pill">{build.specialization}</div>
+          <div class="build-header__meta">
+            <span>Rank #{build.global_rank} of 28</span>
+            <span class="meta-sep">·</span>
+            <span>{Math.round(build.build_score).toLocaleString('en-US')} pts</span>
+            <span class="meta-sep">·</span>
+            <span>{build.season}</span>
+            <span class="meta-sep">·</span>
+            <span>Patch {build.patch}</span>
+          </div>
+          {build.specialization && (
+            <div class="spec-pill">{build.specialization}</div>
+          )}
         </div>
       </header>
 
+      <!-- Quick summary row -->
+      <div class="summary-row">
+        <div class="summary-stat">
+          <span class="summary-stat__label">Key Passive</span>
+          <span class="summary-stat__value">{build.key_passive}</span>
+        </div>
+        <div class="summary-stat">
+          <span class="summary-stat__label">Skill Bar</span>
+          <span class="summary-stat__value">{build.skill_bar_rank} pts each</span>
+        </div>
+        <div class="summary-stat">
+          <span class="summary-stat__label">Passives</span>
+          <span class="summary-stat__value">{build.passives.length} · rank {build.passive_rank}</span>
+        </div>
+      </div>
+
       <!-- Skills -->
-      <section class="section">
-        <h2 class="section-title">Skill Bar</h2>
-        <p class="section-sub">Rank {build.skill_bar_rank} each</p>
+      <section class="section" id="skills">
+        <h2 class="section__title">Skill Bar</h2>
+        <p class="section__sub">Rank {build.skill_bar_rank} each · Enhanced → Morph shown</p>
         <div class="skill-list">
           {build.skill_upgrades.map((su) => (
             <div class="skill-row">
-              <div class="skill-name">{su.name}</div>
-              <div class="skill-upgrades">
-                <span class="upgrade-pill upgrade-pill--enhanced">{su.enhanced}</span>
-                <span class="upgrade-arrow" aria-hidden="true">&rarr;</span>
-                <span class="upgrade-pill upgrade-pill--morph">{su.morph}</span>
+              <div class="skill-row__name">{su.name}</div>
+              <div class="skill-row__path">
+                <span class="upgrade enhanced">{su.enhanced}</span>
+                <span class="upgrade-sep" aria-hidden="true">→</span>
+                <span class="upgrade morph">{su.morph}</span>
               </div>
             </div>
           ))}
@@ -123,32 +168,32 @@ function capitalize(s: string) {
       </section>
 
       <!-- Passives -->
-      <section class="section">
-        <h2 class="section-title">Passives</h2>
-        <p class="section-sub">Rank {build.passive_rank} each</p>
-        <div class="passive-grid">
+      <section class="section" id="passives">
+        <h2 class="section__title">Passives</h2>
+        <p class="section__sub">Rank {build.passive_rank} each</p>
+        <div class="passive-chips">
           {build.passives.map((p) => (
             <span class="passive-chip">{p}</span>
           ))}
         </div>
-        <div class="key-passive">
-          <span class="key-passive__label">Key Passive</span>
-          <span class="key-passive__name">{build.key_passive}</span>
+        <div class="key-passive-block">
+          <span class="key-passive-block__label">Key Passive</span>
+          <span class="key-passive-block__name">{build.key_passive}</span>
         </div>
       </section>
 
       <!-- Gear -->
-      <section class="section">
-        <h2 class="section-title">Gear</h2>
-        <div class="gear-list">
+      <section class="section" id="gear">
+        <h2 class="section__title">Gear</h2>
+        <div class="gear-table">
           {GEAR_SLOTS.filter((slot) => build.gear[slot]).map((slot) => {
             const item = build.gear[slot];
-            const displayName = item._optimizer_name ?? item.unique_id ?? '—';
+            const name = item._optimizer_name ?? item.unique_id ?? '—';
             return (
               <div class="gear-row">
-                <span class="gear-slot">{slot}</span>
-                <span class={`gear-name gear-name--${item.rarity}`}>{displayName}</span>
-                <span class="gear-rarity">{capitalize(item.rarity)}</span>
+                <span class="gear-row__slot">{slot}</span>
+                <span class={`gear-row__name gear-row__name--${item.rarity}`}>{name}</span>
+                <span class="gear-row__rarity">{cap(item.rarity)}</span>
               </div>
             );
           })}
@@ -157,15 +202,15 @@ function capitalize(s: string) {
 
       <!-- Aspects -->
       {build.aspects_recommended?.length > 0 && (
-        <section class="section">
-          <h2 class="section-title">Aspects</h2>
+        <section class="section" id="aspects">
+          <h2 class="section__title">Aspects</h2>
           <div class="aspects-list">
             {build.aspects_recommended.map((a) => (
               <div class="aspect-row">
-                <span class="aspect-slot">{a.slot}</span>
-                <span class="aspect-name">{a.aspect_name}</span>
+                <span class="aspect-row__slot">{a.slot}</span>
+                <span class="aspect-row__name">{a.aspect_name}</span>
                 {a.max_value != null && (
-                  <span class="aspect-value">max {a.max_value}</span>
+                  <span class="aspect-row__value">max {a.max_value}</span>
                 )}
               </div>
             ))}
@@ -173,47 +218,49 @@ function capitalize(s: string) {
         </section>
       )}
 
-      <!-- Tempers + Gems side by side on wide screens -->
-      <div class="two-col">
-        {build.tempers_recommended && Object.keys(build.tempers_recommended).length > 0 && (
-          <section class="section">
-            <h2 class="section-title">Tempers</h2>
-            <dl class="kv-list">
-              {Object.entries(build.tempers_recommended).map(([k, v]) => (
-                <>
-                  <dt>{capitalize(k)}</dt>
-                  <dd>{v}</dd>
-                </>
-              ))}
-            </dl>
-          </section>
-        )}
-
-        {build.gems_recommended && Object.keys(build.gems_recommended).length > 0 && (
-          <section class="section">
-            <h2 class="section-title">Gems</h2>
-            <dl class="kv-list">
-              {Object.entries(build.gems_recommended).map(([k, v]) => (
-                <>
-                  <dt>{capitalize(k)}</dt>
-                  <dd>{v}</dd>
-                </>
-              ))}
-            </dl>
-          </section>
-        )}
-      </div>
+      <!-- Tempers + Gems -->
+      {((build.tempers_recommended && Object.keys(build.tempers_recommended).length > 0) ||
+        (build.gems_recommended && Object.keys(build.gems_recommended).length > 0)) && (
+        <div class="two-col">
+          {build.tempers_recommended && Object.keys(build.tempers_recommended).length > 0 && (
+            <section class="section" id="tempers">
+              <h2 class="section__title">Tempers</h2>
+              <dl class="kv-list">
+                {Object.entries(build.tempers_recommended).map(([k, v]) => (
+                  <>
+                    <dt>{cap(k)}</dt>
+                    <dd>{v}</dd>
+                  </>
+                ))}
+              </dl>
+            </section>
+          )}
+          {build.gems_recommended && Object.keys(build.gems_recommended).length > 0 && (
+            <section class="section" id="gems">
+              <h2 class="section__title">Gems</h2>
+              <dl class="kv-list">
+                {Object.entries(build.gems_recommended).map(([k, v]) => (
+                  <>
+                    <dt>{cap(k)}</dt>
+                    <dd>{v}</dd>
+                  </>
+                ))}
+              </dl>
+            </section>
+          )}
+        </div>
+      )}
 
       <!-- Paragon -->
       {build.paragon_boards?.length > 0 && (
-        <section class="section">
-          <h2 class="section-title">Paragon Boards</h2>
+        <section class="section" id="paragon">
+          <h2 class="section__title">Paragon Boards</h2>
           <div class="paragon-list">
             {build.paragon_boards.map((pb, i) => (
               <div class="paragon-row">
-                <span class="paragon-idx">{i + 1}</span>
-                <span class="paragon-board">{pb.board}</span>
-                <span class="paragon-glyph">{pb.glyph}</span>
+                <span class="paragon-row__num">{i + 1}</span>
+                <span class="paragon-row__board">{pb.board}</span>
+                <span class="paragon-row__glyph">{pb.glyph}</span>
               </div>
             ))}
           </div>
@@ -222,14 +269,17 @@ function capitalize(s: string) {
 
       <!-- Runes -->
       {(build.rune_pair_1 || build.rune_pair_2) && (
-        <section class="section">
-          <h2 class="section-title">Runes</h2>
+        <section class="section" id="runes">
+          <h2 class="section__title">Runes</h2>
           <div class="rune-pairs">
-            {[build.rune_pair_1, build.rune_pair_2].filter(Boolean).map((rp) => (
+            {[build.rune_pair_1, build.rune_pair_2].filter(Boolean).map((rp, i) => (
               <div class="rune-pair">
-                <span class="rune rune--ritual">{rp.ritual}</span>
-                <span class="rune-plus" aria-hidden="true">+</span>
-                <span class="rune rune--invocation">{rp.invocation}</span>
+                <span class="rune-pair__label">Pair {i + 1}</span>
+                <div class="rune-pair__runes">
+                  <span class="rune rune--ritual">{rp.ritual}</span>
+                  <span class="rune-plus" aria-hidden="true">+</span>
+                  <span class="rune rune--invocation">{rp.invocation}</span>
+                </div>
               </div>
             ))}
           </div>
@@ -238,27 +288,35 @@ function capitalize(s: string) {
 
       <!-- Mercenary -->
       {build.mercenary && (
-        <section class="section">
-          <h2 class="section-title">Mercenary</h2>
-          <div class="mercenary-block">
-            <span class="mercenary-name">{build.mercenary.primary}</span>
-            <p class="mercenary-reason">{build.mercenary.reason}</p>
-          </div>
+        <section class="section" id="mercenary">
+          <h2 class="section__title">Mercenary</h2>
+          {(() => {
+            const parsed = parseMercenaryReason(build.mercenary.reason);
+            return (
+              <div class="mercenary-card">
+                <div class="mercenary-card__name">{build.mercenary.primary}</div>
+                {parsed.name && <div class="mercenary-card__specialization">{parsed.name}</div>}
+                <p class="mercenary-card__detail">{parsed.detail || build.mercenary.reason}</p>
+              </div>
+            );
+          })()}
         </section>
       )}
 
       <!-- Nightmare Dungeons -->
       {build.nightmare_dungeons?.length > 0 && (
-        <section class="section">
-          <h2 class="section-title">Nightmare Dungeons</h2>
-          <p class="section-sub">Farm these for recommended aspects</p>
+        <section class="section" id="dungeons">
+          <h2 class="section__title">Nightmare Dungeons</h2>
+          <p class="section__sub">Farm these to target aspect drops</p>
           <div class="dungeon-list">
             {build.nightmare_dungeons.map((d) => (
               <div class="dungeon-row">
-                <div class="dungeon-name">{d.name}</div>
-                <div class="dungeon-meta">
-                  <span>{d.zone}</span>
-                  {d.aspect && <span class="dungeon-aspect">&rarr; {d.aspect}</span>}
+                <div class="dungeon-row__name">{d.name}</div>
+                <div class="dungeon-row__meta">
+                  <span class="dungeon-zone">{d.zone}</span>
+                  {d.aspect && (
+                    <span class="dungeon-aspect">→ {d.aspect}</span>
+                  )}
                 </div>
               </div>
             ))}
@@ -266,9 +324,26 @@ function capitalize(s: string) {
         </section>
       )}
 
+      <!-- Score Breakdown (collapsible) -->
+      {build.score_breakdown && Object.keys(build.score_breakdown).length > 0 && (
+        <section class="section section--score-breakdown" id="score-breakdown">
+          <details>
+            <summary class="score-breakdown__summary">Score Breakdown</summary>
+            <dl class="score-breakdown__list">
+              {Object.entries(build.score_breakdown).sort(([,a],[,b]) => b - a).map(([k, v]) => (
+                <>
+                  <dt>{k.replace(/_/g, ' ')}</dt>
+                  <dd>{Math.round(v as number).toLocaleString('en-US')}</dd>
+                </>
+              ))}
+            </dl>
+          </details>
+        </section>
+      )}
+
       <!-- Sources -->
-      <section class="section section--sources">
-        <h2 class="section-title">Data Sources</h2>
+      <section class="section section--sources" id="sources">
+        <h2 class="section__title">Data Sources</h2>
         <dl class="sources-list">
           {Object.entries(build.sources).map(([k, v]) => (
             <>
@@ -285,172 +360,224 @@ function capitalize(s: string) {
 
 <style>
   .build-detail {
-    padding: var(--space-lg) 0 var(--space-2xl);
     min-height: 100vh;
+    padding: var(--space-lg) 0 var(--space-2xl);
   }
 
   /* Breadcrumb */
   .breadcrumb {
-    font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
-    margin-bottom: var(--space-lg);
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-xs);
     align-items: center;
+    gap: var(--space-sm);
+    font-size: var(--font-size-sm);
+    margin-bottom: var(--space-xl);
+    flex-wrap: wrap;
   }
 
-  .breadcrumb a {
-    color: var(--color-primary);
-    text-decoration: none;
-  }
-
-  .breadcrumb a:hover {
-    text-decoration: underline;
-  }
+  .breadcrumb a { color: var(--color-primary); }
+  .sep { color: var(--color-text-muted); }
+  .breadcrumb span[aria-current] { color: var(--color-text-secondary); }
 
   /* Build header */
   .build-header {
     display: flex;
-    justify-content: space-between;
+    gap: var(--space-md);
     align-items: flex-start;
-    gap: var(--space-lg);
-    margin-bottom: var(--space-2xl);
-    flex-wrap: wrap;
+    margin-bottom: var(--space-xl);
   }
 
-  .build-header h1 {
-    margin-bottom: var(--space-sm);
+  .class-stripe {
+    width: 4px;
+    min-height: 80px;
+    border-radius: 2px;
+    flex-shrink: 0;
+    align-self: stretch;
   }
 
-  .build-meta {
+  .class-stripe--barbarian  { background: var(--class-barbarian); }
+  .class-stripe--druid       { background: var(--class-druid); }
+  .class-stripe--necromancer { background: var(--class-necromancer); }
+  .class-stripe--paladin     { background: var(--class-paladin); }
+  .class-stripe--rogue       { background: var(--class-rogue); }
+  .class-stripe--sorcerer    { background: var(--class-sorcerer); }
+  .class-stripe--spiritborn  { background: var(--class-spiritborn); }
+
+  .build-header__content {
+    flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: column;
     gap: var(--space-sm);
-    margin-bottom: var(--space-xs);
   }
 
-  .tier-badge {
-    display: inline-flex;
+  .build-header__title-row {
+    display: flex;
     align-items: center;
-    padding: 2px var(--space-sm);
-    border-radius: 4px;
-    font-size: var(--font-size-sm);
-    font-weight: 700;
-    color: #1a1a1a;
+    gap: var(--space-md);
+    flex-wrap: wrap;
   }
 
-  .meta-sep {
-    color: var(--color-border);
-  }
-
-  .meta-item {
-    font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
-  }
-
-  .build-patch {
-    font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+  .build-header__h1 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 800;
     margin: 0;
   }
 
+  .tier-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    flex-shrink: 0;
+  }
+
+  .tier-badge--s { background: rgba(212,175,55,0.15);  color: var(--color-tier-s); border: 1px solid rgba(212,175,55,0.3); }
+  .tier-badge--a { background: rgba(34,197,94,0.12);   color: var(--color-tier-a); border: 1px solid rgba(34,197,94,0.25); }
+  .tier-badge--b { background: rgba(59,130,246,0.12);  color: var(--color-tier-b); border: 1px solid rgba(59,130,246,0.25); }
+  .tier-badge--c { background: rgba(156,163,175,0.10); color: var(--color-tier-c); border: 1px solid rgba(156,163,175,0.2); }
+
+  .build-header__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .meta-sep { color: var(--color-text-muted); }
+
   .spec-pill {
-    padding: var(--space-sm) var(--space-md);
-    background: rgba(216, 165, 0, 0.1);
-    border: 1px solid rgba(216, 165, 0, 0.3);
+    display: inline-flex;
+    align-items: center;
+    padding: 3px var(--space-sm);
+    background: rgba(216, 165, 0, 0.08);
+    border: 1px solid rgba(216, 165, 0, 0.2);
     border-radius: 4px;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    color: var(--color-primary);
+    width: fit-content;
+  }
+
+  /* Summary row */
+  .summary-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border-subtle);
+    border-radius: 8px;
+    margin-bottom: var(--space-2xl);
+  }
+
+  .summary-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .summary-stat__label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .summary-stat__value {
     font-size: var(--font-size-sm);
     font-weight: 600;
     color: var(--color-primary);
-    white-space: nowrap;
   }
 
   /* Sections */
   .section {
     margin-bottom: var(--space-2xl);
     padding-bottom: var(--space-2xl);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border-subtle);
   }
 
   .section:last-child {
     border-bottom: none;
+    padding-bottom: 0;
   }
 
-  .section-title {
+  .section__title {
     font-size: var(--font-size-xl);
+    font-weight: 700;
     margin-bottom: var(--space-xs);
   }
 
-  .section-sub {
+  .section__sub {
     font-size: var(--font-size-sm);
     color: var(--color-text-secondary);
     margin: 0 0 var(--space-md);
   }
 
-  /* Skills */
+  /* Skill list */
   .skill-list {
     display: flex;
     flex-direction: column;
-    gap: var(--space-sm);
+    gap: var(--space-xs);
   }
 
   .skill-row {
     display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    padding: var(--space-md);
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
     background: var(--color-bg-secondary);
     border-radius: 6px;
+    flex-wrap: wrap;
   }
 
   @media (min-width: 640px) {
-    .skill-row {
-      flex-direction: row;
-      align-items: center;
-      gap: var(--space-md);
-    }
+    .skill-row { flex-wrap: nowrap; }
   }
 
-  .skill-name {
+  .skill-row__name {
     font-weight: 600;
-    min-width: 140px;
+    font-size: var(--font-size-sm);
+    min-width: 130px;
     flex-shrink: 0;
   }
 
-  .skill-upgrades {
+  .skill-row__path {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     gap: var(--space-xs);
+    flex-wrap: wrap;
   }
 
-  .upgrade-pill {
+  .upgrade {
     font-size: var(--font-size-xs);
     padding: 2px var(--space-sm);
     border-radius: 3px;
   }
 
-  .upgrade-pill--enhanced {
-    background: rgba(79, 195, 247, 0.15);
-    border: 1px solid rgba(79, 195, 247, 0.35);
-    color: #2c7da0;
+  .upgrade.enhanced {
+    background: rgba(79, 195, 247, 0.1);
+    border: 1px solid rgba(79, 195, 247, 0.25);
+    color: #67d5f7;
   }
 
-  .upgrade-pill--morph {
-    background: rgba(216, 165, 0, 0.15);
-    border: 1px solid rgba(216, 165, 0, 0.35);
-    color: var(--color-primary-dark);
+  .upgrade.morph {
+    background: rgba(216, 165, 0, 0.1);
+    border: 1px solid rgba(216, 165, 0, 0.25);
+    color: var(--color-primary);
   }
 
-  .upgrade-arrow {
-    color: var(--color-text-secondary);
+  .upgrade-sep {
+    color: var(--color-text-muted);
     font-size: var(--font-size-xs);
   }
 
   /* Passives */
-  .passive-grid {
+  .passive-chips {
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-sm);
@@ -463,38 +590,36 @@ function capitalize(s: string) {
     background: var(--color-bg-secondary);
     border: 1px solid var(--color-border);
     border-radius: 4px;
+    color: var(--color-text);
   }
 
-  .key-passive {
+  .key-passive-block {
     display: flex;
     align-items: center;
     gap: var(--space-sm);
     padding: var(--space-md);
-    background: rgba(216, 165, 0, 0.08);
-    border: 1px solid rgba(216, 165, 0, 0.3);
+    background: rgba(216, 165, 0, 0.06);
+    border: 1px solid rgba(216, 165, 0, 0.2);
     border-radius: 6px;
-    max-width: 360px;
+    width: fit-content;
+    max-width: 100%;
   }
 
-  .key-passive__label {
+  .key-passive-block__label {
     font-size: var(--font-size-xs);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-text-secondary);
+    letter-spacing: 0.06em;
+    color: var(--color-text-muted);
     flex-shrink: 0;
   }
 
-  .key-passive__name {
+  .key-passive-block__name {
     font-weight: 700;
-    font-size: var(--font-size-base);
     color: var(--color-primary);
   }
 
-  /* Gear */
-  .gear-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0;
+  /* Gear table */
+  .gear-table {
     border: 1px solid var(--color-border);
     border-radius: 6px;
     overflow: hidden;
@@ -502,61 +627,47 @@ function capitalize(s: string) {
 
   .gear-row {
     display: grid;
-    grid-template-columns: 80px 1fr auto;
+    grid-template-columns: 72px 1fr auto;
     gap: var(--space-md);
     align-items: center;
     padding: var(--space-sm) var(--space-md);
-    background: var(--color-bg);
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border-subtle);
+    background: var(--color-bg-card);
   }
 
-  .gear-row:last-child {
-    border-bottom: none;
-  }
+  .gear-row:last-child { border-bottom: none; }
+  .gear-row:nth-child(even) { background: var(--color-bg-secondary); }
 
-  .gear-row:nth-child(odd) {
-    background: var(--color-bg-secondary);
-  }
-
-  .gear-slot {
+  .gear-row__slot {
     font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     font-weight: 500;
   }
 
-  .gear-name {
+  .gear-row__name {
     font-size: var(--font-size-sm);
     font-weight: 600;
   }
 
-  .gear-name--unique {
-    color: #d97706;
-  }
+  .gear-row__name--unique   { color: #e0903a; }
+  .gear-row__name--legendary { color: var(--color-primary); }
+  .gear-row__name--rare     { color: #c8b400; }
 
-  .gear-name--legendary {
-    color: #d4af37;
-  }
-
-  .gear-name--rare {
-    color: #fbbf24;
-  }
-
-  .gear-rarity {
+  .gear-row__rarity {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
-    text-transform: capitalize;
+    color: var(--color-text-muted);
   }
 
   /* Aspects */
   .aspects-list {
     display: flex;
     flex-direction: column;
-    gap: var(--space-xs);
+    gap: 4px;
   }
 
   .aspect-row {
     display: grid;
-    grid-template-columns: 80px 1fr auto;
+    grid-template-columns: 72px 1fr auto;
     gap: var(--space-md);
     align-items: center;
     padding: var(--space-sm) var(--space-md);
@@ -564,23 +675,23 @@ function capitalize(s: string) {
     border-radius: 4px;
   }
 
-  .aspect-slot {
+  .aspect-row__slot {
     font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
   }
 
-  .aspect-name {
+  .aspect-row__name {
     font-size: var(--font-size-sm);
     font-weight: 500;
   }
 
-  .aspect-value {
+  .aspect-row__value {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     white-space: nowrap;
   }
 
-  /* Two column layout */
+  /* Two column */
   .two-col {
     display: grid;
     grid-template-columns: 1fr;
@@ -593,12 +704,10 @@ function capitalize(s: string) {
       gap: var(--space-2xl);
     }
 
-    .two-col .section {
-      border-bottom: none;
-    }
+    .two-col .section { border-bottom: none; padding-bottom: 0; }
   }
 
-  /* KV list (tempers/gems) */
+  /* KV list */
   .kv-list {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -614,13 +723,14 @@ function capitalize(s: string) {
   .kv-list dd {
     font-size: var(--font-size-sm);
     margin: 0;
+    color: var(--color-text);
   }
 
   /* Paragon */
   .paragon-list {
     display: flex;
     flex-direction: column;
-    gap: var(--space-xs);
+    gap: 4px;
   }
 
   .paragon-row {
@@ -632,35 +742,53 @@ function capitalize(s: string) {
     border-radius: 4px;
   }
 
-  .paragon-idx {
+  .paragon-row__num {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     min-width: 16px;
+    flex-shrink: 0;
   }
 
-  .paragon-board {
+  .paragon-row__board {
+    flex: 1;
     font-size: var(--font-size-sm);
     font-weight: 500;
-    flex: 1;
   }
 
-  .paragon-glyph {
+  .paragon-row__glyph {
     font-size: var(--font-size-xs);
     padding: 2px var(--space-sm);
-    background: rgba(129, 199, 132, 0.15);
-    border: 1px solid rgba(129, 199, 132, 0.3);
+    background: rgba(129, 199, 132, 0.1);
+    border: 1px solid rgba(129, 199, 132, 0.25);
     border-radius: 3px;
-    color: #2e7d32;
+    color: #81c784;
   }
 
   /* Runes */
   .rune-pairs {
     display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-lg);
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  @media (min-width: 640px) {
+    .rune-pairs { flex-direction: row; gap: var(--space-xl); }
   }
 
   .rune-pair {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .rune-pair__label {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .rune-pair__runes {
     display: flex;
     align-items: center;
     gap: var(--space-sm);
@@ -668,53 +796,59 @@ function capitalize(s: string) {
 
   .rune {
     font-size: var(--font-size-sm);
-    font-weight: 600;
+    font-weight: 700;
     padding: 4px var(--space-md);
     border-radius: 4px;
   }
 
   .rune--ritual {
-    background: rgba(239, 154, 154, 0.2);
-    border: 1px solid rgba(239, 154, 154, 0.4);
-    color: #c62828;
+    background: rgba(239, 154, 154, 0.12);
+    border: 1px solid rgba(239, 154, 154, 0.3);
+    color: #ef9a9a;
   }
 
   .rune--invocation {
-    background: rgba(129, 199, 132, 0.2);
-    border: 1px solid rgba(129, 199, 132, 0.4);
-    color: #2e7d32;
+    background: rgba(129, 199, 132, 0.12);
+    border: 1px solid rgba(129, 199, 132, 0.25);
+    color: #81c784;
   }
 
-  .rune-plus {
-    color: var(--color-text-secondary);
-  }
+  .rune-plus { color: var(--color-text-muted); }
 
   /* Mercenary */
-  .mercenary-block {
+  .mercenary-card {
     padding: var(--space-md);
     background: var(--color-bg-secondary);
     border-radius: 6px;
     border-left: 3px solid var(--color-primary);
   }
 
-  .mercenary-name {
+  .mercenary-card__name {
     font-weight: 700;
     font-size: var(--font-size-base);
-    display: block;
+    color: var(--color-text);
+    margin-bottom: 2px;
+  }
+
+  .mercenary-card__specialization {
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+    font-weight: 600;
     margin-bottom: var(--space-xs);
   }
 
-  .mercenary-reason {
+  .mercenary-card__detail {
     font-size: var(--font-size-sm);
     color: var(--color-text-secondary);
     margin: 0;
+    line-height: var(--line-height-relaxed);
   }
 
-  /* Nightmare Dungeons */
+  /* Nightmare dungeons */
   .dungeon-list {
     display: flex;
     flex-direction: column;
-    gap: var(--space-xs);
+    gap: 4px;
   }
 
   .dungeon-row {
@@ -723,27 +857,69 @@ function capitalize(s: string) {
     border-radius: 4px;
   }
 
-  .dungeon-name {
+  .dungeon-row__name {
     font-size: var(--font-size-sm);
     font-weight: 500;
     margin-bottom: 2px;
   }
 
-  .dungeon-meta {
+  .dungeon-row__meta {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     display: flex;
     gap: var(--space-sm);
     flex-wrap: wrap;
   }
 
-  .dungeon-aspect {
-    color: var(--color-primary);
+  .dungeon-aspect { color: var(--color-primary); }
+
+  /* Score breakdown */
+  .score-breakdown__summary {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    padding: var(--space-sm) 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .score-breakdown__summary::before {
+    content: '▶';
+    font-size: 0.6em;
+    transition: transform 0.15s;
+  }
+
+  details[open] .score-breakdown__summary::before {
+    transform: rotate(90deg);
+  }
+
+  .score-breakdown__list {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: var(--space-xs) var(--space-md);
+    margin-top: var(--space-md);
+  }
+
+  .score-breakdown__list dt {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    text-transform: capitalize;
+  }
+
+  .score-breakdown__list dd {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    margin: 0;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
   }
 
   /* Sources */
   .section--sources {
-    opacity: 0.7;
+    opacity: 0.6;
   }
 
   .sources-list {
@@ -754,16 +930,17 @@ function capitalize(s: string) {
 
   .sources-list dt {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     font-weight: 500;
     text-transform: capitalize;
+    white-space: nowrap;
   }
 
   .sources-list dd {
     font-size: var(--font-size-xs);
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     margin: 0;
-    font-family: monospace;
+    font-family: ui-monospace, 'SF Mono', 'Cascadia Code', monospace;
     word-break: break-all;
   }
 </style>
