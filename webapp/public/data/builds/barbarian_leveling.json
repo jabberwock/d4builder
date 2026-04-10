@@ -15,6 +15,7 @@
     "name": "One-Handed Axe",
     "mechanic_type": "weapon_expertise"
   },
+  "key_passive": "Unbridled Rage",
   "skill_bar": [
     "Bash",
     "Wrath of the Berserker",
@@ -69,48 +70,15 @@
     "Counteroffensive "
   ],
   "passive_rank": 3,
-  "key_passive": "Unbridled Rage",
   "gear": {
-    "Gloves": {
-      "rarity": "unique",
-      "unique_id": "Gloves_Unique_Barb_001",
-      "_optimizer_name": "Gohr's Devastating Grips"
-    },
-    "Boots": {
-      "rarity": "unique",
-      "unique_id": "Boots_Unique_Generic_001",
-      "_optimizer_name": "Penitent Greaves"
-    },
-    "Weapon": {
-      "rarity": "unique",
-      "unique_id": "1HAxe_Unique_Generic_001",
-      "_optimizer_name": "The Butcher's Cleaver"
-    },
-    "Helm": {
-      "rarity": "unique",
-      "unique_id": "Helm_Unique_Barb_101_x1",
-      "_optimizer_name": "Ugly Bastard Helm"
-    },
-    "Legs": {
-      "rarity": "unique",
-      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Pants"
-    },
-    "Chest": {
-      "rarity": "unique",
-      "unique_id": "Chest_Unique_Generic_100",
-      "_optimizer_name": "Razorplate"
-    },
-    "Ring": {
-      "rarity": "unique",
-      "unique_id": "Ring_Unique_Generic_100",
-      "_optimizer_name": "Mother's Embrace"
-    },
-    "Amulet": {
-      "rarity": "unique",
-      "unique_id": "Amulet_Unique_Barb_100",
-      "_optimizer_name": "Battle Trance"
-    }
+    "Gloves": "Gohr's Devastating Grips",
+    "Boots": "Penitent Greaves",
+    "Weapon": "The Butcher's Cleaver",
+    "Helm": "Ugly Bastard Helm",
+    "Legs": "Boost Pants",
+    "Chest": "Mantle of Mountain's Fury",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Battle Trance"
   },
   "aspects_recommended": [
     {
@@ -268,28 +236,5 @@
     "Hammer of the Ancients": 2408.595,
     "War Cry": 2325.22
   },
-  "sources": {
-    "build_score": "optimizer_results.db row id=3 \u00b7 Barbarian \u00b7 Leveling \u00b7 score 35552.13",
-    "tier": "optimizer_results.db row id=3 \u00b7 global rank 24 \u2192 tier C",
-    "skill_bar": "optimizer_results.db row id=3 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=3 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=3 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=3 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=3 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=3 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=3 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=3 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=3 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=3 \u00b7 nightmare_dungeons"
-  },
-  "gear_recommended": {
-    "Gloves": "Gohr's Devastating Grips",
-    "Boots": "Penitent Greaves",
-    "Weapon": "The Butcher's Cleaver",
-    "Helm": "Ugly Bastard Helm",
-    "Legs": "Boost Pants",
-    "Chest": "Mantle of Mountain's Fury",
-    "Ring": "Mother's Embrace",
-    "Amulet": "Battle Trance"
-  }
+  "sources": {}
 }

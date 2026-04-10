@@ -15,6 +15,7 @@
     "name": "Enchantment Slots",
     "mechanic_type": "enchantment_slots"
   },
+  "key_passive": "Combustion",
   "skill_bar": [
     "Flame Shield",
     "Firewall",
@@ -69,53 +70,16 @@
     "Ice Spike"
   ],
   "passive_rank": 3,
-  "key_passive": "Combustion",
   "gear": {
-    "Gloves": {
-      "rarity": "unique",
-      "unique_id": "Gloves_Unique_Sorc_101",
-      "_optimizer_name": "Flameweaver"
-    },
-    "Boots": {
-      "rarity": "unique",
-      "unique_id": "Boots_Unique_Generic_001",
-      "_optimizer_name": "Penitent Greaves"
-    },
-    "Weapon": {
-      "rarity": "unique",
-      "unique_id": "1HWand_Unique_Sorc_101",
-      "_optimizer_name": "The Oculus"
-    },
-    "Chest": {
-      "rarity": "unique",
-      "unique_id": "Chest_Unique_Sorc_002",
-      "_optimizer_name": "Raiment of the Infinite"
-    },
-    "Helm": {
-      "rarity": "unique",
-      "unique_id": "Helm_Unique_Sorc_101",
-      "_optimizer_name": "Hail of Verglas"
-    },
-    "Legs": {
-      "rarity": "unique",
-      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Pants"
-    },
-    "Ring": {
-      "rarity": "unique",
-      "unique_id": "Ring_Unique_Sorc_100",
-      "_optimizer_name": "Blue Rose"
-    },
-    "Amulet": {
-      "rarity": "unique",
-      "unique_id": "Amulet_Unique_Sorc_101",
-      "_optimizer_name": "Fractured Winterglass"
-    },
-    "Offhand": {
-      "rarity": "unique",
-      "unique_id": "offHandsNecro_stor002",
-      "_optimizer_name": "Antipathy Crux"
-    }
+    "Gloves": "Flameweaver",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Azurewrath",
+    "Chest": "Raiment of the Infinite",
+    "Helm": "Hail of Verglas",
+    "Legs": "Boost Pants",
+    "Ring": "Blue Rose",
+    "Amulet": "Fractured Winterglass",
+    "Offhand": "Antipathy Crux"
   },
   "aspects_recommended": [
     {
@@ -273,29 +237,5 @@
     "Lightning Spear": 909.216,
     "Frost Bolt": 592.825
   },
-  "sources": {
-    "build_score": "optimizer_results.db row id=23 \u00b7 Sorcerer \u00b7 Leveling \u00b7 score 41657.27",
-    "tier": "optimizer_results.db row id=23 \u00b7 global rank 20 \u2192 tier C",
-    "skill_bar": "optimizer_results.db row id=23 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=23 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=23 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=23 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=23 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=23 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=23 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=23 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=23 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=23 \u00b7 nightmare_dungeons"
-  },
-  "gear_recommended": {
-    "Gloves": "Flameweaver",
-    "Boots": "Penitent Greaves",
-    "Weapon": "Azurewrath",
-    "Chest": "Raiment of the Infinite",
-    "Helm": "Hail of Verglas",
-    "Legs": "Boost Pants",
-    "Ring": "Blue Rose",
-    "Amulet": "Fractured Winterglass",
-    "Offhand": "Antipathy Crux"
-  }
+  "sources": {}
 }

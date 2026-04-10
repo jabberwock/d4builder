@@ -15,6 +15,7 @@
     "name": "Sacrifice All",
     "mechanic_type": "book_sacrifice"
   },
+  "key_passive": "Shadowblight",
   "skill_bar": [
     "Army of the Dead",
     "Blood Mist",
@@ -69,53 +70,16 @@
     "Reaper's Pursuit"
   ],
   "passive_rank": 3,
-  "key_passive": "Shadowblight",
   "gear": {
-    "Gloves": {
-      "rarity": "unique",
-      "unique_id": "Gloves_Unique_Necro_102",
-      "_optimizer_name": "The Hand of Naz"
-    },
-    "Boots": {
-      "rarity": "unique",
-      "unique_id": "Boots_Unique_Necro_101",
-      "_optimizer_name": "Path of Trag'Oul"
-    },
-    "Weapon": {
-      "rarity": "unique",
-      "unique_id": "1HMace_Unique_Necro_100",
-      "_optimizer_name": "Gravebloom"
-    },
-    "Helm": {
-      "rarity": "unique",
-      "unique_id": "Helm_Unique_Necro_100",
-      "_optimizer_name": "Deathless Visage"
-    },
-    "Legs": {
-      "rarity": "unique",
-      "unique_id": "Pants_Unique_Necro_102",
-      "_optimizer_name": "Indira's Memory"
-    },
-    "Chest": {
-      "rarity": "unique",
-      "unique_id": "Chest_Unique_Necro_100",
-      "_optimizer_name": "Mutilator Plate"
-    },
-    "Ring": {
-      "rarity": "unique",
-      "unique_id": "Ring_Unique_Generic_100",
-      "_optimizer_name": "Mother's Embrace"
-    },
-    "Amulet": {
-      "rarity": "unique",
-      "unique_id": "Amulet_Unique_Necro_100",
-      "_optimizer_name": "Deathspeaker's Pendant"
-    },
-    "Offhand": {
-      "rarity": "unique",
-      "unique_id": "offHandsNecro_stor002",
-      "_optimizer_name": "Antipathy Crux"
-    }
+    "Gloves": "The Hand of Naz",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Gravebloom",
+    "Helm": "Deathless Visage",
+    "Legs": "Indira's Memory",
+    "Chest": "Mutilator Plate",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Deathspeaker's Pendant",
+    "Offhand": "Antipathy Crux"
   },
   "aspects_recommended": [
     {
@@ -273,29 +237,5 @@
     "Golem": 673.3731,
     "Hemorrhage": 743.848
   },
-  "sources": {
-    "build_score": "optimizer_results.db row id=11 \u00b7 Necromancer \u00b7 Leveling \u00b7 score 120926.10",
-    "tier": "optimizer_results.db row id=11 \u00b7 global rank 7 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=11 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=11 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=11 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=11 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=11 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=11 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=11 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=11 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=11 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=11 \u00b7 nightmare_dungeons"
-  },
-  "gear_recommended": {
-    "Gloves": "The Hand of Naz",
-    "Boots": "Penitent Greaves",
-    "Weapon": "Gravebloom",
-    "Helm": "Deathless Visage",
-    "Legs": "Indira's Memory",
-    "Chest": "Mutilator Plate",
-    "Ring": "Mother's Embrace",
-    "Amulet": "Deathspeaker's Pendant",
-    "Offhand": "Antipathy Crux"
-  }
+  "sources": {}
 }

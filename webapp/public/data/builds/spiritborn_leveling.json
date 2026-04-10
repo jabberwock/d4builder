@@ -15,6 +15,7 @@
     "name": "Eagle (Primary)",
     "mechanic_type": "guardian_eagle"
   },
+  "key_passive": "Vital Strikes",
   "skill_bar": [
     "Rock Splitter",
     "Armored Hide",
@@ -69,48 +70,15 @@
     "Balanced Exertion"
   ],
   "passive_rank": 3,
-  "key_passive": "Vital Strikes",
   "gear": {
-    "Gloves": {
-      "rarity": "unique",
-      "unique_id": "Gloves_Unique_Generic_002",
-      "_optimizer_name": "Fists of Fate"
-    },
-    "Boots": {
-      "rarity": "unique",
-      "unique_id": "Boots_Unique_Generic_001",
-      "_optimizer_name": "Penitent Greaves"
-    },
-    "Helm": {
-      "rarity": "unique",
-      "unique_id": "Helm_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Helm"
-    },
-    "Legs": {
-      "rarity": "unique",
-      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Pants"
-    },
-    "Chest": {
-      "rarity": "unique",
-      "unique_id": "Chest_Unique_Generic_100",
-      "_optimizer_name": "Razorplate"
-    },
-    "Ring": {
-      "rarity": "unique",
-      "unique_id": "Ring_Unique_Generic_100",
-      "_optimizer_name": "Mother's Embrace"
-    },
-    "Amulet": {
-      "rarity": "unique",
-      "unique_id": "PACTTEST_Amulet_Unique",
-      "_optimizer_name": "Pact Amulet"
-    },
-    "Weapon": {
-      "rarity": "unique",
-      "unique_id": "X1_2HGlaive_Unique_Spiritborn_03",
-      "_optimizer_name": "Snake Glaive"
-    }
+    "Gloves": "Hesha e Kesungi",
+    "Boots": "Penitent Greaves",
+    "Helm": "Boost Helm",
+    "Legs": "Boost Pants",
+    "Chest": "Razorplate",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Pact Amulet",
+    "Weapon": "Snake Glaive"
   },
   "aspects_recommended": [
     {
@@ -244,28 +212,5 @@
     "Thunderspike": 1281.3973,
     "Thrash": 1057.056
   },
-  "sources": {
-    "build_score": "optimizer_results.db row id=27 \u00b7 Spiritborn \u00b7 Leveling \u00b7 score 24802.93",
-    "tier": "optimizer_results.db row id=27 \u00b7 global rank 26 \u2192 tier C",
-    "skill_bar": "optimizer_results.db row id=27 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=27 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=27 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=27 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=27 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=27 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=27 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=27 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=27 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=27 \u00b7 nightmare_dungeons"
-  },
-  "gear_recommended": {
-    "Gloves": "Hesha e Kesungi",
-    "Boots": "Penitent Greaves",
-    "Helm": "Boost Helm",
-    "Legs": "Boost Pants",
-    "Chest": "Razorplate",
-    "Ring": "Mother's Embrace",
-    "Amulet": "Pact Amulet",
-    "Weapon": "Snake Glaive"
-  }
+  "sources": {}
 }

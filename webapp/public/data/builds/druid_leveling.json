@@ -15,6 +15,7 @@
     "name": "Prickleskin",
     "mechanic_type": "spirit_boon"
   },
+  "key_passive": "Perfect Storm",
   "skill_bar": [
     "Earthen Bulwark",
     "Shred",
@@ -69,53 +70,16 @@
     "Feral Aptitude "
   ],
   "passive_rank": 3,
-  "key_passive": "Perfect Storm",
   "gear": {
-    "Gloves": {
-      "rarity": "unique",
-      "unique_id": "Gloves_Unique_Druid_100",
-      "_optimizer_name": "Unsung Ascetic's Wraps"
-    },
-    "Boots": {
-      "rarity": "unique",
-      "unique_id": "Boots_Unique_Generic_001",
-      "_optimizer_name": "Penitent Greaves"
-    },
-    "Weapon": {
-      "rarity": "unique",
-      "unique_id": "1HAxe_Unique_Druid_100",
-      "_optimizer_name": "Waxing Gibbous"
-    },
-    "Chest": {
-      "rarity": "unique",
-      "unique_id": "Chest_Unique_Druid_002",
-      "_optimizer_name": "Mad Wolf's Glee"
-    },
-    "Helm": {
-      "rarity": "unique",
-      "unique_id": "Helm_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Helm"
-    },
-    "Legs": {
-      "rarity": "unique",
-      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
-      "_optimizer_name": "Boost Pants"
-    },
-    "Ring": {
-      "rarity": "unique",
-      "unique_id": "Ring_Unique_Druid_003",
-      "_optimizer_name": "Hunter's Zenith"
-    },
-    "Amulet": {
-      "rarity": "unique",
-      "unique_id": "PACTTEST_Amulet_Unique",
-      "_optimizer_name": "Pact Amulet"
-    },
-    "Offhand": {
-      "rarity": "unique",
-      "unique_id": "Totem_Unique_Druid_101_x1",
-      "_optimizer_name": "Stone of Vehemen"
-    }
+    "Gloves": "Unsung Ascetic's Wraps",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Waxing Gibbous",
+    "Chest": "Mad Wolf's Glee",
+    "Helm": "Boost Helm",
+    "Legs": "Boost Pants",
+    "Ring": "Hunter's Zenith",
+    "Amulet": "Pact Amulet",
+    "Offhand": "Stone of Vehemen"
   },
   "aspects_recommended": [
     {
@@ -281,29 +245,5 @@
     "Lightning Storm": 1416.193,
     "Wind Shear": 1350.5184
   },
-  "sources": {
-    "build_score": "optimizer_results.db row id=7 \u00b7 Druid \u00b7 Leveling \u00b7 score 49834.30",
-    "tier": "optimizer_results.db row id=7 \u00b7 global rank 14 \u2192 tier B",
-    "skill_bar": "optimizer_results.db row id=7 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=7 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=7 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=7 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=7 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=7 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=7 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=7 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=7 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=7 \u00b7 nightmare_dungeons"
-  },
-  "gear_recommended": {
-    "Gloves": "Unsung Ascetic's Wraps",
-    "Boots": "Penitent Greaves",
-    "Weapon": "Waxing Gibbous",
-    "Chest": "Mad Wolf's Glee",
-    "Helm": "Boost Helm",
-    "Legs": "Boost Pants",
-    "Ring": "Hunter's Zenith",
-    "Amulet": "Pact Amulet",
-    "Offhand": "Stone of Vehemen"
-  }
+  "sources": {}
 }
