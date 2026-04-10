@@ -4,8 +4,8 @@
   "class": "Druid",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "B",
-  "build_score": 49834.2952,
+  "tier": "S",
+  "build_score": 54436.386491,
   "global_rank": 14,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
@@ -58,15 +58,15 @@
   ],
   "passives": [
     "Lightning Bolt",
-    "Wild Impulses",
+    "Electric Shock",
     "Envenom",
     "Provocation",
     "Toxic Claws",
+    "Wild Impulses",
     "Stone Guard",
     "Charged Atmosphere",
     "Clarity",
-    "Feral Aptitude ",
-    "Resonance"
+    "Feral Aptitude "
   ],
   "passive_rank": 3,
   "key_passive": "Perfect Storm",
@@ -274,12 +274,12 @@
     }
   ],
   "score_breakdown": {
-    "Earthen Bulwark": 23.9085,
-    "Shred": 14323.68,
-    "Stone Burst": 2149.2016,
+    "Earthen Bulwark": 27.4948,
+    "Shred": 15756.048,
+    "Stone Burst": 2417.8518,
     "Petrify": 1668.15,
-    "Lightning Storm": 1317.3888,
-    "Wind Shear": 1227.744
+    "Lightning Storm": 1416.193,
+    "Wind Shear": 1350.5184
   },
   "sources": {
     "build_score": "optimizer_results.db row id=7 \u00b7 Druid \u00b7 Leveling \u00b7 score 49834.30",
@@ -294,5 +294,16 @@
     "paragon_boards": "optimizer_results.db row id=7 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=7 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=7 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "Unsung Ascetic's Wraps",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Waxing Gibbous",
+    "Chest": "Mad Wolf's Glee",
+    "Helm": "Boost Helm",
+    "Legs": "Boost Pants",
+    "Ring": "Hunter's Zenith",
+    "Amulet": "Pact Amulet",
+    "Offhand": "Stone of Vehemen"
   }
 }

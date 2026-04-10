@@ -4,9 +4,9 @@
   "class": "Rogue",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "B",
-  "build_score": 56958.483499,
-  "global_rank": 10,
+  "tier": "S",
+  "build_score": 55986.964198,
+  "global_rank": 11,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -19,9 +19,9 @@
     "Shadow Clone",
     "Penetrating Shot",
     "Flurry",
-    "Dash",
-    "Concealment",
-    "Forceful Arrow"
+    "Barrage",
+    "Forceful Arrow",
+    "Concealment"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
@@ -41,35 +41,35 @@
       "morph": "Advanced Flurry"
     },
     {
-      "name": "Dash",
-      "enhanced": "Enhanced Dash",
-      "morph": "Disciplined Dash"
-    },
-    {
-      "name": "Concealment",
-      "enhanced": "Enhanced Concealment",
-      "morph": "Countering Concealment"
+      "name": "Barrage",
+      "enhanced": "Enhanced Barrage",
+      "morph": "Advanced Barrage"
     },
     {
       "name": "Forceful Arrow",
       "enhanced": "Enhanced Forceful Arrow",
       "morph": "Fundamental Forceful Arrow"
+    },
+    {
+      "name": "Concealment",
+      "enhanced": "Enhanced Concealment",
+      "morph": "Countering Concealment"
     }
   ],
   "passives": [
-    "Malice",
     "Weapon Mastery",
     "Inner Sight",
-    "Frigid Finesse",
+    "Malice",
     "Haste",
-    "Chilling Weight",
-    "Rapid Gambits",
     "Target Practice",
-    "Unstable Elixirs",
-    "Deadly Venom"
+    "Deadly Venom",
+    "Unto Dawn",
+    "Balestra",
+    "Frigid Finesse",
+    "Deadeye"
   ],
   "passive_rank": 3,
-  "key_passive": "Victimize",
+  "key_passive": "Precision",
   "gear": {
     "Gloves": {
       "rarity": "unique",
@@ -120,49 +120,49 @@
     },
     {
       "slot": "Chest",
-      "aspect_name": "of Stolen Vigor",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Gloves",
       "aspect_name": "of the Expectant",
       "max_value": 8.0
     },
     {
-      "slot": "Boots",
+      "slot": "Gloves",
       "aspect_name": "Accelerating",
       "max_value": 21.0
     },
     {
-      "slot": "Legs",
-      "aspect_name": "Shadowslicer",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Ring1",
-      "aspect_name": "of Synergy",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Ring2",
+      "slot": "Boots",
       "aspect_name": "Mired Sharpshooter's",
       "max_value": 21.0
     },
     {
-      "slot": "Amulet",
+      "slot": "Legs",
       "aspect_name": "Blood Boiling",
       "max_value": 16.0
     },
     {
-      "slot": "Weapon",
+      "slot": "Ring1",
+      "aspect_name": "of Stolen Vigor",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
       "aspect_name": "Rapid",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of Adaptability",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "of the Moonrise",
       "max_value": 21.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Specialist Evolution",
     "defensive": "Rogue Recovery",
-    "weapon": "Agile Augments",
+    "weapon": "Marksman Augments\u00a0\u2014\u00a0Core",
     "mobility": "Natural Motion"
   },
   "gems_recommended": {
@@ -180,7 +180,7 @@
       "board_id": ""
     },
     {
-      "board": "Cheap Shot",
+      "board": "Exploit Weakness",
       "glyph": "Chip",
       "activated_nodes": [],
       "points_spent": 0,
@@ -188,7 +188,7 @@
       "board_id": ""
     },
     {
-      "board": "Exploit Weakness",
+      "board": "Eldritch Bounty",
       "glyph": "Diminish",
       "activated_nodes": [],
       "points_spent": 0,
@@ -196,7 +196,7 @@
       "board_id": ""
     },
     {
-      "board": "Danse Macabre",
+      "board": "Cheap Shot",
       "glyph": "Versatility",
       "activated_nodes": [],
       "points_spent": 0,
@@ -204,7 +204,7 @@
       "board_id": ""
     },
     {
-      "board": "Eldritch Bounty",
+      "board": "Deadly Ambush",
       "glyph": "Closer",
       "activated_nodes": [],
       "points_spent": 0,
@@ -244,14 +244,6 @@
       "y": -1064.0
     },
     {
-      "name": "Twisted Hollow",
-      "zone": "Scosglen",
-      "region": "Moordaine Lodge",
-      "aspect": "Shadowslicer",
-      "x": -2239.3,
-      "y": -384.8
-    },
-    {
       "name": "Buried Halls",
       "zone": "Dry Steppes",
       "region": "Jakha Basin",
@@ -263,10 +255,10 @@
   "score_breakdown": {
     "Shadow Clone": 3470.6,
     "Penetrating Shot": 5457.8093,
-    "Flurry": 4294.6344,
-    "Dash": 1407.8064,
-    "Concealment": 745.5,
-    "Forceful Arrow": 617.12
+    "Flurry": 4724.0978,
+    "Barrage": 2967.6326,
+    "Forceful Arrow": 771.4,
+    "Concealment": 745.5
   },
   "sources": {
     "build_score": "optimizer_results.db row id=19 \u00b7 Rogue \u00b7 Leveling \u00b7 score 56958.48",
@@ -281,5 +273,15 @@
     "paragon_boards": "optimizer_results.db row id=19 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=19 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=19 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "Fists of Fate",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Windforce",
+    "Helm": "Deathmask of Nirmitruq",
+    "Legs": "Eyes in the Dark",
+    "Chest": "Razorplate",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Word of Hakan"
   }
 }

@@ -4,9 +4,9 @@
   "class": "Sorcerer",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "C",
-  "build_score": 41657.267916,
-  "global_rank": 20,
+  "tier": "A",
+  "build_score": 38805.51836,
+  "global_rank": 23,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -16,15 +16,20 @@
     "mechanic_type": "enchantment_slots"
   },
   "skill_bar": [
+    "Flame Shield",
     "Firewall",
     "Frozen Orb",
     "Ice Shards",
     "Lightning Spear",
-    "Teleport",
     "Frost Bolt"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
+    {
+      "name": "Flame Shield",
+      "enhanced": "Enhanced Flame Shield",
+      "morph": "Mystical Flame Shield"
+    },
     {
       "name": "Firewall",
       "enhanced": "Enhanced Firewall",
@@ -46,11 +51,6 @@
       "morph": "Invoked Lightning Spear"
     },
     {
-      "name": "Teleport",
-      "enhanced": "Enhanced Teleport",
-      "morph": "Mystical Teleport"
-    },
-    {
       "name": "Frost Bolt",
       "enhanced": "Enhanced Frost Bolt",
       "morph": "Flickering Frost Bolt"
@@ -64,9 +64,9 @@
     "Icy Touch",
     "Cold Front",
     "Crackling Energy",
-    "Devouring Blaze",
     "Frigid Breeze",
-    "Glass Cannon"
+    "Glass Cannon",
+    "Ice Spike"
   ],
   "passive_rank": 3,
   "key_passive": "Combustion",
@@ -160,15 +160,15 @@
     },
     {
       "slot": "Weapon",
-      "aspect_name": "of Frozen Orbit",
+      "aspect_name": "of Binding Embers",
       "max_value": 21.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Natural Finesse",
-    "defensive": "Worldly Endurance",
+    "defensive": "Pyromancy Endurance",
     "weapon": "Frost Augments",
-    "mobility": "Sorcerer Motion"
+    "mobility": "Natural Motion"
   },
   "gems_recommended": {
     "weapon": "Royal Emerald",
@@ -266,12 +266,12 @@
     }
   ],
   "score_breakdown": {
+    "Flame Shield": 8.2816,
     "Firewall": 4224.528,
-    "Frozen Orb": 2455.488,
-    "Ice Shards": 908.3844,
-    "Lightning Spear": 887.04,
-    "Teleport": 512.82,
-    "Frost Bolt": 494.0208
+    "Frozen Orb": 2504.5978,
+    "Ice Shards": 981.0552,
+    "Lightning Spear": 909.216,
+    "Frost Bolt": 592.825
   },
   "sources": {
     "build_score": "optimizer_results.db row id=23 \u00b7 Sorcerer \u00b7 Leveling \u00b7 score 41657.27",
@@ -286,5 +286,16 @@
     "paragon_boards": "optimizer_results.db row id=23 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=23 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=23 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "Flameweaver",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Azurewrath",
+    "Chest": "Raiment of the Infinite",
+    "Helm": "Hail of Verglas",
+    "Legs": "Boost Pants",
+    "Ring": "Blue Rose",
+    "Amulet": "Fractured Winterglass",
+    "Offhand": "Antipathy Crux"
   }
 }

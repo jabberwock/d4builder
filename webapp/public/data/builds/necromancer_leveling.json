@@ -4,8 +4,8 @@
   "class": "Necromancer",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "A",
-  "build_score": 120926.098619,
+  "tier": "S",
+  "build_score": 150797.428831,
   "global_rank": 7,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
@@ -16,20 +16,15 @@
     "mechanic_type": "book_sacrifice"
   },
   "skill_bar": [
-    "Bone Splinters",
     "Army of the Dead",
     "Blood Mist",
     "Bone Spear",
     "Blood Lance",
-    "Golem"
+    "Golem",
+    "Hemorrhage"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
-    {
-      "name": "Bone Splinters",
-      "enhanced": "Enhanced Bone Splinters",
-      "morph": "Acolyte's Bone Splinters"
-    },
     {
       "name": "Army of the Dead",
       "enhanced": null,
@@ -54,22 +49,27 @@
       "name": "Golem",
       "enhanced": null,
       "morph": null
+    },
+    {
+      "name": "Hemorrhage",
+      "enhanced": "Enhanced Hemorrhage",
+      "morph": "Acolyte's Hemorrhage"
     }
   ],
   "passives": [
-    "Amplify Damage",
     "Transfusion",
+    "Amplify Damage",
     "Coalesced Blood",
     "Compound Fracture",
+    "Evulsion",
     "Imperfectly Balanced",
-    "Tides of Blood",
     "Death's Embrace",
     "Hellbent Commander",
     "Fueled by Death",
     "Reaper's Pursuit"
   ],
   "passive_rank": 3,
-  "key_passive": "Rathma's Vigor",
+  "key_passive": "Shadowblight",
   "gear": {
     "Gloves": {
       "rarity": "unique",
@@ -120,17 +120,17 @@
   "aspects_recommended": [
     {
       "slot": "Helm",
+      "aspect_name": "of Rathma's Chosen",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Chest",
       "aspect_name": "of the Expectant",
       "max_value": 8.0
     },
     {
-      "slot": "Chest",
-      "aspect_name": "Accelerating",
-      "max_value": 21.0
-    },
-    {
       "slot": "Gloves",
-      "aspect_name": "of Decaying Humerus",
+      "aspect_name": "Accelerating",
       "max_value": 21.0
     },
     {
@@ -140,34 +140,34 @@
     },
     {
       "slot": "Legs",
-      "aspect_name": "of Torment",
-      "max_value": 21.0
+      "aspect_name": "Blood Boiling",
+      "max_value": 16.0
     },
     {
       "slot": "Ring1",
-      "aspect_name": "of Serration",
+      "aspect_name": "Rapid",
       "max_value": 21.0
     },
     {
       "slot": "Ring2",
-      "aspect_name": "of Rathma's Chosen",
+      "aspect_name": "Needleflare",
       "max_value": 21.0
     },
     {
       "slot": "Amulet",
-      "aspect_name": "Shattered Spirit's",
+      "aspect_name": "of Adaptability",
       "max_value": 21.0
     },
     {
       "slot": "Weapon",
-      "aspect_name": "Blood Boiling",
-      "max_value": 16.0
+      "aspect_name": "of the Moonrise",
+      "max_value": 21.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Natural Finesse",
     "defensive": "Blood Endurance",
-    "weapon": "Bone Augments",
+    "weapon": "Blood Augments",
     "mobility": "Natural Motion"
   },
   "gems_recommended": {
@@ -177,7 +177,7 @@
   },
   "paragon_boards": [
     {
-      "board": "Bone Graft",
+      "board": "Blood Begets Blood",
       "glyph": "Sacrificial",
       "activated_nodes": [],
       "points_spent": 0,
@@ -185,7 +185,7 @@
       "board_id": ""
     },
     {
-      "board": "Cult Leader",
+      "board": "Bone Graft",
       "glyph": "Corporeal",
       "activated_nodes": [],
       "points_spent": 0,
@@ -193,7 +193,7 @@
       "board_id": ""
     },
     {
-      "board": "Hulking Monstrosity",
+      "board": "Cult Leader",
       "glyph": "Blood-drinker",
       "activated_nodes": [],
       "points_spent": 0,
@@ -201,7 +201,7 @@
       "board_id": ""
     },
     {
-      "board": "Scent of Death",
+      "board": "Hulking Monstrosity",
       "glyph": "Control",
       "activated_nodes": [],
       "points_spent": 0,
@@ -209,7 +209,7 @@
       "board_id": ""
     },
     {
-      "board": "Flesh-eater",
+      "board": "Scent of Death",
       "glyph": "Deadraiser",
       "activated_nodes": [],
       "points_spent": 0,
@@ -241,14 +241,6 @@
       "y": -1064.0
     },
     {
-      "name": "Hive",
-      "zone": "Scosglen",
-      "region": "Highland Wilds",
-      "aspect": "of Decaying Humerus",
-      "x": -1898.4,
-      "y": -44.9
-    },
-    {
       "name": "Faceless Shrine",
       "zone": "Hawezar",
       "region": "Forsaken Coast",
@@ -257,21 +249,29 @@
       "y": 1212.5
     },
     {
-      "name": "Black Asylum",
-      "zone": "Fractured Peaks",
-      "region": "Frigid Expanse",
-      "aspect": "of Torment",
-      "x": -1621.8,
-      "y": 194.0
+      "name": "Buried Halls",
+      "zone": "Dry Steppes",
+      "region": "Jakha Basin",
+      "aspect": "Rapid",
+      "x": -816.0,
+      "y": -338.0
+    },
+    {
+      "name": "Yshari Sanctum",
+      "zone": "Kehjistan",
+      "region": "Caldeum",
+      "aspect": "Needleflare",
+      "x": 92.6,
+      "y": -508.7
     }
   ],
   "score_breakdown": {
-    "Bone Splinters": 616.7952,
-    "Army of the Dead": 8.8346,
-    "Blood Mist": 5.39,
-    "Bone Spear": 41231.736,
-    "Blood Lance": 11381.6102,
-    "Golem": 612.1574
+    "Army of the Dead": 9.1438,
+    "Blood Mist": 5.4708,
+    "Bone Spear": 51539.67,
+    "Blood Lance": 14227.0128,
+    "Golem": 673.3731,
+    "Hemorrhage": 743.848
   },
   "sources": {
     "build_score": "optimizer_results.db row id=11 \u00b7 Necromancer \u00b7 Leveling \u00b7 score 120926.10",
@@ -286,5 +286,16 @@
     "paragon_boards": "optimizer_results.db row id=11 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=11 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=11 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "The Hand of Naz",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Gravebloom",
+    "Helm": "Deathless Visage",
+    "Legs": "Indira's Memory",
+    "Chest": "Mutilator Plate",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Deathspeaker's Pendant",
+    "Offhand": "Antipathy Crux"
   }
 }

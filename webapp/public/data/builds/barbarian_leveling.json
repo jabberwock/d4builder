@@ -4,9 +4,9 @@
   "class": "Barbarian",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "C",
-  "build_score": 35552.130267,
-  "global_rank": 24,
+  "tier": "A",
+  "build_score": 43030.267557,
+  "global_rank": 19,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -20,7 +20,7 @@
     "Wrath of the Berserker",
     "Ground Stomp",
     "Whirlwind",
-    "Kick",
+    "Hammer of the Ancients",
     "War Cry"
   ],
   "skill_bar_rank": 5,
@@ -46,9 +46,9 @@
       "morph": "Furious Whirlwind"
     },
     {
-      "name": "Kick",
-      "enhanced": "Enhanced Kick",
-      "morph": "Mighty Kick"
+      "name": "Hammer of the Ancients",
+      "enhanced": "Enhanced Hammer of the Ancients",
+      "morph": "Furious Hammer of the Ancients"
     },
     {
       "name": "War Cry",
@@ -66,7 +66,7 @@
     "Quick Impulses",
     "Two-Handed Mace Expertise",
     "Brute Force",
-    "Heavy Handed"
+    "Counteroffensive "
   ],
   "passive_rank": 3,
   "key_passive": "Unbridled Rage",
@@ -115,54 +115,54 @@
   "aspects_recommended": [
     {
       "slot": "Helm",
-      "aspect_name": "Bear Clan Berserker's",
-      "max_value": 24.0
-    },
-    {
-      "slot": "Chest",
-      "aspect_name": "of Encroaching Wrath",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Gloves",
-      "aspect_name": "Veteran Brawler's",
-      "max_value": 16.0
-    },
-    {
-      "slot": "Boots",
       "aspect_name": "of the Expectant",
       "max_value": 8.0
     },
     {
-      "slot": "Legs",
-      "aspect_name": "of Perpetual Stomping",
-      "max_value": 1.0
-    },
-    {
-      "slot": "Ring1",
-      "aspect_name": "of Earthquakes",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Ring2",
+      "slot": "Chest",
       "aspect_name": "Relentless Berserker's",
       "max_value": 21.0
     },
     {
-      "slot": "Amulet",
+      "slot": "Gloves",
       "aspect_name": "of Voracious Rage",
       "max_value": 21.0
     },
     {
+      "slot": "Boots",
+      "aspect_name": "Slaking",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "Accelerating",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "Blood Boiling",
+      "max_value": 16.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of Limitless Rage",
+      "max_value": 5.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "Bear Clan Berserker's",
+      "max_value": 24.0
+    },
+    {
       "slot": "Weapon",
-      "aspect_name": "of Ancestral Echoes",
+      "aspect_name": "of Earthquakes",
       "max_value": 21.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Berserking Finesse",
     "defensive": "Barbarian Strategy",
-    "weapon": "Brawling Augments",
+    "weapon": "Furious Augments",
     "mobility": "Barbarian Motion"
   },
   "gems_recommended": {
@@ -228,28 +228,12 @@
   },
   "nightmare_dungeons": [
     {
-      "name": "Heretics Asylum",
-      "zone": "Kehjistan",
-      "region": "Ragged Coastline",
-      "aspect": "Veteran Brawler's",
-      "x": 623.9,
-      "y": -762.5
-    },
-    {
       "name": "Underroot",
       "zone": "Scosglen",
       "region": "T\\xfar D\\xfalra",
       "aspect": "of the Expectant",
       "x": -1411.1,
       "y": -1064.0
-    },
-    {
-      "name": "Charnel House",
-      "zone": "Dry Steppes",
-      "region": "Untamed Scarps",
-      "aspect": "of Perpetual Stomping",
-      "x": -440.0,
-      "y": -502.1
     },
     {
       "name": "Hakan's Refuge",
@@ -266,14 +250,22 @@
       "aspect": "of Voracious Rage",
       "x": -1588.9,
       "y": 363.4
+    },
+    {
+      "name": "Maulwood",
+      "zone": "Fractured Peaks",
+      "region": "Dobrev Taiga",
+      "aspect": "Slaking",
+      "x": -1235.3,
+      "y": 353.0
     }
   ],
   "score_breakdown": {
-    "Bash": 494.0208,
+    "Bash": 617.526,
     "Wrath of the Berserker": 56.5693,
-    "Ground Stomp": 35.7161,
-    "Whirlwind": 5161.464,
-    "Kick": 2950.528,
+    "Ground Stomp": 41.6093,
+    "Whirlwind": 7742.196,
+    "Hammer of the Ancients": 2408.595,
     "War Cry": 2325.22
   },
   "sources": {
@@ -289,5 +281,15 @@
     "paragon_boards": "optimizer_results.db row id=3 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=3 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=3 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "Gohr's Devastating Grips",
+    "Boots": "Penitent Greaves",
+    "Weapon": "The Butcher's Cleaver",
+    "Helm": "Ugly Bastard Helm",
+    "Legs": "Boost Pants",
+    "Chest": "Mantle of Mountain's Fury",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Battle Trance"
   }
 }

@@ -4,8 +4,8 @@
   "class": "Paladin",
   "purpose": "leveling",
   "purpose_label": "Leveling",
-  "tier": "S",
-  "build_score": 218327.070679,
+  "tier": "A",
+  "build_score": 224733.818827,
   "global_rank": 2,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
@@ -18,9 +18,9 @@
   "skill_bar": [
     "Fortress",
     "Shield Bash",
+    "Blessed Shield",
     "Fanaticism Aura",
     "Divine Lance",
-    "Condemn",
     "Brandish"
   ],
   "skill_bar_rank": 5,
@@ -36,6 +36,11 @@
       "morph": "Breach"
     },
     {
+      "name": "Blessed Shield",
+      "enhanced": "Enhanced Blessed Shield",
+      "morph": "Shield of Justice"
+    },
+    {
       "name": "Fanaticism Aura",
       "enhanced": null,
       "morph": null
@@ -44,11 +49,6 @@
       "name": "Divine Lance",
       "enhanced": "Enhanced Divine Lance",
       "morph": "Tip of the Spear"
-    },
-    {
-      "name": "Condemn",
-      "enhanced": "Enhanced Condemn",
-      "morph": "Gather the Guilty"
     },
     {
       "name": "Brandish",
@@ -61,15 +61,15 @@
     "Break the Line",
     "Discipline",
     "Righteousness",
-    "Dizzying Blow",
-    "Shake It Off",
     "[WIP] Concentration",
-    "Heavyweight",
     "The Best Offense",
-    "Fortitude"
+    "Fortitude",
+    "Heavyweight",
+    "Iron Sharpens Iron",
+    "Giant Slayer"
   ],
   "passive_rank": 3,
-  "key_passive": "Path of the Penitent",
+  "key_passive": "Judgement Day",
   "gear": {
     "Gloves": {
       "rarity": "unique",
@@ -234,11 +234,11 @@
   "nightmare_dungeons": [],
   "score_breakdown": {
     "Fortress": 3602.8125,
-    "Shield Bash": 17053.827,
+    "Shield Bash": 18418.1332,
+    "Blessed Shield": 7309.637,
     "Fanaticism Aura": 7180.25,
-    "Divine Lance": 5163.48,
-    "Condemn": 4887.5904,
-    "Brandish": 3343.032
+    "Divine Lance": 5318.3844,
+    "Brandish": 3677.3352
   },
   "sources": {
     "build_score": "optimizer_results.db row id=15 \u00b7 Paladin \u00b7 Leveling \u00b7 score 218327.07",
@@ -253,5 +253,16 @@
     "paragon_boards": "optimizer_results.db row id=15 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
     "mercenary": "optimizer_results.db row id=15 \u00b7 mercenary",
     "nightmare_dungeons": "optimizer_results.db row id=15 \u00b7 nightmare_dungeons"
+  },
+  "gear_recommended": {
+    "Gloves": "Fists of Fate",
+    "Boots": "Penitent Greaves",
+    "Weapon": "Supplication",
+    "Helm": "Boost Helm",
+    "Legs": "Boost Pants",
+    "Chest": "Razorplate",
+    "Ring": "Mother's Embrace",
+    "Amulet": "Elias mummified finger",
+    "Offhand": "Bastion of Sir Matthias"
   }
 }
