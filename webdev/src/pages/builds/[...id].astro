@@ -1,0 +1,769 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+export function getStaticPaths() {
+  const index = JSON.parse(
+    readFileSync(resolve('public/data/builds_index.json'), 'utf-8')
+  ) as { builds: { id: string }[] };
+  return index.builds.map((b) => ({ params: { id: b.id } }));
+}
+
+const { id } = Astro.params;
+
+type SkillUpgrade = { name: string; enhanced: string; morph: string };
+type GearItem = { rarity: string; unique_id?: string; _optimizer_name?: string; aspect_id?: string; base_item_type?: string };
+type Gear = Record<string, GearItem>;
+type AspectRec = { slot: string; aspect_name: string; max_value: number };
+type Tempers = Record<string, string>;
+type Gems = Record<string, string>;
+type ParagonBoard = { board: string; glyph: string };
+type RunePair = { ritual: string; invocation: string; score: number };
+type NightmareDungeon = { name: string; zone: string; region: string; aspect: string };
+type Mercenary = { primary: string; reason: string };
+type Build = {
+  id: string;
+  build_name: string;
+  class: string;
+  purpose: string;
+  purpose_label: string;
+  tier: string;
+  build_score: number;
+  global_rank: number;
+  season: string;
+  patch: string;
+  specialization: string;
+  skill_bar: string[];
+  skill_bar_rank: number;
+  skill_upgrades: SkillUpgrade[];
+  passives: string[];
+  passive_rank: number;
+  key_passive: string;
+  gear: Gear;
+  aspects_recommended: AspectRec[];
+  tempers_recommended: Tempers;
+  gems_recommended: Gems;
+  paragon_boards: ParagonBoard[];
+  rune_pair_1: RunePair;
+  rune_pair_2: RunePair;
+  mercenary: Mercenary;
+  nightmare_dungeons: NightmareDungeon[];
+  score_breakdown: Record<string, number>;
+  sources: Record<string, string>;
+};
+
+const build: Build = JSON.parse(
+  readFileSync(resolve(`public/data/builds/${id}.json`), 'utf-8')
+);
+
+const tierColor: Record<string, string> = {
+  S: '#d4af37',
+  A: '#4fc3f7',
+  B: '#81c784',
+  C: '#ffb74d',
+  D: '#ef9a9a',
+};
+
+const GEAR_SLOTS = ['Helm', 'Chest', 'Gloves', 'Legs', 'Boots', 'Weapon', 'Offhand', 'Ring', 'Amulet'];
+
+function capitalize(s: string) {
+  return s.charAt(0).toUpperCase() + s.slice(1);
+}
+---
+
+<Layout title={`${build.build_name} - D4Builder`}>
+  <main class="build-detail">
+    <div class="container">
+
+      <!-- Header -->
+      <nav class="breadcrumb">
+        <a href="/">{build.class}s</a>
+        <span aria-hidden="true"> / </span>
+        <a href={`/class/${build.class.toLowerCase()}`}>{build.class} Builds</a>
+        <span aria-hidden="true"> / </span>
+        <span>{build.purpose_label}</span>
+      </nav>
+
+      <header class="build-header">
+        <div class="build-header__left">
+          <h1>{build.build_name}</h1>
+          <div class="build-meta">
+            <span class="tier-badge" style={`background: ${tierColor[build.tier] ?? '#999'}`}>
+              Tier {build.tier}
+            </span>
+            <span class="meta-sep">·</span>
+            <span class="meta-item">Rank #{build.global_rank} of 28</span>
+            <span class="meta-sep">·</span>
+            <span class="meta-item">{build.season}</span>
+          </div>
+          <p class="build-patch">Patch {build.patch}</p>
+        </div>
+        <div class="build-header__right">
+          <div class="spec-pill">{build.specialization}</div>
+        </div>
+      </header>
+
+      <!-- Skills -->
+      <section class="section">
+        <h2 class="section-title">Skill Bar</h2>
+        <p class="section-sub">Rank {build.skill_bar_rank} each</p>
+        <div class="skill-list">
+          {build.skill_upgrades.map((su) => (
+            <div class="skill-row">
+              <div class="skill-name">{su.name}</div>
+              <div class="skill-upgrades">
+                <span class="upgrade-pill upgrade-pill--enhanced">{su.enhanced}</span>
+                <span class="upgrade-arrow" aria-hidden="true">&rarr;</span>
+                <span class="upgrade-pill upgrade-pill--morph">{su.morph}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <!-- Passives -->
+      <section class="section">
+        <h2 class="section-title">Passives</h2>
+        <p class="section-sub">Rank {build.passive_rank} each</p>
+        <div class="passive-grid">
+          {build.passives.map((p) => (
+            <span class="passive-chip">{p}</span>
+          ))}
+        </div>
+        <div class="key-passive">
+          <span class="key-passive__label">Key Passive</span>
+          <span class="key-passive__name">{build.key_passive}</span>
+        </div>
+      </section>
+
+      <!-- Gear -->
+      <section class="section">
+        <h2 class="section-title">Gear</h2>
+        <div class="gear-list">
+          {GEAR_SLOTS.filter((slot) => build.gear[slot]).map((slot) => {
+            const item = build.gear[slot];
+            const displayName = item._optimizer_name ?? item.unique_id ?? '—';
+            return (
+              <div class="gear-row">
+                <span class="gear-slot">{slot}</span>
+                <span class={`gear-name gear-name--${item.rarity}`}>{displayName}</span>
+                <span class="gear-rarity">{capitalize(item.rarity)}</span>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <!-- Aspects -->
+      {build.aspects_recommended?.length > 0 && (
+        <section class="section">
+          <h2 class="section-title">Aspects</h2>
+          <div class="aspects-list">
+            {build.aspects_recommended.map((a) => (
+              <div class="aspect-row">
+                <span class="aspect-slot">{a.slot}</span>
+                <span class="aspect-name">{a.aspect_name}</span>
+                {a.max_value != null && (
+                  <span class="aspect-value">max {a.max_value}</span>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Tempers + Gems side by side on wide screens -->
+      <div class="two-col">
+        {build.tempers_recommended && Object.keys(build.tempers_recommended).length > 0 && (
+          <section class="section">
+            <h2 class="section-title">Tempers</h2>
+            <dl class="kv-list">
+              {Object.entries(build.tempers_recommended).map(([k, v]) => (
+                <>
+                  <dt>{capitalize(k)}</dt>
+                  <dd>{v}</dd>
+                </>
+              ))}
+            </dl>
+          </section>
+        )}
+
+        {build.gems_recommended && Object.keys(build.gems_recommended).length > 0 && (
+          <section class="section">
+            <h2 class="section-title">Gems</h2>
+            <dl class="kv-list">
+              {Object.entries(build.gems_recommended).map(([k, v]) => (
+                <>
+                  <dt>{capitalize(k)}</dt>
+                  <dd>{v}</dd>
+                </>
+              ))}
+            </dl>
+          </section>
+        )}
+      </div>
+
+      <!-- Paragon -->
+      {build.paragon_boards?.length > 0 && (
+        <section class="section">
+          <h2 class="section-title">Paragon Boards</h2>
+          <div class="paragon-list">
+            {build.paragon_boards.map((pb, i) => (
+              <div class="paragon-row">
+                <span class="paragon-idx">{i + 1}</span>
+                <span class="paragon-board">{pb.board}</span>
+                <span class="paragon-glyph">{pb.glyph}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Runes -->
+      {(build.rune_pair_1 || build.rune_pair_2) && (
+        <section class="section">
+          <h2 class="section-title">Runes</h2>
+          <div class="rune-pairs">
+            {[build.rune_pair_1, build.rune_pair_2].filter(Boolean).map((rp) => (
+              <div class="rune-pair">
+                <span class="rune rune--ritual">{rp.ritual}</span>
+                <span class="rune-plus" aria-hidden="true">+</span>
+                <span class="rune rune--invocation">{rp.invocation}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Mercenary -->
+      {build.mercenary && (
+        <section class="section">
+          <h2 class="section-title">Mercenary</h2>
+          <div class="mercenary-block">
+            <span class="mercenary-name">{build.mercenary.primary}</span>
+            <p class="mercenary-reason">{build.mercenary.reason}</p>
+          </div>
+        </section>
+      )}
+
+      <!-- Nightmare Dungeons -->
+      {build.nightmare_dungeons?.length > 0 && (
+        <section class="section">
+          <h2 class="section-title">Nightmare Dungeons</h2>
+          <p class="section-sub">Farm these for recommended aspects</p>
+          <div class="dungeon-list">
+            {build.nightmare_dungeons.map((d) => (
+              <div class="dungeon-row">
+                <div class="dungeon-name">{d.name}</div>
+                <div class="dungeon-meta">
+                  <span>{d.zone}</span>
+                  {d.aspect && <span class="dungeon-aspect">&rarr; {d.aspect}</span>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Sources -->
+      <section class="section section--sources">
+        <h2 class="section-title">Data Sources</h2>
+        <dl class="sources-list">
+          {Object.entries(build.sources).map(([k, v]) => (
+            <>
+              <dt>{k.replace(/_/g, ' ')}</dt>
+              <dd>{v}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .build-detail {
+    padding: var(--space-lg) 0 var(--space-2xl);
+    min-height: 100vh;
+  }
+
+  /* Breadcrumb */
+  .breadcrumb {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-lg);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    align-items: center;
+  }
+
+  .breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .breadcrumb a:hover {
+    text-decoration: underline;
+  }
+
+  /* Build header */
+  .build-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--space-lg);
+    margin-bottom: var(--space-2xl);
+    flex-wrap: wrap;
+  }
+
+  .build-header h1 {
+    margin-bottom: var(--space-sm);
+  }
+
+  .build-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xs);
+  }
+
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px var(--space-sm);
+    border-radius: 4px;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .meta-sep {
+    color: var(--color-border);
+  }
+
+  .meta-item {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .build-patch {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .spec-pill {
+    padding: var(--space-sm) var(--space-md);
+    background: rgba(216, 165, 0, 0.1);
+    border: 1px solid rgba(216, 165, 0, 0.3);
+    border-radius: 4px;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+    white-space: nowrap;
+  }
+
+  /* Sections */
+  .section {
+    margin-bottom: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .section:last-child {
+    border-bottom: none;
+  }
+
+  .section-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-xs);
+  }
+
+  .section-sub {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0 0 var(--space-md);
+  }
+
+  /* Skills */
+  .skill-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .skill-row {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 6px;
+  }
+
+  @media (min-width: 640px) {
+    .skill-row {
+      flex-direction: row;
+      align-items: center;
+      gap: var(--space-md);
+    }
+  }
+
+  .skill-name {
+    font-weight: 600;
+    min-width: 140px;
+    flex-shrink: 0;
+  }
+
+  .skill-upgrades {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .upgrade-pill {
+    font-size: var(--font-size-xs);
+    padding: 2px var(--space-sm);
+    border-radius: 3px;
+  }
+
+  .upgrade-pill--enhanced {
+    background: rgba(79, 195, 247, 0.15);
+    border: 1px solid rgba(79, 195, 247, 0.35);
+    color: #2c7da0;
+  }
+
+  .upgrade-pill--morph {
+    background: rgba(216, 165, 0, 0.15);
+    border: 1px solid rgba(216, 165, 0, 0.35);
+    color: var(--color-primary-dark);
+  }
+
+  .upgrade-arrow {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-xs);
+  }
+
+  /* Passives */
+  .passive-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .passive-chip {
+    font-size: var(--font-size-sm);
+    padding: 4px var(--space-md);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+  }
+
+  .key-passive {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    background: rgba(216, 165, 0, 0.08);
+    border: 1px solid rgba(216, 165, 0, 0.3);
+    border-radius: 6px;
+    max-width: 360px;
+  }
+
+  .key-passive__label {
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    flex-shrink: 0;
+  }
+
+  .key-passive__name {
+    font-weight: 700;
+    font-size: var(--font-size-base);
+    color: var(--color-primary);
+  }
+
+  /* Gear */
+  .gear-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .gear-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: var(--space-md);
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .gear-row:last-child {
+    border-bottom: none;
+  }
+
+  .gear-row:nth-child(odd) {
+    background: var(--color-bg-secondary);
+  }
+
+  .gear-slot {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+
+  .gear-name {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+  }
+
+  .gear-name--unique {
+    color: #d97706;
+  }
+
+  .gear-name--legendary {
+    color: #d4af37;
+  }
+
+  .gear-name--rare {
+    color: #fbbf24;
+  }
+
+  .gear-rarity {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    text-transform: capitalize;
+  }
+
+  /* Aspects */
+  .aspects-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .aspect-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: var(--space-md);
+    align-items: center;
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+  }
+
+  .aspect-slot {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+  }
+
+  .aspect-name {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+  }
+
+  .aspect-value {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    white-space: nowrap;
+  }
+
+  /* Two column layout */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  @media (min-width: 768px) {
+    .two-col {
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-2xl);
+    }
+
+    .two-col .section {
+      border-bottom: none;
+    }
+  }
+
+  /* KV list (tempers/gems) */
+  .kv-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--space-xs) var(--space-md);
+  }
+
+  .kv-list dt {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+  }
+
+  .kv-list dd {
+    font-size: var(--font-size-sm);
+    margin: 0;
+  }
+
+  /* Paragon */
+  .paragon-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .paragon-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+  }
+
+  .paragon-idx {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    min-width: 16px;
+  }
+
+  .paragon-board {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    flex: 1;
+  }
+
+  .paragon-glyph {
+    font-size: var(--font-size-xs);
+    padding: 2px var(--space-sm);
+    background: rgba(129, 199, 132, 0.15);
+    border: 1px solid rgba(129, 199, 132, 0.3);
+    border-radius: 3px;
+    color: #2e7d32;
+  }
+
+  /* Runes */
+  .rune-pairs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-lg);
+  }
+
+  .rune-pair {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .rune {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    padding: 4px var(--space-md);
+    border-radius: 4px;
+  }
+
+  .rune--ritual {
+    background: rgba(239, 154, 154, 0.2);
+    border: 1px solid rgba(239, 154, 154, 0.4);
+    color: #c62828;
+  }
+
+  .rune--invocation {
+    background: rgba(129, 199, 132, 0.2);
+    border: 1px solid rgba(129, 199, 132, 0.4);
+    color: #2e7d32;
+  }
+
+  .rune-plus {
+    color: var(--color-text-secondary);
+  }
+
+  /* Mercenary */
+  .mercenary-block {
+    padding: var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 6px;
+    border-left: 3px solid var(--color-primary);
+  }
+
+  .mercenary-name {
+    font-weight: 700;
+    font-size: var(--font-size-base);
+    display: block;
+    margin-bottom: var(--space-xs);
+  }
+
+  .mercenary-reason {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  /* Nightmare Dungeons */
+  .dungeon-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+
+  .dungeon-row {
+    padding: var(--space-sm) var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 4px;
+  }
+
+  .dungeon-name {
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .dungeon-meta {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+
+  .dungeon-aspect {
+    color: var(--color-primary);
+  }
+
+  /* Sources */
+  .section--sources {
+    opacity: 0.7;
+  }
+
+  .sources-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--space-xs) var(--space-md);
+  }
+
+  .sources-list dt {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .sources-list dd {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+    margin: 0;
+    font-family: monospace;
+    word-break: break-all;
+  }
+</style>

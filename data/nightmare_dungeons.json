@@ -1,0 +1,1355 @@
+{
+  "total": 135,
+  "dungeons": [
+    {
+      "id": "Dungeon|DGN_Step_Mournfield|500380",
+      "name": "Mournfield",
+      "aspect": "legendary_barb_001",
+      "description": "What walks here is living and dead and will rob you.",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -954.4340209960938,
+      "y": -669.0989990234375
+    },
+    {
+      "id": "Dungeon|DGN_Step_OnyxHold|624865",
+      "name": "Onyx Hold",
+      "aspect": "legendary_sorc_115",
+      "description": "Undead wardens still patrol the halls of this prison.",
+      "region": "The Onyx Watchtower",
+      "zone": "Dry Steppes",
+      "x": -842.4210205078125,
+      "y": -744.6510009765625
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_CrumblingHekma|444196",
+      "name": "Crumbling Hekma",
+      "aspect": "legendary_sorc_121",
+      "description": "A hate-infested catacomb of the Zakarum faith. ",
+      "region": "Omath's Redoubt",
+      "zone": "Kehjistan",
+      "x": 407.1629943847656,
+      "y": -172.41799926757812
+    },
+    {
+      "id": "Dungeon|DGN_Step_SeasideDescent|300021",
+      "name": "Seaside Descent",
+      "aspect": "legendary_druid_071",
+      "description": "A cove nestled among a graveyard of shipwrecks.",
+      "region": "Kotama Grasslands",
+      "zone": "Dry Steppes",
+      "x": -778.1929931640625,
+      "y": -1102.800048828125
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_SepulcherOfTheForsworn|982227",
+      "name": "Sepulcher of The Forsworn",
+      "aspect": "legendary_necro_114",
+      "description": "Evil stirs below the altar of Baal.",
+      "region": "Altar of Ruin",
+      "zone": "Kehjistan",
+      "x": -103.91699981689453,
+      "y": -761.4249877929688
+    },
+    {
+      "id": "Dungeon|DGN_Step_DarkRavine|571178",
+      "name": "Dark Ravine",
+      "aspect": "legendary_generic_009",
+      "description": " A Triune ritual site. The screams echo far and wide. ",
+      "region": "Tusmaa Rift",
+      "zone": "Dry Steppes",
+      "x": -1038.6700439453125,
+      "y": -912.2369995117188
+    },
+    {
+      "id": "Dungeon|DGN_Frac_LightsWatch|445557",
+      "name": "Light's Watch",
+      "aspect": "legendary_sorc_100",
+      "description": "A Knights' keep, repurposed for bandits and other parasites.",
+      "region": "Dobrev Taiga",
+      "zone": "Fractured Peaks",
+      "x": -1252.9200439453125,
+      "y": 236.76499938964844
+    },
+    {
+      "id": "Dungeon|DGN_Frac_Maulwood|725577",
+      "name": "Maulwood",
+      "aspect": "legendary_barb_103",
+      "description": "Bandits have claimed these woods and its monsters.",
+      "region": "Dobrev Taiga",
+      "zone": "Fractured Peaks",
+      "x": -1235.3299560546875,
+      "y": 353.0270080566406
+    },
+    {
+      "id": "Dungeon|DGN_Frac_CalderaGate|1103553",
+      "name": "Caldera Gate",
+      "aspect": "legendary_generic_103",
+      "description": "The demons in this icy cave are growing stronger.",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1285.6400146484375,
+      "y": -301.9320068359375
+    },
+    {
+      "id": "Dungeon|DGN_Frac_DerelictLodge|445559",
+      "name": "Derelict Lodge",
+      "aspect": "legendary_rogue_102",
+      "description": "Once a hunting lodge, now ruled by demons.",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1197.949951171875,
+      "y": -105.51100158691406
+    },
+    {
+      "id": "Dungeon|DGN_Frac_NostravaDeepwood|1110818",
+      "name": "Nostrava Deepwood",
+      "aspect": "legendary_necro_003",
+      "description": "The undead roam among the trees.",
+      "region": "The Pallid Glade",
+      "zone": "Fractured Peaks",
+      "x": -1240.3199462890625,
+      "y": -166.16600036621094
+    },
+    {
+      "id": "Dungeon|DGN_Frac_MercysReach|1108119",
+      "name": "Mercy's Reach",
+      "aspect": "legendary_necro_028",
+      "description": "This crumbling keep was once a way through the mountains. ",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1511.3800048828125,
+      "y": -349.8500061035156
+    },
+    {
+      "id": "Dungeon|DGN_Frac_KorDraganBarracks|1102739",
+      "name": "Kor Dragan Barracks",
+      "aspect": "legendary_barb_102",
+      "description": "The honored halls have been left for the dead to wander.",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1669.3299560546875,
+      "y": -126.33499908447266
+    },
+    {
+      "id": "Dungeon|DGN_Frac_ForbiddenCity|1108138",
+      "name": "Forbidden City",
+      "aspect": "legendary_druid_077",
+      "description": "An ancient tomb lies open, its corruption spilling forth.",
+      "region": "Sarkova Pass",
+      "zone": "Fractured Peaks",
+      "x": -1516.469970703125,
+      "y": -183.9969940185547
+    },
+    {
+      "id": "Dungeon|DGN_Frac_HallowedOssuary|1095013",
+      "name": "Hallowed Ossuary",
+      "aspect": "legendary_barb_013",
+      "description": "A tomb of martyrs, desecrated and made powerful again.",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1588.8699951171875,
+      "y": 363.4159851074219
+    },
+    {
+      "id": "Dungeon|DGN_Frac_BlackAsylum|1094974",
+      "name": "Black Asylum",
+      "aspect": "legendary_necro_100",
+      "description": "An abandoned prison teeming with the wails of its inmates.",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1621.75,
+      "y": 194.01499938964844
+    },
+    {
+      "id": "Dungeon|DGN_Frac_ForsakenQuarry|1094977",
+      "name": "Forsaken Quarry",
+      "aspect": "legendary_rogue_011",
+      "description": "These once-barren mineshafts now harbor ghastly rituals.",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1572.510009765625,
+      "y": 64.36409759521484
+    },
+    {
+      "id": "Dungeon|DGN_Frac_HoarfrostDemise|571348",
+      "name": "Hoarfrost Demise",
+      "aspect": "legendary_necro_108",
+      "description": "An icy Goatman cave, littered with corpses and bones.",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1856.489990234375,
+      "y": 278.1839904785156
+    },
+    {
+      "id": "Dungeon|DGN_Frac_Zenith|1100700",
+      "name": "Zenith",
+      "aspect": "legendary_sorc_118",
+      "description": "Unmapped tunnels sprawl beneath the peaks. ",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1956.8199462890625,
+      "y": 416.90899658203125
+    },
+    {
+      "id": "Dungeon|DGN_Frac_DeadMansDredge|1042786",
+      "name": "Dead Man's Dredge",
+      "aspect": "legendary_sorc_110",
+      "description": "The predators that dwell in this cave hunt human game.",
+      "region": "Gale Valley",
+      "zone": "Fractured Peaks",
+      "x": -1515.050048828125,
+      "y": 657.6699829101562
+    },
+    {
+      "id": "Dungeon|DGN_Step_GuulrahnCanals|540194",
+      "name": "Guulrahn Canals",
+      "aspect": "legendary_rogue_019",
+      "description": "A rot that even the cannibal tyrant will not touch is below.",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -880.3410034179688,
+      "y": -413.3340148925781
+    },
+    {
+      "id": "Dungeon|DGN_Step_GuulrahnSlums|286932",
+      "name": "Guulrahn Slums",
+      "aspect": "legendary_necro_012",
+      "description": "Cannibals still hold the streets of the city Guulrahn.",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -932.4039916992188,
+      "y": -396.875
+    },
+    {
+      "id": "Dungeon|DGN_Step_WhisperingVault|287546",
+      "name": "Whispering Vault",
+      "aspect": "legendary_rogue_020",
+      "description": "Scholarly halls haunted by whispering spirits of the insane.",
+      "region": "Chambatar Ridge",
+      "zone": "Dry Steppes",
+      "x": -1117.43994140625,
+      "y": -222.85899353027344
+    },
+    {
+      "id": "Dungeon|DGN_Step_ShiftingCity|444195",
+      "name": "Shifting City",
+      "aspect": "legendary_rogue_106",
+      "description": "These ruins were once a refuge for the people of Qara-Yisu.",
+      "region": "Qara Yisu",
+      "zone": "Dry Steppes",
+      "x": -765.5540161132812,
+      "y": -189.83799743652344
+    },
+    {
+      "id": "Dungeon|DGN_Step_PallidDelve|444195",
+      "name": "Pallid Delve",
+      "aspect": "legendary_sorc_127",
+      "description": "Cannibals guard a dark power in the crumbling mines.",
+      "region": "Qara Yisu",
+      "zone": "Dry Steppes",
+      "x": -742.89599609375,
+      "y": -96.56439971923828
+    },
+    {
+      "id": "Dungeon|DGN_Frac_RitualTower|1284311",
+      "name": "Tormented Ruins",
+      "aspect": "legendary_druid_002",
+      "description": "It's been centuries since this watchtower saw mortal use.",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -1067.06005859375,
+      "y": 84.50509643554688
+    },
+    {
+      "id": "Dungeon|DGN_Frac_LostArchives|445558",
+      "name": "Lost Archives",
+      "aspect": "legendary_generic_011",
+      "description": "Many speculate what lies within, but few dare to venture on.",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -918.89501953125,
+      "y": 119.97899627685547
+    },
+    {
+      "id": "Dungeon|DGN_Frac_DefiledCatacomb|494641",
+      "name": "Defiled Catacomb",
+      "aspect": "legendary_barb_105",
+      "description": "Graverobbers warn against the temptations of this crypt.",
+      "region": "Desolate Highlands",
+      "zone": "Fractured Peaks",
+      "x": -1032.0400390625,
+      "y": 198.1300048828125
+    },
+    {
+      "id": "Dungeon|DGN_Scos_CalibelsMine|981845",
+      "name": "Calibel's Mine",
+      "aspect": "legendary_barb_021",
+      "description": "The bandits that took this mine are ignorant of its secrets.",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -1922.550048828125,
+      "y": -1121.6500244140625
+    },
+    {
+      "id": "Dungeon|DGN_Scos_HowlingWarren|1025344",
+      "name": "Howling Warren",
+      "aspect": "legendary_rogue_028",
+      "description": "A corrupted den of wolves and wargs, hungry for human flesh.",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -1675.239990234375,
+      "y": -950.10400390625
+    },
+    {
+      "id": "Dungeon|DGN_Scos_SunkenRuins|695461",
+      "name": "Sunken Ruins",
+      "aspect": "legendary_barb_041",
+      "description": "Rumors stir of a healer turned renegade necromancer.",
+      "region": "Northshore",
+      "zone": "Scosglen",
+      "x": -2055.02001953125,
+      "y": -1033.510009765625
+    },
+    {
+      "id": "Dungeon|DGN_Scos_Oldstones|976292",
+      "name": "Oldstones",
+      "aspect": "legendary_generic_063",
+      "description": "Khazra infest the ruined holdfast, ignorant of its curse.",
+      "region": "The Downs",
+      "zone": "Scosglen",
+      "x": -1886.93994140625,
+      "y": -292.4119873046875
+    },
+    {
+      "id": "Dungeon|DGN_Scos_SaratsLair|1065518",
+      "name": "Sarat's Lair",
+      "aspect": "legendary_sorc_108",
+      "description": "What once was a wildlife den has become a nest.",
+      "region": "The Downs",
+      "zone": "Scosglen",
+      "x": -1603.1500244140625,
+      "y": -375.0090026855469
+    },
+    {
+      "id": "Dungeon|DGN_Scos_Hive|486750",
+      "name": "Hive",
+      "aspect": "legendary_necro_036",
+      "description": "An insatiable will drives these creatures to feed.",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -1898.4300537109375,
+      "y": -44.920799255371094
+    },
+    {
+      "id": "Dungeon|DGN_Scos_WhisperingPines|987574",
+      "name": "Whispering Pines",
+      "aspect": "legendary_druid_108",
+      "description": "Astaroth is gone now, but his grip on this keep holds fast. ",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -2186.5400390625,
+      "y": 96.01750183105469
+    },
+    {
+      "id": "Dungeon|DGN_Scos_MadduxWatch|978350",
+      "name": "Maddux Watch",
+      "aspect": "legendary_sorc_027",
+      "description": "This abandoned outpost treads atop the dead.",
+      "region": "Highland Wilds",
+      "zone": "Scosglen",
+      "x": -1783.4000244140625,
+      "y": -50.12580108642578
+    },
+    {
+      "id": "Dungeon|DGN_Scos_FeralsDen|622832",
+      "name": "Ferals' Den",
+      "aspect": "legendary_druid_018",
+      "description": "A lodge corrupted by the druids' hate.",
+      "region": "Moordaine Lodge",
+      "zone": "Scosglen",
+      "x": -2300.239990234375,
+      "y": -367.9939880371094
+    },
+    {
+      "id": "Dungeon|DGN_Scos_TwistedHollow|527228",
+      "name": "Twisted Hollow",
+      "aspect": "legendary_rogue_026",
+      "description": "A veritable reservoir of wildlife where answers may lurk.",
+      "region": "Moordaine Lodge",
+      "zone": "Scosglen",
+      "x": -2239.280029296875,
+      "y": -384.79400634765625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_AncientReservoir|1271071",
+      "name": "Ancient Reservoir",
+      "aspect": "legendary_barb_014",
+      "description": "A tainted wellspring runs under these ruins.",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1230.9000244140625,
+      "y": 885.4000244140625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_HauntedRefuge|1271056",
+      "name": "Haunted Refuge",
+      "aspect": "legendary_barb_018",
+      "description": "The old church sinks into the delta, drowning slowly.",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1071.56005859375,
+      "y": 915.7639770507812
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_BelfryZakara|1271078",
+      "name": "Belfry Zakara",
+      "aspect": "legendary_druid_066",
+      "description": "The Zakarum built this Cathedral. It honors the sea, now. ",
+      "region": "Rotspill Delta",
+      "zone": "Hawezar",
+      "x": -1091.239990234375,
+      "y": 1214.27001953125
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_Witchwater|674831",
+      "name": "Witchwater",
+      "aspect": "legendary_sorc_125",
+      "description": "Nangari cultists lure prey here with songs sung in dreams.",
+      "region": "Blightmarsh",
+      "zone": "Hawezar",
+      "x": -629.4030151367188,
+      "y": 904.4219970703125
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_FacelessShrine|1328608",
+      "name": "Faceless Shrine",
+      "aspect": "legendary_necro_053",
+      "description": "One of Hawezar\u2019s less secretive cults. Sinners welcome.",
+      "region": "Forsaken Coast",
+      "zone": "Hawezar",
+      "x": -733.864990234375,
+      "y": 1212.4599609375
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_RuinsofEridu|1029260",
+      "name": "Ruins of Eridu",
+      "aspect": "legendary_necro_116",
+      "description": "A once-mighty fortress consumed by the swamp.",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -391.0,
+      "y": 790.3740234375
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_GhoaRuins|1029364",
+      "name": "Ghoa Ruins ",
+      "aspect": "legendary_rogue_004",
+      "description": "Once a keep. The swamp reclaims all that mortal hands build.",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -472.9580078125,
+      "y": 1116.3599853515625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_LeviathansMaw|1357495",
+      "name": "Leviathan's Maw",
+      "aspect": "legendary_rogue_112",
+      "description": "Cultists lurk in these flooded ruins.",
+      "region": "Toxic Fens",
+      "zone": "Hawezar",
+      "x": -380.24200439453125,
+      "y": 1016.219970703125
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_MaugansWorks|1070910",
+      "name": "Maugan's Works",
+      "aspect": "legendary_barb_104",
+      "description": "A rotting hall for criminals and deserters.",
+      "region": "Fethis Wetlands",
+      "zone": "Hawezar",
+      "x": -568.9429931640625,
+      "y": 723.427978515625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_BlindBurrows|1232672",
+      "name": "Blind Burrows",
+      "aspect": "legendary_druid_013",
+      "description": "The spiders here have acquired a taste for flesh. ",
+      "region": "Fethis Wetlands",
+      "zone": "Hawezar",
+      "x": -430.0459899902344,
+      "y": 647.197998046875
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_AbandonedMineworks|1101512",
+      "name": "Abandoned Mineworks",
+      "aspect": "legendary_generic_038",
+      "description": "A maze of tunnels, still walked by those who died here.",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": 12.668999671936035,
+      "y": -7.412829875946045
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_SiroccoCaverns|1101639",
+      "name": "Sirocco Caverns",
+      "aspect": "legendary_barb_007",
+      "description": "A foul infestation has claimed these caverns.",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -338.5270080566406,
+      "y": -316.0459899902344
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_HallsoftheDamned|1101747",
+      "name": "Halls of the Damned",
+      "aspect": "legendary_generic_036",
+      "description": "Triune mages once pioneered strange magics here...",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -450.7929992675781,
+      "y": 108.66799926757812
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_Conclave|970672",
+      "name": "Conclave",
+      "aspect": "legendary_druid_038",
+      "description": "Tales of profane rituals grip the people with fear.",
+      "region": "Southern Expanse",
+      "zone": "Kehjistan",
+      "x": 357.1579895019531,
+      "y": -345.4519958496094
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_HakansRefuge|970672",
+      "name": "Hakan's Refuge",
+      "aspect": "legendary_barb_011",
+      "description": "This one grand manor lies in ruins, festering with memories.",
+      "region": "Southern Expanse",
+      "zone": "Kehjistan",
+      "x": 538.9420166015625,
+      "y": -349.7720031738281
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_ForgottenRuins|971657",
+      "name": "Forgotten Ruins",
+      "aspect": "legendary_barb_005",
+      "description": "Serpents infest the bones of these forbidden mage halls.",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 350.8489990234375,
+      "y": -695.6190185546875
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_CorruptedGrotto|971658",
+      "name": "Corrupted Grotto",
+      "aspect": "legendary_necro_066",
+      "description": "The forgotten dead languish under barren rock.",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 488.0780029296875,
+      "y": -538.1240234375
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_PutridAquifer|1102844",
+      "name": " Putrid Aquifer",
+      "aspect": "legendary_sorc_126",
+      "description": "Death taints the water.",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 262.843994140625,
+      "y": -510.6730041503906
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_UldursCave|971659",
+      "name": "Uldur's Cave",
+      "aspect": "legendary_necro_106",
+      "description": "A den of murderers and carrion feeders.",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 386.5660095214844,
+      "y": -628.968017578125
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_HereticsAsylum|926114",
+      "name": "Heretics Asylum",
+      "aspect": "legendary_barb_040",
+      "description": "A jail home to the corrupt and cruel.",
+      "region": "Ragged Coastline",
+      "zone": "Kehjistan",
+      "x": 623.8510131835938,
+      "y": -762.4530029296875
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_ShivtaRuins|975602",
+      "name": "Shivta Ruins",
+      "aspect": "legendary_generic_016",
+      "description": "The corruption in Alcarnus has bled into these ruins.",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -136.53900146484375,
+      "y": -640.6279907226562
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_Inferno|975602",
+      "name": "Inferno",
+      "aspect": "legendary_rogue_105",
+      "description": "We have carved into the rock to seek Hell.",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -263.35101318359375,
+      "y": -448.0539855957031
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_TomboftheSaints|975246",
+      "name": "Tomb of the Saints",
+      "aspect": "legendary_sorc_103",
+      "description": "This barren tomb was once fat with gold. ",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": 19.334199905395508,
+      "y": -881.0809936523438
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_SunkenLibrary|975247",
+      "name": "Sunken Library",
+      "aspect": "legendary_sorc_129",
+      "description": "The dead guard secrets confined in the ancient vault.",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": 128.23599243164062,
+      "y": -596.7540283203125
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_CollapsedVault|975602",
+      "name": "Collapsed Vault",
+      "aspect": "legendary_druid_062",
+      "description": "In dead hands do these ancient treasures lie.",
+      "region": "Amber Sands",
+      "zone": "Kehjistan",
+      "x": -83.09210205078125,
+      "y": -444.2049865722656
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_DesertedUnderpass|1041656",
+      "name": "Deserted Underpass",
+      "aspect": "legendary_necro_105",
+      "description": "A threat lurks in caves under the ruined Overlook.",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 321.3819885253906,
+      "y": -234.93099975585938
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_EndlessGates|673841",
+      "name": "Endless Gates",
+      "aspect": "legendary_druid_104",
+      "description": "Unholy creatures run amok between realms.",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -418.2380065917969,
+      "y": 274.75299072265625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_BastionOfFaith|673841",
+      "name": "Bastion of Faith",
+      "aspect": "legendary_rogue_010",
+      "description": "Lost and starving, the knights became beasts.",
+      "region": "Crusaders' Monument",
+      "zone": "Hawezar",
+      "x": -472.3399963378906,
+      "y": 225.88900756835938
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_EarthenWound|1019439",
+      "name": "Earthen Wound",
+      "aspect": "legendary_sorc_104",
+      "description": "The demons that dwelled here became a feast for cannibals.",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -96.37860107421875,
+      "y": 365.7850036621094
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_LostKeep|673841",
+      "name": "Lost Keep",
+      "aspect": "legendary_generic_107",
+      "description": "Yet another rotting keep abandoned by the Cathedral.",
+      "region": "Umir Plateau",
+      "zone": "Hawezar",
+      "x": -383.6080017089844,
+      "y": 196.11099243164062
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_HeathensKeep|1261064",
+      "name": "Heathen's Keep",
+      "aspect": "legendary_barb_017",
+      "description": "These Knights have sworn allegiance to a new leader.",
+      "region": "Dismal Foothills",
+      "zone": "Hawezar",
+      "x": -992.81298828125,
+      "y": 355.34698486328125
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_LightsRefuge|1231613",
+      "name": "Light's Refuge",
+      "aspect": "legendary_barb_026",
+      "description": "In a forgotten home lies a nest made of teeth and armor.",
+      "region": "Dismal Foothills",
+      "zone": "Hawezar",
+      "x": -891.1290283203125,
+      "y": 250.78900146484375
+    },
+    {
+      "id": "Dungeon|DGN_Frac_RimescarCavern|545857",
+      "name": "Rimescar Cavern",
+      "aspect": "legendary_necro_016",
+      "description": "A cave reclaimed by demons and sickened with their magic. ",
+      "region": "Malnok",
+      "zone": "Fractured Peaks",
+      "x": -1712.0,
+      "y": 401.0010070800781
+    },
+    {
+      "id": "Dungeon|DGN_Frac_AnicasClaim|544102",
+      "name": "Anica's Claim",
+      "aspect": "legendary_druid_059",
+      "description": "Inhuman hands carved out these dark tunnels. ",
+      "region": "Malnok",
+      "zone": "Fractured Peaks",
+      "x": -1663.8900146484375,
+      "y": 364.5369873046875
+    },
+    {
+      "id": "Dungeon|DGN_Frac_CultistRefuge|545919",
+      "name": "Cultist Refuge",
+      "aspect": "legendary_sorc_105",
+      "description": "The last bastion of Nostrava\u2019s cultists.",
+      "region": "Nostrava",
+      "zone": "Fractured Peaks",
+      "x": -1156.8499755859375,
+      "y": 4.283349990844727
+    },
+    {
+      "id": "Dungeon|DGN_Scos_FloodedDepths|633634",
+      "name": "Flooded Depths",
+      "aspect": "legendary_necro_022",
+      "description": "More than the waters have made claim to these shipwrecks.",
+      "region": "Hope's Light",
+      "zone": "Scosglen",
+      "x": -2094.25,
+      "y": -1317.0
+    },
+    {
+      "id": "Dungeon|DGN_Scos_Underroot|578968",
+      "name": "Underroot",
+      "aspect": "legendary_generic_067",
+      "description": "Ruins deep under T\\xfar D\\xfalra, its roots thick with rot.",
+      "region": "T\\xfar D\\xfalra",
+      "zone": "Scosglen",
+      "x": -1411.1400146484375,
+      "y": -1064.0
+    },
+    {
+      "id": "Dungeon|DGN_Scos_WretchedDelve|578967",
+      "name": "Wretched Delve",
+      "aspect": "legendary_sorc_012",
+      "description": "Demonic plague festers now in the old tombs of T\\xfar D\\xfalra.",
+      "region": "T\\xfar D\\xfalra",
+      "zone": "Scosglen",
+      "x": -1514.1400146484375,
+      "y": -1127.7900390625
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_YshariSanctum|607491",
+      "name": "Yshari Sanctum",
+      "aspect": "legendary_generic_106",
+      "description": "Cultists corrupt the ancient Sanctum.",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 92.60919952392578,
+      "y": -508.739990234375
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_RenegadesRetreat|607489",
+      "name": "Renegade's Retreat",
+      "aspect": "legendary_rogue_113",
+      "description": "Renegade knights reap the spoils of Inarius\u2019 crusade.",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 93.1760025024414,
+      "y": -262.6080017089844
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_CrusadersCathedral|1103480",
+      "name": "Crusaders' Cathedral",
+      "aspect": "legendary_druid_109",
+      "description": "Knights seized this temple and its undead warriors alike.",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 124.01200103759766,
+      "y": -413.35400390625
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_PrisonofCaldeum|733700",
+      "name": "Prison of Caldeum",
+      "aspect": "legendary_rogue_109",
+      "description": "Something wicked stirs in the prison.",
+      "region": "Caldeum",
+      "zone": "Kehjistan",
+      "x": 262.9159851074219,
+      "y": -391.6499938964844
+    },
+    {
+      "id": "Dungeon|DGN_Scos_RaethwindWilds|754753",
+      "name": "Raethwind Wilds",
+      "aspect": "legendary_generic_014",
+      "description": "Too many have vanished into these woods.",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -1830.5999755859375,
+      "y": -679.8690185546875
+    },
+    {
+      "id": "Dungeon|DGN_Scos_PenitentCairns|1028476",
+      "name": "Penitent Cairns",
+      "aspect": "legendary_barb_023",
+      "description": "Glenfolk know to avoid grottoes the spirits hold sacred.",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -1982.1400146484375,
+      "y": -797.60498046875
+    },
+    {
+      "id": "Dungeon|DGN_Scos_VaultofTheForsaken|1103983",
+      "name": "Vault of The Forsaken",
+      "aspect": "legendary_necro_117",
+      "description": "The voices in these flooded caves lure many to their demise.",
+      "region": "Wailing Hills",
+      "zone": "Scosglen",
+      "x": -2151.719970703125,
+      "y": -775.2340087890625
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_SteadfastBarracks|589710",
+      "name": "Steadfast Barracks",
+      "aspect": "legendary_druid_100",
+      "description": "A nest of savage fanatics, drawn to evil long-buried.",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -746.5440063476562,
+      "y": 621.8690185546875
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_AkkhansGrasp|589710",
+      "name": "Akkhan's Grasp",
+      "aspect": "legendary_necro_104",
+      "description": "Evil and blood seep through the tomb's ruptured seals.",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -742.2969970703125,
+      "y": 597.1950073242188
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_IronHold|589710",
+      "name": "Iron Hold",
+      "aspect": "legendary_necro_110",
+      "description": "A scourge stirs within the bowels of a decaying prison.",
+      "region": "Ruins of Rakhat Keep",
+      "zone": "Hawezar",
+      "x": -794.9459838867188,
+      "y": 619.4299926757812
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_Oblivion|601585",
+      "name": "Oblivion",
+      "aspect": "legendary_generic_102",
+      "description": "The demons of Eriman's Pyre fled to this crumbling prison.",
+      "region": "Eriman's Pyre",
+      "zone": "Hawezar",
+      "x": -1180.8900146484375,
+      "y": 484.3340148925781
+    },
+    {
+      "id": "Dungeon|DGN_Scos_GaranHold|378358",
+      "name": "Garan Hold",
+      "aspect": "legendary_barb_025",
+      "description": "A once mighty stronghold, doomed to burn.",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -2069.1201171875,
+      "y": -411.72198486328125
+    },
+    {
+      "id": "Dungeon|DGN_Scos_LubansRest|977162",
+      "name": "Luban's Rest",
+      "aspect": "legendary_rogue_111",
+      "description": "A warrior and her followers have risen from their tombs.",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -1934.6400146484375,
+      "y": -489.9960021972656
+    },
+    {
+      "id": "Dungeon|DGN_Scos_DomhainneTunnels|171044",
+      "name": "Domhainne Tunnels",
+      "aspect": "legendary_sorc_132",
+      "description": "Corbach residents hear the screams from the Khazra\u2019s lair.",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -1909.989990234375,
+      "y": -593.9000244140625
+    },
+    {
+      "id": "Dungeon|DGN_Scos_MarinersRefuge|196459",
+      "name": "Mariner's Refuge",
+      "aspect": "legendary_druid_028",
+      "description": "The Drowned lure shipwrecked sailors to the depths.",
+      "region": "Strand",
+      "zone": "Scosglen",
+      "x": -2238.800048828125,
+      "y": -478.3110046386719
+    },
+    {
+      "id": "Dungeon|DGN_Frac_KorValarRamparts|533325",
+      "name": "Kor Valar Ramparts",
+      "aspect": "legendary_rogue_101",
+      "description": "A corrupted fortress concealing the sins of the Penitents.",
+      "region": "Kor Valar",
+      "zone": "Fractured Peaks",
+      "x": -2010.56005859375,
+      "y": 351.1520080566406
+    },
+    {
+      "id": "Dungeon|DGN_Scos_Aldurwood|486753",
+      "name": "Aldurwood",
+      "aspect": "legendary_necro_118",
+      "description": "In this corrupted wood, blood runs like sap from the trees.",
+      "region": "The Shrouded Moors",
+      "zone": "Scosglen",
+      "x": -2077.340087890625,
+      "y": -340.91900634765625
+    },
+    {
+      "id": "Dungeon|DGN_Scos_JalalsVigil|790065",
+      "name": "Jalal's Vigil",
+      "aspect": "legendary_rogue_021",
+      "description": "A forest, soured by the agony of its own protector.",
+      "region": "The Shrouded Moors",
+      "zone": "Scosglen",
+      "x": -2365.81005859375,
+      "y": -197.927001953125
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_SerpentsLair|741310",
+      "name": "Serpent's Lair",
+      "aspect": "legendary_sorc_008",
+      "description": "Once the seat of Mohlon's throne. They want another queen.",
+      "region": "Blightmarsh",
+      "zone": "Hawezar",
+      "x": -776.56201171875,
+      "y": 824.7030029296875
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_ShadowedPlunge|1088277",
+      "name": "Shadowed Plunge",
+      "aspect": "legendary_rogue_100",
+      "description": "Snake Cultists sacrifice the innocent.",
+      "region": "Vyeresz",
+      "zone": "Hawezar",
+      "x": -579.4119873046875,
+      "y": 886.2379760742188
+    },
+    {
+      "id": "Dungeon|DGN_Scos_DemonsWake|809167",
+      "name": "Demon's Wake",
+      "aspect": "legendary_rogue_103",
+      "description": "The keep still burns in the wake of Lilith\u2019s attack.",
+      "region": "Westering Lowlands",
+      "zone": "Scosglen",
+      "x": -1449.739990234375,
+      "y": -541.0830078125
+    },
+    {
+      "id": "Dungeon|DGN_Scos_BrokenBulwark|521043",
+      "name": "Broken Bulwark",
+      "aspect": "legendary_generic_100",
+      "description": "Once part of Donan's estate, and razed with the rest.",
+      "region": "Westering Lowlands",
+      "zone": "Scosglen",
+      "x": -1360.550048828125,
+      "y": -513.6129760742188
+    },
+    {
+      "id": "Dungeon|DGN_Hawe_FetidMausoleum|674541",
+      "name": "Fetid Mausoleum",
+      "aspect": "legendary_sorc_006",
+      "description": "A forgotten tomb for the restless dead of Eridu.",
+      "region": "The Writhing Mire",
+      "zone": "Hawezar",
+      "x": -1249.68994140625,
+      "y": 610.6060180664062
+    },
+    {
+      "id": "Dungeon|DGN_Step_BuriedHalls|540194",
+      "name": "Buried Halls",
+      "aspect": "legendary_generic_043",
+      "description": "The Triune fight to reclaim these ancient halls.",
+      "region": "Jakha Basin",
+      "zone": "Dry Steppes",
+      "x": -816.0,
+      "y": -338.0
+    },
+    {
+      "id": "Dungeon|DGN_Step_PathoftheBlind|1103603",
+      "name": "Path of the Blind",
+      "aspect": "legendary_necro_038",
+      "description": "The bloodstained initiation grounds for Triune aspirants.",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -1220.5999755859375,
+      "y": -747.1160278320312
+    },
+    {
+      "id": "Dungeon|DGN_Step_GrinningLabyrinth|1103611",
+      "name": "Grinning Labyrinth",
+      "aspect": "legendary_druid_010",
+      "description": "These labyrinthine halls have broken far greater warriors.",
+      "region": "Khargai Crags",
+      "zone": "Dry Steppes",
+      "x": -954.7069702148438,
+      "y": -553.3469848632812
+    },
+    {
+      "id": "Dungeon|DGN_Step_BetrayersRow|1103998",
+      "name": "Betrayer's Row",
+      "aspect": "legendary_necro_113",
+      "description": "The twisted remains of a town driven mad by envy. ",
+      "region": "The Accursed Wastes",
+      "zone": "Dry Steppes",
+      "x": -923.9290161132812,
+      "y": -70.4677963256836
+    },
+    {
+      "id": "Dungeon|DGN_Scos_Stockades|486744",
+      "name": "Stockades",
+      "aspect": "legendary_druid_023",
+      "description": "After a riot, this prison was walled off and made a tomb.",
+      "region": "The Emerald Chase",
+      "zone": "Scosglen",
+      "x": -1735.1500244140625,
+      "y": -709.5869750976562
+    },
+    {
+      "id": "Dungeon|DGN_Step_CarrionFields|1103955",
+      "name": "Carrion Fields",
+      "aspect": "legendary_barb_008",
+      "description": "The defilers of this land were cursed to wander it forever.",
+      "region": "The Scarred Coast",
+      "zone": "Dry Steppes",
+      "x": -441.4859924316406,
+      "y": -1100.1099853515625
+    },
+    {
+      "id": "Dungeon|DGN_Step_KomdorTemple|1103958",
+      "name": "Komdor Temple",
+      "aspect": "legendary_sorc_123",
+      "description": "A Triune sect cursed to forever walk Sanctuary as goatmen. ",
+      "region": "The Scarred Coast",
+      "zone": "Dry Steppes",
+      "x": -147.57400512695312,
+      "y": -1067.7900390625
+    },
+    {
+      "id": "Dungeon|DGN_Step_AncientsLament|592028",
+      "name": "Ancient's Lament",
+      "aspect": "legendary_rogue_013",
+      "description": "A tomb and prison for the anguished souls trapped within. ",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -759.2310180664062,
+      "y": -403.677001953125
+    },
+    {
+      "id": "Dungeon|DGN_Step_ChampionsDemise|502144",
+      "name": "Champion's Demise",
+      "aspect": "legendary_generic_021",
+      "description": "Once beautiful homelands now overrun with demons.",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -530.280029296875,
+      "y": -321.9779968261719
+    },
+    {
+      "id": "Dungeon|DGN_Step_SealedArchives|1226416",
+      "name": "Sealed Archives",
+      "aspect": "legendary_druid_026",
+      "description": "An ancient mage hall. Once refuge, now graveyard. ",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -525.7689819335938,
+      "y": -487.0459899902344
+    },
+    {
+      "id": "Dungeon|DGN_Step_BloodsoakedCrag|216316",
+      "name": "Bloodsoaked Crag",
+      "aspect": "legendary_druid_080",
+      "description": "A feasting ground for the flesh-hungry. ",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -656.0469970703125,
+      "y": -538.4860229492188
+    },
+    {
+      "id": "Dungeon|DGN_Step_CharnelHouse|1226416",
+      "name": "Charnel House",
+      "aspect": "legendary_barb_100",
+      "description": "Bodies are stored here, some still alive. Food for demons.",
+      "region": "Untamed Scarps",
+      "zone": "Dry Steppes",
+      "x": -439.95098876953125,
+      "y": -502.1260070800781
+    },
+    {
+      "id": "Dungeon|DGN_Kehj_FadingEcho|575414",
+      "name": "Fading Echo",
+      "aspect": "legendary_druid_042",
+      "description": "These ruins have become host to a growing army of demons. ",
+      "region": "Scouring Sands",
+      "zone": "Kehjistan",
+      "x": -723.8980102539062,
+      "y": 50.09320068359375
+    },
+    {
+      "id": "Dungeon|DGN_Frac_SanguineChapel|533370",
+      "name": "Sanguine Chapel",
+      "aspect": "legendary_rogue_014",
+      "description": "A snowed in abandoned Zakarum church invaded by vampires.",
+      "region": "Seat of the Heavens",
+      "zone": "Fractured Peaks",
+      "x": -1939.9200439453125,
+      "y": 603.6380004882812
+    },
+    {
+      "id": "Dungeon|DGN_Frac_ImmortalEmanation|1094963",
+      "name": "Immortal Emanation",
+      "aspect": "legendary_druid_005",
+      "description": "A hunting ground, when prey is foolish enough to enter. ",
+      "region": "Frigid Expanse",
+      "zone": "Fractured Peaks",
+      "x": -1517.75,
+      "y": 338.0
+    },
+    {
+      "id": "Dungeon|DGN_Step_ForgottenDepths|502267",
+      "name": "Forgotten Depths",
+      "aspect": "legendary_sorc_113",
+      "description": "A shadow lies below these hallowed stones.",
+      "region": "Dindai Flats",
+      "zone": "Dry Steppes",
+      "x": -705.531005859375,
+      "y": -864.7839965820312
+    },
+    {
+      "id": "Dungeon|DGN_Naha_UlarianSepulcher|2015507",
+      "name": "Ularian Sepulcher",
+      "aspect": "legendary_spiritborn_036_x1",
+      "description": "Cursed burial ground, feared by all.",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 1135.030029296875,
+      "y": 572.5029907226562
+    },
+    {
+      "id": "Dungeon|DGN_Naha_HallowedStones|1381823",
+      "name": "Hallowed Stones",
+      "aspect": "legendary_spiritborn_016_x1",
+      "description": "Amidst a storm of evil, something hopeful flickers weakly.",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 874.5,
+      "y": 326.5
+    },
+    {
+      "id": "Dungeon|DGN_Naha_VileHive|1761929",
+      "name": "Vile Hive",
+      "aspect": "legendary_spiritborn_010_x1",
+      "description": "The sounds of skittering fiends echo through this foul nest.",
+      "region": "Restless Canopy",
+      "zone": "Nahantu",
+      "x": 864.8880004882812,
+      "y": 734.0679931640625
+    },
+    {
+      "id": "Dungeon|DGN_Naha_RemnantsofRage|1487459",
+      "name": "Remnants of Rage",
+      "aspect": "legendary_spiritborn_014_x1",
+      "description": "Within these confines, something restless trembles.",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 1111.6199951171875,
+      "y": -344.7279968261719
+    },
+    {
+      "id": "Dungeon|DGN_Naha_ForgeofMalice|2045334",
+      "name": "Forge of Malice",
+      "aspect": "legendary_spiritborn_015_x1",
+      "description": "The fires of hatred continue to burn in this hidden refuge.",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 737.198974609375,
+      "y": -145.86399841308594
+    },
+    {
+      "id": "Dungeon|DGN_Naha_HierophantPyre|1380157",
+      "name": "Hierophant Pyre",
+      "aspect": "legendary_spiritborn_004_x1",
+      "description": "Once used to burn opposers of Sankekur, the pyres are relit.",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 837.0009765625,
+      "y": 62.43259811401367
+    },
+    {
+      "id": "Dungeon|DGN_Naha_MurmuringSpiral|1382128",
+      "name": "Murmuring Spiral",
+      "aspect": "legendary_spiritborn_012_x1",
+      "description": "Scales and spirals hypnotize, and some come too close.",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1190.989990234375,
+      "y": -165.8260040283203
+    },
+    {
+      "id": "Dungeon|DGN_Naha_IronCenotaph|1382293",
+      "name": "Iron Cenotaph",
+      "aspect": "legendary_spiritborn_017_x1",
+      "description": "The first home of the Iron Wolves before the fall of Kurast.",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1482.6199951171875,
+      "y": -152.88600158691406
+    },
+    {
+      "id": "Dungeon|DGN_Naha_RazaksDescent|1382293",
+      "name": "Razak's Descent",
+      "aspect": "legendary_spiritborn_019_x1",
+      "description": "Where light is lost and intentions are twisted within roots.",
+      "region": "Seven Stones",
+      "zone": "Nahantu",
+      "x": 1328.3199462890625,
+      "y": 37.307701110839844
+    },
+    {
+      "id": "Dungeon|DGN_Naha_FeedingGrounds|1921729",
+      "name": "Feeding Grounds",
+      "aspect": "legendary_spiritborn_032_x1",
+      "description": "Fresh victims are fed to the demons in this place.",
+      "region": "Five Hills",
+      "zone": "Nahantu",
+      "x": 1501.0799560546875,
+      "y": 368.9599914550781
+    },
+    {
+      "id": "Dungeon|DGN_Naha_PutrescentLarder|2010244",
+      "name": "Putrescent Larder",
+      "aspect": "legendary_spiritborn_038_x1",
+      "description": "The repugnant air affirms where Lacuni store their meats.",
+      "region": "Five Hills",
+      "zone": "Nahantu",
+      "x": 1284.1600341796875,
+      "y": 375.2950134277344
+    },
+    {
+      "id": "Dungeon|DGN_Naha_SeethingUnderpass|1479100",
+      "name": "Seething Underpass",
+      "aspect": "legendary_spiritborn_044_x1",
+      "description": "Submerged corruption rises from the sunken channels.",
+      "region": "Lingering Hatred",
+      "zone": "Nahantu",
+      "x": 1165.75,
+      "y": 109.75
+    },
+    {
+      "id": "Dungeon|DGN_Naha_BetrayedTomb|2070625",
+      "name": "Betrayed Tomb",
+      "aspect": "legendary_spiritborn_018_x1",
+      "description": "Spirits writhe as hollows screech out in monstrous agony.",
+      "region": "The Festering Dark",
+      "zone": "Nahantu",
+      "x": 1101.27001953125,
+      "y": 689.8489990234375
+    },
+    {
+      "id": "Dungeon|DGN_Naha_CavesofKutokue|1578186",
+      "name": "Caves of Kutokue",
+      "aspect": "legendary_spiritborn_008_x1",
+      "description": "Screams of desperation echo in the walls.",
+      "region": "Kichuk",
+      "zone": "Nahantu",
+      "x": 0.08814279735088348,
+      "y": 286.8680114746094
+    },
+    {
+      "id": "Dungeon|DGN_Naha_SleeplessHollow|2025138",
+      "name": "Sleepless Hollow",
+      "aspect": "legendary_spiritborn_031_x1",
+      "description": "When the dead are forgotten, flesh and bone rise again.",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": 437.6029968261719,
+      "y": 206.6009979248047
+    },
+    {
+      "id": "Dungeon|DGN_Naha_FaraiCliffs|1527347",
+      "name": "Farai Cliffs",
+      "aspect": "legendary_spiritborn_037_x1",
+      "description": "The blood of outsiders glistens in the moonlight.",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": 285.64801025390625,
+      "y": 420.5710144042969
+    },
+    {
+      "id": "Dungeon|DGN_Naha_RuinedWild|1762913",
+      "name": "Ruined Wild",
+      "aspect": "legendary_spiritborn_039_x1",
+      "description": "A place of spirituality is now home to unwelcomed guests.",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 352.60101318359375,
+      "y": 705.1069946289062
+    },
+    {
+      "id": "Dungeon|DGN_Naha_BeastGraveyard|1762939",
+      "name": "Beast Graveyard",
+      "aspect": "legendary_spiritborn_043_x1",
+      "description": "Scavengers often come to profit off the holy giants.",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 738.0869750976562,
+      "y": 653.3619995117188
+    },
+    {
+      "id": "Dungeon|DGN_Naha_ForgottenRemains|1762911",
+      "name": "Forgotten Remains",
+      "aspect": "legendary_spiritborn_020_x1",
+      "description": "Villagers have mysteriously disappeared in this vicinity.",
+      "region": "Field of Giants",
+      "zone": "Nahantu",
+      "x": 465.5559997558594,
+      "y": 458.572998046875
+    },
+    {
+      "id": "Dungeon|DGN_Naha_SkatsimiFane|1476091",
+      "name": "Skatsimi Fane",
+      "aspect": "legendary_spiritborn_040_x1",
+      "description": "Long deprived of worship, who knows what remains of the old.",
+      "region": "Teganze Plateau",
+      "zone": "Nahantu",
+      "x": -19.03350067138672,
+      "y": 584.0159912109375
+    }
+  ]
+}

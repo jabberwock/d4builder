@@ -1,0 +1,872 @@
+{
+  "abyssal": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Abyssal"
+  },
+  "adept": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Adept"
+  },
+  "ambidextrous": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Ambidextrous"
+  },
+  "ambush": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Ambush"
+  },
+  "amplify": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Amplify"
+  },
+  "apostle": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "vulnerable"
+    ],
+    "main_stat": true,
+    "name": "Apostle"
+  },
+  "arbiter ": {
+    "class": "Paladin",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Arbiter "
+  },
+  "bane": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Bane"
+  },
+  "blood-drinker": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Blood-drinker"
+  },
+  "bloodfeeder": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Bloodfeeder"
+  },
+  "brawl": {
+    "class": "Barbarian",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Brawl"
+  },
+  "canny": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Canny"
+  },
+  "challenger": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "elite"
+    ],
+    "main_stat": false,
+    "name": "Challenger"
+  },
+  "charged": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Charged"
+  },
+  "chip": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "physical"
+    ],
+    "main_stat": false,
+    "name": "Chip"
+  },
+  "cleaver": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Cleaver"
+  },
+  "closer": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Closer"
+  },
+  "colossal": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Colossal"
+  },
+  "combat": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Combat"
+  },
+  "conjurer": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Conjurer"
+  },
+  "consumption": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Consumption"
+  },
+  "control": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "cc"
+    ],
+    "main_stat": true,
+    "name": "Control"
+  },
+  "corporeal": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "physical"
+    ],
+    "main_stat": true,
+    "name": "Corporeal"
+  },
+  "crusher": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Crusher"
+  },
+  "cryopathy": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Cryopathy"
+  },
+  "darkness": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "shadow"
+    ],
+    "main_stat": true,
+    "name": "Darkness"
+  },
+  "deadraiser": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Deadraiser"
+  },
+  "desecration": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "desecrated"
+    ],
+    "main_stat": false,
+    "name": "Desecration"
+  },
+  "destruction": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Destruction"
+  },
+  "devious": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "cc"
+    ],
+    "main_stat": true,
+    "name": "Devious"
+  },
+  "diminish": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "vulnerable"
+    ],
+    "main_stat": true,
+    "name": "Diminish"
+  },
+  "disembowel": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Disembowel"
+  },
+  "dominate": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "overpower"
+    ],
+    "main_stat": false,
+    "name": "Dominate"
+  },
+  "earth and sky": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Earth and Sky"
+  },
+  "efficacy": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Efficacy"
+  },
+  "electrocute": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Electrocute"
+  },
+  "electrocution": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Electrocution"
+  },
+  "elementalist": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": true,
+    "name": "Elementalist"
+  },
+  "eliminator": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "elite"
+    ],
+    "main_stat": false,
+    "name": "Eliminator"
+  },
+  "enchanter": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Enchanter"
+  },
+  "essence": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Essence"
+  },
+  "executioner": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Executioner"
+  },
+  "exhumation": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": true,
+    "name": "Exhumation"
+  },
+  "exploit": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "vulnerable"
+    ],
+    "main_stat": false,
+    "name": "Exploit"
+  },
+  "explosive": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Explosive"
+  },
+  "fang and claw": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Fang and Claw"
+  },
+  "fester": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Fester"
+  },
+  "feverous": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Feverous"
+  },
+  "fitness": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": true,
+    "name": "Fitness"
+  },
+  "flamefeeder": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Flamefeeder"
+  },
+  "fluidity": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Fluidity"
+  },
+  "frostfeeder": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Frostfeeder"
+  },
+  "fulminate": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Fulminate"
+  },
+  "golem": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Golem"
+  },
+  "gravekeeper": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": false,
+    "name": "Gravekeeper"
+  },
+  "guzzler": {
+    "class": "Druid",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": false,
+    "name": "Guzzler"
+  },
+  "headhunter": {
+    "class": "Druid",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Headhunter"
+  },
+  "hone": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Hone"
+  },
+  "honed": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Honed"
+  },
+  "hubris": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "vulnerable"
+    ],
+    "main_stat": false,
+    "name": "Hubris"
+  },
+  "human": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Human"
+  },
+  "imbiber": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": false,
+    "name": "Imbiber"
+  },
+  "infusion": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Infusion"
+  },
+  "innate": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Innate"
+  },
+  "invocation": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Invocation"
+  },
+  "ire": {
+    "class": "Barbarian",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Ire"
+  },
+  "jagged plume": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Jagged Plume"
+  },
+  "judicator": {
+    "class": "Paladin",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Judicator"
+  },
+  "keeper": {
+    "class": "Druid",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Keeper"
+  },
+  "law": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Law"
+  },
+  "mage": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Mage"
+  },
+  "marshal": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Marshal"
+  },
+  "menagerist": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Menagerist"
+  },
+  "might": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": true,
+    "name": "Might"
+  },
+  "mortal draw": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Mortal Draw"
+  },
+  "nightstalker": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "shadow"
+    ],
+    "main_stat": false,
+    "name": "Nightstalker"
+  },
+  "outmatch": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "healthy"
+    ],
+    "main_stat": true,
+    "name": "Outmatch"
+  },
+  "poise": {
+    "class": "Druid",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Poise"
+  },
+  "pride": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "elite"
+    ],
+    "main_stat": false,
+    "name": "Pride"
+  },
+  "protector": {
+    "class": "Druid",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Protector"
+  },
+  "pyromaniac": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Pyromaniac"
+  },
+  "ranger": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Ranger"
+  },
+  "reinforced": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Reinforced"
+  },
+  "resplendence": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Resplendence"
+  },
+  "revenge": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Revenge"
+  },
+  "ritual": {
+    "class": "Spiritborn",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Ritual"
+  },
+  "rumble": {
+    "class": "Barbarian",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Rumble"
+  },
+  "sacrificial": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Sacrificial"
+  },
+  "scourge": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Scourge"
+  },
+  "seething": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Seething"
+  },
+  "sentinel": {
+    "class": "Paladin",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Sentinel"
+  },
+  "shapeshifter": {
+    "class": "Druid",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Shapeshifter"
+  },
+  "snare": {
+    "class": "Rogue",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Snare"
+  },
+  "spirit": {
+    "class": "Paladin",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Spirit"
+  },
+  "stalagmite": {
+    "class": "Sorcerer",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Stalagmite"
+  },
+  "tactician": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Tactician"
+  },
+  "talon": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Talon"
+  },
+  "tectonic": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Tectonic"
+  },
+  "territorial": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "vulnerable"
+    ],
+    "main_stat": false,
+    "name": "Territorial"
+  },
+  "torch": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Torch"
+  },
+  "tracker": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Tracker"
+  },
+  "turf": {
+    "class": "Paladin",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Turf"
+  },
+  "twister": {
+    "class": "Barbarian",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Twister"
+  },
+  "undaunted": {
+    "class": "Druid",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Undaunted"
+  },
+  "unleash": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Unleash"
+  },
+  "versatility": {
+    "class": "Rogue",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": true,
+    "name": "Versatility"
+  },
+  "warding": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "fire",
+      "cold",
+      "lightning",
+      "shadow",
+      "poison"
+    ],
+    "main_stat": false,
+    "name": "Warding"
+  },
+  "warrior": {
+    "class": "Necromancer",
+    "legendary_tags": [
+      "all_damage"
+    ],
+    "main_stat": false,
+    "name": "Warrior"
+  },
+  "weapon master": {
+    "class": "Barbarian",
+    "legendary_tags": [],
+    "main_stat": false,
+    "name": "Weapon Master"
+  },
+  "werebear": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Werebear"
+  },
+  "werewolf": {
+    "class": "Druid",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Werewolf"
+  },
+  "wildfire": {
+    "class": "Spiritborn",
+    "legendary_tags": [],
+    "main_stat": true,
+    "name": "Wildfire"
+  },
+  "wilds": {
+    "class": "Druid",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Wilds"
+  },
+  "winter": {
+    "class": "Sorcerer",
+    "legendary_tags": [
+      "cc"
+    ],
+    "main_stat": false,
+    "name": "Winter"
+  },
+  "wrath": {
+    "class": "Barbarian",
+    "legendary_tags": [
+      "critical"
+    ],
+    "main_stat": false,
+    "name": "Wrath"
+  }
+}

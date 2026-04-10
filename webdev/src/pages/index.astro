@@ -1,0 +1,175 @@
+---
+import Layout from '@/layouts/Layout.astro';
+
+const classes = ['Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Rogue', 'Sorcerer', 'Spiritborn'];
+const classDescriptions: Record<string, string> = {
+  Barbarian: 'Melee powerhouse. Bleeds, fury, and relentless offense.',
+  Druid: 'Nature shapeshifter. Wolves, bears, and elemental magic.',
+  Necromancer: 'Death master. Corpses, bone magic, and army control.',
+  Paladin: 'Holy warrior. Blessed attacks and defensive auras.',
+  Rogue: 'Shadow assassin. Speed, precision, and ranged damage.',
+  Sorcerer: 'Spell caster. Fire, ice, and lightning devastation.',
+  Spiritborn: 'Mystic guardian. Spirit powers and cosmic balance.'
+};
+---
+
+<Layout title="D4Builder - Choose Your Class">
+  <main class="picker-hero">
+    <div class="container picker-hero__content">
+      <header class="picker-hero__header">
+        <h1>D4Builder</h1>
+        <p class="picker-hero__subtitle">Fast, honest Diablo 4 builds for returning seasonal players</p>
+      </header>
+
+      <section class="picker-hero__intro">
+        <p>Pick your class. Find your build. Get back in the game.</p>
+      </section>
+
+      <div class="class-grid">
+        {classes.map((className) => (
+          <a href={`/class/${className.toLowerCase()}`} class="class-tile">
+            <div class="class-tile__header">
+              <h2 class="class-tile__name">{className}</h2>
+            </div>
+            <p class="class-tile__description">{classDescriptions[className]}</p>
+            <div class="class-tile__cta">4 Builds Available</div>
+          </a>
+        ))}
+      </div>
+
+      <footer class="picker-hero__footer">
+        <p class="footer-note">
+          Built from verified Diablo 4 data. <a href="/about">Learn more</a>.
+        </p>
+      </footer>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .picker-hero {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--space-lg) 0;
+    min-height: 100vh;
+  }
+
+  .picker-hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2xl);
+  }
+
+  .picker-hero__header {
+    text-align: center;
+  }
+
+  .picker-hero__header h1 {
+    font-size: var(--font-size-3xl);
+    margin-bottom: var(--space-sm);
+    color: var(--color-primary);
+  }
+
+  .picker-hero__subtitle {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .picker-hero__intro {
+    text-align: center;
+    padding: var(--space-lg) var(--space-md);
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
+  }
+
+  .picker-hero__intro p {
+    font-size: var(--font-size-lg);
+    margin: 0;
+    color: var(--color-text);
+  }
+
+  .class-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  @media (min-width: 768px) {
+    .class-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-lg);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .class-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-lg);
+    }
+  }
+
+  .class-tile {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    min-height: 200px;
+    justify-content: space-between;
+  }
+
+  .class-tile:hover {
+    background: var(--color-bg);
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(216, 165, 0, 0.15);
+  }
+
+  .class-tile__header {
+    flex: 0;
+  }
+
+  .class-tile__name {
+    margin: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-primary);
+  }
+
+  .class-tile__description {
+    flex: 1;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+    line-height: var(--line-height-relaxed);
+  }
+
+  .class-tile__cta {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+
+  .picker-hero__footer {
+    text-align: center;
+    padding-top: var(--space-xl);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .footer-note {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .footer-note a {
+    color: var(--color-primary);
+  }
+</style>

@@ -1,0 +1,1921 @@
+{
+  "Barbarian": {},
+  "Druid": {
+    "(ph) ravager marks": {
+      "icon_id": "3106974408",
+      "name": "(PH) Ravager Marks",
+      "points_required": 2,
+      "y": 653
+    },
+    "[ph] rampaging earth": {
+      "icon_id": "520059381",
+      "name": "[PH] Rampaging Earth",
+      "points_required": 16,
+      "y": 957
+    },
+    "[wip] update needed": {
+      "icon_id": "2688097551",
+      "name": "[WIP] Update needed",
+      "points_required": 23,
+      "y": 1097
+    },
+    "abundance": {
+      "icon_id": "3723303141",
+      "name": "Abundance",
+      "points_required": 1,
+      "y": 444
+    },
+    "ancestral fortitude": {
+      "icon_id": "1895097783",
+      "name": "Ancestral Fortitude",
+      "points_required": 2,
+      "y": 596
+    },
+    "backlash": {
+      "icon_id": "2302616041",
+      "name": "Backlash",
+      "points_required": 2,
+      "y": 596
+    },
+    "bad omen": {
+      "icon_id": "1840923751",
+      "name": "Bad Omen",
+      "points_required": 11,
+      "y": 877
+    },
+    "bestial rampage": {
+      "icon_id": "3664980133",
+      "name": "Bestial Rampage",
+      "points_required": 33,
+      "y": 1267
+    },
+    "blood howl": {
+      "icon_id": "537890702",
+      "name": "Blood Howl",
+      "points_required": 2,
+      "y": 627
+    },
+    "boulder": {
+      "icon_id": "4043178673",
+      "name": "Boulder",
+      "points_required": 16,
+      "y": 918
+    },
+    "call of the wild": {
+      "icon_id": "3406133926",
+      "name": "Call of the Wild",
+      "points_required": 11,
+      "y": 781
+    },
+    "cataclysm": {
+      "icon_id": "1231569317",
+      "name": "Cataclysm",
+      "points_required": 23,
+      "y": 1071
+    },
+    "catastrophe": {
+      "icon_id": "2264986466",
+      "name": "Catastrophe",
+      "points_required": 23,
+      "y": 1099
+    },
+    "circle of life": {
+      "icon_id": "2737462785",
+      "name": "Circle of Life",
+      "points_required": 16,
+      "y": 1023
+    },
+    "clarity": {
+      "icon_id": "4245232924",
+      "name": "Clarity",
+      "points_required": 11,
+      "y": 805
+    },
+    "claw": {
+      "icon_id": "238256983",
+      "name": "Claw",
+      "points_required": 0,
+      "y": 313
+    },
+    "cyclone armor": {
+      "icon_id": "3838819186",
+      "name": "Cyclone Armor",
+      "points_required": 1,
+      "y": 563
+    },
+    "defiance": {
+      "icon_id": "2281812979",
+      "name": "Defiance",
+      "points_required": 16,
+      "y": 1049
+    },
+    "digitigrade gait": {
+      "icon_id": "1495529030",
+      "name": "Digitigrade Gait",
+      "points_required": 1,
+      "y": 529
+    },
+    "earthen bulwark": {
+      "icon_id": "1182567971",
+      "name": "Earthen Bulwark",
+      "points_required": 1,
+      "y": 539
+    },
+    "earthen might": {
+      "icon_id": "1774904516",
+      "name": "Earthen Might",
+      "points_required": 33,
+      "y": 1199
+    },
+    "earthspike": {
+      "icon_id": "3204306676",
+      "name": "Earthspike",
+      "points_required": 0,
+      "y": 283
+    },
+    "elemental exposure": {
+      "icon_id": "2418995958",
+      "name": "Elemental Exposure",
+      "points_required": 11,
+      "y": 858
+    },
+    "endless tempest": {
+      "icon_id": "1393832020",
+      "name": "Endless Tempest",
+      "points_required": 11,
+      "y": 877
+    },
+    "envenom": {
+      "icon_id": "1913732636",
+      "name": "Envenom",
+      "points_required": 16,
+      "y": 1009
+    },
+    "feral aptitude ": {
+      "icon_id": "3176138618",
+      "name": "Feral Aptitude ",
+      "points_required": 11,
+      "y": 755
+    },
+    "grizzly rage": {
+      "icon_id": "3082097118",
+      "name": "Grizzly Rage",
+      "points_required": 23,
+      "y": 1152
+    },
+    "heart of the wild": {
+      "icon_id": "2513811614",
+      "name": "Heart of the Wild",
+      "points_required": 1,
+      "y": 431
+    },
+    "heightened senses": {
+      "icon_id": "2873705738",
+      "name": "Heightened Senses",
+      "points_required": 23,
+      "y": 1175
+    },
+    "humanity": {
+      "icon_id": "2311056851",
+      "name": "Humanity",
+      "points_required": 11,
+      "y": 739
+    },
+    "hurricane": {
+      "icon_id": "4193897029",
+      "name": "Hurricane",
+      "points_required": 11,
+      "y": 884
+    },
+    "iron fur": {
+      "icon_id": "911052553",
+      "name": "Iron Fur",
+      "points_required": 1,
+      "y": 529
+    },
+    "lacerate": {
+      "icon_id": "2478771237",
+      "name": "Lacerate",
+      "points_required": 23,
+      "y": 1123
+    },
+    "landslide": {
+      "icon_id": "3840108468",
+      "name": "Landslide",
+      "points_required": 0,
+      "y": 381
+    },
+    "lightning storm": {
+      "icon_id": "3300682957",
+      "name": "Lightning Storm",
+      "points_required": 1,
+      "y": 413
+    },
+    "lupine ferocity": {
+      "icon_id": "3859407863",
+      "name": "Lupine Ferocity",
+      "points_required": 33,
+      "y": 1267
+    },
+    "maul": {
+      "icon_id": "302691955",
+      "name": "Maul",
+      "points_required": 0,
+      "y": 354
+    },
+    "mending": {
+      "icon_id": "450644584",
+      "name": "Mending",
+      "points_required": 16,
+      "y": 916
+    },
+    "natural disaster": {
+      "icon_id": "4135622062",
+      "name": "Natural Disaster",
+      "points_required": 16,
+      "y": 1022
+    },
+    "natural fortitude": {
+      "icon_id": "2292152657",
+      "name": "Natural Fortitude",
+      "points_required": 23,
+      "y": 1174
+    },
+    "nature's fury": {
+      "icon_id": "692127506",
+      "name": "Nature's Fury",
+      "points_required": 23,
+      "y": 1156
+    },
+    "nature's reach": {
+      "icon_id": "3456937225",
+      "name": "Nature's Reach",
+      "points_required": 2,
+      "y": 721
+    },
+    "nature's resolve": {
+      "icon_id": "3343205222",
+      "name": "Nature's Resolve",
+      "points_required": 23,
+      "y": 1114
+    },
+    "neurotoxin": {
+      "icon_id": "3853655021",
+      "name": "Neurotoxin",
+      "points_required": 16,
+      "y": 983
+    },
+    "one with nature": {
+      "icon_id": "1445822545",
+      "name": "One With Nature",
+      "points_required": 33,
+      "y": 1255
+    },
+    "perfect storm": {
+      "icon_id": "3153315906",
+      "name": "Perfect Storm",
+      "points_required": 23,
+      "y": 1156
+    },
+    "petrify": {
+      "icon_id": "2316360295",
+      "name": "Petrify",
+      "points_required": 16,
+      "y": 1046
+    },
+    "poison creeper": {
+      "icon_id": "2872752988",
+      "name": "Poison Creeper",
+      "points_required": 11,
+      "y": 766
+    },
+    "predatory instinct": {
+      "icon_id": "2847472285",
+      "name": "Predatory Instinct",
+      "points_required": 1,
+      "y": 480
+    },
+    "provocation": {
+      "icon_id": "3199423320",
+      "name": "Provocation",
+      "points_required": 16,
+      "y": 916
+    },
+    "pulverize": {
+      "icon_id": "543930730",
+      "name": "Pulverize",
+      "points_required": 1,
+      "y": 481
+    },
+    "quickshift": {
+      "icon_id": "70253835",
+      "name": "Quickshift",
+      "points_required": 23,
+      "y": 1151
+    },
+    "rabies": {
+      "icon_id": "1223369082",
+      "name": "Rabies",
+      "points_required": 16,
+      "y": 986
+    },
+    "ravens": {
+      "icon_id": "1137056403",
+      "name": "Ravens",
+      "points_required": 11,
+      "y": 820
+    },
+    "resonance": {
+      "icon_id": "844468889",
+      "name": "Resonance",
+      "points_required": 16,
+      "y": 996
+    },
+    "safeguard": {
+      "icon_id": "532450102",
+      "name": "Safeguard",
+      "points_required": 16,
+      "y": 942
+    },
+    "shred": {
+      "icon_id": "4031310682",
+      "name": "Shred",
+      "points_required": 1,
+      "y": 490
+    },
+    "stone burst": {
+      "icon_id": "3598660560",
+      "name": "Stone Burst",
+      "points_required": 0,
+      "y": 369
+    },
+    "stone guard": {
+      "icon_id": "236421120",
+      "name": "Stone Guard",
+      "points_required": 16,
+      "y": 973
+    },
+    "storm strike": {
+      "icon_id": "2558791083",
+      "name": "Storm Strike",
+      "points_required": 0,
+      "y": 274
+    },
+    "thick hide": {
+      "icon_id": "1410780849",
+      "name": "Thick Hide",
+      "points_required": 23,
+      "y": 1082
+    },
+    "tornado": {
+      "icon_id": "131594843",
+      "name": "Tornado",
+      "points_required": 1,
+      "y": 451
+    },
+    "toxic claws": {
+      "icon_id": "3059325989",
+      "name": "Toxic Claws",
+      "points_required": 16,
+      "y": 1009
+    },
+    "trample": {
+      "icon_id": "2340198233",
+      "name": "Trample",
+      "points_required": 16,
+      "y": 945
+    },
+    "unrestrained": {
+      "icon_id": "285733496",
+      "name": "Unrestrained",
+      "points_required": 23,
+      "y": 1097
+    },
+    "ursine strength": {
+      "icon_id": "1992151369",
+      "name": "Ursine Strength",
+      "points_required": 33,
+      "y": 1218
+    },
+    "vigilance": {
+      "icon_id": "1786329302",
+      "name": "Vigilance",
+      "points_required": 2,
+      "y": 596
+    },
+    "wild impulses": {
+      "icon_id": "2742345094",
+      "name": "Wild Impulses",
+      "points_required": 1,
+      "y": 419
+    },
+    "wind shear": {
+      "icon_id": "1687599785",
+      "name": "Wind Shear",
+      "points_required": 0,
+      "y": 264
+    },
+    "wolves": {
+      "icon_id": "2601282180",
+      "name": "Wolves",
+      "points_required": 2,
+      "y": 713
+    }
+  },
+  "Necromancer": {
+    "(ph) battle standard": {
+      "icon_id": "266226442",
+      "name": "(PH) Battle Standard",
+      "points_required": 2,
+      "y": 723
+    },
+    "(ph) hell standard": {
+      "icon_id": "2031840440",
+      "name": "(PH) Hell Standard",
+      "points_required": 2,
+      "y": 651
+    },
+    "(ph) proliferation": {
+      "icon_id": "3359766882",
+      "name": "(PH) Proliferation",
+      "points_required": 16,
+      "y": 932
+    },
+    "[wip] vulnerable 3": {
+      "icon_id": "2286106559",
+      "name": "[WIP] Vulnerable 3",
+      "points_required": 16,
+      "y": 1008
+    },
+    "affliction": {
+      "icon_id": "2187689795",
+      "name": "Affliction",
+      "points_required": 33,
+      "y": 1259
+    },
+    "amplify damage": {
+      "icon_id": "1294630357",
+      "name": "Amplify Damage",
+      "points_required": 11,
+      "y": 766
+    },
+    "army of the dead": {
+      "icon_id": "2893859777",
+      "name": "Army of the Dead",
+      "points_required": 23,
+      "y": 1097
+    },
+    "blight": {
+      "icon_id": "1046242558",
+      "name": "Blight",
+      "points_required": 1,
+      "y": 471
+    },
+    "blood lance": {
+      "icon_id": "2277222871",
+      "name": "Blood Lance",
+      "points_required": 0,
+      "y": 369
+    },
+    "blood mist": {
+      "icon_id": "2460994705",
+      "name": "Blood Mist",
+      "points_required": 1,
+      "y": 545
+    },
+    "blood surge": {
+      "icon_id": "179453850",
+      "name": "Blood Surge",
+      "points_required": 1,
+      "y": 430
+    },
+    "blood wave": {
+      "icon_id": "2180708071",
+      "name": "Blood Wave",
+      "points_required": 16,
+      "y": 1042
+    },
+    "bonded in essence": {
+      "icon_id": "2893631981",
+      "name": "Bonded in Essence",
+      "points_required": 23,
+      "y": 1167
+    },
+    "bone spear": {
+      "icon_id": "1562028099",
+      "name": "Bone Spear",
+      "points_required": 1,
+      "y": 430
+    },
+    "bone spirit": {
+      "icon_id": "1533617475",
+      "name": "Bone Spirit",
+      "points_required": 16,
+      "y": 971
+    },
+    "bone splinters": {
+      "icon_id": "3293553708",
+      "name": "Bone Splinters",
+      "points_required": 0,
+      "y": 301
+    },
+    "bone storm": {
+      "icon_id": "2844267581",
+      "name": "Bone Storm",
+      "points_required": 23,
+      "y": 1161
+    },
+    "coalesced blood": {
+      "icon_id": "4264943735",
+      "name": "Coalesced Blood",
+      "points_required": 11,
+      "y": 868
+    },
+    "compound fracture": {
+      "icon_id": "1010971109",
+      "name": "Compound Fracture",
+      "points_required": 16,
+      "y": 1008
+    },
+    "corpse explosion": {
+      "icon_id": "1772917457",
+      "name": "Corpse Explosion",
+      "points_required": 2,
+      "y": 584
+    },
+    "corpse tendrils": {
+      "icon_id": "1236595861",
+      "name": "Corpse Tendrils",
+      "points_required": 11,
+      "y": 890
+    },
+    "crippling darkness": {
+      "icon_id": "74774887",
+      "name": "Crippling Darkness",
+      "points_required": 16,
+      "y": 949
+    },
+    "death's approach": {
+      "icon_id": "4115069120",
+      "name": "Death's Approach",
+      "points_required": 11,
+      "y": 751
+    },
+    "death's defense": {
+      "icon_id": "1896038871",
+      "name": "Death's Defense",
+      "points_required": 23,
+      "y": 1170
+    },
+    "death's embrace": {
+      "icon_id": "824870156",
+      "name": "Death's Embrace",
+      "points_required": 2,
+      "y": 712
+    },
+    "decompose": {
+      "icon_id": "17582435",
+      "name": "Decompose",
+      "points_required": 0,
+      "y": 271
+    },
+    "decrepify": {
+      "icon_id": "3985881759",
+      "name": "Decrepify",
+      "points_required": 11,
+      "y": 810
+    },
+    "drain vitality": {
+      "icon_id": "932541096",
+      "name": "Drain Vitality",
+      "points_required": 11,
+      "y": 819
+    },
+    "evulsion": {
+      "icon_id": "1223604729",
+      "name": "Evulsion",
+      "points_required": 16,
+      "y": 1034
+    },
+    "finality": {
+      "icon_id": "688893252",
+      "name": "Finality",
+      "points_required": 16,
+      "y": 1030
+    },
+    "fueled by death": {
+      "icon_id": "1598711450",
+      "name": "Fueled by Death",
+      "points_required": 2,
+      "y": 603
+    },
+    "gloom": {
+      "icon_id": "181816930",
+      "name": "Gloom",
+      "points_required": 16,
+      "y": 914
+    },
+    "golem mastery": {
+      "icon_id": "3748921053",
+      "name": "Golem Mastery",
+      "points_required": 16,
+      "y": 1049
+    },
+    "grim harvest": {
+      "icon_id": "2385536336",
+      "name": "Grim Harvest",
+      "points_required": 2,
+      "y": 617
+    },
+    "gruesome mending": {
+      "icon_id": "2837560365",
+      "name": "Gruesome Mending",
+      "points_required": 11,
+      "y": 868
+    },
+    "hellbent commander": {
+      "icon_id": "2552258792",
+      "name": "Hellbent Commander",
+      "points_required": 23,
+      "y": 1128
+    },
+    "hemorrhage": {
+      "icon_id": "1878371654",
+      "name": "Hemorrhage",
+      "points_required": 0,
+      "y": 269
+    },
+    "hewed flesh": {
+      "icon_id": "3240407683",
+      "name": "Hewed Flesh",
+      "points_required": 1,
+      "y": 402
+    },
+    "imperfectly balanced": {
+      "icon_id": "3634132754",
+      "name": "Imperfectly Balanced",
+      "points_required": 0,
+      "y": 371
+    },
+    "inspiring leader": {
+      "icon_id": "1996721284",
+      "name": "Inspiring Leader",
+      "points_required": 23,
+      "y": 1149
+    },
+    "kalan's edict": {
+      "icon_id": "1774004647",
+      "name": "Kalan's Edict",
+      "points_required": 33,
+      "y": 1211
+    },
+    "memento mori": {
+      "icon_id": "3220584720",
+      "name": "Memento Mori",
+      "points_required": 16,
+      "y": 1028
+    },
+    "necrotic carapace": {
+      "icon_id": "2532734923",
+      "name": "Necrotic Carapace",
+      "points_required": 16,
+      "y": 932
+    },
+    "necrotic fortitude": {
+      "icon_id": "367264118",
+      "name": "Necrotic Fortitude",
+      "points_required": 1,
+      "y": 556
+    },
+    "ossified essence": {
+      "icon_id": "1770652416",
+      "name": "Ossified Essence",
+      "points_required": 23,
+      "y": 1152
+    },
+    "precision decay": {
+      "icon_id": "287907233",
+      "name": "Precision Decay",
+      "points_required": 11,
+      "y": 778
+    },
+    "rathma's vigor": {
+      "icon_id": "664974203",
+      "name": "Rathma's Vigor",
+      "points_required": 33,
+      "y": 1194
+    },
+    "reap": {
+      "icon_id": "2598031404",
+      "name": "Reap",
+      "points_required": 0,
+      "y": 300
+    },
+    "reaper's pursuit": {
+      "icon_id": "217044114",
+      "name": "Reaper's Pursuit",
+      "points_required": 16,
+      "y": 932
+    },
+    "serration": {
+      "icon_id": "2347968539",
+      "name": "Serration",
+      "points_required": 16,
+      "y": 983
+    },
+    "sever": {
+      "icon_id": "313951465",
+      "name": "Sever",
+      "points_required": 1,
+      "y": 496
+    },
+    "shadowblight": {
+      "icon_id": "650872132",
+      "name": "Shadowblight",
+      "points_required": 33,
+      "y": 1275
+    },
+    "skeletal mage mastery": {
+      "icon_id": "3081071640",
+      "name": "Skeletal Mage Mastery",
+      "points_required": 11,
+      "y": 825
+    },
+    "skeletal warrior mastery": {
+      "icon_id": "2984053796",
+      "name": "Skeletal Warrior Mastery",
+      "points_required": 2,
+      "y": 635
+    },
+    "soulrift": {
+      "icon_id": "706534556",
+      "name": "Soulrift",
+      "points_required": 23,
+      "y": 1097
+    },
+    "spiked armor": {
+      "icon_id": "608204613",
+      "name": "Spiked Armor",
+      "points_required": 2,
+      "y": 609
+    },
+    "stand alone": {
+      "icon_id": "814901389",
+      "name": "Stand Alone",
+      "points_required": 16,
+      "y": 1066
+    },
+    "tides of blood": {
+      "icon_id": "821077602",
+      "name": "Tides of Blood",
+      "points_required": 11,
+      "y": 844
+    },
+    "titan's fall": {
+      "icon_id": "2195606817",
+      "name": "Titan's Fall",
+      "points_required": 2,
+      "y": 579
+    },
+    "transfusion": {
+      "icon_id": "1766420704",
+      "name": "Transfusion",
+      "points_required": 11,
+      "y": 819
+    },
+    "unliving energy": {
+      "icon_id": "576981242",
+      "name": "Unliving Energy",
+      "points_required": 0,
+      "y": 384
+    }
+  },
+  "Rogue": {
+    "(ph) spore pod": {
+      "icon_id": "3831419091",
+      "name": "(PH) Spore Pod",
+      "points_required": 11,
+      "y": 823
+    },
+    "[wip] conviction": {
+      "icon_id": "2211378662",
+      "name": "[WIP] Conviction",
+      "points_required": 1,
+      "y": 502
+    },
+    "adrenaline rush": {
+      "icon_id": "3979832462",
+      "name": "Adrenaline Rush",
+      "points_required": 23,
+      "y": 1153
+    },
+    "aftermath": {
+      "icon_id": "489922261",
+      "name": "Aftermath",
+      "points_required": 23,
+      "y": 1098
+    },
+    "agile": {
+      "icon_id": "1771583163",
+      "name": "Agile",
+      "points_required": 2,
+      "y": 716
+    },
+    "alchemical admixture": {
+      "icon_id": "2662528848",
+      "name": "Alchemical Admixture",
+      "points_required": 23,
+      "y": 1156
+    },
+    "alchemical advantage": {
+      "icon_id": "691022567",
+      "name": "Alchemical Advantage",
+      "points_required": 16,
+      "y": 937
+    },
+    "alchemist's fortune": {
+      "icon_id": "1934010081",
+      "name": "Alchemist's Fortune",
+      "points_required": 16,
+      "y": 1048
+    },
+    "apothecary": {
+      "icon_id": "2594499124",
+      "name": "Apothecary",
+      "points_required": 23,
+      "y": 1098
+    },
+    "balestra": {
+      "icon_id": "1793884840",
+      "name": "Balestra",
+      "points_required": 2,
+      "y": 649
+    },
+    "barrage": {
+      "icon_id": "2489669816",
+      "name": "Barrage",
+      "points_required": 0,
+      "y": 378
+    },
+    "blade shift": {
+      "icon_id": "166406234",
+      "name": "Blade Shift",
+      "points_required": 0,
+      "y": 259
+    },
+    "caltrops": {
+      "icon_id": "4095714092",
+      "name": "Caltrops",
+      "points_required": 2,
+      "y": 567
+    },
+    "chilling weight": {
+      "icon_id": "1650736235",
+      "name": "Chilling Weight",
+      "points_required": 16,
+      "y": 1007
+    },
+    "close quarters combat": {
+      "icon_id": "772323516",
+      "name": "Close Quarters Combat",
+      "points_required": 33,
+      "y": 1256
+    },
+    "cold imbuement": {
+      "icon_id": "3825033762",
+      "name": "Cold Imbuement",
+      "points_required": 16,
+      "y": 978
+    },
+    "concealment": {
+      "icon_id": "2096441689",
+      "name": "Concealment",
+      "points_required": 2,
+      "y": 727
+    },
+    "consuming shadows": {
+      "icon_id": "4065346841",
+      "name": "Consuming Shadows",
+      "points_required": 11,
+      "y": 854
+    },
+    "dance of knives": {
+      "icon_id": "2841920196",
+      "name": "Dance of Knives",
+      "points_required": 2,
+      "y": 596
+    },
+    "dark shroud": {
+      "icon_id": "3340286619",
+      "name": "Dark Shroud",
+      "points_required": 11,
+      "y": 776
+    },
+    "dash": {
+      "icon_id": "1561866532",
+      "name": "Dash",
+      "points_required": 2,
+      "y": 649
+    },
+    "deadly venom": {
+      "icon_id": "1573888709",
+      "name": "Deadly Venom",
+      "points_required": 16,
+      "y": 951
+    },
+    "debilitating toxins": {
+      "icon_id": "1143413012",
+      "name": "Debilitating Toxins",
+      "points_required": 16,
+      "y": 974
+    },
+    "evasive": {
+      "icon_id": "3742244759",
+      "name": "Evasive",
+      "points_required": 2,
+      "y": 691
+    },
+    "exploit": {
+      "icon_id": "2329196382",
+      "name": "Exploit",
+      "points_required": 11,
+      "y": 810
+    },
+    "exposure": {
+      "icon_id": "4193729812",
+      "name": "Exposure",
+      "points_required": 33,
+      "y": 1210
+    },
+    "flurry": {
+      "icon_id": "3328799720",
+      "name": "Flurry",
+      "points_required": 1,
+      "y": 474
+    },
+    "forceful arrow": {
+      "icon_id": "4249947077",
+      "name": "Forceful Arrow",
+      "points_required": 0,
+      "y": 355
+    },
+    "frigid finesse": {
+      "icon_id": "1934059360",
+      "name": "Frigid Finesse",
+      "points_required": 16,
+      "y": 979
+    },
+    "haste": {
+      "icon_id": "694941358",
+      "name": "Haste",
+      "points_required": 33,
+      "y": 1187
+    },
+    "heartseeker": {
+      "icon_id": "2825736727",
+      "name": "Heartseeker",
+      "points_required": 0,
+      "y": 318
+    },
+    "impetus": {
+      "icon_id": "2337332320",
+      "name": "Impetus",
+      "points_required": 16,
+      "y": 1033
+    },
+    "innervation": {
+      "icon_id": "2210444070",
+      "name": "Innervation",
+      "points_required": 23,
+      "y": 1153
+    },
+    "invigorating strike": {
+      "icon_id": "2590867783",
+      "name": "Invigorating Strike",
+      "points_required": 0,
+      "y": 280
+    },
+    "malice": {
+      "icon_id": "1756879364",
+      "name": "Malice",
+      "points_required": 11,
+      "y": 800
+    },
+    "mending obscurity": {
+      "icon_id": "2972681567",
+      "name": "Mending Obscurity",
+      "points_required": 2,
+      "y": 692
+    },
+    "miasma": {
+      "icon_id": "1196437418",
+      "name": "Miasma",
+      "points_required": 11,
+      "y": 767
+    },
+    "momentum": {
+      "icon_id": "3849878859",
+      "name": "Momentum",
+      "points_required": 33,
+      "y": 1210
+    },
+    "penetrating shot": {
+      "icon_id": "3769175811",
+      "name": "Penetrating Shot",
+      "points_required": 1,
+      "y": 484
+    },
+    "poison imbuement": {
+      "icon_id": "7199608",
+      "name": "Poison Imbuement",
+      "points_required": 16,
+      "y": 912
+    },
+    "precision": {
+      "icon_id": "2820028677",
+      "name": "Precision",
+      "points_required": 33,
+      "y": 1280
+    },
+    "precision imbuement": {
+      "icon_id": "3147175262",
+      "name": "Precision Imbuement",
+      "points_required": 16,
+      "y": 932
+    },
+    "puncture": {
+      "icon_id": "3948011034",
+      "name": "Puncture",
+      "points_required": 0,
+      "y": 280
+    },
+    "rain of arrows": {
+      "icon_id": "914686433",
+      "name": "Rain of Arrows",
+      "points_required": 23,
+      "y": 1134
+    },
+    "rapid fire": {
+      "icon_id": "353880186",
+      "name": "Rapid Fire",
+      "points_required": 1,
+      "y": 430
+    },
+    "rapid gambits": {
+      "icon_id": "1920222032",
+      "name": "Rapid Gambits",
+      "points_required": 2,
+      "y": 631
+    },
+    "rugged": {
+      "icon_id": "2665534519",
+      "name": "Rugged",
+      "points_required": 1,
+      "y": 539
+    },
+    "second wind": {
+      "icon_id": "962757415",
+      "name": "Second Wind",
+      "points_required": 23,
+      "y": 1153
+    },
+    "shadow clone": {
+      "icon_id": "1493282523",
+      "name": "Shadow Clone",
+      "points_required": 23,
+      "y": 1098
+    },
+    "shadow crash": {
+      "icon_id": "43871152",
+      "name": "Shadow Crash",
+      "points_required": 11,
+      "y": 887
+    },
+    "shadow imbuement": {
+      "icon_id": "1565262918",
+      "name": "Shadow Imbuement",
+      "points_required": 11,
+      "y": 884
+    },
+    "shadow step": {
+      "icon_id": "446244646",
+      "name": "Shadow Step",
+      "points_required": 1,
+      "y": 539
+    },
+    "siphoning strikes": {
+      "icon_id": "2765660269",
+      "name": "Siphoning Strikes",
+      "points_required": 1,
+      "y": 431
+    },
+    "sturdy": {
+      "icon_id": "2106493242",
+      "name": "Sturdy",
+      "points_required": 1,
+      "y": 430
+    },
+    "stutter step": {
+      "icon_id": "7809744",
+      "name": "Stutter Step",
+      "points_required": 1,
+      "y": 416
+    },
+    "sunder": {
+      "icon_id": "1014847393",
+      "name": "Sunder",
+      "points_required": 16,
+      "y": 1062
+    },
+    "target practice": {
+      "icon_id": "1548711180",
+      "name": "Target Practice",
+      "points_required": 1,
+      "y": 444
+    },
+    "trap mastery": {
+      "icon_id": "4218144533",
+      "name": "Trap Mastery",
+      "points_required": 16,
+      "y": 1040
+    },
+    "trick attacks": {
+      "icon_id": "2746234337",
+      "name": "Trick Attacks",
+      "points_required": 2,
+      "y": 631
+    },
+    "twisting blades": {
+      "icon_id": "983874568",
+      "name": "Twisting Blades",
+      "points_required": 0,
+      "y": 384
+    },
+    "unstable elixirs": {
+      "icon_id": "715330267",
+      "name": "Unstable Elixirs",
+      "points_required": 2,
+      "y": 614
+    },
+    "victimize": {
+      "icon_id": "77273709",
+      "name": "Victimize",
+      "points_required": 33,
+      "y": 1255
+    },
+    "weapon mastery": {
+      "icon_id": "3204755432",
+      "name": "Weapon Mastery",
+      "points_required": 2,
+      "y": 597
+    }
+  },
+  "Sorcerer": {
+    "(ph) bird swarm": {
+      "icon_id": "1062930714",
+      "name": "(PH) Bird Swarm",
+      "points_required": 16,
+      "y": 994
+    },
+    "(ph) coalition of speed": {
+      "icon_id": "2473427407",
+      "name": "(PH) Coalition of Speed",
+      "points_required": 23,
+      "y": 1085
+    },
+    "(ph) counterattack": {
+      "icon_id": "1899926082",
+      "name": "(PH) Counterattack",
+      "points_required": 1,
+      "y": 545
+    },
+    "(ph) pounce": {
+      "icon_id": "343690160",
+      "name": "(PH) Pounce",
+      "points_required": 11,
+      "y": 890
+    },
+    "(ph) raptor strike": {
+      "icon_id": "1917715779",
+      "name": "(PH) Raptor Strike",
+      "points_required": 1,
+      "y": 489
+    },
+    "(ph) thrust": {
+      "icon_id": "3081623323",
+      "name": "(PH) Thrust",
+      "points_required": 0,
+      "y": 272
+    },
+    "[wip] radiance": {
+      "icon_id": "4242743284",
+      "name": "[WIP] Radiance",
+      "points_required": 23,
+      "y": 1081
+    },
+    "align the elements": {
+      "icon_id": "1095079501",
+      "name": "Align the Elements",
+      "points_required": 11,
+      "y": 766
+    },
+    "arc lash": {
+      "icon_id": "142120450",
+      "name": "Arc Lash",
+      "points_required": 0,
+      "y": 303
+    },
+    "avalanche": {
+      "icon_id": "3295044171",
+      "name": "Avalanche",
+      "points_required": 33,
+      "y": 1211
+    },
+    "blizzard": {
+      "icon_id": "244480294",
+      "name": "Blizzard",
+      "points_required": 11,
+      "y": 869
+    },
+    "chain lightning": {
+      "icon_id": "4147712587",
+      "name": "Chain Lightning",
+      "points_required": 1,
+      "y": 489
+    },
+    "cold front": {
+      "icon_id": "3294169615",
+      "name": "Cold Front",
+      "points_required": 16,
+      "y": 1020
+    },
+    "combustion": {
+      "icon_id": "219742642",
+      "name": "Combustion",
+      "points_required": 33,
+      "y": 1211
+    },
+    "conduction": {
+      "icon_id": "1511540666",
+      "name": "Conduction",
+      "points_required": 23,
+      "y": 1178
+    },
+    "convulsions": {
+      "icon_id": "701448391",
+      "name": "Convulsions",
+      "points_required": 33,
+      "y": 1209
+    },
+    "coursing currents": {
+      "icon_id": "3274069344",
+      "name": "Coursing Currents",
+      "points_required": 23,
+      "y": 1150
+    },
+    "crippling flames": {
+      "icon_id": "1855681908",
+      "name": "Crippling Flames",
+      "points_required": 16,
+      "y": 946
+    },
+    "dark ritual": {
+      "icon_id": "1533841030",
+      "name": "Dark Ritual",
+      "points_required": 0,
+      "y": 374
+    },
+    "deep freeze": {
+      "icon_id": "704167939",
+      "name": "Deep Freeze",
+      "points_required": 16,
+      "y": 1047
+    },
+    "devastation": {
+      "icon_id": "576166182",
+      "name": "Devastation",
+      "points_required": 1,
+      "y": 476
+    },
+    "devouring blaze": {
+      "icon_id": "3345078101",
+      "name": "Devouring Blaze",
+      "points_required": 16,
+      "y": 917
+    },
+    "electrocution": {
+      "icon_id": "2367128433",
+      "name": "Electrocution",
+      "points_required": 23,
+      "y": 1178
+    },
+    "elemental attunement": {
+      "icon_id": "257135436",
+      "name": "Elemental Attunement",
+      "points_required": 2,
+      "y": 578
+    },
+    "elemental dominance": {
+      "icon_id": "3886881873",
+      "name": "Elemental Dominance",
+      "points_required": 1,
+      "y": 451
+    },
+    "endless pyre": {
+      "icon_id": "3014807890",
+      "name": "Endless Pyre",
+      "points_required": 23,
+      "y": 1098
+    },
+    "energy focus": {
+      "icon_id": "3415541479",
+      "name": "Energy Focus",
+      "points_required": 2,
+      "y": 615
+    },
+    "enlightenment": {
+      "icon_id": "3892593270",
+      "name": "Enlightenment",
+      "points_required": 23,
+      "y": 1150
+    },
+    "esu's ferocity": {
+      "icon_id": "623395403",
+      "name": "Esu's Ferocity",
+      "points_required": 33,
+      "y": 1249
+    },
+    "evocation": {
+      "icon_id": "3002921221",
+      "name": "Evocation",
+      "points_required": 23,
+      "y": 1117
+    },
+    "familiar": {
+      "icon_id": "4109480457",
+      "name": "Familiar",
+      "points_required": 11,
+      "y": 766
+    },
+    "fiery surge": {
+      "icon_id": "436875625",
+      "name": "Fiery Surge",
+      "points_required": 23,
+      "y": 1116
+    },
+    "fireball": {
+      "icon_id": "2402480109",
+      "name": "Fireball",
+      "points_required": 0,
+      "y": 384
+    },
+    "firewall": {
+      "icon_id": "3884463898",
+      "name": "Firewall",
+      "points_required": 16,
+      "y": 972
+    },
+    "frigid breeze": {
+      "icon_id": "532662870",
+      "name": "Frigid Breeze",
+      "points_required": 16,
+      "y": 991
+    },
+    "frost bolt": {
+      "icon_id": "3413655459",
+      "name": "Frost Bolt",
+      "points_required": 0,
+      "y": 273
+    },
+    "frost nova": {
+      "icon_id": "1742578310",
+      "name": "Frost Nova",
+      "points_required": 2,
+      "y": 650
+    },
+    "frozen orb": {
+      "icon_id": "331607739",
+      "name": "Frozen Orb",
+      "points_required": 1,
+      "y": 413
+    },
+    "glass cannon": {
+      "icon_id": "2585638480",
+      "name": "Glass Cannon",
+      "points_required": 2,
+      "y": 596
+    },
+    "hydra": {
+      "icon_id": "3327405852",
+      "name": "Hydra",
+      "points_required": 2,
+      "y": 713
+    },
+    "ice armor": {
+      "icon_id": "3609169654",
+      "name": "Ice Armor",
+      "points_required": 2,
+      "y": 633
+    },
+    "ice blades": {
+      "icon_id": "4022282752",
+      "name": "Ice Blades",
+      "points_required": 11,
+      "y": 739
+    },
+    "ice shards": {
+      "icon_id": "462518234",
+      "name": "Ice Shards",
+      "points_required": 1,
+      "y": 446
+    },
+    "icy touch": {
+      "icon_id": "1565093462",
+      "name": "Icy Touch",
+      "points_required": 16,
+      "y": 1020
+    },
+    "icy veil": {
+      "icon_id": "766318550",
+      "name": "Icy Veil",
+      "points_required": 11,
+      "y": 866
+    },
+    "inner flames": {
+      "icon_id": "1179697126",
+      "name": "Inner Flames",
+      "points_required": 16,
+      "y": 931
+    },
+    "invigorating conduit": {
+      "icon_id": "4272004955",
+      "name": "Invigorating Conduit",
+      "points_required": 16,
+      "y": 1024
+    },
+    "lightning spear": {
+      "icon_id": "3577333848",
+      "name": "Lightning Spear",
+      "points_required": 11,
+      "y": 804
+    },
+    "mana shield": {
+      "icon_id": "2261842490",
+      "name": "Mana Shield",
+      "points_required": 11,
+      "y": 829
+    },
+    "necrotic fortitude": {
+      "icon_id": "367264118",
+      "name": "Necrotic Fortitude",
+      "points_required": 2,
+      "y": 615
+    },
+    "overflowing energy": {
+      "icon_id": "751703839",
+      "name": "Overflowing Energy",
+      "points_required": 33,
+      "y": 1283
+    },
+    "parting gift": {
+      "icon_id": "2734934320",
+      "name": "Parting Gift",
+      "points_required": 1,
+      "y": 559
+    },
+    "permafrost": {
+      "icon_id": "1946740028",
+      "name": "Permafrost",
+      "points_required": 16,
+      "y": 1047
+    },
+    "potent warding": {
+      "icon_id": "58622506",
+      "name": "Potent Warding",
+      "points_required": 1,
+      "y": 415
+    },
+    "precision magic": {
+      "icon_id": "1132589673",
+      "name": "Precision Magic",
+      "points_required": 2,
+      "y": 706
+    },
+    "primordial binding": {
+      "icon_id": "4183517493",
+      "name": "Primordial Binding",
+      "points_required": 11,
+      "y": 828
+    },
+    "protection": {
+      "icon_id": "1929679531",
+      "name": "Protection",
+      "points_required": 11,
+      "y": 766
+    },
+    "shatter": {
+      "icon_id": "1241816545",
+      "name": "Shatter",
+      "points_required": 33,
+      "y": 1249
+    },
+    "shocking impact": {
+      "icon_id": "782778235",
+      "name": "Shocking Impact",
+      "points_required": 16,
+      "y": 1024
+    },
+    "snap freeze": {
+      "icon_id": "2761366700",
+      "name": "Snap Freeze",
+      "points_required": 11,
+      "y": 838
+    },
+    "soulfire": {
+      "icon_id": "692398136",
+      "name": "Soulfire",
+      "points_required": 23,
+      "y": 1135
+    },
+    "spark": {
+      "icon_id": "1281178120",
+      "name": "Spark",
+      "points_required": 0,
+      "y": 303
+    },
+    "static discharge": {
+      "icon_id": "3152365098",
+      "name": "Static Discharge",
+      "points_required": 16,
+      "y": 999
+    },
+    "unstable currents": {
+      "icon_id": "458680120",
+      "name": "Unstable Currents",
+      "points_required": 23,
+      "y": 1149
+    },
+    "vyr's mastery": {
+      "icon_id": "892512557",
+      "name": "Vyr's Mastery",
+      "points_required": 33,
+      "y": 1283
+    },
+    "warmth": {
+      "icon_id": "3489543284",
+      "name": "Warmth",
+      "points_required": 23,
+      "y": 1116
+    }
+  },
+  "Spiritborn": {
+    "[wip] dr for resolve": {
+      "icon_id": "685595067",
+      "name": "[WIP] DR for Resolve",
+      "points_required": 2,
+      "y": 663
+    },
+    "acceleration": {
+      "icon_id": "333153954",
+      "name": "Acceleration",
+      "points_required": 11,
+      "y": 862
+    },
+    "adaptive stances": {
+      "icon_id": "2649364279",
+      "name": "Adaptive Stances",
+      "points_required": 33,
+      "y": 1211
+    },
+    "antivenom": {
+      "icon_id": "1345338793",
+      "name": "Antivenom",
+      "points_required": 11,
+      "y": 816
+    },
+    "armored hide": {
+      "icon_id": "2208112296",
+      "name": "Armored Hide",
+      "points_required": 2,
+      "y": 718
+    },
+    "auspicious": {
+      "icon_id": "11538333",
+      "name": "Auspicious",
+      "points_required": 11,
+      "y": 748
+    },
+    "balanced exertion": {
+      "icon_id": "3986392726",
+      "name": "Balanced Exertion",
+      "points_required": 1,
+      "y": 430
+    },
+    "bastion": {
+      "icon_id": "97520264",
+      "name": "Bastion",
+      "points_required": 11,
+      "y": 779
+    },
+    "brilliance": {
+      "icon_id": "4076307245",
+      "name": "Brilliance",
+      "points_required": 11,
+      "y": 883
+    },
+    "concussive stomp": {
+      "icon_id": "598845657",
+      "name": "Concussive Stomp",
+      "points_required": 11,
+      "y": 749
+    },
+    "counterattack": {
+      "icon_id": "3246348700",
+      "name": "Counterattack",
+      "points_required": 11,
+      "y": 788
+    },
+    "crushing hand": {
+      "icon_id": "3836117954",
+      "name": "Crushing Hand",
+      "points_required": 0,
+      "y": 374
+    },
+    "diminishment": {
+      "icon_id": "531158625",
+      "name": "Diminishment",
+      "points_required": 2,
+      "y": 607
+    },
+    "dominant": {
+      "icon_id": "3175533589",
+      "name": "Dominant",
+      "points_required": 11,
+      "y": 828
+    },
+    "endurance": {
+      "icon_id": "3906750721",
+      "name": "Endurance",
+      "points_required": 2,
+      "y": 708
+    },
+    "focal point": {
+      "icon_id": "2619505350",
+      "name": "Focal Point",
+      "points_required": 2,
+      "y": 563
+    },
+    "fueled": {
+      "icon_id": "4141500909",
+      "name": "Fueled",
+      "points_required": 2,
+      "y": 664
+    },
+    "furnace": {
+      "icon_id": "1644988220",
+      "name": "Furnace",
+      "points_required": 16,
+      "y": 1013
+    },
+    "initiative": {
+      "icon_id": "1570390403",
+      "name": "Initiative",
+      "points_required": 23,
+      "y": 1117
+    },
+    "intricacy": {
+      "icon_id": "1320137235",
+      "name": "Intricacy",
+      "points_required": 23,
+      "y": 1156
+    },
+    "mirage": {
+      "icon_id": "3797711533",
+      "name": "Mirage",
+      "points_required": 2,
+      "y": 588
+    },
+    "nourishment": {
+      "icon_id": "1162495284",
+      "name": "Nourishment",
+      "points_required": 11,
+      "y": 859
+    },
+    "noxious resonance": {
+      "icon_id": "2835065131",
+      "name": "Noxious Resonance",
+      "points_required": 33,
+      "y": 1265
+    },
+    "oppressive": {
+      "icon_id": "2175175826",
+      "name": "Oppressive",
+      "points_required": 16,
+      "y": 1035
+    },
+    "patient guard": {
+      "icon_id": "3678979776",
+      "name": "Patient Guard",
+      "points_required": 11,
+      "y": 763
+    },
+    "payback": {
+      "icon_id": "1927100127",
+      "name": "Payback",
+      "points_required": 11,
+      "y": 873
+    },
+    "potent": {
+      "icon_id": "1831652402",
+      "name": "Potent",
+      "points_required": 16,
+      "y": 987
+    },
+    "prodigy's tempo": {
+      "icon_id": "1401234926",
+      "name": "Prodigy's Tempo",
+      "points_required": 33,
+      "y": 1260
+    },
+    "quill volley": {
+      "icon_id": "543440774",
+      "name": "Quill Volley",
+      "points_required": 0,
+      "y": 392
+    },
+    "rake": {
+      "icon_id": "2452953735",
+      "name": "Rake",
+      "points_required": 1,
+      "y": 430
+    },
+    "ravager": {
+      "icon_id": "2002360620",
+      "name": "Ravager",
+      "points_required": 2,
+      "y": 634
+    },
+    "ravenous": {
+      "icon_id": "480478155",
+      "name": "Ravenous",
+      "points_required": 16,
+      "y": 993
+    },
+    "razor wings": {
+      "icon_id": "200757658",
+      "name": "Razor Wings",
+      "points_required": 16,
+      "y": 914
+    },
+    "resilient": {
+      "icon_id": "3226891111",
+      "name": "Resilient",
+      "points_required": 11,
+      "y": 873
+    },
+    "resolution": {
+      "icon_id": "1659749889",
+      "name": "Resolution",
+      "points_required": 23,
+      "y": 1108
+    },
+    "rock splitter": {
+      "icon_id": "700372554",
+      "name": "Rock Splitter",
+      "points_required": 0,
+      "y": 308
+    },
+    "rushing claw": {
+      "icon_id": "1490178539",
+      "name": "Rushing Claw",
+      "points_required": 16,
+      "y": 955
+    },
+    "scourge": {
+      "icon_id": "199411772",
+      "name": "Scourge",
+      "points_required": 11,
+      "y": 820
+    },
+    "soar": {
+      "icon_id": "4280925177",
+      "name": "Soar",
+      "points_required": 1,
+      "y": 541
+    },
+    "spiritual attunement": {
+      "icon_id": "1619346543",
+      "name": "Spiritual Attunement",
+      "points_required": 23,
+      "y": 1097
+    },
+    "stinger": {
+      "icon_id": "167629760",
+      "name": "Stinger",
+      "points_required": 1,
+      "y": 466
+    },
+    "supremacy": {
+      "icon_id": "508498982",
+      "name": "Supremacy",
+      "points_required": 23,
+      "y": 1079
+    },
+    "sustenance": {
+      "icon_id": "2226963814",
+      "name": "Sustenance",
+      "points_required": 23,
+      "y": 1134
+    },
+    "swift": {
+      "icon_id": "3758426501",
+      "name": "Swift",
+      "points_required": 2,
+      "y": 613
+    },
+    "the devourer": {
+      "icon_id": "1872179382",
+      "name": "The Devourer",
+      "points_required": 23,
+      "y": 1147
+    },
+    "the hunter": {
+      "icon_id": "391072415",
+      "name": "The Hunter",
+      "points_required": 23,
+      "y": 1140
+    },
+    "the protector": {
+      "icon_id": "4164801007",
+      "name": "The Protector",
+      "points_required": 16,
+      "y": 1048
+    },
+    "the seeker": {
+      "icon_id": "746396387",
+      "name": "The Seeker",
+      "points_required": 23,
+      "y": 1069
+    },
+    "thrash": {
+      "icon_id": "1705159566",
+      "name": "Thrash",
+      "points_required": 0,
+      "y": 271
+    },
+    "thunderspike": {
+      "icon_id": "3034529424",
+      "name": "Thunderspike",
+      "points_required": 0,
+      "y": 271
+    },
+    "touch of death": {
+      "icon_id": "3683759362",
+      "name": "Touch of Death",
+      "points_required": 16,
+      "y": 995
+    },
+    "toxic skin": {
+      "icon_id": "3806632672",
+      "name": "Toxic Skin",
+      "points_required": 2,
+      "y": 647
+    },
+    "unrestrained power": {
+      "icon_id": "2786743788",
+      "name": "Unrestrained Power",
+      "points_required": 2,
+      "y": 563
+    },
+    "vehemence": {
+      "icon_id": "1626510412",
+      "name": "Vehemence",
+      "points_required": 1,
+      "y": 493
+    },
+    "velocity": {
+      "icon_id": "2468881863",
+      "name": "Velocity",
+      "points_required": 1,
+      "y": 451
+    },
+    "vital strikes": {
+      "icon_id": "1670142909",
+      "name": "Vital Strikes",
+      "points_required": 23,
+      "y": 1162
+    },
+    "vortex": {
+      "icon_id": "4022719148",
+      "name": "Vortex",
+      "points_required": 1,
+      "y": 530
+    },
+    "withering fist": {
+      "icon_id": "3076893419",
+      "name": "Withering Fist",
+      "points_required": 0,
+      "y": 308
+    }
+  }
+}

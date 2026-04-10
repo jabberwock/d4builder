@@ -1,0 +1,213 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { readFileSync } from 'fs';
+import { resolve } from 'path';
+
+export function getStaticPaths() {
+  const classes = ['barbarian', 'druid', 'necromancer', 'paladin', 'rogue', 'sorcerer', 'spiritborn'];
+  return classes.map((c) => ({ params: { class: c } }));
+}
+
+const { class: className } = Astro.params;
+
+type BuildSummary = {
+  id: string;
+  build_name: string;
+  class: string;
+  purpose: string;
+  purpose_label: string;
+  tier: string;
+  key_passive: string;
+  skill_bar_summary: string[];
+  specialization: string;
+};
+
+const index = JSON.parse(
+  readFileSync(resolve('public/data/builds_index.json'), 'utf-8')
+) as { builds: BuildSummary[] };
+
+const classDisplayName = className!.charAt(0).toUpperCase() + className!.slice(1);
+
+const classBuilds = index.builds.filter(
+  (b) => b.class.toLowerCase() === className
+);
+
+const tierColor: Record<string, string> = {
+  S: '#d4af37',
+  A: '#4fc3f7',
+  B: '#81c784',
+  C: '#ffb74d',
+  D: '#ef9a9a',
+};
+---
+
+<Layout title={`${classDisplayName} Builds - D4Builder`}>
+  <main class="builds-page">
+    <div class="container">
+      <header class="builds-header">
+        <a href="/" class="back-link">&larr; All Classes</a>
+        <h1>{classDisplayName} Builds</h1>
+        <p class="builds-subtitle">Season 12 · {classBuilds.length} builds available</p>
+      </header>
+
+      <div class="builds-grid">
+        {classBuilds.map((build) => (
+          <a href={`/builds/${build.id}`} class="build-card">
+            <div class="build-card__top">
+              <span
+                class="tier-badge"
+                style={`background: ${tierColor[build.tier] ?? '#999'}`}
+              >
+                {build.tier}
+              </span>
+              <h2 class="build-card__title">{build.purpose_label}</h2>
+            </div>
+            <div class="build-card__meta">
+              <span class="meta-label">Key Passive</span>
+              <span class="meta-value">{build.key_passive}</span>
+            </div>
+            <div class="build-card__skills">
+              {build.skill_bar_summary.slice(0, 4).map((s) => (
+                <span class="skill-chip">{s}</span>
+              ))}
+            </div>
+            <div class="build-card__cta">View Build &rarr;</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  .builds-page {
+    padding: var(--space-lg) 0 var(--space-2xl);
+    min-height: 100vh;
+  }
+
+  .builds-header {
+    margin-bottom: var(--space-2xl);
+  }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: var(--space-md);
+    font-size: var(--font-size-sm);
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  .builds-header h1 {
+    margin-bottom: var(--space-xs);
+  }
+
+  .builds-subtitle {
+    font-size: var(--font-size-base);
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .builds-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  @media (min-width: 768px) {
+    .builds-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-lg);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .builds-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .build-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .build-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 12px rgba(216, 165, 0, 0.12);
+  }
+
+  .build-card__top {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .tier-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    color: #1a1a1a;
+    flex-shrink: 0;
+  }
+
+  .build-card__title {
+    margin: 0;
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .build-card__meta {
+    display: flex;
+    gap: var(--space-sm);
+    font-size: var(--font-size-sm);
+  }
+
+  .meta-label {
+    color: var(--color-text-secondary);
+  }
+
+  .meta-value {
+    font-weight: 500;
+    color: var(--color-primary);
+  }
+
+  .build-card__skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+
+  .skill-chip {
+    font-size: var(--font-size-xs);
+    padding: 2px var(--space-sm);
+    background: rgba(216, 165, 0, 0.1);
+    border: 1px solid rgba(216, 165, 0, 0.25);
+    border-radius: 3px;
+    color: var(--color-text-secondary);
+  }
+
+  .build-card__cta {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-top: auto;
+  }
+</style>

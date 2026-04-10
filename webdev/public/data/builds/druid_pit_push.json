@@ -1,0 +1,298 @@
+{
+  "id": "druid_pit_push",
+  "build_name": "Druid \u00b7 Pit Push",
+  "class": "Druid",
+  "purpose": "pit",
+  "purpose_label": "Pit Push",
+  "tier": "B",
+  "build_score": 47491.640518,
+  "global_rank": 16,
+  "available": "live",
+  "season": "Season 12 - Season of Slaughter",
+  "patch": "2.6.0.70982",
+  "specialization": "Prickleskin",
+  "specialization_detail": {
+    "name": "Prickleskin",
+    "mechanic_type": "spirit_boon"
+  },
+  "skill_bar": [
+    "Earthen Bulwark",
+    "Shred",
+    "Stone Burst",
+    "Petrify",
+    "Lightning Storm",
+    "Wind Shear"
+  ],
+  "skill_bar_rank": 5,
+  "skill_upgrades": [
+    {
+      "name": "Earthen Bulwark",
+      "enhanced": "Enhanced Earthen Bulwark",
+      "morph": "Innate Earthen Bulwark"
+    },
+    {
+      "name": "Shred",
+      "enhanced": "Enhanced Shred",
+      "morph": "Raging Shred"
+    },
+    {
+      "name": "Stone Burst",
+      "enhanced": null,
+      "morph": null
+    },
+    {
+      "name": "Petrify",
+      "enhanced": "Prime Petrify",
+      "morph": "Supreme Petrify"
+    },
+    {
+      "name": "Lightning Storm",
+      "enhanced": "Enhanced Lightning Storm",
+      "morph": "Raging Lightning Storm"
+    },
+    {
+      "name": "Wind Shear",
+      "enhanced": "Enhanced Wind Shear",
+      "morph": "Fierce Wind Shear"
+    }
+  ],
+  "passives": [
+    "Lightning Bolt",
+    "Wild Impulses",
+    "Envenom",
+    "Provocation",
+    "Toxic Claws",
+    "Stone Guard",
+    "Charged Atmosphere",
+    "Clarity",
+    "Feral Aptitude ",
+    "Resonance"
+  ],
+  "passive_rank": 3,
+  "key_passive": "Perfect Storm",
+  "gear": {
+    "Gloves": {
+      "rarity": "unique",
+      "unique_id": "Gloves_Unique_Druid_100",
+      "_optimizer_name": "Unsung Ascetic's Wraps"
+    },
+    "Boots": {
+      "rarity": "unique",
+      "unique_id": "Boots_Unique_Generic_001",
+      "_optimizer_name": "Penitent Greaves"
+    },
+    "Weapon": {
+      "rarity": "unique",
+      "unique_id": "1HAxe_Unique_Druid_100",
+      "_optimizer_name": "Waxing Gibbous"
+    },
+    "Chest": {
+      "rarity": "unique",
+      "unique_id": "Chest_Unique_Druid_002",
+      "_optimizer_name": "Mad Wolf's Glee"
+    },
+    "Helm": {
+      "rarity": "unique",
+      "unique_id": "Helm_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Helm"
+    },
+    "Legs": {
+      "rarity": "unique",
+      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Pants"
+    },
+    "Ring": {
+      "rarity": "unique",
+      "unique_id": "Ring_Unique_Druid_003",
+      "_optimizer_name": "Hunter's Zenith"
+    },
+    "Amulet": {
+      "rarity": "unique",
+      "unique_id": "PACTTEST_Amulet_Unique",
+      "_optimizer_name": "Pact Amulet"
+    },
+    "Offhand": {
+      "rarity": "unique",
+      "unique_id": "Totem_Unique_Druid_101_x1",
+      "_optimizer_name": "Stone of Vehemen"
+    }
+  },
+  "aspects_recommended": [
+    {
+      "slot": "Helm",
+      "aspect_name": "of Nature's Savagery",
+      "max_value": 1.0
+    },
+    {
+      "slot": "Chest",
+      "aspect_name": "of Natural Balance",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Gloves",
+      "aspect_name": "of the Expectant",
+      "max_value": 8.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "of Quicksand",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "Crashstone",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "of the Trampled Earth",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of the Ursine Horror",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of Retaliation",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "of Metamorphic Stone",
+      "max_value": 21.0
+    }
+  ],
+  "tempers_recommended": {
+    "offensive": "Natural Finesse",
+    "defensive": "Nature Magic Wall",
+    "weapon": "Storm Augments",
+    "mobility": "Natural Motion"
+  },
+  "gems_recommended": {
+    "weapon": "Royal Emerald",
+    "armor": "Royal Ruby",
+    "jewelry": "Royal Skull"
+  },
+  "paragon_boards": [
+    {
+      "board": "Thunderstruck",
+      "glyph": "Tectonic",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Earthen Devastation",
+      "glyph": "Poise",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Lust for Carnage",
+      "glyph": "Fang and Claw",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Inner Beast",
+      "glyph": "Earth and Sky",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Constricting Tendrils",
+      "glyph": "Wilds",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    }
+  ],
+  "rune_pair_1": {
+    "ritual": "Feo",
+    "invocation": "Lum",
+    "score": 300.0
+  },
+  "rune_pair_2": {
+    "ritual": "Neo",
+    "invocation": "Ton",
+    "score": 36.0
+  },
+  "mercenary": {
+    "primary": "Raheir",
+    "reason": "ShieldBearer \u2014 Shield Charge, Provoke, Bastion. Universal tank support."
+  },
+  "nightmare_dungeons": [
+    {
+      "name": "Underroot",
+      "zone": "Scosglen",
+      "region": "T\\xfar D\\xfalra",
+      "aspect": "of the Expectant",
+      "x": -1411.1,
+      "y": -1064.0
+    },
+    {
+      "name": "Ferals' Den",
+      "zone": "Scosglen",
+      "region": "Moordaine Lodge",
+      "aspect": "of Quicksand",
+      "x": -2300.2,
+      "y": -368.0
+    },
+    {
+      "name": "Stockades",
+      "zone": "Scosglen",
+      "region": "The Emerald Chase",
+      "aspect": "Crashstone",
+      "x": -1735.2,
+      "y": -709.6
+    },
+    {
+      "name": "Belfry Zakara",
+      "zone": "Hawezar",
+      "region": "Rotspill Delta",
+      "aspect": "of the Ursine Horror",
+      "x": -1091.2,
+      "y": 1214.3
+    },
+    {
+      "name": "Seaside Descent",
+      "zone": "Dry Steppes",
+      "region": "Kotama Grasslands",
+      "aspect": "of Retaliation",
+      "x": -778.2,
+      "y": -1102.8
+    }
+  ],
+  "score_breakdown": {
+    "Earthen Bulwark": 23.9085,
+    "Shred": 14323.68,
+    "Stone Burst": 2149.2016,
+    "Petrify": 1668.15,
+    "Lightning Storm": 1317.3888,
+    "Wind Shear": 1227.744
+  },
+  "sources": {
+    "build_score": "optimizer_results.db row id=5 \u00b7 Druid \u00b7 Pit Push \u00b7 score 47491.64",
+    "tier": "optimizer_results.db row id=5 \u00b7 global rank 16 \u2192 tier B",
+    "skill_bar": "optimizer_results.db row id=5 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=5 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=5 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=5 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=5 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=5 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=5 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=5 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=5 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=5 \u00b7 nightmare_dungeons"
+  }
+}

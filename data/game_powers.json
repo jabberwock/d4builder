@@ -1,0 +1,877 @@
+{
+  "source": "resolved_coefficients.json (Maxroll + .pow cross-reference)",
+  "skill_rank_bonus": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.1,
+    "3": 1.2,
+    "4": 1.3,
+    "5": 1.4,
+    "6": 1.5,
+    "7": 1.6,
+    "8": 1.7,
+    "9": 1.8
+  },
+  "skills": [
+    {
+      "power_name": "Barbarian_Bash",
+      "display_name": "Bash",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Barbarian_CalloftheAncients",
+      "display_name": "Call of the Ancients",
+      "coefficient": 1.1
+    },
+    {
+      "power_name": "Barbarian_Charge",
+      "display_name": "Charge",
+      "coefficient": 1.8
+    },
+    {
+      "power_name": "Barbarian_DeathBlow",
+      "display_name": "Death Blow",
+      "coefficient": 3.0
+    },
+    {
+      "power_name": "Barbarian_DoubleSwing",
+      "display_name": "Double Swing",
+      "coefficient": 0.85
+    },
+    {
+      "power_name": "Barbarian_Frenzy",
+      "display_name": "Frenzy",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Barbarian_GroundStomp",
+      "display_name": "Ground Stomp",
+      "coefficient": 1.4
+    },
+    {
+      "power_name": "Barbarian_HammeroftheAncients",
+      "display_name": "Hammer of the Ancients",
+      "coefficient": 1.75
+    },
+    {
+      "power_name": "Barbarian_IronMaelstrom",
+      "display_name": "Iron Maelstrom",
+      "coefficient": 1.5
+    },
+    {
+      "power_name": "Barbarian_IronSkin",
+      "display_name": "Iron Skin",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Barbarian_Kick",
+      "display_name": "Kick",
+      "coefficient": 1.0
+    },
+    {
+      "power_name": "Barbarian_Leap",
+      "display_name": "Leap",
+      "coefficient": 0.55
+    },
+    {
+      "power_name": "Barbarian_LungingStrike",
+      "display_name": "Lunging Strike",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Barbarian_Maim",
+      "display_name": "Flay",
+      "coefficient": 0.055
+    },
+    {
+      "power_name": "Barbarian_Rend",
+      "display_name": "Rend",
+      "coefficient": 0.25
+    },
+    {
+      "power_name": "Barbarian_SteelGrasp",
+      "display_name": "Steel Grasp",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Barbarian_Upheaval",
+      "display_name": "Upheaval",
+      "coefficient": 2.0
+    },
+    {
+      "power_name": "Barbarian_Whirlwind",
+      "display_name": "Whirlwind",
+      "coefficient": 1.75
+    },
+    {
+      "power_name": "Druid_Boulder",
+      "display_name": "Boulder",
+      "coefficient": 0.7
+    },
+    {
+      "power_name": "Druid_Cataclysm",
+      "display_name": "Cataclysm",
+      "coefficient": 1.15
+    },
+    {
+      "power_name": "Druid_Claw",
+      "display_name": "Claw",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Druid_CycloneArmor",
+      "display_name": "Cyclone Armor",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Druid_EarthenBulwark",
+      "display_name": "Earthen Bulwark",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Druid_Earthspike_Instant",
+      "display_name": "Earth Spike",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Druid_GrizzlyRage",
+      "display_name": "Grizzly Rage",
+      "coefficient": 0.75
+    },
+    {
+      "power_name": "Druid_Hurricane",
+      "display_name": "Hurricane",
+      "coefficient": 3.46
+    },
+    {
+      "power_name": "Druid_Lacerate",
+      "display_name": "Lacerate",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Druid_LightningStorm",
+      "display_name": "Lightning Storm",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Druid_Maul",
+      "display_name": "Maul",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Druid_Pulverize",
+      "display_name": "Pulverize",
+      "coefficient": 1.75
+    },
+    {
+      "power_name": "Druid_Rabies",
+      "display_name": "Rabies",
+      "coefficient": 0.28
+    },
+    {
+      "power_name": "Druid_Ravens",
+      "display_name": "Ravens",
+      "coefficient": 3.0
+    },
+    {
+      "power_name": "Druid_Shred_NEW",
+      "display_name": "Shred",
+      "coefficient": 1.5
+    },
+    {
+      "power_name": "Druid_StoneBurst",
+      "display_name": "Stone Burst",
+      "coefficient": 1.3
+    },
+    {
+      "power_name": "Druid_StormStrike",
+      "display_name": "Storm Strike",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Druid_Tornado",
+      "display_name": "Tornado",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Druid_Trample",
+      "display_name": "Trample",
+      "coefficient": 0.75
+    },
+    {
+      "power_name": "Druid_VineCreeper",
+      "display_name": "Poison Creeper",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Druid_WindShear",
+      "display_name": "Wind Shear",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Druid_WolfPack",
+      "display_name": "Wolves",
+      "coefficient": 0.14
+    },
+    {
+      "power_name": "Druid_Wolf_Lightning_Howl",
+      "display_name": "Storm Howl",
+      "coefficient": 1.95
+    },
+    {
+      "power_name": "Druid_landslide",
+      "display_name": "Landslide",
+      "coefficient": 0.7
+    },
+    {
+      "power_name": "Necromancer_ArmyoftheDead",
+      "display_name": "Army of the Dead",
+      "coefficient": 7.0
+    },
+    {
+      "power_name": "Necromancer_BloodLance",
+      "display_name": "Blood Lance",
+      "coefficient": 1.3
+    },
+    {
+      "power_name": "Necromancer_BloodSurge",
+      "display_name": "Blood Surge",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Necromancer_BloodWave",
+      "display_name": "Blood Wave",
+      "coefficient": 11.0
+    },
+    {
+      "power_name": "Necromancer_BoneSpear",
+      "display_name": "Bone Spear",
+      "coefficient": 0.25
+    },
+    {
+      "power_name": "Necromancer_BoneSpirit",
+      "display_name": "Bone Spirit",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Necromancer_BoneSplinters",
+      "display_name": "Bone Splinters",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Necromancer_BoneStorm",
+      "display_name": "Bone Storm",
+      "coefficient": 4.0
+    },
+    {
+      "power_name": "Necromancer_CommandSkeletons",
+      "display_name": "Command Skeletons",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Necromancer_CorpseExplosion",
+      "display_name": "Corpse Explosion",
+      "coefficient": 1.1
+    },
+    {
+      "power_name": "Necromancer_CorpseTendrils",
+      "display_name": "Corpse Tendrils",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Necromancer_Decompose",
+      "display_name": "Decompose",
+      "coefficient": 1.5
+    },
+    {
+      "power_name": "Necromancer_Golem",
+      "display_name": "Golem",
+      "coefficient": 1.001
+    },
+    {
+      "power_name": "Necromancer_Hemorrhage",
+      "display_name": "Hemorrhage",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Necromancer_IronMaiden",
+      "display_name": "Iron Maiden",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Necromancer_Miasma",
+      "display_name": "Miasma",
+      "coefficient": 1.5
+    },
+    {
+      "power_name": "Necromancer_Reap",
+      "display_name": "Reap",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Necromancer_SkeletonMage",
+      "display_name": "Skeleton Mage",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Necromancer_SkeletonWarrior",
+      "display_name": "Skeleton Warrior",
+      "coefficient": 0.182
+    },
+    {
+      "power_name": "Necromancer_SkeletonWarrior_Scythe_Standard",
+      "display_name": "Skeleton Warrior",
+      "coefficient": 0.035
+    },
+    {
+      "power_name": "Paladin_Advance_lunge",
+      "display_name": "Advance",
+      "coefficient": 1.05
+    },
+    {
+      "power_name": "Paladin_Banner",
+      "display_name": "(PH) Battle Standard",
+      "coefficient": 0.33
+    },
+    {
+      "power_name": "Paladin_BlessedHammer",
+      "display_name": "Blessed Hammer",
+      "coefficient": 1.15
+    },
+    {
+      "power_name": "Paladin_BlessedShield",
+      "display_name": "Blessed Shield",
+      "coefficient": 2.16
+    },
+    {
+      "power_name": "Paladin_Brandish",
+      "display_name": "Brandish",
+      "coefficient": 0.75
+    },
+    {
+      "power_name": "Paladin_Collapse",
+      "display_name": "Sunder",
+      "coefficient": 0.28
+    },
+    {
+      "power_name": "Paladin_Condemn",
+      "display_name": "Condemn",
+      "coefficient": 2.4
+    },
+    {
+      "power_name": "Paladin_Consecration",
+      "display_name": "Consecration",
+      "coefficient": 0.75
+    },
+    {
+      "power_name": "Paladin_CrossSlash",
+      "display_name": "(PH) Cross Slash",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Paladin_Defensive_Aura",
+      "display_name": "Defiance Aura",
+      "coefficient": 0.75
+    },
+    {
+      "power_name": "Paladin_Disciple_of_Justice",
+      "display_name": "Arbiter of Justice",
+      "coefficient": 6.0
+    },
+    {
+      "power_name": "Paladin_Hell_Banner",
+      "display_name": "(PH) Hell Standard",
+      "coefficient": 0.33
+    },
+    {
+      "power_name": "Paladin_HolyShock_Aura",
+      "display_name": "Holy Light Aura",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Paladin_Impale",
+      "display_name": "Divine Lance",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Paladin_LanceDive_OLD",
+      "display_name": "Falling Star",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Paladin_PreTrailZeal",
+      "display_name": "Zeal",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Paladin_Punish",
+      "display_name": "Clash",
+      "coefficient": 1.15
+    },
+    {
+      "power_name": "Paladin_Sacrifice",
+      "display_name": "Rally",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Paladin_ShieldBash",
+      "display_name": "Shield Bash",
+      "coefficient": 2.05
+    },
+    {
+      "power_name": "Paladin_ShieldCharge",
+      "display_name": "{c_red}[WIP] Shield Charge{/c}",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Paladin_ShieldCharge_Channel",
+      "display_name": "Shield Charge",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Paladin_ShieldCharge_Channel_Short",
+      "display_name": "Shield Charge",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Paladin_SpearOfTheHeavens",
+      "display_name": "Spear of the Heavens",
+      "coefficient": 1.6
+    },
+    {
+      "power_name": "Paladin_StormBolt",
+      "display_name": "Holy Bolt",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Paladin_Trinity",
+      "display_name": "Zenith",
+      "coefficient": 4.5
+    },
+    {
+      "power_name": "Paladin_Trinity_Cast_3",
+      "display_name": "Zenith",
+      "coefficient": 3.0
+    },
+    {
+      "power_name": "Paladin_Zeal",
+      "display_name": "(PH) Zeal",
+      "coefficient": 1.3
+    },
+    {
+      "power_name": "Rogue_Barrage",
+      "display_name": "Barrage",
+      "coefficient": 0.25
+    },
+    {
+      "power_name": "Rogue_BladeShift",
+      "display_name": "Blade Shift",
+      "coefficient": 0.45
+    },
+    {
+      "power_name": "Rogue_Caltrops",
+      "display_name": "Caltrops",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Rogue_DanceOfKnives",
+      "display_name": "Dance of Knives",
+      "coefficient": 0.78
+    },
+    {
+      "power_name": "Rogue_Dash",
+      "display_name": "Dash",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Rogue_DeathTrap",
+      "display_name": "Death Trap",
+      "coefficient": 2.0
+    },
+    {
+      "power_name": "Rogue_Flurry",
+      "display_name": "Flurry",
+      "coefficient": 1.4
+    },
+    {
+      "power_name": "Rogue_ForcefulArrow",
+      "display_name": "Forceful Arrow",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Rogue_Heartseeker",
+      "display_name": "Heartseeker",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Rogue_InvigoratingStrike",
+      "display_name": "Invigorating Strike",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Rogue_PartingGift",
+      "display_name": "Parting Gift",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Rogue_PartingGift_Recast",
+      "display_name": "Parting Gift",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Rogue_PenetratingShot",
+      "display_name": "Penetrating Shot",
+      "coefficient": 1.1
+    },
+    {
+      "power_name": "Rogue_PoisonImbue",
+      "display_name": "Poison Imbuement",
+      "coefficient": 1.0
+    },
+    {
+      "power_name": "Rogue_Puncture",
+      "display_name": "Puncture",
+      "coefficient": 0.45
+    },
+    {
+      "power_name": "Rogue_RainofArrows",
+      "display_name": "Rain of Arrows",
+      "coefficient": 4.5
+    },
+    {
+      "power_name": "Rogue_RapidFire",
+      "display_name": "Rapid Fire",
+      "coefficient": 0.45
+    },
+    {
+      "power_name": "Rogue_ShadowClone",
+      "display_name": "Shadow Clone",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Rogue_ShadowImbue",
+      "display_name": "Shadow Imbuement",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Rogue_ShadowStep",
+      "display_name": "Shadow Step",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Rogue_SmokeBomb",
+      "display_name": "Smoke Grenade",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Rogue_TwistingBlades",
+      "display_name": "Twisting Blades",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Sorcerer_ArcLash",
+      "display_name": "Arc Lash",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Sorcerer_BallLightning",
+      "display_name": "Ball Lightning",
+      "coefficient": 3.4
+    },
+    {
+      "power_name": "Sorcerer_Blizzard",
+      "display_name": "Blizzard",
+      "coefficient": 2.5
+    },
+    {
+      "power_name": "Sorcerer_ChainLightning",
+      "display_name": "Chain Lightning",
+      "coefficient": 0.43
+    },
+    {
+      "power_name": "Sorcerer_ChargedBolt",
+      "display_name": "Charged Bolts",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Sorcerer_DeepFreeze",
+      "display_name": "Deep Freeze",
+      "coefficient": 2.0
+    },
+    {
+      "power_name": "Sorcerer_FireBolt",
+      "display_name": "Fire Bolt",
+      "coefficient": 0.18
+    },
+    {
+      "power_name": "Sorcerer_Fireball",
+      "display_name": "Fireball",
+      "coefficient": 1.2
+    },
+    {
+      "power_name": "Sorcerer_Firewall",
+      "display_name": "Firewall",
+      "coefficient": 3.0
+    },
+    {
+      "power_name": "Sorcerer_FlameShield",
+      "display_name": "Flame Shield",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Sorcerer_FrostBolt",
+      "display_name": "Frost Bolt",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Sorcerer_FrozenOrb",
+      "display_name": "Frozen Orb",
+      "coefficient": 0.7
+    },
+    {
+      "power_name": "Sorcerer_Hydra",
+      "display_name": "Hydra",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Sorcerer_IceArmor",
+      "display_name": "Ice Armor",
+      "coefficient": 0.56
+    },
+    {
+      "power_name": "Sorcerer_IceBlades",
+      "display_name": "Ice Blades",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Sorcerer_IceShards",
+      "display_name": "Ice Shards",
+      "coefficient": 1.65
+    },
+    {
+      "power_name": "Sorcerer_Incinerate",
+      "display_name": "Incinerate",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Sorcerer_Inferno",
+      "display_name": "Inferno",
+      "coefficient": 4.25
+    },
+    {
+      "power_name": "Sorcerer_LightningSpear",
+      "display_name": "Lightning Spear",
+      "coefficient": 1.2
+    },
+    {
+      "power_name": "Sorcerer_Meteor",
+      "display_name": "Meteor",
+      "coefficient": 1.4
+    },
+    {
+      "power_name": "Sorcerer_PrismaticShard",
+      "display_name": "Prismatic Shard",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Sorcerer_Spark",
+      "display_name": "Spark",
+      "coefficient": 0.25
+    },
+    {
+      "power_name": "Sorcerer_Teleport",
+      "display_name": "Teleport",
+      "coefficient": 0.9
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Basic",
+      "display_name": "Withering Fist",
+      "coefficient": 0.05
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Core",
+      "display_name": "Stinger",
+      "coefficient": 1.15
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Defensive",
+      "display_name": "Scourge",
+      "coefficient": 1.0
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Focus",
+      "display_name": "Toxic Skin",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Potency",
+      "display_name": "Touch of Death",
+      "coefficient": 0.1
+    },
+    {
+      "power_name": "Spiritborn_Centipede_Ultimate",
+      "display_name": "The Devourer",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Basic",
+      "display_name": "Thunderspike",
+      "coefficient": 0.45
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Core",
+      "display_name": "Quill Volley",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Focus",
+      "display_name": "Vortex",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Focus2",
+      "display_name": "Soar",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Potency1",
+      "display_name": "Razor Wings",
+      "coefficient": 0.05
+    },
+    {
+      "power_name": "Spiritborn_Eagle_Ultimate",
+      "display_name": "The Seeker",
+      "coefficient": 0.52
+    },
+    {
+      "power_name": "Spiritborn_Forest_Basic",
+      "display_name": "(PH) Clobber",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "Spiritborn_Gorilla_Basic",
+      "display_name": "Rock Splitter",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Spiritborn_Gorilla_Defensive1",
+      "display_name": "Armored Hide",
+      "coefficient": 3.0
+    },
+    {
+      "power_name": "Spiritborn_Gorilla_Defensive2",
+      "display_name": "Concussive Stomp",
+      "coefficient": 0.65
+    },
+    {
+      "power_name": "Spiritborn_Gorilla_Potency",
+      "display_name": "Payback",
+      "coefficient": 1.75
+    },
+    {
+      "power_name": "Spiritborn_Gorilla_Ultimate",
+      "display_name": "The Protector",
+      "coefficient": 1.4
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Basic",
+      "display_name": "Thrash",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Core",
+      "display_name": "Rake",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Defensive",
+      "display_name": "Counterattack",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Focus",
+      "display_name": "Ravager",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Focus2",
+      "display_name": "(PH) Ravager Marks",
+      "coefficient": 2.0
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Potency",
+      "display_name": "Rushing Claw",
+      "coefficient": 1.6
+    },
+    {
+      "power_name": "Spiritborn_Jaguar_Ultimate",
+      "display_name": "The Hunter",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "Spiritborn_Plains_Basic",
+      "display_name": "(PH) Thrust",
+      "coefficient": 0.3
+    },
+    {
+      "power_name": "Spiritborn_Plains_Defense",
+      "display_name": "(PH) Counterattack",
+      "coefficient": 1.5
+    },
+    {
+      "power_name": "Spiritborn_Plains_Mobility1",
+      "display_name": "(PH) Pounce",
+      "coefficient": 0.2
+    },
+    {
+      "power_name": "Spiritborn_Plains_Mobility2",
+      "display_name": "(PH) Coalition of Speed",
+      "coefficient": 10.0
+    },
+    {
+      "power_name": "Spiritborn_Sky_Basic",
+      "display_name": "(PH) Raptor Strike",
+      "coefficient": 0.4
+    },
+    {
+      "power_name": "Spiritborn_Sky_Offense2",
+      "display_name": "(PH) Bird Swarm",
+      "coefficient": 0.6
+    },
+    {
+      "power_name": "Spiritborn_Soil_Basic",
+      "display_name": "(PH) Spore Pod",
+      "coefficient": 0.1
+    },
+    {
+      "power_name": "Spiritborn_Soil_Control1",
+      "display_name": "(PH) Voracious Maw",
+      "coefficient": 2.0
+    },
+    {
+      "power_name": "Spiritborn_Soil_Control2",
+      "display_name": "(PH) Dreadful Swarm",
+      "coefficient": 0.8
+    },
+    {
+      "power_name": "Spiritborn_Soil_Core",
+      "display_name": "(PH) Centipede Wake",
+      "coefficient": 0.35
+    },
+    {
+      "power_name": "X1_Barbarian_WeaponThrow",
+      "display_name": "Mighty Throw",
+      "coefficient": 0.5
+    },
+    {
+      "power_name": "X1_Necromancer_Ultimate4",
+      "display_name": "Soulrift",
+      "coefficient": 0.1
+    },
+    {
+      "power_name": "X1_Sorcerer_Familiar",
+      "display_name": "Familiar",
+      "coefficient": 0.7
+    }
+  ]
+}

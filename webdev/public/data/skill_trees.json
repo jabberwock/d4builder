@@ -1,0 +1,1691 @@
+{
+  "metadata": {
+    "version": "1.1",
+    "season": "Season 12 - Season of Slaughter",
+    "patch": "2.6.0.70982",
+    "generated_from": "data/optimizer_results.db",
+    "generated_at": "2026-04-09"
+  },
+  "builds": [
+    {
+      "id": "barbarian_speed_farm",
+      "build_name": "Barbarian \u00b7 Speed Farm",
+      "class": "Barbarian",
+      "key_passive": "Unbridled Rage",
+      "skill_bar": [
+        "Wrath of the Berserker",
+        "Whirlwind",
+        "Kick",
+        "War Cry",
+        "Hammer of the Ancients",
+        "Upheaval"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Wrath of the Berserker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Whirlwind",
+          "enhanced": "Enhanced Whirlwind",
+          "morph": "Furious Whirlwind"
+        },
+        {
+          "name": "Kick",
+          "enhanced": "Enhanced Kick",
+          "morph": "Mighty Kick"
+        },
+        {
+          "name": "War Cry",
+          "enhanced": "Enhanced War Cry",
+          "morph": "Mighty War Cry"
+        },
+        {
+          "name": "Hammer of the Ancients",
+          "enhanced": "Enhanced Hammer of the Ancients",
+          "morph": "Furious Hammer of the Ancients"
+        },
+        {
+          "name": "Upheaval",
+          "enhanced": "Enhanced Upheaval",
+          "morph": "Furious Upheaval"
+        }
+      ],
+      "passives": [
+        "Aggressive Resistance",
+        "Battle Fervor",
+        "Heavy Hitter",
+        "Prolific Fury",
+        "Two-Handed Mace Expertise",
+        "Brute Force",
+        "Heavy Handed",
+        "Wallop",
+        "Counteroffensive ",
+        "Warpath"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "barbarian_pit_push",
+      "build_name": "Barbarian \u00b7 Pit Push",
+      "class": "Barbarian",
+      "key_passive": "Unbridled Rage",
+      "skill_bar": [
+        "Wrath of the Berserker",
+        "Ground Stomp",
+        "Whirlwind",
+        "Kick",
+        "War Cry",
+        "Hammer of the Ancients"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Wrath of the Berserker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Ground Stomp",
+          "enhanced": "Enhanced Ground Stomp",
+          "morph": "Strategic Ground Stomp"
+        },
+        {
+          "name": "Whirlwind",
+          "enhanced": "Enhanced Whirlwind",
+          "morph": "Furious Whirlwind"
+        },
+        {
+          "name": "Kick",
+          "enhanced": "Enhanced Kick",
+          "morph": "Mighty Kick"
+        },
+        {
+          "name": "War Cry",
+          "enhanced": "Enhanced War Cry",
+          "morph": "Mighty War Cry"
+        },
+        {
+          "name": "Hammer of the Ancients",
+          "enhanced": "Enhanced Hammer of the Ancients",
+          "morph": "Furious Hammer of the Ancients"
+        }
+      ],
+      "passives": [
+        "Wallop",
+        "Aggressive Resistance",
+        "Battle Fervor",
+        "Hamstring",
+        "Heavy Hitter",
+        "Prolific Fury",
+        "Quick Impulses",
+        "Two-Handed Mace Expertise",
+        "Brute Force",
+        "Heavy Handed"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "barbarian_mythic_unique",
+      "build_name": "Barbarian \u00b7 Mythic Unique",
+      "class": "Barbarian",
+      "key_passive": "Unbridled Rage",
+      "skill_bar": [
+        "Wrath of the Berserker",
+        "Ground Stomp",
+        "Whirlwind",
+        "Kick",
+        "War Cry",
+        "Hammer of the Ancients"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Wrath of the Berserker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Ground Stomp",
+          "enhanced": "Enhanced Ground Stomp",
+          "morph": "Strategic Ground Stomp"
+        },
+        {
+          "name": "Whirlwind",
+          "enhanced": "Enhanced Whirlwind",
+          "morph": "Furious Whirlwind"
+        },
+        {
+          "name": "Kick",
+          "enhanced": "Enhanced Kick",
+          "morph": "Mighty Kick"
+        },
+        {
+          "name": "War Cry",
+          "enhanced": "Enhanced War Cry",
+          "morph": "Mighty War Cry"
+        },
+        {
+          "name": "Hammer of the Ancients",
+          "enhanced": "Enhanced Hammer of the Ancients",
+          "morph": "Furious Hammer of the Ancients"
+        }
+      ],
+      "passives": [
+        "Wallop",
+        "Aggressive Resistance",
+        "Battle Fervor",
+        "Hamstring",
+        "Heavy Hitter",
+        "Prolific Fury",
+        "Quick Impulses",
+        "Two-Handed Mace Expertise",
+        "Brute Force",
+        "Heavy Handed"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "barbarian_leveling",
+      "build_name": "Barbarian \u00b7 Leveling",
+      "class": "Barbarian",
+      "key_passive": "Unbridled Rage",
+      "skill_bar": [
+        "Bash",
+        "Wrath of the Berserker",
+        "Ground Stomp",
+        "Whirlwind",
+        "Kick",
+        "War Cry"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Bash",
+          "enhanced": "Enhanced Bash",
+          "morph": "Battle Bash"
+        },
+        {
+          "name": "Wrath of the Berserker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Ground Stomp",
+          "enhanced": "Enhanced Ground Stomp",
+          "morph": "Strategic Ground Stomp"
+        },
+        {
+          "name": "Whirlwind",
+          "enhanced": "Enhanced Whirlwind",
+          "morph": "Furious Whirlwind"
+        },
+        {
+          "name": "Kick",
+          "enhanced": "Enhanced Kick",
+          "morph": "Mighty Kick"
+        },
+        {
+          "name": "War Cry",
+          "enhanced": "Enhanced War Cry",
+          "morph": "Mighty War Cry"
+        }
+      ],
+      "passives": [
+        "Wallop",
+        "Aggressive Resistance",
+        "Battle Fervor",
+        "Hamstring",
+        "Heavy Hitter",
+        "Prolific Fury",
+        "Quick Impulses",
+        "Two-Handed Mace Expertise",
+        "Brute Force",
+        "Heavy Handed"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "druid_speed_farm",
+      "build_name": "Druid \u00b7 Speed Farm",
+      "class": "Druid",
+      "key_passive": "Perfect Storm",
+      "skill_bar": [
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Storm Howl"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Earthen Bulwark",
+          "enhanced": "Enhanced Earthen Bulwark",
+          "morph": "Innate Earthen Bulwark"
+        },
+        {
+          "name": "Shred",
+          "enhanced": "Enhanced Shred",
+          "morph": "Raging Shred"
+        },
+        {
+          "name": "Stone Burst",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Petrify",
+          "enhanced": "Prime Petrify",
+          "morph": "Supreme Petrify"
+        },
+        {
+          "name": "Lightning Storm",
+          "enhanced": "Enhanced Lightning Storm",
+          "morph": "Raging Lightning Storm"
+        },
+        {
+          "name": "Storm Howl",
+          "enhanced": null,
+          "morph": null
+        }
+      ],
+      "passives": [
+        "Lightning Bolt",
+        "Wild Impulses",
+        "Envenom",
+        "Provocation",
+        "Toxic Claws",
+        "Stone Guard",
+        "Charged Atmosphere",
+        "Clarity",
+        "Feral Aptitude ",
+        "Resonance"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "druid_leveling",
+      "build_name": "Druid \u00b7 Leveling",
+      "class": "Druid",
+      "key_passive": "Perfect Storm",
+      "skill_bar": [
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Earthen Bulwark",
+          "enhanced": "Enhanced Earthen Bulwark",
+          "morph": "Innate Earthen Bulwark"
+        },
+        {
+          "name": "Shred",
+          "enhanced": "Enhanced Shred",
+          "morph": "Raging Shred"
+        },
+        {
+          "name": "Stone Burst",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Petrify",
+          "enhanced": "Prime Petrify",
+          "morph": "Supreme Petrify"
+        },
+        {
+          "name": "Lightning Storm",
+          "enhanced": "Enhanced Lightning Storm",
+          "morph": "Raging Lightning Storm"
+        },
+        {
+          "name": "Wind Shear",
+          "enhanced": "Enhanced Wind Shear",
+          "morph": "Fierce Wind Shear"
+        }
+      ],
+      "passives": [
+        "Lightning Bolt",
+        "Wild Impulses",
+        "Envenom",
+        "Provocation",
+        "Toxic Claws",
+        "Stone Guard",
+        "Charged Atmosphere",
+        "Clarity",
+        "Feral Aptitude ",
+        "Resonance"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "druid_pit_push",
+      "build_name": "Druid \u00b7 Pit Push",
+      "class": "Druid",
+      "key_passive": "Perfect Storm",
+      "skill_bar": [
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Earthen Bulwark",
+          "enhanced": "Enhanced Earthen Bulwark",
+          "morph": "Innate Earthen Bulwark"
+        },
+        {
+          "name": "Shred",
+          "enhanced": "Enhanced Shred",
+          "morph": "Raging Shred"
+        },
+        {
+          "name": "Stone Burst",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Petrify",
+          "enhanced": "Prime Petrify",
+          "morph": "Supreme Petrify"
+        },
+        {
+          "name": "Lightning Storm",
+          "enhanced": "Enhanced Lightning Storm",
+          "morph": "Raging Lightning Storm"
+        },
+        {
+          "name": "Wind Shear",
+          "enhanced": "Enhanced Wind Shear",
+          "morph": "Fierce Wind Shear"
+        }
+      ],
+      "passives": [
+        "Lightning Bolt",
+        "Wild Impulses",
+        "Envenom",
+        "Provocation",
+        "Toxic Claws",
+        "Stone Guard",
+        "Charged Atmosphere",
+        "Clarity",
+        "Feral Aptitude ",
+        "Resonance"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "druid_mythic_unique",
+      "build_name": "Druid \u00b7 Mythic Unique",
+      "class": "Druid",
+      "key_passive": "Perfect Storm",
+      "skill_bar": [
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Earthen Bulwark",
+          "enhanced": "Enhanced Earthen Bulwark",
+          "morph": "Innate Earthen Bulwark"
+        },
+        {
+          "name": "Shred",
+          "enhanced": "Enhanced Shred",
+          "morph": "Raging Shred"
+        },
+        {
+          "name": "Stone Burst",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Petrify",
+          "enhanced": "Prime Petrify",
+          "morph": "Supreme Petrify"
+        },
+        {
+          "name": "Lightning Storm",
+          "enhanced": "Enhanced Lightning Storm",
+          "morph": "Raging Lightning Storm"
+        },
+        {
+          "name": "Wind Shear",
+          "enhanced": "Enhanced Wind Shear",
+          "morph": "Fierce Wind Shear"
+        }
+      ],
+      "passives": [
+        "Lightning Bolt",
+        "Wild Impulses",
+        "Envenom",
+        "Provocation",
+        "Toxic Claws",
+        "Stone Guard",
+        "Charged Atmosphere",
+        "Clarity",
+        "Feral Aptitude ",
+        "Resonance"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "necromancer_pit_push",
+      "build_name": "Necromancer \u00b7 Pit Push",
+      "class": "Necromancer",
+      "key_passive": "Rathma's Vigor",
+      "skill_bar": [
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Blood Surge",
+        "Golem"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Army of the Dead",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blood Mist",
+          "enhanced": "Enhanced Blood Mist",
+          "morph": "Dreadful Blood Mist"
+        },
+        {
+          "name": "Bone Spear",
+          "enhanced": "Enhanced Bone Spear",
+          "morph": "Paranormal Bone Spear"
+        },
+        {
+          "name": "Blood Lance",
+          "enhanced": "Enhanced Blood Lance",
+          "morph": "Paranormal Blood Lance"
+        },
+        {
+          "name": "Blood Surge",
+          "enhanced": "Enhanced Blood Surge",
+          "morph": "Paranormal Blood Surge"
+        },
+        {
+          "name": "Golem",
+          "enhanced": null,
+          "morph": null
+        }
+      ],
+      "passives": [
+        "Amplify Damage",
+        "Transfusion",
+        "Coalesced Blood",
+        "Compound Fracture",
+        "Imperfectly Balanced",
+        "Tides of Blood",
+        "Death's Embrace",
+        "Hellbent Commander",
+        "Fueled by Death",
+        "Reaper's Pursuit"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "necromancer_mythic_unique",
+      "build_name": "Necromancer \u00b7 Mythic Unique",
+      "class": "Necromancer",
+      "key_passive": "Rathma's Vigor",
+      "skill_bar": [
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Blood Surge",
+        "Golem"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Army of the Dead",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blood Mist",
+          "enhanced": "Enhanced Blood Mist",
+          "morph": "Dreadful Blood Mist"
+        },
+        {
+          "name": "Bone Spear",
+          "enhanced": "Enhanced Bone Spear",
+          "morph": "Paranormal Bone Spear"
+        },
+        {
+          "name": "Blood Lance",
+          "enhanced": "Enhanced Blood Lance",
+          "morph": "Paranormal Blood Lance"
+        },
+        {
+          "name": "Blood Surge",
+          "enhanced": "Enhanced Blood Surge",
+          "morph": "Paranormal Blood Surge"
+        },
+        {
+          "name": "Golem",
+          "enhanced": null,
+          "morph": null
+        }
+      ],
+      "passives": [
+        "Amplify Damage",
+        "Transfusion",
+        "Coalesced Blood",
+        "Compound Fracture",
+        "Imperfectly Balanced",
+        "Tides of Blood",
+        "Death's Embrace",
+        "Hellbent Commander",
+        "Fueled by Death",
+        "Reaper's Pursuit"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "necromancer_leveling",
+      "build_name": "Necromancer \u00b7 Leveling",
+      "class": "Necromancer",
+      "key_passive": "Rathma's Vigor",
+      "skill_bar": [
+        "Bone Splinters",
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Golem"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Bone Splinters",
+          "enhanced": "Enhanced Bone Splinters",
+          "morph": "Acolyte's Bone Splinters"
+        },
+        {
+          "name": "Army of the Dead",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blood Mist",
+          "enhanced": "Enhanced Blood Mist",
+          "morph": "Dreadful Blood Mist"
+        },
+        {
+          "name": "Bone Spear",
+          "enhanced": "Enhanced Bone Spear",
+          "morph": "Paranormal Bone Spear"
+        },
+        {
+          "name": "Blood Lance",
+          "enhanced": "Enhanced Blood Lance",
+          "morph": "Paranormal Blood Lance"
+        },
+        {
+          "name": "Golem",
+          "enhanced": null,
+          "morph": null
+        }
+      ],
+      "passives": [
+        "Amplify Damage",
+        "Transfusion",
+        "Coalesced Blood",
+        "Compound Fracture",
+        "Imperfectly Balanced",
+        "Tides of Blood",
+        "Death's Embrace",
+        "Hellbent Commander",
+        "Fueled by Death",
+        "Reaper's Pursuit"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "necromancer_speed_farm",
+      "build_name": "Necromancer \u00b7 Speed Farm",
+      "class": "Necromancer",
+      "key_passive": "Rathma's Vigor",
+      "skill_bar": [
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Blood Surge",
+        "Golem"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Army of the Dead",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blood Mist",
+          "enhanced": "Enhanced Blood Mist",
+          "morph": "Dreadful Blood Mist"
+        },
+        {
+          "name": "Bone Spear",
+          "enhanced": "Enhanced Bone Spear",
+          "morph": "Paranormal Bone Spear"
+        },
+        {
+          "name": "Blood Lance",
+          "enhanced": "Enhanced Blood Lance",
+          "morph": "Paranormal Blood Lance"
+        },
+        {
+          "name": "Blood Surge",
+          "enhanced": "Enhanced Blood Surge",
+          "morph": "Paranormal Blood Surge"
+        },
+        {
+          "name": "Golem",
+          "enhanced": null,
+          "morph": null
+        }
+      ],
+      "passives": [
+        "Amplify Damage",
+        "Transfusion",
+        "Coalesced Blood",
+        "Compound Fracture",
+        "Imperfectly Balanced",
+        "Tides of Blood",
+        "Death's Embrace",
+        "Hellbent Commander",
+        "Fueled by Death",
+        "Reaper's Pursuit"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "paladin_speed_farm",
+      "build_name": "Paladin \u00b7 Speed Farm",
+      "class": "Paladin",
+      "key_passive": "Path of the Penitent",
+      "skill_bar": [
+        "Zenith",
+        "Shield Bash",
+        "Fanaticism Aura",
+        "Divine Lance",
+        "Defiance Aura",
+        "Falling Star"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Zenith",
+          "enhanced": "Enhanced Zenith",
+          "morph": "Sunder"
+        },
+        {
+          "name": "Shield Bash",
+          "enhanced": "Enhanced Shield Bash",
+          "morph": "Breach"
+        },
+        {
+          "name": "Fanaticism Aura",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Divine Lance",
+          "enhanced": "Enhanced Divine Lance",
+          "morph": "Tip of the Spear"
+        },
+        {
+          "name": "Defiance Aura",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Falling Star",
+          "enhanced": "Enhanced Falling Star",
+          "morph": "Freefall"
+        }
+      ],
+      "passives": [
+        "Conviction",
+        "Break the Line",
+        "Discipline",
+        "Righteousness",
+        "Dizzying Blow",
+        "Shake It Off",
+        "Shining Armor",
+        "[WIP] Concentration",
+        "Heavyweight",
+        "The Best Offense"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "paladin_leveling",
+      "build_name": "Paladin \u00b7 Leveling",
+      "class": "Paladin",
+      "key_passive": "Path of the Penitent",
+      "skill_bar": [
+        "Fortress",
+        "Shield Bash",
+        "Fanaticism Aura",
+        "Divine Lance",
+        "Condemn",
+        "Brandish"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Fortress",
+          "enhanced": "Enhanced Fortress",
+          "morph": "Rampart of Thorns"
+        },
+        {
+          "name": "Shield Bash",
+          "enhanced": "Enhanced Shield Bash",
+          "morph": "Breach"
+        },
+        {
+          "name": "Fanaticism Aura",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Divine Lance",
+          "enhanced": "Enhanced Divine Lance",
+          "morph": "Tip of the Spear"
+        },
+        {
+          "name": "Condemn",
+          "enhanced": "Enhanced Condemn",
+          "morph": "Gather the Guilty"
+        },
+        {
+          "name": "Brandish",
+          "enhanced": "Enhanced Brandish",
+          "morph": "Cross Strike"
+        }
+      ],
+      "passives": [
+        "Conviction",
+        "Break the Line",
+        "Discipline",
+        "Righteousness",
+        "Dizzying Blow",
+        "Shake It Off",
+        "[WIP] Concentration",
+        "Heavyweight",
+        "The Best Offense",
+        "Fortitude"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "paladin_mythic_unique",
+      "build_name": "Paladin \u00b7 Mythic Unique",
+      "class": "Paladin",
+      "key_passive": "Path of the Penitent",
+      "skill_bar": [
+        "Fortress",
+        "Shield Bash",
+        "Fanaticism Aura",
+        "Blessed Shield",
+        "Divine Lance",
+        "Condemn"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Fortress",
+          "enhanced": "Enhanced Fortress",
+          "morph": "Rampart of Thorns"
+        },
+        {
+          "name": "Shield Bash",
+          "enhanced": "Enhanced Shield Bash",
+          "morph": "Breach"
+        },
+        {
+          "name": "Fanaticism Aura",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blessed Shield",
+          "enhanced": "Enhanced Blessed Shield",
+          "morph": "Shield of Justice"
+        },
+        {
+          "name": "Divine Lance",
+          "enhanced": "Enhanced Divine Lance",
+          "morph": "Tip of the Spear"
+        },
+        {
+          "name": "Condemn",
+          "enhanced": "Enhanced Condemn",
+          "morph": "Gather the Guilty"
+        }
+      ],
+      "passives": [
+        "Conviction",
+        "Break the Line",
+        "Discipline",
+        "Righteousness",
+        "Dizzying Blow",
+        "Shake It Off",
+        "[WIP] Concentration",
+        "Heavyweight",
+        "The Best Offense",
+        "Fortitude"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "paladin_pit_push",
+      "build_name": "Paladin \u00b7 Pit Push",
+      "class": "Paladin",
+      "key_passive": "Path of the Penitent",
+      "skill_bar": [
+        "Fortress",
+        "Shield Bash",
+        "Fanaticism Aura",
+        "Blessed Shield",
+        "Divine Lance",
+        "Condemn"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Fortress",
+          "enhanced": "Enhanced Fortress",
+          "morph": "Rampart of Thorns"
+        },
+        {
+          "name": "Shield Bash",
+          "enhanced": "Enhanced Shield Bash",
+          "morph": "Breach"
+        },
+        {
+          "name": "Fanaticism Aura",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Blessed Shield",
+          "enhanced": "Enhanced Blessed Shield",
+          "morph": "Shield of Justice"
+        },
+        {
+          "name": "Divine Lance",
+          "enhanced": "Enhanced Divine Lance",
+          "morph": "Tip of the Spear"
+        },
+        {
+          "name": "Condemn",
+          "enhanced": "Enhanced Condemn",
+          "morph": "Gather the Guilty"
+        }
+      ],
+      "passives": [
+        "Conviction",
+        "Break the Line",
+        "Discipline",
+        "Righteousness",
+        "Dizzying Blow",
+        "Shake It Off",
+        "[WIP] Concentration",
+        "Heavyweight",
+        "The Best Offense",
+        "Fortitude"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "rogue_speed_farm",
+      "build_name": "Rogue \u00b7 Speed Farm",
+      "class": "Rogue",
+      "key_passive": "Victimize",
+      "skill_bar": [
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Dash",
+        "Forceful Arrow",
+        "Shadow Step"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Shadow Clone",
+          "enhanced": "Prime Shadow Clone",
+          "morph": "Supreme Shadow Clone"
+        },
+        {
+          "name": "Penetrating Shot",
+          "enhanced": "Enhanced Penetrating Shot",
+          "morph": "Advanced Penetrating Shot"
+        },
+        {
+          "name": "Flurry",
+          "enhanced": "Enhanced Flurry",
+          "morph": "Advanced Flurry"
+        },
+        {
+          "name": "Dash",
+          "enhanced": "Enhanced Dash",
+          "morph": "Disciplined Dash"
+        },
+        {
+          "name": "Forceful Arrow",
+          "enhanced": "Enhanced Forceful Arrow",
+          "morph": "Fundamental Forceful Arrow"
+        },
+        {
+          "name": "Shadow Step",
+          "enhanced": "Enhanced Shadow Step",
+          "morph": "Disciplined Shadow Step"
+        }
+      ],
+      "passives": [
+        "Malice",
+        "Weapon Mastery",
+        "Inner Sight",
+        "Frigid Finesse",
+        "Haste",
+        "Chilling Weight",
+        "Rapid Gambits",
+        "Target Practice",
+        "Unstable Elixirs",
+        "Deadly Venom"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "rogue_leveling",
+      "build_name": "Rogue \u00b7 Leveling",
+      "class": "Rogue",
+      "key_passive": "Victimize",
+      "skill_bar": [
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Dash",
+        "Concealment",
+        "Forceful Arrow"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Shadow Clone",
+          "enhanced": "Prime Shadow Clone",
+          "morph": "Supreme Shadow Clone"
+        },
+        {
+          "name": "Penetrating Shot",
+          "enhanced": "Enhanced Penetrating Shot",
+          "morph": "Advanced Penetrating Shot"
+        },
+        {
+          "name": "Flurry",
+          "enhanced": "Enhanced Flurry",
+          "morph": "Advanced Flurry"
+        },
+        {
+          "name": "Dash",
+          "enhanced": "Enhanced Dash",
+          "morph": "Disciplined Dash"
+        },
+        {
+          "name": "Concealment",
+          "enhanced": "Enhanced Concealment",
+          "morph": "Countering Concealment"
+        },
+        {
+          "name": "Forceful Arrow",
+          "enhanced": "Enhanced Forceful Arrow",
+          "morph": "Fundamental Forceful Arrow"
+        }
+      ],
+      "passives": [
+        "Malice",
+        "Weapon Mastery",
+        "Inner Sight",
+        "Frigid Finesse",
+        "Haste",
+        "Chilling Weight",
+        "Rapid Gambits",
+        "Target Practice",
+        "Unstable Elixirs",
+        "Deadly Venom"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "rogue_pit_push",
+      "build_name": "Rogue \u00b7 Pit Push",
+      "class": "Rogue",
+      "key_passive": "Victimize",
+      "skill_bar": [
+        "Smoke Grenade",
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Dash",
+        "Forceful Arrow"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Smoke Grenade",
+          "enhanced": "Enhanced Smoke Grenade",
+          "morph": "Countering Smoke Grenade"
+        },
+        {
+          "name": "Shadow Clone",
+          "enhanced": "Prime Shadow Clone",
+          "morph": "Supreme Shadow Clone"
+        },
+        {
+          "name": "Penetrating Shot",
+          "enhanced": "Enhanced Penetrating Shot",
+          "morph": "Advanced Penetrating Shot"
+        },
+        {
+          "name": "Flurry",
+          "enhanced": "Enhanced Flurry",
+          "morph": "Advanced Flurry"
+        },
+        {
+          "name": "Dash",
+          "enhanced": "Enhanced Dash",
+          "morph": "Disciplined Dash"
+        },
+        {
+          "name": "Forceful Arrow",
+          "enhanced": "Enhanced Forceful Arrow",
+          "morph": "Fundamental Forceful Arrow"
+        }
+      ],
+      "passives": [
+        "Malice",
+        "Rapid Gambits",
+        "Weapon Mastery",
+        "Inner Sight",
+        "Frigid Finesse",
+        "Trick Attacks",
+        "Target Practice",
+        "Unstable Elixirs",
+        "Deadly Venom",
+        "Unto Dawn"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "rogue_mythic_unique",
+      "build_name": "Rogue \u00b7 Mythic Unique",
+      "class": "Rogue",
+      "key_passive": "Victimize",
+      "skill_bar": [
+        "Smoke Grenade",
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Dash",
+        "Forceful Arrow"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Smoke Grenade",
+          "enhanced": "Enhanced Smoke Grenade",
+          "morph": "Countering Smoke Grenade"
+        },
+        {
+          "name": "Shadow Clone",
+          "enhanced": "Prime Shadow Clone",
+          "morph": "Supreme Shadow Clone"
+        },
+        {
+          "name": "Penetrating Shot",
+          "enhanced": "Enhanced Penetrating Shot",
+          "morph": "Advanced Penetrating Shot"
+        },
+        {
+          "name": "Flurry",
+          "enhanced": "Enhanced Flurry",
+          "morph": "Advanced Flurry"
+        },
+        {
+          "name": "Dash",
+          "enhanced": "Enhanced Dash",
+          "morph": "Disciplined Dash"
+        },
+        {
+          "name": "Forceful Arrow",
+          "enhanced": "Enhanced Forceful Arrow",
+          "morph": "Fundamental Forceful Arrow"
+        }
+      ],
+      "passives": [
+        "Malice",
+        "Rapid Gambits",
+        "Weapon Mastery",
+        "Inner Sight",
+        "Frigid Finesse",
+        "Trick Attacks",
+        "Target Practice",
+        "Unstable Elixirs",
+        "Deadly Venom",
+        "Unto Dawn"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "sorcerer_pit_push",
+      "build_name": "Sorcerer \u00b7 Pit Push",
+      "class": "Sorcerer",
+      "key_passive": "Combustion",
+      "skill_bar": [
+        "Inferno",
+        "Flame Shield",
+        "Firewall",
+        "Frozen Orb",
+        "Ice Shards",
+        "Lightning Spear"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Inferno",
+          "enhanced": "Prime Inferno",
+          "morph": "Supreme Inferno"
+        },
+        {
+          "name": "Flame Shield",
+          "enhanced": "Enhanced Flame Shield",
+          "morph": "Mystical Flame Shield"
+        },
+        {
+          "name": "Firewall",
+          "enhanced": "Enhanced Firewall",
+          "morph": "Mage's Firewall"
+        },
+        {
+          "name": "Frozen Orb",
+          "enhanced": "Enhanced Frozen Orb",
+          "morph": "Destructive Frozen Orb"
+        },
+        {
+          "name": "Ice Shards",
+          "enhanced": "Enhanced Ice Shards",
+          "morph": "Destructive Ice Shards"
+        },
+        {
+          "name": "Lightning Spear",
+          "enhanced": "Enhanced Lightning Spear",
+          "morph": "Invoked Lightning Spear"
+        }
+      ],
+      "passives": [
+        "Align the Elements",
+        "Elemental Synergies",
+        "Endless Pyre",
+        "Hoarfrost",
+        "Icy Touch",
+        "Cold Front",
+        "Crackling Energy",
+        "Devouring Blaze",
+        "Frigid Breeze",
+        "Glass Cannon"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "sorcerer_speed_farm",
+      "build_name": "Sorcerer \u00b7 Speed Farm",
+      "class": "Sorcerer",
+      "key_passive": "Combustion",
+      "skill_bar": [
+        "Firewall",
+        "Frozen Orb",
+        "Blizzard",
+        "Ice Shards",
+        "Lightning Spear",
+        "Teleport"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Firewall",
+          "enhanced": "Enhanced Firewall",
+          "morph": "Mage's Firewall"
+        },
+        {
+          "name": "Frozen Orb",
+          "enhanced": "Enhanced Frozen Orb",
+          "morph": "Destructive Frozen Orb"
+        },
+        {
+          "name": "Blizzard",
+          "enhanced": "Enhanced Blizzard",
+          "morph": "Mage's Blizzard"
+        },
+        {
+          "name": "Ice Shards",
+          "enhanced": "Enhanced Ice Shards",
+          "morph": "Destructive Ice Shards"
+        },
+        {
+          "name": "Lightning Spear",
+          "enhanced": "Enhanced Lightning Spear",
+          "morph": "Invoked Lightning Spear"
+        },
+        {
+          "name": "Teleport",
+          "enhanced": "Enhanced Teleport",
+          "morph": "Mystical Teleport"
+        }
+      ],
+      "passives": [
+        "Align the Elements",
+        "Elemental Synergies",
+        "Endless Pyre",
+        "Hoarfrost",
+        "Icy Touch",
+        "Cold Front",
+        "Crackling Energy",
+        "Devouring Blaze",
+        "Frigid Breeze",
+        "Glass Cannon"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "sorcerer_mythic_unique",
+      "build_name": "Sorcerer \u00b7 Mythic Unique",
+      "class": "Sorcerer",
+      "key_passive": "Combustion",
+      "skill_bar": [
+        "Firewall",
+        "Frozen Orb",
+        "Blizzard",
+        "Ice Shards",
+        "Lightning Spear",
+        "Teleport"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Firewall",
+          "enhanced": "Enhanced Firewall",
+          "morph": "Mage's Firewall"
+        },
+        {
+          "name": "Frozen Orb",
+          "enhanced": "Enhanced Frozen Orb",
+          "morph": "Destructive Frozen Orb"
+        },
+        {
+          "name": "Blizzard",
+          "enhanced": "Enhanced Blizzard",
+          "morph": "Mage's Blizzard"
+        },
+        {
+          "name": "Ice Shards",
+          "enhanced": "Enhanced Ice Shards",
+          "morph": "Destructive Ice Shards"
+        },
+        {
+          "name": "Lightning Spear",
+          "enhanced": "Enhanced Lightning Spear",
+          "morph": "Invoked Lightning Spear"
+        },
+        {
+          "name": "Teleport",
+          "enhanced": "Enhanced Teleport",
+          "morph": "Mystical Teleport"
+        }
+      ],
+      "passives": [
+        "Align the Elements",
+        "Elemental Synergies",
+        "Endless Pyre",
+        "Hoarfrost",
+        "Icy Touch",
+        "Cold Front",
+        "Crackling Energy",
+        "Devouring Blaze",
+        "Frigid Breeze",
+        "Glass Cannon"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "sorcerer_leveling",
+      "build_name": "Sorcerer \u00b7 Leveling",
+      "class": "Sorcerer",
+      "key_passive": "Combustion",
+      "skill_bar": [
+        "Firewall",
+        "Frozen Orb",
+        "Ice Shards",
+        "Lightning Spear",
+        "Teleport",
+        "Frost Bolt"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Firewall",
+          "enhanced": "Enhanced Firewall",
+          "morph": "Mage's Firewall"
+        },
+        {
+          "name": "Frozen Orb",
+          "enhanced": "Enhanced Frozen Orb",
+          "morph": "Destructive Frozen Orb"
+        },
+        {
+          "name": "Ice Shards",
+          "enhanced": "Enhanced Ice Shards",
+          "morph": "Destructive Ice Shards"
+        },
+        {
+          "name": "Lightning Spear",
+          "enhanced": "Enhanced Lightning Spear",
+          "morph": "Invoked Lightning Spear"
+        },
+        {
+          "name": "Teleport",
+          "enhanced": "Enhanced Teleport",
+          "morph": "Mystical Teleport"
+        },
+        {
+          "name": "Frost Bolt",
+          "enhanced": "Enhanced Frost Bolt",
+          "morph": "Flickering Frost Bolt"
+        }
+      ],
+      "passives": [
+        "Align the Elements",
+        "Elemental Synergies",
+        "Endless Pyre",
+        "Hoarfrost",
+        "Icy Touch",
+        "Cold Front",
+        "Crackling Energy",
+        "Devouring Blaze",
+        "Frigid Breeze",
+        "Glass Cannon"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "spiritborn_speed_farm",
+      "build_name": "Spiritborn \u00b7 Speed Farm",
+      "class": "Spiritborn",
+      "key_passive": "Vital Strikes",
+      "skill_bar": [
+        "Rock Splitter",
+        "Armored Hide",
+        "The Seeker",
+        "Rushing Claw",
+        "Vortex",
+        "Thrash"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Rock Splitter",
+          "enhanced": "Enhanced Rock Splitter",
+          "morph": "Sharp Rock Splitter"
+        },
+        {
+          "name": "Armored Hide",
+          "enhanced": "Enhanced Armored Hide",
+          "morph": "Adaptable Armored Hide"
+        },
+        {
+          "name": "The Seeker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Rushing Claw",
+          "enhanced": "Enhanced Rushing Claw",
+          "morph": "Poised Rushing Claw"
+        },
+        {
+          "name": "Vortex",
+          "enhanced": "Enhanced Vortex",
+          "morph": "Measured Vortex"
+        },
+        {
+          "name": "Thrash",
+          "enhanced": "Enhanced Thrash",
+          "morph": "Sharp Thrash"
+        }
+      ],
+      "passives": [
+        "Unrestrained Power",
+        "Vehemence",
+        "Perseverance",
+        "Initiative",
+        "Acceleration",
+        "Balanced Exertion",
+        "Mirage",
+        "Apex",
+        "Follow Through",
+        "Diminishment"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "spiritborn_leveling",
+      "build_name": "Spiritborn \u00b7 Leveling",
+      "class": "Spiritborn",
+      "key_passive": "Vital Strikes",
+      "skill_bar": [
+        "Rock Splitter",
+        "Armored Hide",
+        "The Seeker",
+        "Rushing Claw",
+        "Vortex",
+        "Thrash"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Rock Splitter",
+          "enhanced": "Enhanced Rock Splitter",
+          "morph": "Sharp Rock Splitter"
+        },
+        {
+          "name": "Armored Hide",
+          "enhanced": "Enhanced Armored Hide",
+          "morph": "Adaptable Armored Hide"
+        },
+        {
+          "name": "The Seeker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Rushing Claw",
+          "enhanced": "Enhanced Rushing Claw",
+          "morph": "Poised Rushing Claw"
+        },
+        {
+          "name": "Vortex",
+          "enhanced": "Enhanced Vortex",
+          "morph": "Measured Vortex"
+        },
+        {
+          "name": "Thrash",
+          "enhanced": "Enhanced Thrash",
+          "morph": "Sharp Thrash"
+        }
+      ],
+      "passives": [
+        "Unrestrained Power",
+        "Vehemence",
+        "Perseverance",
+        "Initiative",
+        "Acceleration",
+        "Balanced Exertion",
+        "Mirage",
+        "Apex",
+        "Follow Through",
+        "Diminishment"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "spiritborn_mythic_unique",
+      "build_name": "Spiritborn \u00b7 Mythic Unique",
+      "class": "Spiritborn",
+      "key_passive": "Vital Strikes",
+      "skill_bar": [
+        "Rock Splitter",
+        "Armored Hide",
+        "The Seeker",
+        "Rushing Claw",
+        "Vortex",
+        "Thrash"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "Rock Splitter",
+          "enhanced": "Enhanced Rock Splitter",
+          "morph": "Sharp Rock Splitter"
+        },
+        {
+          "name": "Armored Hide",
+          "enhanced": "Enhanced Armored Hide",
+          "morph": "Adaptable Armored Hide"
+        },
+        {
+          "name": "The Seeker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Rushing Claw",
+          "enhanced": "Enhanced Rushing Claw",
+          "morph": "Poised Rushing Claw"
+        },
+        {
+          "name": "Vortex",
+          "enhanced": "Enhanced Vortex",
+          "morph": "Measured Vortex"
+        },
+        {
+          "name": "Thrash",
+          "enhanced": "Enhanced Thrash",
+          "morph": "Sharp Thrash"
+        }
+      ],
+      "passives": [
+        "Unrestrained Power",
+        "Vehemence",
+        "Perseverance",
+        "Initiative",
+        "Acceleration",
+        "Balanced Exertion",
+        "Mirage",
+        "Apex",
+        "Follow Through",
+        "Diminishment"
+      ],
+      "passive_rank": 3
+    },
+    {
+      "id": "spiritborn_pit_push",
+      "build_name": "Spiritborn \u00b7 Pit Push",
+      "class": "Spiritborn",
+      "key_passive": "Vital Strikes",
+      "skill_bar": [
+        "The Seeker",
+        "Rushing Claw",
+        "Vortex",
+        "Thunderspike",
+        "Thrash",
+        "Counterattack"
+      ],
+      "skill_bar_rank": 5,
+      "skill_upgrades": [
+        {
+          "name": "The Seeker",
+          "enhanced": null,
+          "morph": null
+        },
+        {
+          "name": "Rushing Claw",
+          "enhanced": "Enhanced Rushing Claw",
+          "morph": "Poised Rushing Claw"
+        },
+        {
+          "name": "Vortex",
+          "enhanced": "Enhanced Vortex",
+          "morph": "Measured Vortex"
+        },
+        {
+          "name": "Thunderspike",
+          "enhanced": "Enhanced Thunderspike",
+          "morph": "Sharp Thunderspike"
+        },
+        {
+          "name": "Thrash",
+          "enhanced": "Enhanced Thrash",
+          "morph": "Sharp Thrash"
+        },
+        {
+          "name": "Counterattack",
+          "enhanced": "Enhanced Counterattack",
+          "morph": "Adaptable Counterattack"
+        }
+      ],
+      "passives": [
+        "Vehemence",
+        "Acceleration",
+        "Balanced Exertion",
+        "Unrestrained Power",
+        "Mirage",
+        "Apex",
+        "Follow Through",
+        "Diminishment",
+        "Resolution",
+        "Potent"
+      ],
+      "passive_rank": 3
+    }
+  ]
+}

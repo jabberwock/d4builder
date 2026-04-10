@@ -1,0 +1,804 @@
+{
+  "Advance": {
+    "enhanced": "Enhanced Advance",
+    "morph_1": "Vanguard's Rush",
+    "morph_2": "Wave Dash",
+    "morph_3": "Flash of the Blade"
+  },
+  "Aegis": {
+    "enhanced": "Enhanced Aegis",
+    "morph_1": "Impunity",
+    "morph_2": "Faith Is My Shield",
+    "morph_3": "Stay Resolute"
+  },
+  "Arbiter of Justice": {
+    "enhanced": "Enhanced Arbiter of Justice",
+    "morph_1": "Reach of the Law",
+    "morph_2": "Seraph's Wings",
+    "morph_3": "Divine Intervention"
+  },
+  "Arc Lash": {
+    "enhanced": "Enhanced Arc Lash",
+    "morph_1": "Flickering Arc Lash",
+    "morph_2": "Glinting Arc Lash"
+  },
+  "Armored Hide": {
+    "enhanced": "Enhanced Armored Hide",
+    "morph_1": "Adaptable Armored Hide",
+    "morph_2": "Reinforced Armored Hide"
+  },
+  "Barrage": {
+    "enhanced": "Enhanced Barrage",
+    "morph_1": "Advanced Barrage",
+    "morph_2": "Improved Barrage"
+  },
+  "Bash": {
+    "enhanced": "Enhanced Bash",
+    "morph_1": "Battle Bash",
+    "morph_2": "Combat Bash"
+  },
+  "Blade Shift": {
+    "enhanced": "Enhanced Blade Shift",
+    "morph_1": "Fundamental Blade Shift",
+    "morph_2": "Primary Blade Shift"
+  },
+  "Blessed Hammer": {
+    "enhanced": "Enhanced Blessed Hammer",
+    "morph_1": "Shattering Blow",
+    "morph_2": "Disciple's Halo",
+    "morph_3": "Mortar Combat"
+  },
+  "Blessed Shield": {
+    "enhanced": "Enhanced Blessed Shield",
+    "morph_1": "Shield of Justice",
+    "morph_2": "Shield of the Revenant",
+    "morph_3": "Shield of Retribution"
+  },
+  "Blight": {
+    "enhanced": "Enhanced Blight",
+    "morph_1": "Paranormal Blight",
+    "morph_2": "Supernatural Blight"
+  },
+  "Blizzard": {
+    "enhanced": "Enhanced Blizzard",
+    "morph_1": "Mage's Blizzard",
+    "morph_2": "Wizard's Blizzard"
+  },
+  "Blood Howl": {
+    "enhanced": "Enhanced Blood Howl",
+    "morph_1": "Innate Blood Howl",
+    "morph_2": "Preserving Blood Howl"
+  },
+  "Blood Lance": {
+    "enhanced": "Enhanced Blood Lance",
+    "morph_1": "Paranormal Blood Lance",
+    "morph_2": "Supernatural Blood Lance"
+  },
+  "Blood Mist": {
+    "enhanced": "Enhanced Blood Mist",
+    "morph_1": "Dreadful Blood Mist",
+    "morph_2": "Ghastly Blood Mist"
+  },
+  "Blood Surge": {
+    "enhanced": "Enhanced Blood Surge",
+    "morph_1": "Paranormal Blood Surge",
+    "morph_2": "Supernatural Blood Surge"
+  },
+  "Bone Prison": {
+    "enhanced": "Enhanced Bone Prison",
+    "morph_1": "Dreadful Bone Prison",
+    "morph_2": "Ghastly Bone Prison"
+  },
+  "Bone Spear": {
+    "enhanced": "Enhanced Bone Spear",
+    "morph_1": "Paranormal Bone Spear",
+    "morph_2": "Supernatural Bone Spear"
+  },
+  "Bone Spirit": {
+    "enhanced": "Enhanced Bone Spirit",
+    "morph_1": "Dreadful Bone Spirit",
+    "morph_2": "Ghastly Bone Spirit"
+  },
+  "Bone Splinters": {
+    "enhanced": "Enhanced Bone Splinters",
+    "morph_1": "Acolyte's Bone Splinters",
+    "morph_2": "Initiate's Bone Splinters"
+  },
+  "Boulder": {
+    "enhanced": "Enhanced Boulder",
+    "morph_1": "Natural Boulder",
+    "morph_2": "Savage Boulder"
+  },
+  "Brandish": {
+    "enhanced": "Enhanced Brandish",
+    "morph_1": "Cross Strike",
+    "morph_2": "Sword of Mastery",
+    "morph_3": "Returning Light"
+  },
+  "Caltrops": {
+    "enhanced": "Enhanced Caltrops",
+    "morph_1": "Disciplined Caltrops",
+    "morph_2": "Methodical Caltrops"
+  },
+  "Chain Lightning": {
+    "enhanced": "Enhanced Chain Lightning",
+    "morph_1": "Destructive Chain Lightning",
+    "morph_2": "Greater Chain Lightning"
+  },
+  "Challenging Shout": {
+    "enhanced": "Enhanced Challenging Shout",
+    "morph_1": "Strategic Challenging Shout",
+    "morph_2": "Tactical Challenging Shout"
+  },
+  "Charge": {
+    "enhanced": "Enhanced Charge",
+    "morph_1": "Mighty Charge",
+    "morph_2": "Power Charge"
+  },
+  "Charged Bolts": {
+    "enhanced": "Enhanced Charged Bolts",
+    "morph_1": "Destructive Charged Bolts",
+    "morph_2": "Greater Charged Bolts"
+  },
+  "Clash": {
+    "enhanced": "Enhanced Clash",
+    "morph_1": "Punishment",
+    "morph_2": "Skirmish",
+    "morph_3": "Seize Them"
+  },
+  "Claw": {
+    "enhanced": "Enhanced Claw",
+    "morph_1": "Fierce Claw",
+    "morph_2": "Wild Claw"
+  },
+  "Cold Imbuement": {
+    "enhanced": "Enhanced Cold Imbuement",
+    "morph_1": "Blended Cold Imbuement",
+    "morph_2": "Mixed Cold Imbuement"
+  },
+  "Concealment": {
+    "enhanced": "Enhanced Concealment",
+    "morph_1": "Countering Concealment",
+    "morph_2": "Subverting Concealment"
+  },
+  "Concussive Stomp": {
+    "enhanced": "Enhanced Concussive Stomp",
+    "morph_1": "Adaptable Concussive Stomp",
+    "morph_2": "Reinforced Concussive Stomp"
+  },
+  "Condemn": {
+    "enhanced": "Enhanced Condemn",
+    "morph_1": "Gather the Guilty",
+    "morph_2": "Atonement",
+    "morph_3": "Shepherd the Flock"
+  },
+  "Consecration": {
+    "enhanced": "Enhanced Consecration",
+    "morph_1": "Hallowed Ground",
+    "morph_2": "Bastion",
+    "morph_3": "Sanctify"
+  },
+  "Corpse Explosion": {
+    "enhanced": "Enhanced Corpse Explosion",
+    "morph_1": "Blighted Corpse Explosion",
+    "morph_2": "Plagued Corpse Explosion"
+  },
+  "Corpse Tendrils": {
+    "enhanced": "Enhanced Corpse Tendrils",
+    "morph_1": "Blighted Corpse Tendrils",
+    "morph_2": "Plagued Corpse Tendrils"
+  },
+  "Counterattack": {
+    "enhanced": "Enhanced Counterattack",
+    "morph_1": "Adaptable Counterattack",
+    "morph_2": "Reinforced Counterattack"
+  },
+  "Crushing Hand": {
+    "enhanced": "Enhanced Crushing Hand",
+    "morph_1": "Rampant Crushing Hand",
+    "morph_2": "Advantageous Crushing Hand"
+  },
+  "Cyclone Armor": {
+    "enhanced": "Enhanced Cyclone Armor",
+    "morph_1": "Preserving Cyclone Armor",
+    "morph_2": "Innate Cyclone Armor"
+  },
+  "Dance of Knives": {
+    "enhanced": "Enhanced Dance of Knives",
+    "morph_1": "Disciplined Dance of Knives",
+    "morph_2": "Methodical Dance of Knives"
+  },
+  "Dark Shroud": {
+    "enhanced": "Enhanced Dark Shroud",
+    "morph_1": "Countering Dark Shroud",
+    "morph_2": "Subverting Dark Shroud"
+  },
+  "Dash": {
+    "enhanced": "Enhanced Dash",
+    "morph_1": "Disciplined Dash",
+    "morph_2": "Methodical Dash"
+  },
+  "Death Blow": {
+    "enhanced": "Enhanced Death Blow",
+    "morph_1": "Fighter's Death Blow",
+    "morph_2": "Warrior's Death Blow"
+  },
+  "Debilitating Roar": {
+    "enhanced": "Enhanced Debilitating Roar",
+    "morph_1": "Innate Debilitating Roar",
+    "morph_2": "Preserving Debilitating Roar"
+  },
+  "Decompose": {
+    "enhanced": "Enhanced Decompose",
+    "morph_1": "Acolyte's Decompose",
+    "morph_2": "Initiate's Decompose"
+  },
+  "Decrepify": {
+    "enhanced": "Enhanced Decrepify",
+    "morph_1": "Abhorrent Decrepify",
+    "morph_2": "Horrid Decrepify"
+  },
+  "Defiance": {
+    "enhanced": "Enhanced Defiance",
+    "morph_1": "Rite of Might",
+    "morph_2": "Rite of Prayer",
+    "morph_3": "Rite of Thorns"
+  },
+  "Divine Lance": {
+    "enhanced": "Enhanced Divine Lance",
+    "morph_1": "Tip of the Spear",
+    "morph_2": "Zealous Joust",
+    "morph_3": "Divine Javelin"
+  },
+  "Double Swing": {
+    "enhanced": "Enhanced Double Swing",
+    "morph_1": "Furious Double Swing",
+    "morph_2": "Violent Double Swing"
+  },
+  "Earth Spike": {
+    "enhanced": "Enhanced Earth Spike",
+    "morph_1": "Fierce Earth Spike",
+    "morph_2": "Wild Earthspike"
+  },
+  "Earthen Bulwark": {
+    "enhanced": "Enhanced Earthen Bulwark",
+    "morph_1": "Innate Earthen Bulwark",
+    "morph_2": "Preserving Earthen Bulwark"
+  },
+  "Falling Star": {
+    "enhanced": "Enhanced Falling Star",
+    "morph_1": "Freefall",
+    "morph_2": "Fanatic Descent",
+    "morph_3": "Faster Than Light"
+  },
+  "Familiar": {
+    "enhanced": "Enhanced Familiar",
+    "morph_1": "Invoked Familiar",
+    "morph_2": "Summoned Familiar"
+  },
+  "Fanaticism": {
+    "enhanced": "Enhanced Fanaticism",
+    "morph_1": "Rite of Redemption",
+    "morph_2": "Rite of Humility",
+    "morph_3": "Rite of Vengeance"
+  },
+  "Fire Bolt": {
+    "enhanced": "Enhanced Fire Bolt",
+    "morph_1": "Flickering Fire Bolt",
+    "morph_2": "Glinting Fire Bolt"
+  },
+  "Fireball": {
+    "enhanced": "Enhanced Fireball",
+    "morph_1": "Destructive Fireball",
+    "morph_2": "Greater Fireball"
+  },
+  "Firewall": {
+    "enhanced": "Enhanced Firewall",
+    "morph_1": "Mage's Firewall",
+    "morph_2": "Wizard's Firewall"
+  },
+  "Flame Shield": {
+    "enhanced": "Enhanced Flame Shield",
+    "morph_1": "Mystical Flame Shield",
+    "morph_2": "Shimmering Flame Shield"
+  },
+  "Flay": {
+    "enhanced": "Enhanced Flay",
+    "morph_1": "Battle Flay",
+    "morph_2": "Combat Flay"
+  },
+  "Flurry": {
+    "enhanced": "Enhanced Flurry",
+    "morph_1": "Advanced Flurry",
+    "morph_2": "Improved Flurry"
+  },
+  "Forceful Arrow": {
+    "enhanced": "Enhanced Forceful Arrow",
+    "morph_1": "Fundamental Forceful Arrow",
+    "morph_2": "Primary Forceful Arrow"
+  },
+  "Fortress": {
+    "enhanced": "Enhanced Fortress",
+    "morph_1": "Rampart of Thorns",
+    "morph_2": "Barricade",
+    "morph_3": "Entrench"
+  },
+  "Frenzy": {
+    "enhanced": "Enhanced Frenzy",
+    "morph_1": "Battle Frenzy",
+    "morph_2": "Combat Frenzy"
+  },
+  "Frost Bolt": {
+    "enhanced": "Enhanced Frost Bolt",
+    "morph_1": "Flickering Frost Bolt",
+    "morph_2": "Glinting Frost Bolt"
+  },
+  "Frost Nova": {
+    "enhanced": "Enhanced Frost Nova",
+    "morph_1": "Mystical Frost Nova",
+    "morph_2": "Shimmering Frost Nova"
+  },
+  "Frozen Orb": {
+    "enhanced": "Enhanced Frozen Orb",
+    "morph_1": "Destructive Frozen Orb",
+    "morph_2": "Greater Frozen Orb"
+  },
+  "Ground Stomp": {
+    "enhanced": "Enhanced Ground Stomp",
+    "morph_1": "Strategic Ground Stomp",
+    "morph_2": "Tactical Ground Stomp"
+  },
+  "Hammer of the Ancients": {
+    "enhanced": "Enhanced Hammer of the Ancients",
+    "morph_1": "Furious Hammer of the Ancients",
+    "morph_2": "Violent Hammer of the Ancients"
+  },
+  "Heartseeker": {
+    "enhanced": "Enhanced Heartseeker",
+    "morph_1": "Fundamental Heartseeker",
+    "morph_2": "Primary Heartseeker"
+  },
+  "Heaven's Fury": {
+    "enhanced": "Enhanced Heaven's Fury",
+    "morph_1": "Final Justice",
+    "morph_2": "Walk With The Light",
+    "morph_3": "Triplicate"
+  },
+  "Hemorrhage": {
+    "enhanced": "Enhanced Hemorrhage",
+    "morph_1": "Acolyte's Hemorrhage",
+    "morph_2": "Initiate's Hemorrhage"
+  },
+  "Holy Bolt": {
+    "enhanced": "Enhanced Holy Bolt",
+    "morph_1": "Storm Bolt",
+    "morph_2": "Divine Bolt",
+    "morph_3": "Ricocheting Bolt"
+  },
+  "Holy Light": {
+    "enhanced": "Enhanced Holy Light",
+    "morph_1": "Rite of Mercy",
+    "morph_2": "Rite of Submission",
+    "morph_3": "Rite of Judgement"
+  },
+  "Hurricane": {
+    "enhanced": "Enhanced Hurricane",
+    "morph_1": "Natural Hurricane",
+    "morph_2": "Savage Hurricane"
+  },
+  "Hydra": {
+    "enhanced": "Enhanced Hydra",
+    "morph_1": "Invoked Hydra",
+    "morph_2": "Summoned Hydra"
+  },
+  "Ice Armor": {
+    "enhanced": "Enhanced Ice Armor",
+    "morph_1": "Mystical Ice Armor",
+    "morph_2": "Shimmering Ice Armor"
+  },
+  "Ice Blades": {
+    "enhanced": "Enhanced Ice Blades",
+    "morph_1": "Invoked Ice Blades",
+    "morph_2": "Summoned Ice Blades"
+  },
+  "Ice Shards": {
+    "enhanced": "Enhanced Ice Shards",
+    "morph_1": "Destructive Ice Shards",
+    "morph_2": "Greater Ice Shards"
+  },
+  "Incinerate": {
+    "enhanced": "Enhanced Incinerate",
+    "morph_1": "Destructive Incinerate",
+    "morph_2": "Greater Incinerate"
+  },
+  "Invigorating Strike": {
+    "enhanced": "Enhanced Invigorating Strike",
+    "morph_1": "Fundamental Invigorating Strike",
+    "morph_2": "Primary Invigorating Strike"
+  },
+  "Iron Maiden": {
+    "enhanced": "Enhanced Iron Maiden",
+    "morph_1": "Abhorrent Iron Maiden",
+    "morph_2": "Horrid Iron Maiden"
+  },
+  "Iron Skin": {
+    "enhanced": "Enhanced Iron Skin",
+    "morph_1": "Strategic Iron Skin",
+    "morph_2": "Tactical Iron Skin"
+  },
+  "Kick": {
+    "enhanced": "Enhanced Kick",
+    "morph_1": "Mighty Kick",
+    "morph_2": "Power Kick"
+  },
+  "Landslide": {
+    "enhanced": "Enhanced Landslide",
+    "morph_1": "Raging Landslide",
+    "morph_2": "Primal Landslide",
+    "morph_3": "Torrential Landslide"
+  },
+  "Leap": {
+    "enhanced": "Enhanced Leap",
+    "morph_1": "Mighty Leap",
+    "morph_2": "Power Leap"
+  },
+  "Lightning Spear": {
+    "enhanced": "Enhanced Lightning Spear",
+    "morph_1": "Invoked Lightning Spear",
+    "morph_2": "Summoned Lightning Spear"
+  },
+  "Lightning Storm": {
+    "enhanced": "Enhanced Lightning Storm",
+    "morph_1": "Raging Lightning Storm",
+    "morph_2": "Primal Lightning Storm"
+  },
+  "Lunging Strike": {
+    "enhanced": "Enhanced Lunging Strike",
+    "morph_1": "Battle Lunging Strike",
+    "morph_2": "Combat Lunging Strike"
+  },
+  "Maul": {
+    "enhanced": "Enhanced Maul",
+    "morph_1": "Fierce Maul",
+    "morph_2": "Wild Maul"
+  },
+  "Meteor": {
+    "enhanced": "Enhanced Meteor",
+    "morph_1": "Mage's Meteor",
+    "morph_2": "Wizard's Meteor"
+  },
+  "Mighty Throw": {
+    "enhanced": "Enhanced Mighty Throw",
+    "morph_1": "Fighter's Mighty Throw",
+    "morph_2": "Warrior's Mighty Throw"
+  },
+  "Payback": {
+    "enhanced": "Enhanced Payback",
+    "morph_1": "Poised Payback",
+    "morph_2": "Invasive Payback"
+  },
+  "Penetrating Shot": {
+    "enhanced": "Enhanced Penetrating Shot",
+    "morph_1": "Advanced Penetrating Shot",
+    "morph_2": "Improved Penetrating Shot"
+  },
+  "Poison Creeper": {
+    "enhanced": "Enhanced Poison Creeper",
+    "morph_1": "Ferocious Poison Creeper",
+    "morph_2": "Brutal Poison Creeper"
+  },
+  "Poison Imbuement": {
+    "enhanced": "Enhanced Poison Imbuement",
+    "morph_1": "Blended Poison Imbuement",
+    "morph_2": "Mixed Poison Imbuement"
+  },
+  "Poison Trap": {
+    "enhanced": "Enhanced Poison Trap",
+    "morph_1": "Countering Poison Trap",
+    "morph_2": "Subverting Poison Trap"
+  },
+  "Pulverize": {
+    "enhanced": "Enhanced Pulverize",
+    "morph_1": "Raging Pulverize",
+    "morph_2": "Primal Pulverize"
+  },
+  "Puncture": {
+    "enhanced": "Enhanced Puncture",
+    "morph_1": "Fundamental Puncture",
+    "morph_2": "Primary Puncture"
+  },
+  "Purify": {
+    "enhanced": "Enhanced Purify",
+    "morph_1": "Sentence",
+    "morph_2": "Absolution",
+    "morph_3": "Surrender"
+  },
+  "Quill Volley": {
+    "enhanced": "Enhanced Quill Volley",
+    "morph_1": "Rampant Quill Volley",
+    "morph_2": "Advantageous Quill Volley"
+  },
+  "Rabies": {
+    "enhanced": "Enhanced Rabies",
+    "morph_1": "Natural Rabies",
+    "morph_2": "Savage Rabies"
+  },
+  "Rake": {
+    "enhanced": "Enhanced Rake",
+    "morph_1": "Rampant Rake",
+    "morph_2": "Advantageous Rake"
+  },
+  "Rally": {
+    "enhanced": "Enhanced Rally",
+    "morph_1": "Words of Inspiration",
+    "morph_2": "Words of Rejuvenation",
+    "morph_3": "Words of Sacrifice"
+  },
+  "Rallying Cry": {
+    "enhanced": "Enhanced Rallying Cry",
+    "morph_1": "Strategic Rallying Cry",
+    "morph_2": "Tactical Rallying Cry"
+  },
+  "Rapid Fire": {
+    "enhanced": "Enhanced Rapid Fire",
+    "morph_1": "Advanced Rapid Fire",
+    "morph_2": "Improved Rapid Fire"
+  },
+  "Ravager": {
+    "enhanced": "Enhanced Ravager",
+    "morph_1": "Measured Ravager",
+    "morph_2": "Replenishing Ravager"
+  },
+  "Ravens": {
+    "enhanced": "Enhanced Ravens",
+    "morph_1": "Brutal Ravens",
+    "morph_2": "Ferocious Ravens"
+  },
+  "Razor Wings": {
+    "enhanced": "Enhanced Razor Wings",
+    "morph_1": "Poised Razor Wings",
+    "morph_2": "Invasive Razor Wings"
+  },
+  "Reap": {
+    "enhanced": "Enhanced Reap",
+    "morph_1": "Acolyte's Reap",
+    "morph_2": "Initiate's Reap"
+  },
+  "Rend": {
+    "enhanced": "Enhanced Rend",
+    "morph_1": "Furious Rend",
+    "morph_2": "Violent Rend"
+  },
+  "Rock Splitter": {
+    "enhanced": "Enhanced Rock Splitter",
+    "morph_1": "Sharp Rock Splitter",
+    "morph_2": "Accelerated Rock Splitter"
+  },
+  "Rupture": {
+    "enhanced": "Enhanced Rupture",
+    "morph_1": "Fighter's Rupture",
+    "morph_2": "Warrior's Rupture"
+  },
+  "Rushing Claw": {
+    "enhanced": "Enhanced Rushing Claw",
+    "morph_1": "Poised Rushing Claw",
+    "morph_2": "Invasive Rushing Claw"
+  },
+  "Scourge": {
+    "enhanced": "Enhanced Scourge",
+    "morph_1": "Adaptable Scourge",
+    "morph_2": "Reinforced Scourge"
+  },
+  "Sever": {
+    "enhanced": "Enhanced Sever",
+    "morph_1": "Paranormal Sever",
+    "morph_2": "Supernatural Sever"
+  },
+  "Shadow Imbuement": {
+    "enhanced": "Enhanced Shadow Imbuement",
+    "morph_1": "Blended Shadow Imbuement",
+    "morph_2": "Mixed Shadow Imbuement"
+  },
+  "Shadow Step": {
+    "enhanced": "Enhanced Shadow Step",
+    "morph_1": "Disciplined Shadow Step",
+    "morph_2": "Methodical Shadow Step"
+  },
+  "Shield Bash": {
+    "enhanced": "Enhanced Shield Bash",
+    "morph_1": "Breach",
+    "morph_2": "Smite",
+    "morph_3": "Lay Siege"
+  },
+  "Shield Charge": {
+    "enhanced": "Enhanced Shield Charge",
+    "morph_1": "Virtuous Charge",
+    "morph_2": "Relentless Charge",
+    "morph_3": "Phalanx Charge"
+  },
+  "Shred": {
+    "enhanced": "Enhanced Shred",
+    "morph_1": "Raging Shred",
+    "morph_2": "Primal Shred"
+  },
+  "Smoke Grenade": {
+    "enhanced": "Enhanced Smoke Grenade",
+    "morph_1": "Countering Smoke Grenade",
+    "morph_2": "Subverting Smoke Grenade"
+  },
+  "Soar": {
+    "enhanced": "Enhanced Soar",
+    "morph_1": "Measured Soar",
+    "morph_2": "Replenishing Soar"
+  },
+  "Spark": {
+    "enhanced": "Enhanced Spark",
+    "morph_1": "Flickering Spark",
+    "morph_2": "Glinting Spark"
+  },
+  "Spear of the Heavens": {
+    "enhanced": "Enhanced Spear of the Heavens",
+    "morph_1": "Pronouncement of Heaven",
+    "morph_2": "Part the Heavens",
+    "morph_3": "Fist of the Heavens"
+  },
+  "Steel Grasp": {
+    "enhanced": "Enhanced Steel Grasp",
+    "morph_1": "Fighter's Steel Grasp",
+    "morph_2": "Warrior's Steel Grasp"
+  },
+  "Stinger": {
+    "enhanced": "Enhanced Stinger",
+    "morph_1": "Rampant Stinger",
+    "morph_2": "Advantageous Stinger"
+  },
+  "Storm Strike": {
+    "enhanced": "Enhanced Storm Strike",
+    "morph_1": "Wild Storm Strike",
+    "morph_2": "Fierce Storm Strike"
+  },
+  "Teleport": {
+    "enhanced": "Enhanced Teleport",
+    "morph_1": "Mystical Teleport",
+    "morph_2": "Shimmering Teleport"
+  },
+  "Thrash": {
+    "enhanced": "Enhanced Thrash",
+    "morph_1": "Sharp Thrash",
+    "morph_2": "Accelerated Thrash"
+  },
+  "Thunderspike": {
+    "enhanced": "Enhanced Thunderspike",
+    "morph_1": "Sharp Thunderspike",
+    "morph_2": "Accelerated Thunderspike"
+  },
+  "Tornado": {
+    "enhanced": "Enhanced Tornado",
+    "morph_1": "Primal Tornado",
+    "morph_2": "Raging Tornado",
+    "morph_3": "Voracious Tornado"
+  },
+  "Touch of Death": {
+    "enhanced": "Enhanced Touch of Death",
+    "morph_1": "Poised Touch of Death",
+    "morph_2": "Invasive Touch of Death"
+  },
+  "Toxic Skin": {
+    "enhanced": "Enhanced Toxic Skin",
+    "morph_1": "Measured Toxic Skin",
+    "morph_2": "Replenishing Toxic Skin"
+  },
+  "Trample": {
+    "enhanced": "Enhanced Trample",
+    "morph_1": "Natural Trample",
+    "morph_2": "Savage Trample"
+  },
+  "Twisting Blades": {
+    "enhanced": "Enhanced Twisting Blades",
+    "morph_1": "Advanced Twisting Blades",
+    "morph_2": "Improved Twisting Blades"
+  },
+  "Upheaval": {
+    "enhanced": "Enhanced Upheaval",
+    "morph_1": "Furious Upheaval",
+    "morph_2": "Violent Upheaval"
+  },
+  "Vortex": {
+    "enhanced": "Enhanced Vortex",
+    "morph_1": "Measured Vortex",
+    "morph_2": "Replenishing Vortex"
+  },
+  "War Cry": {
+    "enhanced": "Enhanced War Cry",
+    "morph_1": "Mighty War Cry",
+    "morph_2": "Power War Cry"
+  },
+  "Whirlwind": {
+    "enhanced": "Enhanced Whirlwind",
+    "morph_1": "Furious Whirlwind",
+    "morph_2": "Violent Whirlwind"
+  },
+  "Wind Shear": {
+    "enhanced": "Enhanced Wind Shear",
+    "morph_1": "Fierce Wind Shear",
+    "morph_2": "Wild Wind Shear",
+    "morph_3": "Forceful Wind Shear"
+  },
+  "Withering Fist": {
+    "enhanced": "Enhanced Withering Fist",
+    "morph_1": "Sharp Withering Fist",
+    "morph_2": "Accelerated Withering Fist"
+  },
+  "Wolves": {
+    "enhanced": "Enhanced Wolves",
+    "morph_1": "Ferocious Wolves",
+    "morph_2": "Brutal Wolves"
+  },
+  "Zeal": {
+    "enhanced": "Enhanced Zeal",
+    "morph_1": "Cull the Wicked",
+    "morph_2": "Death or Glory",
+    "morph_3": "Zealot's Legacy"
+  },
+  "Zenith": {
+    "enhanced": "Enhanced Zenith",
+    "morph_1": "Sunder",
+    "morph_2": "Sermon of Steel",
+    "morph_3": "Empyrean Edge"
+  },
+  "Ball Lightning": {
+    "enhanced": "Enhanced Ball Lightning",
+    "morph_1": "Mage's Ball Lightning",
+    "morph_2": "Wizard's Ball Lightning"
+  },
+  "Inferno": {
+    "enhanced": "Prime Inferno",
+    "morph_1": "Supreme Inferno",
+    "morph_2": null
+  },
+  "Deep Freeze": {
+    "enhanced": "Prime Deep Freeze",
+    "morph_1": "Supreme Deep Freeze",
+    "morph_2": null
+  },
+  "Unstable Currents": {
+    "enhanced": "Prime Unstable Currents",
+    "morph_1": "Supreme Unstable Currents",
+    "morph_2": null
+  },
+  "Death Trap": {
+    "enhanced": "Prime Death Trap",
+    "morph_1": "Supreme Death Trap",
+    "morph_2": null
+  },
+  "Rain of Arrows": {
+    "enhanced": "Prime Rain of Arrows",
+    "morph_1": "Supreme Rain of Arrows",
+    "morph_2": null
+  },
+  "Shadow Clone": {
+    "enhanced": "Prime Shadow Clone",
+    "morph_1": "Supreme Shadow Clone",
+    "morph_2": null
+  },
+  "Cataclysm": {
+    "enhanced": "Prime Cataclysm",
+    "morph_1": "Supreme Cataclysm",
+    "morph_2": null
+  },
+  "Grizzly Rage": {
+    "enhanced": "Prime Grizzly Rage",
+    "morph_1": "Supreme Grizzly Rage",
+    "morph_2": null
+  },
+  "Lacerate": {
+    "enhanced": "Prime Lacerate",
+    "morph_1": "Supreme Lacerate",
+    "morph_2": null
+  },
+  "Petrify": {
+    "enhanced": "Prime Petrify",
+    "morph_1": "Supreme Petrify",
+    "morph_2": null
+  }
+}
