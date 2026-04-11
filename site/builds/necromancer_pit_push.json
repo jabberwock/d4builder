@@ -1,0 +1,282 @@
+{
+  "id": "necromancer_pit_push",
+  "build_name": "Necromancer \u00b7 Pit Push",
+  "class": "Necromancer",
+  "purpose": "pit",
+  "purpose_label": "Pit Push",
+  "tier": "S",
+  "build_score": 158362.452015,
+  "global_rank": 5,
+  "available": "live",
+  "season": "Season 12 - Season of Slaughter",
+  "patch": "2.6.0.70982",
+  "specialization": "Sacrifice All",
+  "specialization_detail": {
+    "name": "Sacrifice All",
+    "mechanic_type": "book_sacrifice"
+  },
+  "skill_bar": [
+    "Army of the Dead",
+    "Blood Mist",
+    "Bone Spear",
+    "Blood Lance",
+    "Blood Surge",
+    "Golem"
+  ],
+  "skill_bar_rank": 5,
+  "skill_upgrades": [
+    {
+      "name": "Army of the Dead",
+      "enhanced": null,
+      "morph": null
+    },
+    {
+      "name": "Blood Mist",
+      "enhanced": "Enhanced Blood Mist",
+      "morph": "Dreadful Blood Mist"
+    },
+    {
+      "name": "Bone Spear",
+      "enhanced": "Enhanced Bone Spear",
+      "morph": "Paranormal Bone Spear"
+    },
+    {
+      "name": "Blood Lance",
+      "enhanced": "Enhanced Blood Lance",
+      "morph": "Paranormal Blood Lance"
+    },
+    {
+      "name": "Blood Surge",
+      "enhanced": "Enhanced Blood Surge",
+      "morph": "Paranormal Blood Surge"
+    },
+    {
+      "name": "Golem",
+      "enhanced": null,
+      "morph": null
+    }
+  ],
+  "passives": [
+    "Unliving Energy",
+    "Tides of Blood",
+    "Amplify Damage",
+    "Transfusion",
+    "Compound Fracture",
+    "Coalesced Blood",
+    "Imperfectly Balanced",
+    "Death's Embrace",
+    "Hellbent Commander",
+    "Fueled by Death"
+  ],
+  "passive_rank": 3,
+  "key_passive": "Shadowblight",
+  "gear": {
+    "Gloves": {
+      "rarity": "unique",
+      "unique_id": "Gloves_Unique_Necro_101",
+      "_optimizer_name": "Cruor's Embrace"
+    },
+    "Boots": {
+      "rarity": "unique",
+      "unique_id": "Boots_Unique_Generic_001",
+      "_optimizer_name": "Penitent Greaves"
+    },
+    "Weapon": {
+      "rarity": "unique",
+      "unique_id": "1HMace_Unique_Necro_100",
+      "_optimizer_name": "Gravebloom"
+    },
+    "Helm": {
+      "rarity": "unique",
+      "unique_id": "Helm_Unique_Necro_100",
+      "_optimizer_name": "Deathless Visage"
+    },
+    "Legs": {
+      "rarity": "unique",
+      "unique_id": "Pants_Unique_Necro_102",
+      "_optimizer_name": "Indira's Memory"
+    },
+    "Chest": {
+      "rarity": "unique",
+      "unique_id": "Chest_Unique_Necro_100",
+      "_optimizer_name": "Mutilator Plate"
+    },
+    "Ring": {
+      "rarity": "unique",
+      "unique_id": "Ring_Unique_Generic_100",
+      "_optimizer_name": "Mother's Embrace"
+    },
+    "Amulet": {
+      "rarity": "unique",
+      "unique_id": "Amulet_Unique_Necro_100",
+      "_optimizer_name": "Deathspeaker's Pendant"
+    },
+    "Offhand": {
+      "rarity": "unique",
+      "unique_id": "offHandsNecro_stor002",
+      "_optimizer_name": "Antipathy Crux"
+    }
+  },
+  "aspects_recommended": [
+    {
+      "slot": "Helm",
+      "aspect_name": "Accelerating",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Chest",
+      "aspect_name": "of Rathma's Chosen",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Gloves",
+      "aspect_name": "Blood Boiling",
+      "max_value": 16.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "of the Expectant",
+      "max_value": 8.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "Unyielding Commander's",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "Needleflare",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of Apogeic Furor",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of Assistance",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "Vehement Brawler's",
+      "max_value": 21.0
+    }
+  ],
+  "tempers_recommended": {
+    "offensive": "Natural Finesse",
+    "defensive": "Blood Endurance",
+    "weapon": "Blood Augments",
+    "mobility": "Natural Motion"
+  },
+  "gems_recommended": {
+    "weapon": "Royal Emerald",
+    "armor": "Royal Ruby",
+    "jewelry": "Royal Skull"
+  },
+  "paragon_boards": [
+    {
+      "board": "Bone Graft",
+      "glyph": "Sacrificial",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Cult Leader",
+      "glyph": "Corporeal",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Hulking Monstrosity",
+      "glyph": "Blood-drinker",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Scent of Death",
+      "glyph": "Control",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Flesh-eater",
+      "glyph": "Deadraiser",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    }
+  ],
+  "rune_pair_1": {
+    "ritual": "Feo",
+    "invocation": "Lum",
+    "score": 300.0
+  },
+  "rune_pair_2": {
+    "ritual": "Neo",
+    "invocation": "Ton",
+    "score": 36.0
+  },
+  "mercenary": {
+    "primary": "Raheir",
+    "reason": "ShieldBearer \u2014 Shield Charge, Provoke, Bastion. Universal tank support."
+  },
+  "nightmare_dungeons": [
+    {
+      "name": "Underroot",
+      "zone": "Scosglen",
+      "region": "T\\xfar D\\xfalra",
+      "aspect": "of the Expectant",
+      "x": -1411.1,
+      "y": -1064.0
+    },
+    {
+      "name": "Faceless Shrine",
+      "zone": "Hawezar",
+      "region": "Forsaken Coast",
+      "aspect": "Unyielding Commander's",
+      "x": -733.9,
+      "y": 1212.5
+    },
+    {
+      "name": "Yshari Sanctum",
+      "zone": "Kehjistan",
+      "region": "Caldeum",
+      "aspect": "Needleflare",
+      "x": 92.6,
+      "y": -508.7
+    }
+  ],
+  "score_breakdown": {
+    "Army of the Dead": 9.1438,
+    "Blood Mist": 5.4708,
+    "Bone Spear": 51539.67,
+    "Blood Lance": 14227.0128,
+    "Blood Surge": 2925.6265,
+    "Golem": 673.3731
+  },
+  "sources": {
+    "build_score": "optimizer_results.db row id=9 \u00b7 Necromancer \u00b7 Pit Push \u00b7 score 158362.45",
+    "tier": "optimizer_results.db row id=9 \u00b7 global rank 5 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=9 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=9 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=9 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=9 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=9 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=9 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=9 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=9 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=9 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=9 \u00b7 nightmare_dungeons"
+  }
+}

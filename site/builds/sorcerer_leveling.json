@@ -1,0 +1,290 @@
+{
+  "id": "sorcerer_leveling",
+  "build_name": "Sorcerer \u00b7 Leveling",
+  "class": "Sorcerer",
+  "purpose": "leveling",
+  "purpose_label": "Leveling",
+  "tier": "A",
+  "build_score": 38805.51836,
+  "global_rank": 23,
+  "available": "live",
+  "season": "Season 12 - Season of Slaughter",
+  "patch": "2.6.0.70982",
+  "specialization": "Enchantment Slots",
+  "specialization_detail": {
+    "name": "Enchantment Slots",
+    "mechanic_type": "enchantment_slots"
+  },
+  "skill_bar": [
+    "Flame Shield",
+    "Firewall",
+    "Frozen Orb",
+    "Ice Shards",
+    "Lightning Spear",
+    "Frost Bolt"
+  ],
+  "skill_bar_rank": 5,
+  "skill_upgrades": [
+    {
+      "name": "Flame Shield",
+      "enhanced": "Enhanced Flame Shield",
+      "morph": "Mystical Flame Shield"
+    },
+    {
+      "name": "Firewall",
+      "enhanced": "Enhanced Firewall",
+      "morph": "Mage's Firewall"
+    },
+    {
+      "name": "Frozen Orb",
+      "enhanced": "Enhanced Frozen Orb",
+      "morph": "Destructive Frozen Orb"
+    },
+    {
+      "name": "Ice Shards",
+      "enhanced": "Enhanced Ice Shards",
+      "morph": "Destructive Ice Shards"
+    },
+    {
+      "name": "Lightning Spear",
+      "enhanced": "Enhanced Lightning Spear",
+      "morph": "Invoked Lightning Spear"
+    },
+    {
+      "name": "Frost Bolt",
+      "enhanced": "Enhanced Frost Bolt",
+      "morph": "Flickering Frost Bolt"
+    }
+  ],
+  "passives": [
+    "Icy Veil",
+    "Align the Elements",
+    "Endless Pyre",
+    "Elemental Synergies",
+    "Hoarfrost",
+    "Icy Touch",
+    "Crackling Energy",
+    "Ice Spike",
+    "Frigid Breeze",
+    "Glass Cannon"
+  ],
+  "passive_rank": 3,
+  "key_passive": "Combustion",
+  "gear": {
+    "Gloves": {
+      "rarity": "unique",
+      "unique_id": "Gloves_Unique_Sorc_101",
+      "_optimizer_name": "Flameweaver"
+    },
+    "Boots": {
+      "rarity": "unique",
+      "unique_id": "Boots_Unique_Generic_001",
+      "_optimizer_name": "Penitent Greaves"
+    },
+    "Weapon": {
+      "rarity": "unique",
+      "unique_id": "1HSword_Unique_Generic_100",
+      "_optimizer_name": "Azurewrath"
+    },
+    "Chest": {
+      "rarity": "unique",
+      "unique_id": "Chest_Unique_Sorc_002",
+      "_optimizer_name": "Raiment of the Infinite"
+    },
+    "Helm": {
+      "rarity": "unique",
+      "unique_id": "Helm_Unique_Sorc_101",
+      "_optimizer_name": "Hail of Verglas"
+    },
+    "Legs": {
+      "rarity": "unique",
+      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Pants"
+    },
+    "Ring": {
+      "rarity": "unique",
+      "unique_id": "Ring_Unique_Sorc_100",
+      "_optimizer_name": "Blue Rose"
+    },
+    "Amulet": {
+      "rarity": "unique",
+      "unique_id": "Amulet_Unique_Sorc_101",
+      "_optimizer_name": "Fractured Winterglass"
+    },
+    "Offhand": {
+      "rarity": "unique",
+      "unique_id": "offHandsNecro_stor002",
+      "_optimizer_name": "Antipathy Crux"
+    }
+  },
+  "aspects_recommended": [
+    {
+      "slot": "Helm",
+      "aspect_name": "of Efficiency",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Chest",
+      "aspect_name": "of the Expectant",
+      "max_value": 8.0
+    },
+    {
+      "slot": "Gloves",
+      "aspect_name": "Accelerating",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "Elementalist's",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "Blood Boiling",
+      "max_value": 16.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "Rapid",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of Adaptability",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of the Moonrise",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "of Binding Embers",
+      "max_value": 21.0
+    }
+  ],
+  "tempers_recommended": {
+    "offensive": "Natural Finesse",
+    "defensive": "Pyromancy Endurance",
+    "weapon": "Frost Augments",
+    "mobility": "Natural Motion"
+  },
+  "gems_recommended": {
+    "weapon": "Royal Emerald",
+    "armor": "Royal Ruby",
+    "jewelry": "Royal Skull"
+  },
+  "paragon_boards": [
+    {
+      "board": "Icefall",
+      "glyph": "Adept",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Searing Heat",
+      "glyph": "Conjurer",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Frigid Fate",
+      "glyph": "Invocation",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Fundamental Release",
+      "glyph": "Torch",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Burning Instinct",
+      "glyph": "Cryopathy",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    }
+  ],
+  "rune_pair_1": {
+    "ritual": "Feo",
+    "invocation": "Lum",
+    "score": 300.0
+  },
+  "rune_pair_2": {
+    "ritual": "Neo",
+    "invocation": "Ton",
+    "score": 36.0
+  },
+  "mercenary": {
+    "primary": "Aldkin",
+    "reason": "CursedChild \u2014 Haunt, Field of Languish, Terrify. Best for Vulnerable builds."
+  },
+  "nightmare_dungeons": [
+    {
+      "name": "Domhainne Tunnels",
+      "zone": "Scosglen",
+      "region": "Strand",
+      "aspect": "of Efficiency",
+      "x": -1910.0,
+      "y": -593.9
+    },
+    {
+      "name": "Underroot",
+      "zone": "Scosglen",
+      "region": "T\\xfar D\\xfalra",
+      "aspect": "of the Expectant",
+      "x": -1411.1,
+      "y": -1064.0
+    },
+    {
+      "name": "Pallid Delve",
+      "zone": "Dry Steppes",
+      "region": "Qara Yisu",
+      "aspect": "Elementalist's",
+      "x": -742.9,
+      "y": -96.6
+    },
+    {
+      "name": "Buried Halls",
+      "zone": "Dry Steppes",
+      "region": "Jakha Basin",
+      "aspect": "Rapid",
+      "x": -816.0,
+      "y": -338.0
+    }
+  ],
+  "score_breakdown": {
+    "Flame Shield": 8.2816,
+    "Firewall": 4224.528,
+    "Frozen Orb": 2504.5978,
+    "Ice Shards": 981.0552,
+    "Lightning Spear": 909.216,
+    "Frost Bolt": 592.825
+  },
+  "sources": {
+    "build_score": "optimizer_results.db row id=23 \u00b7 Sorcerer \u00b7 Leveling \u00b7 score 38805.52",
+    "tier": "optimizer_results.db row id=23 \u00b7 global rank 23 \u2192 tier A",
+    "skill_bar": "optimizer_results.db row id=23 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=23 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=23 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=23 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=23 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=23 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=23 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=23 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=23 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=23 \u00b7 nightmare_dungeons"
+  }
+}

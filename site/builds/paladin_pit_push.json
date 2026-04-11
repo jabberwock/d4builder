@@ -1,0 +1,257 @@
+{
+  "id": "paladin_pit_push",
+  "build_name": "Paladin \u00b7 Pit Push",
+  "class": "Paladin",
+  "purpose": "pit",
+  "purpose_label": "Pit Push",
+  "tier": "B",
+  "build_score": 193293.156078,
+  "global_rank": 4,
+  "available": "live",
+  "season": "Season 12 - Season of Slaughter",
+  "patch": "2.6.0.70982",
+  "specialization": "Juggernaut",
+  "specialization_detail": {
+    "name": "Juggernaut",
+    "mechanic_type": "oaths_juggernaut"
+  },
+  "skill_bar": [
+    "Fortress",
+    "Shield Bash",
+    "Blessed Shield",
+    "Fanaticism Aura",
+    "Divine Lance",
+    "Brandish"
+  ],
+  "skill_bar_rank": 5,
+  "skill_upgrades": [
+    {
+      "name": "Fortress",
+      "enhanced": "Enhanced Fortress",
+      "morph": "Rampart of Thorns"
+    },
+    {
+      "name": "Shield Bash",
+      "enhanced": "Enhanced Shield Bash",
+      "morph": "Breach"
+    },
+    {
+      "name": "Blessed Shield",
+      "enhanced": "Enhanced Blessed Shield",
+      "morph": "Shield of Justice"
+    },
+    {
+      "name": "Fanaticism Aura",
+      "enhanced": null,
+      "morph": null
+    },
+    {
+      "name": "Divine Lance",
+      "enhanced": "Enhanced Divine Lance",
+      "morph": "Tip of the Spear"
+    },
+    {
+      "name": "Brandish",
+      "enhanced": "Enhanced Brandish",
+      "morph": "Cross Strike"
+    }
+  ],
+  "passives": [
+    "Shining Armor",
+    "Resolute",
+    "Conviction",
+    "Break the Line",
+    "Righteousness",
+    "Discipline",
+    "[WIP] Concentration",
+    "The Best Offense",
+    "Iron Sharpens Iron",
+    "Fortitude"
+  ],
+  "passive_rank": 3,
+  "key_passive": "Judgement Day",
+  "gear": {
+    "Gloves": {
+      "rarity": "unique",
+      "unique_id": "Gloves_Unique_Generic_002",
+      "_optimizer_name": "Fists of Fate"
+    },
+    "Boots": {
+      "rarity": "unique",
+      "unique_id": "Boots_Unique_Generic_001",
+      "_optimizer_name": "Penitent Greaves"
+    },
+    "Weapon": {
+      "rarity": "unique",
+      "unique_id": "1HSword_Unique_Paladin_001",
+      "_optimizer_name": "Supplication"
+    },
+    "Helm": {
+      "rarity": "unique",
+      "unique_id": "Helm_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Helm"
+    },
+    "Legs": {
+      "rarity": "unique",
+      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Pants"
+    },
+    "Chest": {
+      "rarity": "unique",
+      "unique_id": "Chest_Unique_Generic_100",
+      "_optimizer_name": "Razorplate"
+    },
+    "Ring": {
+      "rarity": "unique",
+      "unique_id": "Ring_Unique_Generic_100",
+      "_optimizer_name": "Mother's Embrace"
+    },
+    "Amulet": {
+      "rarity": "unique",
+      "unique_id": "Elias_Finger_test_item",
+      "_optimizer_name": "Elias mummified finger"
+    },
+    "Offhand": {
+      "rarity": "unique",
+      "unique_id": "1HShield_Unique_Paladin_002",
+      "_optimizer_name": "Bastion of Sir Matthias"
+    }
+  },
+  "aspects_recommended": [
+    {
+      "slot": "Helm",
+      "aspect_name": "Vanguard's",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Chest",
+      "aspect_name": "of Lagera's Sovereignty",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Gloves",
+      "aspect_name": "of the Juggernaut's Covenant",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "of the Zealot's Covenant",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "of Righteous Rage",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "of Pilgrim's Progress",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of the Disciple",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of Chastisement",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "of Salvation",
+      "max_value": 21.0
+    }
+  ],
+  "tempers_recommended": {
+    "offensive": "Natural Finesse",
+    "defensive": "Worldly Endurance",
+    "weapon": "Disciple Augments",
+    "mobility": "Natural Motion"
+  },
+  "gems_recommended": {
+    "weapon": "Royal Emerald",
+    "armor": "Royal Ruby",
+    "jewelry": "Royal Skull"
+  },
+  "paragon_boards": [
+    {
+      "board": "Preacher",
+      "glyph": "Sentinel",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Fervent",
+      "glyph": "Honed",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Castle",
+      "glyph": "Law",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Shield Bearer",
+      "glyph": "Arbiter ",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Relentless",
+      "glyph": "Resplendence",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    }
+  ],
+  "rune_pair_1": {
+    "ritual": "Feo",
+    "invocation": "Lum",
+    "score": 300.0
+  },
+  "rune_pair_2": {
+    "ritual": "Neo",
+    "invocation": "Ton",
+    "score": 36.0
+  },
+  "mercenary": {
+    "primary": "Raheir",
+    "reason": "ShieldBearer \u2014 Shield Charge, Provoke, Bastion. Universal tank support."
+  },
+  "nightmare_dungeons": [],
+  "score_breakdown": {
+    "Fortress": 3602.8125,
+    "Shield Bash": 18418.1332,
+    "Blessed Shield": 7309.637,
+    "Fanaticism Aura": 7180.25,
+    "Divine Lance": 5318.3844,
+    "Brandish": 3677.3352
+  },
+  "sources": {
+    "build_score": "optimizer_results.db row id=13 \u00b7 Paladin \u00b7 Pit Push \u00b7 score 193293.16",
+    "tier": "optimizer_results.db row id=13 \u00b7 global rank 4 \u2192 tier B",
+    "skill_bar": "optimizer_results.db row id=13 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=13 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=13 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=13 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=13 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=13 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=13 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=13 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=13 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=13 \u00b7 nightmare_dungeons"
+  }
+}

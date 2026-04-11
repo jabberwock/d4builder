@@ -1,0 +1,261 @@
+{
+  "id": "spiritborn_leveling",
+  "build_name": "Spiritborn \u00b7 Leveling",
+  "class": "Spiritborn",
+  "purpose": "leveling",
+  "purpose_label": "Leveling",
+  "tier": "A",
+  "build_score": 12394.671905,
+  "global_rank": 26,
+  "available": "live",
+  "season": "Season 12 - Season of Slaughter",
+  "patch": "2.6.0.70982",
+  "specialization": "Eagle (Primary)",
+  "specialization_detail": {
+    "name": "Eagle (Primary)",
+    "mechanic_type": "guardian_eagle"
+  },
+  "skill_bar": [
+    "Rock Splitter",
+    "Armored Hide",
+    "The Protector",
+    "Vortex",
+    "Thunderspike",
+    "Thrash"
+  ],
+  "skill_bar_rank": 5,
+  "skill_upgrades": [
+    {
+      "name": "Rock Splitter",
+      "enhanced": "Enhanced Rock Splitter",
+      "morph": "Sharp Rock Splitter"
+    },
+    {
+      "name": "Armored Hide",
+      "enhanced": "Enhanced Armored Hide",
+      "morph": "Adaptable Armored Hide"
+    },
+    {
+      "name": "The Protector",
+      "enhanced": null,
+      "morph": null
+    },
+    {
+      "name": "Vortex",
+      "enhanced": "Enhanced Vortex",
+      "morph": "Measured Vortex"
+    },
+    {
+      "name": "Thunderspike",
+      "enhanced": "Enhanced Thunderspike",
+      "morph": "Sharp Thunderspike"
+    },
+    {
+      "name": "Thrash",
+      "enhanced": "Enhanced Thrash",
+      "morph": "Sharp Thrash"
+    }
+  ],
+  "passives": [
+    "Antivenom",
+    "Endurance",
+    "Patient Guard",
+    "Vigorous",
+    "Mirage",
+    "Spiritual Attunement",
+    "Brilliance",
+    "Resolution",
+    "Unrestrained Power",
+    "Vehemence"
+  ],
+  "passive_rank": 3,
+  "key_passive": "Vital Strikes",
+  "gear": {
+    "Gloves": {
+      "rarity": "unique",
+      "unique_id": "Gloves_Unique_Spiritborn_100",
+      "_optimizer_name": "Hesha e Kesungi"
+    },
+    "Boots": {
+      "rarity": "unique",
+      "unique_id": "Boots_Unique_Generic_001",
+      "_optimizer_name": "Penitent Greaves"
+    },
+    "Helm": {
+      "rarity": "unique",
+      "unique_id": "Helm_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Helm"
+    },
+    "Legs": {
+      "rarity": "unique",
+      "unique_id": "Pants_Unique_Generic_Boost_NoPowers",
+      "_optimizer_name": "Boost Pants"
+    },
+    "Chest": {
+      "rarity": "unique",
+      "unique_id": "Chest_Unique_Generic_100",
+      "_optimizer_name": "Razorplate"
+    },
+    "Ring": {
+      "rarity": "unique",
+      "unique_id": "Ring_Unique_Generic_100",
+      "_optimizer_name": "Mother's Embrace"
+    },
+    "Amulet": {
+      "rarity": "unique",
+      "unique_id": "PACTTEST_Amulet_Unique",
+      "_optimizer_name": "Pact Amulet"
+    },
+    "Weapon": {
+      "rarity": "unique",
+      "unique_id": "X1_2HGlaive_Unique_Spiritborn_03",
+      "_optimizer_name": "Snake Glaive"
+    }
+  },
+  "aspects_recommended": [
+    {
+      "slot": "Helm",
+      "aspect_name": "Ruthless",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Chest",
+      "aspect_name": "of Unyielding Hits",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Gloves",
+      "aspect_name": "of Infestation",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "Reaper's",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "of Plains Power",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "of Forest Power",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "of Endless Talons",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "of Soil Power",
+      "max_value": 8.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "of Sky Power",
+      "max_value": 8.0
+    }
+  ],
+  "tempers_recommended": {
+    "offensive": "Natural Finesse",
+    "defensive": "Spiritborn Guard",
+    "weapon": "Elemental Surge \u2014 Day",
+    "mobility": "Natural Motion"
+  },
+  "gems_recommended": {
+    "weapon": "Royal Emerald",
+    "armor": "Royal Ruby",
+    "jewelry": "Royal Skull"
+  },
+  "paragon_boards": [
+    {
+      "board": "Viscous Shield",
+      "glyph": "Fitness",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "In-Fighter",
+      "glyph": "Menagerist",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Spiney Skin",
+      "glyph": "Jagged Plume",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Bitter Medicine",
+      "glyph": "Hone",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
+      "board": "Revealing",
+      "glyph": "Talon",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    }
+  ],
+  "rune_pair_1": {
+    "ritual": "Feo",
+    "invocation": "Lum",
+    "score": 300.0
+  },
+  "rune_pair_2": {
+    "ritual": "Neo",
+    "invocation": "Ton",
+    "score": 36.0
+  },
+  "mercenary": {
+    "primary": "Raheir",
+    "reason": "ShieldBearer \u2014 Shield Charge, Provoke, Bastion. Universal tank support."
+  },
+  "nightmare_dungeons": [
+    {
+      "name": "Murmuring Spiral",
+      "zone": "Nahantu",
+      "region": "Seven Stones",
+      "aspect": "Reaper's",
+      "x": 1191.0,
+      "y": -165.8
+    }
+  ],
+  "score_breakdown": {
+    "Rock Splitter": 1369.368,
+    "Armored Hide": 79.0188,
+    "The Protector": 35.5849,
+    "Vortex": 2024.484,
+    "Thunderspike": 1281.3973,
+    "Thrash": 1057.056
+  },
+  "sources": {
+    "build_score": "optimizer_results.db row id=27 \u00b7 Spiritborn \u00b7 Leveling \u00b7 score 12394.67",
+    "tier": "optimizer_results.db row id=27 \u00b7 global rank 26 \u2192 tier A",
+    "skill_bar": "optimizer_results.db row id=27 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=27 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=27 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=27 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=27 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=27 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=27 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=27 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=27 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=27 \u00b7 nightmare_dungeons"
+  }
+}

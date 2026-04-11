@@ -28,6 +28,7 @@ import re
 import sqlite3
 import struct
 import time
+from collections import defaultdict, deque
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -1500,10 +1501,178 @@ def get_specs_for_class(cls: str, all_specs: list[dict]) -> list[tuple[str, str]
     return [("Default", "")]
 
 
+# ─── Skill tree prerequisite graph ─────────────────────────────────────────
+
+_SKILL_TREE_GRAPH: dict[str, dict] = {}  # class -> {name_to_indices, adj, gateways, idx_info}
+
+# Map optimizer class names to maxroll skillTree keys
+_TREE_KEY_MAP = {
+    "Barbarian": "Barbarian", "Druid": "Druid", "Necromancer": "Necromancer",
+    "Paladin": "Paladin_NEW", "Rogue": "Rogue", "Sorcerer": "Sorcerer",
+    "Spiritborn": "Spiritborn",
+}
+
+
+def _load_skill_tree_graph():
+    """Build passive prerequisite graphs from maxroll skillTrees data."""
+    global _SKILL_TREE_GRAPH
+    if _SKILL_TREE_GRAPH:
+        return
+    if not MAXROLL_PATH.exists():
+        return
+    with open(MAXROLL_PATH) as f:
+        mdata = json.load(f)
+    skill_trees = mdata.get("skillTrees", {})
+    skills_mx = mdata.get("skills", {})
+    if isinstance(skills_mx, list):
+        skills_mx = {str(i): s for i, s in enumerate(skills_mx)}
+
+    # power_id -> display name
+    power_to_name = {}
+    for sid, skill in skills_mx.items():
+        name = skill.get("name", "")
+        if name:
+            power_to_name[sid] = name
+
+    for cls_name, tree_key in _TREE_KEY_MAP.items():
+        tree = skill_trees.get(tree_key)
+        if not tree:
+            continue
+        nodes = tree["nodes"]
+        connections = tree["connections"]
+
+        # Build index -> info (connections use array indices, not node.id)
+        idx_info = {}
+        name_to_indices: dict[str, list[int]] = defaultdict(list)
+        for i, n in enumerate(nodes):
+            power = n.get("reward", {}).get("power", "")
+            name = power_to_name.get(power, power)
+            ntype = n.get("reward", {}).get("type", -1)
+            is_gateway = "reward" not in n or not power
+            idx_info[i] = {"power": power, "name": name, "type": ntype, "gateway": is_gateway}
+            if ntype == 2:  # passive
+                name_to_indices[name].append(i)
+
+        # Undirected adjacency
+        adj: dict[int, set[int]] = defaultdict(set)
+        for c in connections:
+            adj[c["node1"]].add(c["node2"])
+            adj[c["node2"]].add(c["node1"])
+
+        gateways = {i for i in range(len(nodes)) if idx_info[i]["gateway"]}
+        # Non-passive nodes (skills, upgrades) are always traversable
+        free_nodes = {i for i in range(len(nodes))
+                      if idx_info[i]["type"] in (0, 1) or idx_info[i]["gateway"]}
+
+        _SKILL_TREE_GRAPH[cls_name] = {
+            "idx_info": idx_info,
+            "name_to_indices": dict(name_to_indices),
+            "adj": dict(adj),
+            "gateways": gateways,
+            "free_nodes": free_nodes,
+            "nodes": nodes,
+        }
+
+
+def _find_prereq_passives(cls: str, selected_names: list[str]) -> list[str]:
+    """Given selected passives, return prerequisite passives needed to unlock them.
+
+    Returns display names of prereq passives not already in selected_names,
+    choosing the cheapest (fewest hops) prereq at each step.
+    """
+    graph = _SKILL_TREE_GRAPH.get(cls)
+    if not graph:
+        return []
+
+    idx_info = graph["idx_info"]
+    name_to_indices = graph["name_to_indices"]
+    adj = graph["adj"]
+    gateways = graph["gateways"]
+    free_nodes = graph["free_nodes"]
+
+    selected_set = set(selected_names)
+    # Indices of allocated passives
+    allocated = set(free_nodes)  # gateways + skills/upgrades always traversable
+    for name in selected_set:
+        for idx in name_to_indices.get(name, []):
+            allocated.add(idx)
+
+    prereqs_needed: list[str] = []
+
+    # Iterate until all selected passives are reachable
+    changed = True
+    while changed:
+        changed = False
+        for name in list(selected_set):
+            indices = name_to_indices.get(name, [])
+            if not indices:
+                continue
+
+            for pidx in indices:
+                # BFS from gateways through allocated nodes to see if pidx is reachable
+                reachable = set()
+                queue = deque()
+                for g in gateways:
+                    queue.append(g)
+                    reachable.add(g)
+                while queue:
+                    cur = queue.popleft()
+                    for neighbor in adj.get(cur, set()):
+                        if neighbor not in reachable and (neighbor in allocated or neighbor == pidx):
+                            reachable.add(neighbor)
+                            queue.append(neighbor)
+
+                if pidx in reachable:
+                    continue  # already reachable
+
+                # Not reachable — find shortest path and add the first missing passive
+                # BFS from pidx outward to find nearest allocated passive or gateway
+                visited = {pidx}
+                parent: dict[int, int] = {pidx: -1}
+                bfs = deque([pidx])
+                found_root = -1
+                while bfs:
+                    cur = bfs.popleft()
+                    if cur in allocated and cur != pidx:
+                        found_root = cur
+                        break
+                    for neighbor in adj.get(cur, set()):
+                        if neighbor not in visited:
+                            visited.add(neighbor)
+                            parent[neighbor] = cur
+                            bfs.append(neighbor)
+
+                if found_root == -1:
+                    continue
+
+                # Trace path from found_root back to pidx, add missing passives
+                path = []
+                cur = found_root
+                while cur != -1:
+                    path.append(cur)
+                    cur = parent.get(cur, -1)
+
+                for node_idx in path:
+                    info = idx_info[node_idx]
+                    if (info["type"] == 2 and not info["gateway"]
+                            and info["name"] not in selected_set
+                            and info["name"] not in prereqs_needed):
+                        prereqs_needed.append(info["name"])
+                        selected_set.add(info["name"])
+                        allocated.add(node_idx)
+                        changed = True
+
+    return prereqs_needed
+
+
 # ─── Recommendation helpers (from v1) ────────────────────────────────────────
 
 def select_passives(cls, skill_bar_pnames, all_skills):
-    """Pick key passive + regular passives by tag overlap."""
+    """Pick key passive + regular passives by tag overlap.
+
+    After scoring, verifies passives are reachable in the skill tree and
+    inserts 1-pt prerequisite passives where needed.
+    """
     active_tags: set[str] = set()
     for pname in skill_bar_pnames:
         skill = all_skills.get(pname)
@@ -1595,6 +1764,40 @@ def select_passives(cls, skill_bar_pnames, all_skills):
     regular.sort(key=lambda x: (-x[0], x[1].display_name))
     key_name = key_best[1].display_name if key_best else None
     top_reg = [p.display_name for _, p in regular[:10]]
+
+    # Ensure selected passives are reachable in the skill tree.
+    # Add prerequisite passives, displacing lowest-scored picks to stay at 10.
+    _load_skill_tree_graph()
+
+    # Build the complete valid passive set iteratively.
+    # Strategy: start with scored picks, find prereqs, drop lowest-scored to
+    # make room, repeat until the set is self-consistent.
+    all_scored = [(s, p.display_name) for s, p in regular]  # (score, name), desc order
+
+    for _round in range(10):  # converges in 2-3 rounds
+        prereqs = _find_prereq_passives(cls, top_reg)
+        if not prereqs:
+            break
+        # Merge prereqs into the set, dropping lowest-scored non-prereq passives
+        required = set(prereqs)
+        for name in top_reg:
+            required.add(name)
+        # Score lookup
+        score_of = {name: sc for sc, name in all_scored}
+        # Prereqs get a minimum score so they aren't dropped
+        for p in prereqs:
+            if p not in score_of:
+                score_of[p] = -1.0  # low but present
+        # Sort all required: prereqs first (must keep), then by score desc
+        prereq_set = set(prereqs)
+        must_keep = [p for p in required if p in prereq_set]
+        optional = sorted(
+            [p for p in required if p not in prereq_set],
+            key=lambda n: -score_of.get(n, 0),
+        )
+        top_reg = must_keep + optional
+        top_reg = top_reg[:10]
+
     return key_name, top_reg
 
 
