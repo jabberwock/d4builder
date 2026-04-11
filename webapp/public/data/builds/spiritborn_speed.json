@@ -1,12 +1,12 @@
 {
-  "id": "spiritborn_leveling",
-  "build_name": "Spiritborn \u00b7 Leveling",
+  "id": "spiritborn_speed",
+  "build_name": "Spiritborn \u00b7 Speed Farm",
   "class": "Spiritborn",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
-  "tier": "A",
-  "build_score": 12394.671905,
-  "global_rank": 26,
+  "purpose": "speed",
+  "purpose_label": "Speed Farm",
+  "tier": "S",
+  "build_score": 14545.298293,
+  "global_rank": 25,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -18,10 +18,10 @@
   "skill_bar": [
     "Rock Splitter",
     "Armored Hide",
-    "The Protector",
     "Vortex",
     "Thunderspike",
-    "Thrash"
+    "Thrash",
+    "Rushing Claw"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
@@ -34,11 +34,6 @@
       "name": "Armored Hide",
       "enhanced": "Enhanced Armored Hide",
       "morph": "Adaptable Armored Hide"
-    },
-    {
-      "name": "The Protector",
-      "enhanced": null,
-      "morph": null
     },
     {
       "name": "Vortex",
@@ -54,27 +49,32 @@
       "name": "Thrash",
       "enhanced": "Enhanced Thrash",
       "morph": "Sharp Thrash"
+    },
+    {
+      "name": "Rushing Claw",
+      "enhanced": "Enhanced Rushing Claw",
+      "morph": "Poised Rushing Claw"
     }
   ],
   "passives": [
+    "Mirage",
+    "Unrestrained Power",
+    "Vehemence",
+    "Perseverance",
+    "Resolution",
+    "Focal Point",
     "Antivenom",
     "Endurance",
-    "Patient Guard",
     "Vigorous",
-    "Mirage",
-    "Spiritual Attunement",
-    "Brilliance",
-    "Resolution",
-    "Unrestrained Power",
-    "Vehemence"
+    "Spiritual Attunement"
   ],
   "passive_rank": 3,
   "key_passive": "Vital Strikes",
   "gear": {
     "Gloves": {
       "rarity": "unique",
-      "unique_id": "Gloves_Unique_Spiritborn_100",
-      "_optimizer_name": "Hesha e Kesungi"
+      "unique_id": "Gloves_Unique_Generic_002",
+      "_optimizer_name": "Fists of Fate"
     },
     "Boots": {
       "rarity": "unique",
@@ -163,7 +163,7 @@
     "offensive": "Natural Finesse",
     "defensive": "Spiritborn Guard",
     "weapon": "Elemental Surge \u2014 Day",
-    "mobility": "Natural Motion"
+    "mobility": "Spiritborn Motion"
   },
   "gems_recommended": {
     "weapon": "Royal Emerald",
@@ -172,7 +172,7 @@
   },
   "paragon_boards": [
     {
-      "board": "Viscous Shield",
+      "board": "In-Fighter",
       "glyph": "Fitness",
       "activated_nodes": [],
       "points_spent": 0,
@@ -180,7 +180,7 @@
       "board_id": ""
     },
     {
-      "board": "In-Fighter",
+      "board": "Spiney Skin",
       "glyph": "Menagerist",
       "activated_nodes": [],
       "points_spent": 0,
@@ -188,7 +188,7 @@
       "board_id": ""
     },
     {
-      "board": "Spiney Skin",
+      "board": "Viscous Shield",
       "glyph": "Jagged Plume",
       "activated_nodes": [],
       "points_spent": 0,
@@ -239,23 +239,23 @@
   "score_breakdown": {
     "Rock Splitter": 1369.368,
     "Armored Hide": 79.0188,
-    "The Protector": 35.5849,
     "Vortex": 2024.484,
     "Thunderspike": 1281.3973,
-    "Thrash": 1057.056
+    "Thrash": 1057.056,
+    "Rushing Claw": 153.09
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=27 \u00b7 Spiritborn \u00b7 Leveling \u00b7 score 12394.67",
-    "tier": "optimizer_results.db row id=27 \u00b7 global rank 26 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=27 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=27 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=27 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=27 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=27 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=27 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=27 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=27 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=27 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=27 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=26 \u00b7 Spiritborn \u00b7 Speed Farm \u00b7 score 14545.30",
+    "tier": "optimizer_results.db row id=26 \u00b7 global rank 25 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=26 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=26 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=26 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=26 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=26 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=26 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=26 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=26 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=26 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=26 \u00b7 nightmare_dungeons"
   }
 }

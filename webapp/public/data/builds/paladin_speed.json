@@ -1,44 +1,44 @@
 {
-  "id": "paladin_leveling",
-  "build_name": "Paladin \u00b7 Leveling",
+  "id": "paladin_speed",
+  "build_name": "Paladin \u00b7 Speed Farm",
   "class": "Paladin",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
-  "tier": "A",
-  "build_score": 224733.818827,
-  "global_rank": 2,
+  "purpose": "speed",
+  "purpose_label": "Speed Farm",
+  "tier": "S",
+  "build_score": 298053.08319,
+  "global_rank": 1,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
-  "specialization": "Juggernaut",
+  "specialization": "Zealot",
   "specialization_detail": {
-    "name": "Juggernaut",
-    "mechanic_type": "oaths_juggernaut"
+    "name": "Zealot",
+    "mechanic_type": "oaths_zealot"
   },
   "skill_bar": [
-    "Fortress",
+    "Clash",
+    "Zenith",
     "Shield Bash",
-    "Blessed Shield",
     "Fanaticism Aura",
     "Divine Lance",
-    "Brandish"
+    "Defiance Aura"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
     {
-      "name": "Fortress",
-      "enhanced": "Enhanced Fortress",
-      "morph": "Rampart of Thorns"
+      "name": "Clash",
+      "enhanced": "Enhanced Clash",
+      "morph": "Punishment"
+    },
+    {
+      "name": "Zenith",
+      "enhanced": "Enhanced Zenith",
+      "morph": "Sunder"
     },
     {
       "name": "Shield Bash",
       "enhanced": "Enhanced Shield Bash",
       "morph": "Breach"
-    },
-    {
-      "name": "Blessed Shield",
-      "enhanced": "Enhanced Blessed Shield",
-      "morph": "Shield of Justice"
     },
     {
       "name": "Fanaticism Aura",
@@ -51,22 +51,22 @@
       "morph": "Tip of the Spear"
     },
     {
-      "name": "Brandish",
-      "enhanced": "Enhanced Brandish",
-      "morph": "Cross Strike"
+      "name": "Defiance Aura",
+      "enhanced": null,
+      "morph": null
     }
   ],
   "passives": [
-    "Shining Armor",
+    "Iron Sharpens Iron",
+    "Pacify",
+    "Master Craftwork",
     "Resolute",
     "Conviction",
     "Break the Line",
     "Righteousness",
     "Discipline",
-    "[WIP] Concentration",
-    "The Best Offense",
-    "Iron Sharpens Iron",
-    "Fortitude"
+    "Dizzying Blow",
+    "[WIP] Concentration"
   ],
   "passive_rank": 3,
   "key_passive": "Judgement Day",
@@ -83,8 +83,8 @@
     },
     "Weapon": {
       "rarity": "unique",
-      "unique_id": "1HSword_Unique_Paladin_001",
-      "_optimizer_name": "Supplication"
+      "unique_id": "1HFlail_Unique_Paladin_003",
+      "_optimizer_name": "Light's Rebuke"
     },
     "Helm": {
       "rarity": "unique",
@@ -185,7 +185,7 @@
       "board_id": ""
     },
     {
-      "board": "Fervent",
+      "board": "Castle",
       "glyph": "Honed",
       "activated_nodes": [],
       "points_spent": 0,
@@ -193,7 +193,7 @@
       "board_id": ""
     },
     {
-      "board": "Castle",
+      "board": "Fervent",
       "glyph": "Law",
       "activated_nodes": [],
       "points_spent": 0,
@@ -233,25 +233,25 @@
   },
   "nightmare_dungeons": [],
   "score_breakdown": {
-    "Fortress": 3602.8125,
-    "Shield Bash": 18418.1332,
-    "Blessed Shield": 7309.637,
-    "Fanaticism Aura": 7180.25,
+    "Clash": 4854.15,
+    "Zenith": 21276.675,
+    "Shield Bash": 14734.5065,
+    "Fanaticism Aura": 8975.3125,
     "Divine Lance": 5318.3844,
-    "Brandish": 3677.3352
+    "Defiance Aura": 3499.4008
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=15 \u00b7 Paladin \u00b7 Leveling \u00b7 score 224733.82",
-    "tier": "optimizer_results.db row id=15 \u00b7 global rank 2 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=15 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=15 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=15 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=15 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=15 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=15 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=15 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=15 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=15 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=15 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=14 \u00b7 Paladin \u00b7 Speed Farm \u00b7 score 298053.08",
+    "tier": "optimizer_results.db row id=14 \u00b7 global rank 1 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=14 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=14 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=14 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=14 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=14 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=14 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=14 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=14 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=14 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=14 \u00b7 nightmare_dungeons"
   }
 }

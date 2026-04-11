@@ -1,12 +1,12 @@
 {
-  "id": "necromancer_leveling",
-  "build_name": "Necromancer \u00b7 Leveling",
+  "id": "necromancer_speed",
+  "build_name": "Necromancer \u00b7 Speed Farm",
   "class": "Necromancer",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
+  "purpose": "speed",
+  "purpose_label": "Speed Farm",
   "tier": "S",
-  "build_score": 150797.428831,
-  "global_rank": 7,
+  "build_score": 144401.323349,
+  "global_rank": 8,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -20,8 +20,8 @@
     "Blood Mist",
     "Bone Spear",
     "Blood Lance",
-    "Golem",
-    "Hemorrhage"
+    "Blood Surge",
+    "Golem"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
@@ -46,35 +46,35 @@
       "morph": "Paranormal Blood Lance"
     },
     {
+      "name": "Blood Surge",
+      "enhanced": "Enhanced Blood Surge",
+      "morph": "Paranormal Blood Surge"
+    },
+    {
       "name": "Golem",
       "enhanced": null,
       "morph": null
-    },
-    {
-      "name": "Hemorrhage",
-      "enhanced": "Enhanced Hemorrhage",
-      "morph": "Acolyte's Hemorrhage"
     }
   ],
   "passives": [
     "Unliving Energy",
     "Tides of Blood",
-    "Transfusion",
     "Amplify Damage",
+    "Transfusion",
     "Compound Fracture",
-    "Evulsion",
     "Coalesced Blood",
     "Imperfectly Balanced",
     "Death's Embrace",
-    "Hellbent Commander"
+    "Hellbent Commander",
+    "Fueled by Death"
   ],
   "passive_rank": 3,
   "key_passive": "Shadowblight",
   "gear": {
     "Gloves": {
       "rarity": "unique",
-      "unique_id": "Gloves_Unique_Necro_102",
-      "_optimizer_name": "The Hand of Naz"
+      "unique_id": "Gloves_Unique_Necro_101",
+      "_optimizer_name": "Cruor's Embrace"
     },
     "Boots": {
       "rarity": "unique",
@@ -120,47 +120,47 @@
   "aspects_recommended": [
     {
       "slot": "Helm",
-      "aspect_name": "of Rathma's Chosen",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Chest",
-      "aspect_name": "of the Expectant",
-      "max_value": 8.0
-    },
-    {
-      "slot": "Gloves",
       "aspect_name": "Accelerating",
       "max_value": 21.0
     },
     {
-      "slot": "Boots",
-      "aspect_name": "Unyielding Commander's",
+      "slot": "Chest",
+      "aspect_name": "of Rathma's Chosen",
       "max_value": 21.0
     },
     {
-      "slot": "Legs",
+      "slot": "Gloves",
       "aspect_name": "Blood Boiling",
       "max_value": 16.0
     },
     {
-      "slot": "Ring1",
-      "aspect_name": "Rapid",
+      "slot": "Boots",
+      "aspect_name": "of the Expectant",
+      "max_value": 8.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "Unyielding Commander's",
       "max_value": 21.0
     },
     {
-      "slot": "Ring2",
+      "slot": "Ring1",
       "aspect_name": "Needleflare",
       "max_value": 21.0
     },
     {
+      "slot": "Ring2",
+      "aspect_name": "of Apogeic Furor",
+      "max_value": 21.0
+    },
+    {
       "slot": "Amulet",
-      "aspect_name": "of Adaptability",
+      "aspect_name": "of Assistance",
       "max_value": 21.0
     },
     {
       "slot": "Weapon",
-      "aspect_name": "of the Moonrise",
+      "aspect_name": "Vehement Brawler's",
       "max_value": 21.0
     }
   ],
@@ -177,7 +177,7 @@
   },
   "paragon_boards": [
     {
-      "board": "Blood Begets Blood",
+      "board": "Bone Graft",
       "glyph": "Sacrificial",
       "activated_nodes": [],
       "points_spent": 0,
@@ -185,7 +185,7 @@
       "board_id": ""
     },
     {
-      "board": "Bone Graft",
+      "board": "Cult Leader",
       "glyph": "Corporeal",
       "activated_nodes": [],
       "points_spent": 0,
@@ -193,7 +193,7 @@
       "board_id": ""
     },
     {
-      "board": "Cult Leader",
+      "board": "Hulking Monstrosity",
       "glyph": "Blood-drinker",
       "activated_nodes": [],
       "points_spent": 0,
@@ -201,7 +201,7 @@
       "board_id": ""
     },
     {
-      "board": "Hulking Monstrosity",
+      "board": "Scent of Death",
       "glyph": "Control",
       "activated_nodes": [],
       "points_spent": 0,
@@ -209,7 +209,7 @@
       "board_id": ""
     },
     {
-      "board": "Scent of Death",
+      "board": "Flesh-eater",
       "glyph": "Deadraiser",
       "activated_nodes": [],
       "points_spent": 0,
@@ -249,14 +249,6 @@
       "y": 1212.5
     },
     {
-      "name": "Buried Halls",
-      "zone": "Dry Steppes",
-      "region": "Jakha Basin",
-      "aspect": "Rapid",
-      "x": -816.0,
-      "y": -338.0
-    },
-    {
       "name": "Yshari Sanctum",
       "zone": "Kehjistan",
       "region": "Caldeum",
@@ -270,21 +262,21 @@
     "Blood Mist": 5.4708,
     "Bone Spear": 51539.67,
     "Blood Lance": 14227.0128,
-    "Golem": 673.3731,
-    "Hemorrhage": 743.848
+    "Blood Surge": 2925.6265,
+    "Golem": 673.3731
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=11 \u00b7 Necromancer \u00b7 Leveling \u00b7 score 150797.43",
-    "tier": "optimizer_results.db row id=11 \u00b7 global rank 7 \u2192 tier S",
-    "skill_bar": "optimizer_results.db row id=11 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=11 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=11 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=11 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=11 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=11 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=11 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=11 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=11 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=11 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=10 \u00b7 Necromancer \u00b7 Speed Farm \u00b7 score 144401.32",
+    "tier": "optimizer_results.db row id=10 \u00b7 global rank 8 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=10 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=10 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=10 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=10 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=10 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=10 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=10 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=10 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=10 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=10 \u00b7 nightmare_dungeons"
   }
 }

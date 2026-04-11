@@ -32,6 +32,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 SITE = REPO / "site"
+WEBAPP = REPO / "webapp" / "public" / "data"
 DATA_DB = REPO / "data" / "d4_stats.db"
 OPTIMIZER_DB = REPO / "data" / "optimizer_results.db"
 
@@ -41,7 +42,7 @@ PLACEHOLDER_INTERNAL_SUFFIXES = ("_NoPowers", "_PH", "_TestLook")
 
 
 def build_id_for(class_name: str, purpose: str) -> str:
-    """`Sorcerer` + `pit` → `sorcerer_pit_push`. Matches the build URLs."""
+    """`Sorcerer` + `pit` → `sorcerer_pit_push`. Matches the site/ build URLs."""
     purpose_to_slug = {
         "pit": "pit_push",
         "speed": "speed_farm",
@@ -50,6 +51,11 @@ def build_id_for(class_name: str, purpose: str) -> str:
     }
     slug = purpose_to_slug.get(purpose, purpose)
     return f"{class_name.lower()}_{slug}"
+
+
+def webapp_id_for(class_name: str, purpose: str) -> str:
+    """`Sorcerer` + `pit` → `sorcerer_pit`. Matches webapp/public/data/ build IDs."""
+    return f"{class_name.lower()}_{purpose}"
 
 
 def build_name_for(class_name: str, purpose_label: str) -> str:
@@ -302,10 +308,14 @@ def main(argv: list[str] | None = None) -> int:
 
     builds_dir = SITE / "builds"
     builds_dir.mkdir(parents=True, exist_ok=True)
+    webapp_builds_dir = WEBAPP / "builds"
+    webapp_builds_dir.mkdir(parents=True, exist_ok=True)
 
     today = date.today().isoformat()
     index_entries: list[dict] = []
     skill_tree_entries: list[dict] = []
+    webapp_index_entries: list[dict] = []
+    webapp_tree_entries: list[dict] = []
 
     for row in rows:
         build_obj, index_entry, skill_entry, concerns = transcribe_row(
@@ -314,6 +324,7 @@ def main(argv: list[str] | None = None) -> int:
         if concerns:
             print(f"  {build_obj['id']} concerns: {concerns}")
 
+        # Write to site/ (original scheme)
         out_path = builds_dir / f"{build_obj['id']}.json"
         out_path.write_text(json.dumps(build_obj, indent=2) + "\n")
         print(f"  wrote {out_path.relative_to(REPO)}")
@@ -321,40 +332,64 @@ def main(argv: list[str] | None = None) -> int:
         index_entries.append(index_entry)
         skill_tree_entries.append(skill_entry)
 
-    index_obj = {
+        # Write to webapp/public/data/ (webapp ID scheme)
+        wa_id = webapp_id_for(row["class"], row["purpose"])
+        wa_build = dict(build_obj, id=wa_id)
+        wa_build["sources"] = {
+            k: v.replace(build_obj["id"], wa_id) if isinstance(v, str) else v
+            for k, v in build_obj["sources"].items()
+        }
+        wa_index = dict(index_entry, id=wa_id, file=f"builds/{wa_id}.json")
+        wa_tree = dict(skill_entry, id=wa_id)
+
+        wa_path = webapp_builds_dir / f"{wa_id}.json"
+        wa_path.write_text(json.dumps(wa_build, indent=2) + "\n")
+        print(f"  wrote {wa_path.relative_to(REPO)}")
+
+        webapp_index_entries.append(wa_index)
+        webapp_tree_entries.append(wa_tree)
+
+    metadata_block = {
         "version": "1.1",
         "season": "Season 12 - Season of Slaughter",
         "patch": "2.6.0.70982",
         "generated_from": "data/optimizer_results.db",
         "generated_at": today,
+    }
+    class_list = [
+        "Barbarian", "Druid", "Necromancer", "Paladin",
+        "Rogue", "Sorcerer", "Spiritborn",
+    ]
+
+    # site/ outputs
+    index_obj = {
+        **metadata_block,
         "total_builds": len(index_entries),
         "expected_builds": 28,
-        "classes": [
-            "Barbarian",
-            "Druid",
-            "Necromancer",
-            "Paladin",
-            "Rogue",
-            "Sorcerer",
-            "Spiritborn",
-        ],
+        "classes": class_list,
         "builds": index_entries,
     }
     (SITE / "builds_index.json").write_text(json.dumps(index_obj, indent=2) + "\n")
     print(f"  wrote {(SITE / 'builds_index.json').relative_to(REPO)}")
 
-    trees_obj = {
-        "metadata": {
-            "version": "1.1",
-            "season": "Season 12 - Season of Slaughter",
-            "patch": "2.6.0.70982",
-            "generated_from": "data/optimizer_results.db",
-            "generated_at": today,
-        },
-        "builds": skill_tree_entries,
-    }
+    trees_obj = {"metadata": metadata_block, "builds": skill_tree_entries}
     (SITE / "skill_trees.json").write_text(json.dumps(trees_obj, indent=2) + "\n")
     print(f"  wrote {(SITE / 'skill_trees.json').relative_to(REPO)}")
+
+    # webapp/ outputs
+    wa_index_obj = {
+        **metadata_block,
+        "total_builds": len(webapp_index_entries),
+        "expected_builds": 28,
+        "classes": class_list,
+        "builds": webapp_index_entries,
+    }
+    (WEBAPP / "builds_index.json").write_text(json.dumps(wa_index_obj, indent=2) + "\n")
+    print(f"  wrote {(WEBAPP / 'builds_index.json').relative_to(REPO)}")
+
+    wa_trees_obj = {"metadata": metadata_block, "builds": webapp_tree_entries}
+    (WEBAPP / "skill_trees.json").write_text(json.dumps(wa_trees_obj, indent=2) + "\n")
+    print(f"  wrote {(WEBAPP / 'skill_trees.json').relative_to(REPO)}")
 
     return 0
 

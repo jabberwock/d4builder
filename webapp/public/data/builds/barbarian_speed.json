@@ -1,12 +1,12 @@
 {
-  "id": "barbarian_leveling",
-  "build_name": "Barbarian \u00b7 Leveling",
+  "id": "barbarian_speed",
+  "build_name": "Barbarian \u00b7 Speed Farm",
   "class": "Barbarian",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
-  "tier": "A",
-  "build_score": 43030.267557,
-  "global_rank": 19,
+  "purpose": "speed",
+  "purpose_label": "Speed Farm",
+  "tier": "S",
+  "build_score": 47992.214155,
+  "global_rank": 17,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -16,29 +16,19 @@
     "mechanic_type": "weapon_expertise"
   },
   "skill_bar": [
-    "Bash",
     "Wrath of the Berserker",
-    "Ground Stomp",
     "Whirlwind",
     "Hammer of the Ancients",
-    "War Cry"
+    "War Cry",
+    "Lunging Strike",
+    "Charge"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
     {
-      "name": "Bash",
-      "enhanced": "Enhanced Bash",
-      "morph": "Battle Bash"
-    },
-    {
       "name": "Wrath of the Berserker",
       "enhanced": null,
       "morph": null
-    },
-    {
-      "name": "Ground Stomp",
-      "enhanced": "Enhanced Ground Stomp",
-      "morph": "Strategic Ground Stomp"
     },
     {
       "name": "Whirlwind",
@@ -54,6 +44,16 @@
       "name": "War Cry",
       "enhanced": "Enhanced War Cry",
       "morph": "Mighty War Cry"
+    },
+    {
+      "name": "Lunging Strike",
+      "enhanced": "Enhanced Lunging Strike",
+      "morph": "Battle Lunging Strike"
+    },
+    {
+      "name": "Charge",
+      "enhanced": "Enhanced Charge",
+      "morph": "Mighty Charge"
     }
   ],
   "passives": [
@@ -120,48 +120,48 @@
     },
     {
       "slot": "Chest",
-      "aspect_name": "Relentless Berserker's",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Gloves",
-      "aspect_name": "of Voracious Rage",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Boots",
-      "aspect_name": "Slaking",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Legs",
-      "aspect_name": "Accelerating",
-      "max_value": 21.0
-    },
-    {
-      "slot": "Ring1",
-      "aspect_name": "Blood Boiling",
-      "max_value": 16.0
-    },
-    {
-      "slot": "Ring2",
-      "aspect_name": "of Limitless Rage",
-      "max_value": 5.0
-    },
-    {
-      "slot": "Amulet",
       "aspect_name": "Bear Clan Berserker's",
       "max_value": 24.0
     },
     {
-      "slot": "Weapon",
-      "aspect_name": "of Earthquakes",
+      "slot": "Gloves",
+      "aspect_name": "Relentless Berserker's",
       "max_value": 21.0
+    },
+    {
+      "slot": "Boots",
+      "aspect_name": "of Voracious Rage",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Legs",
+      "aspect_name": "of Encroaching Wrath",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring1",
+      "aspect_name": "Slaking",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Ring2",
+      "aspect_name": "Accelerating",
+      "max_value": 21.0
+    },
+    {
+      "slot": "Amulet",
+      "aspect_name": "Veteran Brawler's",
+      "max_value": 16.0
+    },
+    {
+      "slot": "Weapon",
+      "aspect_name": "Blood Boiling",
+      "max_value": 16.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Berserking Finesse",
-    "defensive": "Barbarian Strategy",
+    "defensive": "Barbarian Recovery",
     "weapon": "Furious Augments",
     "mobility": "Barbarian Motion"
   },
@@ -258,28 +258,36 @@
       "aspect": "Slaking",
       "x": -1235.3,
       "y": 353.0
+    },
+    {
+      "name": "Heretics Asylum",
+      "zone": "Kehjistan",
+      "region": "Ragged Coastline",
+      "aspect": "Veteran Brawler's",
+      "x": 623.9,
+      "y": -762.5
     }
   ],
   "score_breakdown": {
-    "Bash": 617.526,
     "Wrath of the Berserker": 56.5693,
-    "Ground Stomp": 41.6093,
     "Whirlwind": 7742.196,
     "Hammer of the Ancients": 2408.595,
-    "War Cry": 2325.22
+    "War Cry": 2325.22,
+    "Lunging Strike": 953.379,
+    "Charge": 273.4674
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=3 \u00b7 Barbarian \u00b7 Leveling \u00b7 score 43030.27",
-    "tier": "optimizer_results.db row id=3 \u00b7 global rank 19 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=3 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=3 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=3 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=3 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=3 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=3 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=3 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=3 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=3 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=3 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=2 \u00b7 Barbarian \u00b7 Speed Farm \u00b7 score 47992.21",
+    "tier": "optimizer_results.db row id=2 \u00b7 global rank 17 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=2 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=2 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=2 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=2 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=2 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=2 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=2 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=2 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=2 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=2 \u00b7 nightmare_dungeons"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "id": "rogue_leveling",
-  "build_name": "Rogue \u00b7 Leveling",
+  "id": "rogue_pit",
+  "build_name": "Rogue \u00b7 Pit Push",
   "class": "Rogue",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
+  "purpose": "pit",
+  "purpose_label": "Pit Push",
   "tier": "S",
-  "build_score": 55986.964198,
-  "global_rank": 11,
+  "build_score": 56598.520512,
+  "global_rank": 10,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -21,7 +21,7 @@
     "Flurry",
     "Barrage",
     "Forceful Arrow",
-    "Concealment"
+    "Poison Trap"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
@@ -51,30 +51,30 @@
       "morph": "Fundamental Forceful Arrow"
     },
     {
-      "name": "Concealment",
-      "enhanced": "Enhanced Concealment",
-      "morph": "Countering Concealment"
+      "name": "Poison Trap",
+      "enhanced": "Enhanced Poison Trap",
+      "morph": "Countering Poison Trap"
     }
   ],
   "passives": [
-    "Innervation",
     "Weapon Mastery",
     "Inner Sight",
-    "Malice",
-    "Haste",
-    "Target Practice",
     "Deadly Venom",
+    "Malice",
+    "Target Practice",
     "Unto Dawn",
     "Balestra",
-    "Frigid Finesse"
+    "Frigid Finesse",
+    "Trap Mastery",
+    "Deadeye"
   ],
   "passive_rank": 3,
   "key_passive": "Precision",
   "gear": {
     "Gloves": {
       "rarity": "unique",
-      "unique_id": "Gloves_Unique_Generic_002",
-      "_optimizer_name": "Fists of Fate"
+      "unique_id": "Gloves_Unique_Rogue_102",
+      "_optimizer_name": "Bands of Ichorous Rose"
     },
     "Boots": {
       "rarity": "unique",
@@ -180,8 +180,16 @@
       "board_id": ""
     },
     {
+      "board": "Deadly Ambush",
+      "glyph": "Snare",
+      "activated_nodes": [],
+      "points_spent": 0,
+      "stats_gained": {},
+      "board_id": ""
+    },
+    {
       "board": "Exploit Weakness",
-      "glyph": "Chip",
+      "glyph": "Ambush",
       "activated_nodes": [],
       "points_spent": 0,
       "stats_gained": {},
@@ -189,7 +197,7 @@
     },
     {
       "board": "Eldritch Bounty",
-      "glyph": "Diminish",
+      "glyph": "Chip",
       "activated_nodes": [],
       "points_spent": 0,
       "stats_gained": {},
@@ -197,15 +205,7 @@
     },
     {
       "board": "Cheap Shot",
-      "glyph": "Versatility",
-      "activated_nodes": [],
-      "points_spent": 0,
-      "stats_gained": {},
-      "board_id": ""
-    },
-    {
-      "board": "Deadly Ambush",
-      "glyph": "Closer",
+      "glyph": "Diminish",
       "activated_nodes": [],
       "points_spent": 0,
       "stats_gained": {},
@@ -258,20 +258,20 @@
     "Flurry": 4724.0978,
     "Barrage": 2967.6326,
     "Forceful Arrow": 771.4,
-    "Concealment": 745.5
+    "Poison Trap": 447.48
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=19 \u00b7 Rogue \u00b7 Leveling \u00b7 score 55986.96",
-    "tier": "optimizer_results.db row id=19 \u00b7 global rank 11 \u2192 tier S",
-    "skill_bar": "optimizer_results.db row id=19 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=19 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=19 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=19 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=19 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=19 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=19 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=19 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=19 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=19 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=17 \u00b7 Rogue \u00b7 Pit Push \u00b7 score 56598.52",
+    "tier": "optimizer_results.db row id=17 \u00b7 global rank 10 \u2192 tier S",
+    "skill_bar": "optimizer_results.db row id=17 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=17 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=17 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=17 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=17 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=17 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=17 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=17 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=17 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=17 \u00b7 nightmare_dungeons"
   }
 }

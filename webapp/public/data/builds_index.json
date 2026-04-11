@@ -3,8 +3,9 @@
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
   "generated_from": "data/optimizer_results.db",
-  "generated_at": "2026-04-10T15:47:27.724110Z",
+  "generated_at": "2026-04-11",
   "total_builds": 28,
+  "expected_builds": 28,
   "classes": [
     "Barbarian",
     "Druid",
@@ -15,6 +16,29 @@
     "Spiritborn"
   ],
   "builds": [
+    {
+      "id": "barbarian_speed",
+      "build_name": "Barbarian \u00b7 Speed Farm",
+      "class": "Barbarian",
+      "purpose": "speed",
+      "purpose_label": "Speed Farm",
+      "tier": "S",
+      "build_score": 47992.214155,
+      "global_rank": 17,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "One-Handed Axe",
+      "key_passive": "Unbridled Rage",
+      "skill_bar_summary": [
+        "Wrath of the Berserker",
+        "Whirlwind",
+        "Hammer of the Ancients",
+        "War Cry",
+        "Lunging Strike",
+        "Charge"
+      ],
+      "file": "builds/barbarian_speed.json"
+    },
     {
       "id": "barbarian_leveling",
       "build_name": "Barbarian \u00b7 Leveling",
@@ -37,29 +61,6 @@
         "War Cry"
       ],
       "file": "builds/barbarian_leveling.json"
-    },
-    {
-      "id": "barbarian_mythic",
-      "build_name": "Barbarian \u00b7 Mythic Unique",
-      "class": "Barbarian",
-      "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
-      "tier": "A",
-      "build_score": 41403.641975,
-      "global_rank": 21,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "One-Handed Axe",
-      "key_passive": "Unbridled Rage",
-      "skill_bar_summary": [
-        "Bash",
-        "Wrath of the Berserker",
-        "Ground Stomp",
-        "Whirlwind",
-        "Hammer of the Ancients",
-        "War Cry"
-      ],
-      "file": "builds/barbarian_mythic.json"
     },
     {
       "id": "barbarian_pit",
@@ -85,96 +86,27 @@
       "file": "builds/barbarian_pit.json"
     },
     {
-      "id": "barbarian_speed",
-      "build_name": "Barbarian \u00b7 Speed Farm",
+      "id": "barbarian_mythic",
+      "build_name": "Barbarian \u00b7 Balanced",
       "class": "Barbarian",
-      "purpose": "speed",
-      "purpose_label": "Speed Farm",
-      "tier": "S",
-      "build_score": 47992.214155,
-      "global_rank": 17,
+      "purpose": "mythic",
+      "purpose_label": "Balanced",
+      "tier": "A",
+      "build_score": 41403.641975,
+      "global_rank": 21,
       "available": "live",
       "season": "Season 12 - Season of Slaughter",
       "specialization": "One-Handed Axe",
       "key_passive": "Unbridled Rage",
       "skill_bar_summary": [
+        "Bash",
         "Wrath of the Berserker",
+        "Ground Stomp",
         "Whirlwind",
         "Hammer of the Ancients",
-        "War Cry",
-        "Lunging Strike",
-        "Charge"
+        "War Cry"
       ],
-      "file": "builds/barbarian_speed.json"
-    },
-    {
-      "id": "druid_leveling",
-      "build_name": "Druid \u00b7 Leveling",
-      "class": "Druid",
-      "purpose": "leveling",
-      "purpose_label": "Leveling",
-      "tier": "S",
-      "build_score": 54436.386491,
-      "global_rank": 14,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Prickleskin",
-      "key_passive": "Perfect Storm",
-      "skill_bar_summary": [
-        "Earthen Bulwark",
-        "Shred",
-        "Stone Burst",
-        "Petrify",
-        "Lightning Storm",
-        "Wind Shear"
-      ],
-      "file": "builds/druid_leveling.json"
-    },
-    {
-      "id": "druid_mythic",
-      "build_name": "Druid \u00b7 Mythic Unique",
-      "class": "Druid",
-      "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
-      "tier": "S",
-      "build_score": 51779.502679,
-      "global_rank": 16,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Prickleskin",
-      "key_passive": "Perfect Storm",
-      "skill_bar_summary": [
-        "Earthen Bulwark",
-        "Shred",
-        "Stone Burst",
-        "Petrify",
-        "Lightning Storm",
-        "Wind Shear"
-      ],
-      "file": "builds/druid_mythic.json"
-    },
-    {
-      "id": "druid_pit",
-      "build_name": "Druid \u00b7 Pit Push",
-      "class": "Druid",
-      "purpose": "pit",
-      "purpose_label": "Pit Push",
-      "tier": "S",
-      "build_score": 51875.848379,
-      "global_rank": 15,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Prickleskin",
-      "key_passive": "Perfect Storm",
-      "skill_bar_summary": [
-        "Earthen Bulwark",
-        "Shred",
-        "Stone Burst",
-        "Petrify",
-        "Lightning Storm",
-        "Wind Shear"
-      ],
-      "file": "builds/druid_pit.json"
+      "file": "builds/barbarian_mythic.json"
     },
     {
       "id": "druid_speed",
@@ -200,50 +132,73 @@
       "file": "builds/druid_speed.json"
     },
     {
-      "id": "necromancer_leveling",
-      "build_name": "Necromancer \u00b7 Leveling",
-      "class": "Necromancer",
+      "id": "druid_leveling",
+      "build_name": "Druid \u00b7 Leveling",
+      "class": "Druid",
       "purpose": "leveling",
       "purpose_label": "Leveling",
       "tier": "S",
-      "build_score": 150797.428831,
-      "global_rank": 7,
+      "build_score": 54436.386491,
+      "global_rank": 14,
       "available": "live",
       "season": "Season 12 - Season of Slaughter",
-      "specialization": "Sacrifice All",
-      "key_passive": "Shadowblight",
+      "specialization": "Prickleskin",
+      "key_passive": "Perfect Storm",
       "skill_bar_summary": [
-        "Army of the Dead",
-        "Blood Mist",
-        "Bone Spear",
-        "Blood Lance",
-        "Golem",
-        "Hemorrhage"
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
       ],
-      "file": "builds/necromancer_leveling.json"
+      "file": "builds/druid_leveling.json"
     },
     {
-      "id": "necromancer_mythic",
-      "build_name": "Necromancer \u00b7 Mythic Unique",
-      "class": "Necromancer",
-      "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
+      "id": "druid_pit",
+      "build_name": "Druid \u00b7 Pit Push",
+      "class": "Druid",
+      "purpose": "pit",
+      "purpose_label": "Pit Push",
       "tier": "S",
-      "build_score": 151472.432449,
-      "global_rank": 6,
+      "build_score": 51875.848379,
+      "global_rank": 15,
       "available": "live",
       "season": "Season 12 - Season of Slaughter",
-      "specialization": "Sacrifice All",
-      "key_passive": "Shadowblight",
+      "specialization": "Prickleskin",
+      "key_passive": "Perfect Storm",
       "skill_bar_summary": [
-        "Army of the Dead",
-        "Blood Mist",
-        "Bone Spear",
-        "Blood Lance",
-        "Blood Surge",
-        "Golem"
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
       ],
-      "file": "builds/necromancer_mythic.json"
+      "file": "builds/druid_pit.json"
+    },
+    {
+      "id": "druid_mythic",
+      "build_name": "Druid \u00b7 Balanced",
+      "class": "Druid",
+      "purpose": "mythic",
+      "purpose_label": "Balanced",
+      "tier": "S",
+      "build_score": 51779.502679,
+      "global_rank": 16,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Prickleskin",
+      "key_passive": "Perfect Storm",
+      "skill_bar_summary": [
+        "Earthen Bulwark",
+        "Shred",
+        "Stone Burst",
+        "Petrify",
+        "Lightning Storm",
+        "Wind Shear"
+      ],
+      "file": "builds/druid_mythic.json"
     },
     {
       "id": "necromancer_pit",
@@ -269,6 +224,52 @@
       "file": "builds/necromancer_pit.json"
     },
     {
+      "id": "necromancer_mythic",
+      "build_name": "Necromancer \u00b7 Balanced",
+      "class": "Necromancer",
+      "purpose": "mythic",
+      "purpose_label": "Balanced",
+      "tier": "S",
+      "build_score": 151472.432449,
+      "global_rank": 6,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Sacrifice All",
+      "key_passive": "Shadowblight",
+      "skill_bar_summary": [
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Blood Surge",
+        "Golem"
+      ],
+      "file": "builds/necromancer_mythic.json"
+    },
+    {
+      "id": "necromancer_leveling",
+      "build_name": "Necromancer \u00b7 Leveling",
+      "class": "Necromancer",
+      "purpose": "leveling",
+      "purpose_label": "Leveling",
+      "tier": "S",
+      "build_score": 150797.428831,
+      "global_rank": 7,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Sacrifice All",
+      "key_passive": "Shadowblight",
+      "skill_bar_summary": [
+        "Army of the Dead",
+        "Blood Mist",
+        "Bone Spear",
+        "Blood Lance",
+        "Golem",
+        "Hemorrhage"
+      ],
+      "file": "builds/necromancer_leveling.json"
+    },
+    {
       "id": "necromancer_speed",
       "build_name": "Necromancer \u00b7 Speed Farm",
       "class": "Necromancer",
@@ -290,6 +291,29 @@
         "Golem"
       ],
       "file": "builds/necromancer_speed.json"
+    },
+    {
+      "id": "paladin_speed",
+      "build_name": "Paladin \u00b7 Speed Farm",
+      "class": "Paladin",
+      "purpose": "speed",
+      "purpose_label": "Speed Farm",
+      "tier": "S",
+      "build_score": 298053.08319,
+      "global_rank": 1,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Zealot",
+      "key_passive": "Judgement Day",
+      "skill_bar_summary": [
+        "Clash",
+        "Zenith",
+        "Shield Bash",
+        "Fanaticism Aura",
+        "Divine Lance",
+        "Defiance Aura"
+      ],
+      "file": "builds/paladin_speed.json"
     },
     {
       "id": "paladin_leveling",
@@ -316,10 +340,10 @@
     },
     {
       "id": "paladin_mythic",
-      "build_name": "Paladin \u00b7 Mythic Unique",
+      "build_name": "Paladin \u00b7 Balanced",
       "class": "Paladin",
       "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
+      "purpose_label": "Balanced",
       "tier": "B",
       "build_score": 202660.804475,
       "global_rank": 3,
@@ -361,27 +385,50 @@
       "file": "builds/paladin_pit.json"
     },
     {
-      "id": "paladin_speed",
-      "build_name": "Paladin \u00b7 Speed Farm",
-      "class": "Paladin",
+      "id": "rogue_speed",
+      "build_name": "Rogue \u00b7 Speed Farm",
+      "class": "Rogue",
       "purpose": "speed",
       "purpose_label": "Speed Farm",
       "tier": "S",
-      "build_score": 298053.08319,
-      "global_rank": 1,
+      "build_score": 58359.025895,
+      "global_rank": 9,
       "available": "live",
       "season": "Season 12 - Season of Slaughter",
-      "specialization": "Zealot",
-      "key_passive": "Judgement Day",
+      "specialization": "Combo Points",
+      "key_passive": "Precision",
       "skill_bar_summary": [
-        "Clash",
-        "Zenith",
-        "Shield Bash",
-        "Fanaticism Aura",
-        "Divine Lance",
-        "Defiance Aura"
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Forceful Arrow",
+        "Concealment",
+        "Shadow Step"
       ],
-      "file": "builds/paladin_speed.json"
+      "file": "builds/rogue_speed.json"
+    },
+    {
+      "id": "rogue_pit",
+      "build_name": "Rogue \u00b7 Pit Push",
+      "class": "Rogue",
+      "purpose": "pit",
+      "purpose_label": "Pit Push",
+      "tier": "S",
+      "build_score": 56598.520512,
+      "global_rank": 10,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Combo Points",
+      "key_passive": "Precision",
+      "skill_bar_summary": [
+        "Shadow Clone",
+        "Penetrating Shot",
+        "Flurry",
+        "Barrage",
+        "Forceful Arrow",
+        "Poison Trap"
+      ],
+      "file": "builds/rogue_pit.json"
     },
     {
       "id": "rogue_leveling",
@@ -408,10 +455,10 @@
     },
     {
       "id": "rogue_mythic",
-      "build_name": "Rogue \u00b7 Mythic Unique",
+      "build_name": "Rogue \u00b7 Balanced",
       "class": "Rogue",
       "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
+      "purpose_label": "Balanced",
       "tier": "S",
       "build_score": 54479.454679,
       "global_rank": 13,
@@ -428,98 +475,6 @@
         "Concealment"
       ],
       "file": "builds/rogue_mythic.json"
-    },
-    {
-      "id": "rogue_pit",
-      "build_name": "Rogue \u00b7 Pit Push",
-      "class": "Rogue",
-      "purpose": "pit",
-      "purpose_label": "Pit Push",
-      "tier": "S",
-      "build_score": 56598.520512,
-      "global_rank": 10,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Combo Points",
-      "key_passive": "Precision",
-      "skill_bar_summary": [
-        "Shadow Clone",
-        "Penetrating Shot",
-        "Flurry",
-        "Barrage",
-        "Forceful Arrow",
-        "Poison Trap"
-      ],
-      "file": "builds/rogue_pit.json"
-    },
-    {
-      "id": "rogue_speed",
-      "build_name": "Rogue \u00b7 Speed Farm",
-      "class": "Rogue",
-      "purpose": "speed",
-      "purpose_label": "Speed Farm",
-      "tier": "S",
-      "build_score": 58359.025895,
-      "global_rank": 9,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Combo Points",
-      "key_passive": "Precision",
-      "skill_bar_summary": [
-        "Shadow Clone",
-        "Penetrating Shot",
-        "Flurry",
-        "Forceful Arrow",
-        "Concealment",
-        "Shadow Step"
-      ],
-      "file": "builds/rogue_speed.json"
-    },
-    {
-      "id": "sorcerer_leveling",
-      "build_name": "Sorcerer \u00b7 Leveling",
-      "class": "Sorcerer",
-      "purpose": "leveling",
-      "purpose_label": "Leveling",
-      "tier": "A",
-      "build_score": 38805.51836,
-      "global_rank": 23,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Enchantment Slots",
-      "key_passive": "Combustion",
-      "skill_bar_summary": [
-        "Flame Shield",
-        "Firewall",
-        "Frozen Orb",
-        "Ice Shards",
-        "Lightning Spear",
-        "Frost Bolt"
-      ],
-      "file": "builds/sorcerer_leveling.json"
-    },
-    {
-      "id": "sorcerer_mythic",
-      "build_name": "Sorcerer \u00b7 Mythic Unique",
-      "class": "Sorcerer",
-      "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
-      "tier": "S",
-      "build_score": 39544.853328,
-      "global_rank": 22,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Enchantment Slots",
-      "key_passive": "Combustion",
-      "skill_bar_summary": [
-        "Flame Shield",
-        "Firewall",
-        "Frozen Orb",
-        "Ice Shards",
-        "Lightning Spear",
-        "Frost Bolt"
-      ],
-      "file": "builds/sorcerer_mythic.json"
     },
     {
       "id": "sorcerer_pit",
@@ -545,6 +500,52 @@
       "file": "builds/sorcerer_pit.json"
     },
     {
+      "id": "sorcerer_mythic",
+      "build_name": "Sorcerer \u00b7 Balanced",
+      "class": "Sorcerer",
+      "purpose": "mythic",
+      "purpose_label": "Balanced",
+      "tier": "S",
+      "build_score": 39544.853328,
+      "global_rank": 22,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Enchantment Slots",
+      "key_passive": "Combustion",
+      "skill_bar_summary": [
+        "Flame Shield",
+        "Firewall",
+        "Frozen Orb",
+        "Ice Shards",
+        "Lightning Spear",
+        "Frost Bolt"
+      ],
+      "file": "builds/sorcerer_mythic.json"
+    },
+    {
+      "id": "sorcerer_leveling",
+      "build_name": "Sorcerer \u00b7 Leveling",
+      "class": "Sorcerer",
+      "purpose": "leveling",
+      "purpose_label": "Leveling",
+      "tier": "A",
+      "build_score": 38805.51836,
+      "global_rank": 23,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Enchantment Slots",
+      "key_passive": "Combustion",
+      "skill_bar_summary": [
+        "Flame Shield",
+        "Firewall",
+        "Frozen Orb",
+        "Ice Shards",
+        "Lightning Spear",
+        "Frost Bolt"
+      ],
+      "file": "builds/sorcerer_leveling.json"
+    },
+    {
       "id": "sorcerer_speed",
       "build_name": "Sorcerer \u00b7 Speed Farm",
       "class": "Sorcerer",
@@ -566,6 +567,29 @@
         "Frost Bolt"
       ],
       "file": "builds/sorcerer_speed.json"
+    },
+    {
+      "id": "spiritborn_speed",
+      "build_name": "Spiritborn \u00b7 Speed Farm",
+      "class": "Spiritborn",
+      "purpose": "speed",
+      "purpose_label": "Speed Farm",
+      "tier": "S",
+      "build_score": 14545.298293,
+      "global_rank": 25,
+      "available": "live",
+      "season": "Season 12 - Season of Slaughter",
+      "specialization": "Eagle (Primary)",
+      "key_passive": "Vital Strikes",
+      "skill_bar_summary": [
+        "Rock Splitter",
+        "Armored Hide",
+        "Vortex",
+        "Thunderspike",
+        "Thrash",
+        "Rushing Claw"
+      ],
+      "file": "builds/spiritborn_speed.json"
     },
     {
       "id": "spiritborn_leveling",
@@ -592,10 +616,10 @@
     },
     {
       "id": "spiritborn_mythic",
-      "build_name": "Spiritborn \u00b7 Mythic Unique",
+      "build_name": "Spiritborn \u00b7 Balanced",
       "class": "Spiritborn",
       "purpose": "mythic",
-      "purpose_label": "Mythic Unique",
+      "purpose_label": "Balanced",
       "tier": "A",
       "build_score": 11209.70566,
       "global_rank": 27,
@@ -635,29 +659,6 @@
         "Thrash"
       ],
       "file": "builds/spiritborn_pit.json"
-    },
-    {
-      "id": "spiritborn_speed",
-      "build_name": "Spiritborn \u00b7 Speed Farm",
-      "class": "Spiritborn",
-      "purpose": "speed",
-      "purpose_label": "Speed Farm",
-      "tier": "S",
-      "build_score": 14545.298293,
-      "global_rank": 25,
-      "available": "live",
-      "season": "Season 12 - Season of Slaughter",
-      "specialization": "Eagle (Primary)",
-      "key_passive": "Vital Strikes",
-      "skill_bar_summary": [
-        "Rock Splitter",
-        "Armored Hide",
-        "Vortex",
-        "Thunderspike",
-        "Thrash",
-        "Rushing Claw"
-      ],
-      "file": "builds/spiritborn_speed.json"
     }
   ]
 }

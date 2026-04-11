@@ -1,12 +1,12 @@
 {
-  "id": "sorcerer_leveling",
-  "build_name": "Sorcerer \u00b7 Leveling",
+  "id": "sorcerer_speed",
+  "build_name": "Sorcerer \u00b7 Speed Farm",
   "class": "Sorcerer",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
+  "purpose": "speed",
+  "purpose_label": "Speed Farm",
   "tier": "A",
-  "build_score": 38805.51836,
-  "global_rank": 23,
+  "build_score": 36877.302634,
+  "global_rank": 24,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -16,20 +16,15 @@
     "mechanic_type": "enchantment_slots"
   },
   "skill_bar": [
-    "Flame Shield",
     "Firewall",
     "Frozen Orb",
+    "Blizzard",
     "Ice Shards",
     "Lightning Spear",
     "Frost Bolt"
   ],
   "skill_bar_rank": 5,
   "skill_upgrades": [
-    {
-      "name": "Flame Shield",
-      "enhanced": "Enhanced Flame Shield",
-      "morph": "Mystical Flame Shield"
-    },
     {
       "name": "Firewall",
       "enhanced": "Enhanced Firewall",
@@ -39,6 +34,11 @@
       "name": "Frozen Orb",
       "enhanced": "Enhanced Frozen Orb",
       "morph": "Destructive Frozen Orb"
+    },
+    {
+      "name": "Blizzard",
+      "enhanced": "Enhanced Blizzard",
+      "morph": "Mage's Blizzard"
     },
     {
       "name": "Ice Shards",
@@ -160,13 +160,13 @@
     },
     {
       "slot": "Weapon",
-      "aspect_name": "of Binding Embers",
+      "aspect_name": "Snowguard's",
       "max_value": 21.0
     }
   ],
   "tempers_recommended": {
     "offensive": "Natural Finesse",
-    "defensive": "Pyromancy Endurance",
+    "defensive": "Worldly Endurance",
     "weapon": "Frost Augments",
     "mobility": "Natural Motion"
   },
@@ -263,28 +263,36 @@
       "aspect": "Rapid",
       "x": -816.0,
       "y": -338.0
+    },
+    {
+      "name": "Fetid Mausoleum",
+      "zone": "Hawezar",
+      "region": "The Writhing Mire",
+      "aspect": "Snowguard's",
+      "x": -1249.7,
+      "y": 610.6
     }
   ],
   "score_breakdown": {
-    "Flame Shield": 8.2816,
     "Firewall": 4224.528,
     "Frozen Orb": 2504.5978,
+    "Blizzard": 1737.12,
     "Ice Shards": 981.0552,
     "Lightning Spear": 909.216,
     "Frost Bolt": 592.825
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=23 \u00b7 Sorcerer \u00b7 Leveling \u00b7 score 38805.52",
-    "tier": "optimizer_results.db row id=23 \u00b7 global rank 23 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=23 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=23 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=23 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=23 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=23 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=23 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=23 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=23 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=23 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=23 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=22 \u00b7 Sorcerer \u00b7 Speed Farm \u00b7 score 36877.30",
+    "tier": "optimizer_results.db row id=22 \u00b7 global rank 24 \u2192 tier A",
+    "skill_bar": "optimizer_results.db row id=22 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=22 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=22 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=22 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=22 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=22 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=22 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=22 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=22 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=22 \u00b7 nightmare_dungeons"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "id": "spiritborn_leveling",
-  "build_name": "Spiritborn \u00b7 Leveling",
+  "id": "spiritborn_mythic",
+  "build_name": "Spiritborn \u00b7 Balanced",
   "class": "Spiritborn",
-  "purpose": "leveling",
-  "purpose_label": "Leveling",
+  "purpose": "mythic",
+  "purpose_label": "Balanced",
   "tier": "A",
-  "build_score": 12394.671905,
-  "global_rank": 26,
+  "build_score": 11209.70566,
+  "global_rank": 27,
   "available": "live",
   "season": "Season 12 - Season of Slaughter",
   "patch": "2.6.0.70982",
@@ -245,17 +245,17 @@
     "Thrash": 1057.056
   },
   "sources": {
-    "build_score": "optimizer_results.db row id=27 \u00b7 Spiritborn \u00b7 Leveling \u00b7 score 12394.67",
-    "tier": "optimizer_results.db row id=27 \u00b7 global rank 26 \u2192 tier A",
-    "skill_bar": "optimizer_results.db row id=27 \u00b7 skill_bar (6 active skills, rank 5)",
-    "passives": "optimizer_results.db row id=27 \u00b7 passives (10 picks at rank 3)",
-    "key_passive": "optimizer_results.db row id=27 \u00b7 key_passive",
-    "gear": "optimizer_results.db row id=27 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
-    "aspects_recommended": "optimizer_results.db row id=27 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
-    "tempers_recommended": "optimizer_results.db row id=27 \u00b7 tempers_recommended",
-    "gems_recommended": "optimizer_results.db row id=27 \u00b7 gems_recommended",
-    "paragon_boards": "optimizer_results.db row id=27 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
-    "mercenary": "optimizer_results.db row id=27 \u00b7 mercenary",
-    "nightmare_dungeons": "optimizer_results.db row id=27 \u00b7 nightmare_dungeons"
+    "build_score": "optimizer_results.db row id=28 \u00b7 Spiritborn \u00b7 Balanced \u00b7 score 11209.71",
+    "tier": "optimizer_results.db row id=28 \u00b7 global rank 27 \u2192 tier A",
+    "skill_bar": "optimizer_results.db row id=28 \u00b7 skill_bar (6 active skills, rank 5)",
+    "passives": "optimizer_results.db row id=28 \u00b7 passives (10 picks at rank 3)",
+    "key_passive": "optimizer_results.db row id=28 \u00b7 key_passive",
+    "gear": "optimizer_results.db row id=28 \u00b7 gear_recommended (uniques only \u2014 see optimizer_concerns.md #1)",
+    "aspects_recommended": "optimizer_results.db row id=28 \u00b7 aspects_recommended (parallel field, see optimizer_concerns.md #2)",
+    "tempers_recommended": "optimizer_results.db row id=28 \u00b7 tempers_recommended",
+    "gems_recommended": "optimizer_results.db row id=28 \u00b7 gems_recommended",
+    "paragon_boards": "optimizer_results.db row id=28 \u00b7 paragon_boards (traversal fields empty \u2014 see optimizer_concerns.md #8)",
+    "mercenary": "optimizer_results.db row id=28 \u00b7 mercenary",
+    "nightmare_dungeons": "optimizer_results.db row id=28 \u00b7 nightmare_dungeons"
   }
 }
